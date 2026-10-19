@@ -146,6 +146,12 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 
 .sub { color: var(--muted); margin: 0 0 40px; }
 
+.h2 { font: 400 28px/1.2 var(--serif); margin: 0; }
+.mine { margin-top: 72px; }
+.mine .head-row { align-items: center; margin-bottom: 10px; }
+.mine .sub { margin: 0 0 20px; font-size: 15px; }
+.mine .sub + .book-row { border-top: 1px solid var(--line); }
+
 .section { margin-top: 48px; }
 
 .muted { color: var(--muted); }

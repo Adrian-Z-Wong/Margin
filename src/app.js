@@ -892,6 +892,23 @@
     }
   }
 
+  // ================= 我的词表 =================
+
+  function createBook(name, words) {
+    const id = 'u' + Date.now().toString(36);
+    const book = { id, name: (name || '').trim() || '我的词表 ' + (Object.keys(state.books).length + 1), words, t: Date.now() };
+    state.books[id] = book;
+    return book;
+  }
+
+  function openNewBook(book, added) {
+    state.settings.book = book.id;
+    save();
+    ui.book = { id: book.id, q: '', limit: 200 };
+    go('book');
+    toast('已导入 ' + added + ' 个词');
+  }
+
   // ================= 界面状态 =================
 
   const app = document.getElementById('app');
@@ -1481,10 +1498,16 @@
     const mine = Object.values(state.books).sort((a, b) => a.t - b.t);
     return (
       '<main class="page">' +
-      '<div class="head-row"><h1 class="h1">词库</h1><button class="btn small" data-act="newImport">＋ 导入词表</button></div>' +
-      '<div class="section">' +
-      allBooks().map((id) => bookRowHtml(id)).join('') +
-      mine.map((b) => bookRowHtml(b.id, '<button class="link" data-act="deleteBook" data-id="' + esc(b.id) + '">删除</button>')).join('') +
+      '<h1 class="h1">词库</h1>' +
+      '<div class="section">' + allBooks().map((id) => bookRowHtml(id)).join('') + '</div>' +
+      '<div class="section mine">' +
+      '<div class="head-row"><h2 class="h2">我的词表</h2>' +
+      '<div class="actions"><button class="btn small" data-act="newImport">＋ 粘贴单词</button>' +
+      '<label class="btn small ghost file-pick">上传文件<input type="file" id="upload-book" accept=".txt,.csv,.tsv,.json,text/plain,text/csv,application/json"></label></div></div>' +
+      '<p class="sub">把自己要背的单词做成词表：直接粘贴，或者上传 .txt、.csv 文件（Excel 可以另存为 .csv）。只写英文也行，常见词会自动补上中文意思。</p>' +
+      (mine.length
+        ? mine.map((b) => bookRowHtml(b.id, '<button class="link" data-act="deleteBook" data-id="' + esc(b.id) + '">删除</button>')).join('')
+        : '<div class="empty">还没有自己的词表。</div>') +
       '</div>' +
       '</main>'
     );
@@ -1567,7 +1590,7 @@
       '<b>abandon</b><br>只写单词，自动查意思<br><br>' +
       '<b>moral hazard 道德风险</b><br>词组也可以' +
       '</div>' +
-      '<p style="margin-top:20px"><label class="file-pick link">或者选一个 .txt / .csv 文件<input type="file" id="draft-file" accept=".txt,.csv,.tsv,text/plain,text/csv"></label></p>' +
+      '<p style="margin-top:20px"><label class="file-pick link">或者选一个 .txt / .csv 文件<input type="file" id="draft-file" accept=".txt,.csv,.tsv,.json,text/plain,text/csv,application/json"></label></p>' +
       '</div></div>' +
       '<div class="actions" style="margin-top:40px"><button class="btn" data-act="saveImport">保存</button><button class="link" data-act="nav" data-view="books">取消</button></div>' +
       '</main>'
@@ -1792,16 +1815,10 @@
           }
         }
       } else {
-        const id = 'u' + Date.now().toString(36);
-        book = { id, name: (d.name || '').trim() || '我的词表', words: r.words, t: Date.now() };
-        state.books[id] = book;
+        book = createBook(d.name, r.words);
       }
-      state.settings.book = book.id;
-      save();
       ui.draft = null;
-      ui.book = { id: book.id, q: '', limit: 200 };
-      go('book');
-      toast('已导入 ' + added + ' 个词');
+      openNewBook(book, added);
     },
     practiceWrong() {
       startWrong();
@@ -1859,6 +1876,16 @@
         ui.draft.text = ui.draft.text.trim() ? ui.draft.text.trim() + '\n' + text : text;
         if (!ui.draft.target && /^我的词表 \d+$/.test(ui.draft.name)) ui.draft.name = t.files[0].name.replace(/\.[^.]+$/, '');
         render();
+      });
+    } else if (t.id === 'upload-book' && t.files[0]) {
+      const file = t.files[0];
+      file.arrayBuffer().then((buf) => {
+        const r = parseImport(decodeFile(buf));
+        if (!r.words.length) {
+          toast('这个文件里没有识别到单词');
+          return;
+        }
+        openNewBook(createBook(file.name.replace(/\.[^.]+$/, ''), r.words), r.words.length);
       });
     } else if (t.id === 'backup-file' && t.files[0]) {
       t.files[0].text().then(async (text) => {
