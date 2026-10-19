@@ -281,8 +281,7 @@ a.btn { text-decoration: none; }
 .task .muted { margin: 12px 0 20px; font-size: 15px; }
 .btn[disabled] { opacity: .35; cursor: default; }
 .btn[disabled]:hover { opacity: .35; background: transparent; color: var(--fg); }
-.flow { margin: 40px 0 0; color: var(--muted); font-size: 15px; }
-.today.three { grid-template-columns: repeat(3, 1fr); margin: 40px 0 0; }
+.today.three { grid-template-columns: repeat(3, 1fr); margin: 56px 0 0; }
 
 /* 打卡热力图 */
 .heat { margin-top: 72px; }
@@ -1873,7 +1872,6 @@ window.MARGIN_VEC = {"dim": 96, "words": "人名\t变形\t的\t过去式和过�
       '<p class="muted">昨天的新词和错题本</p>' +
       '<button class="btn ghost" data-act="startReview"' + (rv.remaining.length ? '' : ' disabled') + '>' + (rv.remaining.length ? '开始复习 <kbd>R</kbd>' : rvTotal ? '复习完了' : '今天没有要复习的词') + '</button></div>' +
       '</div>' +
-      '<p class="flow">每组 ' + s.size + ' 个词，依次过三步：英 → 中 · 中 → 英 · 听 → 写</p>' +
       '<div class="today three">' +
       '<div><div class="num">' + fmt(day.n) + '</div><div class="cap">今天答题</div></div>' +
       '<div><div class="num">' + (day.n ? Math.round((day.r / day.n) * 100) + '%' : '—') + '</div><div class="cap">今天正确率</div></div>' +

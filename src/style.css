@@ -273,8 +273,7 @@ a.btn { text-decoration: none; }
 .task .muted { margin: 12px 0 20px; font-size: 15px; }
 .btn[disabled] { opacity: .35; cursor: default; }
 .btn[disabled]:hover { opacity: .35; background: transparent; color: var(--fg); }
-.flow { margin: 40px 0 0; color: var(--muted); font-size: 15px; }
-.today.three { grid-template-columns: repeat(3, 1fr); margin: 40px 0 0; }
+.today.three { grid-template-columns: repeat(3, 1fr); margin: 56px 0 0; }
 
 /* 打卡热力图 */
 .heat { margin-top: 72px; }
