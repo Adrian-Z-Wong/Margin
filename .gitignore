@@ -1,0 +1,5 @@
+# 词库转换时下载的 ECDICT 原始数据（约 65 MB）
+tools/.cache/
+__pycache__/
+.DS_Store
+Thumbs.db

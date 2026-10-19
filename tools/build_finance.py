@@ -1,0 +1,84 @@
+"""把 data/finance/*.tsv 转换成 Margin 的 Finance 词库 src/finance.js。
+
+用法：
+    python3 tools/build_finance.py
+
+每个 TSV 文件一行一个词条，三列用 Tab 分隔：英文术语、中文释义、小类。
+可以直接用 Excel 打开编辑（另存时选「制表符分隔的文本」，编码选 UTF-8）。
+以 # 开头的行和空行会被忽略。
+"""
+
+import json
+import os
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA = os.path.join(ROOT, "data", "finance")
+WORDS = os.path.join(ROOT, "src", "words.js")
+OUT = os.path.join(ROOT, "src", "finance.js")
+
+# 顺序决定去重时谁优先保留；代号和 app.js 里的 FINANCE_BOOKS 对应
+SUBJECTS = [
+    ("finance.tsv", "fin"),
+    ("economics.tsv", "econ"),
+    ("accounting.tsv", "acct"),
+    ("management.tsv", "mgmt"),
+]
+
+
+def load_phonetics():
+    """单个单词的术语，从内置考试词库里借音标。"""
+    with open(WORDS, encoding="utf-8") as f:
+        text = f.read()
+    data = json.loads(text[text.index("=") + 1 :].strip().rstrip(";"))
+    out = {}
+    for line in data.split("\n"):
+        w, p = line.split("\t")[:2]
+        if p and w.lower() not in out:
+            out[w.lower()] = p
+    return out
+
+
+def main():
+    phon = load_phonetics()
+    seen = {}
+    rows = []
+    problems = 0
+    for name, code in SUBJECTS:
+        path = os.path.join(DATA, name)
+        if not os.path.exists(path):
+            print(f"缺少 {path}")
+            continue
+        kept = 0
+        with open(path, encoding="utf-8-sig") as f:
+            for n, raw in enumerate(f, 1):
+                line = raw.rstrip("\r\n")
+                if not line.strip() or line.lstrip().startswith("#"):
+                    continue
+                cols = [c.strip() for c in line.split("\t")]
+                if len(cols) != 3 or not all(cols):
+                    print(f"{name}:{n} 格式不对（需要 3 列）：{line!r}")
+                    problems += 1
+                    continue
+                term, meaning, topic = cols
+                key = term.lower()
+                if key in seen:
+                    print(f"{name}:{n} 重复，已在 {seen[key]} 收录：{term}")
+                    continue
+                seen[key] = name
+                p = phon.get(key, "") if " " not in term else ""
+                rows.append("\t".join([term, p, meaning, code, topic]))
+                kept += 1
+        print(f"{name}: {kept} 条")
+
+    with open(OUT, "w", encoding="utf-8") as f:
+        f.write("// 由 tools/build_finance.py 根据 data/finance/*.tsv 生成，请勿手动修改\n")
+        f.write("// 每行：术语\\t音标\\t中文释义\\t学科代号\\t小类\n")
+        f.write("window.MARGIN_FINANCE = " + json.dumps("\n".join(rows), ensure_ascii=False) + ";\n")
+    print(f"共 {len(rows)} 条，写入 {OUT}（{os.path.getsize(OUT) // 1024} KB）")
+    if problems:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
