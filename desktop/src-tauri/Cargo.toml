@@ -1,0 +1,19 @@
+[package]
+name = "margin"
+version = "0.1.0"
+description = "黑白极简的背单词工具"
+authors = ["Adrian-Z-Wong"]
+license = "MIT"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

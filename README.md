@@ -25,7 +25,7 @@
 - 美式 / 英式发音
 - 打卡热力图
 - 黑白两种外观
-- 不用安装，双击就能打开，离线可用
+- Mac 应用，也可以在线用或下载网页文件，离线可用
 
 ![背诵界面](docs/screenshots/practice.png)
 
@@ -35,13 +35,15 @@
 
 **下载到电脑**：打开 <https://adrian-z-wong.github.io/Margin/>，点「下载到电脑」，再双击下载好的 `Margin.html`（推荐 Chrome 或 Edge）。
 
-进度保存在浏览器里。换电脑之前，在「设置」里导出备份。
+**Mac 应用**：在 [Releases](https://github.com/Adrian-Z-Wong/Margin/releases/latest) 下载 `Margin_*_aarch64.dmg`，双击后把 Margin 拖进「应用程序」。第一次打开如果提示「无法验证开发者」，打开「系统设置 → 隐私与安全性」，点「仍要打开」。适用于 Apple 芯片（M1–M4）的 Mac。
+
+进度保存在浏览器或 App 里。换电脑之前，在「设置」里导出备份。
 
 ## 词库
 
 | 词库 | 词数 |
 | --- | --- |
-| Finance | 4,777 |
+| Finance | 11,134 |
 | 四级 | 5,331 |
 | 六级 | 7,086 |
 | 考研 | 6,511 |
@@ -54,7 +56,7 @@ Finance 收录经济、金融、会计、管理、公司治理、财务管理、
 
 ## 开发
 
-不依赖任何框架。源码在 `src/`，运行 `python3 tools/build.py` 打包成 `Margin.html`。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+不依赖任何框架。源码在 `src/`，运行 `python3 tools/build.py` 打包成 `Margin.html`。Mac 应用在 `desktop/`（[Tauri](https://tauri.app)），推送 `v` 开头的标签后由 GitHub Actions 自动打包发布。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 致谢
 

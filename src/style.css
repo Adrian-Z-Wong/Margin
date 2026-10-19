@@ -629,6 +629,27 @@ textarea.paste:focus { outline: none; border-color: var(--fg); }
 .set-row .d { font-size: 14px; color: var(--muted); margin-top: 4px; }
 .set-row .d + .chips, .set-row .chips + .d { margin-top: 10px; }
 
+/* ---------- 确认框 ---------- */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  padding: 16px;
+}
+.modal-card {
+  width: min(440px, 100%);
+  background: var(--bg);
+  border: 1px solid var(--fg);
+  padding: 28px 28px 24px;
+}
+.modal-msg { margin: 0 0 20px; font-size: 18px; line-height: 1.6; }
+.modal-input { margin: -4px 0 24px; }
+
 /* ---------- 提示条 ---------- */
 
 .toast {

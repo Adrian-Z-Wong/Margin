@@ -3,3 +3,10 @@ tools/.cache/
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# 桌面版（Tauri）构建产物
+desktop/www/
+desktop/node_modules/
+desktop/package-lock.json
+desktop/src-tauri/target/
+desktop/src-tauri/gen/

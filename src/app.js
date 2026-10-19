@@ -152,7 +152,17 @@
     return d.getUTCFullYear() + '-' + String(d.getUTCMonth() + 1).padStart(2, '0') + '-' + String(d.getUTCDate()).padStart(2, '0');
   }
 
+  // 桌面版（Tauri）里没有浏览器下载，改成直接存到「下载」文件夹
+  const DESKTOP = !!(window.__TAURI__ && window.__TAURI__.core);
+
   function downloadText(name, text, type) {
+    if (DESKTOP) {
+      window.__TAURI__.core
+        .invoke('save_to_downloads', { name, contents: text })
+        .then(() => toast('已保存到「下载」文件夹：' + name))
+        .catch((e) => toast('保存失败：' + e));
+      return;
+    }
     const blob = new Blob([text], { type: type || 'text/plain;charset=utf-8' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
@@ -278,6 +288,46 @@
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => el.classList.remove('show'), 2600);
   }
+
+  // 确认框和输入框：桌面版里系统弹窗不可靠，网页版也统一用这个，风格一致
+  function modal(message, opts) {
+    return new Promise((resolve) => {
+      const wrap = document.createElement('div');
+      wrap.className = 'modal';
+      wrap.innerHTML =
+        '<div class="modal-card" role="dialog" aria-modal="true"><p class="modal-msg">' + esc(message) + '</p>' +
+        (opts.input ? '<input class="field modal-input" autocomplete="off" value="' + esc(opts.value || '') + '">' : '') +
+        '<div class="actions"><button class="btn small" data-m="ok">' + esc(opts.ok || '确定') + '</button><button class="btn small ghost" data-m="cancel">取消</button></div></div>';
+      document.body.appendChild(wrap);
+      const input = wrap.querySelector('.modal-input');
+      const onKey = (ev) => {
+        if (ev.isComposing || ev.keyCode === 229) return;
+        if (ev.key === 'Enter' || ev.key === 'Escape') {
+          ev.preventDefault();
+          ev.stopPropagation();
+          done(ev.key === 'Enter');
+        }
+      };
+      function done(ok) {
+        document.removeEventListener('keydown', onKey, true);
+        wrap.remove();
+        resolve(input ? (ok ? input.value : null) : ok);
+      }
+      document.addEventListener('keydown', onKey, true);
+      wrap.addEventListener('click', (ev) => {
+        const b = ev.target.closest('[data-m]');
+        if (b) done(b.dataset.m === 'ok');
+        else if (ev.target === wrap) done(false);
+      });
+      if (input) {
+        input.focus();
+        input.select();
+      } else wrap.querySelector('[data-m="ok"]').focus();
+    });
+  }
+
+  const askConfirm = (message, ok) => modal(message, { ok });
+  const askText = (message, value) => modal(message, { input: true, value });
 
   const ICON_OK =
     '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7"/></svg>';
@@ -1597,7 +1647,7 @@
       '<div class="set-row"><div><div class="t">外观</div></div><div>' + chipsHtml('theme', [['auto', '跟随系统'], ['light', '白底'], ['dark', '黑底']]) + '</div></div>' +
       '<div class="set-row"><div><div class="t">字体粗细</div></div><div>' + chipsHtml('weight', [['light', '细'], ['normal', '标准'], ['bold', '粗']]) +
       '<div class="d">仿宋本身笔画比较细，觉得看不清就选「粗」。</div></div></div>' +
-      (location.protocol === 'file:'
+      (!/^https?:$/.test(location.protocol)
         ? ''
         : '<div class="set-row"><div><div class="t">下载到电脑</div></div><div><a class="btn small ghost" href="Margin.html" download="Margin.html">下载 Margin.html</a>' +
           '<div class="d">下载后双击就能打开，不用联网。进度不会自动带过去，需要的话先导出备份，再在下载的版本里导入。</div></div></div>') +
@@ -1684,18 +1734,18 @@
       ui.book.limit += 200;
       document.getElementById('book-rows').innerHTML = bookRowsHtml();
     },
-    deleteBook(t) {
+    async deleteBook(t) {
       const b = state.books[t.dataset.id];
-      if (!b || !confirm('删除词表「' + b.name + '」？背诵记录和错题本不受影响。')) return;
+      if (!b || !(await askConfirm('删除词表「' + b.name + '」？背诵记录和错题本不受影响。', '删除'))) return;
       delete state.books[b.id];
       if (state.settings.book === b.id) state.settings.book = FIRST_BOOK;
       save();
       render();
     },
-    renameBook(t) {
+    async renameBook(t) {
       const b = state.books[t.dataset.id];
       if (!b) return;
-      const name = prompt('新的词表名称', b.name);
+      const name = await askText('新的词表名称', b.name);
       if (name && name.trim()) {
         b.name = name.trim();
         save();
@@ -1761,8 +1811,8 @@
       save();
       render();
     },
-    clearWrong() {
-      if (!confirm('清空错题本？')) return;
+    async clearWrong() {
+      if (!(await askConfirm('清空错题本？', '清空'))) return;
       state.wrong = {};
       save();
       render();
@@ -1780,8 +1830,8 @@
       downloadText('margin-backup-' + todayKey() + '.json', JSON.stringify({ app: 'Margin', v: 1, exported: new Date().toISOString(), data: state }), 'application/json');
       toast('备份已下载');
     },
-    resetAll() {
-      if (!confirm('清空所有数据？自己导入的词表、背诵记录、错题本都会删除，无法恢复。')) return;
+    async resetAll() {
+      if (!(await askConfirm('清空所有数据？自己导入的词表、背诵记录、错题本都会删除，无法恢复。', '清空'))) return;
       state = freshState();
       save();
       applyTheme();
@@ -1811,19 +1861,23 @@
         render();
       });
     } else if (t.id === 'backup-file' && t.files[0]) {
-      t.files[0].text().then((text) => {
+      t.files[0].text().then(async (text) => {
+        let obj = null;
         try {
-          const obj = JSON.parse(text);
-          if (!obj || obj.app !== 'Margin' || !obj.data) throw new Error('bad');
-          if (!confirm('用这个备份覆盖现在的数据？')) return;
-          state = normalizeState(obj.data);
-          save();
-          applyTheme();
-          render();
-          toast('备份已导入');
+          obj = JSON.parse(text);
         } catch (e) {
-          toast('这个文件不是 Margin 的备份');
+          obj = null;
         }
+        if (!obj || obj.app !== 'Margin' || !obj.data) {
+          toast('这个文件不是 Margin 的备份');
+          return;
+        }
+        if (!(await askConfirm('用这个备份覆盖现在的数据？', '覆盖'))) return;
+        state = normalizeState(obj.data);
+        save();
+        applyTheme();
+        render();
+        toast('备份已导入');
       });
     }
   });
@@ -1849,6 +1903,7 @@
 
   document.addEventListener('keydown', (ev) => {
     if (ev.isComposing || ev.keyCode === 229) return; // 中文输入法正在选字
+    if (document.querySelector('.modal')) return;
     const tag = ev.target.tagName;
     const typing = tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT';
     if (ev.metaKey || ev.ctrlKey || ev.altKey) return;

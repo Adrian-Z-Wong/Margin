@@ -1,0 +1,58 @@
+# 打包 Mac 应用：推送 v 开头的标签（比如 v0.1.0）时自动打包，并发布到 Releases 页面
+name: Mac 应用
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin
+
+      - name: 准备网页文件
+        run: |
+          python3 tools/build.py
+          mkdir -p desktop/www
+          cp Margin.html desktop/www/index.html
+
+      - name: 安装 Tauri 命令行
+        working-directory: desktop
+        run: npm install
+
+      - name: 打包并发布
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          projectPath: desktop
+          args: --target aarch64-apple-darwin
+          tagName: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || '' }}
+          releaseName: Margin ${{ github.ref_name }}
+          releaseBody: |
+            **安装**：下载下面的 `Margin_*_aarch64.dmg`，双击打开，把 Margin 拖进「应用程序」文件夹。
+
+            **第一次打开**：如果提示「无法验证开发者」，打开「系统设置 → 隐私与安全性」，往下找到 Margin，点「仍要打开」。之后就能正常使用。
+
+            适用于 Apple 芯片（M1–M4）的 Mac，需要 macOS 11 或更新版本。
+          releaseDraft: false
+
+      - name: 上传安装包（手动运行时）
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: Margin-mac
+          path: desktop/src-tauri/target/aarch64-apple-darwin/release/bundle/dmg/*.dmg

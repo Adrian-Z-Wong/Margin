@@ -1167,3 +1167,2369 @@ delisting return	退市收益率	实证金融
 flow-performance relationship	资金流-业绩关系	实证金融
 smart money	聪明钱	实证金融
 window dressing	橱窗粉饰；窗饰效应	实证金融
+active share	主动份额	投资学
+active return	主动收益	投资学
+active risk	主动风险	投资学
+annualized return	年化收益率	投资学
+asset class	资产类别	投资学
+assets under management	资产管理规模（AUM）	投资学
+top-down investing	自上而下投资	投资学
+bottom-up investing	自下而上投资	投资学
+Calmar ratio	卡玛比率	投资学
+certainty equivalent rate	确定等价收益率	投资学
+complete portfolio	完整投资组合	投资学
+core-satellite strategy	核心-卫星策略	投资学
+earnings yield	盈利收益率	投资学
+PEG ratio	市盈增长比率（PEG）	投资学
+forward P/E ratio	预期市盈率	投资学
+enhanced indexing	增强型指数化	投资学
+equity market neutral strategy	股票市场中性策略	投资学
+family office	家族办公室	投资学
+fixed income arbitrage	固定收益套利	投资学
+fund manager	基金经理	投资学
+fund family	基金家族	投资学
+glide path	下滑路径；下滑曲线	投资学
+fundamental law of active management	主动管理基本定律	投资学
+investment policy statement	投资政策说明书（IPS）	投资学
+investment style	投资风格	投资学
+liability-driven investment	负债驱动投资（LDI）	投资学
+lifecycle fund	生命周期基金	投资学
+load fund	收费基金；有佣基金	投资学
+no-load fund	免佣基金	投资学
+M-squared measure	M²测度	投资学
+market neutral strategy	市场中性策略	投资学
+Morningstar rating	晨星评级	投资学
+portfolio turnover	投资组合换手率	投资学
+relative strength	相对强度	投资学
+risk parity	风险平价	投资学
+risk budgeting	风险预算	投资学
+separately managed account	独立管理账户（SMA）	投资学
+semivariance	半方差	投资学
+shortfall risk	短缺风险	投资学
+style drift	风格漂移	投资学
+style box	风格箱	投资学
+growth at a reasonable price	合理价格成长策略（GARP）	投资学
+dogs of the Dow	道指狗股策略	投资学
+economic moat	经济护城河	投资学
+buy side	买方	投资学
+sell side	卖方	投资学
+sell-side analyst	卖方分析师	投资学
+buy-side analyst	买方分析师	投资学
+equity research	股票研究；权益研究	投资学
+target price	目标价	投资学
+redemption	赎回	投资学
+subscription	申购；认购	投资学
+closed-end fund discount	封闭式基金折价	投资学
+authorized participant	授权参与人（AP）	投资学
+creation unit	申购赎回单位；创设单位	投资学
+leveraged ETF	杠杆ETF	投资学
+inverse ETF	反向ETF	投资学
+exchange-traded note	交易所交易票据（ETN）	投资学
+listed open-ended fund	上市型开放式基金（LOF）	投资学
+private fund	私募基金	投资学
+publicly offered fund	公募基金	投资学
+private securities investment fund	私募证券投资基金	投资学
+collective investment scheme	集合投资计划	投资学
+UCITS	可转让证券集合投资计划（UCITS）	投资学
+endowment model	捐赠基金模式；耶鲁模式	投资学
+60/40 portfolio	60/40股债组合	投资学
+all-weather portfolio	全天候组合	投资学
+naive diversification	简单分散化；朴素分散化	投资学
+1/N strategy	1/N策略；等权重策略	投资学
+equal-weighted portfolio	等权重组合	投资学
+value-weighted portfolio	市值加权组合	投资学
+fundamental indexing	基本面指数化	投资学
+minimum volatility strategy	最小波动策略	投资学
+relative value strategy	相对价值策略	投资学
+distressed securities strategy	困境证券策略	投资学
+multi-strategy fund	多策略基金	投资学
+capital structure arbitrage	资本结构套利	投资学
+short-biased strategy	偏空策略	投资学
+backfill bias	回填偏差	投资学
+return smoothing	收益平滑	投资学
+liquid alternatives	流动性另类投资	投资学
+infrastructure investment	基础设施投资	投资学
+dividend recapitalization	股利再资本化	投资学
+private equity secondary market	私募股权二级市场	投资学
+co-investment	跟投；共同投资	投资学
+limited partnership agreement	有限合伙协议（LPA）	投资学
+public market equivalent	公开市场等价法（PME）	投资学
+multiple on invested capital	投资资本倍数（MOIC）	投资学
+total value to paid-in capital	总价值与实缴资本比（TVPI）	投资学
+distributions to paid-in capital	已分配与实缴资本比（DPI）	投资学
+exit strategy	退出策略	投资学
+government guidance fund	政府引导基金	投资学
+industrial investment fund	产业投资基金	投资学
+capital call	出资请求；资本催缴	投资学
+committed capital	承诺资本；认缴资本	投资学
+distribution waterfall	收益分配瀑布	投资学
+preferred return	优先回报	投资学
+clawback provision	回拨条款；追回条款	投资学
+two and twenty	2+20收费结构	投资学
+secondary buyout	二次收购	投资学
+growth equity	成长型股权投资	投资学
+distressed debt	困境债务；不良债务	投资学
+vulture fund	秃鹫基金	投资学
+activist hedge fund	激进对冲基金	投资学
+gate provision	赎回闸门条款	投资学
+side pocket	侧袋账户	投资学
+fully funded pension system	完全积累制养老金	投资学
+pension funding ratio	养老金充足率	投资学
+three-pillar pension system	三支柱养老金体系	投资学
+enterprise annuity	企业年金	投资学
+occupational annuity	职业年金	投资学
+personal pension	个人养老金	投资学
+403(b) plan	403(b)计划	投资学
+investment company	投资公司	投资学
+commingled fund	混合基金	投资学
+soft dollars	软美元	投资学
+appraisal ratio	评估比率	投资学
+Treynor-Black model	特雷诺-布莱克模型	投资学
+Roy's safety-first criterion	罗伊安全第一准则	投资学
+feasible set	可行集	投资学
+minimum-variance frontier	最小方差边界	投资学
+mean-variance criterion	均值-方差准则	投资学
+portfolio variance	组合方差	投资学
+Omega ratio	欧米伽比率	投资学
+hit rate	胜率	投资学
+strategy capacity	策略容量	投资学
+quant fund	量化基金	投资学
+managed futures	管理期货	投资学
+commodity trading advisor	商品交易顾问（CTA）	投资学
+moving average	移动平均线	投资学
+moving average crossover	均线交叉	投资学
+moving average convergence divergence	指数平滑异同移动平均线（MACD）	投资学
+relative strength index	相对强弱指数（RSI）	投资学
+Bollinger Bands	布林带	投资学
+candlestick chart	K线图；蜡烛图	投资学
+support level	支撑位	投资学
+resistance level	阻力位	投资学
+head and shoulders pattern	头肩形态	投资学
+golden cross	金叉	投资学
+death cross	死叉	投资学
+Dow theory	道氏理论	投资学
+Elliott wave theory	艾略特波浪理论	投资学
+Fibonacci retracement	斐波那契回撤	投资学
+overbought	超买	投资学
+oversold	超卖	投资学
+stochastic oscillator	随机指标（KD）	投资学
+on-balance volume	能量潮指标（OBV）	投资学
+average true range	平均真实波幅（ATR）	投资学
+breadth of market	市场宽度	投资学
+advance-decline line	腾落线	投资学
+put-call ratio	看跌看涨比率	投资学
+confidence index	信心指数	投资学
+short interest ratio	空头比率	投资学
+income stock	收益型股票	投资学
+mid-cap stock	中盘股	投资学
+microcap stock	微型股	投资学
+meme stock	迷因股；网红股	投资学
+concept stock	概念股	投资学
+safe-haven asset	避险资产	投资学
+dead cat bounce	死猫反弹	投资学
+capitulation	投降式抛售	投资学
+market correction	市场回调	投资学
+Buffett indicator	巴菲特指标	投资学
+cyclically adjusted price-to-earnings ratio	周期调整市盈率（CAPE）	投资学
+Fed model	美联储模型	投资学
+present value of growth opportunities	增长机会现值（PVGO）	投资学
+plowback ratio	再投资比率；留存比率	投资学
+two-stage dividend discount model	两阶段股利贴现模型	投资学
+H-model	H模型	投资学
+multistage growth model	多阶段增长模型	投资学
+constant-growth dividend discount model	固定增长股利贴现模型	投资学
+household finance	家庭金融	投资学
+stock market participation	股市参与	投资学
+limited participation puzzle	有限参与之谜	投资学
+financial literacy	金融素养	投资学
+life-cycle investing	生命周期投资	投资学
+background risk	背景风险	投资学
+labor income risk	劳动收入风险	投资学
+housing wealth	住房财富	投资学
+household leverage	家庭杠杆率	投资学
+household debt	家庭债务	投资学
+credit card puzzle	信用卡之谜	投资学
+consumer bankruptcy	个人破产	投资学
+household portfolio choice	家庭资产配置	投资学
+financial advisor	理财顾问；财务顾问	投资学
+retirement saving	退休储蓄	投资学
+annuity puzzle	年金之谜	投资学
+strategic default	策略性违约	投资学
+China Household Finance Survey	中国家庭金融调查（CHFS）	投资学
+Survey of Consumer Finances	消费者金融调查（SCF）	投资学
+investor inertia	投资者惰性	投资学
+excessive trading	过度交易	投资学
+wealth management product	理财产品	投资学
+bank wealth management product	银行理财产品	投资学
+trust product	信托产品	投资学
+asset management plan	资产管理计划	投资学
+wealth management subsidiary	理财子公司	投资学
+growth fund	成长型基金	投资学
+sector fund	行业基金	投资学
+qualified investor	合格投资者	投资学
+seed capital	种子资本	投资学
+Hansen-Jagannathan bound	汉森-贾甘纳森边界（HJ边界）	资产定价
+Hansen-Jagannathan distance	HJ距离	资产定价
+consumption Euler equation	消费欧拉方程	资产定价
+habit formation model	习惯形成模型	资产定价
+Campbell-Cochrane habit model	坎贝尔-科克伦习惯形成模型	资产定价
+external habit	外部习惯	资产定价
+Epstein-Zin preferences	爱泼斯坦-津偏好	资产定价
+recursive utility	递归效用	资产定价
+coefficient of relative risk aversion	相对风险厌恶系数	资产定价
+constant relative risk aversion	常相对风险厌恶（CRRA）	资产定价
+constant absolute risk aversion	常绝对风险厌恶（CARA）	资产定价
+power utility	幂效用	资产定价
+exponential utility	指数效用	资产定价
+quadratic utility	二次效用	资产定价
+Lucas tree model	卢卡斯树模型	资产定价
+volatility feedback effect	波动率反馈效应	资产定价
+leverage effect	杠杆效应	资产定价
+time-varying risk premium	时变风险溢价	资产定价
+dividend-price ratio	股息价格比	资产定价
+Campbell-Shiller decomposition	坎贝尔-希勒分解	资产定价
+cash flow news	现金流消息	资产定价
+discount rate news	贴现率消息	资产定价
+excess volatility puzzle	过度波动之谜	资产定价
+out-of-sample R-squared	样本外R方	资产定价
+intertemporal hedging demand	跨期对冲需求	资产定价
+investment-based asset pricing	基于投资的资产定价	资产定价
+production-based asset pricing	基于生产的资产定价	资产定价
+factor-mimicking portfolio	因子模拟组合	资产定价
+size factor	规模因子；市值因子	资产定价
+value factor	价值因子	资产定价
+momentum factor	动量因子	资产定价
+market factor	市场因子	资产定价
+liquidity factor	流动性因子	资产定价
+small minus big	小减大因子（SMB）	资产定价
+high minus low	高减低因子（HML）	资产定价
+robust minus weak	稳健减疲弱因子（RMW）	资产定价
+conservative minus aggressive	保守减激进因子（CMA）	资产定价
+winners minus losers	赢家减输家因子（WML）	资产定价
+mispricing factor	错误定价因子	资产定价
+Pastor-Stambaugh liquidity factor	帕斯托-斯坦博流动性因子	资产定价
+cokurtosis	协峰度	资产定价
+idiosyncratic skewness	特质偏度	资产定价
+systematic skewness	系统性偏度	资产定价
+state-price density	状态价格密度	资产定价
+risk-neutral density	风险中性密度	资产定价
+Radon-Nikodym derivative	拉东-尼科迪姆导数	资产定价
+Girsanov theorem	吉尔萨诺夫定理；Girsanov定理	资产定价
+change of numeraire	计价单位变换	资产定价
+forward measure	远期测度	资产定价
+market price of risk	风险的市场价格	资产定价
+Feynman-Kac formula	费曼-卡茨公式	资产定价
+mean-variance spanning test	均值-方差张成检验	资产定价
+zero-beta CAPM	零贝塔CAPM；布莱克CAPM	资产定价
+international capital asset pricing model	国际资本资产定价模型	资产定价
+liquidity-adjusted CAPM	流动性调整CAPM	资产定价
+recovery theorem	罗斯恢复定理	资产定价
+equity term structure	股权期限结构	资产定价
+intermediary asset pricing	中介资产定价	资产定价
+safe asset	安全资产	资产定价
+flight to quality	逃向优质资产；安全投资转移	资产定价
+flight to liquidity	逃向流动性	资产定价
+adaptive markets hypothesis	适应性市场假说	资产定价
+fractal market hypothesis	分形市场假说	资产定价
+Grossman-Stiglitz paradox	格罗斯曼-斯蒂格利茨悖论	资产定价
+noisy rational expectations equilibrium	噪声理性预期均衡	资产定价
+heterogeneous beliefs	异质信念	资产定价
+differences of opinion	意见分歧	资产定价
+speculative premium	投机溢价	资产定价
+resale option	转售期权	资产定价
+estimation risk	估计风险	资产定价
+parameter uncertainty	参数不确定性	资产定价
+dynamic asset pricing	动态资产定价	资产定价
+habit persistence	习惯持续性	资产定价
+Sharpe-Lintner CAPM	夏普-林特纳CAPM	资产定价
+low-risk anomaly	低风险异象	资产定价
+low-beta anomaly	低贝塔异象	资产定价
+betting against beta	押注低贝塔（BAB）	资产定价
+characteristic-based model	基于特征的定价模型	资产定价
+characteristics versus covariances	特征与协方差之争	资产定价
+stochastic dominance	随机占优	资产定价
+second-order stochastic dominance	二阶随机占优	资产定价
+first-order stochastic dominance	一阶随机占优	资产定价
+risk-return trade-off	风险收益权衡	资产定价
+equity duration	股权久期	资产定价
+earnings-price ratio	盈利价格比	资产定价
+consumption-wealth ratio	消费财富比（cay）	资产定价
+term spread	期限利差	资产定价
+default spread	违约利差	资产定价
+present value model	现值模型	资产定价
+myopic portfolio choice	短视投资组合选择	资产定价
+Merton portfolio problem	默顿投资组合问题	资产定价
+dynamic portfolio choice	动态投资组合选择	资产定价
+information coefficient	信息系数（IC）	量化投资
+rank information coefficient	秩信息系数（Rank IC）	量化投资
+IC information ratio	IC信息比率（ICIR）	量化投资
+alpha factor	阿尔法因子	量化投资
+factor mining	因子挖掘	量化投资
+factor timing	因子择时	量化投资
+factor crowding	因子拥挤	量化投资
+factor decay	因子衰减	量化投资
+factor neutralization	因子中性化	量化投资
+industry neutralization	行业中性化	量化投资
+multifactor stock selection model	多因子选股模型	量化投资
+Barra risk model	Barra风险模型	量化投资
+risk model	风险模型	量化投资
+covariance shrinkage	协方差收缩	量化投资
+Ledoit-Wolf shrinkage	Ledoit-Wolf收缩估计	量化投资
+random matrix theory	随机矩阵理论	量化投资
+hierarchical risk parity	分层风险平价（HRP）	量化投资
+portfolio optimization	投资组合优化	量化投资
+robust portfolio optimization	稳健投资组合优化	量化投资
+turnover constraint	换手率约束	量化投资
+transaction cost model	交易成本模型	量化投资
+alpha decay	阿尔法衰减	量化投资
+backtest overfitting	回测过拟合	量化投资
+probabilistic Sharpe ratio	概率夏普比率	量化投资
+walk-forward analysis	滚动前推分析	量化投资
+quantitative stock selection	量化选股	量化投资
+quantitative market timing	量化择时	量化投资
+market-making strategy	做市策略	量化投资
+Avellaneda-Stoikov model	Avellaneda-Stoikov做市模型	量化投资
+Hurst exponent	赫斯特指数	量化投资
+sentiment analysis	情感分析；文本情绪分析	量化投资
+quant quake	量化地震（2007年）	量化投资
+alpha model	阿尔法模型	量化投资
+alpha signal	阿尔法信号	量化投资
+index tracking	指数跟踪	量化投资
+sampling replication	抽样复制	量化投资
+full replication	完全复制	量化投资
+optimization replication	优化复制	量化投资
+cross-sectional factor model	横截面因子模型	量化投资
+fundamental factor model	基本面因子模型	量化投资
+statistical factor model	统计因子模型	量化投资
+macroeconomic factor model	宏观经济因子模型	量化投资
+autoencoder asset pricing model	自编码器资产定价模型	量化投资
+instrumented principal component analysis	工具化主成分分析（IPCA）	量化投资
+trading signal	交易信号	量化投资
+long-only strategy	纯多头策略	量化投资
+130/30 strategy	130/30策略	量化投资
+volatility targeting	波动率目标策略	量化投资
+carry strategy	套息策略	量化投资
+value strategy	价值策略	量化投资
+quality strategy	质量策略	量化投资
+crowded trade	拥挤交易	量化投资
+long call	买入看涨期权；看涨期权多头	衍生品
+short call	卖出看涨期权；看涨期权空头	衍生品
+long put	买入看跌期权；看跌期权多头	衍生品
+short put	卖出看跌期权；看跌期权空头	衍生品
+naked option	无担保期权；裸期权	衍生品
+naked call	无担保看涨期权	衍生品
+cash-secured put	现金担保看跌期权	衍生品
+collar	领口期权组合；双限策略	衍生品
+zero-cost collar	零成本领口	衍生品
+iron condor	铁鹰式价差	衍生品
+iron butterfly	铁蝶式价差	衍生品
+box spread	盒式价差	衍生品
+ratio spread	比率价差	衍生品
+backspread	反比率价差	衍生品
+diagonal spread	对角价差	衍生品
+vertical spread	垂直价差	衍生品
+bull call spread	牛市看涨价差	衍生品
+bear put spread	熊市看跌价差	衍生品
+strip	条式组合	衍生品
+strap	带式组合	衍生品
+short straddle	卖出跨式组合	衍生品
+synthetic position	合成头寸	衍生品
+synthetic forward	合成远期	衍生品
+synthetic option	合成期权	衍生品
+risk reversal	风险逆转组合	衍生品
+moneyness	在值程度	衍生品
+deep in the money	深度实值	衍生品
+deep out of the money	深度虚值	衍生品
+exercise	行权	衍生品
+assignment	行权指派	衍生品
+automatic exercise	自动行权	衍生品
+early exercise premium	提前行权溢价	衍生品
+optimal exercise boundary	最优行权边界	衍生品
+option series	期权系列	衍生品
+long-term equity anticipation securities	长期股票期权（LEAPS）	衍生品
+weekly option	周期权	衍生品
+flex option	灵活期权	衍生品
+rho	Rho值	衍生品
+vanna	Vanna值	衍生品
+volga	Volga值；Vomma值	衍生品
+gamma scalping	伽马交易；Gamma剥头皮	衍生品
+gamma hedging	Gamma对冲	衍生品
+vega hedging	Vega对冲	衍生品
+delta-gamma approximation	Delta-Gamma近似	衍生品
+option elasticity	期权弹性	衍生品
+option pricing	期权定价	衍生品
+Black model	布莱克模型（Black-76）	衍生品
+Garman-Kohlhagen model	加曼-科尔哈根模型	衍生品
+Bachelier model	巴舍利耶模型	衍生品
+SABR model	SABR模型	衍生品
+constant elasticity of variance model	常方差弹性模型（CEV）	衍生品
+Dupire equation	Dupire方程；杜皮尔方程	衍生品
+Barone-Adesi-Whaley model	BAW模型	衍生品
+Margrabe formula	马格拉布公式	衍生品
+Black-Scholes-Merton differential equation	布莱克-斯科尔斯-默顿微分方程	衍生品
+sticky strike	粘性执行价	衍生品
+sticky delta	粘性Delta	衍生品
+implied distribution	隐含分布	衍生品
+Breeden-Litzenberger formula	Breeden-Litzenberger公式	衍生品
+static replication	静态复制	衍生品
+dynamic replication	动态复制	衍生品
+term structure of volatility	波动率期限结构	衍生品
+volatility derivative	波动率衍生品	衍生品
+volatility swap	波动率互换	衍生品
+VIX futures	VIX期货	衍生品
+VIX options	VIX期权	衍生品
+realized variance	已实现方差	衍生品
+correlation swap	相关性互换	衍生品
+dispersion trading	离散度交易	衍生品
+volatility trading	波动率交易	衍生品
+volatility arbitrage	波动率套利	衍生品
+short volatility	做空波动率	衍生品
+volatility risk premium	波动率风险溢价	衍生品
+implied correlation	隐含相关性	衍生品
+risk-neutral skewness	风险中性偏度	衍生品
+model-free implied volatility	无模型隐含波动率	衍生品
+cliquet option	棘轮期权	衍生品
+forward start option	远期开始期权	衍生品
+gap option	缺口期权	衍生品
+shout option	喊价期权	衍生品
+perpetual American option	永续美式期权	衍生品
+nonstandard American option	非标准美式期权	衍生品
+quanto option	双币种期权；Quanto期权	衍生品
+power option	幂期权	衍生品
+passport option	护照期权	衍生品
+Parisian option	巴黎期权	衍生品
+rainbow option	彩虹期权	衍生品
+basket option	篮子期权	衍生品
+exchange option	资产交换期权	衍生品
+spread option	价差期权	衍生品
+double barrier option	双障碍期权	衍生品
+up-and-in option	向上敲入期权	衍生品
+up-and-out option	向上敲出期权	衍生品
+down-and-in option	向下敲入期权	衍生品
+down-and-out option	向下敲出期权	衍生品
+average strike option	平均执行价格期权	衍生品
+average price option	平均价格期权	衍生品
+floating lookback option	浮动回望期权	衍生品
+fixed lookback option	固定回望期权	衍生品
+cash-or-nothing option	现金或无期权	衍生品
+asset-or-nothing option	资产或无期权	衍生品
+range accrual note	区间累计票据	衍生品
+autocallable note	自动赎回票据	衍生品
+accumulator	累计期权；累股证	衍生品
+callable bull/bear contract	牛熊证（CBBC）	衍生品
+covered warrant	备兑权证	衍生品
+range forward contract	范围远期合约	衍生品
+variation margin	变动保证金	衍生品
+daily settlement	逐日结算	衍生品
+delivery month	交割月份	衍生品
+first notice day	第一通知日	衍生品
+last trading day	最后交易日	衍生品
+limit up	涨停	衍生品
+limit down	跌停	衍生品
+position limit	持仓限额	衍生品
+long hedge	多头对冲；买入套期保值	衍生品
+short hedge	空头对冲；卖出套期保值	衍生品
+rolling hedge	滚动对冲	衍生品
+tailing the hedge	尾随对冲	衍生品
+basis trading	基差交易	衍生品
+strengthening of the basis	基差走强	衍生品
+weakening of the basis	基差走弱	衍生品
+inter-commodity spread	跨品种价差	衍生品
+intermarket spread	跨市场价差	衍生品
+crack spread	裂解价差	衍生品
+crush spread	压榨价差	衍生品
+cash-and-carry arbitrage	正向期现套利	衍生品
+reverse cash-and-carry arbitrage	反向期现套利	衍生品
+index arbitrage	指数套利	衍生品
+normal backwardation	正常现货溢价；正常交割延期	衍生品
+normal contango	正常期货溢价	衍生品
+storage cost	储存成本	衍生品
+spot-futures parity	现货-期货平价	衍生品
+quality option	质量选择权	衍生品
+timing option	时间选择权	衍生品
+implied repo rate	隐含回购利率	衍生品
+federal funds futures	联邦基金期货	衍生品
+SOFR futures	SOFR期货	衍生品
+convexity adjustment	凸性调整；曲率调整	衍生品
+CSI 300 index futures	沪深300股指期货	衍生品
+government bond futures	国债期货	衍生品
+single stock futures	个股期货	衍生品
+currency futures	外汇期货；货币期货	衍生品
+exchange for physicals	期货转现货（EFP）	衍生品
+front month	近月合约	衍生品
+distant month	远月合约	衍生品
+dominant contract	主力合约	衍生品
+contract rollover	移仓换月；合约展期	衍生品
+warehouse receipt	仓单	衍生品
+Commitments of Traders report	持仓报告（COT）	衍生品
+Shanghai Futures Exchange	上海期货交易所	衍生品
+Dalian Commodity Exchange	大连商品交易所	衍生品
+Zhengzhou Commodity Exchange	郑州商品交易所	衍生品
+China Financial Futures Exchange	中国金融期货交易所	衍生品
+Guangzhou Futures Exchange	广州期货交易所	衍生品
+Shanghai International Energy Exchange	上海国际能源交易中心	衍生品
+Intercontinental Exchange	洲际交易所（ICE）	衍生品
+London Metal Exchange	伦敦金属交易所（LME）	衍生品
+Eurex	欧洲期货交易所（Eurex）	衍生品
+CME Group	芝加哥商业交易所集团（芝商所）	衍生品
+Options Clearing Corporation	期权清算公司（OCC）	衍生品
+SSE 50 ETF option	上证50ETF期权	衍生品
+CSI 300 index option	沪深300股指期权	衍生品
+commodity option	商品期权	衍生品
+interest rate option	利率期权	衍生品
+bond option	债券期权	衍生品
+fixed leg	固定端	衍生品
+floating leg	浮动端	衍生品
+payer swap	支付固定利率互换	衍生品
+receiver swap	收取固定利率互换	衍生品
+payer swaption	支付方互换期权	衍生品
+receiver swaption	收取方互换期权	衍生品
+amortizing swap	本金递减互换	衍生品
+accreting swap	本金递增互换	衍生品
+forward swap	远期互换	衍生品
+constant maturity swap	固定期限互换（CMS）	衍生品
+inflation swap	通胀互换	衍生品
+commodity swap	商品互换	衍生品
+asset swap	资产互换	衍生品
+asset swap spread	资产互换利差	衍生品
+cross-currency basis	交叉货币基差	衍生品
+swap curve	互换曲线	衍生品
+swap dealer	互换交易商	衍生品
+ISDA master agreement	ISDA主协议	衍生品
+International Swaps and Derivatives Association	国际掉期与衍生工具协会（ISDA）	衍生品
+credit support annex	信用支持附件（CSA）	衍生品
+close-out netting	终止净额结算	衍生品
+central clearing	中央清算	衍生品
+swap execution facility	互换执行设施（SEF）	衍生品
+day count convention	计息天数惯例	衍生品
+non-deliverable forward	无本金交割远期（NDF）	衍生品
+outright forward	直接远期	衍生品
+foreign exchange swap	外汇掉期	衍生品
+swap points	掉期点	衍生品
+interest rate derivative	利率衍生品	衍生品
+equity derivative	股权衍生品	衍生品
+commodity derivative	商品衍生品	衍生品
+energy derivative	能源衍生品	衍生品
+freight derivative	运费衍生品	衍生品
+longevity swap	长寿互换	衍生品
+delta-one product	Delta-1产品	衍生品
+contract for difference	差价合约（CFD）	衍生品
+perpetual futures	永续合约	衍生品
+funding rate	资金费率	衍生品
+equity-linked note	股票挂钩票据	衍生品
+principal-protected note	保本票据	衍生品
+reverse convertible	反向可转换票据	衍生品
+structured note	结构化票据	衍生品
+CDS spread	CDS利差	衍生品
+CDS index	CDS指数	衍生品
+CDX	CDX指数	衍生品
+iTraxx	iTraxx指数	衍生品
+reference entity	参考实体	衍生品
+credit event	信用事件	衍生品
+protection buyer	信用保护买方	衍生品
+protection seller	信用保护卖方	衍生品
+basket credit default swap	一篮子信用违约互换	衍生品
+first-to-default swap	首次违约互换	衍生品
+nth-to-default credit default swap	第n次违约CDS	衍生品
+synthetic CDO	合成CDO	衍生品
+CDO-squared	CDO平方	衍生品
+credit spread option	信用价差期权	衍生品
+Gaussian copula model	高斯Copula模型	衍生品
+one-factor Gaussian copula model	单因子高斯Copula模型	衍生品
+copula	Copula函数；连接函数	衍生品
+base correlation	基础相关性	衍生品
+compound correlation	复合相关性	衍生品
+hazard rate	风险率；违约密度	衍生品
+default intensity	违约强度	衍生品
+reduced-form model	简约模型；约化模型	衍生品
+structural model of default	违约结构模型	衍生品
+debit value adjustment	债务价值调整（DVA）	衍生品
+funding value adjustment	融资价值调整（FVA）	衍生品
+margin valuation adjustment	保证金价值调整（MVA）	衍生品
+capital valuation adjustment	资本价值调整（KVA）	衍生品
+XVA	XVA（估值调整）	衍生品
+potential future exposure	潜在未来风险暴露（PFE）	衍生品
+expected positive exposure	预期正风险暴露（EPE）	衍生品
+current exposure	当前风险暴露	衍生品
+caplet	利率上限单元	衍生品
+floorlet	利率下限单元	衍生品
+LIBOR market model	LIBOR市场模型（LMM）	衍生品
+Heath-Jarrow-Morton model	HJM模型	衍生品
+Ho-Lee model	Ho-Lee模型	衍生品
+Black-Derman-Toy model	BDT模型	衍生品
+Black-Karasinski model	Black-Karasinski模型	衍生品
+affine term structure model	仿射期限结构模型	衍生品
+equilibrium term structure model	均衡期限结构模型	衍生品
+no-arbitrage term structure model	无套利期限结构模型	衍生品
+mean-reverting process	均值回复过程	衍生品
+Ornstein-Uhlenbeck process	奥恩斯坦-乌伦贝克过程（OU过程）	衍生品
+interest rate tree	利率树	衍生品
+Markov property	马尔可夫性	衍生品
+generalized Wiener process	广义维纳过程	衍生品
+Ito process	伊藤过程	衍生品
+stochastic differential equation	随机微分方程	衍生品
+stochastic calculus	随机微积分	衍生品
+quadratic variation	二次变差	衍生品
+Poisson process	泊松过程	衍生品
+Lévy process	莱维过程	衍生品
+least-squares Monte Carlo	最小二乘蒙特卡罗法（LSM）	衍生品
+Crank-Nicolson method	克兰克-尼科尔森方法	衍生品
+control variate technique	控制变量法	衍生品
+antithetic variable technique	对偶变量法	衍生品
+variance reduction technique	方差缩减技术	衍生品
+Cox-Ross-Rubinstein model	CRR二叉树模型	衍生品
+implied tree	隐含树	衍生品
+model calibration	模型校准	衍生品
+option chain	期权链	衍生品
+equity option	股票期权；权益期权	衍生品
+naked put	无担保看跌期权	衍生品
+delta-neutral hedging	Delta中性对冲	衍生品
+gamma-neutral portfolio	Gamma中性组合	衍生品
+vega-neutral portfolio	Vega中性组合	衍生品
+cancelable swap	可取消互换	衍生品
+extendable swap	可延长互换	衍生品
+equity index swap	股指互换	衍生品
+dividend swap	股息互换	衍生品
+variance futures	方差期货	衍生品
+cross-gamma	交叉Gamma	衍生品
+yield to worst	最差收益率	固定收益
+yield to put	回售收益率	固定收益
+par yield	平价收益率	固定收益
+zero rate	零息利率	固定收益
+zero-coupon yield curve	零息收益率曲线	固定收益
+forward curve	远期曲线	固定收益
+instantaneous forward rate	瞬时远期利率	固定收益
+short rate	短期利率	固定收益
+normal yield curve	正常收益率曲线	固定收益
+flat yield curve	平坦收益率曲线	固定收益
+humped yield curve	驼峰形收益率曲线	固定收益
+yield curve steepening	收益率曲线陡峭化	固定收益
+yield curve flattening	收益率曲线平坦化	固定收益
+bull steepening	牛陡	固定收益
+bear steepening	熊陡	固定收益
+bull flattening	牛平	固定收益
+bear flattening	熊平	固定收益
+level factor	水平因子	固定收益
+slope factor	斜率因子	固定收益
+curvature factor	曲率因子	固定收益
+Svensson model	斯文森模型	固定收益
+cubic spline interpolation	三次样条插值	固定收益
+preferred habitat theory	优先栖息地理论；期限偏好理论	固定收益
+pure expectations theory	纯预期理论	固定收益
+bond pricing	债券定价	固定收益
+Malkiel's bond pricing theorems	马尔基尔债券定价定理	固定收益
+negative convexity	负凸性	固定收益
+positive convexity	正凸性	固定收益
+effective convexity	有效凸性	固定收益
+spread duration	利差久期	固定收益
+empirical duration	经验久期	固定收益
+Fisher-Weil duration	费雪-韦尔久期	固定收益
+PV01	基点现值（PV01）	固定收益
+DV01	基点美元价值（DV01）	固定收益
+basis point	基点（bp）	固定收益
+duration matching	久期匹配	固定收益
+cash flow matching	现金流匹配	固定收益
+contingent immunization	或有免疫	固定收益
+bond ladder	债券阶梯	固定收益
+barbell strategy	杠铃策略	固定收益
+bullet strategy	子弹策略	固定收益
+bond swap	债券互换	固定收益
+substitution swap	替代互换	固定收益
+intermarket spread swap	市场间价差互换	固定收益
+rate anticipation swap	利率预期互换	固定收益
+pure yield pickup swap	纯收益率获取互换	固定收益
+tax swap	税收互换	固定收益
+active bond management	积极债券管理	固定收益
+passive bond management	消极债券管理	固定收益
+bond index	债券指数	固定收益
+Bloomberg U.S. Aggregate Bond Index	彭博美国综合债券指数	固定收益
+credit curve	信用曲线	固定收益
+G-spread	G利差	固定收益
+I-spread	I利差	固定收益
+Z-spread	Z利差；零波动利差	固定收益
+nominal spread	名义利差	固定收益
+TED spread	TED利差	固定收益
+credit spread puzzle	信用利差之谜	固定收益
+excess bond premium	超额债券溢价	固定收益
+reference rate	参考利率	固定收益
+quoted margin	报价利差	固定收益
+discount margin	贴现利差	固定收益
+payment-in-kind bond	实物支付债券（PIK）	固定收益
+original issue discount bond	原始发行折价债券（OID）	固定收益
+bond with warrants	附认股权证债券	固定收益
+exchangeable bond	可交换债券	固定收益
+mandatory convertible bond	强制可转换债券	固定收益
+contingent convertible bond	或有可转换债券（CoCo）	固定收益
+extendible bond	可延期债券	固定收益
+amortizing bond	分期偿还债券	固定收益
+serial bond	分期还本债券；序列债券	固定收益
+registered bond	记名债券	固定收益
+bearer bond	不记名债券	固定收益
+Brady bond	布雷迪债券	固定收益
+dim sum bond	点心债	固定收益
+Bulldog bond	猛犬债券	固定收益
+Kangaroo bond	袋鼠债券	固定收益
+Maple bond	枫叶债券	固定收益
+global bond	全球债券	固定收益
+foreign bond	外国债券	固定收益
+supranational bond	超主权债券	固定收益
+inverse floater	逆浮动利率债券	固定收益
+step-up bond	利率递增债券	固定收益
+interest-only strip	仅付利息证券（IO）	固定收益
+principal-only strip	仅付本金证券（PO）	固定收益
+urban investment bond	城投债	固定收益
+local government bond	地方政府债券	固定收益
+local government special bond	地方政府专项债券	固定收益
+policy bank bond	政策性金融债	固定收益
+financial bond	金融债券	固定收益
+enterprise bond	企业债	固定收益
+medium-term note	中期票据（MTN）	固定收益
+super short-term commercial paper	超短期融资券（SCP）	固定收益
+private placement note	定向债务融资工具（PPN）	固定收益
+interbank bond market	银行间债券市场	固定收益
+exchange bond market	交易所债券市场	固定收益
+special treasury bond	特别国债	固定收益
+savings bond	储蓄国债；储蓄债券	固定收益
+negotiable certificate of deposit	可转让定期存单	固定收益
+interbank certificate of deposit	同业存单（NCD）	固定收益
+credit bond	信用债	固定收益
+interest rate bond	利率债	固定收益
+tier 2 capital bond	二级资本债	固定收益
+China Central Depository & Clearing	中央国债登记结算公司（中债登）	固定收益
+Shanghai Clearing House	上海清算所	固定收益
+Moody's	穆迪	固定收益
+Standard & Poor's	标准普尔	固定收益
+Fitch Ratings	惠誉	固定收益
+rating downgrade	评级下调	固定收益
+rating upgrade	评级上调	固定收益
+credit watch	信用观察	固定收益
+speculative-grade bond	投机级债券	固定收益
+split rating	分歧评级	固定收益
+rating inflation	评级虚高	固定收益
+rating shopping	评级选购	固定收益
+negative covenant	消极条款；限制性条款	固定收益
+affirmative covenant	积极条款；肯定性条款	固定收益
+cross-default clause	交叉违约条款	固定收益
+covenant-lite loan	轻条款贷款	固定收益
+call protection	赎回保护	固定收益
+make-whole call provision	全额补偿赎回条款	固定收益
+bond trustee	债券受托人	固定收益
+repo rate	回购利率	固定收益
+general collateral	一般担保品	固定收益
+tri-party repo	三方回购	固定收益
+pledged repo	质押式回购	固定收益
+outright repo	买断式回购	固定收益
+term repo	定期回购	固定收益
+overnight repo	隔夜回购	固定收益
+bond lending	债券借贷	固定收益
+agency mortgage-backed security	机构MBS	固定收益
+non-agency mortgage-backed security	非机构MBS	固定收益
+residential mortgage-backed security	住房抵押贷款支持证券（RMBS）	固定收益
+commercial mortgage-backed security	商业房地产抵押贷款支持证券（CMBS）	固定收益
+collateralized mortgage obligation	抵押担保债券（CMO）	固定收益
+sequential-pay tranche	顺序偿付档	固定收益
+planned amortization class	计划摊还档（PAC）	固定收益
+targeted amortization class	目标摊还档（TAC）	固定收益
+support tranche	支持档	固定收益
+accrual tranche	应计档（Z档）	固定收益
+stripped mortgage-backed security	剥离式MBS	固定收益
+to-be-announced market	待宣布市场（TBA）	固定收益
+weighted average coupon	加权平均票面利率（WAC）	固定收益
+weighted average maturity	加权平均到期期限（WAM）	固定收益
+weighted average life	加权平均期限（WAL）	固定收益
+conditional prepayment rate	条件提前偿付率（CPR）	固定收益
+single monthly mortality	单月提前偿付率（SMM）	固定收益
+PSA prepayment benchmark	PSA提前偿付基准	固定收益
+extension risk	展期风险；延期风险	固定收益
+contraction risk	收缩风险	固定收益
+servicer	贷款服务机构	固定收益
+originator	发起机构；发起人	固定收益
+originate-to-distribute model	发起-分销模式	固定收益
+true sale	真实出售	固定收益
+bankruptcy remoteness	破产隔离	固定收益
+overcollateralization	超额抵押	固定收益
+credit tranching	信用分档	固定收益
+senior tranche	优先级档	固定收益
+mezzanine tranche	夹层档	固定收益
+equity tranche	权益档；股权档	固定收益
+first-loss piece	首损部分	固定收益
+excess spread	超额利差	固定收益
+reserve account	储备账户	固定收益
+cash flow waterfall	现金流瀑布	固定收益
+attachment point	起赔点；附着点	固定收益
+detachment point	止赔点；分离点	固定收益
+asset-backed commercial paper	资产支持商业票据（ABCP）	固定收益
+structured investment vehicle	结构化投资工具（SIV）	固定收益
+risk retention rule	风险自留规则	固定收益
+whole loan	整笔贷款	固定收益
+asset-backed note	资产支持票据（ABN）	固定收益
+credit asset securitization	信贷资产证券化	固定收益
+infrastructure REIT	基础设施REITs	固定收益
+mortgage servicing rights	抵押贷款服务权	固定收益
+Federal Home Loan Bank	联邦住房贷款银行	固定收益
+on-the-run Treasury	新发国债；新券	固定收益
+off-the-run Treasury	旧券	固定收益
+when-issued trading	发行前交易	固定收益
+Treasury auction	国债拍卖	固定收益
+10-year Treasury yield	十年期国债收益率	固定收益
+convexity hedging	凸性对冲	固定收益
+negative yield	负收益率	固定收益
+real yield	实际收益率	固定收益
+breakeven inflation rate	盈亏平衡通胀率	固定收益
+inflation risk premium	通胀风险溢价	固定收益
+direct lending	直接借贷	固定收益
+tax-exempt bond	免税债券	固定收益
+taxable equivalent yield	应税等价收益率	固定收益
+bond yield	债券收益率	固定收益
+spot rate curve	即期利率曲线	固定收益
+yield curve fitting	收益率曲线拟合	固定收益
+yield curve shift	收益率曲线移动	固定收益
+parallel shift	平行移动	固定收益
+yield curve twist	收益率曲线扭曲	固定收益
+butterfly shift	蝶式移动	固定收益
+accrual period	计息期	固定收益
+coupon date	付息日	固定收益
+call date	赎回日	固定收益
+call schedule	赎回时间表	固定收益
+put date	回售日	固定收益
+issuer rating	主体评级	固定收益
+issue rating	债项评级	固定收益
+credit quality	信用质量	固定收益
+default rate	违约率	固定收益
+cumulative default rate	累计违约率	固定收益
+marginal default rate	边际违约率	固定收益
+fixed-rate bond	固定利率债券	固定收益
+dual-currency bond	双币种债券	固定收益
+sukuk	伊斯兰债券（Sukuk）	固定收益
+after-tax cost of debt	税后债务成本	公司金融
+marginal cost of capital	边际资本成本	公司金融
+flotation cost	发行成本；筹资费用	公司金融
+build-up method	累加法	公司金融
+bond yield plus risk premium approach	债券收益率加风险溢价法	公司金融
+implied cost of capital	隐含资本成本	公司金融
+country risk premium	国家风险溢价	公司金融
+Hamada equation	哈马达方程	公司金融
+asset beta	资产贝塔	公司金融
+equity beta	权益贝塔	公司金融
+debt beta	债务贝塔	公司金融
+pure-play method	纯业务法	公司金融
+capital structure irrelevance	资本结构无关论	公司金融
+dynamic trade-off theory	动态权衡理论	公司金融
+Miller model	米勒模型	公司金融
+non-debt tax shield	非债务税盾	公司金融
+book leverage	账面杠杆率	公司金融
+market leverage	市场杠杆率	公司金融
+speed of adjustment	资本结构调整速度	公司金融
+debt maturity structure	债务期限结构	公司金融
+debt structure	债务结构	公司金融
+cash management	现金管理	公司金融
+working capital management	营运资本管理	公司金融
+Baumol model	鲍莫尔模型	公司金融
+Miller-Orr model	米勒-奥尔模型	公司金融
+target cash balance	目标现金余额	公司金融
+lockbox system	锁箱系统	公司金融
+zero-balance account	零余额账户	公司金融
+credit policy	信用政策	公司金融
+five Cs of credit	信用5C原则	公司金融
+reverse factoring	反向保理	公司金融
+forfaiting	福费廷；包买票据	公司金融
+sum-of-the-parts valuation	分部加总估值法（SOTP）	公司金融
+precedent transactions analysis	先例交易分析法	公司金融
+EV/EBITDA multiple	企业价值倍数（EV/EBITDA）	公司金融
+exit multiple	退出倍数	公司金融
+liquidity discount	流动性折价	公司金融
+minority discount	少数股权折价	公司金融
+discount for lack of marketability	缺乏流通性折价（DLOM）	公司金融
+fairness opinion	公平意见书	公司金融
+accretion/dilution analysis	增厚/摊薄分析	公司金融
+merger wave	并购浪潮	公司金融
+target company	目标公司	公司金融
+hubris hypothesis	自大假说；狂妄假说	公司金融
+empire building	帝国构建	公司金融
+stock-for-stock merger	换股合并	公司金融
+exchange ratio	换股比例	公司金融
+earnout	盈利能力支付；业绩对赌	公司金融
+breakup fee	分手费；终止费	公司金融
+no-shop clause	禁止招揽条款	公司金融
+go-shop provision	竞购期条款	公司金融
+two-tier tender offer	双层要约收购	公司金融
+toehold	立足点持股	公司金融
+bear hug	熊抱	公司金融
+Pac-Man defense	帕克曼防御	公司金融
+crown jewel defense	皇冠明珠防御	公司金融
+scorched earth defense	焦土战术	公司金融
+white squire	白衣护卫	公司金融
+shark repellent	驱鲨剂（反收购条款）	公司金融
+supermajority provision	绝对多数条款	公司金融
+fair price provision	公平价格条款	公司金融
+standstill agreement	停滞协议	公司金融
+squeeze-out	挤出（少数股东）	公司金融
+appraisal rights	评估权；异议股东股份回购请求权	公司金融
+cross-border merger and acquisition	跨境并购	公司金融
+friendly takeover	善意收购	公司金融
+merger of equals	对等合并	公司金融
+management buy-in	外部管理层收购（MBI）	公司金融
+conglomerate discount	综合企业折价	公司金融
+holding company discount	控股公司折价	公司金融
+split-off	股份交换式分立	公司金融
+tracking stock	追踪股票	公司金融
+debt restructuring	债务重组	公司金融
+workout	庭外重组；债务和解	公司金融
+debtor-in-possession financing	债务人持有资产融资（DIP融资）	公司金融
+automatic stay	自动中止	公司金融
+exchange offer	交换要约	公司金融
+distressed exchange	困境债务置换	公司金融
+IPO long-run underperformance	IPO长期弱势	公司金融
+hot issue market	热发市场	公司金融
+red herring	初步招股说明书；红鲱鱼	公司金融
+roadshow	路演	公司金融
+quiet period	静默期	公司金融
+lead underwriter	主承销商	公司金融
+underwriting syndicate	承销团	公司金融
+bought deal	包销交易；买断式发行	公司金融
+first-day return	首日收益率	公司金融
+IPO subscription	新股申购；打新	公司金融
+registration-based IPO system	股票发行注册制	公司金融
+approval-based IPO system	股票发行核准制	公司金融
+at-the-market offering	按市价发行（ATM）	公司金融
+private investment in public equity	私募投资上市公司股权（PIPE）	公司金融
+standby underwriting	备用承销	公司金融
+Lintner model	林特纳股利模型	公司金融
+dividend smoothing	股利平滑	公司金融
+special dividend	特别股利	公司金融
+dividend puzzle	股利之谜	公司金融
+disappearing dividends	股利消失现象	公司金融
+open market repurchase	公开市场回购	公司金融
+accelerated share repurchase	加速股票回购	公司金融
+targeted repurchase	定向回购	公司金融
+cum dividend	含息；附股利	公司金融
+payment date	股利支付日	公司金融
+homemade dividend	自制股利	公司金融
+say on pay	薪酬话语权	公司金融
+proxy advisor	代理投票顾问	公司金融
+stewardship code	尽责管理守则	公司金融
+pay-performance sensitivity	薪酬-业绩敏感性	公司金融
+option backdating	期权倒签	公司金融
+share pledging	股权质押	公司金融
+control-ownership wedge	两权分离度	公司金融
+G-index	G指数（公司治理指数）	公司金融
+E-index	E指数（壕沟指数）	公司金融
+managerial myopia	管理层短视	公司金融
+short-termism	短期主义	公司金融
+stock appreciation right	股票增值权	公司金融
+golden share	黄金股	公司金融
+internal capital market	内部资本市场	公司金融
+corporate venture capital	企业风险投资（CVC）	公司金融
+option to switch	转换期权	公司金融
+option to contract	收缩期权	公司金融
+growth option	增长期权	公司金融
+staged investment option	分阶段投资期权	公司金融
+cash break-even	现金盈亏平衡点	公司金融
+financial break-even	财务盈亏平衡点	公司金融
+crossover rate	交叉收益率	公司金融
+NPV profile	净现值曲线	公司金融
+multiple IRR problem	多重内部收益率问题	公司金融
+ordinary annuity	普通年金	公司金融
+annuity due	预付年金；先付年金	公司金融
+deferred annuity	递延年金	公司金融
+amortization schedule	分期偿还表	公司金融
+stated annual interest rate	报价年利率；名义年利率	公司金融
+rule of 72	72法则	公司金融
+balloon payment	期末整付；气球式还款	公司金融
+venture debt	风险债务	公司金融
+convertible note	可转换票据	公司金融
+simple agreement for future equity	未来股权简单协议（SAFE）	公司金融
+seed round	种子轮	公司金融
+Series A financing	A轮融资	公司金融
+pre-money valuation	投前估值	公司金融
+post-money valuation	投后估值	公司金融
+liquidation preference	清算优先权	公司金融
+anti-dilution provision	反稀释条款	公司金融
+drag-along right	领售权；拖售权	公司金融
+tag-along right	随售权；共同出售权	公司金融
+term sheet	投资条款清单	公司金融
+valuation adjustment mechanism	估值调整机制；对赌协议（VAM）	公司金融
+down round	降价融资	公司金融
+lease financing	租赁融资	公司金融
+hybrid security	混合证券	公司金融
+trust preferred securities	信托优先证券	公司金融
+cumulative preferred stock	累积优先股	公司金融
+participating preferred stock	参与优先股	公司金融
+convertible preferred stock	可转换优先股	公司金融
+secondary listing	第二上市	公司金融
+shell company	壳公司	公司金融
+shell value	壳价值	公司金融
+backdoor listing	借壳上市	公司金融
+lockup expiration	限售股解禁	公司金融
+certainty equivalent method	确定性等价法	公司金融
+risk-adjusted discount rate	风险调整贴现率	公司金融
+percentage of sales approach	销售百分比法	公司金融
+external financing needed	外部融资需求（EFN）	公司金融
+internal growth rate	内部增长率	公司金融
+financial slack	财务松弛	公司金融
+Myers-Majluf model	迈尔斯-迈勒夫模型	公司金融
+costly state verification	高成本状态验证	公司金融
+law and finance	法与金融	公司金融
+legal origin	法律起源	公司金融
+political connection	政治关联	公司金融
+Kaplan-Zingales index	KZ指数	公司金融
+Whited-Wu index	WW指数	公司金融
+SA index	SA指数	公司金融
+cash flow sensitivity of cash	现金-现金流敏感性	公司金融
+investment efficiency	投资效率	公司金融
+private placement of shares	定向增发	公司金融
+zero-leverage firm	零杠杆公司	公司金融
+debt conservatism	债务保守主义	公司金融
+dividend initiation	首次派息	公司金融
+dividend omission	停止派息	公司金融
+corporate hedging	公司套期保值	公司金融
+selective hedging	选择性对冲	公司金融
+natural hedge	自然对冲	公司金融
+operational hedge	经营性对冲	公司金融
+method of payment	支付方式	公司金融
+cash offer	现金要约	公司金融
+stock offer	股票要约	公司金融
+merger arbitrage spread	并购套利价差	公司金融
+reverse termination fee	反向终止费	公司金融
+poison put	毒性卖权	公司金融
+dead-hand pill	死手毒丸	公司金融
+classified board	分类董事会	公司金融
+sunset provision	日落条款	公司金融
+venture capital-backed IPO	风投支持IPO	公司金融
+IPO pricing	IPO定价	公司金融
+IPO allocation	IPO配售	公司金融
+partial adjustment phenomenon	部分调整现象	公司金融
+information revelation theory	IPO信息揭示理论	公司金融
+cornerstone investor	基石投资者	公司金融
+strategic investor	战略投资者	公司金融
+anchor investor	锚定投资者	公司金融
+IPO cycle	IPO周期	公司金融
+withdrawn IPO	撤回IPO	公司金融
+corporate life cycle	企业生命周期	公司金融
+demand deposit	活期存款	银行与金融机构
+time deposit	定期存款	银行与金融机构
+savings deposit	储蓄存款	银行与金融机构
+core deposits	核心存款	银行与金融机构
+brokered deposit	经纪存款	银行与金融机构
+required reserves	法定准备金	银行与金融机构
+loan-to-deposit ratio	存贷比	银行与金融机构
+loan loss provision	贷款损失准备	银行与金融机构
+provision coverage ratio	拨备覆盖率	银行与金融机构
+loan loss reserve ratio	拨贷比	银行与金融机构
+five-category loan classification	贷款五级分类	银行与金融机构
+special mention loan	关注类贷款	银行与金融机构
+substandard loan	次级类贷款	银行与金融机构
+doubtful loan	可疑类贷款	银行与金融机构
+loss loan	损失类贷款	银行与金融机构
+loan charge-off	贷款核销	银行与金融机构
+bad bank	坏账银行	银行与金融机构
+distressed asset management company	不良资产管理公司	银行与金融机构
+zombie lending	僵尸贷款	银行与金融机构
+evergreening	贷款常青化；借新还旧	银行与金融机构
+risk-based pricing	基于风险的定价	银行与金融机构
+funds transfer pricing	内部资金转移定价（FTP）	银行与金融机构
+net interest income	净利息收入	银行与金融机构
+non-interest income	非利息收入	银行与金融机构
+net interest spread	净利差	银行与金融机构
+CAMELS rating system	CAMELS评级体系	银行与金融机构
+bank examination	银行检查	银行与金融机构
+bank charter	银行执照	银行与金融机构
+dual banking system	双重银行体制	银行与金融机构
+unit banking	单一银行制	银行与金融机构
+branch banking	分支行制	银行与金融机构
+community bank	社区银行	银行与金融机构
+regional bank	区域性银行	银行与金融机构
+money center bank	货币中心银行	银行与金融机构
+city commercial bank	城市商业银行	银行与金融机构
+rural commercial bank	农村商业银行	银行与金融机构
+rural credit cooperative	农村信用合作社	银行与金融机构
+village and township bank	村镇银行	银行与金融机构
+joint-stock commercial bank	股份制商业银行	银行与金融机构
+large state-owned commercial bank	国有大型商业银行	银行与金融机构
+policy bank	政策性银行	银行与金融机构
+China Development Bank	国家开发银行	银行与金融机构
+Agricultural Development Bank of China	中国农业发展银行	银行与金融机构
+Export-Import Bank of China	中国进出口银行	银行与金融机构
+development finance institution	开发性金融机构	银行与金融机构
+New Development Bank	新开发银行	银行与金融机构
+pledged supplementary lending	抵押补充贷款（PSL）	银行与金融机构
+targeted medium-term lending facility	定向中期借贷便利（TMLF）	银行与金融机构
+short-term liquidity operations	短期流动性调节工具（SLO）	银行与金融机构
+relending	再贷款	银行与金融机构
+rediscount	再贴现	银行与金融机构
+macro-prudential assessment	宏观审慎评估（MPA）	银行与金融机构
+standing repo facility	常备回购便利（SRF）	银行与金融机构
+Term Auction Facility	定期拍卖便利（TAF）	银行与金融机构
+Primary Dealer Credit Facility	一级交易商信贷便利（PDCF）	银行与金融机构
+Term Asset-Backed Securities Loan Facility	定期资产支持证券贷款便利（TALF）	银行与金融机构
+Commercial Paper Funding Facility	商业票据融资便利（CPFF）	银行与金融机构
+Bank Term Funding Program	银行定期融资计划（BTFP）	银行与金融机构
+merchant bank	商人银行	银行与金融机构
+savings bank	储蓄银行	银行与金融机构
+mutual savings bank	互助储蓄银行	银行与金融机构
+cooperative bank	合作银行	银行与金融机构
+postal savings bank	邮政储蓄银行	银行与金融机构
+Islamic banking	伊斯兰银行业	银行与金融机构
+narrow banking	狭义银行	银行与金融机构
+nonbank financial institution	非银行金融机构	银行与金融机构
+consumer finance company	消费金融公司	银行与金融机构
+financial leasing company	金融租赁公司	银行与金融机构
+auto finance company	汽车金融公司	银行与金融机构
+microcredit company	小额贷款公司	银行与金融机构
+financing guarantee company	融资担保公司	银行与金融机构
+pawnshop	典当行	银行与金融机构
+futures company	期货公司	银行与金融机构
+fund management company	基金管理公司	银行与金融机构
+financial asset investment company	金融资产投资公司（AIC）	银行与金融机构
+National Council for Social Security Fund	全国社会保障基金理事会	银行与金融机构
+credit card	信用卡	银行与金融机构
+debit card	借记卡	银行与金融机构
+interchange fee	交换费	银行与金融机构
+home equity loan	房屋净值贷款	银行与金融机构
+home equity line of credit	房屋净值信贷额度（HELOC）	银行与金融机构
+reverse mortgage	反向抵押贷款；以房养老	银行与金融机构
+interest-only mortgage	只付利息抵押贷款	银行与金融机构
+jumbo loan	巨额抵押贷款	银行与金融机构
+conforming loan	合规贷款	银行与金融机构
+Alt-A mortgage	次优级抵押贷款（Alt-A）	银行与金融机构
+prime mortgage	优质抵押贷款	银行与金融机构
+teaser rate	诱惑利率；优惠起始利率	银行与金融机构
+discount points	贴现点	银行与金融机构
+private mortgage insurance	私人抵押贷款保险（PMI）	银行与金融机构
+debt-to-income ratio	债务收入比（DTI）	银行与金融机构
+down payment	首付款	银行与金融机构
+mortgage rate	抵押贷款利率；房贷利率	银行与金融机构
+underwater mortgage	资不抵债抵押贷款	银行与金融机构
+consumer credit	消费信贷	银行与金融机构
+auto loan	汽车贷款	银行与金融机构
+student loan	学生贷款	银行与金融机构
+installment loan	分期贷款	银行与金融机构
+unsecured loan	无担保贷款；信用贷款	银行与金融机构
+secured loan	担保贷款；抵押贷款	银行与金融机构
+lien	留置权	银行与金融机构
+bilateral loan	双边贷款	银行与金融机构
+commitment fee	承诺费	银行与金融机构
+compensating balance	补偿性余额	银行与金融机构
+asset-based lending	资产支持贷款	银行与金融机构
+Regulation Q	Q条例	银行与金融机构
+common equity Tier 1 capital	核心一级资本（CET1）	银行与金融机构
+additional Tier 1 capital	其他一级资本（AT1）	银行与金融机构
+total loss-absorbing capacity	总损失吸收能力（TLAC）	银行与金融机构
+deposit franchise	存款特许权价值	银行与金融机构
+deposit beta	存款贝塔	银行与金融机构
+transactional lending	交易型贷款	银行与金融机构
+soft information	软信息	银行与金融机构
+hard information	硬信息	银行与金融机构
+loan sale	贷款出售	银行与金融机构
+main bank system	主银行制度	银行与金融机构
+bank-based financial system	银行主导型金融体系	银行与金融机构
+market-based financial system	市场主导型金融体系	银行与金融机构
+financial conglomerate	金融集团	银行与金融机构
+SWIFT	环球银行金融电信协会（SWIFT）	银行与金融机构
+Clearing House Interbank Payments System	纽约清算所银行同业支付系统（CHIPS）	银行与金融机构
+Fedwire	联邦电子资金转账系统（Fedwire）	银行与金融机构
+Cross-border Interbank Payment System	人民币跨境支付系统（CIPS）	银行与金融机构
+China National Advanced Payment System	中国现代化支付系统（CNAPS）	银行与金融机构
+automated clearing house	自动清算所（ACH）	银行与金融机构
+UnionPay	中国银联	银行与金融机构
+nostro account	往账账户	银行与金融机构
+vostro account	来账账户	银行与金融机构
+documentary collection	跟单托收	银行与金融机构
+commercial acceptance bill	商业承兑汇票	银行与金融机构
+bill discounting	票据贴现	银行与金融机构
+standby letter of credit	备用信用证	银行与金融机构
+bank guarantee	银行保函	银行与金融机构
+liquidity ratio	流动性比例	银行与金融机构
+liquidity buffer	流动性缓冲	银行与金融机构
+Diamond-Dybvig model	戴蒙德-迪布维格模型	银行与金融机构
+bank competition	银行竞争	银行与金融机构
+bank concentration	银行集中度	银行与金融机构
+bank risk-taking	银行风险承担	银行与金融机构
+credit supply	信贷供给	银行与金融机构
+credit demand	信贷需求	银行与金融机构
+credit expansion	信贷扩张	银行与金融机构
+credit boom	信贷繁荣	银行与金融机构
+credit allocation	信贷配置	银行与金融机构
+loan pricing	贷款定价	银行与金融机构
+loan officer	信贷员	银行与金融机构
+loan modification	贷款条款修改	银行与金融机构
+collateral channel	抵押品渠道	银行与金融机构
+interbank offered rate	银行同业拆借利率	银行与金融机构
+deposit rate	存款利率	银行与金融机构
+lending rate	贷款利率	银行与金融机构
+deposit insurance premium	存款保险费	银行与金融机构
+deposit insurance fund	存款保险基金	银行与金融机构
+insured deposit	受保存款	银行与金融机构
+uninsured deposit	未受保存款	银行与金融机构
+mortgage broker	抵押贷款经纪人	银行与金融机构
+mortgage origination	抵押贷款发放	银行与金融机构
+mortgage servicing	抵押贷款服务	银行与金融机构
+mortgage delinquency	抵押贷款拖欠	银行与金融机构
+loan-to-income ratio	贷款收入比	银行与金融机构
+insurance premium	保险费	保险
+insurer	保险人	保险
+insured	被保险人	保险
+policyholder	投保人；保单持有人	保险
+beneficiary	受益人	保险
+insurance policy	保险单	保险
+insurance underwriting	保险核保；承保	保险
+insurance claim	保险索赔	保险
+loss ratio	赔付率	保险
+combined ratio	综合成本率	保险
+underwriting profit	承保利润	保险
+insurance float	保险浮存金	保险
+life insurance	人寿保险	保险
+term life insurance	定期寿险	保险
+whole life insurance	终身寿险	保险
+universal life insurance	万能寿险	保险
+variable life insurance	变额寿险	保险
+endowment insurance	两全保险	保险
+fixed annuity	固定年金	保险
+variable annuity	变额年金	保险
+indexed annuity	指数年金	保险
+life annuity	终身年金	保险
+participating policy	分红保单	保险
+unit-linked insurance	投资连结保险	保险
+critical illness insurance	重大疾病保险	保险
+accident insurance	意外伤害保险	保险
+property insurance	财产保险	保险
+property and casualty insurance	财产与意外险（P&C）	保险
+liability insurance	责任保险	保险
+auto insurance	机动车保险	保险
+marine insurance	海上保险	保险
+credit insurance	信用保险	保险
+surety bond	保证保险；保证担保	保险
+title insurance	产权保险	保险
+export credit insurance	出口信用保险	保险
+agricultural insurance	农业保险	保险
+catastrophe insurance	巨灾保险	保险
+parametric insurance	参数保险；指数保险	保险
+microinsurance	小额保险	保险
+mutual insurance company	相互保险公司	保险
+stock insurance company	股份制保险公司	保险
+captive insurance company	自保公司	保险
+Lloyd's of London	伦敦劳合社	保险
+insurance broker	保险经纪人	保险
+insurance agent	保险代理人	保险
+bancassurance	银行保险	保险
+actuary	精算师	保险
+actuarial science	精算学	保险
+mortality table	生命表；死亡率表	保险
+mortality risk	死亡率风险	保险
+longevity risk	长寿风险	保险
+deductible	免赔额	保险
+coinsurance	共同保险	保险
+principle of indemnity	损失补偿原则	保险
+insurable interest	可保利益	保险
+utmost good faith	最大诚信原则	保险
+subrogation	代位求偿	保险
+proximate cause	近因原则	保险
+insurable risk	可保风险	保险
+pure risk	纯粹风险	保险
+speculative risk	投机风险	保险
+risk retention	风险自留	保险
+self-insurance	自我保险	保险
+loss reserve	赔款准备金	保险
+unearned premium reserve	未到期责任准备金	保险
+incurred but not reported	已发生未报告赔款准备金（IBNR）	保险
+chain-ladder method	链梯法	保险
+credibility theory	信度理论	保险
+experience rating	经验费率	保险
+net premium	纯保费；净保费	保险
+gross premium	毛保费	保险
+premium loading	保费附加	保险
+cash surrender value	退保现金价值	保险
+policy loan	保单贷款	保险
+policy lapse	保单失效	保险
+embedded value	内含价值	保险
+value of new business	新业务价值	保险
+solvency ratio	偿付能力充足率	保险
+risk-based capital	风险基础资本（RBC）	保险
+ruin theory	破产理论	保险
+probability of ruin	破产概率	保险
+Cramér-Lundberg model	克拉默-伦德伯格模型	保险
+excess of loss reinsurance	超额损失再保险；超额赔款再保险	保险
+quota share reinsurance	成数再保险	保险
+surplus reinsurance	溢额再保险	保险
+facultative reinsurance	临时再保险；临时分保	保险
+treaty reinsurance	合约再保险；合约分保	保险
+retrocession	转分保	保险
+ceding company	分出公司	保险
+insurance-linked securities	保险连结证券（ILS）	保险
+industry loss warranty	行业损失担保（ILW）	保险
+underwriting cycle	承保周期	保险
+insurance penetration	保险深度	保险
+insurance density	保险密度	保险
+insurance guaranty fund	保险保障基金	保险
+reserve adequacy	准备金充足性	保险
+premium rate	保险费率	保险
+ratemaking	费率厘定	保险
+pure premium	纯保费	保险
+loss frequency	损失频率	保险
+loss severity	损失程度	保险
+expected loss ratio	预期赔付率	保险
+claim settlement	理赔	保险
+reinsurer	再保险人	保险
+insurance capacity	承保能力	保险
+insurance fund investment	保险资金运用	保险
+guaranteed rate	最低保证利率	保险
+surrender rate	退保率	保险
+persistency rate	保单继续率	保险
+policy reserve	保单准备金；责任准备金	保险
+mathematical reserve	数学准备金	保险
+long-term care insurance	长期护理保险	保险
+disability insurance	残疾收入保险；失能保险	保险
+group insurance	团体保险	保险
+annuitization	年金化	保险
+bid-ask bounce	买卖价反弹	市场微观结构
+quoted spread	报价价差	市场微观结构
+effective spread	有效价差	市场微观结构
+realized spread	实现价差	市场微观结构
+Roll measure	Roll价差估计量	市场微观结构
+Corwin-Schultz spread estimator	Corwin-Schultz价差估计量	市场微观结构
+Kyle's lambda	凯尔λ	市场微观结构
+permanent price impact	永久性价格冲击	市场微观结构
+temporary price impact	暂时性价格冲击	市场微观结构
+zero-return days	零收益天数	市场微观结构
+liquidity commonality	流动性共性	市场微观结构
+market resiliency	市场弹性	市场微观结构
+adverse selection component	逆向选择成分	市场微观结构
+inventory model	存货模型	市场微观结构
+inventory risk	存货风险	市场微观结构
+order processing cost	订单处理成本	市场微观结构
+order flow	订单流	市场微观结构
+order flow toxicity	订单流毒性	市场微观结构
+volume-synchronized probability of informed trading	成交量同步知情交易概率（VPIN）	市场微观结构
+market fragmentation	市场碎片化	市场微观结构
+national best bid and offer	全国最优买卖报价（NBBO）	市场微观结构
+maker-taker pricing	挂单-吃单定价	市场微观结构
+price-time priority	价格优先、时间优先	市场微观结构
+continuous auction	连续竞价	市场微观结构
+call auction	集合竞价	市场微观结构
+opening auction	开盘集合竞价	市场微观结构
+closing auction	收盘集合竞价	市场微观结构
+frequent batch auction	频繁批量拍卖	市场微观结构
+matching engine	撮合引擎	市场微观结构
+iceberg order	冰山订单	市场微观结构
+hidden order	隐藏订单	市场微观结构
+stop-limit order	止损限价单	市场微观结构
+market-on-close order	收盘市价单	市场微观结构
+fill-or-kill order	全部成交否则撤销订单（FOK）	市场微观结构
+immediate-or-cancel order	立即成交否则撤销订单（IOC）	市场微观结构
+good-till-canceled order	撤销前有效订单（GTC）	市场微观结构
+day order	当日有效订单	市场微观结构
+marketable limit order	可成交限价单	市场微观结构
+trailing stop order	追踪止损单	市场微观结构
+order-to-trade ratio	订单成交比	市场微观结构
+spoofing	幌骗；虚假报单	市场微观结构
+layering	分层报单	市场微观结构
+quote stuffing	报价填塞	市场微观结构
+wash trade	对敲交易；虚假交易	市场微观结构
+marking the close	尾市操纵	市场微观结构
+latency arbitrage	延迟套利	市场微观结构
+colocation	主机托管	市场微观结构
+direct market access	直接市场接入（DMA）	市场微观结构
+smart order routing	智能订单路由	市场微观结构
+execution algorithm	执行算法	市场微观结构
+volume-weighted average price	成交量加权平均价（VWAP）	市场微观结构
+time-weighted average price	时间加权平均价（TWAP）	市场微观结构
+implementation shortfall	执行差额	市场微观结构
+Almgren-Chriss model	Almgren-Chriss最优执行模型	市场微观结构
+optimal execution	最优执行	市场微观结构
+best execution	最佳执行	市场微观结构
+slippage	滑点	市场微观结构
+market impact cost	市场冲击成本	市场微观结构
+order internalization	订单内部化	市场微观结构
+designated market maker	指定做市商	市场微观结构
+specialist	专家经纪人；特许经纪商	市场微观结构
+liquidity provider	流动性提供者	市场微观结构
+liquidity demander	流动性需求者	市场微观结构
+best bid and offer	最优买卖报价	市场微观结构
+Level 2 quotes	深度行情；二级行情	市场微观结构
+tick data	逐笔数据	市场微观结构
+trade and quote data	交易与报价数据（TAQ）	市场微观结构
+Lee-Ready algorithm	Lee-Ready算法	市场微观结构
+tick test	逐笔检验法	市场微观结构
+U-shaped intraday pattern	日内U形模式	市场微观结构
+information share	信息份额	市场微观结构
+microstructure noise	微观结构噪声	市场微观结构
+bipower variation	双幂次变差	市场微观结构
+market quality	市场质量	市场微观结构
+dealer market	交易商市场	市场微观结构
+brokered market	经纪市场	市场微观结构
+direct search market	直接搜寻市场	市场微观结构
+upstairs market	楼上市场	市场微观结构
+third market	第三市场	市场微观结构
+fourth market	第四市场	市场微观结构
+alternative trading system	另类交易系统（ATS）	市场微观结构
+multilateral trading facility	多边交易设施（MTF）	市场微观结构
+crossing network	交叉网络	市场微观结构
+T+1 settlement	T+1结算	市场微观结构
+delivery versus payment	券款对付（DVP）	市场微观结构
+central securities depository	中央证券存管机构（CSD）	市场微观结构
+Depository Trust & Clearing Corporation	美国存管信托和结算公司（DTCC）	市场微观结构
+China Securities Depository and Clearing Corporation	中国证券登记结算公司（中国结算）	市场微观结构
+short-sale ban	卖空禁令	市场微观结构
+uptick rule	报升规则；提价交易规则	市场微观结构
+naked short selling	裸卖空	市场微观结构
+short interest	卖空余额	市场微观结构
+days to cover	回补天数	市场微观结构
+lending fee	借券费率	市场微观结构
+margin financing and securities lending	融资融券	市场微观结构
+magnet effect	磁吸效应	市场微观结构
+price improvement	价格改善	市场微观结构
+electronic trading	电子交易	市场微观结构
+open outcry	公开喊价	市场微观结构
+floor trader	场内交易员	市场微观结构
+lit market	明池；透明市场	市场微观结构
+Glosten-Milgrom model	格洛斯滕-米尔格罗姆模型	市场微观结构
+Kyle model	凯尔模型	市场微观结构
+sequential trade model	序贯交易模型	市场微观结构
+Roll model	Roll模型	市场微观结构
+order book imbalance	订单簿失衡	市场微观结构
+odd-lot trading	零股交易	市场微观结构
+retail order flow	散户订单流	市场微观结构
+institutional order flow	机构订单流	市场微观结构
+financial transaction tax	金融交易税	市场微观结构
+decimalization	十进制报价改革	市场微观结构
+closing price	收盘价	市场微观结构
+opening price	开盘价	市场微观结构
+high-frequency market making	高频做市	市场微观结构
+stale quote	陈旧报价	市场微观结构
+midquote	报价中点；中间价	市场微观结构
+microprice	微观价格	市场微观结构
+execution venue	交易场所	市场微观结构
+fixed commission	固定佣金	市场微观结构
+negotiated commission	协商佣金	市场微观结构
+incremental VaR	增量VaR	风险管理
+marginal VaR	边际VaR	风险管理
+component VaR	成分VaR	风险管理
+delta-normal method	Delta正态法	风险管理
+filtered historical simulation	过滤历史模拟法	风险管理
+extreme value theory	极值理论	风险管理
+peaks over threshold	超阈值法（POT）	风险管理
+generalized Pareto distribution	广义帕累托分布	风险管理
+Kupiec test	Kupiec检验	风险管理
+Christoffersen test	Christoffersen检验	风险管理
+traffic light approach	交通灯法	风险管理
+spectral risk measure	谱风险测度	风险管理
+subadditivity	次可加性	风险管理
+risk contribution	风险贡献	风险管理
+exponentially weighted moving average	指数加权移动平均（EWMA）	风险管理
+RiskMetrics	RiskMetrics模型	风险管理
+correlation breakdown	相关性崩溃	风险管理
+cash flow mapping	现金流映射	风险管理
+risk factor mapping	风险因子映射	风险管理
+credit portfolio model	信用组合模型	风险管理
+Vasicek single-factor model	Vasicek单因子模型	风险管理
+asymptotic single risk factor model	渐近单风险因子模型（ASRF）	风险管理
+credit VaR	信用风险价值	风险管理
+loss distribution	损失分布	风险管理
+point-in-time probability of default	时点违约概率（PIT）	风险管理
+through-the-cycle probability of default	跨周期违约概率（TTC）	风险管理
+internal rating	内部评级	风险管理
+credit scorecard	信用评分卡	风险管理
+sovereign risk	主权风险	风险管理
+transfer risk	转移风险	风险管理
+liquidity gap	流动性缺口	风险管理
+cash flow at risk	现金流风险值（CFaR）	风险管理
+earnings at risk	盈利风险值（EaR）	风险管理
+repricing gap	重定价缺口	风险管理
+economic value of equity	权益经济价值（EVE）	风险管理
+yield curve risk	收益率曲线风险	风险管理
+repricing risk	重新定价风险	风险管理
+key risk indicator	关键风险指标（KRI）	风险管理
+risk and control self-assessment	风险与控制自我评估（RCSA）	风险管理
+loss distribution approach	损失分布法（LDA）	风险管理
+three lines of defense	三道防线	风险管理
+rogue trading	违规交易；流氓交易	风险管理
+cyber risk	网络风险	风险管理
+conduct risk	行为风险	风险管理
+legal risk	法律风险	风险管理
+reputational risk	声誉风险	风险管理
+compliance risk	合规风险	风险管理
+model validation	模型验证	风险管理
+climate risk	气候风险	风险管理
+physical risk	物理风险	风险管理
+transition risk	转型风险	风险管理
+event risk	事件风险	风险管理
+jump risk	跳跃风险	风险管理
+gap risk	跳空风险	风险管理
+correlation risk	相关性风险	风险管理
+volatility risk	波动率风险	风险管理
+commodity price risk	商品价格风险	风险管理
+call risk	赎回风险	风险管理
+risk governance	风险治理	风险管理
+chief risk officer	首席风险官（CRO）	风险管理
+risk culture	风险文化	风险管理
+risk capacity	风险承受能力	风险管理
+risk mitigation	风险缓释	风险管理
+reverse stress testing	反向压力测试	风险管理
+CoVaR	条件在险价值（CoVaR）	风险管理
+marginal expected shortfall	边际期望损失（MES）	风险管理
+SRISK	SRISK系统性风险指标	风险管理
+contagion risk	传染风险	风险管理
+financial stress index	金融压力指数	风险管理
+financial conditions index	金融状况指数	风险管理
+early warning indicator	早期预警指标	风险管理
+credit-to-GDP gap	信贷/GDP缺口	风险管理
+collateral management	抵押品管理	风险管理
+rehypothecation	再抵押	风险管理
+novation	合约更替	风险管理
+downturn LGD	经济下行期违约损失率	风险管理
+Black-Cox model	布莱克-考克斯模型	风险管理
+Leland model	利兰模型	风险管理
+Duffie-Singleton model	达菲-辛格尔顿模型	风险管理
+Jarrow-Turnbull model	贾罗-特恩布尔模型	风险管理
+expected default frequency	预期违约频率（EDF）	风险管理
+CreditMetrics	CreditMetrics模型	风险管理
+CreditRisk+	CreditRisk+模型	风险管理
+rating transition matrix	评级转移矩阵	风险管理
+credit cycle	信用周期	风险管理
+leverage cycle	杠杆周期	风险管理
+liquidity black hole	流动性黑洞	风险管理
+margin spiral	保证金螺旋	风险管理
+loss spiral	损失螺旋	风险管理
+Herstatt risk	赫斯塔特风险	风险管理
+credit exposure	信用风险暴露	风险管理
+counterparty credit risk	交易对手信用风险	风险管理
+specific risk	特定风险	风险管理
+residual risk	剩余风险	风险管理
+risk identification	风险识别	风险管理
+risk assessment	风险评估	风险管理
+loss event	损失事件	风险管理
+internal fraud	内部欺诈	风险管理
+external fraud	外部欺诈	风险管理
+operational loss	操作损失	风险管理
+historical VaR	历史法VaR	风险管理
+parametric VaR	参数法VaR	风险管理
+Monte Carlo VaR	蒙特卡罗VaR	风险管理
+VaR exception	VaR例外	风险管理
+holding period	持有期	风险管理
+square-root-of-time rule	时间平方根法则	风险管理
+liquidity-adjusted VaR	流动性调整VaR	风险管理
+tail dependence	尾部相关性	风险管理
+risk aggregation	风险加总	风险管理
+diversification benefit	分散化收益	风险管理
+volatility forecasting	波动率预测	风险管理
+jump-to-default risk	跳跃违约风险	风险管理
+credit risk premium	信用风险溢价	风险管理
+name concentration	单一客户集中度	风险管理
+large exposure	大额风险暴露	风险管理
+risk-weighted asset density	风险加权资产密度	风险管理
+Board of Governors of the Federal Reserve System	美国联邦储备系统理事会	金融监管
+Office of Thrift Supervision	储蓄机构监理局（OTS）	金融监管
+National Credit Union Administration	国家信用社管理局（NCUA）	金融监管
+Office of Financial Research	金融研究办公室（OFR）	金融监管
+Federal Housing Finance Agency	联邦住房金融局（FHFA）	金融监管
+Municipal Securities Rulemaking Board	市政证券规则制定委员会（MSRB）	金融监管
+Financial Crimes Enforcement Network	金融犯罪执法网络（FinCEN）	金融监管
+National Futures Association	全美期货协会（NFA）	金融监管
+Federal Insurance Office	联邦保险办公室	金融监管
+Federal Reserve Act	联邦储备法	金融监管
+Riegle-Neal Interstate Banking and Branching Efficiency Act	里格尔-尼尔州际银行法	金融监管
+Depository Institutions Deregulation and Monetary Control Act	存款机构放松管制和货币控制法	金融监管
+Garn-St Germain Depository Institutions Act	加恩-圣杰曼存款机构法	金融监管
+Financial Institutions Reform, Recovery, and Enforcement Act	金融机构改革、复兴和实施法	金融监管
+FDIC Improvement Act	联邦存款保险公司改进法（FDICIA）	金融监管
+Bank Secrecy Act	银行保密法	金融监管
+Trust Indenture Act of 1939	1939年信托契约法	金融监管
+Commodity Exchange Act	商品交易法	金融监管
+Commodity Futures Modernization Act	商品期货现代化法	金融监管
+Emergency Economic Stabilization Act of 2008	2008年紧急经济稳定法	金融监管
+Truth in Lending Act	诚实借贷法	金融监管
+Fair Credit Reporting Act	公平信用报告法	金融监管
+Equal Credit Opportunity Act	平等信贷机会法	金融监管
+Home Mortgage Disclosure Act	住房抵押贷款披露法	金融监管
+Employee Retirement Income Security Act	雇员退休收入保障法（ERISA）	金融监管
+McFadden Act	麦克法登法	金融监管
+Williams Act	威廉姆斯法	金融监管
+Hart-Scott-Rodino Act	哈特-斯科特-罗迪诺法	金融监管
+Regulation T	T条例（证券信贷）	金融监管
+Regulation SHO	SHO条例（卖空监管）	金融监管
+Regulation D	D条例（私募豁免）	金融监管
+Rule 144A	144A规则	金融监管
+Regulation S	S条例（境外发行）	金融监管
+Regulation A+	A+条例	金融监管
+Rule 10b-5	10b-5规则	金融监管
+Rule 10b5-1 plan	10b5-1交易计划	金融监管
+short-swing profit rule	短线交易归入规则	金融监管
+Form 13F	13F表（机构持仓报告）	金融监管
+Schedule 13D	13D表（大额持股披露）	金融监管
+Regulation Best Interest	最佳利益规则（Reg BI）	金融监管
+Regulation National Market System	全国市场系统规则（Reg NMS）	金融监管
+MiFID II	欧盟金融工具市场指令II（MiFID II）	金融监管
+European Market Infrastructure Regulation	欧洲市场基础设施监管条例（EMIR）	金融监管
+Markets in Crypto-Assets Regulation	加密资产市场监管条例（MiCA）	金融监管
+European Banking Authority	欧洲银行管理局（EBA）	金融监管
+European Securities and Markets Authority	欧洲证券与市场管理局（ESMA）	金融监管
+European Insurance and Occupational Pensions Authority	欧洲保险和职业养老金管理局（EIOPA）	金融监管
+Single Supervisory Mechanism	单一监管机制（SSM）	金融监管
+Single Resolution Mechanism	单一处置机制（SRM）	金融监管
+banking union	银行业联盟	金融监管
+Financial Conduct Authority	金融行为监管局（FCA）	金融监管
+Prudential Regulation Authority	审慎监管局（PRA）	金融监管
+Financial Services Authority	金融服务管理局（FSA）	金融监管
+twin peaks model	双峰监管模式	金融监管
+Hong Kong Monetary Authority	香港金融管理局	金融监管
+Securities and Futures Commission	香港证券及期货事务监察委员会	金融监管
+Monetary Authority of Singapore	新加坡金融管理局	金融监管
+Financial Action Task Force	金融行动特别工作组（FATF）	金融监管
+International Association of Insurance Supervisors	国际保险监督官协会（IAIS）	金融监管
+Committee on Payments and Market Infrastructures	支付与市场基础设施委员会（CPMI）	金融监管
+Principles for Financial Market Infrastructures	金融市场基础设施原则（PFMI）	金融监管
+China Securities Regulatory Commission	中国证券监督管理委员会（证监会）	金融监管
+China Banking and Insurance Regulatory Commission	中国银行保险监督管理委员会（银保监会）	金融监管
+National Financial Regulatory Administration	国家金融监督管理总局	金融监管
+China Banking Regulatory Commission	中国银行业监督管理委员会（银监会）	金融监管
+China Insurance Regulatory Commission	中国保险监督管理委员会（保监会）	金融监管
+State Administration of Foreign Exchange	国家外汇管理局	金融监管
+Financial Stability and Development Committee	国务院金融稳定发展委员会	金融监管
+Central Financial Commission	中央金融委员会	金融监管
+Securities Association of China	中国证券业协会	金融监管
+Asset Management Association of China	中国证券投资基金业协会	金融监管
+Securities Law of the People's Republic of China	中华人民共和国证券法	金融监管
+Futures and Derivatives Law of the People's Republic of China	中华人民共和国期货和衍生品法	金融监管
+China Securities Investor Protection Fund	中国证券投资者保护基金	金融监管
+New Regulations on Asset Management	资管新规	金融监管
+implicit guarantee	隐性担保；刚性兑付	金融监管
+channel business	通道业务	金融监管
+look-through supervision	穿透式监管	金融监管
+functional regulation	功能监管	金融监管
+institutional regulation	机构监管	金融监管
+conduct regulation	行为监管	金融监管
+separate operation	分业经营	金融监管
+mixed operation	混业经营	金融监管
+dual-pillar regulatory framework	货币政策和宏观审慎政策双支柱	金融监管
+listing rules	上市规则	金融监管
+fraudulent issuance	欺诈发行	金融监管
+market abuse	市场滥用	金融监管
+churning	过度交易（炒单）	金融监管
+late trading	延迟交易	金融监管
+Chinese wall	信息隔离墙	金融监管
+dynamic provisioning	动态拨备	金融监管
+stress capital buffer	压力资本缓冲	金融监管
+ring-fencing	围栏隔离	金融监管
+counter-terrorist financing	反恐怖融资（CFT）	金融监管
+suspicious activity report	可疑交易报告（SAR）	金融监管
+customer due diligence	客户尽职调查（CDD）	金融监管
+beneficial ownership	受益所有权	金融监管
+qualified institutional buyer	合格机构买家（QIB）	金融监管
+safe harbor	安全港	金融监管
+securities class action	证券集体诉讼	金融监管
+Basel I	巴塞尔协议I	金融监管
+Basel II	巴塞尔协议II	金融监管
+Basel III endgame	巴塞尔III最终方案	金融监管
+three pillars of Basel II	巴塞尔协议三大支柱	金融监管
+standardized approach	标准法	金融监管
+internal ratings-based approach	内部评级法（IRB）	金融监管
+foundation internal ratings-based approach	初级内部评级法	金融监管
+advanced internal ratings-based approach	高级内部评级法	金融监管
+internal models approach	内部模型法	金融监管
+basic indicator approach	基本指标法	金融监管
+advanced measurement approach	高级计量法（AMA）	金融监管
+Fundamental Review of the Trading Book	交易账簿基本审查（FRTB）	金融监管
+trading book	交易账簿	金融监管
+banking book	银行账簿	金融监管
+interest rate risk in the banking book	银行账簿利率风险（IRRBB）	金融监管
+output floor	输出下限	金融监管
+stressed VaR	压力VaR	金融监管
+incremental risk charge	新增风险资本要求（IRC）	金融监管
+credit conversion factor	信用转换系数（CCF）	金融监管
+risk weight	风险权重	金融监管
+G-SIB surcharge	全球系统重要性银行附加资本	金融监管
+global systemically important bank	全球系统重要性银行（G-SIB）	金融监管
+domestic systemically important bank	国内系统重要性银行（D-SIB）	金融监管
+large exposures framework	大额风险暴露框架	金融监管
+supervisory review process	监督检查程序	金融监管
+market discipline	市场约束	金融监管
+high-quality liquid assets	优质流动性资产（HQLA）	金融监管
+Comprehensive Capital Analysis and Review	综合资本分析和审查（CCAR）	金融监管
+supervisory stress test	监管压力测试	金融监管
+bank resolution	银行处置	金融监管
+orderly liquidation authority	有序清算授权	金融监管
+purchase and assumption	收购与承接	金融监管
+bridge bank	过桥银行	金融监管
+prompt corrective action	及时纠正措施	金融监管
+minimum requirement for own funds and eligible liabilities	自有资金和合格负债最低要求（MREL）	金融监管
+Solvency II	欧盟偿付能力监管II	金融监管
+China Risk Oriented Solvency System	中国风险导向偿付能力体系（偿二代）	金融监管
+National Association of Insurance Commissioners	全美保险监督官协会（NAIC）	金融监管
+Howey test	豪威测试	金融监管
+Regulation SCI	SCI条例（系统合规与完整性）	金融监管
+consolidated audit trail	综合审计跟踪（CAT）	金融监管
+Form ADV	ADV表（投资顾问注册）	金融监管
+Form S-1	S-1表（首次公开发行注册）	金融监管
+Form 4	4号表（内部人交易报告）	金融监管
+leverage ratio buffer	杠杆率缓冲	金融监管
+systemic risk buffer	系统性风险缓冲	金融监管
+loan-to-value limit	贷款价值比上限	金融监管
+debt-service-to-income limit	偿债收入比上限	金融监管
+financial consumer protection	金融消费者保护	金融监管
+banking supervision	银行监管	金融监管
+securities regulation	证券监管	金融监管
+insurance regulation	保险监管	金融监管
+financial regulatory reform	金融监管改革	金融监管
+regulatory reporting	监管报送	金融监管
+enforcement action	执法行动	金融监管
+cease-and-desist order	停止令	金融监管
+disgorgement	非法所得返还	金融监管
+consent decree	同意令；和解令	金融监管
+Smithsonian Agreement	史密森协定	国际金融
+Louvre Accord	卢浮宫协议	国际金融
+Jamaica Agreement	牙买加协议	国际金融
+European Monetary System	欧洲货币体系	国际金融
+Exchange Rate Mechanism	欧洲汇率机制（ERM）	国际金融
+target zone	汇率目标区	国际金融
+basket peg	钉住一篮子货币	国际金融
+central parity rate	汇率中间价	国际金融
+countercyclical factor	逆周期因子	国际金融
+CFETS RMB index	CFETS人民币汇率指数	国际金融
+onshore renminbi	在岸人民币（CNY）	国际金融
+offshore renminbi	离岸人民币（CNH）	国际金融
+RMB clearing bank	人民币清算行	国际金融
+central bank swap line	央行货币互换额度	国际金融
+bilateral currency swap agreement	双边本币互换协议	国际金融
+exorbitant privilege	过度特权	国际金融
+currency mismatch	货币错配	国际金融
+maturity mismatch	期限错配	国际金融
+twin crises	孪生危机	国际金融
+first-generation currency crisis model	第一代货币危机模型	国际金融
+second-generation currency crisis model	第二代货币危机模型	国际金融
+third-generation currency crisis model	第三代货币危机模型	国际金融
+speculative attack	投机性攻击	国际金融
+safe-haven currency	避险货币	国际金融
+commodity currency	商品货币	国际金融
+vehicle currency	媒介货币；载体货币	国际金融
+invoicing currency	计价货币；结算货币	国际金融
+dominant currency paradigm	主导货币范式	国际金融
+value date	起息日	国际金融
+pip	点（外汇最小报价单位）	国际金融
+American terms	美式标价	国际金融
+European terms	欧式标价	国际金融
+base currency	基准货币	国际金融
+quote currency	报价货币	国际金融
+currency pair	货币对	国际金融
+triangular arbitrage	三角套汇	国际金融
+unsterilized intervention	非冲销式干预	国际金融
+currency hedging	货币对冲	国际金融
+currency overlay	货币叠加管理	国际金融
+international parity conditions	国际平价条件	国际金融
+relative purchasing power parity	相对购买力平价	国际金融
+absolute purchasing power parity	绝对购买力平价	国际金融
+forward rate unbiasedness hypothesis	远期汇率无偏假说	国际金融
+asset market approach to exchange rates	汇率资产市场分析法	国际金融
+monetary approach to exchange rates	汇率货币分析法	国际金融
+portfolio balance approach	资产组合平衡分析法	国际金融
+Meese-Rogoff puzzle	米斯-罗格夫之谜	国际金融
+exchange rate disconnect puzzle	汇率脱节之谜	国际金融
+international capital flows	国际资本流动	国际金融
+Paris Club	巴黎俱乐部	国际金融
+collective action clause	集体行动条款	国际金融
+pari passu clause	同等受偿条款	国际金融
+IMF conditionality	IMF贷款条件	国际金融
+stand-by arrangement	备用安排	国际金融
+Chiang Mai Initiative	清迈倡议	国际金融
+global financial safety net	全球金融安全网	国际金融
+currency war	货币战争	国际金融
+competitive devaluation	竞争性贬值	国际金融
+clean float	清洁浮动	国际金融
+dirty float	肮脏浮动	国际金融
+hard peg	硬钉住	国际金融
+soft peg	软钉住	国际金融
+fear of floating	害怕浮动	国际金融
+currency convertibility	货币可兑换性	国际金融
+current account convertibility	经常项目可兑换	国际金融
+capital account convertibility	资本项目可兑换	国际金融
+cross-border RMB settlement	跨境人民币结算	国际金融
+foreign exchange settlement and sale	结售汇	国际金融
+expropriation risk	征收风险	国际金融
+cross-border banking	跨境银行业务	国际金融
+Asian dollar market	亚洲美元市场	国际金融
+Qualified Domestic Institutional Investor	合格境内机构投资者（QDII）	国际金融
+RMB Qualified Foreign Institutional Investor	人民币合格境外机构投资者（RQFII）	国际金融
+Shenzhen-Hong Kong Stock Connect	深港通	国际金融
+Bond Connect	债券通	国际金融
+Swap Connect	互换通	国际金融
+Wealth Management Connect	跨境理财通	国际金融
+Shanghai-London Stock Connect	沪伦通	国际金融
+northbound capital	北向资金	国际金融
+southbound capital	南向资金	国际金融
+China Foreign Exchange Trade System	中国外汇交易中心（CFETS）	国际金融
+currency risk premium	货币风险溢价	国际金融
+currency momentum	货币动量	国际金融
+currency value strategy	货币价值策略	国际金融
+dollar factor	美元因子	国际金融
+carry factor	套息因子	国际金融
+global liquidity	全球流动性	国际金融
+capital flow management measures	资本流动管理措施	国际金融
+portfolio flows	证券投资流动	国际金融
+cross-border lending	跨境贷款	国际金融
+external debt	外债	国际金融
+foreign currency debt	外币债务	国际金融
+dollar funding	美元融资	国际金融
+dollar shortage	美元荒	国际金融
+dollar dominance	美元主导地位	国际金融
+currency internationalization	货币国际化	国际金融
+multinational financial management	跨国财务管理	国际金融
+international capital budgeting	国际资本预算	国际金融
+international bond market	国际债券市场	国际金融
+international banking facility	国际银行设施（IBF）	国际金融
+offshore financial center	离岸金融中心	国际金融
+linked exchange rate system	联系汇率制度	国际金融
+salience theory	显著性理论	行为金融
+skewness preference	偏度偏好	行为金融
+lottery preference	彩票偏好	行为金融
+realization utility	实现效用	行为金融
+sensation seeking	寻求刺激	行为金融
+style investing	风格投资	行为金融
+excess comovement	过度联动	行为金融
+positive feedback trading	正反馈交易	行为金融
+greater fool theory	博傻理论	行为金融
+ostrich effect	鸵鸟效应	行为金融
+affect heuristic	情感启发式	行为金融
+SP/A theory	安全-潜力/渴望理论（SP/A）	行为金融
+behavioral portfolio theory	行为投资组合理论	行为金融
+diagnostic expectations	诊断性预期	行为金融
+law of small numbers	小数定律	行为金融
+managerial overconfidence	管理者过度自信	行为金融
+behavioral corporate finance	行为公司金融	行为金融
+investor recognition hypothesis	投资者认知假说	行为金融
+local bias	本地偏好	行为金融
+Baker-Wurgler sentiment index	贝克-伍格勒投资者情绪指数	行为金融
+gradual information diffusion	信息渐进扩散	行为金融
+attention-grabbing stocks	吸引注意力的股票	行为金融
+attention-induced trading	注意力驱动交易	行为金融
+rational speculator	理性投机者	行为金融
+arbitrage risk	套利风险	行为金融
+synchronization risk	同步风险	行为金融
+dumb money	愚蠢资金	行为金融
+investor learning	投资者学习	行为金融
+experience effect	经历效应	行为金融
+fear index	恐慌指数	行为金融
+break-even effect	翻本效应；盈亏平衡效应	行为金融
+rank-dependent utility	秩依赖效用	行为金融
+inverse S-shaped probability weighting	倒S形概率权重	行为金融
+gain-loss utility	收益-损失效用	行为金融
+reference-dependent preferences	参照依赖偏好	行为金融
+altcoin	山寨币；竞争币	金融科技
+crypto asset	加密资产	金融科技
+digital asset	数字资产	金融科技
+virtual currency	虚拟货币	金融科技
+private key	私钥	金融科技
+public key	公钥	金融科技
+hash function	哈希函数	金融科技
+cryptocurrency mining	加密货币挖矿	金融科技
+block reward	区块奖励	金融科技
+Bitcoin halving	比特币减半	金融科技
+hash rate	算力；哈希率	金融科技
+double-spending problem	双重支付问题；双花问题	金融科技
+51% attack	51%攻击	金融科技
+hard fork	硬分叉	金融科技
+soft fork	软分叉	金融科技
+layer 2	二层网络（Layer 2）	金融科技
+Lightning Network	闪电网络	金融科技
+gas fee	Gas费；燃料费	金融科技
+blockchain oracle	预言机	金融科技
+decentralized autonomous organization	去中心化自治组织（DAO）	金融科技
+governance token	治理代币	金融科技
+utility token	功能型代币	金融科技
+security token	证券型代币	金融科技
+security token offering	证券型代币发行（STO）	金融科技
+initial exchange offering	首次交易所发行（IEO）	金融科技
+airdrop	空投	金融科技
+liquidity mining	流动性挖矿	金融科技
+yield farming	收益耕作	金融科技
+staking	质押	金融科技
+liquidity pool	流动性池	金融科技
+impermanent loss	无常损失	金融科技
+flash loan	闪电贷	金融科技
+lending protocol	借贷协议	金融科技
+wrapped token	封装代币	金融科技
+cross-chain bridge	跨链桥	金融科技
+cold wallet	冷钱包	金融科技
+hot wallet	热钱包	金融科技
+centralized exchange	中心化交易所（CEX）	金融科技
+public blockchain	公有链	金融科技
+private blockchain	私有链	金融科技
+consortium blockchain	联盟链	金融科技
+permissioned blockchain	许可链	金融科技
+Merkle tree	默克尔树	金融科技
+Byzantine fault tolerance	拜占庭容错	金融科技
+delegated proof of stake	委托权益证明（DPoS）	金融科技
+tokenomics	代币经济学	金融科技
+algorithmic stablecoin	算法稳定币	金融科技
+fiat-collateralized stablecoin	法币抵押稳定币	金融科技
+crypto-collateralized stablecoin	加密资产抵押稳定币	金融科技
+Tether	泰达币（USDT）	金融科技
+Libra	天秤币（Libra）	金融科技
+Bitcoin ETF	比特币ETF	金融科技
+crypto winter	加密寒冬	金融科技
+rug pull	跑路骗局	金融科技
+real-world asset tokenization	现实世界资产代币化（RWA）	金融科技
+retail CBDC	零售型央行数字货币	金融科技
+wholesale CBDC	批发型央行数字货币	金融科技
+two-tier CBDC system	双层运营体系	金融科技
+Multiple CBDC Bridge	多边央行数字货币桥（mBridge）	金融科技
+challenger bank	挑战者银行	金融科技
+neobank	新型数字银行	金融科技
+embedded finance	嵌入式金融	金融科技
+banking-as-a-service	银行即服务（BaaS）	金融科技
+QR code payment	二维码支付	金融科技
+Alipay	支付宝	金融科技
+WeChat Pay	微信支付	金融科技
+Yu'e Bao	余额宝	金融科技
+big tech credit	大型科技公司信贷	金融科技
+alternative credit scoring	替代性信用评分	金融科技
+Sesame Credit	芝麻信用	金融科技
+digital financial inclusion index	数字普惠金融指数	金融科技
+supervisory technology	监管科技（SupTech）	金融科技
+payment license	支付牌照	金融科技
+electronic money	电子货币	金融科技
+electronic funds transfer	电子资金转账（EFT）	金融科技
+FedNow	FedNow即时支付服务	金融科技
+M-Pesa	M-Pesa移动支付	金融科技
+reward-based crowdfunding	回报型众筹	金融科技
+marketplace lending	市场借贷	金融科技
+online lending platform	网络借贷平台	金融科技
+crypto custody	加密资产托管	金融科技
+crypto lending	加密借贷	金融科技
+on-chain data	链上数据	金融科技
+digital payment	数字支付	金融科技
+contactless payment	非接触式支付	金融科技
+payment gateway	支付网关	金融科技
+open API	开放API	金融科技
+account aggregation	账户聚合	金融科技
+peer-to-peer payment	点对点支付	金融科技
+cross-border payment	跨境支付	金融科技
+remittance	汇款；侨汇	金融科技
+digital lending	数字信贷	金融科技
+fintech credit	金融科技信贷	金融科技
+ESG rating	ESG评级	可持续金融
+ESG integration	ESG整合	可持续金融
+negative screening	负面筛选	可持续金融
+positive screening	正面筛选	可持续金融
+best-in-class approach	同类最佳法	可持续金融
+norms-based screening	基于规范的筛选	可持续金融
+thematic investing	主题投资	可持续金融
+shareholder engagement	股东参与	可持续金融
+ESG disclosure	ESG信息披露	可持续金融
+Taskforce on Nature-related Financial Disclosures	自然相关财务信息披露工作组（TNFD）	可持续金融
+Principles for Responsible Investment	负责任投资原则（PRI）	可持续金融
+Equator Principles	赤道原则	可持续金融
+Network for Greening the Financial System	央行与监管机构绿色金融网络（NGFS）	可持续金融
+EU Taxonomy	欧盟可持续金融分类法	可持续金融
+Sustainable Finance Disclosure Regulation	可持续金融信息披露条例（SFDR）	可持续金融
+green finance	绿色金融	可持续金融
+climate finance	气候投融资；气候金融	可持续金融
+transition finance	转型金融	可持续金融
+blended finance	混合融资	可持续金融
+green loan	绿色贷款	可持续金融
+green credit	绿色信贷	可持续金融
+social bond	社会责任债券	可持续金融
+sustainability bond	可持续发展债券	可持续金融
+sustainability-linked bond	可持续发展挂钩债券（SLB）	可持续金融
+sustainability-linked loan	可持续发展挂钩贷款（SLL）	可持续金融
+transition bond	转型债券	可持续金融
+blue bond	蓝色债券	可持续金融
+carbon neutral bond	碳中和债券	可持续金融
+Green Bond Principles	绿色债券原则	可持续金融
+greenium	绿色溢价	可持续金融
+carbon market	碳市场	可持续金融
+carbon credit	碳信用	可持续金融
+voluntary carbon market	自愿碳市场	可持续金融
+China Certified Emission Reduction	国家核证自愿减排量（CCER）	可持续金融
+carbon futures	碳期货	可持续金融
+carbon risk	碳风险	可持续金融
+carbon premium	碳溢价	可持续金融
+weighted average carbon intensity	加权平均碳强度（WACI）	可持续金融
+financed emissions	融资排放	可持续金融
+stranded assets	搁浅资产	可持续金融
+climate stress test	气候压力测试	可持续金融
+climate value at risk	气候风险价值	可持续金融
+climate scenario analysis	气候情景分析	可持续金融
+fossil fuel divestment	化石燃料撤资	可持续金融
+sin stocks	罪恶股票	可持续金融
+ESG rating divergence	ESG评级分歧	可持续金融
+social impact bond	社会影响力债券	可持续金融
+CDP	全球环境信息研究中心（CDP）	可持续金融
+biodiversity finance	生物多样性金融	可持续金融
+carbon emission allowance	碳排放配额	可持续金融
+national carbon emissions trading market	全国碳排放权交易市场	可持续金融
+carbon pricing	碳定价	可持续金融
+carbon disclosure	碳信息披露	可持续金融
+ESG fund	ESG基金	可持续金融
+ESG index	ESG指数	可持续金融
+green fund	绿色基金	可持续金融
+green insurance	绿色保险	可持续金融
+green bond certification	绿色债券认证	可持续金融
+second-party opinion	第二方意见	可持续金融
+use of proceeds	募集资金用途	可持续金融
+sustainability performance target	可持续发展绩效目标（SPT）	可持续金融
+ESG investing	ESG投资	可持续金融
+responsible investment	负责任投资	可持续金融
+sustainable investing	可持续投资	可持续金融
+ESG risk	ESG风险	可持续金融
+ESG performance	ESG表现	可持续金融
+environmental disclosure	环境信息披露	可持续金融
+climate policy uncertainty	气候政策不确定性	可持续金融
+carbon neutrality	碳中和	可持续金融
+carbon peaking	碳达峰	可持续金融
+net-zero emissions	净零排放	可持续金融
+just transition	公正转型	可持续金融
+green premium	绿色溢价	可持续金融
+brown asset	棕色资产	可持续金融
+green asset ratio	绿色资产比率	可持续金融
+Newey-West standard errors	Newey-West标准误	实证金融
+double-clustered standard errors	双重聚类标准误	实证金融
+two-pass regression	两步回归法	实证金融
+errors-in-variables problem	变量误差问题	实证金融
+Shanken correction	Shanken修正	实证金融
+time-series regression	时间序列回归	实证金融
+cross-sectional regression	横截面回归	实证金融
+characteristic-adjusted return	特征调整收益率	实证金融
+DGTW benchmark	DGTW特征基准	实证金融
+market-adjusted return	市场调整收益率	实证金融
+mean-adjusted return	均值调整收益率	实证金融
+Patell test	Patell检验	实证金融
+BMP test	BMP检验	实证金融
+Corrado rank test	Corrado秩检验	实证金融
+quasi-natural experiment	准自然实验	实证金融
+Russell index reconstitution	罗素指数重构	实证金融
+Regulation SHO pilot program	SHO卖空试点计划	实证金融
+tick size pilot program	最小报价单位试点计划	实证金融
+abnormal trading volume	异常交易量	实证金融
+long-run event study	长期事件研究	实证金融
+matching firm approach	配对公司法	实证金融
+Global Industry Classification Standard	全球行业分类标准（GICS）	实证金融
+CSRC industry classification	证监会行业分类	实证金融
+Shenwan industry classification	申万行业分类	实证金融
+Fama-French 48-industry classification	Fama-French 48行业分类	实证金融
+Wharton Research Data Services	沃顿研究数据服务（WRDS）	实证金融
+CSMAR	国泰安数据库（CSMAR）	实证金融
+Wind Financial Terminal	万得金融终端（Wind）	实证金融
+SDC Platinum	SDC Platinum并购与发行数据库	实证金融
+ExecuComp	ExecuComp高管薪酬数据库	实证金融
+Trade Reporting and Compliance Engine	债券交易报告与合规引擎（TRACE）	实证金融
+Bloomberg terminal	彭博终端	实证金融
+NYSE breakpoints	纽交所分位点	实证金融
+independent sort	独立分组	实证金融
+dependent sort	条件分组；序贯分组	实证金融
+univariate sort	单变量分组	实证金融
+equal-weighted return	等权收益率	实证金融
+value-weighted return	市值加权收益率	实证金融
+monotonicity test	单调性检验	实证金融
+post-publication decay	发表后衰减	实证金融
+stale price	陈旧价格	实证金融
+nonsynchronous trading	非同步交易	实证金融
+Dimson beta	Dimson贝塔	实证金融
+Scholes-Williams beta	Scholes-Williams贝塔	实证金融
+Blume beta adjustment	Blume贝塔调整	实证金融
+rolling window regression	滚动窗口回归	实证金融
+analyst forecast error	分析师预测误差	实证金融
+analyst optimism	分析师乐观偏差	实证金融
+analyst recommendation	分析师评级；分析师推荐	实证金融
+institutional ownership	机构持股比例	实证金融
+breadth of ownership	持股宽度	实证金融
+flow-induced price pressure	资金流引致的价格压力	实证金融
+price pressure hypothesis	价格压力假说	实证金融
+downward-sloping demand curve for stocks	股票需求曲线向下倾斜	实证金融
+Stambaugh bias	Stambaugh偏误	实证金融
+Clark-West test	Clark-West检验	实证金融
+Treynor-Mazuy model	Treynor-Mazuy择时模型	实证金融
+Henriksson-Merton model	Henriksson-Merton择时模型	实证金融
+market timing ability	择时能力	实证金融
+stock selection ability	选股能力	实证金融
+information leakage	信息泄露	实证金融
+pre-announcement drift	公告前漂移	实证金融
+negative conditional skewness	负收益偏态系数（NCSKEW）	实证金融
+down-to-up volatility	收益上下波动比率（DUVOL）	实证金融
+value effect	价值效应	实证金融
+gross profitability premium	毛利率溢价	实证金融
+net stock issuance anomaly	净股票发行异象	实证金融
+net operating assets anomaly	净经营资产异象	实证金融
+distress anomaly	财务困境异象	实证金融
+momentum crash	动量崩溃	实证金融
+residual momentum	残差动量	实证金融
+52-week high effect	52周高点效应	实证金融
+frog-in-the-pan hypothesis	温水煮青蛙假说	实证金融
+factor momentum	因子动量	实证金融
+return seasonality	收益季节性	实证金融
+MAX effect	MAX效应；极端收益效应	实证金融
+lead-lag effect	领先-滞后效应	实证金融
+P/E effect	市盈率效应	实证金融
+index inclusion effect	指数纳入效应	实证金融
+Google search volume index	谷歌搜索量指数（SVI）	实证金融
+weather effect	天气效应	实证金融
+Halloween effect	万圣节效应	实证金融
+turn-of-the-month effect	月初效应；月份转换效应	实证金融
+holiday effect	假日效应	实证金融
+Monday effect	周一效应	实证金融
+day-of-the-week effect	星期效应	实证金融
+price clustering	价格聚集	实证金融
+Loughran-McDonald dictionary	Loughran-McDonald金融情感词典	实证金融
+textual tone	文本语调	实证金融
+out-of-sample test	样本外检验	实证金融
+replication crisis	可复制性危机	实证金融
+t-statistic hurdle	t统计量门槛	实证金融
+multiple hypothesis testing	多重假设检验	实证金融
+luck versus skill	运气与能力	实证金融
+return gap	收益缺口	实证金融
+price delay	价格延迟	实证金融
+event-time portfolio	事件时间组合	实证金融
+characteristic portfolio	特征组合	实证金融
+size-adjusted return	规模调整收益率	实证金融
+industry-adjusted return	行业调整收益率	实证金融
+three-factor alpha	三因子阿尔法	实证金融
+long leg	多头端	实证金融
+short leg	空头端	实证金融
+tulip mania	郁金香狂热	金融史
+South Sea Bubble	南海泡沫	金融史
+Mississippi Bubble	密西西比泡沫	金融史
+Panic of 1907	1907年大恐慌	金融史
+Wall Street Crash of 1929	1929年华尔街股灾	金融史
+Black Thursday	黑色星期四（1929年）	金融史
+Black Monday	黑色星期一（1987年）	金融史
+savings and loan crisis	储贷危机	金融史
+Latin American debt crisis	拉美债务危机	金融史
+Asian financial crisis	亚洲金融危机	金融史
+Russian financial crisis	俄罗斯金融危机（1998年）	金融史
+Long-Term Capital Management	长期资本管理公司（LTCM）	金融史
+dot-com bubble	互联网泡沫	金融史
+Enron scandal	安然丑闻	金融史
+subprime mortgage crisis	次贷危机	金融史
+global financial crisis	全球金融危机	金融史
+Lehman Brothers bankruptcy	雷曼兄弟破产	金融史
+AIG bailout	美国国际集团救助	金融史
+European sovereign debt crisis	欧洲主权债务危机	金融史
+Mexican peso crisis	墨西哥比索危机	金融史
+Black Wednesday	黑色星期三（1992年）	金融史
+Japanese asset price bubble	日本资产价格泡沫	金融史
+2015 Chinese stock market crash	2015年中国股灾	金融史
+GameStop short squeeze	游戏驿站轧空事件	金融史
+Silicon Valley Bank collapse	硅谷银行倒闭	金融史
+Credit Suisse crisis	瑞士信贷危机	金融史
+taper tantrum	缩减恐慌	金融史
+Madoff investment scandal	麦道夫投资丑闻	金融史
+Barings Bank collapse	巴林银行倒闭	金融史
+Continental Illinois	伊利诺伊大陆银行	金融史
+Minsky moment	明斯基时刻	金融史
+financial instability hypothesis	金融不稳定假说	金融史
+Bagehot's rule	白芝浩原则	金融史
+Dutch East India Company	荷兰东印度公司	金融史
+Buttonwood Agreement	梧桐树协议	金融史
+Shanxi piaohao	山西票号	金融史
+qianzhuang	钱庄	金融史
+jiaozi	交子	金融史
+327 treasury bond futures incident	327国债期货事件	金融史
+Big Bang	金融大爆炸（英国1986年）	金融史
+May Day 1975	五一改革（1975年佣金自由化）	金融史
+Nifty Fifty	漂亮50	金融史
+Nixon shock	尼克松冲击	金融史
+Volcker shock	沃尔克冲击	金融史
+Terra-Luna collapse	Terra-Luna崩盘	金融史
+FTX collapse	FTX崩盘	金融史
+LIBOR scandal	LIBOR操纵丑闻	金融史
+Pecora Commission	佩科拉委员会	金融史
+Herstatt Bank failure	赫斯塔特银行倒闭	金融史
+Northern Rock bank run	北岩银行挤兑	金融史
+Icelandic financial crisis	冰岛金融危机	金融史
+Bear Stearns collapse	贝尔斯登倒闭	金融史
+Greek debt crisis	希腊债务危机	金融史
+Argentine debt crisis	阿根廷债务危机	金融史
+Archegos collapse	Archegos爆仓事件	金融史
+COVID-19 market crash	新冠疫情股市崩盘	金融史
+dash for cash	现金争夺（2020年3月）	金融史
+UK gilt crisis	英国国债危机（2022年）	金融史
+Penn Central bankruptcy	宾州中央铁路破产	金融史
+Drexel Burnham Lambert	德崇证券	金融史
+Glass-Steagall repeal	废除格拉斯-斯蒂格尔法	金融史
+Medici Bank	美第奇银行	金融史
+Bank of Amsterdam	阿姆斯特丹银行	金融史
+bonus share	红股；送股	金融市场与工具
+MSCI Emerging Markets Index	MSCI新兴市场指数	金融市场与工具
+MSCI World Index	MSCI世界指数	金融市场与工具
+FTSE 100 Index	富时100指数	金融市场与工具
+Nikkei 225	日经225指数	金融市场与工具
+Hang Seng Index	恒生指数	金融市场与工具
+CSI 300 Index	沪深300指数	金融市场与工具
+SSE Composite Index	上证综合指数	金融市场与工具
+SZSE Component Index	深证成分指数	金融市场与工具
+CSI 500 Index	中证500指数	金融市场与工具
+CSI 1000 Index	中证1000指数	金融市场与工具
+STAR 50 Index	科创50指数	金融市场与工具
+ChiNext Index	创业板指数	金融市场与工具
+SSE 50 Index	上证50指数	金融市场与工具
+DAX	德国DAX指数	金融市场与工具
+CAC 40	法国CAC 40指数	金融市场与工具
+Euro Stoxx 50	欧洲斯托克50指数	金融市场与工具
+Nasdaq Composite Index	纳斯达克综合指数	金融市场与工具
+Nasdaq-100 Index	纳斯达克100指数	金融市场与工具
+Wilshire 5000	威尔希尔5000指数	金融市场与工具
+index rebalancing	指数调整；指数再平衡	金融市场与工具
+S&P GSCI	标普高盛商品指数	金融市场与工具
+Baltic Dry Index	波罗的海干散货指数	金融市场与工具
+U.S. Dollar Index	美元指数（DXY）	金融市场与工具
+overnight rate	隔夜利率	金融市场与工具
+money market yield	货币市场收益率	金融市场与工具
+Shanghai Gold Exchange	上海黄金交易所	金融市场与工具
+London Bullion Market Association	伦敦金银市场协会（LBMA）	金融市场与工具
+China Depositary Receipt	中国存托凭证（CDR）	金融市场与工具
+secondary offering	二次发行	金融市场与工具
+ticker symbol	股票代码	金融市场与工具
+STAR Market	科创板	金融市场与工具
+ChiNext	创业板	金融市场与工具
+Main Board	主板	金融市场与工具
+Beijing Stock Exchange	北京证券交易所	金融市场与工具
+National Equities Exchange and Quotations	全国中小企业股份转让系统（新三板）	金融市场与工具
+SME Board	中小板	金融市场与工具
+Shanghai Stock Exchange	上海证券交易所	金融市场与工具
+Shenzhen Stock Exchange	深圳证券交易所	金融市场与工具
+Hong Kong Exchanges and Clearing	香港交易及结算所（港交所）	金融市场与工具
+A-share	A股	金融市场与工具
+B-share	B股	金融市场与工具
+H-share	H股	金融市场与工具
+red chip	红筹股	金融市场与工具
+special treatment stock	ST股（特别处理股票）	金融市场与工具
+split-share structure reform	股权分置改革	金融市场与工具
+national team	国家队（救市资金）	金融市场与工具
+Central Huijin Investment	中央汇金投资有限责任公司	金融市场与工具
+China Investment Corporation	中国投资有限责任公司（中投）	金融市场与工具
+London Stock Exchange	伦敦证券交易所	金融市场与工具
+Tokyo Stock Exchange	东京证券交易所	金融市场与工具
+Euronext	泛欧交易所	金融市场与工具
+pink sheets	粉单市场	金融市场与工具
+Euroclear	欧洲清算银行	金融市场与工具
+Clearstream	明讯银行	金融市场与工具
+LCH	伦敦清算所（LCH）	金融市场与工具
+free-float market capitalization	自由流通市值	金融市场与工具
+derivatives market	衍生品市场	金融市场与工具
+repo market	回购市场	金融市场与工具
+call money	通知放款；拆借资金	金融市场与工具
+crude oil futures	原油期货	金融市场与工具
+gold futures	黄金期货	金融市场与工具
+agricultural futures	农产品期货	金融市场与工具
+energy futures	能源期货	金融市场与工具
+financial futures	金融期货	金融市场与工具
+bond ETF	债券ETF	金融市场与工具
+commodity ETF	商品ETF	金融市场与工具
+gold ETF	黄金ETF	金融市场与工具
+sector ETF	行业ETF	金融市场与工具
+cross-border ETF	跨境ETF	金融市场与工具
+share class	股份类别	金融市场与工具
+ordinary share	普通股	金融市场与工具
+non-voting share	无投票权股票	金融市场与工具
+redeemable preferred stock	可赎回优先股	金融市场与工具
+perpetual preferred stock	永续优先股	金融市场与工具
+depositary share	存托股份	金融市场与工具
+unit trust	单位信托	金融市场与工具
+money market deposit account	货币市场存款账户	金融市场与工具
+negotiable order of withdrawal account	可转让支付命令账户（NOW）	金融市场与工具
+sweep account	自动转账账户	金融市场与工具
+illusion of knowledge	知识幻觉	行为金融
+trend chasing	追涨杀跌；趋势追逐	行为金融
+panic selling	恐慌性抛售	行为金融
+fear of missing out	错失恐惧（FOMO）	行为金融
+behavioral bias	行为偏差	行为金融
+emotional bias	情绪偏差	行为金融
+snakebite effect	蛇咬效应	行为金融
+Keynesian beauty contest	凯恩斯选美比赛	行为金融
+behavioral asset pricing	行为资产定价	行为金融
+investor psychology	投资者心理	行为金融
+style factor	风格因子	量化投资
+industry factor	行业因子	量化投资
+country factor	国家因子	量化投资
+specific return	特质收益	量化投资
+risk attribution	风险归因	量化投资
+Brinson attribution model	Brinson业绩归因模型	量化投资
+allocation effect	配置效应	量化投资
+selection effect	选择效应	量化投资
+factor return	因子收益率	量化投资
+pure factor portfolio	纯因子组合	量化投资
+tracking error constraint	跟踪误差约束	量化投资
+resampled efficient frontier	再抽样有效前沿	量化投资
+equal risk contribution	等风险贡献	量化投资
+maximum diversification portfolio	最大分散化组合	量化投资
+risk-based asset allocation	基于风险的资产配置	量化投资
+grid trading	网格交易	量化投资
+convergence trade	收敛交易	量化投资
+spread trading	价差交易	量化投资
+alternative risk premia	另类风险溢价	量化投资
+factor ETF	因子ETF	量化投资
+hybrid fund	混合型基金	投资学
+QDII fund	QDII基金	投资学
+manager of managers	管理人中管理人（MOM）	投资学
+fund rating	基金评级	投资学
+star fund manager	明星基金经理	投资学
+dividend aristocrats	股息贵族	投资学
+high-dividend strategy	高股息策略	投资学
+dividend capture strategy	股息捕获策略	投资学
+tax-loss harvesting	税收损失收割	投资学
+rebalancing bonus	再平衡收益	投资学
+volatility drag	波动拖累	投资学
+sequence-of-returns risk	收益顺序风险	投资学
+safe withdrawal rate	安全提取率	投资学
+4% rule	4%法则	投资学
+time diversification	时间分散化	投资学
+upside capture ratio	上行捕获率	投资学
+downside capture ratio	下行捕获率	投资学
+Sterling ratio	斯特林比率	投资学
+equivalent annual annuity	等额年金法	公司金融
+replacement chain method	重置链法	公司金融
+market value added	市场增加值（MVA）	公司金融
+cash flow from assets	资产现金流	公司金融
+depreciation tax shield	折旧税盾	公司金融
+lease-versus-buy decision	租赁或购买决策	公司金融
+net advantage to leasing	租赁净优势（NAL）	公司金融
+monitoring cost	监督成本	公司金融
+residual loss	剩余损失	公司金融
+perquisite consumption	在职消费	公司金融
+excess cash	超额现金	公司金融
+information content of dividends	股利信息含量	公司金融
+ex-rights date	除权日	公司金融
+ex-rights price	除权价	公司金融
+subscription price	认购价格	公司金融
+forced conversion	强制转换	公司金融
+proxy access	代理权准入	公司金融
+propping	支持行为	公司金融
+family firm	家族企业	公司金融
+absolute priority deviation	绝对优先权偏离	公司金融
+liquidation value	清算价值	公司金融
+going-concern value	持续经营价值	公司金融
+pre-IPO financing	Pre-IPO融资	公司金融
+deposit-taking institution	存款类金融机构	银行与金融机构
+depository institution	存款机构	银行与金融机构
+liquidity mismatch	流动性错配	银行与金融机构
+bank liquidity creation	银行流动性创造	银行与金融机构
+bank-firm relationship	银企关系	银行与金融机构
+trust loan	信托贷款	银行与金融机构
+entrusted loan	委托贷款	银行与金融机构
+undiscounted bankers' acceptance	未贴现银行承兑汇票	银行与金融机构
+aggregate financing to the real economy	社会融资规模	银行与金融机构
+interbank business	同业业务	银行与金融机构
+non-standard credit assets	非标准化债权资产（非标）	银行与金融机构
+local government implicit debt	地方政府隐性债务	银行与金融机构
+bank recapitalization	银行注资；银行资本重组	银行与金融机构
+Senior Loan Officer Opinion Survey	高级信贷员意见调查	银行与金融机构
+money market hedge	货币市场套期保值	国际金融
+leading and lagging	提前与延迟收付	国际金融
+reinvoicing center	再开票中心	国际金融
+foreign exchange exposure	外汇风险暴露	国际金融
+operating exposure	经营风险暴露	国际金融
+accounting exposure	会计风险暴露	国际金融
+parallel loan	平行贷款	国际金融
+back-to-back loan	背对背贷款	国际金融
+international monetary system	国际货币体系	国际金融
+event clustering	事件聚集	实证金融
+cross-sectional dependence	横截面相关性	实证金融
+Hansen-Hodrick standard errors	Hansen-Hodrick标准误	实证金融
+overlapping observations	重叠观测	实证金融
+long-horizon regression	长期预测回归	实证金融
+cross-sectional R-squared	横截面R方	实证金融
+factor spanning regression	因子张成回归	实证金融
+stop-loss limit	止损限额	风险管理
+master limited partnership	业主有限合伙（MLP）	金融市场与工具
+business development company	商业发展公司（BDC）	金融市场与工具
+interval fund	区间基金	金融市场与工具
+auction rate securities	拍卖利率证券	金融市场与工具
+Eurocommercial paper	欧洲商业票据	金融市场与工具

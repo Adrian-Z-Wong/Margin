@@ -38,5 +38,7 @@ pip install numpy scipy
 python3 tools/build_vectors.py   # 中文词向量 src/vectors.js
 python3 tools/build.py           # 打包 Margin.html
 ```
+
+Mac 应用在 `desktop/`，用 [Tauri](https://tauri.app) 把 `Margin.html` 包成 App。发布新版本：改 `desktop/src-tauri/tauri.conf.json` 里的 `version`，然后推送同名标签（比如 `git tag v0.2.0 && git push origin v0.2.0`），GitHub Actions 会自动打包 `.dmg` 并发布到 Releases。
 - 风格：黑白极简；英文用 Times New Roman 斜体，中文用仿宋；界面文字用中文。
 - 进度存在浏览器 `localStorage` 的 `margin.v1` 里。改数据结构时要兼容旧数据。
