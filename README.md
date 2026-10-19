@@ -19,7 +19,7 @@
 - 选好词库和每天背多少新词，首页显示今日进度
 - 每组三步：看英文写中文 → 看中文拼英文 → 听发音拼英文
 - 每日复习：昨天的新词和错题本
-- 词库：Finance（经济学、金融学、管理学、会计学）、四级、六级、考研、托福、雅思、GRE、GMAT
+- 词库：Finance、四级、六级、考研、托福、雅思、GRE、GMAT
 - 导入自己的词表
 - 错题本答对自动移出，已掌握的词不再出现
 - 美式 / 英式发音
@@ -41,10 +41,7 @@
 
 | 词库 | 词数 |
 | --- | --- |
-| Finance · 经济学 | 1,848 |
-| Finance · 金融学 | 1,169 |
-| Finance · 管理学 | 1,242 |
-| Finance · 会计学 | 518 |
+| Finance | 4,777 |
 | 四级 | 3,849 |
 | 六级 | 5,407 |
 | 考研 | 4,801 |
@@ -53,7 +50,7 @@
 | GRE | 7,504 |
 | GMAT | 2,931 |
 
-Finance 词库的原始表格在 [`data/finance/`](data/finance/)，可以直接用 Excel 打开。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
+Finance 收录经济、金融、会计、管理、公司治理、财务管理、资本市场等专业词汇，原始表格在 [`data/finance/`](data/finance/)，可以直接用 Excel 打开。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
 
 ## 开发
 

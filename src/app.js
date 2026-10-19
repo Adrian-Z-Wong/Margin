@@ -15,14 +15,8 @@
     { id: 'gmat', name: 'GMAT', bit: 8 },
   ];
 
-  // subject 对应 data/finance/*.tsv
-  const FINANCE_BOOKS = [
-    { id: 'fin', name: 'Finance · 全部', subject: '' },
-    { id: 'fin-econ', name: 'Finance · 经济学', subject: 'econ' },
-    { id: 'fin-fin', name: 'Finance · 金融学', subject: 'fin' },
-    { id: 'fin-mgmt', name: 'Finance · 管理学', subject: 'mgmt' },
-    { id: 'fin-acct', name: 'Finance · 会计学', subject: 'acct' },
-  ];
+  // Finance：经济、金融、会计、管理、公司治理、财务管理、资本市场等专业词汇，合成一个词库
+  const FINANCE_BOOKS = [{ id: 'fin', name: 'Finance' }];
 
   const BASIC_MASK = (1 << 0) | (1 << 1); // 中考、高考
 
@@ -350,7 +344,7 @@
       return bookCache[id];
     }
     const fi = findFinance(id);
-    if (fi) return bookCache[id] || (bookCache[id] = fi.subject ? FINANCE_WORDS.filter((e) => e.s === fi.subject) : FINANCE_WORDS);
+    if (fi) return FINANCE_WORDS;
     const c = state.books[id];
     return c ? c.words : [];
   }
@@ -1097,6 +1091,13 @@
     );
   }
 
+  // 内置词库，平铺：Finance、四级、六级……
+  function allBooks() {
+    return FINANCE_BOOKS.concat(EXAM_BOOKS)
+      .map((b) => b.id)
+      .filter((id) => bookExists(id));
+  }
+
   function bookOptionsHtml(selected) {
     const opt = (id, label) => '<option value="' + esc(id) + '"' + (id === selected ? ' selected' : '') + '>' + esc(label) + '</option>';
     const info = (id) => {
@@ -1104,10 +1105,9 @@
       return bookName(id) + ' · ' + fmt(list.length) + ' 词 · 已背 ' + fmt(seenCount(list));
     };
     let html = '';
-    if (FINANCE_WORDS.length) html += '<optgroup label="Finance">' + FINANCE_BOOKS.map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
-    if (EXAM_WORDS.length) html += '<optgroup label="考试">' + EXAM_BOOKS.filter((b) => bookExists(b.id)).map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
+    html += allBooks().map((id) => opt(id, info(id))).join('');
     const mine = Object.values(state.books).sort((a, b) => a.t - b.t);
-    if (mine.length) html += '<optgroup label="我的词表">' + mine.map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
+    html += mine.map((b) => opt(b.id, info(b.id))).join('');
     return html;
   }
 
@@ -1429,15 +1429,10 @@
     const mine = Object.values(state.books).sort((a, b) => a.t - b.t);
     return (
       '<main class="page">' +
-      '<h1 class="h1">词库</h1><p class="sub">Finance 专业词汇、考试词汇，以及你自己导入的词表。</p>' +
-      (FINANCE_WORDS.length
-        ? '<div class="section"><div class="head-row"><p class="label">Finance · 经济 金融 管理 会计</p></div>' + FINANCE_BOOKS.map((b) => bookRowHtml(b.id)).join('') + '</div>'
-        : '') +
-      (EXAM_WORDS.length ? '<div class="section"><div class="head-row"><p class="label">考试</p></div>' + EXAM_BOOKS.filter((b) => bookExists(b.id)).map((b) => bookRowHtml(b.id)).join('') + '</div>' : '') +
-      '<div class="section"><div class="head-row"><p class="label">我的词表</p><button class="btn small" data-act="newImport">＋ 导入新词表</button></div>' +
-      (mine.length
-        ? mine.map((b) => bookRowHtml(b.id, '<button class="link" data-act="deleteBook" data-id="' + esc(b.id) + '">删除</button>')).join('')
-        : '<div class="empty">还没有自己的词表。点「导入新词表」，把单词粘贴进来就行。</div>') +
+      '<div class="head-row"><h1 class="h1">词库</h1><button class="btn small" data-act="newImport">＋ 导入词表</button></div>' +
+      '<div class="section">' +
+      allBooks().map((id) => bookRowHtml(id)).join('') +
+      mine.map((b) => bookRowHtml(b.id, '<button class="link" data-act="deleteBook" data-id="' + esc(b.id) + '">删除</button>')).join('') +
       '</div>' +
       '</main>'
     );

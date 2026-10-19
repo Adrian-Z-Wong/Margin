@@ -17,13 +17,8 @@ DATA = os.path.join(ROOT, "data", "finance")
 WORDS = os.path.join(ROOT, "src", "words.js")
 OUT = os.path.join(ROOT, "src", "finance.js")
 
-# 顺序决定去重时谁优先保留；代号和 app.js 里的 FINANCE_BOOKS 对应
-SUBJECTS = [
-    ("finance.tsv", "fin"),
-    ("economics.tsv", "econ"),
-    ("accounting.tsv", "acct"),
-    ("management.tsv", "mgmt"),
-]
+# 去重时排在前面的文件优先保留；data/finance/ 里其他的 .tsv 文件按文件名排在后面，全部并进 Finance 词库
+PRIORITY = ["finance.tsv", "economics.tsv", "accounting.tsv", "capital_markets.tsv", "governance.tsv", "management.tsv"]
 
 
 def load_phonetics():
@@ -44,11 +39,11 @@ def main():
     seen = {}
     rows = []
     problems = 0
-    for name, code in SUBJECTS:
+    names = sorted(f for f in os.listdir(DATA) if f.endswith(".tsv"))
+    names = [f for f in PRIORITY if f in names] + [f for f in names if f not in PRIORITY]
+    for name in names:
         path = os.path.join(DATA, name)
-        if not os.path.exists(path):
-            print(f"缺少 {path}")
-            continue
+        code = name[: -len(".tsv")]
         kept = 0
         with open(path, encoding="utf-8-sig") as f:
             for n, raw in enumerate(f, 1):
@@ -73,7 +68,7 @@ def main():
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("// 由 tools/build_finance.py 根据 data/finance/*.tsv 生成，请勿手动修改\n")
-        f.write("// 每行：术语\\t音标\\t中文释义\\t学科代号\\t小类\n")
+        f.write("// 每行：术语\\t音标\\t中文释义\\t来源文件\\t小类\n")
         f.write("window.MARGIN_FINANCE = " + json.dumps("\n".join(rows), ensure_ascii=False) + ";\n")
     print(f"共 {len(rows)} 条，写入 {OUT}（{os.path.getsize(OUT) // 1024} KB）")
     if problems:
