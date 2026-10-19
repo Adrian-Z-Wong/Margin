@@ -23,6 +23,10 @@
   const BASIC_MASK = (1 << 0) | (1 << 1); // 中考、高考
 
   const WRONG_BOOK = '__wrong';
+  const REVIEW_BOOK = '__review';
+
+  // 间隔复习：第 b 盒的词，隔 INTERVALS[b] 天再复习（简化的 Leitner 盒子法）
+  const INTERVALS = [0, 1, 2, 4, 7, 15, 30, 60];
 
   const MODES = {
     en2zh: { name: '英 → 中', desc: '看英文，写中文意思', key: '1' },
@@ -74,18 +78,19 @@
     voice: 'auto',
     autoSpeak: true,
     letterHint: true,
+    copyWrong: true,
     senses: 3,
     theme: 'auto',
   };
 
   function freshState() {
-    return { v: 1, settings: Object.assign({}, DEFAULT_SETTINGS), books: {}, stats: {}, wrong: {}, log: {} };
+    return { v: 1, settings: Object.assign({}, DEFAULT_SETTINGS), books: {}, stats: {}, wrong: {}, srs: {}, known: {}, log: {} };
   }
 
   function normalizeState(saved) {
     const s = freshState();
     if (!saved || typeof saved !== 'object') return s;
-    for (const k of ['books', 'stats', 'wrong', 'log']) {
+    for (const k of ['books', 'stats', 'wrong', 'srs', 'known', 'log']) {
       if (saved[k] && typeof saved[k] === 'object') s[k] = saved[k];
     }
     Object.assign(s.settings, saved.settings || {});
@@ -130,6 +135,28 @@
   function todayKey() {
     const d = new Date();
     return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
+  // 本地日期的「第几天」，用来算复习日期
+  function dayNum(date) {
+    const d = date || new Date();
+    return Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000);
+  }
+
+  function dayKeyOf(n) {
+    const d = new Date(n * 86400000);
+    return d.getUTCFullYear() + '-' + String(d.getUTCMonth() + 1).padStart(2, '0') + '-' + String(d.getUTCDate()).padStart(2, '0');
+  }
+
+  function downloadText(name, text, type) {
+    const blob = new Blob([text], { type: type || 'text/plain;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
   function fmt(n) {
@@ -265,8 +292,17 @@
     return FINANCE_BOOKS.find((b) => b.id === id);
   }
 
+  function dueEntries() {
+    const today = dayNum();
+    return Object.keys(state.srs)
+      .filter((k) => state.srs[k].d <= today && !state.known[k])
+      .map((k) => state.srs[k])
+      .sort((a, b) => a.d - b.d);
+  }
+
   function bookEntries(id) {
     if (id === WRONG_BOOK) return Object.values(state.wrong);
+    if (id === REVIEW_BOOK) return dueEntries();
     const ex = findExam(id);
     if (ex) {
       if (!bookCache[id]) {
@@ -285,13 +321,14 @@
 
   function bookName(id) {
     if (id === WRONG_BOOK) return '错题本';
+    if (id === REVIEW_BOOK) return '今日复习';
     const b = findExam(id) || findFinance(id);
     if (b) return b.name;
     return state.books[id] ? state.books[id].name : '';
   }
 
   function bookExists(id) {
-    if (id === WRONG_BOOK) return true;
+    if (id === WRONG_BOOK || id === REVIEW_BOOK) return true;
     if (findExam(id)) return EXAM_WORDS.length > 0;
     if (findFinance(id)) return FINANCE_WORDS.length > 0;
     return !!state.books[id];
@@ -302,7 +339,7 @@
   }
 
   function usable(entries, mode) {
-    return entries.filter((e) => e.w && (mode === 'listen' || e.m));
+    return entries.filter((e) => e.w && (mode === 'listen' || e.m) && !state.known[keyOf(e.w)]);
   }
 
   // ================= 统计 =================
@@ -312,11 +349,26 @@
     return s && s[mode];
   }
 
+  // 背过（或标记为已掌握）的词数
   function seenCount(entries, mode) {
     let n = 0;
     for (const e of entries) {
-      const s = state.stats[keyOf(e.w)];
-      if (s && (mode ? s[mode] : true)) n++;
+      const k = keyOf(e.w);
+      const s = state.stats[k];
+      if ((s && (mode ? s[mode] : true)) || state.known[k]) n++;
+    }
+    return n;
+  }
+
+  // 连续打卡天数：从今天（今天还没背就从昨天）往前数
+  function streak() {
+    let d = dayNum();
+    const has = (n) => (state.log[dayKeyOf(n)] || {}).n > 0;
+    if (!has(d)) d--;
+    let n = 0;
+    while (has(d)) {
+      n++;
+      d--;
     }
     return n;
   }
@@ -355,15 +407,48 @@
     if (wr.s >= 2) delete state.wrong[k];
   }
 
-  function snapshotWrong(entry) {
-    const wr = state.wrong[keyOf(entry.w)];
-    return wr ? Object.assign({}, wr) : null;
+  // 间隔复习：答错明天再来；答对升一盒，间隔拉长。没到复习日提前答对不升盒
+  function srsUpdate(entry, ok) {
+    const k = keyOf(entry.w);
+    const today = dayNum();
+    const cur = state.srs[k];
+    const base = { w: entry.w, p: entry.p || '', m: entry.m || '' };
+    if (!ok) state.srs[k] = Object.assign(base, { b: 1, d: today + INTERVALS[1] });
+    else if (!cur) state.srs[k] = Object.assign(base, { b: 2, d: today + INTERVALS[2] });
+    else if (today >= cur.d) {
+      const b = Math.min(cur.b + 1, INTERVALS.length - 1);
+      state.srs[k] = Object.assign(base, { b, d: today + INTERVALS[b] });
+    }
   }
 
-  function restoreWrong(entry, snap) {
+  // 改判时先恢复答题前的错题本和复习记录，再按新结果重算
+  function snapshot(entry) {
     const k = keyOf(entry.w);
-    if (snap) state.wrong[k] = Object.assign({}, snap);
+    return {
+      wrong: state.wrong[k] ? Object.assign({}, state.wrong[k]) : null,
+      srs: state.srs[k] ? Object.assign({}, state.srs[k]) : null,
+    };
+  }
+
+  function restore(entry, snap) {
+    const k = keyOf(entry.w);
+    if (snap.wrong) state.wrong[k] = Object.assign({}, snap.wrong);
     else delete state.wrong[k];
+    if (snap.srs) state.srs[k] = Object.assign({}, snap.srs);
+    else delete state.srs[k];
+  }
+
+  function applyOutcome(entry, ok) {
+    if (ok) markRight(entry);
+    else markWrong(entry);
+    srsUpdate(entry, ok);
+  }
+
+  function markKnown(entry) {
+    const k = keyOf(entry.w);
+    state.known[k] = { w: entry.w, p: entry.p || '', m: entry.m || '', t: Date.now() };
+    delete state.wrong[k];
+    delete state.srs[k];
   }
 
   // ================= 判分 =================
@@ -511,7 +596,7 @@
       const parts = line.split('\t').map((s) => s.trim()).filter(Boolean);
       w = parts.shift() || '';
       if (parts.length > 1 && /^[\/\[].*[\/\]]$/.test(parts[0])) p = parts.shift().slice(1, -1);
-      m = parts.join('；');
+      m = parts.join('|');
     } else {
       line = line.replace(/"/g, '');
       const i = line.search(CJK_RE);
@@ -543,7 +628,29 @@
     return { w, p, m };
   }
 
+  // Qwerty Learner 词库格式：[{"name":"if","trans":["conj. 如果"]}]
+  function jsonToLines(text) {
+    const t = String(text || '').trim();
+    if (!t.startsWith('[')) return text;
+    try {
+      const arr = JSON.parse(t);
+      if (!Array.isArray(arr)) return text;
+      return arr
+        .map((o) => {
+          if (!o || typeof o !== 'object') return '';
+          const w = o.name || o.word || o.w || '';
+          let m = o.trans || o.translation || o.m || '';
+          if (Array.isArray(m)) m = m.join('|');
+          return w ? w + '\t' + String(m).replace(/\t/g, ' ') : '';
+        })
+        .join('\n');
+    } catch (e) {
+      return text;
+    }
+  }
+
   function parseImport(text) {
+    text = jsonToLines(text);
     const words = [];
     const seen = new Map();
     let filled = 0;
@@ -628,9 +735,11 @@
     const s = state.settings;
     if (!bookExists(s.book)) s.book = FIRST_BOOK;
     const entries = bookEntries(s.book);
-    const items = s.book === WRONG_BOOK ? shuffle(usable(entries, s.mode)).slice(0, s.size) : pickItems(entries, s.mode, s.size, s.order);
+    const review = s.book === WRONG_BOOK || s.book === REVIEW_BOOK;
+    const items = review ? shuffle(usable(entries, s.mode)).slice(0, s.size) : pickItems(entries, s.mode, s.size, s.order);
     if (!items.length) {
       if (s.book === WRONG_BOOK) toast('错题本是空的，先去背几个词吧');
+      else if (s.book === REVIEW_BOOK) toast('今天没有要复习的词');
       else if (entries.length) toast('这个词表的词都没有中文意思，只能用「听 → 写」');
       else toast('这个词表还没有词');
       return;
@@ -660,17 +769,16 @@
     const ss = ui.session;
     if (!ss) return;
     if (ss.pending) {
-      finishPending();
+      submitPending();
       return;
     }
     const entry = current();
     const input = document.getElementById('answer');
     const raw = input ? input.value : '';
     const ok = judge(ss.mode, entry, raw);
-    const result = { entry, answer: raw.trim(), ok, prevWrong: snapshotWrong(entry), flipped: false };
+    const result = { entry, answer: raw.trim(), ok, snap: snapshot(entry), flipped: false };
     bump(entry, ss.mode, ok, 1);
-    if (ok) markRight(entry);
-    else markWrong(entry);
+    applyOutcome(entry, ok);
     save();
     if (ok) {
       ss.results.push(result);
@@ -683,6 +791,37 @@
     }
   }
 
+  // 拼写题答错后，照着正确拼写打一遍
+  function needsCopy(ss) {
+    return ss.mode !== 'en2zh' && state.settings.copyWrong && ss.pending && !ss.pending.ok;
+  }
+
+  function submitPending() {
+    const ss = ui.session;
+    const input = document.getElementById('answer');
+    if (needsCopy(ss) && input) {
+      const v = input.value;
+      if (v.trim() && !enMatch(v, ss.pending.entry.w)) {
+        input.classList.remove('shake');
+        void input.offsetWidth;
+        input.classList.add('shake');
+        input.select();
+        return;
+      }
+    }
+    finishPending();
+  }
+
+  function skipKnown() {
+    const ss = ui.session;
+    if (!ss || ss.pending) return;
+    const e = current();
+    markKnown(e);
+    save();
+    toast('「' + e.w + '」标记为已掌握，以后不再出现');
+    advance();
+  }
+
   function finishPending() {
     const ss = ui.session;
     ss.results.push(ss.pending);
@@ -693,12 +832,11 @@
   function flipResult(r) {
     const mode = ui.session.mode;
     bump(r.entry, mode, r.ok, -1);
-    restoreWrong(r.entry, r.prevWrong);
+    restore(r.entry, r.snap);
     r.ok = !r.ok;
     r.flipped = !r.flipped;
     bump(r.entry, mode, r.ok, 1);
-    if (r.ok) markRight(r.entry);
-    else markWrong(r.entry);
+    applyOutcome(r.entry, r.ok);
     save();
   }
 
@@ -763,7 +901,7 @@
     if (EXAM_WORDS.length) html += '<optgroup label="留学考试">' + EXAM_BOOKS.map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
     const mine = Object.values(state.books).sort((a, b) => a.t - b.t);
     if (mine.length) html += '<optgroup label="我的词表">' + mine.map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
-    html += '<optgroup label="复习">' + opt(WRONG_BOOK, '错题本 · ' + Object.keys(state.wrong).length + ' 词') + '</optgroup>';
+    html += '<optgroup label="复习">' + opt(REVIEW_BOOK, '今日复习 · ' + dueEntries().length + ' 词') + opt(WRONG_BOOK, '错题本 · ' + Object.keys(state.wrong).length + ' 词') + '</optgroup>';
     return html;
   }
 
@@ -776,7 +914,8 @@
     const s = state.settings;
     if (!bookExists(s.book)) s.book = FIRST_BOOK;
     const day = state.log[todayKey()] || { n: 0, r: 0 };
-    const total = Object.keys(state.stats).length;
+    const due = dueEntries().length;
+    const days = streak();
     const d = new Date();
     const week = '日一二三四五六'[d.getDay()];
     const modes = Object.keys(MODES)
@@ -793,7 +932,7 @@
       ['new', '新词优先'],
       ['random', '随机'],
     ]
-      .map(([k, label]) => '<button class="chip' + (s.order === k ? ' on' : '') + '" data-act="setOrder" data-order="' + k + '"' + (s.book === WRONG_BOOK ? ' disabled' : '') + '>' + label + '</button>')
+      .map(([k, label]) => '<button class="chip' + (s.order === k ? ' on' : '') + '" data-act="setOrder" data-order="' + k + '"' + (s.book === WRONG_BOOK || s.book === REVIEW_BOOK ? ' disabled' : '') + '>' + label + '</button>')
       .join('');
     return (
       '<main class="page">' +
@@ -801,7 +940,8 @@
       '<div class="today">' +
       '<div><div class="num">' + fmt(day.n) + '</div><div class="cap">今天答题</div></div>' +
       '<div><div class="num">' + (day.n ? Math.round((day.r / day.n) * 100) + '%' : '—') + '</div><div class="cap">今天正确率</div></div>' +
-      '<div><div class="num">' + fmt(total) + '</div><div class="cap">累计背过的词</div></div>' +
+      '<button class="tile" data-act="useReview" title="复习到期的词"><div class="num">' + fmt(due) + '</div><div class="cap">待复习' + (due ? ' →' : '') + '</div></button>' +
+      '<div><div class="num">' + fmt(days) + '</div><div class="cap">连续打卡天数</div></div>' +
       '</div>' +
       '<p class="label">题型</p><div class="modes">' + modes + '</div>' +
       '<div class="section"><p class="label">词库</p><label class="select"><select data-act="setBook" aria-label="词库">' + bookOptionsHtml(s.book, s.mode) + '</select></label></div>' +
@@ -811,8 +951,43 @@
       '</div>' +
       '<div class="start-row"><button class="btn" data-act="start">开始 <kbd>Enter</kbd></button>' +
       '<span class="muted">按 <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> 切换题型</span></div>' +
+      heatmapHtml() +
       '</main>'
     );
+  };
+
+  // 最近一年的打卡热力图：颜色越深，那天答题越多
+  function heatmapHtml() {
+    const WEEKS = 52;
+    const today = dayNum();
+    const dow = new Date().getDay();
+    const start = today - dow - (WEEKS - 1) * 7;
+    let cells = '';
+    for (let w = 0; w < WEEKS; w++) {
+      for (let d = 0; d < 7; d++) {
+        const n = start + w * 7 + d;
+        if (n > today) {
+          cells += '<i class="hm-x"></i>';
+          continue;
+        }
+        const key = dayKeyOf(n);
+        const rec = state.log[key] || { n: 0, r: 0 };
+        const lv = rec.n === 0 ? 0 : rec.n < 10 ? 1 : rec.n < 30 ? 2 : rec.n < 60 ? 3 : 4;
+        const tip = key + ' · ' + (rec.n ? '答题 ' + rec.n + '，正确率 ' + Math.round((rec.r / rec.n) * 100) + '%' : '没有背');
+        cells += '<i class="hm-' + lv + '" title="' + tip + '"></i>';
+      }
+    }
+    const total = Object.keys(state.stats).length;
+    return (
+      '<div class="section heat"><div class="head-row"><p class="label">最近一年</p><span class="muted">累计背过 ' + fmt(total) + ' 词 · 已掌握 ' + fmt(Object.keys(state.known).length) + ' 词</span></div>' +
+      '<div class="hm" aria-label="最近一年每天的答题量">' + cells + '</div></div>'
+    );
+  }
+
+  AFTER.home = function () {
+    // 窄屏时热力图默认滚到最近几周
+    const hm = document.querySelector('.hm');
+    if (hm) hm.scrollLeft = hm.scrollWidth;
   };
 
   function slotsHtml(w) {
@@ -862,11 +1037,13 @@
 
   function feedbackHtml(ss, r) {
     const e = r.entry;
+    const copy = needsCopy(ss);
     let body;
     if (ss.mode === 'en2zh') {
       body = '<div class="fb-label">参考释义</div><div class="fb-mean">' + meaningHtml(e.m) + '</div>';
     } else {
       body =
+        (copy && r.answer ? '<div class="fb-yours">你写的：<s>' + esc(r.answer) + '</s></div>' : '') +
         '<div class="fb-label">正确拼写</div><div class="fb-word">' + esc(e.w) + '</div>' +
         (e.p ? '<div class="fb-phon">/' + esc(e.p) + '/</div>' : '') +
         (ss.mode === 'listen' ? '<div class="fb-mean">' + meaningHtml(e.m) + '</div>' : ''); // 中→英 的题目本身就是中文意思，不再重复
@@ -887,7 +1064,8 @@
     const pct = (done / ss.items.length) * 100;
     const pend = ss.pending;
     const isEn = ss.mode !== 'en2zh';
-    const placeholder = ss.mode === 'en2zh' ? '写中文意思' : '拼写英文';
+    const copy = needsCopy(ss);
+    const placeholder = copy ? '照着打一遍，或直接按 Enter 继续' : ss.mode === 'en2zh' ? '写中文意思' : '拼写英文';
     const anim = ss.animIdx !== ss.idx ? ' anim' : '';
     const history = ss.results.length ? historyHtml(ss) : '<div class="h-empty">答过的词会一行一行留在这里</div>';
     return (
@@ -897,9 +1075,11 @@
       '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
       '<div class="history' + (ss.results.length ? '' : ' empty') + '" id="history">' + history + '</div>' +
       '<section class="card"><div class="inner' + anim + '">' + promptHtml(ss, e) +
-      '<input id="answer" class="answer' + (isEn ? ' en' : '') + (pend ? ' wrong' : '') + '" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="' + placeholder + '"' +
-      (pend ? ' readonly value="' + esc(pend.answer) + '"' : '') + '>' +
-      (pend ? feedbackHtml(ss, pend) : '<div class="hint"><span><kbd>Enter</kbd> 提交</span><span>空着按 <kbd>Enter</kbd> = 不会</span><span><kbd>Tab</kbd> 朗读</span><span>点对错标记可改判</span></div>') +
+      '<input id="answer" class="answer' + (isEn ? ' en' : '') + (pend && !copy ? ' wrong' : '') + (copy ? ' copy' : '') + '" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="' + placeholder + '"' +
+      (pend && !copy ? ' readonly value="' + esc(pend.answer) + '"' : '') + '>' +
+      (pend
+        ? feedbackHtml(ss, pend)
+        : '<div class="hint"><span><kbd>Enter</kbd> 提交</span><span>空着按 <kbd>Enter</kbd> = 不会</span><span><kbd>Tab</kbd> 朗读</span><button class="link" data-act="skipKnown" title="以后不再出这个词">已掌握，跳过</button></div>') +
       '</div></section>' +
       '</main>'
     );
@@ -988,12 +1168,14 @@
     return (
       shown
         .map((e) => {
-          const s = state.stats[keyOf(e.w)];
+          const k = keyOf(e.w);
+          const s = state.stats[k];
           const tag = e.t ? '<span>' + esc(e.t) + '</span>' : '';
+          const known = state.known[k] ? '<span>已掌握</span>' : '';
           return (
             '<div class="list-row"><button class="w" data-act="speakWord" data-w="' + esc(e.w) + '">' + esc(e.w) + (e.p ? '<small>/' + esc(e.p) + '/</small>' : '') + '</button>' +
             '<span class="m">' + (meaningHtml(e.m) || '（没有释义）') + '</span>' +
-            '<span class="side">' + tag + (s ? '<span>已背</span>' : '') + (custom ? '<button class="link" data-act="deleteWord" data-w="' + esc(e.w) + '">删除</button>' : '') + '</span></div>'
+            '<span class="side">' + tag + (known || (s ? '<span>已背</span>' : '')) + (custom ? '<button class="link" data-act="deleteWord" data-w="' + esc(e.w) + '">删除</button>' : '') + '</span></div>'
           );
         })
         .join('') +
@@ -1012,6 +1194,7 @@
       '<p class="sub">' + fmt(bookEntries(id).length) + ' 词 · 点单词可以听发音</p>' +
       '<div class="actions"><button class="btn small" data-act="useBook" data-id="' + esc(id) + '">背这个词表</button>' +
       (custom ? '<button class="btn small ghost" data-act="appendImport" data-id="' + esc(id) + '">添加单词</button><button class="link" data-act="renameBook" data-id="' + esc(id) + '">改名</button>' : '') +
+      '<button class="link" data-act="exportBook" data-id="' + esc(id) + '">导出为表格</button>' +
       '</div>' +
       '<div class="section"><input class="field" id="book-q" placeholder="搜索单词或中文" value="' + esc(ui.book.q) + '" autocomplete="off"></div>' +
       '<div class="section" id="book-rows">' + bookRowsHtml() + '</div>' +
@@ -1065,11 +1248,25 @@
 
   VIEWS.wrong = function () {
     const list = Object.values(state.wrong).sort((a, b) => b.n - a.n || b.t - a.t);
+    const known = Object.values(state.known).sort((a, b) => b.t - a.t);
+    const knownHtml =
+      '<div class="section"><div class="head-row"><p class="label">已掌握 · ' + known.length + ' 词</p></div>' +
+      (known.length
+        ? known
+            .map(
+              (e) =>
+                '<div class="list-row"><button class="w" data-act="speakWord" data-w="' + esc(e.w) + '">' + esc(e.w) + '</button>' +
+                '<span class="m">' + meaningHtml(e.m) + '</span>' +
+                '<span class="side"><button class="link" data-act="unknow" data-w="' + esc(e.w) + '">恢复</button></span></div>'
+            )
+            .join('')
+        : '<div class="empty">背诵时点「已掌握，跳过」，这个词以后就不会再出现，会列在这里。</div>') +
+      '</div>';
     return (
       '<main class="page">' +
       '<h1 class="h1">错题本</h1><p class="sub">答错的词会自动记在这里；之后连续答对 2 次就自动移出。</p>' +
       (list.length
-        ? '<div class="actions"><button class="btn" data-act="practiceWrong">练习错题本 · ' + list.length + ' 词</button><button class="link" data-act="clearWrong">清空错题本</button></div>' +
+        ? '<div class="actions"><button class="btn" data-act="practiceWrong">练习错题本 · ' + list.length + ' 词</button><button class="link" data-act="exportBook" data-id="' + WRONG_BOOK + '">导出为表格</button><button class="link" data-act="clearWrong">清空错题本</button></div>' +
           '<div class="section">' +
           list
             .map(
@@ -1081,6 +1278,7 @@
             .join('') +
           '</div>'
         : '<div class="empty">错题本是空的。</div>') +
+      knownHtml +
       '</main>'
     );
   };
@@ -1108,6 +1306,8 @@
       '<div class="d">「英 → 中」出题时读单词，「中 → 英」答完后读单词。「听 → 写」总会朗读。</div></div></div>' +
       '<div class="set-row"><div><div class="t">中文意思显示几个</div></div><div>' + chipsHtml('senses', [[1, '1 个'], [2, '2 个'], [3, '3 个'], [5, '5 个']]) +
       '<div class="d">中文意思竖着排，一行一个词语，只显示最常用的几个。判分时仍然参考全部意思，写对任何一个都算对。</div></div></div>' +
+      '<div class="set-row"><div><div class="t">拼错后照打一遍</div></div><div>' + chipsHtml('copyWrong', [[true, '开'], [false, '关']]) +
+      '<div class="d">拼写题答错后，照着正确拼写再打一遍，免得记住错的拼法。直接按 Enter 可以跳过。</div></div></div>' +
       '<div class="set-row"><div><div class="t">字母个数提示</div></div><div>' + chipsHtml('letterHint', [[true, '显示'], [false, '不显示']]) +
       '<div class="d">拼写题下面显示 _ _ _ _，提示单词有几个字母。</div></div></div>' +
       '<div class="set-row"><div><div class="t">外观</div></div><div>' + chipsHtml('theme', [['auto', '跟随系统'], ['light', '白底'], ['dark', '黑底']]) + '</div></div>' +
@@ -1173,6 +1373,31 @@
     },
     quit() {
       quitSession();
+    },
+    skipKnown() {
+      skipKnown();
+    },
+    useReview() {
+      state.settings.book = REVIEW_BOOK;
+      save();
+      if (dueEntries().length) startFromSettings();
+      else {
+        render();
+        toast('今天没有要复习的词。答过的词会按记忆曲线安排复习');
+      }
+    },
+    unknow(t) {
+      delete state.known[keyOf(t.dataset.w)];
+      save();
+      render();
+    },
+    exportBook(t) {
+      const id = t.dataset.id;
+      const lines = bookEntries(id).map((e) => e.w + '\t' + meaningLines(e.m).join('；'));
+      // 文件名只用英文：有的浏览器遇到中文文件名会改成 download
+      const slug = id === WRONG_BOOK ? 'wrong-words' : id === REVIEW_BOOK ? 'review' : isBuiltin(id) ? id : 'my-list';
+      downloadText('margin-' + slug + '-' + todayKey() + '.txt', '\ufeff' + lines.join('\r\n'));
+      toast('已导出 ' + lines.length + ' 个词，可以用 Excel 打开，也能导入 Anki');
     },
     retryWrong() {
       const ss = ui.session;
@@ -1295,14 +1520,7 @@
       speak('Margin');
     },
     exportData() {
-      const blob = new Blob([JSON.stringify({ app: 'Margin', v: 1, exported: new Date().toISOString(), data: state }, null, 1)], { type: 'application/json' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'margin-backup-' + todayKey() + '.json';
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+      downloadText('margin-backup-' + todayKey() + '.json', JSON.stringify({ app: 'Margin', v: 1, exported: new Date().toISOString(), data: state }), 'application/json');
       toast('备份已下载');
     },
     resetAll() {

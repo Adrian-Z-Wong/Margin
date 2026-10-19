@@ -246,15 +246,34 @@ kbd {
 
 .today {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid var(--fg);
   border-bottom: 1px solid var(--line);
   margin-bottom: 56px;
 }
-.today > div { padding: 20px 0 22px; }
-.today > div + div { padding-left: 24px; border-left: 1px solid var(--line); }
+.today > * { padding: 20px 0 22px; }
+.today > * + * { padding-left: 24px; border-left: 1px solid var(--line); }
 .today .num { font: 300 40px/1 var(--serif); }
 .today .cap { font-size: 14px; color: var(--muted); margin-top: 8px; }
+.today .tile { text-align: left; }
+.today .tile:hover .cap { color: var(--fg); }
+
+/* 打卡热力图 */
+.heat { margin-top: 72px; }
+.hm {
+  display: grid;
+  grid-template-rows: repeat(7, 11px);
+  grid-auto-flow: column;
+  grid-auto-columns: 11px;
+  gap: 3px;
+  overflow-x: auto;
+}
+.hm i { display: block; width: 11px; height: 11px; background: var(--fg); }
+.hm .hm-0 { background: var(--line); }
+.hm .hm-1 { opacity: .22; }
+.hm .hm-2 { opacity: .45; }
+.hm .hm-3 { opacity: .7; }
+.hm .hm-x { background: transparent; }
 
 .modes {
   display: grid;
@@ -452,6 +471,10 @@ kbd {
 .answer:focus { outline: none; box-shadow: inset 0 -1px 0 var(--fg); }
 .answer.en { font-size: 30px; }
 .answer.wrong { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
+.answer.copy::placeholder { font-size: 18px; }
+.answer.shake { animation: shake .3s; }
+@keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.feedback .fb-yours { font-size: 15px; color: var(--muted); margin-bottom: 8px; }
 
 .feedback { margin-top: 22px; }
 .feedback .fb-label { font: 13px var(--mono); letter-spacing: .12em; color: var(--muted); }
@@ -578,8 +601,11 @@ textarea.paste:focus { outline: none; border-color: var(--fg); }
   .practice { padding: 0 16px; }
   .modes { grid-template-columns: 1fr; }
   .grid2 { grid-template-columns: 1fr; gap: 32px; }
+  .today { grid-template-columns: repeat(2, 1fr); }
   .today .num { font-size: 30px; }
-  .today > div + div { padding-left: 14px; }
+  .today > * + * { padding-left: 14px; }
+  .today > :nth-child(3) { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
+  .today > :nth-child(4) { border-top: 1px solid var(--line); }
   .h-row { grid-template-columns: 28px 32px minmax(90px, 140px) 1fr; }
   .history { background-position: 28px 0; }
   .set-row { grid-template-columns: 1fr; gap: 12px; }
