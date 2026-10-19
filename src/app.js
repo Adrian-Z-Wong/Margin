@@ -5,14 +5,16 @@
   // ================= 词库定义 =================
 
   // bit 对应 tools/build_words.py 里 TAGS 的顺序
+  // bits：这个词库包含哪些标签的词。四六级、考研按大纲是累加的：
+  // 四级包含高考词汇，六级、考研包含四级词汇，宁多勿少
   const EXAM_BOOKS = [
-    { id: 'cet4', name: '四级 CET-4', bit: 2 },
-    { id: 'cet6', name: '六级 CET-6', bit: 3 },
-    { id: 'ky', name: '考研', bit: 4 },
-    { id: 'toefl', name: '托福 TOEFL', bit: 6 },
-    { id: 'ielts', name: '雅思 IELTS', bit: 5 },
-    { id: 'gre', name: 'GRE', bit: 7 },
-    { id: 'gmat', name: 'GMAT', bit: 8 },
+    { id: 'cet4', name: '四级 CET-4', bits: [2, 1] },
+    { id: 'cet6', name: '六级 CET-6', bits: [3, 2, 1] },
+    { id: 'ky', name: '考研', bits: [4, 2, 1] },
+    { id: 'toefl', name: '托福 TOEFL', bits: [6] },
+    { id: 'ielts', name: '雅思 IELTS', bits: [5] },
+    { id: 'gre', name: 'GRE', bits: [7] },
+    { id: 'gmat', name: 'GMAT', bits: [8] },
   ];
 
   // Finance：经济、金融、会计、管理、公司治理、财务管理、资本市场等专业词汇，合成一个词库
@@ -337,7 +339,8 @@
     if (ex) {
       if (!bookCache[id]) {
         // 中考、高考词表里也有的基础词排到最后，「新词优先」时先背更难的词
-        const list = EXAM_WORDS.filter((e) => e.mask & (1 << ex.bit));
+        const want = ex.bits.reduce((m, b) => m | (1 << b), 0);
+        const list = EXAM_WORDS.filter((e) => e.mask & want);
         const basic = (e) => (e.mask & BASIC_MASK ? 1 : 0);
         bookCache[id] = list.map((e, i) => [e, i]).sort((a, b) => basic(a[0]) - basic(b[0]) || a[1] - b[1]).map((x) => x[0]);
       }

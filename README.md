@@ -42,15 +42,15 @@
 | 词库 | 词数 |
 | --- | --- |
 | Finance | 4,777 |
-| 四级 | 3,849 |
-| 六级 | 5,407 |
-| 考研 | 4,801 |
+| 四级 | 5,331 |
+| 六级 | 7,086 |
+| 考研 | 6,511 |
 | 托福 | 6,974 |
 | 雅思 | 5,040 |
 | GRE | 7,504 |
 | GMAT | 2,931 |
 
-Finance 收录经济、金融、会计、管理、公司治理、财务管理、资本市场等专业词汇，原始表格在 [`data/finance/`](data/finance/)，可以直接用 Excel 打开。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
+Finance 收录经济、金融、会计、管理、公司治理、财务管理、资本市场、货币政策等专业词汇。四级包含高考词汇，六级和考研包含四级词汇。Finance 的原始表格在 [`data/finance/`](data/finance/)，可以直接用 Excel 打开。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
 
 ## 开发
 

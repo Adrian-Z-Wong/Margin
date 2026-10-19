@@ -39,6 +39,7 @@ def main():
     seen = {}
     rows = []
     problems = 0
+    merged = 0
     names = sorted(f for f in os.listdir(DATA) if f.endswith(".tsv"))
     names = [f for f in PRIORITY if f in names] + [f for f in names if f not in PRIORITY]
     for name in names:
@@ -58,9 +59,17 @@ def main():
                 term, meaning, topic = cols
                 key = term.lower()
                 if key in seen:
-                    print(f"{name}:{n} 重复，已在 {seen[key]} 收录：{term}")
+                    # 重复的术语不丢释义：把新的译名并到已收录的那条后面
+                    i = seen[key]
+                    old = rows[i].split("\t")
+                    have = old[2].split("；")
+                    add = [t for t in meaning.split("；") if t not in have]
+                    if add:
+                        old[2] = "；".join(have + add)
+                        rows[i] = "\t".join(old)
+                        merged += 1
                     continue
-                seen[key] = name
+                seen[key] = len(rows)
                 p = phon.get(key, "") if " " not in term else ""
                 rows.append("\t".join([term, p, meaning, code, topic]))
                 kept += 1
@@ -70,7 +79,7 @@ def main():
         f.write("// 由 tools/build_finance.py 根据 data/finance/*.tsv 生成，请勿手动修改\n")
         f.write("// 每行：术语\\t音标\\t中文释义\\t来源文件\\t小类\n")
         f.write("window.MARGIN_FINANCE = " + json.dumps("\n".join(rows), ensure_ascii=False) + ";\n")
-    print(f"共 {len(rows)} 条，写入 {OUT}（{os.path.getsize(OUT) // 1024} KB）")
+    print(f"共 {len(rows)} 条（{merged} 条重复术语合并了译名），写入 {OUT}（{os.path.getsize(OUT) // 1024} KB）")
     if problems:
         sys.exit(1)
 
