@@ -1,9 +1,12 @@
-# 打包 Mac 应用：推送 v 开头的标签（比如 v0.1.0）时自动打包，并发布到 Releases 页面
+# 打包 Mac 应用并发布到 Releases 页面。
+# 改了 desktop/src-tauri/tauri.conf.json 里的版本号并推送到 main，就会自动发布这个版本；
+# 也可以在 GitHub 的 Actions 页面手动运行。版本标签（比如 v0.1.0）由这里自动创建。
 name: Mac 应用
 
 on:
   push:
-    tags: ['v*']
+    branches: [main]
+    paths: ['desktop/src-tauri/tauri.conf.json']
   workflow_dispatch:
 
 permissions:
@@ -40,8 +43,8 @@ jobs:
         with:
           projectPath: desktop
           args: --target aarch64-apple-darwin
-          tagName: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || '' }}
-          releaseName: Margin ${{ github.ref_name }}
+          tagName: v__VERSION__
+          releaseName: Margin v__VERSION__
           releaseBody: |
             **安装**：下载下面的 `Margin_*_aarch64.dmg`，双击打开，把 Margin 拖进「应用程序」文件夹。
 
@@ -49,10 +52,3 @@ jobs:
 
             适用于 Apple 芯片（M1–M4）的 Mac，需要 macOS 11 或更新版本。
           releaseDraft: false
-
-      - name: 上传安装包（手动运行时）
-        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: Margin-mac
-          path: desktop/src-tauri/target/aarch64-apple-darwin/release/bundle/dmg/*.dmg

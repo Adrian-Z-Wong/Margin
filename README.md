@@ -56,7 +56,7 @@ Finance 收录经济、金融、会计、管理、公司治理、财务管理、
 
 ## 开发
 
-不依赖任何框架。源码在 `src/`，运行 `python3 tools/build.py` 打包成 `Margin.html`。Mac 应用在 `desktop/`（[Tauri](https://tauri.app)），推送 `v` 开头的标签后由 GitHub Actions 自动打包发布。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+不依赖任何框架。源码在 `src/`，运行 `python3 tools/build.py` 打包成 `Margin.html`。Mac 应用在 `desktop/`（[Tauri](https://tauri.app)），由 GitHub Actions 自动打包发布。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 致谢
 
