@@ -21,7 +21,7 @@ Finance 词库的原始表格在 [`data/finance/`](data/finance/)：
 
 不熟悉 Git 也没关系，直接[提一个「词条纠错」Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose) 就行。
 
-四级、六级、考研、托福、雅思、GRE 词库来自 [ECDICT](https://github.com/skywind3000/ECDICT)，释义问题可以同时反馈给上游。
+CET-4、CET-6、GEE、TOEFL、IELTS、GRE、GMAT 词库来自 [ECDICT](https://github.com/skywind3000/ECDICT)，释义问题可以同时反馈给上游。
 
 ## 改代码
 

@@ -1,0 +1,8 @@
+[
+ {"type":"prefix","forms":["in","im","il","ir"],"meaning":"不，无；向内","origin":"拉丁语 in-","note":"在 l 前变 il，在 r 前变 ir，在 b、m、p 前变 im","examples":[{"w":"invisible","parts":"in(不) + vis(看) + ible(能…的)","m":"看不见的"},{"w":"import","parts":"im(向内) + port(运)","m":"进口"},{"w":"illegal","parts":"il(不) + legal(合法的)","m":"非法的"}]},
+ {"type":"prefix","forms":["pre"],"meaning":"在前，预先","origin":"拉丁语 prae-","note":"","examples":[{"w":"predict","parts":"pre(预先) + dict(说)","m":"预言"},{"w":"prepay","parts":"pre(预先) + pay(付)","m":"预付"},{"w":"precede","parts":"pre(在前) + cede(走)","m":"先于"}]},
+ {"type":"root","forms":["spect","spic","spec"],"meaning":"看","origin":"拉丁语 specere「看」","note":"","examples":[{"w":"inspect","parts":"in(向内) + spect(看)","m":"检查"},{"w":"perspective","parts":"per(贯穿) + spect(看) + ive(…的)","m":"观点"},{"w":"speculate","parts":"spec(看) + ul + ate(动词)","m":"推测；投机"}]},
+ {"type":"root","forms":["dict","dic"],"meaning":"说，言","origin":"拉丁语 dicere「说」","note":"","examples":[{"w":"predict","parts":"pre(预先) + dict(说)","m":"预言"},{"w":"contradict","parts":"contra(相反) + dict(说)","m":"反驳"},{"w":"dictate","parts":"dict(说) + ate(动词)","m":"口述；命令"}]},
+ {"type":"root","forms":["port"],"meaning":"运，携带","origin":"拉丁语 portare「运」","note":"","examples":[{"w":"export","parts":"ex(向外) + port(运)","m":"出口"},{"w":"portfolio","parts":"port(携带) + folio(纸页)","m":"投资组合"},{"w":"transport","parts":"trans(穿过) + port(运)","m":"运输"}]},
+ {"type":"suffix","forms":["able","ible"],"meaning":"能…的，可…的","origin":"拉丁语 -abilis","note":"","examples":[{"w":"readable","parts":"read(读) + able(能…的)","m":"易读的"},{"w":"visible","parts":"vis(看) + ible(能…的)","m":"看得见的"},{"w":"sustainable","parts":"sustain(维持) + able(能…的)","m":"可持续的"}]}
+]

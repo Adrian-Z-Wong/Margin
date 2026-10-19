@@ -1,7 +1,9 @@
-"""把 data/finance/*.tsv 转换成 Margin 的 Finance 词库 src/finance.js。
+"""把专业词库的表格转换成 Margin 的词库文件：
+    data/finance/*.tsv   -> src/finance.js   （Finance）
+    data/medicine/*.tsv  -> src/medicine.js  （Medicine）
 
 用法：
-    python3 tools/build_finance.py
+    python3 tools/build_terms.py
 
 每个 TSV 文件一行一个词条，三列用 Tab 分隔：英文术语、中文释义、小类。
 可以直接用 Excel 打开编辑（另存时选「制表符分隔的文本」，编码选 UTF-8）。
@@ -13,12 +15,25 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, "data", "finance")
 WORDS = os.path.join(ROOT, "src", "words.js")
-OUT = os.path.join(ROOT, "src", "finance.js")
 
-# 去重时排在前面的文件优先保留；data/finance/ 里其他的 .tsv 文件按文件名排在后面，全部并进 Finance 词库
-PRIORITY = ["finance.tsv", "economics.tsv", "accounting.tsv", "capital_markets.tsv", "governance.tsv", "management.tsv"]
+# 每本词库：数据目录、输出文件、变量名、去重时优先保留的文件（目录里其他 .tsv 按文件名排在后面）
+BOOKS = [
+    {
+        "name": "Finance",
+        "dir": "finance",
+        "out": "finance.js",
+        "var": "MARGIN_FINANCE",
+        "priority": ["finance.tsv", "economics.tsv", "accounting.tsv", "capital_markets.tsv", "governance.tsv", "management.tsv"],
+    },
+    {
+        "name": "Medicine",
+        "dir": "medicine",
+        "out": "medicine.js",
+        "var": "MARGIN_MEDICINE",
+        "priority": ["clinical.tsv", "internal_medicine.tsv", "surgery_specialties.tsv", "anatomy.tsv", "basic_sciences.tsv", "pharmacology.tsv"],
+    },
+]
 
 
 def load_phonetics():
@@ -34,16 +49,20 @@ def load_phonetics():
     return out
 
 
-def main():
-    phon = load_phonetics()
+def build(book, phon):
+    data = os.path.join(ROOT, "data", book["dir"])
+    out = os.path.join(ROOT, "src", book["out"])
+    if not os.path.isdir(data):
+        print(f"{book['name']}：没有 {data}，跳过")
+        return 0
     seen = {}
     rows = []
     problems = 0
     merged = 0
-    names = sorted(f for f in os.listdir(DATA) if f.endswith(".tsv"))
-    names = [f for f in PRIORITY if f in names] + [f for f in names if f not in PRIORITY]
+    names = sorted(f for f in os.listdir(data) if f.endswith(".tsv"))
+    names = [f for f in book["priority"] if f in names] + [f for f in names if f not in book["priority"]]
     for name in names:
-        path = os.path.join(DATA, name)
+        path = os.path.join(data, name)
         code = name[: -len(".tsv")]
         kept = 0
         with open(path, encoding="utf-8-sig") as f:
@@ -75,11 +94,17 @@ def main():
                 kept += 1
         print(f"{name}: {kept} 条")
 
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write("// 由 tools/build_finance.py 根据 data/finance/*.tsv 生成，请勿手动修改\n")
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(f"// 由 tools/build_terms.py 根据 data/{book['dir']}/*.tsv 生成，请勿手动修改\n")
         f.write("// 每行：术语\\t音标\\t中文释义\\t来源文件\\t小类\n")
-        f.write("window.MARGIN_FINANCE = " + json.dumps("\n".join(rows), ensure_ascii=False) + ";\n")
-    print(f"共 {len(rows)} 条（{merged} 条重复术语合并了译名），写入 {OUT}（{os.path.getsize(OUT) // 1024} KB）")
+        f.write(f"window.{book['var']} = " + json.dumps("\n".join(rows), ensure_ascii=False) + ";\n")
+    print(f"{book['name']}：共 {len(rows)} 条（{merged} 条重复术语合并了译名），写入 {out}（{os.path.getsize(out) // 1024} KB）")
+    return problems
+
+
+def main():
+    phon = load_phonetics()
+    problems = sum(build(book, phon) for book in BOOKS)
     if problems:
         sys.exit(1)
 

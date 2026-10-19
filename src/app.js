@@ -6,19 +6,23 @@
 
   // bit 对应 tools/build_words.py 里 TAGS 的顺序
   // bits：这个词库包含哪些标签的词。四六级、考研按大纲是累加的：
-  // 四级包含高考词汇，六级、考研包含四级词汇，宁多勿少
+  // CET-4 包含高考词汇，CET-6、GEE（考研）包含 CET-4 词汇，宁多勿少
   const EXAM_BOOKS = [
-    { id: 'cet4', name: '四级 CET-4', bits: [2, 1] },
-    { id: 'cet6', name: '六级 CET-6', bits: [3, 2, 1] },
-    { id: 'ky', name: '考研', bits: [4, 2, 1] },
-    { id: 'toefl', name: '托福 TOEFL', bits: [6] },
-    { id: 'ielts', name: '雅思 IELTS', bits: [5] },
+    { id: 'cet4', name: 'CET-4', bits: [2, 1] },
+    { id: 'cet6', name: 'CET-6', bits: [3, 2, 1] },
+    { id: 'ky', name: 'GEE', bits: [4, 2, 1] }, // 考研，Graduate Entrance Examination
+    { id: 'toefl', name: 'TOEFL', bits: [6] },
+    { id: 'ielts', name: 'IELTS', bits: [5] },
     { id: 'gre', name: 'GRE', bits: [7] },
     { id: 'gmat', name: 'GMAT', bits: [8] },
   ];
 
-  // Finance：经济、金融、会计、管理、公司治理、财务管理、资本市场等专业词汇，合成一个词库
-  const FINANCE_BOOKS = [{ id: 'fin', name: 'Finance' }];
+  // 专业词库，由 tools/build_terms.py 根据 data/<目录>/*.tsv 生成
+  // Finance：经济、金融、会计、管理、公司治理、资本市场等；Medicine：西医、中医、中药、经络穴位等
+  const TERM_BOOKS = [
+    { id: 'fin', name: 'Finance', key: 'MARGIN_FINANCE' },
+    { id: 'med', name: 'Medicine', key: 'MARGIN_MEDICINE' },
+  ];
 
   const BASIC_MASK = (1 << 0) | (1 << 1); // 中考、高考
 
@@ -42,7 +46,7 @@
   // ================= 内置数据 =================
 
   const EXAM_WORDS = []; // { w, p, m, mask }
-  const FINANCE_WORDS = []; // { w, p, m, s, t }
+  const TERM_WORDS = {}; // 词库 id -> [{ w, p, m, s, t }]
   const LOOKUP = new Map(); // 小写单词 -> 词条，导入时自动补释义用
 
   (function loadBuiltin() {
@@ -55,23 +59,71 @@
         if (!LOOKUP.has(w.toLowerCase())) LOOKUP.set(w.toLowerCase(), e);
       }
     }
-    const fin = window.MARGIN_FINANCE || '';
-    if (fin) {
-      for (const line of fin.split('\n')) {
+    for (const b of TERM_BOOKS) {
+      const list = (TERM_WORDS[b.id] = []);
+      const raw = window[b.key] || '';
+      if (!raw) continue;
+      for (const line of raw.split('\n')) {
         const [w, p, m, s, t] = line.split('\t');
         const e = { w, p, m, s, t };
-        FINANCE_WORDS.push(e);
+        list.push(e);
         if (!LOOKUP.has(w.toLowerCase())) LOOKUP.set(w.toLowerCase(), e);
       }
     }
   })();
+
+  // 词根词缀和单词拆解：tools/build_roots.py 根据 data/roots/ 生成
+  const ROOTS = window.MARGIN_ROOTS || [];
+  const ROOT_BY_ID = new Map(ROOTS.map((r) => [r.id, r]));
+  const ROOT_TYPES = { prefix: '前缀', root: '词根', suffix: '后缀' };
+  const PARTS = new Map(); // 小写单词 -> { w, parts, links: [{ id, form, at }] }
+  for (const line of (window.MARGIN_PARTS || '').split('\n')) {
+    if (!line) continue;
+    const [w, parts, links] = line.split('\t');
+    PARTS.set(w.toLowerCase(), {
+      w,
+      parts,
+      links: (links ? links.split(',') : [])
+        .map((x) => {
+          const [id, form, at] = x.split('|');
+          return { id, form, at: +at };
+        })
+        .filter((l) => ROOT_BY_ID.has(l.id)),
+    });
+  }
+
+  // 单词的拆解；复数、过去式等查不到时退回原形
+  function partsOf(word) {
+    const w = String(word).toLowerCase();
+    let p = PARTS.get(w);
+    if (p) return p;
+    for (const [end, add] of [['ies', 'y'], ['ied', 'y'], ['es', ''], ['s', ''], ['ed', ''], ['ed', 'e'], ['ing', ''], ['ing', 'e']]) {
+      if (w.length > end.length + 2 && w.endsWith(end) && (p = PARTS.get(w.slice(0, -end.length) + add))) return p;
+    }
+    return null;
+  }
+
+  // 答完题显示的拆解；词组显示里面各个词的拆解
+  function breakdownLines(w) {
+    const toks = String(w).toLowerCase().split(/[^a-z]+/).filter(Boolean);
+    if (toks.length === 1) {
+      const p = partsOf(toks[0]);
+      return p ? [p.parts] : [];
+    }
+    const out = [];
+    for (const t of toks) {
+      const p = partsOf(t);
+      if (p && out.length < 3) out.push(t + ' = ' + p.parts);
+    }
+    return out;
+  }
 
   const bookCache = {};
 
   // ================= 存储 =================
 
   const STORE_KEY = 'margin.v1';
-  const FIRST_BOOK = FINANCE_WORDS.length ? 'fin' : EXAM_WORDS.length ? 'toefl' : WRONG_BOOK;
+  const FIRST_BOOK = TERM_WORDS.fin.length ? 'fin' : EXAM_WORDS.length ? 'toefl' : WRONG_BOOK;
   const DEFAULT_SETTINGS = {
     mode: 'en2zh',
     book: FIRST_BOOK,
@@ -84,16 +136,18 @@
     copyWrong: true,
     weight: 'normal',
     theme: 'auto',
+    rootBook: 'all', // 词根板块选的词库
+    rootGoal: 10, // 每天学几个词根
   };
 
   function freshState() {
-    return { v: 1, settings: Object.assign({}, DEFAULT_SETTINGS), books: {}, stats: {}, wrong: {}, srs: {}, known: {}, log: {} };
+    return { v: 1, settings: Object.assign({}, DEFAULT_SETTINGS), books: {}, stats: {}, wrong: {}, srs: {}, known: {}, log: {}, rootStats: {}, rootWrong: {}, rootLog: {} };
   }
 
   function normalizeState(saved) {
     const s = freshState();
     if (!saved || typeof saved !== 'object') return s;
-    for (const k of ['books', 'stats', 'wrong', 'srs', 'known', 'log']) {
+    for (const k of ['books', 'stats', 'wrong', 'srs', 'known', 'log', 'rootStats', 'rootWrong', 'rootLog']) {
       if (saved[k] && typeof saved[k] === 'object') s[k] = saved[k];
     }
     Object.assign(s.settings, saved.settings || {});
@@ -358,8 +412,8 @@
   function findExam(id) {
     return EXAM_BOOKS.find((b) => b.id === id);
   }
-  function findFinance(id) {
-    return FINANCE_BOOKS.find((b) => b.id === id);
+  function findTerm(id) {
+    return TERM_BOOKS.find((b) => b.id === id);
   }
 
   // 今天学了多少个新词（第一次答这个词是在今天）
@@ -412,8 +466,7 @@
       }
       return bookCache[id];
     }
-    const fi = findFinance(id);
-    if (fi) return FINANCE_WORDS;
+    if (findTerm(id)) return TERM_WORDS[id];
     const c = state.books[id];
     return c ? c.words : [];
   }
@@ -421,7 +474,7 @@
   function bookName(id) {
     if (id === WRONG_BOOK) return '错题本';
     if (id === REVIEW_BOOK) return '今日复习';
-    const b = findExam(id) || findFinance(id);
+    const b = findExam(id) || findTerm(id);
     if (b) return b.name;
     return state.books[id] ? state.books[id].name : '';
   }
@@ -429,7 +482,7 @@
   function bookExists(id) {
     if (id === WRONG_BOOK || id === REVIEW_BOOK) return true;
     if (findExam(id)) return bookEntries(id).length > 0;
-    if (findFinance(id)) return FINANCE_WORDS.length > 0;
+    if (findTerm(id)) return TERM_WORDS[id].length > 0;
     return !!state.books[id];
   }
 
@@ -440,7 +493,7 @@
   }
 
   function isBuiltin(id) {
-    return !!(findExam(id) || findFinance(id));
+    return !!(findExam(id) || findTerm(id));
   }
 
   // 还没标记为已掌握的词
@@ -945,6 +998,8 @@
     session: null,
     book: { id: null, q: '', limit: 200 },
     draft: null,
+    roots: { q: '', type: 'all', id: null, limit: 200, wordLimit: 50 },
+    rs: null, // 词根练习的一组
   };
 
   function go(view) {
@@ -1177,11 +1232,12 @@
     const wrongN = Object.keys(state.wrong).length;
     const nav = [
       ['home', '背诵'],
+      ['roots', '词根'],
       ['books', '词库'],
       ['wrong', '错题本' + (wrongN ? '<sup>' + wrongN + '</sup>' : '')],
       ['settings', '设置'],
     ];
-    const active = { practice: 'home', result: 'home', book: 'books', import: 'books' }[ui.view] || ui.view;
+    const active = { practice: 'home', result: 'home', book: 'books', import: 'books', root: 'roots', rootquiz: 'roots' }[ui.view] || ui.view;
     return (
       '<header class="top"><button class="brand" data-act="nav" data-view="home">Margin</button><nav class="nav">' +
       nav.map(([v, label]) => '<button data-act="nav" data-view="' + v + '" class="' + (active === v ? 'on' : '') + '">' + label + '</button>').join('') +
@@ -1189,9 +1245,9 @@
     );
   }
 
-  // 内置词库，平铺：Finance、四级、六级……
+  // 内置词库，平铺：Finance、Medicine、CET-4、CET-6……
   function allBooks() {
-    return FINANCE_BOOKS.concat(EXAM_BOOKS)
+    return TERM_BOOKS.concat(EXAM_BOOKS)
       .map((b) => b.id)
       .filter((id) => bookExists(id));
   }
@@ -1366,6 +1422,8 @@
         (e.p ? '<div class="fb-phon">/' + esc(e.p) + '/</div>' : '') +
         (ss.mode === 'listen' ? '<div class="fb-mean">' + meaningHtml(e.m) + '</div>' : ''); // 中→英 的题目本身就是中文意思，不再重复
     }
+    const parts = breakdownLines(e.w);
+    if (parts.length) body += '<div class="fb-parts">' + parts.map(esc).join('<br>') + '</div>';
     return (
       '<div class="feedback">' + body +
       '<div class="actions"><button class="btn small" data-act="next">继续 <kbd>Enter</kbd></button></div>' +
@@ -1474,6 +1532,7 @@
 
   // 结果页上「下一组」按钮的文字；没有下一组时返回空
   function nextLabel(ss) {
+    if (ss.kind === 'root') return '';
     if (ss.kind === 'new' || ss.kind === 'retry') {
       const left = state.settings.goal - learnedToday();
       return left > 0 ? '下一组新词 · 今天还差 ' + left + ' 个' : '再背一组新词';
@@ -1718,10 +1777,564 @@
       '<label class="btn small ghost file-pick">导入备份<input type="file" id="backup-file" accept=".json,application/json"></label>' +
       '<button class="link" data-act="resetAll">清空所有数据</button></div>' +
       '<div class="d">换电脑、换浏览器或清理浏览器数据之前，先导出备份；到新地方打开 Margin 后再导入。</div></div></div>' +
-      '<div class="set-row"><div><div class="t">关于</div></div><div class="d" style="margin-top:0">Margin · 黑白极简的背单词工具。<br>Finance 词库由 Margin 整理，译名参考国内通行教材；发现不准欢迎到 GitHub 反馈。<br>四级、六级、考研、托福、雅思、GRE 词库与音标来自开源词典 ECDICT（MIT 许可证）。</div></div>' +
+      '<div class="set-row"><div><div class="t">关于</div></div><div class="d" style="margin-top:0">Margin · 黑白极简的背单词工具。<br>Finance、Medicine 词库和词根由 Margin 整理，译名参考国内通行教材和标准术语；发现不准欢迎到 GitHub 反馈。<br>CET-4、CET-6、GEE、TOEFL、IELTS、GRE、GMAT 词库与音标来自开源词典 ECDICT（MIT 许可证）。</div></div>' +
       '</div>' +
       '</main>'
     );
+  };
+
+  // ================= 词根 =================
+
+  // 词根的学习和背单词是并列的另一套：选词库、每天学几个，每组依次过三步
+  const ROOT_STAGES = ['r2m', 'm2r', 'fill'];
+  const ROOT_MODES = {
+    r2m: { name: '根 → 义', desc: '看词根，选意思' },
+    m2r: { name: '义 → 根', desc: '看意思，选词根' },
+    fill: { name: '填词根', desc: '在单词里填出词根' },
+  };
+  const ROOT_GROUP = 5; // 每组几个词根
+
+  function rootForms(r) {
+    return r.forms.map((f) => (r.type === 'prefix' ? f + '-' : r.type === 'suffix' ? '-' + f : f)).join(' / ');
+  }
+
+  function rootBook() {
+    const s = state.settings;
+    if (s.rootBook !== 'all' && (!bookExists(s.rootBook) || s.rootBook === WRONG_BOOK || s.rootBook === REVIEW_BOOK)) s.rootBook = 'all';
+    return s.rootBook;
+  }
+
+  function rootBookName(id) {
+    return id === 'all' ? '全部词库' : bookName(id);
+  }
+
+  // 词根 id -> 这个词库里含这个词根的词 [{ e, tok, p, fill }]；fill 是能用来「填词根」的位置
+  const rootIdxCache = {};
+  function rootIndex(bookId) {
+    const custom = bookId !== 'all' && !isBuiltin(bookId);
+    if (!custom && rootIdxCache[bookId]) return rootIdxCache[bookId];
+    const entries = bookId === 'all' ? EXAM_WORDS.concat(...TERM_BOOKS.map((b) => TERM_WORDS[b.id])) : bookEntries(bookId);
+    const idx = new Map();
+    const seen = new Set();
+    for (const e of entries) {
+      const k = keyOf(e.w);
+      if (!k || seen.has(k)) continue;
+      seen.add(k);
+      const toks = k.split(/[^a-z]+/).filter(Boolean);
+      const got = new Set();
+      for (const t of toks) {
+        const p = partsOf(t);
+        if (!p) continue;
+        const exact = toks.length === 1 && p.w.toLowerCase() === t;
+        for (const l of p.links) {
+          if (got.has(l.id)) continue;
+          got.add(l.id);
+          if (!idx.has(l.id)) idx.set(l.id, []);
+          const fill = exact && l.at >= 0 && t.substr(l.at, l.form.length) === l.form && l.form.length >= 2 && l.form.length < t.length ? l : null;
+          idx.get(l.id).push({ e, tok: t, p, fill });
+        }
+      }
+    }
+    if (!custom) rootIdxCache[bookId] = idx;
+    return idx;
+  }
+
+  // 这个词库里用得到的词根，用到的词越多越靠前（也是学新词根的顺序）
+  function rootsOfBook(bookId) {
+    const idx = rootIndex(bookId);
+    const n = (r) => (idx.get(r.id) || []).length;
+    const list = bookId === 'all' ? ROOTS.slice() : ROOTS.filter((r) => n(r) > 0);
+    return list.sort((a, b) => n(b) - n(a));
+  }
+
+  function learnedRootsToday() {
+    const today = dayNum();
+    let n = 0;
+    for (const id in state.rootStats) if (state.rootStats[id].f === today) n++;
+    return n;
+  }
+
+  // 词根复习：昨天学的新词根 + 答错过的词根。今天复习过的不再出现
+  function rootReviewPool() {
+    const today = dayNum();
+    const done = (state.rootLog[todayKey()] || {}).rv || [];
+    const doneSet = new Set(done);
+    const ids = new Set();
+    for (const id in state.rootStats) if (state.rootStats[id].f === today - 1) ids.add(id);
+    for (const id in state.rootWrong) ids.add(id);
+    const remaining = [...ids].filter((id) => ROOT_BY_ID.has(id) && !doneSet.has(id)).map((id) => ROOT_BY_ID.get(id));
+    return { done: done.length, remaining };
+  }
+
+  function markRootReviewed(id) {
+    const k = todayKey();
+    const day = state.rootLog[k] || (state.rootLog[k] = { rv: [] });
+    if (!day.rv.includes(id)) day.rv.push(id);
+  }
+
+  // 意思是否相近：有一个词相同就算，出选择题时不放在一起
+  function sameMeaning(a, b) {
+    const ta = a.split(/[，,；;、\s]+/).filter(Boolean);
+    const tb = new Set(b.split(/[，,；;、\s]+/).filter(Boolean));
+    return ta.some((t) => tb.has(t));
+  }
+
+  function distractors(r) {
+    const pick = [];
+    const pools = [rootsOfBook(rootBook()).filter((x) => x.type === r.type), ROOTS.filter((x) => x.type === r.type), ROOTS];
+    for (const pool of pools) {
+      for (const x of shuffle(pool.slice())) {
+        if (pick.length >= 3) break;
+        if (x === r || sameMeaning(x.meaning, r.meaning) || pick.some((y) => y === x || sameMeaning(y.meaning, x.meaning))) continue;
+        if (x.forms.some((f) => r.forms.includes(f))) continue;
+        pick.push(x);
+      }
+      if (pick.length >= 3) break;
+    }
+    return pick;
+  }
+
+  function rootQuestion(x, mode) {
+    const q = { r: x.r, x, mode };
+    if (mode !== 'fill') {
+      const options = shuffle([x.r].concat(distractors(x.r)));
+      q.options = options.map((o) => (mode === 'r2m' ? o.meaning : rootForms(o)));
+      q.correct = options.indexOf(x.r);
+    }
+    return q;
+  }
+
+  function startRootNew() {
+    const book = rootBook();
+    const left = state.settings.rootGoal - learnedRootsToday();
+    const n = left > 0 ? Math.min(ROOT_GROUP, left) : ROOT_GROUP;
+    const fresh = rootsOfBook(book).filter((r) => !state.rootStats[r.id]);
+    if (!fresh.length) {
+      toast('这个词库的词根都学过了，换一个词库吧');
+      return;
+    }
+    startRootSession(fresh.slice(0, n), 'new');
+  }
+
+  function startRootReview() {
+    const { remaining } = rootReviewPool();
+    if (!remaining.length) {
+      toast('今天的词根复习做完了');
+      return;
+    }
+    startRootSession(shuffle(remaining.slice()).slice(0, ROOT_GROUP), 'review');
+  }
+
+  function startRootSession(roots, kind) {
+    const book = rootBook();
+    const idx = rootIndex(book);
+    const pickFill = (list) => {
+      const ok = (list || []).filter((w) => w.fill);
+      return ok.length ? ok[Math.floor(Math.random() * ok.length)] : null;
+    };
+    const items = roots.map((r) => {
+      const words = idx.get(r.id) || [];
+      return { r, words, target: pickFill(words) || (book === 'all' ? null : pickFill(rootIndex('all').get(r.id))) };
+    });
+    ui.rs = { kind, book, roots: items, stage: -1, mode: null, items: [], idx: 0, pick: null, ok: null, results: [], stageResults: [], between: false, done: false, ended: false };
+    beginRootStage(0);
+    go('rootquiz');
+  }
+
+  function nextRootStage(rs, from) {
+    for (let i = from; i < ROOT_STAGES.length; i++) {
+      if (ROOT_STAGES[i] !== 'fill' || rs.roots.some((x) => x.target)) return i;
+    }
+    return -1;
+  }
+
+  function beginRootStage(i) {
+    const rs = ui.rs;
+    const stage = nextRootStage(rs, i);
+    if (stage < 0) return finishRootSession();
+    const mode = ROOT_STAGES[stage];
+    rs.stage = stage;
+    rs.mode = mode;
+    rs.items = shuffle(rs.roots.filter((x) => mode !== 'fill' || x.target).map((x) => rootQuestion(x, mode)));
+    rs.idx = 0;
+    rs.pick = null;
+    rs.results = [];
+    rs.between = false;
+  }
+
+  function rootAnswer(n) {
+    const rs = ui.rs;
+    if (!rs || rs.between || rs.done || rs.pick !== null || rs.mode === 'fill') return;
+    const q = rs.items[rs.idx];
+    if (n < 0 || n >= q.options.length) return;
+    recordRoot(q, n === q.correct, n);
+  }
+
+  function recordRoot(q, ok, pick) {
+    const rs = ui.rs;
+    rs.pick = pick;
+    rs.ok = ok;
+    rs.results.push({ r: q.r, ok });
+    const today = dayNum();
+    const st = state.rootStats[q.r.id] || (state.rootStats[q.r.id] = { r: 0, w: 0, f: today });
+    st[ok ? 'r' : 'w']++;
+    st.d = today;
+    if (rs.kind === 'review') markRootReviewed(q.r.id);
+    save();
+    render();
+    if (q.mode === 'fill') speak(q.x.target.tok);
+  }
+
+  function rootNextLabel(rs) {
+    if (rs.kind === 'new') {
+      const left = state.settings.rootGoal - learnedRootsToday();
+      return left > 0 ? '下一组新词根 · 今天还差 ' + left + ' 个' : '再学一组新词根';
+    }
+    const n = rootReviewPool().remaining.length;
+    return n ? '继续复习 · 还剩 ' + n + ' 个' : '';
+  }
+
+  function rootNext() {
+    const rs = ui.rs;
+    if (!rs) return;
+    if (rs.done) {
+      if (rootNextLabel(rs)) {
+        if (rs.kind === 'new') startRootNew();
+        else startRootReview();
+      } else go('roots');
+      return;
+    }
+    if (rs.between) {
+      beginRootStage(rs.stage + 1);
+      render();
+      return;
+    }
+    const q = rs.items[rs.idx];
+    if (rs.pick === null) {
+      if (rs.mode === 'fill') {
+        const input = document.getElementById('rq-answer');
+        const v = (input ? input.value : '').trim().toLowerCase();
+        recordRoot(q, v === q.x.target.fill.form, v);
+      }
+      return;
+    }
+    rs.idx++;
+    rs.pick = null;
+    if (rs.idx >= rs.items.length) {
+      rs.stageResults[rs.stage] = rs.results;
+      if (nextRootStage(rs, rs.stage + 1) >= 0) rs.between = true;
+      else return finishRootSession();
+    }
+    render();
+  }
+
+  // 一组结束：这一组里每一步都答对的词根移出错题，答错过的记进去
+  function finishRootSession() {
+    const rs = ui.rs;
+    rs.done = true;
+    rs.between = false;
+    const all = [].concat(...rs.stageResults.filter(Boolean));
+    for (const x of rs.roots) {
+      const mine = all.filter((y) => y.r === x.r);
+      if (!mine.length) continue;
+      if (mine.some((y) => !y.ok)) state.rootWrong[x.r.id] = Date.now();
+      else if (!rs.ended) delete state.rootWrong[x.r.id];
+    }
+    save();
+    if (!all.length) {
+      ui.rs = null;
+      go('roots');
+      return;
+    }
+    render();
+  }
+
+  function quitRootSession() {
+    const rs = ui.rs;
+    if (!rs || rs.done) return go('roots');
+    if (!rs.between) rs.stageResults[rs.stage] = rs.results;
+    rs.ended = true;
+    finishRootSession();
+  }
+
+  // ---------- 词根首页 ----------
+
+  function rootList() {
+    const q = ui.roots.q.trim().toLowerCase().replace(/^-+|-+$/g, '');
+    let list = rootsOfBook(rootBook());
+    if (ui.roots.type !== 'all') list = list.filter((r) => r.type === ui.roots.type);
+    if (!q) return list;
+    const rank = (r) => (r.forms.includes(q) ? 0 : r.forms.some((f) => f.startsWith(q)) ? 1 : 2);
+    return list
+      .filter((r) => r.forms.some((f) => f.includes(q)) || r.meaning.includes(q) || r.examples.some((x) => x.w.toLowerCase().includes(q)))
+      .sort((a, b) => rank(a) - rank(b));
+  }
+
+  function rootRowsHtml() {
+    const list = rootList();
+    const q = ui.roots.q.trim();
+    if (!list.length) return '<div class="empty">' + (q ? '没有找到「' + esc(q) + '」' : '这个词库里没有用到这类词根') + '</div>';
+    const idx = rootIndex(rootBook());
+    const shown = list.slice(0, ui.roots.limit);
+    return (
+      shown
+        .map((r) => {
+          const n = (idx.get(r.id) || []).length;
+          return (
+            '<button class="list-row root-row" data-act="viewRoot" data-id="' + esc(r.id) + '">' +
+            '<span class="w">' + esc(rootForms(r)) + '</span>' +
+            '<span class="m">' + esc(r.meaning) + '</span>' +
+            '<span class="side"><span>' + ROOT_TYPES[r.type] + '</span>' + (n ? '<span>' + fmt(n) + ' 词</span>' : '') + (state.rootStats[r.id] ? '<span>已学</span>' : '') + '</span></button>'
+          );
+        })
+        .join('') +
+      (list.length > shown.length ? '<div class="actions" style="margin-top:20px"><button class="btn small ghost" data-act="moreRoots">再显示 200 个（还有 ' + fmt(list.length - shown.length) + ' 个）</button></div>' : '')
+    );
+  }
+
+  function rootBookOptionsHtml(selected) {
+    const opt = (id) => '<option value="' + esc(id) + '"' + (id === selected ? ' selected' : '') + '>' + esc(rootBookName(id)) + '</option>';
+    const mine = Object.values(state.books).sort((a, b) => a.t - b.t).map((b) => b.id);
+    return ['all'].concat(allBooks(), mine).map(opt).join('');
+  }
+
+  VIEWS.roots = function () {
+    const s = state.settings;
+    const book = rootBook();
+    const inBook = rootsOfBook(book);
+    const learned = learnedRootsToday();
+    const studied = inBook.filter((r) => state.rootStats[r.id]).length;
+    const rv = rootReviewPool();
+    const rvTotal = rv.done + rv.remaining.length;
+    const left = s.rootGoal - learned;
+    const pct = (a, b) => (b ? Math.min(100, (a / b) * 100) : 100);
+    const types = [['all', '全部'], ['prefix', '前缀'], ['root', '词根'], ['suffix', '后缀']];
+    return (
+      '<main class="page">' +
+      '<h1 class="h1">词根</h1>' +
+      '<p class="sub">' + esc(rootBookName(book)) + ' 用到 ' + fmt(inBook.length) + ' 个词根词缀 · 已学 ' + fmt(studied) + '</p>' +
+      '<div class="section grid2" style="margin-top:0">' +
+      '<div><p class="label">词库</p><label class="select"><select data-act="setRootBook" aria-label="词库">' + rootBookOptionsHtml(book) + '</select></label></div>' +
+      '<div><p class="label">每天学几个词根</p>' + chipsHtml('rootGoal', [5, 10, 20, 30].map((n) => [n, String(n)])) + '</div>' +
+      '</div>' +
+      '<h2 class="h1 section">今日任务</h2>' +
+      '<div class="tasks">' +
+      '<div class="task"><p class="label">新词根</p>' +
+      '<div class="num">' + fmt(learned) + '<small> / ' + fmt(s.rootGoal) + '</small></div>' +
+      '<div class="bar"><i style="width:' + pct(learned, s.rootGoal) + '%"></i></div>' +
+      '<p class="muted">' + (left > 0 ? '还差 ' + left + ' 个 · ' + esc(rootBookName(book)) : '今天的目标完成了') + '</p>' +
+      '<button class="btn" data-act="startRootNew">' + (left > 0 ? '学新词根' : '再学一组') + ' <kbd>Enter</kbd></button></div>' +
+      '<div class="task"><p class="label">复习</p>' +
+      '<div class="num">' + fmt(rv.done) + '<small> / ' + fmt(rvTotal) + '</small></div>' +
+      '<div class="bar"><i style="width:' + pct(rv.done, rvTotal) + '%"></i></div>' +
+      '<p class="muted">昨天的新词根和答错过的词根</p>' +
+      '<button class="btn ghost" data-act="startRootReview"' + (rv.remaining.length ? '' : ' disabled') + '>' + (rv.remaining.length ? '开始复习 <kbd>R</kbd>' : rvTotal ? '复习完了' : '今天没有要复习的词根') + '</button></div>' +
+      '</div>' +
+      '<div class="section"><h2 class="h2">查词根</h2>' +
+      '<div class="chips" style="margin-top:20px">' +
+      types.map(([v, label]) => '<button class="chip' + (ui.roots.type === v ? ' on' : '') + '" data-act="rootType" data-type="' + v + '">' + label + '</button>').join('') +
+      '</div>' +
+      '<input class="field roots-q" id="roots-q" placeholder="搜索词根、意思或单词" value="' + esc(ui.roots.q) + '" autocomplete="off" spellcheck="false"></div>' +
+      '<div class="section root-list" id="root-rows">' + rootRowsHtml() + '</div>' +
+      '</main>'
+    );
+  };
+
+  // ---------- 词根详情 ----------
+
+  function rootWordRow(w, parts, m) {
+    const e = LOOKUP.get(w.toLowerCase());
+    return (
+      '<div class="list-row ex-row"><button class="w" data-act="speakWord" data-w="' + esc(w) + '">' + esc(w) + (e && e.p && !/\s/.test(w) ? '<small>/' + esc(e.p) + '/</small>' : '') + '</button>' +
+      '<span class="m"><span class="parts">' + esc(parts) + '</span><span class="ex-m">' + esc(m) + '</span></span></div>'
+    );
+  }
+
+  // 词组只显示含这个词根的那个词的拆解
+  function bookWordRow(x) {
+    const phrase = /\s/.test(x.e.w);
+    return rootWordRow(x.e.w, (phrase ? x.tok + ' = ' : '') + x.p.parts, shortMeaning(x.e.m));
+  }
+
+  VIEWS.root = function () {
+    let list = rootList();
+    let i = list.findIndex((r) => r.id === ui.roots.id);
+    if (i < 0) {
+      list = ROOTS;
+      i = list.findIndex((r) => r.id === ui.roots.id);
+    }
+    if (i < 0) return VIEWS.roots();
+    const r = list[i];
+    const book = rootBook();
+    const words = rootIndex(book).get(r.id) || [];
+    const shown = words.slice(0, ui.roots.wordLimit);
+    const st = state.rootStats[r.id];
+    const step = (x, label) => (x ? '<button class="link" data-act="viewRoot" data-id="' + esc(x.id) + '">' + label + '</button>' : '<span></span>');
+    return (
+      '<main class="page">' +
+      '<p class="label"><button class="link" data-act="nav" data-view="roots">← 词根</button></p>' +
+      '<p class="label root-type">' + ROOT_TYPES[r.type] + (st ? ' · 答对 ' + st.r + ' 次 · 答错 ' + st.w + ' 次' : '') + '</p>' +
+      '<h1 class="root-forms">' + esc(rootForms(r)) + '</h1>' +
+      '<div class="root-mean">' + esc(r.meaning) + '</div>' +
+      (r.origin ? '<p class="root-origin">' + esc(r.origin) + '</p>' : '') +
+      (r.note ? '<p class="root-note">' + esc(r.note) + '</p>' : '') +
+      '<div class="section"><div class="head-row"><p class="label">例词</p><span class="muted">点单词听发音</span></div>' +
+      r.examples.map((x) => rootWordRow(x.w, x.parts, x.m)).join('') + '</div>' +
+      (book !== 'all'
+        ? '<div class="section"><div class="head-row"><p class="label">' + esc(rootBookName(book)) + ' 里的词 · ' + fmt(words.length) + '</p>' +
+          (words.length ? '<button class="btn small ghost" data-act="studyRootWords">背这些词</button>' : '') + '</div>' +
+          (words.length ? shown.map(bookWordRow).join('') : '<div class="empty">这个词库里没有含这个词根的词。</div>') +
+          (words.length > shown.length ? '<div class="actions" style="margin-top:20px"><button class="btn small ghost" data-act="moreRootWords">再显示 50 个（还有 ' + fmt(words.length - shown.length) + ' 个）</button></div>' : '') +
+          '</div>'
+        : '') +
+      '<div class="root-steps">' + step(list[i - 1], '← ' + esc(list[i - 1] ? rootForms(list[i - 1]) : '')) + step(list[i + 1], esc(list[i + 1] ? rootForms(list[i + 1]) : '') + ' →') + '</div>' +
+      '</main>'
+    );
+  };
+
+  // 用背单词的三步，背这个词库里含这个词根的词（没背过的优先）
+  function studyRootWords() {
+    const words = rootIndex(rootBook()).get(ui.roots.id) || [];
+    const list = available(words.map((x) => x.e));
+    if (!list.length) {
+      toast('这些词都标记为已掌握了');
+      return;
+    }
+    const fresh = list.filter((e) => !state.stats[keyOf(e.w)]);
+    const pick = (fresh.length ? fresh : list).slice(0, state.settings.size);
+    startSession(shuffle(pick.slice()), rootBook() === 'all' ? null : rootBook(), 'root');
+  }
+
+  // ---------- 词根练习 ----------
+
+  function rootStepsHtml(rs) {
+    return ROOT_STAGES.map((k, i) => '<span class="step' + (i === rs.stage ? ' on' : i < rs.stage ? ' done' : '') + '">' + (i + 1) + ' ' + ROOT_MODES[k].name + '</span>').join('');
+  }
+
+  // 答完以后显示：词根、来源，再列几个这个词库里的词
+  function rootAfterHtml(q) {
+    const r = q.r;
+    const words = q.x.words.filter((w) => !/\s/.test(w.e.w)).slice(0, 3);
+    const rows = words.length ? words.map(bookWordRow).join('') : r.examples.slice(0, 3).map((x) => rootWordRow(x.w, x.parts, x.m)).join('');
+    return (
+      '<div class="rq-after">' +
+      '<p class="rq-root"><b>' + esc(rootForms(r)) + '</b>　' + esc(r.meaning) + (r.origin ? '<span class="root-origin">' + esc(r.origin) + '</span>' : '') + '</p>' +
+      '<div class="rq-words">' + rows + '</div>' +
+      '<div class="actions" style="justify-content:center;margin-top:20px"><button class="btn small" data-act="rootNext">继续 <kbd>Enter</kbd></button></div></div>'
+    );
+  }
+
+  function rootPromptHtml(rs, q) {
+    const r = q.r;
+    const answered = rs.pick !== null;
+    if (q.mode === 'fill') {
+      const f = q.x.target;
+      const t = f.tok;
+      const at = f.fill.at;
+      const len = f.fill.form.length;
+      const gap = answered ? '<u class="gap-ans">' + esc(t.substr(at, len)) + '</u>' : '<span class="gap">' + '_'.repeat(len) + '</span>';
+      return (
+        '<div class="prompt-word">' + esc(t.slice(0, at)) + gap + esc(t.slice(at + len)) + '</div>' +
+        '<div class="rq-hint">' + esc(shortMeaning(f.e.m)) + ' · 空格里的' + ROOT_TYPES[r.type] + '意思是「' + esc(r.meaning) + '」</div>' +
+        '<input id="rq-answer" class="answer en' + (answered && !rs.ok ? ' wrong' : '') + '" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"' +
+        (answered ? ' readonly value="' + esc(rs.pick) + '"' : ' placeholder="填词根"') + '>'
+      );
+    }
+    if (q.mode === 'r2m') {
+      const hint = q.x.words.filter((w) => !/\s/.test(w.e.w)).slice(0, 3).map((w) => w.e.w);
+      const words = hint.length ? hint : r.examples.slice(0, 3).map((x) => x.w);
+      return '<p class="label">' + ROOT_TYPES[r.type] + '</p><div class="prompt-word">' + esc(rootForms(r)) + '</div><div class="rq-hint">' + esc(words.join(' · ')) + '</div>';
+    }
+    return '<p class="label">' + ROOT_TYPES[r.type] + '</p><div class="prompt-mean">' + esc(r.meaning) + '</div>';
+  }
+
+  function rootQuizResultHtml(rs) {
+    const all = [].concat(...rs.stageResults.filter(Boolean));
+    const right = all.filter((x) => x.ok).length;
+    const stageLine = ROOT_STAGES.map((k, i) => {
+      const res = rs.stageResults[i];
+      return '<div><div class="num">' + (res && res.length ? res.filter((x) => x.ok).length + '<small> / ' + res.length + '</small>' : '—') + '</div><div class="cap">' + (i + 1) + ' · ' + ROOT_MODES[k].name + '</div></div>';
+    }).join('');
+    const mark = (r, i) => {
+      const x = (rs.stageResults[i] || []).find((y) => y.r === r);
+      return '<span class="mk" title="' + ROOT_MODES[ROOT_STAGES[i]].name + '">' + (!x ? '·' : x.ok ? ICON_OK : ICON_BAD) + '</span>';
+    };
+    const next = rootNextLabel(rs);
+    return (
+      '<main class="page rq">' +
+      '<p class="label">' + (rs.ended ? '提前结束' : '本组结束') + ' · ' + esc(rootBookName(rs.book)) + '</p>' +
+      '<div class="score">' + right + '<small> / ' + all.length + '</small></div>' +
+      '<div class="today stage-line">' + stageLine + '</div>' +
+      '<div class="section"><div class="head-row"><p class="label">这一组的词根</p><span class="muted">右边三个标记依次是 根→义、义→根、填词根</span></div>' +
+      rs.roots
+        .map(
+          (x) =>
+            '<button class="list-row root-row" data-act="viewRoot" data-id="' + esc(x.r.id) + '">' +
+            '<span class="w">' + esc(rootForms(x.r)) + '</span><span class="m">' + esc(x.r.meaning) + '</span>' +
+            '<span class="side marks">' + [0, 1, 2].map((i) => mark(x.r, i)).join('') + '</span></button>'
+        )
+        .join('') +
+      '</div>' +
+      '<div class="actions" style="margin-top:40px">' + (next ? '<button class="btn" data-act="rootNext">' + next + ' <kbd>Enter</kbd></button>' : '') +
+      '<button class="link" data-act="nav" data-view="roots">回到词根 Esc</button></div>' +
+      '</main>'
+    );
+  }
+
+  VIEWS.rootquiz = function () {
+    const rs = ui.rs;
+    if (!rs) return VIEWS.roots();
+    if (rs.done) return rootQuizResultHtml(rs);
+    const total = rs.roots.length * 2 + rs.roots.filter((x) => x.target).length;
+    const before = rs.stageResults.slice(0, rs.stage).reduce((a, b) => a + (b ? b.length : 0), 0);
+    const done = before + rs.results.length;
+    const top =
+      '<div class="p-top"><span class="steps">' + rootStepsHtml(rs) + '<span class="book">' + esc(rootBookName(rs.book)) + '</span></span>' +
+      '<span class="right"><span>' + (rs.between ? rs.items.length : rs.idx + 1) + ' / ' + rs.items.length + '</span><button class="link" data-act="rootQuit">结束 Esc</button></span></div>' +
+      '<div class="bar"><i style="width:' + Math.min(100, (done / (total || 1)) * 100) + '%"></i></div>';
+    if (rs.between) {
+      const right = rs.results.filter((x) => x.ok).length;
+      const next = ROOT_MODES[ROOT_STAGES[nextRootStage(rs, rs.stage + 1)]];
+      return (
+        '<main class="page rq">' + top +
+        '<section class="card"><div class="inner anim"><div class="stage-done">' +
+        '<p class="label">第 ' + (rs.stage + 1) + ' 步完成 · ' + ROOT_MODES[rs.mode].name + '</p>' +
+        '<div class="stage-score">' + right + '<small> / ' + rs.results.length + '</small></div>' +
+        '<p class="muted">下一步：' + next.name + ' · ' + next.desc + '</p>' +
+        '<div class="actions"><button class="btn" data-act="rootNext">继续 <kbd>Enter</kbd></button></div>' +
+        '</div></div></section></main>'
+      );
+    }
+    const q = rs.items[rs.idx];
+    const answered = rs.pick !== null;
+    let body = '';
+    if (q.mode !== 'fill') {
+      body =
+        '<div class="opts' + (q.mode === 'm2r' ? ' forms' : '') + '">' +
+        q.options
+          .map((m, i) => {
+            const cls = answered ? (i === q.correct ? ' right' : i === rs.pick ? ' wrong' : ' off') : '';
+            return '<button class="opt' + cls + '" data-act="rootPick" data-n="' + i + '"' + (answered ? ' disabled' : '') + '><kbd>' + (i + 1) + '</kbd><span>' + esc(m) + '</span></button>';
+          })
+          .join('') +
+        '</div>';
+    }
+    const hint =
+      q.mode === 'fill'
+        ? '<div class="hint"><span><kbd>Enter</kbd> 提交</span><span>空着按 <kbd>Enter</kbd> = 不会</span></div>'
+        : '<div class="hint"><span>按 <kbd>1</kbd>–<kbd>4</kbd> 选择</span></div>';
+    return (
+      '<main class="page rq">' + top +
+      '<section class="card"><div class="inner' + (answered ? '' : ' anim') + '">' + rootPromptHtml(rs, q) + '</div></section>' +
+      body +
+      (answered ? rootAfterHtml(q) : hint) +
+      '</main>'
+    );
+  };
+
+  AFTER.rootquiz = function () {
+    const input = document.getElementById('rq-answer');
+    if (input && !input.readOnly) input.focus();
   };
 
   // ================= 交互 =================
@@ -1729,6 +2342,7 @@
   const ACTIONS = {
     nav(t) {
       if (ui.view === 'practice') quitSession();
+      if (ui.view === 'rootquiz' && ui.rs && !ui.rs.done && t.dataset.view !== 'roots') quitRootSession();
       go(t.dataset.view);
     },
     startNew() {
@@ -1862,6 +2476,42 @@
     practiceWrong() {
       startWrong();
     },
+    viewRoot(t) {
+      if (ui.roots.id !== t.dataset.id) ui.roots.wordLimit = 50;
+      ui.roots.id = t.dataset.id;
+      go('root');
+    },
+    rootType(t) {
+      ui.roots.type = t.dataset.type;
+      ui.roots.limit = 200;
+      render();
+    },
+    moreRoots() {
+      ui.roots.limit += 200;
+      document.getElementById('root-rows').innerHTML = rootRowsHtml();
+    },
+    moreRootWords() {
+      ui.roots.wordLimit += 50;
+      render();
+    },
+    studyRootWords() {
+      studyRootWords();
+    },
+    startRootNew() {
+      startRootNew();
+    },
+    startRootReview() {
+      startRootReview();
+    },
+    rootPick(t) {
+      rootAnswer(+t.dataset.n);
+    },
+    rootNext() {
+      rootNext();
+    },
+    rootQuit() {
+      quitRootSession();
+    },
     removeWrong(t) {
       delete state.wrong[keyOf(t.dataset.w)];
       save();
@@ -1907,6 +2557,11 @@
     const t = ev.target;
     if (t.dataset.act === 'setBook') {
       state.settings.book = t.value;
+      save();
+      render();
+    } else if (t.dataset.act === 'setRootBook') {
+      state.settings.rootBook = t.value;
+      ui.roots.limit = 200;
       save();
       render();
     } else if (t.id === 'draft-file' && t.files[0]) {
@@ -1960,6 +2615,10 @@
       }, 200);
     } else if (t.id === 'draft-name') {
       ui.draft.name = t.value;
+    } else if (t.id === 'roots-q') {
+      ui.roots.q = t.value;
+      ui.roots.limit = 200;
+      document.getElementById('root-rows').innerHTML = rootRowsHtml();
     } else if (t.id === 'book-q') {
       ui.book.q = t.value;
       ui.book.limit = 200;
@@ -2003,8 +2662,30 @@
       }
       return;
     }
+    if (ui.view === 'rootquiz') {
+      if (ev.key === 'Enter') {
+        ev.preventDefault();
+        rootNext();
+      } else if (ev.key === 'Escape') {
+        ev.preventDefault();
+        if (ui.rs && ui.rs.done) go('roots');
+        else quitRootSession();
+      } else if (!typing && /^[1-4]$/.test(ev.key)) {
+        rootAnswer(+ev.key - 1);
+      }
+      return;
+    }
     if (typing) return;
-    if (ui.view === 'home') {
+    if (ui.view === 'roots') {
+      if (ev.key === 'Enter') {
+        ev.preventDefault();
+        startRootNew();
+      } else if (ev.key === 'r' || ev.key === 'R') {
+        startRootReview();
+      }
+    } else if (ui.view === 'root') {
+      if (ev.key === 'Escape') go('roots');
+    } else if (ui.view === 'home') {
       if (ev.key === 'Enter') {
         ev.preventDefault();
         startNew();

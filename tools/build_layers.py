@@ -9,6 +9,7 @@
 data/layers.tsv 每行：单词<Tab>分好层的释义。释义按词性分行，用 | 隔开；
 同一词性里，不同的意思层用「；」隔开，同一层里的词用「，」隔开。
 这个表也可以手工修改，tools/build_words.py 会优先用它。
+表里已有、而且词语和现在的释义对得上的行（包括手工整理过的）原样保留，只给新词或释义变了的词重新分层。
 
 用法（需要 spaCy 的中文模型，只在重新生成这个表时才需要）：
     pip install spacy numpy
@@ -156,16 +157,30 @@ def layer_meaning(meaning):
 
 
 def main():
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from build_words import term_set
+
+    old = {}
+    if os.path.exists(OUT):
+        with open(OUT, encoding="utf-8") as f:
+            for line in f:
+                cols = line.rstrip("\n").split("\t")
+                if len(cols) == 2:
+                    old[cols[0]] = cols[1]
     with open(WORDS, encoding="utf-8") as f:
         text = f.read()
     data = json.loads(text[text.index("=") + 1 :].strip().rstrip(";"))
-    rows = []
+    rows, fresh = [], 0
     for line in data.split("\n"):
         word, _, meaning = line.split("\t")[:3]
-        rows.append(word + "\t" + layer_meaning(meaning))
+        if word in old and term_set(old[word]) == term_set(meaning):
+            rows.append(word + "\t" + old[word])
+        else:
+            rows.append(word + "\t" + layer_meaning(meaning))
+            fresh += 1
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("\n".join(rows) + "\n")
-    print(f"{len(rows)} 个词，写入 {OUT}")
+    print(f"{len(rows)} 个词（{fresh} 个重新分层），写入 {OUT}")
 
 
 if __name__ == "__main__":
