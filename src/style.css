@@ -39,7 +39,7 @@
   --line: #ebebeb;
   --hover: #f6f6f6;
   --header-h: 76px;
-  --stroke: 0.35px;
+  --stroke: 0.6px;
 
   /* 英文 Times New Roman 斜体，中文仿宋（Windows: 仿宋 / FangSong，Mac: 华文仿宋 / STFangsong） */
   --font: "Margin Latin", "Times New Roman", Times, "FangSong", "STFangsong", "仿宋", "华文仿宋", "FangSong_GB2312", "仿宋_GB2312", serif;
@@ -76,8 +76,8 @@
 html, body { margin: 0; }
 
 /* 字体粗细（设置里可以改）：仿宋没有粗体，用一点描边让笔画变粗 */
-:root[data-weight="light"] { --stroke: 0px; }
-:root[data-weight="bold"] { --stroke: 0.7px; }
+:root[data-weight="light"] { --stroke: 0.25px; }
+:root[data-weight="bold"] { --stroke: 1px; }
 
 body {
   background: var(--bg);
@@ -262,6 +262,14 @@ a.btn { text-decoration: none; }
 .today .cap { font-size: 14px; color: var(--muted); margin-top: 8px; }
 .today .tile { text-align: left; }
 .today .tile:hover .cap { color: var(--fg); }
+
+/* 背诵界面再粗一点：大字的描边按字号放大 */
+.practice { -webkit-text-stroke-width: calc(var(--stroke) + 0.25px); }
+.practice .prompt-word { -webkit-text-stroke-width: calc(var(--stroke) * 2 + 0.6px); }
+.practice .prompt-mean,
+.practice .fb-word { -webkit-text-stroke-width: calc(var(--stroke) + 0.5px); }
+.practice .answer,
+.practice .zl-no { -webkit-text-stroke-width: calc(var(--stroke) + 0.45px); }
 
 /* 首页：今日任务 */
 .tasks { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--fg); border-bottom: 1px solid var(--line); margin-top: 24px; }

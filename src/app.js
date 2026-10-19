@@ -1646,7 +1646,7 @@
       '<div class="d">拼写题下面显示 _ _ _ _，提示单词有几个字母。</div></div></div>' +
       '<div class="set-row"><div><div class="t">外观</div></div><div>' + chipsHtml('theme', [['auto', '跟随系统'], ['light', '白底'], ['dark', '黑底']]) + '</div></div>' +
       '<div class="set-row"><div><div class="t">字体粗细</div></div><div>' + chipsHtml('weight', [['light', '细'], ['normal', '标准'], ['bold', '粗']]) +
-      '<div class="d">仿宋本身笔画比较细，觉得看不清就选「粗」。</div></div></div>' +
+      '<div class="d">仿宋本身笔画比较细，觉得还是细就选「粗」。</div></div></div>' +
       (!/^https?:$/.test(location.protocol)
         ? ''
         : '<div class="set-row"><div><div class="t">下载到电脑</div></div><div><a class="btn small ghost" href="Margin.html" download="Margin.html">下载 Margin.html</a>' +
