@@ -172,6 +172,7 @@ kbd {
   transition: opacity .15s, background .15s, color .15s;
 }
 .btn:hover { opacity: .82; }
+a.btn { text-decoration: none; }
 .btn kbd { color: inherit; border-color: currentColor; opacity: .6; }
 
 .btn.ghost { background: transparent; color: var(--fg); }
@@ -261,6 +262,19 @@ kbd {
 .today .cap { font-size: 14px; color: var(--muted); margin-top: 8px; }
 .today .tile { text-align: left; }
 .today .tile:hover .cap { color: var(--fg); }
+
+/* 首页：今日任务 */
+.tasks { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--fg); border-bottom: 1px solid var(--line); margin-top: 24px; }
+.task { padding: 24px 0 28px; }
+.task + .task { padding-left: 32px; border-left: 1px solid var(--line); }
+.task .num { font: 300 56px/1 var(--serif); margin-top: 4px; }
+.task .num small { font-size: 24px; color: var(--muted); }
+.task .bar { margin: 18px 32px 0 0; }
+.task .muted { margin: 12px 0 20px; font-size: 15px; }
+.btn[disabled] { opacity: .35; cursor: default; }
+.btn[disabled]:hover { opacity: .35; background: transparent; color: var(--fg); }
+.flow { margin: 40px 0 0; color: var(--muted); font-size: 15px; }
+.today.three { grid-template-columns: repeat(3, 1fr); margin: 40px 0 0; }
 
 /* 打卡热力图 */
 .heat { margin-top: 72px; }
@@ -434,13 +448,14 @@ button.h-word:hover { text-decoration: underline; text-underline-offset: 4px; te
 /* 中文意思：竖着排，一行一个词语；左边一列是词性 */
 .senses {
   display: inline-grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   column-gap: 12px;
   row-gap: 2px;
   align-items: baseline;
   text-align: left;
 }
-.senses .pos { text-align: right; }
+.senses .no { text-align: right; }
+.senses .pos { text-align: left; }
 .senses .pos:empty::before { content: ""; }
 .senses .t { white-space: nowrap; }
 
@@ -493,9 +508,12 @@ button.h-word:hover { text-decoration: underline; text-underline-offset: 4px; te
 
 /* 英→中：一行写一个意思 */
 .zh-lines { width: min(460px, 100%); margin: 24px auto 0; }
-.zl { position: relative; }
+.zl { position: relative; display: flex; align-items: baseline; border-bottom: 1px solid var(--fg); }
+.zl:focus-within { box-shadow: inset 0 -1px 0 var(--fg); }
 .zl + .zl { margin-top: 4px; }
-.zl .answer { margin: 0; width: 100%; font-size: 23px; padding: 7px 0; }
+.zl-no { flex: 0 0 auto; width: 34px; font-size: 20px; color: var(--muted); text-align: left; }
+.zl .answer { margin: 0; flex: 1; width: auto; min-width: 0; font-size: 23px; padding: 7px 0; text-align: left; border-bottom: 0; }
+.zl .answer:focus { box-shadow: none; }
 .zl-mark {
   position: absolute;
   left: -30px;
@@ -640,6 +658,8 @@ textarea.paste:focus { outline: none; border-color: var(--fg); }
   .practice { padding: 0 16px; }
   .modes { grid-template-columns: 1fr; }
   .grid2 { grid-template-columns: 1fr; gap: 32px; }
+  .tasks { grid-template-columns: 1fr; }
+  .task + .task { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
   .today { grid-template-columns: repeat(2, 1fr); }
   .today .num { font-size: 30px; }
   .today > * + * { padding-left: 14px; }

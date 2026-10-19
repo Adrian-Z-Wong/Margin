@@ -4,7 +4,7 @@
 
 **黑白极简的背单词工具**
 
-[在线使用](https://adrian-z-wong.github.io/Margin/) · [下载 Margin.html](https://github.com/Adrian-Z-Wong/Margin/raw/HEAD/Margin.html) · [反馈问题](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)
+[在线使用](https://adrian-z-wong.github.io/Margin/Margin.html) · [下载到电脑](https://adrian-z-wong.github.io/Margin/) · [反馈问题](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)
 
 ![License](https://img.shields.io/github/license/Adrian-Z-Wong/Margin?color=000)
 ![Single file](https://img.shields.io/badge/single%20file-no%20install-000)
@@ -16,10 +16,12 @@
 
 ## 功能
 
-- 每轮三步：看英文写中文 → 看中文拼英文 → 听发音拼英文
+- 选好词库和每天背多少新词，首页显示今日进度
+- 每组三步：看英文写中文 → 看中文拼英文 → 听发音拼英文
+- 每日复习：昨天的新词和错题本
 - 词库：Finance（经济学、金融学、管理学、会计学）、四级、六级、考研、托福、雅思、GRE、GMAT
 - 导入自己的词表
-- 错题本、间隔复习、已掌握
+- 错题本答对自动移出，已掌握的词不再出现
 - 美式 / 英式发音
 - 打卡热力图
 - 黑白两种外观
@@ -29,9 +31,9 @@
 
 ## 怎么用
 
-**在线使用**：打开 <https://adrian-z-wong.github.io/Margin/>。
+**在线使用**：打开 <https://adrian-z-wong.github.io/Margin/Margin.html>。
 
-**下载到电脑**：下载 [`Margin.html`](https://github.com/Adrian-Z-Wong/Margin/raw/HEAD/Margin.html)，双击用浏览器打开（推荐 Chrome 或 Edge）。
+**下载到电脑**：打开 <https://adrian-z-wong.github.io/Margin/>，点「下载到电脑」，再双击下载好的 `Margin.html`（推荐 Chrome 或 Edge）。
 
 进度保存在浏览器里。换电脑之前，在「设置」里导出备份。
 
@@ -49,7 +51,7 @@
 | 托福 | 6,974 |
 | 雅思 | 5,040 |
 | GRE | 7,504 |
-| GMAT | 见网页 |
+| GMAT | 2,931 |
 
 Finance 词库的原始表格在 [`data/finance/`](data/finance/)，可以直接用 Excel 打开。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
 

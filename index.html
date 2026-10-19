@@ -2,11 +2,85 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Margin</title>
-<meta http-equiv="refresh" content="0; url=Margin.html">
-<script>location.replace('Margin.html' + location.search + location.hash);</script>
+<meta name="description" content="黑白极简的背单词工具">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Ctext x='16' y='23' font-family='Times New Roman,serif' font-size='20' fill='%23fff' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<style>
+  @font-face {
+    font-family: "Margin Latin";
+    src: local("Times New Roman Italic"), local("TimesNewRomanPS-ItalicMT"), local("Times Italic"), local("Times-Italic"), local("Liberation Serif Italic"), local("LiberationSerif-Italic");
+    unicode-range: U+0000-00FF, U+0100-02FF, U+1E00-1EFF;
+  }
+  :root {
+    --bg: #fff;
+    --fg: #0a0a0a;
+    --muted: #666;
+    --line: #ebebeb;
+    --font: "Margin Latin", "Times New Roman", Times, "FangSong", "STFangsong", "仿宋", "华文仿宋", serif;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0b0b; --fg: #f2f2f2; --muted: #9a9a9a; --line: #222; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 var(--font);
+    -webkit-text-stroke-width: 0.35px;
+  }
+  main { max-width: 800px; margin: 0 auto; padding: 96px 24px 72px; }
+  h1 { font-weight: 400; font-size: 64px; line-height: 1; margin: 0; letter-spacing: -0.01em; }
+  .tag { font-size: 22px; margin: 18px 0 0; }
+  .actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 48px; }
+  .btn {
+    display: inline-block;
+    padding: 14px 30px;
+    border: 1px solid var(--fg);
+    background: var(--fg);
+    color: var(--bg);
+    font-size: 17px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+  .btn:hover { opacity: .82; }
+  .btn.ghost { background: transparent; color: var(--fg); }
+  .btn.ghost:hover { background: var(--fg); color: var(--bg); opacity: 1; }
+  .note { color: var(--muted); font-size: 15px; margin-top: 16px; }
+  ul { list-style: none; padding: 0; margin: 64px 0 0; border-top: 1px solid var(--fg); }
+  li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  img { display: block; width: 100%; margin-top: 64px; border: 1px solid var(--line); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+  footer a { color: inherit; }
+  @media (max-width: 640px) {
+    main { padding: 56px 16px 48px; }
+    h1 { font-size: 48px; }
+  }
+</style>
 </head>
 <body>
-<p><a href="Margin.html">打开 Margin</a></p>
+<main>
+  <h1>Margin</h1>
+  <p class="tag">黑白极简的背单词工具</p>
+
+  <div class="actions">
+    <a class="btn" href="Margin.html">在线使用</a>
+    <a class="btn ghost" href="Margin.html" download="Margin.html">下载到电脑</a>
+  </div>
+  <p class="note">下载后双击 Margin.html 就能打开，不用联网。推荐 Chrome 或 Edge。</p>
+
+  <ul>
+    <li>每组三步：看英文写中文 → 看中文拼英文 → 听发音拼英文</li>
+    <li>每日目标和每日复习</li>
+    <li>Finance（经济学、金融学、管理学、会计学）、四级、六级、考研、托福、雅思、GRE、GMAT</li>
+    <li>导入自己的词表</li>
+  </ul>
+
+  <img src="docs/screenshots/practice.png" alt="Margin 背诵界面">
+
+  <footer><a href="https://github.com/Adrian-Z-Wong/Margin">GitHub</a> · MIT 许可证</footer>
+</main>
 </body>
 </html>

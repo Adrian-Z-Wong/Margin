@@ -105,6 +105,9 @@ def main():
             if not meaning:
                 continue
             extra = extra_translation(row["translation"], meaning)
+            if mask & gmat_bit and gmat[key][1]:
+                # GMAT 表里写的语境释义，判分时也算对
+                extra = "|".join(x for x in (extra, gmat[key][1]) if x)
             frq = int(row["frq"] or 0) or int(row["bnc"] or 0) or 10**9
             entries.append((frq, word, clean_phonetic(row["phonetic"]), meaning, mask, extra))
 
