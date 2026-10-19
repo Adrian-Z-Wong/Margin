@@ -47,8 +47,14 @@ def load_roots():
                     continue
                 key = x["type"] + ":" + forms[0]
                 if key in seen:
-                    print(f"{name}：重复 {key}")
-                    continue
+                    # 同形不同义（如 -en「使…」和 -en「…制的」）分成两条
+                    if any(r["id"].split("~")[0] == key and r["meaning"] == x["meaning"].strip() for r in items):
+                        print(f"{name}：重复 {key}")
+                        continue
+                    n = 2
+                    while f"{key}~{n}" in seen:
+                        n += 1
+                    key = f"{key}~{n}"
                 seen.add(key)
                 examples = [
                     {"w": e["w"].strip(), "parts": e.get("parts", "").strip(), "m": e.get("m", "").strip()}
