@@ -4,9 +4,9 @@
 
 **黑白极简的背单词工具**
 
-[在线使用](https://adrian-z-wong.github.io/Margin/Margin.html) · [下载到电脑](https://adrian-z-wong.github.io/Margin/) · [反馈问题](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)
+[在线使用](https://adrian-z-wong.github.io/Marginal-Vocabulary/Margin.html) · [下载到电脑](https://adrian-z-wong.github.io/Marginal-Vocabulary/) · [反馈问题](https://github.com/Adrian-Z-Wong/Marginal-Vocabulary/issues/new/choose)
 
-![License](https://img.shields.io/github/license/Adrian-Z-Wong/Margin?color=000)
+![License](https://img.shields.io/github/license/Adrian-Z-Wong/Marginal-Vocabulary?color=000)
 ![Single file](https://img.shields.io/badge/single%20file-no%20install-000)
 ![Offline](https://img.shields.io/badge/offline-ready-000)
 
@@ -32,11 +32,11 @@
 
 ## 怎么用
 
-**在线使用**：打开 <https://adrian-z-wong.github.io/Margin/Margin.html>。
+**在线使用**：打开 <https://adrian-z-wong.github.io/Marginal-Vocabulary/Margin.html>。
 
-**下载到电脑**：打开 <https://adrian-z-wong.github.io/Margin/>，点「下载到电脑」，再双击下载好的 `Marginal Vocabulary.html`（推荐 Chrome 或 Edge）。
+**下载到电脑**：打开 <https://adrian-z-wong.github.io/Marginal-Vocabulary/>，点「下载到电脑」，再双击下载好的 `Marginal Vocabulary.html`（推荐 Chrome 或 Edge）。
 
-**Mac 应用**：在 [Releases](https://github.com/Adrian-Z-Wong/Margin/releases/latest) 下载以 `_aarch64.dmg` 结尾的文件，双击后把 Marginal Vocabulary 拖进「应用程序」。第一次打开如果提示「无法验证开发者」，打开「系统设置 → 隐私与安全性」，点「仍要打开」。适用于 Apple 芯片（M1–M4）的 Mac。
+**Mac 应用**：在 [Releases](https://github.com/Adrian-Z-Wong/Marginal-Vocabulary/releases/latest) 下载以 `_aarch64.dmg` 结尾的文件，双击后把 Marginal Vocabulary 拖进「应用程序」。第一次打开如果提示「无法验证开发者」，打开「系统设置 → 隐私与安全性」，点「仍要打开」。适用于 Apple 芯片（M1–M4）的 Mac。
 
 进度保存在浏览器或 App 里。换电脑之前，在「设置」里导出备份。
 
@@ -56,7 +56,7 @@
 
 Finance 收录经济、金融、会计、管理、公司治理、财务管理、资本市场、货币政策等专业词汇。Medicine 收录解剖、基础医学、内外妇儿各科疾病、临床检查、药理、公共卫生，以及中医理论、经络穴位、中药方剂。CET-4 包含高考词汇，CET-6 和 GEE（考研）包含 CET-4 词汇。原始表格在 [`data/finance/`](data/finance/) 和 [`data/medicine/`](data/medicine/)，可以直接用 Excel 打开。
 
-词根板块收录 909 个前缀、词根、后缀（含医学常用构词成分），以及 1.1 万多个单词的拆解，数据在 [`data/roots/`](data/roots/)。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
+词根板块收录 909 个前缀、词根、后缀（含医学常用构词成分），以及 1.1 万多个单词的拆解，数据在 [`data/roots/`](data/roots/)。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Marginal-Vocabulary/issues/new/choose)。
 
 ## 开发
 
