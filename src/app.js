@@ -1316,7 +1316,7 @@
       '<label class="btn small ghost file-pick">导入备份<input type="file" id="backup-file" accept=".json,application/json"></label>' +
       '<button class="link" data-act="resetAll">清空所有数据</button></div>' +
       '<div class="d">换电脑、换浏览器或清理浏览器数据之前，先导出备份；到新地方打开 Margin 后再导入。</div></div></div>' +
-      '<div class="set-row"><div><div class="t">关于</div></div><div class="d" style="margin-top:0">Margin · 给自己的背单词本。<br>托福、雅思、GRE 词库与音标来自开源词典 ECDICT（MIT 许可证）。</div></div>' +
+      '<div class="set-row"><div><div class="t">关于</div></div><div class="d" style="margin-top:0">Margin · 黑白极简的背单词本。<br>Finance 词库由 Margin 整理，译名参考国内通行教材；发现不准欢迎到 GitHub 反馈。<br>托福、雅思、GRE 词库与音标来自开源词典 ECDICT（MIT 许可证）。</div></div>' +
       '</div>' +
       '</main>'
     );

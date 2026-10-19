@@ -1,0 +1,33 @@
+name: 词条纠错 / Word correction
+description: 中文释义不准、拼写错误、音标不对，或者建议新增词条
+labels: ["词库"]
+body:
+  - type: input
+    id: word
+    attributes:
+      label: 英文单词或术语
+      placeholder: 例如：moral hazard
+    validations:
+      required: true
+  - type: dropdown
+    id: book
+    attributes:
+      label: 在哪个词库
+      options:
+        - Finance · 经济学
+        - Finance · 金融学
+        - Finance · 管理学
+        - Finance · 会计学
+        - 托福 TOEFL
+        - 雅思 IELTS
+        - GRE
+        - 建议新增
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: 现在是怎样，应该改成怎样
+      description: 如果有出处（教材、准则、词典），请一并写上。
+    validations:
+      required: true

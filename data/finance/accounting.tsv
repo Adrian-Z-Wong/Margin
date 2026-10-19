@@ -1,0 +1,560 @@
+accounting	会计	会计基础
+financial accounting	财务会计	会计基础
+double-entry bookkeeping	复式记账法	会计基础
+accrual	应计；应计项目	会计基础
+deferral	递延；递延项目	会计基础
+accrual basis	权责发生制；应计制	会计基础
+cash basis	收付实现制；现金制	会计基础
+debit	借方；借记	会计基础
+credit	贷方；贷记	会计基础
+account	账户；会计科目	会计基础
+chart of accounts	会计科目表	会计基础
+T-account	T形账户；丁字账户	会计基础
+journal	日记账	会计基础
+journal entry	会计分录	会计基础
+general ledger	总分类账；总账	会计基础
+subsidiary ledger	明细分类账；明细账	会计基础
+source document	原始凭证	会计基础
+trial balance	试算平衡表	会计基础
+adjusting entry	调整分录	会计基础
+closing entry	结账分录	会计基础
+accounting cycle	会计循环	会计基础
+accounting equation	会计等式	会计基础
+fiscal year	会计年度；财政年度	会计基础
+contra account	备抵账户；抵减账户	会计基础
+accounting entity	会计主体	会计基础
+going concern	持续经营	会计基础
+monetary unit assumption	货币计量假设	会计基础
+periodicity assumption	会计分期假设	会计基础
+historical cost	历史成本	会计基础
+fair value	公允价值	会计基础
+replacement cost	重置成本	会计基础
+net realizable value	可变现净值	会计基础
+book value	账面价值	会计基础
+carrying amount	账面价值；账面金额	会计基础
+matching principle	配比原则	会计基础
+full disclosure principle	充分披露原则	会计基础
+conceptual framework	概念框架	会计基础
+qualitative characteristics	会计信息质量特征	会计基础
+relevance	相关性	会计基础
+reliability	可靠性	会计基础
+faithful representation	如实反映	会计基础
+comparability	可比性	会计基础
+materiality	重要性	会计基础
+conservatism	稳健性；谨慎性	会计基础
+prudence	谨慎性	会计基础
+substance over form	实质重于形式	会计基础
+recognition	确认	会计基础
+derecognition	终止确认	会计基础
+measurement	计量	会计基础
+disclosure	披露	会计基础
+financial statements	财务报表	财务报表
+financial reporting	财务报告	财务报表
+balance sheet	资产负债表	财务报表
+statement of financial position	财务状况表；资产负债表	财务报表
+income statement	利润表；损益表	财务报表
+multiple-step income statement	多步式利润表	财务报表
+statement of comprehensive income	综合收益表	财务报表
+statement of cash flows	现金流量表	财务报表
+cash flow statement	现金流量表	财务报表
+statement of stockholders' equity	股东权益变动表	财务报表
+statement of retained earnings	留存收益表	财务报表
+notes to the financial statements	财务报表附注；报表附注	财务报表
+annual report	年度报告；年报	财务报表
+interim financial reporting	中期财务报告	财务报表
+consolidated financial statements	合并财务报表	财务报表
+parent company	母公司	财务报表
+subsidiary	子公司	财务报表
+business combination	企业合并	财务报表
+acquisition method	购买法	财务报表
+purchase price allocation	购买价格分摊；合并对价分摊	财务报表
+intercompany transactions	内部交易；集团内部交易	财务报表
+variable interest entity	可变利益实体（VIE）	财务报表
+joint venture	合营企业	财务报表
+operating activities	经营活动	财务报表
+investing activities	投资活动	财务报表
+financing activities	筹资活动	财务报表
+direct method	直接法	财务报表
+indirect method	间接法	财务报表
+comprehensive income	综合收益	财务报表
+other comprehensive income	其他综合收益（OCI）	财务报表
+accumulated other comprehensive income	累计其他综合收益（AOCI）	财务报表
+net income	净利润；净收益	财务报表
+gross profit	毛利；毛利润	财务报表
+operating income	营业利润	财务报表
+income from continuing operations	持续经营利润	财务报表
+discontinued operations	终止经营	财务报表
+extraordinary items	非常项目	财务报表
+segment reporting	分部报告	财务报表
+subsequent events	资产负债表日后事项；期后事项	财务报表
+management's discussion and analysis	管理层讨论与分析（MD&A）	财务报表
+functional currency	记账本位币；功能货币	财务报表
+foreign currency translation	外币折算；外币报表折算	财务报表
+asset	资产	资产
+current assets	流动资产	资产
+noncurrent assets	非流动资产	资产
+cash equivalents	现金等价物	资产
+bank reconciliation	银行存款余额调节表	资产
+accounts receivable	应收账款	资产
+notes receivable	应收票据	资产
+prepaid expenses	预付费用；待摊费用	资产
+allowance for doubtful accounts	坏账准备	资产
+allowance method	备抵法	资产
+direct write-off method	直接转销法	资产
+expected credit loss	预期信用损失（ECL）	资产
+current expected credit loss	当前预期信用损失（CECL）	资产
+inventory	存货	资产
+raw materials	原材料	资产
+work in process	在产品	资产
+finished goods	产成品；库存商品	资产
+perpetual inventory system	永续盘存制	资产
+periodic inventory system	实地盘存制；定期盘存制	资产
+first-in, first-out	先进先出法（FIFO）	资产
+last-in, first-out	后进先出法（LIFO）	资产
+weighted-average method	加权平均法	资产
+LIFO reserve	后进先出储备；LIFO储备	资产
+lower of cost or market	成本与市价孰低法（LCM）	资产
+lower of cost and net realizable value	成本与可变现净值孰低法	资产
+inventory write-down	存货减记；存货跌价	资产
+financial asset	金融资产	资产
+financial instrument	金融工具	资产
+trading securities	交易性证券；交易性金融资产	资产
+available-for-sale securities	可供出售证券；可供出售金融资产	资产
+held-to-maturity securities	持有至到期证券；持有至到期投资	资产
+amortized cost	摊余成本	资产
+effective interest method	实际利率法	资产
+long-term equity investment	长期股权投资	资产
+equity method	权益法	资产
+cost method	成本法	资产
+significant influence	重大影响	资产
+investment property	投资性房地产	资产
+property, plant, and equipment	固定资产；不动产、厂房和设备（PP&E）	资产
+fixed asset	固定资产	资产
+construction in progress	在建工程	资产
+capital expenditure	资本性支出	资产
+capitalize	资本化	资产
+depreciation	折旧	资产
+accumulated depreciation	累计折旧	资产
+salvage value	残值；预计净残值	资产
+useful life	使用寿命；使用年限	资产
+straight-line method	直线法；年限平均法	资产
+double-declining-balance method	双倍余额递减法	资产
+sum-of-the-years'-digits method	年数总和法	资产
+units-of-production method	工作量法；产量法	资产
+depletion	折耗；耗减	资产
+impairment	减值	资产
+impairment loss	减值损失	资产
+impairment test	减值测试	资产
+recoverable amount	可收回金额	资产
+intangible asset	无形资产	资产
+goodwill	商誉	资产
+amortization	摊销	资产
+right-of-use asset	使用权资产	资产
+contract asset	合同资产	资产
+deferred tax asset	递延所得税资产	资产
+hedge accounting	套期会计	资产
+liability	负债	负债与权益
+current liabilities	流动负债	负债与权益
+noncurrent liabilities	非流动负债	负债与权益
+accounts payable	应付账款	负债与权益
+notes payable	应付票据	负债与权益
+accrued expenses	应计费用	负债与权益
+unearned revenue	预收收入；预收账款	负债与权益
+deferred revenue	递延收入；预收收入	负债与权益
+contract liability	合同负债	负债与权益
+current portion of long-term debt	一年内到期的长期负债	负债与权益
+bonds payable	应付债券	负债与权益
+bond discount	债券折价	负债与权益
+bond premium	债券溢价	负债与权益
+effective interest rate	实际利率	负债与权益
+troubled debt restructuring	债务重组；问题债务重组	负债与权益
+contingent liability	或有负债	负债与权益
+provision	准备；预计负债	负债与权益
+warranty liability	产品质量保证负债；预计保修负债	负债与权益
+asset retirement obligation	资产弃置义务；资产报废义务	负债与权益
+off-balance-sheet financing	表外融资	负债与权益
+financial liability	金融负债	负债与权益
+deferred tax liability	递延所得税负债	负债与权益
+employee benefits	职工薪酬	负债与权益
+defined benefit plan	设定受益计划	负债与权益
+defined contribution plan	设定提存计划	负债与权益
+projected benefit obligation	预计福利义务（PBO）	负债与权益
+accumulated benefit obligation	累计福利义务（ABO）	负债与权益
+prior service cost	前期服务成本；过去服务成本	负债与权益
+actuarial gains and losses	精算利得和损失	负债与权益
+postretirement benefits	退休后福利	负债与权益
+lease	租赁	负债与权益
+lessee	承租人	负债与权益
+lessor	出租人	负债与权益
+lease liability	租赁负债	负债与权益
+finance lease	融资租赁	负债与权益
+operating lease	经营租赁	负债与权益
+capital lease	资本租赁；融资租赁	负债与权益
+sale and leaseback	售后租回	负债与权益
+equity	权益；所有者权益	负债与权益
+shareholders' equity	股东权益	负债与权益
+stockholders' equity	股东权益	负债与权益
+paid-in capital	实收资本；投入资本	负债与权益
+additional paid-in capital	资本公积；股本溢价（APIC）	负债与权益
+common stock	普通股	负债与权益
+preferred stock	优先股	负债与权益
+par value	面值；票面价值	负债与权益
+treasury stock	库存股	负债与权益
+retained earnings	留存收益；未分配利润	负债与权益
+dividend	股利；股息	负债与权益
+cash dividend	现金股利	负债与权益
+stock dividend	股票股利	负债与权益
+stock split	股票分割；拆股	负债与权益
+noncontrolling interest	少数股东权益；非控制性权益	负债与权益
+share-based payment	股份支付	负债与权益
+stock-based compensation	股份支付；股权薪酬	负债与权益
+employee stock option	员工股票期权	负债与权益
+revenue	收入	收入与费用
+revenue recognition	收入确认	收入与费用
+operating revenue	营业收入	收入与费用
+net sales	销售净额；净销售额	收入与费用
+gain	利得	收入与费用
+loss	损失	收入与费用
+expense	费用	收入与费用
+operating expenses	营业费用；经营费用	收入与费用
+cost of goods sold	销货成本；销售成本（COGS）	收入与费用
+cost of sales	销售成本；营业成本	收入与费用
+selling expenses	销售费用	收入与费用
+general and administrative expenses	管理费用（G&A）	收入与费用
+selling, general and administrative expenses	销售及管理费用（SG&A）	收入与费用
+interest expense	利息费用；利息支出	收入与费用
+income tax expense	所得税费用	收入与费用
+bad debt expense	坏账费用；坏账损失	收入与费用
+credit impairment loss	信用减值损失	收入与费用
+research and development	研究与开发；研发（R&D）	收入与费用
+restructuring charge	重组费用	收入与费用
+nonoperating income	营业外收入	收入与费用
+nonoperating expenses	营业外支出	收入与费用
+write-off	核销；注销	收入与费用
+write-down	减记	收入与费用
+government grant	政府补助	收入与费用
+borrowing costs	借款费用	收入与费用
+foreign exchange gains and losses	汇兑损益	收入与费用
+earnings	盈余；收益；利润	收入与费用
+sales returns and allowances	销售退回与折让	收入与费用
+sales discount	销售折扣；现金折扣	收入与费用
+performance obligation	履约义务	收入与费用
+transaction price	交易价格	收入与费用
+standalone selling price	单独售价	收入与费用
+variable consideration	可变对价	收入与费用
+significant financing component	重大融资成分	收入与费用
+contract modification	合同变更	收入与费用
+principal versus agent	主要责任人与代理人	收入与费用
+bill-and-hold arrangement	售后代管商品安排	收入与费用
+right of return	退货权	收入与费用
+percentage-of-completion method	完工百分比法	收入与费用
+completed-contract method	完成合同法；全部完工法	收入与费用
+managerial accounting	管理会计	成本与管理会计
+management accounting	管理会计	成本与管理会计
+cost accounting	成本会计	成本与管理会计
+direct materials	直接材料	成本与管理会计
+direct labor	直接人工	成本与管理会计
+manufacturing overhead	制造费用	成本与管理会计
+prime cost	主要成本	成本与管理会计
+conversion cost	加工成本；转换成本	成本与管理会计
+product cost	产品成本	成本与管理会计
+period cost	期间费用；期间成本	成本与管理会计
+cost of goods manufactured	完工产品成本；产品制造成本	成本与管理会计
+fixed cost	固定成本	成本与管理会计
+variable cost	变动成本	成本与管理会计
+direct cost	直接成本	成本与管理会计
+indirect cost	间接成本	成本与管理会计
+relevant cost	相关成本	成本与管理会计
+sunk cost	沉没成本	成本与管理会计
+cost behavior	成本性态；成本习性	成本与管理会计
+high-low method	高低点法	成本与管理会计
+cost driver	成本动因	成本与管理会计
+cost allocation	成本分配；成本分摊	成本与管理会计
+job order costing	分批成本法；分批法	成本与管理会计
+process costing	分步成本法；分步法	成本与管理会计
+equivalent units	约当产量	成本与管理会计
+predetermined overhead rate	预定制造费用分配率	成本与管理会计
+activity-based costing	作业成本法（ABC）	成本与管理会计
+activity-based management	作业管理（ABM）	成本与管理会计
+absorption costing	完全成本法；吸收成本法	成本与管理会计
+variable costing	变动成本法	成本与管理会计
+joint costs	联合成本	成本与管理会计
+by-product	副产品	成本与管理会计
+standard cost	标准成本	成本与管理会计
+standard costing	标准成本法	成本与管理会计
+variance analysis	差异分析	成本与管理会计
+price variance	价格差异	成本与管理会计
+quantity variance	数量差异；用量差异	成本与管理会计
+volume variance	产量差异；能量差异	成本与管理会计
+budget	预算	成本与管理会计
+master budget	总预算；全面预算	成本与管理会计
+cash budget	现金预算	成本与管理会计
+flexible budget	弹性预算	成本与管理会计
+zero-based budgeting	零基预算	成本与管理会计
+budgetary slack	预算松弛	成本与管理会计
+cost-volume-profit analysis	本量利分析（CVP）	成本与管理会计
+break-even point	盈亏平衡点；保本点	成本与管理会计
+contribution margin	边际贡献；贡献毛益	成本与管理会计
+contribution margin ratio	边际贡献率	成本与管理会计
+margin of safety	安全边际	成本与管理会计
+operating leverage	经营杠杆	成本与管理会计
+make-or-buy decision	自制或外购决策	成本与管理会计
+transfer pricing	转移定价	成本与管理会计
+target costing	目标成本法	成本与管理会计
+responsibility accounting	责任会计	成本与管理会计
+cost center	成本中心	成本与管理会计
+profit center	利润中心	成本与管理会计
+investment center	投资中心	成本与管理会计
+residual income	剩余收益	成本与管理会计
+balanced scorecard	平衡计分卡	成本与管理会计
+audit	审计	审计
+auditor	审计师；审计人员	审计
+internal audit	内部审计	审计
+integrated audit	整合审计	审计
+certified public accountant	注册会计师（CPA）	审计
+accounting firm	会计师事务所	审计
+Big Four	四大会计师事务所；四大	审计
+audit partner	审计合伙人	审计
+generally accepted auditing standards	公认审计准则（GAAS）	审计
+International Standards on Auditing	国际审计准则（ISA）	审计
+auditor independence	审计独立性；审计师独立性	审计
+professional skepticism	职业怀疑	审计
+engagement letter	审计业务约定书；业务约定书	审计
+assurance engagement	鉴证业务	审计
+reasonable assurance	合理保证	审计
+audit risk	审计风险	审计
+risk-based auditing	风险导向审计	审计
+inherent risk	固有风险	审计
+control risk	控制风险	审计
+detection risk	检查风险	审计
+risk of material misstatement	重大错报风险	审计
+misstatement	错报	审计
+material misstatement	重大错报	审计
+performance materiality	实际执行的重要性	审计
+assertion	认定	审计
+audit evidence	审计证据	审计
+audit procedures	审计程序	审计
+test of controls	控制测试	审计
+substantive procedures	实质性程序	审计
+analytical procedures	分析程序	审计
+confirmation	函证	审计
+inventory observation	存货监盘	审计
+audit sampling	审计抽样	审计
+sampling risk	抽样风险	审计
+working papers	审计工作底稿	审计
+management representation letter	管理层声明书	审计
+audit report	审计报告	审计
+audit opinion	审计意见	审计
+unqualified opinion	无保留意见	审计
+unmodified opinion	无保留意见	审计
+modified opinion	非无保留意见	审计
+qualified opinion	保留意见	审计
+adverse opinion	否定意见	审计
+disclaimer of opinion	无法表示意见	审计
+emphasis-of-matter paragraph	强调事项段	审计
+key audit matters	关键审计事项（KAM）	审计
+critical audit matters	关键审计事项（CAM）	审计
+going concern opinion	持续经营审计意见	审计
+audit committee	审计委员会	审计
+internal control	内部控制	审计
+internal control over financial reporting	财务报告内部控制（ICFR）	审计
+segregation of duties	职责分离；不相容职务分离	审计
+IT general controls	信息技术一般控制（ITGC）	审计
+control deficiency	控制缺陷	审计
+significant deficiency	重要缺陷	审计
+material weakness	重大缺陷	审计
+management override of controls	管理层凌驾于控制之上	审计
+fraud	舞弊	审计
+fraud triangle	舞弊三角	审计
+fraudulent financial reporting	虚假财务报告；财务报告舞弊	审计
+misappropriation of assets	侵占资产	审计
+related party	关联方	审计
+related party transaction	关联方交易；关联交易	审计
+non-audit services	非审计服务	审计
+forensic accounting	法务会计；司法会计	审计
+income tax	所得税	税务
+corporate income tax	企业所得税；公司所得税	税务
+individual income tax	个人所得税	税务
+taxable income	应纳税所得额；应税所得	税务
+gross income	总所得；总收入	税务
+adjusted gross income	调整后总收入（AGI）	税务
+ordinary income	普通所得；一般所得	税务
+standard deduction	标准扣除额	税务
+itemized deductions	分项扣除；逐项扣除	税务
+tax deduction	扣除额；税前扣除	税务
+tax credit	税收抵免	税务
+tax bracket	税级；税率档次	税务
+marginal tax rate	边际税率	税务
+effective tax rate	实际税率；有效税率（ETR）	税务
+statutory tax rate	法定税率	税务
+capital gain	资本利得	税务
+capital gains tax	资本利得税	税务
+filing status	申报身份	税务
+tax return	纳税申报表	税务
+Form 1040	1040表；个人所得税申报表	税务
+Form W-2	W-2表；工资与税款证明	税务
+tax refund	退税	税务
+withholding tax	预扣税；预提所得税	税务
+payroll tax	工资税	税务
+sales tax	销售税	税务
+value-added tax	增值税（VAT）	税务
+property tax	财产税；房产税	税务
+alternative minimum tax	替代性最低税（AMT）	税务
+tax avoidance	避税	税务
+tax evasion	逃税	税务
+tax planning	税务筹划；纳税筹划	税务
+tax haven	避税地；避税天堂	税务
+tax aggressiveness	税收激进	税务
+temporary difference	暂时性差异	税务
+permanent difference	永久性差异	税务
+taxable temporary difference	应纳税暂时性差异	税务
+deductible temporary difference	可抵扣暂时性差异	税务
+tax base	计税基础；税基	税务
+deferred income taxes	递延所得税	税务
+valuation allowance	估价备抵；计价备抵	税务
+net operating loss	净经营亏损（NOL）	税务
+loss carryforward	亏损结转；亏损后转	税务
+book-tax differences	会税差异；账税差异	税务
+Modified Accelerated Cost Recovery System	修正的加速成本回收制度（MACRS）	税务
+S corporation	S型公司；S公司	税务
+C corporation	C型公司；C公司	税务
+pass-through entity	穿透实体	税务
+double taxation	双重征税	税务
+nonresident alien	非居民外国人	税务
+Internal Revenue Service	美国国税局（IRS）	税务
+Internal Revenue Code	国内收入法典；国内税收法典（IRC）	税务
+Tax Cuts and Jobs Act	减税与就业法案（TCJA）	税务
+financial statement analysis	财务报表分析	财务分析
+ratio analysis	比率分析	财务分析
+horizontal analysis	水平分析；横向分析	财务分析
+vertical analysis	垂直分析；纵向分析	财务分析
+common-size financial statements	共同比财务报表；结构百分比报表	财务分析
+liquidity	流动性；变现能力	财务分析
+solvency	偿债能力	财务分析
+working capital	营运资本；营运资金	财务分析
+current ratio	流动比率	财务分析
+quick ratio	速动比率	财务分析
+debt ratio	资产负债率；负债比率	财务分析
+debt-to-equity ratio	产权比率；负债权益比	财务分析
+equity multiplier	权益乘数	财务分析
+times interest earned	利息保障倍数；已获利息倍数	财务分析
+interest coverage ratio	利息保障倍数	财务分析
+gross profit margin	毛利率	财务分析
+operating margin	营业利润率	财务分析
+net profit margin	销售净利率；净利率	财务分析
+return on assets	总资产收益率；资产报酬率（ROA）	财务分析
+return on equity	净资产收益率；权益报酬率（ROE）	财务分析
+return on investment	投资报酬率；投资回报率（ROI）	财务分析
+earnings per share	每股收益（EPS）	财务分析
+basic earnings per share	基本每股收益	财务分析
+diluted earnings per share	稀释每股收益	财务分析
+weighted average number of shares outstanding	发行在外普通股加权平均数	财务分析
+treasury stock method	库存股法	财务分析
+if-converted method	假设转换法；如果转换法	财务分析
+price-earnings ratio	市盈率（P/E）	财务分析
+price-to-book ratio	市净率（P/B）	财务分析
+book value per share	每股账面价值；每股净资产	财务分析
+dividend payout ratio	股利支付率	财务分析
+asset turnover	总资产周转率；资产周转率	财务分析
+inventory turnover	存货周转率	财务分析
+days sales in inventory	存货周转天数（DSI）	财务分析
+accounts receivable turnover	应收账款周转率	财务分析
+days sales outstanding	应收账款周转天数（DSO）	财务分析
+operating cycle	营业周期	财务分析
+cash conversion cycle	现金周转期；现金转换周期	财务分析
+DuPont analysis	杜邦分析法；杜邦分析	财务分析
+earnings before interest and taxes	息税前利润（EBIT）	财务分析
+earnings before interest, taxes, depreciation, and amortization	息税折旧及摊销前利润（EBITDA）	财务分析
+operating cash flow	经营现金流量	财务分析
+quality of earnings	盈余质量；收益质量	财务分析
+non-GAAP measures	非GAAP指标；非公认会计原则指标	财务分析
+economic value added	经济增加值（EVA）	财务分析
+Altman Z-score	阿尔特曼Z值；Z计分模型	财务分析
+accounting standards	会计准则	会计准则与监管
+generally accepted accounting principles	公认会计原则（GAAP）	会计准则与监管
+International Financial Reporting Standards	国际财务报告准则（IFRS）	会计准则与监管
+International Accounting Standards Board	国际会计准则理事会（IASB）	会计准则与监管
+International Sustainability Standards Board	国际可持续准则理事会（ISSB）	会计准则与监管
+Financial Accounting Standards Board	美国财务会计准则委员会（FASB）	会计准则与监管
+Governmental Accounting Standards Board	美国政府会计准则委员会（GASB）	会计准则与监管
+Accounting Standards Codification	会计准则汇编（ASC）	会计准则与监管
+Accounting Standards Update	会计准则更新（ASU）	会计准则与监管
+Statement of Financial Accounting Standards	财务会计准则公告（SFAS）	会计准则与监管
+Chinese Accounting Standards	中国会计准则；企业会计准则（CAS）	会计准则与监管
+Securities and Exchange Commission	美国证券交易委员会（SEC）	会计准则与监管
+Public Company Accounting Oversight Board	公众公司会计监督委员会（PCAOB）	会计准则与监管
+American Institute of Certified Public Accountants	美国注册会计师协会（AICPA）	会计准则与监管
+Chinese Institute of Certified Public Accountants	中国注册会计师协会（CICPA）	会计准则与监管
+Uniform CPA Examination	美国注册会计师统一考试	会计准则与监管
+certified management accountant	注册管理会计师（CMA）	会计准则与监管
+Sarbanes-Oxley Act	萨班斯-奥克斯利法案（SOX）	会计准则与监管
+Form 10-K	10-K年度报告	会计准则与监管
+Form 10-Q	10-Q季度报告	会计准则与监管
+Form 8-K	8-K临时报告；重大事项报告	会计准则与监管
+Extensible Business Reporting Language	可扩展商业报告语言（XBRL）	会计准则与监管
+exposure draft	征求意见稿	会计准则与监管
+principles-based standards	原则导向准则	会计准则与监管
+rules-based standards	规则导向准则	会计准则与监管
+convergence	趋同；准则趋同	会计准则与监管
+fair value accounting	公允价值会计	会计准则与监管
+fair value measurement	公允价值计量	会计准则与监管
+fair value hierarchy	公允价值层次	会计准则与监管
+accounting policy	会计政策	会计准则与监管
+accounting estimate	会计估计	会计准则与监管
+change in accounting principle	会计原则变更；会计政策变更	会计准则与监管
+change in accounting estimate	会计估计变更	会计准则与监管
+prior period adjustment	前期调整；以前年度损益调整	会计准则与监管
+retrospective application	追溯调整法；追溯应用	会计准则与监管
+retrospective restatement	追溯重述	会计准则与监管
+prospective application	未来适用法	会计准则与监管
+sustainability reporting	可持续发展报告；可持续信息披露	会计准则与监管
+earnings management	盈余管理	会计研究
+accrual-based earnings management	应计盈余管理	会计研究
+real earnings management	真实盈余管理	会计研究
+total accruals	总应计利润	会计研究
+discretionary accruals	可操控性应计利润；操控性应计	会计研究
+nondiscretionary accruals	非操控性应计利润；不可操控性应计	会计研究
+Jones model	琼斯模型；Jones模型	会计研究
+modified Jones model	修正琼斯模型；修正Jones模型	会计研究
+accrual quality	应计质量	会计研究
+earnings quality	盈余质量	会计研究
+earnings persistence	盈余持续性	会计研究
+income smoothing	利润平滑；收益平滑	会计研究
+big bath	洗大澡；巨额冲销	会计研究
+earnings response coefficient	盈余反应系数（ERC）	会计研究
+earnings announcement	盈余公告；业绩公告	会计研究
+unexpected earnings	未预期盈余	会计研究
+standardized unexpected earnings	标准化未预期盈余（SUE）	会计研究
+post-earnings-announcement drift	盈余公告后漂移（PEAD）	会计研究
+management earnings forecast	管理层盈余预测；业绩预告	会计研究
+analyst forecast	分析师预测	会计研究
+analyst coverage	分析师跟踪；分析师关注	会计研究
+accounting conservatism	会计稳健性	会计研究
+conditional conservatism	条件稳健性	会计研究
+unconditional conservatism	非条件稳健性	会计研究
+asymmetric timeliness	非对称及时性	会计研究
+value relevance	价值相关性	会计研究
+information content	信息含量	会计研究
+clean surplus	干净盈余；净盈余	会计研究
+restatement	财务重述；会计重述	会计研究
+accounting fraud	会计舞弊；财务舞弊	会计研究
+Accounting and Auditing Enforcement Releases	会计与审计执法公告（AAER）	会计研究
+comment letter	意见函；问询函	会计研究
+audit fee	审计费用	会计研究
+audit quality	审计质量	会计研究
+auditor tenure	审计任期；审计师任期	会计研究
+auditor rotation	审计师轮换	会计研究
+auditor switching	审计师变更	会计研究
+auditor industry specialization	审计师行业专长	会计研究
+audit report lag	审计报告时滞；审计延迟	会计研究
+opinion shopping	审计意见购买；购买审计意见	会计研究
+litigation risk	诉讼风险	会计研究
+voluntary disclosure	自愿性信息披露；自愿披露	会计研究
+mandatory disclosure	强制性信息披露；强制披露	会计研究
+positive accounting theory	实证会计理论	会计研究
+bonus plan hypothesis	分红计划假说；奖金计划假说	会计研究
+debt covenant hypothesis	债务契约假说	会计研究
+political cost hypothesis	政治成本假说	会计研究
+debt covenant	债务契约	会计研究
+accounting comparability	会计信息可比性	会计研究
+book-tax conformity	会税一致性；账税一致性	会计研究

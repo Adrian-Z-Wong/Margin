@@ -6,7 +6,11 @@
 
 看英文写中文 · 看中文拼英文 · 听发音拼英文
 
-[在线使用](https://adrian-z-wong.github.io/Margin/) · [下载 Margin.html](https://github.com/Adrian-Z-Wong/Margin/raw/HEAD/Margin.html) · [反馈问题](https://github.com/Adrian-Z-Wong/Margin/issues)
+[在线使用](https://adrian-z-wong.github.io/Margin/) · [下载 Margin.html](https://github.com/Adrian-Z-Wong/Margin/raw/HEAD/Margin.html) · [反馈问题](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)
+
+![License](https://img.shields.io/github/license/Adrian-Z-Wong/Margin?color=000)
+![Single file](https://img.shields.io/badge/single%20file-no%20install-000)
+![Offline](https://img.shields.io/badge/offline-ready-000)
 
 </div>
 
@@ -19,10 +23,16 @@
   - 中 → 英：看中文意思，拼写英文。可以提示字母个数。
   - 听 → 写：听发音，拼写英文，类似听写。
 - **一次一个词**：答完马上出下一个，答过的词一行一行留在上面。判错了可以点 ✓ ✗ 改判。
+- **中文意思竖着排**：一行只放一个中文词语，只显示最常用的几个（可以在设置里改成 1、2、3 或 5 个）。
 - **Finance 专业词库**：经济学、金融学、管理学、会计学，从本科入门到博士研究常用的术语。
 - **留学考试词库**：托福 TOEFL、雅思 IELTS、GRE。
-- **导入自己的词表**：直接粘贴，或者选 .txt / .csv 文件；只写英文也行，常见词自动补中文意思。
+- **导入自己的词表**：直接粘贴，或者选 .txt / .csv 文件；只写英文也行，常见词自动补中文意思。也支持 [Qwerty Learner](https://github.com/RealKai42/qwerty-learner) 的 JSON 词库。
+- **导出**：任何词表、错题本都能导出为表格，用 Excel 打开或导入 Anki。
+- **间隔复习**：答过的词按记忆曲线安排复习（1、2、4、7、15、30、60 天），首页显示「待复习」。
 - **错题本**：答错自动收录，之后连续答对 2 次自动移出。
+- **已掌握**：认识的词点一下「已掌握，跳过」，以后不再出现；随时可以恢复。
+- **拼错照打**：拼写题答错后照着正确拼写再打一遍，避免记住错的拼法。
+- **打卡热力图**：最近一年每天背了多少，连续打卡几天，一眼看清。
 - **真人发音**：美式 / 英式可选；不联网时自动改用电脑语音。
 - **键盘操作**：`Enter` 提交，`Tab` 朗读，`Esc` 结束，`1` `2` `3` 切换题型。
 - **黑白两种外观**：可以跟随系统自动切换。
@@ -92,10 +102,15 @@ python3 tools/build.py           # 把 src/ 打包成 Margin.html
 
 开发时可以直接用浏览器打开 `src/index.html`，改完代码刷新即可。提交前运行 `python3 tools/build.py`，更新 `Margin.html`。
 
+## 参与贡献
+
+发现词条不准、有功能建议，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。想直接改，请看 [CONTRIBUTING.md](CONTRIBUTING.md)。更新记录见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 致谢
 
 - 托福、雅思、GRE 词库与音标来自 [ECDICT](https://github.com/skywind3000/ECDICT)（MIT 许可证），详见 [NOTICE.md](NOTICE.md)。
 - 真人发音来自有道词典的公开发音接口。
+- 设计上参考了 [Qwerty Learner](https://github.com/RealKai42/qwerty-learner)、[TypeWords](https://github.com/zyronon/TypeWords)、[Anki](https://github.com/ankitects/anki) 和 [FSRS](https://github.com/open-spaced-repetition) 的思路（没有使用它们的代码）。
 
 ## 许可证
 

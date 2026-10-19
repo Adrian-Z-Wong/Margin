@@ -1,0 +1,29 @@
+name: 报告问题 / Bug report
+description: 网页出错、按钮没反应、显示不对等
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 你做了什么操作，看到了什么，本来期望看到什么。可以直接贴截图。
+    validations:
+      required: true
+  - type: dropdown
+    id: how
+    attributes:
+      label: 你是怎么打开 Margin 的
+      options:
+        - 在线网址
+        - 下载 Margin.html 后双击打开
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器和系统
+      placeholder: 例如：Chrome 130 / Windows 11
+  - type: textarea
+    id: more
+    attributes:
+      label: 其他补充
