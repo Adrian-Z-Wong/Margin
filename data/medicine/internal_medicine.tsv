@@ -1,0 +1,3244 @@
+hypertension	高血压	心血管
+essential hypertension	原发性高血压	心血管
+primary hypertension	原发性高血压	心血管
+secondary hypertension	继发性高血压	心血管
+malignant hypertension	恶性高血压	心血管
+accelerated hypertension	急进型高血压	心血管
+hypertensive crisis	高血压危象	心血管
+hypertensive emergency	高血压急症	心血管
+hypertensive urgency	高血压亚急症	心血管
+hypertensive encephalopathy	高血压脑病	心血管
+hypertensive heart disease	高血压心脏病；高血压性心脏病	心血管
+white coat hypertension	白大衣高血压	心血管
+masked hypertension	隐匿性高血压	心血管
+isolated systolic hypertension	单纯收缩期高血压	心血管
+isolated diastolic hypertension	单纯舒张期高血压	心血管
+resistant hypertension	难治性高血压；顽固性高血压	心血管
+renovascular hypertension	肾血管性高血压	心血管
+orthostatic hypertension	直立性高血压	心血管
+pulmonary hypertension	肺动脉高压；肺高血压	心血管
+pulmonary arterial hypertension	肺动脉高压（PAH）	心血管
+idiopathic pulmonary arterial hypertension	特发性肺动脉高压	心血管
+chronic thromboembolic pulmonary hypertension	慢性血栓栓塞性肺动脉高压（CTEPH）	心血管
+hypotension	低血压	心血管
+orthostatic hypotension	直立性低血压；体位性低血压	心血管
+postprandial hypotension	餐后低血压	心血管
+coronary artery disease	冠状动脉疾病；冠心病（CAD）	心血管
+coronary heart disease	冠状动脉粥样硬化性心脏病；冠心病（CHD）	心血管
+atherosclerosis	动脉粥样硬化	心血管
+arteriosclerosis	动脉硬化	心血管
+angina pectoris	心绞痛	心血管
+stable angina	稳定型心绞痛	心血管
+unstable angina	不稳定型心绞痛	心血管
+variant angina	变异型心绞痛	心血管
+Prinzmetal's angina	变异型心绞痛；Prinzmetal心绞痛	心血管
+microvascular angina	微血管性心绞痛	心血管
+postinfarction angina	梗死后心绞痛	心血管
+acute coronary syndrome	急性冠脉综合征（ACS）	心血管
+chronic coronary syndrome	慢性冠脉综合征（CCS）	心血管
+myocardial infarction	心肌梗死；心肌梗塞（MI）	心血管
+acute myocardial infarction	急性心肌梗死（AMI）	心血管
+ST-segment elevation myocardial infarction	ST段抬高型心肌梗死（STEMI）	心血管
+non-ST-segment elevation myocardial infarction	非ST段抬高型心肌梗死（NSTEMI）	心血管
+old myocardial infarction	陈旧性心肌梗死	心血管
+anterior wall myocardial infarction	前壁心肌梗死	心血管
+inferior wall myocardial infarction	下壁心肌梗死	心血管
+right ventricular infarction	右心室梗死	心血管
+myocardial ischemia	心肌缺血	心血管
+silent myocardial ischemia	无症状性心肌缺血；隐匿性心肌缺血	心血管
+ischemic heart disease	缺血性心脏病	心血管
+ischemic cardiomyopathy	缺血性心肌病	心血管
+coronary artery spasm	冠状动脉痉挛	心血管
+coronary artery ectasia	冠状动脉扩张症	心血管
+coronary artery aneurysm	冠状动脉瘤	心血管
+myocardial bridge	心肌桥	心血管
+left main coronary artery disease	左主干病变	心血管
+multivessel coronary artery disease	多支血管病变	心血管
+chronic total occlusion	慢性完全闭塞病变（CTO）	心血管
+in-stent restenosis	支架内再狭窄	心血管
+stent thrombosis	支架内血栓形成	心血管
+no-reflow phenomenon	无复流现象	心血管
+myocardial stunning	心肌顿抑	心血管
+myocardial hibernation	心肌冬眠	心血管
+ischemia-reperfusion injury	缺血再灌注损伤	心血管
+reperfusion arrhythmia	再灌注心律失常	心血管
+ventricular remodeling	心室重构	心血管
+ventricular aneurysm	室壁瘤	心血管
+cardiac rupture	心脏破裂	心血管
+free wall rupture	心室游离壁破裂	心血管
+papillary muscle rupture	乳头肌断裂	心血管
+papillary muscle dysfunction	乳头肌功能失调	心血管
+ventricular septal rupture	室间隔穿孔	心血管
+left ventricular thrombus	左心室血栓	心血管
+left atrial thrombus	左心房血栓	心血管
+post-myocardial infarction syndrome	心肌梗死后综合征	心血管
+Dressler syndrome	Dressler综合征；心肌梗死后综合征	心血管
+heart failure	心力衰竭；心衰	心血管
+congestive heart failure	充血性心力衰竭（CHF）	心血管
+acute heart failure	急性心力衰竭	心血管
+chronic heart failure	慢性心力衰竭	心血管
+acute decompensated heart failure	急性失代偿性心力衰竭	心血管
+left heart failure	左心衰竭	心血管
+right heart failure	右心衰竭	心血管
+biventricular failure	全心衰竭	心血管
+heart failure with reduced ejection fraction	射血分数降低的心力衰竭（HFrEF）	心血管
+heart failure with preserved ejection fraction	射血分数保留的心力衰竭（HFpEF）	心血管
+heart failure with mildly reduced ejection fraction	射血分数轻度降低的心力衰竭（HFmrEF）	心血管
+high-output heart failure	高输出量性心力衰竭	心血管
+refractory heart failure	难治性心力衰竭	心血管
+diastolic heart failure	舒张性心力衰竭	心血管
+systolic heart failure	收缩性心力衰竭	心血管
+cardiogenic shock	心源性休克	心血管
+low cardiac output syndrome	低心排血量综合征	心血管
+acute pulmonary edema	急性肺水肿	心血管
+cardiac asthma	心源性哮喘	心血管
+cardiorenal syndrome	心肾综合征	心血管
+cardiac cachexia	心源性恶病质	心血管
+cor pulmonale	肺源性心脏病；肺心病	心血管
+chronic cor pulmonale	慢性肺源性心脏病	心血管
+acute cor pulmonale	急性肺源性心脏病	心血管
+cardiomyopathy	心肌病	心血管
+dilated cardiomyopathy	扩张型心肌病（DCM）	心血管
+hypertrophic cardiomyopathy	肥厚型心肌病（HCM）	心血管
+hypertrophic obstructive cardiomyopathy	肥厚型梗阻性心肌病（HOCM）	心血管
+apical hypertrophic cardiomyopathy	心尖肥厚型心肌病	心血管
+restrictive cardiomyopathy	限制型心肌病（RCM）	心血管
+arrhythmogenic right ventricular cardiomyopathy	致心律失常性右室心肌病（ARVC）	心血管
+left ventricular noncompaction	左心室致密化不全	心血管
+takotsubo cardiomyopathy	应激性心肌病；Takotsubo心肌病	心血管
+peripartum cardiomyopathy	围生期心肌病	心血管
+alcoholic cardiomyopathy	酒精性心肌病	心血管
+tachycardia-induced cardiomyopathy	心动过速性心肌病	心血管
+diabetic cardiomyopathy	糖尿病心肌病	心血管
+cardiac amyloidosis	心脏淀粉样变性	心血管
+transthyretin amyloid cardiomyopathy	转甲状腺素蛋白淀粉样变心肌病（ATTR-CM）	心血管
+cardiac sarcoidosis	心脏结节病	心血管
+endomyocardial fibrosis	心内膜心肌纤维化	心血管
+myocarditis	心肌炎	心血管
+viral myocarditis	病毒性心肌炎	心血管
+fulminant myocarditis	暴发性心肌炎	心血管
+giant cell myocarditis	巨细胞性心肌炎	心血管
+pericarditis	心包炎	心血管
+acute pericarditis	急性心包炎	心血管
+constrictive pericarditis	缩窄性心包炎	心血管
+tuberculous pericarditis	结核性心包炎	心血管
+purulent pericarditis	化脓性心包炎	心血管
+recurrent pericarditis	复发性心包炎	心血管
+pericardial effusion	心包积液	心血管
+cardiac tamponade	心脏压塞；心包填塞	心血管
+endocarditis	心内膜炎	心血管
+infective endocarditis	感染性心内膜炎（IE）	心血管
+subacute bacterial endocarditis	亚急性细菌性心内膜炎	心血管
+acute bacterial endocarditis	急性细菌性心内膜炎	心血管
+prosthetic valve endocarditis	人工瓣膜心内膜炎	心血管
+Libman-Sacks endocarditis	Libman-Sacks心内膜炎；疣状心内膜炎	心血管
+nonbacterial thrombotic endocarditis	非细菌性血栓性心内膜炎	心血管
+valvular heart disease	心脏瓣膜病	心血管
+rheumatic heart disease	风湿性心脏病	心血管
+mitral stenosis	二尖瓣狭窄	心血管
+mitral regurgitation	二尖瓣关闭不全；二尖瓣反流	心血管
+mitral valve prolapse	二尖瓣脱垂	心血管
+aortic stenosis	主动脉瓣狭窄	心血管
+aortic regurgitation	主动脉瓣关闭不全；主动脉瓣反流	心血管
+tricuspid stenosis	三尖瓣狭窄	心血管
+tricuspid regurgitation	三尖瓣关闭不全；三尖瓣反流	心血管
+pulmonary stenosis	肺动脉瓣狭窄	心血管
+pulmonary regurgitation	肺动脉瓣关闭不全；肺动脉瓣反流	心血管
+bicuspid aortic valve	二叶式主动脉瓣	心血管
+calcific aortic valve disease	钙化性主动脉瓣病	心血管
+multivalvular heart disease	多瓣膜病	心血管
+arrhythmia	心律失常	心血管
+bradyarrhythmia	缓慢性心律失常	心血管
+tachyarrhythmia	快速性心律失常	心血管
+sinus tachycardia	窦性心动过速	心血管
+sinus bradycardia	窦性心动过缓	心血管
+sinus arrhythmia	窦性心律不齐	心血管
+sinus arrest	窦性停搏	心血管
+sinus node dysfunction	窦房结功能障碍	心血管
+sick sinus syndrome	病态窦房结综合征（SSS）	心血管
+sinoatrial block	窦房传导阻滞	心血管
+tachycardia-bradycardia syndrome	心动过缓-心动过速综合征；慢快综合征	心血管
+premature beat	期前收缩；早搏	心血管
+premature atrial contraction	房性期前收缩；房性早搏	心血管
+premature ventricular contraction	室性期前收缩；室性早搏	心血管
+premature junctional contraction	交界性期前收缩	心血管
+ventricular bigeminy	室性二联律	心血管
+atrial fibrillation	心房颤动；房颤	心血管
+paroxysmal atrial fibrillation	阵发性心房颤动	心血管
+persistent atrial fibrillation	持续性心房颤动	心血管
+permanent atrial fibrillation	永久性心房颤动	心血管
+lone atrial fibrillation	孤立性心房颤动	心血管
+valvular atrial fibrillation	瓣膜性心房颤动	心血管
+atrial flutter	心房扑动；房扑	心血管
+atrial tachycardia	房性心动过速	心血管
+multifocal atrial tachycardia	多源性房性心动过速	心血管
+supraventricular tachycardia	室上性心动过速（SVT）	心血管
+paroxysmal supraventricular tachycardia	阵发性室上性心动过速（PSVT）	心血管
+atrioventricular nodal reentrant tachycardia	房室结折返性心动过速（AVNRT）	心血管
+atrioventricular reentrant tachycardia	房室折返性心动过速（AVRT）	心血管
+Wolff-Parkinson-White syndrome	预激综合征；WPW综合征	心血管
+preexcitation syndrome	预激综合征	心血管
+ventricular tachycardia	室性心动过速；室速	心血管
+nonsustained ventricular tachycardia	非持续性室性心动过速	心血管
+sustained ventricular tachycardia	持续性室性心动过速	心血管
+polymorphic ventricular tachycardia	多形性室性心动过速	心血管
+torsades de pointes	尖端扭转型室性心动过速	心血管
+electrical storm	电风暴	心血管
+ventricular fibrillation	心室颤动；室颤	心血管
+ventricular flutter	心室扑动	心血管
+accelerated idioventricular rhythm	加速性室性自主心律	心血管
+junctional rhythm	交界性心律	心血管
+escape beat	逸搏	心血管
+escape rhythm	逸搏心律	心血管
+parasystole	并行心律	心血管
+heart block	心脏传导阻滞	心血管
+atrioventricular block	房室传导阻滞	心血管
+first-degree atrioventricular block	一度房室传导阻滞	心血管
+second-degree atrioventricular block	二度房室传导阻滞	心血管
+third-degree atrioventricular block	三度房室传导阻滞	心血管
+complete heart block	完全性心脏传导阻滞	心血管
+Wenckebach phenomenon	文氏现象	心血管
+atrioventricular dissociation	房室分离	心血管
+bundle branch block	束支传导阻滞	心血管
+left bundle branch block	左束支传导阻滞（LBBB）	心血管
+right bundle branch block	右束支传导阻滞（RBBB）	心血管
+left anterior fascicular block	左前分支传导阻滞	心血管
+left posterior fascicular block	左后分支传导阻滞	心血管
+long QT syndrome	长QT综合征	心血管
+short QT syndrome	短QT综合征	心血管
+Brugada syndrome	Brugada综合征	心血管
+catecholaminergic polymorphic ventricular tachycardia	儿茶酚胺敏感性多形性室性心动过速（CPVT）	心血管
+early repolarization syndrome	早期复极综合征	心血管
+sudden cardiac death	心脏性猝死（SCD）	心血管
+cardiac arrest	心搏骤停；心脏骤停	心血管
+asystole	心室停搏；心脏停搏	心血管
+pulseless electrical activity	无脉性电活动（PEA）	心血管
+Adams-Stokes syndrome	阿-斯综合征；心源性脑缺血综合征	心血管
+congenital heart disease	先天性心脏病	心血管
+adult congenital heart disease	成人先天性心脏病	心血管
+atrial septal defect	房间隔缺损（ASD）	心血管
+ventricular septal defect	室间隔缺损（VSD）	心血管
+patent ductus arteriosus	动脉导管未闭（PDA）	心血管
+patent foramen ovale	卵圆孔未闭（PFO）	心血管
+tetralogy of Fallot	法洛四联症	心血管
+coarctation of aorta	主动脉缩窄	心血管
+Eisenmenger syndrome	艾森门格综合征	心血管
+Ebstein anomaly	埃布斯坦畸形；三尖瓣下移畸形	心血管
+transposition of great arteries	大动脉转位	心血管
+dextrocardia	右位心	心血管
+Marfan syndrome	马方综合征；马凡综合征	心血管
+aortic dissection	主动脉夹层	心血管
+Stanford type A aortic dissection	Stanford A型主动脉夹层	心血管
+Stanford type B aortic dissection	Stanford B型主动脉夹层	心血管
+aortic aneurysm	主动脉瘤	心血管
+abdominal aortic aneurysm	腹主动脉瘤	心血管
+thoracic aortic aneurysm	胸主动脉瘤	心血管
+aortic intramural hematoma	主动脉壁内血肿	心血管
+penetrating aortic ulcer	穿透性主动脉溃疡	心血管
+acute aortic syndrome	急性主动脉综合征	心血管
+aortitis	主动脉炎	心血管
+syphilitic aortitis	梅毒性主动脉炎	心血管
+peripheral arterial disease	外周动脉疾病（PAD）	心血管
+arteriosclerosis obliterans	闭塞性动脉硬化	心血管
+thromboangiitis obliterans	血栓闭塞性脉管炎	心血管
+acute limb ischemia	急性肢体缺血	心血管
+critical limb ischemia	严重肢体缺血	心血管
+arterial embolism	动脉栓塞	心血管
+carotid artery stenosis	颈动脉狭窄	心血管
+subclavian steal syndrome	锁骨下动脉窃血综合征	心血管
+Raynaud's phenomenon	雷诺现象	心血管
+Raynaud's disease	雷诺病	心血管
+erythromelalgia	红斑性肢痛症	心血管
+deep vein thrombosis	深静脉血栓形成（DVT）	心血管
+venous thromboembolism	静脉血栓栓塞症（VTE）	心血管
+thrombophlebitis	血栓性静脉炎	心血管
+superficial thrombophlebitis	浅表性血栓性静脉炎	心血管
+phlebitis	静脉炎	心血管
+varicose vein	静脉曲张	心血管
+chronic venous insufficiency	慢性静脉功能不全	心血管
+post-thrombotic syndrome	血栓后综合征	心血管
+superior vena cava syndrome	上腔静脉综合征	心血管
+inferior vena cava syndrome	下腔静脉综合征	心血管
+vasovagal syncope	血管迷走性晕厥	心血管
+cardiac syncope	心源性晕厥	心血管
+carotid sinus syndrome	颈动脉窦综合征	心血管
+postural orthostatic tachycardia syndrome	体位性心动过速综合征（POTS）	心血管
+cardiac neurosis	心脏神经症；心脏神经官能症	心血管
+left ventricular hypertrophy	左心室肥厚（LVH）	心血管
+right ventricular hypertrophy	右心室肥厚	心血管
+cardiomegaly	心脏扩大；心脏增大	心血管
+athlete's heart	运动员心脏	心血管
+digitalis toxicity	洋地黄中毒	心血管
+hyperthyroid heart disease	甲状腺功能亢进性心脏病；甲亢性心脏病	心血管
+anemic heart disease	贫血性心脏病	心血管
+upper respiratory tract infection	上呼吸道感染	呼吸系统
+acute upper respiratory tract infection	急性上呼吸道感染	呼吸系统
+lower respiratory tract infection	下呼吸道感染	呼吸系统
+common cold	普通感冒	呼吸系统
+tracheitis	气管炎	呼吸系统
+tracheobronchitis	气管支气管炎	呼吸系统
+bronchitis	支气管炎	呼吸系统
+acute bronchitis	急性支气管炎	呼吸系统
+chronic bronchitis	慢性支气管炎	呼吸系统
+bronchiolitis	细支气管炎	呼吸系统
+bronchiolitis obliterans	闭塞性细支气管炎	呼吸系统
+diffuse panbronchiolitis	弥漫性泛细支气管炎	呼吸系统
+pneumonia	肺炎	呼吸系统
+community-acquired pneumonia	社区获得性肺炎（CAP）	呼吸系统
+hospital-acquired pneumonia	医院获得性肺炎（HAP）	呼吸系统
+ventilator-associated pneumonia	呼吸机相关性肺炎（VAP）	呼吸系统
+severe pneumonia	重症肺炎	呼吸系统
+aspiration pneumonia	吸入性肺炎	呼吸系统
+lobar pneumonia	大叶性肺炎	呼吸系统
+lobular pneumonia	小叶性肺炎	呼吸系统
+bronchopneumonia	支气管肺炎	呼吸系统
+interstitial pneumonia	间质性肺炎	呼吸系统
+atypical pneumonia	非典型肺炎	呼吸系统
+bacterial pneumonia	细菌性肺炎	呼吸系统
+viral pneumonia	病毒性肺炎	呼吸系统
+pneumococcal pneumonia	肺炎链球菌肺炎	呼吸系统
+staphylococcal pneumonia	葡萄球菌肺炎	呼吸系统
+Klebsiella pneumonia	肺炎克雷伯菌肺炎	呼吸系统
+mycoplasma pneumonia	肺炎支原体肺炎；支原体肺炎	呼吸系统
+chlamydial pneumonia	衣原体肺炎	呼吸系统
+Legionella pneumonia	军团菌肺炎	呼吸系统
+Pneumocystis pneumonia	肺孢子菌肺炎（PCP）	呼吸系统
+cytomegalovirus pneumonia	巨细胞病毒肺炎	呼吸系统
+influenza pneumonia	流感病毒肺炎	呼吸系统
+organizing pneumonia	机化性肺炎	呼吸系统
+cryptogenic organizing pneumonia	隐源性机化性肺炎（COP）	呼吸系统
+eosinophilic pneumonia	嗜酸性粒细胞性肺炎	呼吸系统
+acute eosinophilic pneumonia	急性嗜酸性粒细胞性肺炎	呼吸系统
+chronic eosinophilic pneumonia	慢性嗜酸性粒细胞性肺炎	呼吸系统
+Löffler syndrome	吕弗勒综合征；单纯性肺嗜酸性粒细胞浸润症	呼吸系统
+pulmonary eosinophilia	肺嗜酸性粒细胞增多症	呼吸系统
+lipoid pneumonia	类脂性肺炎	呼吸系统
+radiation pneumonitis	放射性肺炎	呼吸系统
+hypersensitivity pneumonitis	过敏性肺炎	呼吸系统
+chemical pneumonitis	化学性肺炎	呼吸系统
+drug-induced lung disease	药物性肺病	呼吸系统
+lung abscess	肺脓肿	呼吸系统
+empyema	脓胸	呼吸系统
+pleurisy	胸膜炎	呼吸系统
+tuberculous pleurisy	结核性胸膜炎	呼吸系统
+pleural effusion	胸腔积液	呼吸系统
+parapneumonic effusion	类肺炎性胸腔积液	呼吸系统
+malignant pleural effusion	恶性胸腔积液	呼吸系统
+exudative pleural effusion	渗出性胸腔积液	呼吸系统
+transudative pleural effusion	漏出性胸腔积液	呼吸系统
+chylothorax	乳糜胸	呼吸系统
+hemothorax	血胸	呼吸系统
+pneumothorax	气胸	呼吸系统
+spontaneous pneumothorax	自发性气胸	呼吸系统
+primary spontaneous pneumothorax	原发性自发性气胸	呼吸系统
+secondary spontaneous pneumothorax	继发性自发性气胸	呼吸系统
+tension pneumothorax	张力性气胸	呼吸系统
+hydropneumothorax	液气胸	呼吸系统
+pyopneumothorax	脓气胸	呼吸系统
+pleural thickening	胸膜增厚	呼吸系统
+pleural plaque	胸膜斑	呼吸系统
+bronchopleural fistula	支气管胸膜瘘	呼吸系统
+asthma	哮喘	呼吸系统
+bronchial asthma	支气管哮喘	呼吸系统
+acute asthma exacerbation	哮喘急性发作	呼吸系统
+severe asthma	重症哮喘	呼吸系统
+status asthmaticus	哮喘持续状态	呼吸系统
+cough variant asthma	咳嗽变异性哮喘	呼吸系统
+chest tightness variant asthma	胸闷变异性哮喘	呼吸系统
+occupational asthma	职业性哮喘	呼吸系统
+aspirin-induced asthma	阿司匹林哮喘	呼吸系统
+exercise-induced bronchoconstriction	运动诱发性支气管收缩	呼吸系统
+eosinophilic bronchitis	嗜酸性粒细胞性支气管炎	呼吸系统
+asthma-COPD overlap	哮喘-慢阻肺重叠	呼吸系统
+chronic obstructive pulmonary disease	慢性阻塞性肺疾病（COPD）	呼吸系统
+acute exacerbation of chronic obstructive pulmonary disease	慢性阻塞性肺疾病急性加重（AECOPD）	呼吸系统
+emphysema	肺气肿	呼吸系统
+centrilobular emphysema	小叶中心型肺气肿	呼吸系统
+panlobular emphysema	全小叶型肺气肿	呼吸系统
+paraseptal emphysema	间隔旁型肺气肿	呼吸系统
+bullous emphysema	大疱性肺气肿	呼吸系统
+senile emphysema	老年性肺气肿	呼吸系统
+pulmonary bulla	肺大疱	呼吸系统
+alpha-1 antitrypsin deficiency	α1-抗胰蛋白酶缺乏症	呼吸系统
+bronchiectasis	支气管扩张症	呼吸系统
+cystic fibrosis	囊性纤维化	呼吸系统
+primary ciliary dyskinesia	原发性纤毛运动障碍	呼吸系统
+Kartagener syndrome	Kartagener综合征；卡塔格内综合征	呼吸系统
+interstitial lung disease	间质性肺疾病（ILD）	呼吸系统
+diffuse parenchymal lung disease	弥漫性实质性肺疾病	呼吸系统
+idiopathic pulmonary fibrosis	特发性肺纤维化（IPF）	呼吸系统
+acute exacerbation of idiopathic pulmonary fibrosis	特发性肺纤维化急性加重	呼吸系统
+pulmonary fibrosis	肺纤维化	呼吸系统
+progressive pulmonary fibrosis	进行性肺纤维化	呼吸系统
+idiopathic interstitial pneumonia	特发性间质性肺炎	呼吸系统
+nonspecific interstitial pneumonia	非特异性间质性肺炎（NSIP）	呼吸系统
+usual interstitial pneumonia	普通型间质性肺炎（UIP）	呼吸系统
+desquamative interstitial pneumonia	脱屑性间质性肺炎（DIP）	呼吸系统
+acute interstitial pneumonia	急性间质性肺炎（AIP）	呼吸系统
+lymphocytic interstitial pneumonia	淋巴细胞性间质性肺炎（LIP）	呼吸系统
+respiratory bronchiolitis-associated interstitial lung disease	呼吸性细支气管炎伴间质性肺疾病	呼吸系统
+pleuroparenchymal fibroelastosis	胸膜肺实质弹力纤维增生症	呼吸系统
+combined pulmonary fibrosis and emphysema	肺纤维化合并肺气肿	呼吸系统
+connective tissue disease-associated interstitial lung disease	结缔组织病相关间质性肺疾病	呼吸系统
+sarcoidosis	结节病	呼吸系统
+pulmonary sarcoidosis	肺结节病	呼吸系统
+Löfgren syndrome	Löfgren综合征	呼吸系统
+pulmonary alveolar proteinosis	肺泡蛋白沉积症	呼吸系统
+pulmonary Langerhans cell histiocytosis	肺朗格汉斯细胞组织细胞增生症	呼吸系统
+lymphangioleiomyomatosis	淋巴管平滑肌瘤病（LAM）	呼吸系统
+pulmonary alveolar microlithiasis	肺泡微石症	呼吸系统
+idiopathic pulmonary hemosiderosis	特发性肺含铁血黄素沉着症	呼吸系统
+diffuse alveolar hemorrhage	弥漫性肺泡出血	呼吸系统
+pneumoconiosis	尘肺；尘肺病	呼吸系统
+silicosis	硅沉着病；矽肺	呼吸系统
+silicotuberculosis	硅肺结核；矽肺结核	呼吸系统
+coal workers' pneumoconiosis	煤工尘肺	呼吸系统
+asbestosis	石棉沉着病；石棉肺	呼吸系统
+berylliosis	铍病；铍肺	呼吸系统
+byssinosis	棉尘病	呼吸系统
+farmer's lung	农民肺	呼吸系统
+bird fancier's lung	饲鸟者肺	呼吸系统
+occupational lung disease	职业性肺病	呼吸系统
+pulmonary embolism	肺栓塞（PE）	呼吸系统
+pulmonary thromboembolism	肺血栓栓塞症（PTE）	呼吸系统
+massive pulmonary embolism	大面积肺栓塞	呼吸系统
+pulmonary infarction	肺梗死	呼吸系统
+fat embolism syndrome	脂肪栓塞综合征	呼吸系统
+air embolism	空气栓塞	呼吸系统
+pulmonary arteriovenous malformation	肺动静脉畸形	呼吸系统
+pulmonary veno-occlusive disease	肺静脉闭塞病	呼吸系统
+pulmonary capillary hemangiomatosis	肺毛细血管瘤病	呼吸系统
+pulmonary sequestration	肺隔离症	呼吸系统
+respiratory failure	呼吸衰竭	呼吸系统
+acute respiratory failure	急性呼吸衰竭	呼吸系统
+chronic respiratory failure	慢性呼吸衰竭	呼吸系统
+hypoxemic respiratory failure	低氧血症性呼吸衰竭；I型呼吸衰竭	呼吸系统
+hypercapnic respiratory failure	高碳酸血症性呼吸衰竭；II型呼吸衰竭	呼吸系统
+acute respiratory distress syndrome	急性呼吸窘迫综合征（ARDS）	呼吸系统
+acute lung injury	急性肺损伤	呼吸系统
+pulmonary edema	肺水肿	呼吸系统
+cardiogenic pulmonary edema	心源性肺水肿	呼吸系统
+noncardiogenic pulmonary edema	非心源性肺水肿	呼吸系统
+high-altitude pulmonary edema	高原肺水肿	呼吸系统
+re-expansion pulmonary edema	复张性肺水肿	呼吸系统
+neurogenic pulmonary edema	神经源性肺水肿	呼吸系统
+sleep apnea syndrome	睡眠呼吸暂停综合征	呼吸系统
+obstructive sleep apnea	阻塞性睡眠呼吸暂停（OSA）	呼吸系统
+obstructive sleep apnea-hypopnea syndrome	阻塞性睡眠呼吸暂停低通气综合征（OSAHS）	呼吸系统
+central sleep apnea	中枢性睡眠呼吸暂停	呼吸系统
+obesity hypoventilation syndrome	肥胖低通气综合征	呼吸系统
+sleep-related hypoventilation	睡眠相关低通气	呼吸系统
+hyperventilation syndrome	过度通气综合征	呼吸系统
+atelectasis	肺不张	呼吸系统
+middle lobe syndrome	中叶综合征	呼吸系统
+pulmonary nodule	肺结节	呼吸系统
+solitary pulmonary nodule	孤立性肺结节	呼吸系统
+ground-glass nodule	磨玻璃结节	呼吸系统
+pulmonary mass	肺部肿块	呼吸系统
+pulmonary mycosis	肺真菌病	呼吸系统
+pulmonary aspergillosis	肺曲霉病	呼吸系统
+invasive pulmonary aspergillosis	侵袭性肺曲霉病	呼吸系统
+chronic pulmonary aspergillosis	慢性肺曲霉病	呼吸系统
+allergic bronchopulmonary aspergillosis	变应性支气管肺曲霉病（ABPA）	呼吸系统
+aspergilloma	曲霉球	呼吸系统
+pulmonary cryptococcosis	肺隐球菌病	呼吸系统
+pulmonary candidiasis	肺念珠菌病	呼吸系统
+pulmonary mucormycosis	肺毛霉病	呼吸系统
+nontuberculous mycobacterial lung disease	非结核分枝杆菌肺病	呼吸系统
+tracheal stenosis	气管狭窄	呼吸系统
+tracheomalacia	气管软化症	呼吸系统
+tracheobronchomalacia	气管支气管软化症	呼吸系统
+tracheoesophageal fistula	气管食管瘘	呼吸系统
+upper airway obstruction	上气道阻塞	呼吸系统
+mediastinitis	纵隔炎	呼吸系统
+pneumomediastinum	纵隔气肿	呼吸系统
+diaphragmatic paralysis	膈肌麻痹	呼吸系统
+diaphragmatic eventration	膈膨升	呼吸系统
+chronic cough syndrome	慢性咳嗽综合征	呼吸系统
+upper airway cough syndrome	上气道咳嗽综合征（UACS）	呼吸系统
+postnasal drip syndrome	鼻后滴流综合征	呼吸系统
+gastroesophageal reflux-related cough	胃食管反流性咳嗽	呼吸系统
+post-infectious cough	感染后咳嗽	呼吸系统
+lung transplant rejection	肺移植排斥反应	呼吸系统
+bronchiolitis obliterans syndrome	闭塞性细支气管炎综合征	呼吸系统
+pulmonary contusion	肺挫伤	呼吸系统
+smoke inhalation injury	吸入性损伤；烟雾吸入性损伤	呼吸系统
+pulmonary hypertension due to lung disease	肺部疾病所致肺动脉高压	呼吸系统
+gastroesophageal reflux disease	胃食管反流病（GERD）	消化系统
+reflux esophagitis	反流性食管炎	消化系统
+non-erosive reflux disease	非糜烂性反流病（NERD）	消化系统
+Barrett's esophagus	Barrett食管；巴雷特食管	消化系统
+esophagitis	食管炎	消化系统
+eosinophilic esophagitis	嗜酸性粒细胞性食管炎	消化系统
+esophageal candidiasis	食管念珠菌病	消化系统
+pill esophagitis	药物性食管炎	消化系统
+radiation esophagitis	放射性食管炎	消化系统
+corrosive esophagitis	腐蚀性食管炎	消化系统
+functional heartburn	功能性烧心	消化系统
+reflux hypersensitivity	反流高敏感	消化系统
+esophageal motility disorder	食管动力障碍	消化系统
+achalasia	贲门失弛缓症	消化系统
+diffuse esophageal spasm	弥漫性食管痉挛	消化系统
+nutcracker esophagus	胡桃夹食管	消化系统
+jackhammer esophagus	Jackhammer食管；高收缩食管	消化系统
+esophageal varices	食管静脉曲张	消化系统
+gastric varices	胃静脉曲张	消化系统
+esophagogastric variceal bleeding	食管胃静脉曲张破裂出血	消化系统
+Mallory-Weiss syndrome	贲门黏膜撕裂综合征；Mallory-Weiss综合征	消化系统
+Boerhaave syndrome	自发性食管破裂；Boerhaave综合征	消化系统
+esophageal stricture	食管狭窄	消化系统
+esophageal diverticulum	食管憩室	消化系统
+Zenker's diverticulum	咽食管憩室；Zenker憩室	消化系统
+esophageal web	食管蹼	消化系统
+Plummer-Vinson syndrome	缺铁性吞咽困难综合征；Plummer-Vinson综合征	消化系统
+hiatal hernia	食管裂孔疝	消化系统
+gastritis	胃炎	消化系统
+acute gastritis	急性胃炎	消化系统
+chronic gastritis	慢性胃炎	消化系统
+chronic atrophic gastritis	慢性萎缩性胃炎	消化系统
+chronic non-atrophic gastritis	慢性非萎缩性胃炎	消化系统
+chronic superficial gastritis	慢性浅表性胃炎	消化系统
+erosive gastritis	糜烂性胃炎	消化系统
+hemorrhagic gastritis	出血性胃炎	消化系统
+bile reflux gastritis	胆汁反流性胃炎	消化系统
+autoimmune gastritis	自身免疫性胃炎	消化系统
+Ménétrier disease	Ménétrier病；巨大肥厚性胃炎	消化系统
+Helicobacter pylori infection	幽门螺杆菌感染	消化系统
+acute gastric mucosal lesion	急性胃黏膜病变	消化系统
+intestinal metaplasia	肠上皮化生	消化系统
+gastric polyp	胃息肉	消化系统
+fundic gland polyp	胃底腺息肉	消化系统
+peptic ulcer	消化性溃疡	消化系统
+gastric ulcer	胃溃疡	消化系统
+duodenal ulcer	十二指肠溃疡	消化系统
+compound ulcer	复合性溃疡	消化系统
+refractory peptic ulcer	难治性溃疡	消化系统
+stress ulcer	应激性溃疡	消化系统
+Cushing ulcer	库欣溃疡；Cushing溃疡	消化系统
+Curling ulcer	柯林溃疡；Curling溃疡	消化系统
+Zollinger-Ellison syndrome	卓-艾综合征；胃泌素瘤综合征	消化系统
+pyloric obstruction	幽门梗阻	消化系统
+gastric outlet obstruction	胃出口梗阻	消化系统
+Dieulafoy lesion	Dieulafoy病；恒径动脉破裂出血	消化系统
+portal hypertensive gastropathy	门静脉高压性胃病	消化系统
+gastric antral vascular ectasia	胃窦血管扩张症（GAVE）	消化系统
+gastrointestinal bleeding	消化道出血	消化系统
+upper gastrointestinal bleeding	上消化道出血	消化系统
+lower gastrointestinal bleeding	下消化道出血	消化系统
+obscure gastrointestinal bleeding	不明原因消化道出血	消化系统
+small intestinal bleeding	小肠出血	消化系统
+angiodysplasia	血管发育不良	消化系统
+functional gastrointestinal disorder	功能性胃肠病	消化系统
+functional dyspepsia	功能性消化不良	消化系统
+postprandial distress syndrome	餐后不适综合征	消化系统
+epigastric pain syndrome	上腹痛综合征	消化系统
+gastroparesis	胃轻瘫	消化系统
+diabetic gastroparesis	糖尿病胃轻瘫	消化系统
+dumping syndrome	倾倒综合征	消化系统
+cyclic vomiting syndrome	周期性呕吐综合征	消化系统
+cannabinoid hyperemesis syndrome	大麻素剧吐综合征	消化系统
+rumination syndrome	反刍综合征	消化系统
+irritable bowel syndrome	肠易激综合征（IBS）	消化系统
+functional constipation	功能性便秘	消化系统
+functional diarrhea	功能性腹泻	消化系统
+functional abdominal bloating	功能性腹胀	消化系统
+centrally mediated abdominal pain syndrome	中枢介导的腹痛综合征	消化系统
+slow transit constipation	慢传输型便秘	消化系统
+opioid-induced constipation	阿片类药物引起的便秘	消化系统
+inflammatory bowel disease	炎症性肠病（IBD）	消化系统
+ulcerative colitis	溃疡性结肠炎（UC）	消化系统
+ulcerative proctitis	溃疡性直肠炎	消化系统
+Crohn's disease	克罗恩病	消化系统
+toxic megacolon	中毒性巨结肠	消化系统
+megacolon	巨结肠	消化系统
+microscopic colitis	显微镜下结肠炎	消化系统
+collagenous colitis	胶原性结肠炎	消化系统
+lymphocytic colitis	淋巴细胞性结肠炎	消化系统
+ischemic colitis	缺血性结肠炎	消化系统
+pseudomembranous colitis	假膜性结肠炎	消化系统
+Clostridioides difficile infection	艰难梭菌感染	消化系统
+antibiotic-associated diarrhea	抗生素相关性腹泻	消化系统
+radiation enteritis	放射性肠炎	消化系统
+radiation proctitis	放射性直肠炎	消化系统
+gastroenteritis	胃肠炎	消化系统
+acute gastroenteritis	急性胃肠炎	消化系统
+enteritis	肠炎	消化系统
+colitis	结肠炎	消化系统
+proctitis	直肠炎	消化系统
+solitary rectal ulcer syndrome	孤立性直肠溃疡综合征	消化系统
+melanosis coli	结肠黑变病	消化系统
+pneumatosis cystoides intestinalis	肠气囊肿症	消化系统
+intestinal tuberculosis	肠结核	消化系统
+tuberculous peritonitis	结核性腹膜炎	消化系统
+peritonitis	腹膜炎	消化系统
+spontaneous bacterial peritonitis	自发性细菌性腹膜炎（SBP）	消化系统
+celiac disease	乳糜泻	消化系统
+tropical sprue	热带口炎性腹泻	消化系统
+malabsorption syndrome	吸收不良综合征	消化系统
+small intestinal bacterial overgrowth	小肠细菌过度生长（SIBO）	消化系统
+short bowel syndrome	短肠综合征	消化系统
+lactose intolerance	乳糖不耐受	消化系统
+bile acid malabsorption	胆汁酸吸收不良	消化系统
+protein-losing enteropathy	蛋白丢失性胃肠病	消化系统
+Whipple's disease	惠普尔病；Whipple病	消化系统
+intestinal lymphangiectasia	肠淋巴管扩张症	消化系统
+eosinophilic gastroenteritis	嗜酸性粒细胞性胃肠炎	消化系统
+intestinal Behçet's disease	肠白塞病	消化系统
+paralytic ileus	麻痹性肠梗阻	消化系统
+intestinal pseudo-obstruction	假性肠梗阻	消化系统
+chronic intestinal pseudo-obstruction	慢性假性肠梗阻	消化系统
+acute colonic pseudo-obstruction	急性结肠假性梗阻；Ogilvie综合征	消化系统
+mesenteric ischemia	肠系膜缺血	消化系统
+acute mesenteric ischemia	急性肠系膜缺血	消化系统
+chronic mesenteric ischemia	慢性肠系膜缺血	消化系统
+mesenteric venous thrombosis	肠系膜静脉血栓形成	消化系统
+superior mesenteric artery syndrome	肠系膜上动脉综合征	消化系统
+diverticulosis	憩室病	消化系统
+diverticulitis	憩室炎	消化系统
+colonic diverticular bleeding	结肠憩室出血	消化系统
+colonic polyp	结肠息肉	消化系统
+adenomatous polyp	腺瘤性息肉	消化系统
+hyperplastic polyp	增生性息肉	消化系统
+inflammatory polyp	炎性息肉	消化系统
+sessile serrated lesion	无蒂锯齿状病变	消化系统
+familial adenomatous polyposis	家族性腺瘤性息肉病（FAP）	消化系统
+Peutz-Jeghers syndrome	波伊茨-耶格综合征；黑斑息肉综合征	消化系统
+hepatitis	肝炎	消化系统
+chronic hepatitis	慢性肝炎	消化系统
+autoimmune hepatitis	自身免疫性肝炎（AIH）	消化系统
+alcoholic liver disease	酒精性肝病	消化系统
+alcoholic fatty liver	酒精性脂肪肝	消化系统
+alcoholic hepatitis	酒精性肝炎	消化系统
+alcoholic cirrhosis	酒精性肝硬化	消化系统
+nonalcoholic fatty liver disease	非酒精性脂肪性肝病（NAFLD）	消化系统
+nonalcoholic steatohepatitis	非酒精性脂肪性肝炎（NASH）	消化系统
+metabolic dysfunction-associated steatotic liver disease	代谢功能障碍相关脂肪性肝病（MASLD）	消化系统
+metabolic dysfunction-associated steatohepatitis	代谢功能障碍相关脂肪性肝炎（MASH）	消化系统
+fatty liver	脂肪肝	消化系统
+hepatic steatosis	肝脂肪变性	消化系统
+drug-induced liver injury	药物性肝损伤（DILI）	消化系统
+toxic hepatitis	中毒性肝炎	消化系统
+ischemic hepatitis	缺血性肝炎	消化系统
+congestive hepatopathy	淤血性肝病	消化系统
+cardiac cirrhosis	心源性肝硬化	消化系统
+hepatic fibrosis	肝纤维化	消化系统
+liver cirrhosis	肝硬化	消化系统
+compensated cirrhosis	代偿期肝硬化	消化系统
+decompensated cirrhosis	失代偿期肝硬化	消化系统
+posthepatitic cirrhosis	肝炎后肝硬化	消化系统
+biliary cirrhosis	胆汁性肝硬化	消化系统
+primary biliary cholangitis	原发性胆汁性胆管炎（PBC）	消化系统
+primary biliary cirrhosis	原发性胆汁性肝硬化	消化系统
+primary sclerosing cholangitis	原发性硬化性胆管炎（PSC）	消化系统
+IgG4-related sclerosing cholangitis	IgG4相关硬化性胆管炎	消化系统
+autoimmune liver disease	自身免疫性肝病	消化系统
+overlap syndrome of autoimmune hepatitis and primary biliary cholangitis	自身免疫性肝炎-原发性胆汁性胆管炎重叠综合征	消化系统
+portal hypertension	门静脉高压；门脉高压	消化系统
+idiopathic portal hypertension	特发性门静脉高压	消化系统
+cirrhotic portal hypertension	肝硬化门静脉高压	消化系统
+hepatic encephalopathy	肝性脑病	消化系统
+minimal hepatic encephalopathy	轻微肝性脑病	消化系统
+hepatorenal syndrome	肝肾综合征	消化系统
+hepatopulmonary syndrome	肝肺综合征	消化系统
+portopulmonary hypertension	门脉性肺动脉高压	消化系统
+refractory ascites	难治性腹水	消化系统
+hepatic hydrothorax	肝性胸水；肝性胸腔积液	消化系统
+liver failure	肝衰竭	消化系统
+acute liver failure	急性肝衰竭	消化系统
+subacute liver failure	亚急性肝衰竭	消化系统
+acute-on-chronic liver failure	慢加急性肝衰竭（ACLF）	消化系统
+chronic liver failure	慢性肝衰竭	消化系统
+fulminant hepatitis	暴发性肝炎	消化系统
+hepatic veno-occlusive disease	肝小静脉闭塞病	消化系统
+sinusoidal obstruction syndrome	肝窦阻塞综合征	消化系统
+Budd-Chiari syndrome	布-加综合征；巴德-基亚里综合征	消化系统
+portal vein thrombosis	门静脉血栓形成	消化系统
+nodular regenerative hyperplasia	结节性再生性增生	消化系统
+focal nodular hyperplasia	局灶性结节性增生	消化系统
+liver abscess	肝脓肿	消化系统
+pyogenic liver abscess	细菌性肝脓肿；化脓性肝脓肿	消化系统
+hepatic cyst	肝囊肿	消化系统
+polycystic liver disease	多囊肝病	消化系统
+Gilbert syndrome	吉尔伯特综合征；Gilbert综合征	消化系统
+Crigler-Najjar syndrome	Crigler-Najjar综合征	消化系统
+Dubin-Johnson syndrome	Dubin-Johnson综合征	消化系统
+Rotor syndrome	Rotor综合征	消化系统
+cholestasis	胆汁淤积	消化系统
+intrahepatic cholestasis	肝内胆汁淤积	消化系统
+extrahepatic cholestasis	肝外胆汁淤积	消化系统
+cholelithiasis	胆石症	消化系统
+gallbladder stone	胆囊结石	消化系统
+choledocholithiasis	胆总管结石	消化系统
+hepatolithiasis	肝内胆管结石	消化系统
+biliary sludge	胆泥	消化系统
+cholecystitis	胆囊炎	消化系统
+acute cholecystitis	急性胆囊炎	消化系统
+chronic cholecystitis	慢性胆囊炎	消化系统
+acalculous cholecystitis	非结石性胆囊炎	消化系统
+cholangitis	胆管炎	消化系统
+acute cholangitis	急性胆管炎	消化系统
+acute obstructive suppurative cholangitis	急性梗阻性化脓性胆管炎	消化系统
+gallbladder polyp	胆囊息肉	消化系统
+gallbladder adenomyomatosis	胆囊腺肌症	消化系统
+porcelain gallbladder	瓷化胆囊	消化系统
+biliary colic	胆绞痛	消化系统
+sphincter of Oddi dysfunction	Oddi括约肌功能障碍	消化系统
+biliary stricture	胆管狭窄	消化系统
+pancreatitis	胰腺炎	消化系统
+acute pancreatitis	急性胰腺炎	消化系统
+mild acute pancreatitis	轻症急性胰腺炎	消化系统
+moderately severe acute pancreatitis	中度重症急性胰腺炎	消化系统
+severe acute pancreatitis	重症急性胰腺炎（SAP）	消化系统
+acute necrotizing pancreatitis	急性坏死性胰腺炎	消化系统
+interstitial edematous pancreatitis	间质水肿性胰腺炎	消化系统
+biliary pancreatitis	胆源性胰腺炎	消化系统
+alcoholic pancreatitis	酒精性胰腺炎	消化系统
+hypertriglyceridemia-induced pancreatitis	高甘油三酯血症性胰腺炎	消化系统
+post-ERCP pancreatitis	ERCP术后胰腺炎	消化系统
+chronic pancreatitis	慢性胰腺炎	消化系统
+autoimmune pancreatitis	自身免疫性胰腺炎	消化系统
+pancreatic pseudocyst	胰腺假性囊肿	消化系统
+walled-off necrosis	包裹性坏死	消化系统
+infected pancreatic necrosis	感染性胰腺坏死	消化系统
+pancreatic ascites	胰源性腹水	消化系统
+exocrine pancreatic insufficiency	胰腺外分泌功能不全	消化系统
+pancreatic diabetes	胰源性糖尿病	消化系统
+pancreas divisum	胰腺分裂	消化系统
+chylous ascites	乳糜性腹水	消化系统
+abdominal compartment syndrome	腹腔间隔室综合征	消化系统
+acute kidney injury	急性肾损伤（AKI）	肾脏病
+acute renal failure	急性肾衰竭	肾脏病
+chronic kidney disease	慢性肾脏病（CKD）	肾脏病
+chronic renal failure	慢性肾衰竭	肾脏病
+renal failure	肾衰竭；肾功能衰竭	肾脏病
+renal insufficiency	肾功能不全	肾脏病
+end-stage renal disease	终末期肾病（ESRD）	肾脏病
+uremia	尿毒症	肾脏病
+azotemia	氮质血症	肾脏病
+prerenal azotemia	肾前性氮质血症	肾脏病
+postrenal acute kidney injury	肾后性急性肾损伤	肾脏病
+acute tubular necrosis	急性肾小管坏死（ATN）	肾脏病
+contrast-induced nephropathy	造影剂肾病；对比剂肾病	肾脏病
+drug-induced kidney injury	药物性肾损伤	肾脏病
+rhabdomyolysis	横纹肌溶解症	肾脏病
+glomerular disease	肾小球疾病	肾脏病
+glomerulonephritis	肾小球肾炎	肾脏病
+acute glomerulonephritis	急性肾小球肾炎	肾脏病
+poststreptococcal glomerulonephritis	链球菌感染后肾小球肾炎	肾脏病
+rapidly progressive glomerulonephritis	急进性肾小球肾炎（RPGN）	肾脏病
+chronic glomerulonephritis	慢性肾小球肾炎	肾脏病
+crescentic glomerulonephritis	新月体性肾小球肾炎	肾脏病
+anti-glomerular basement membrane disease	抗肾小球基底膜病	肾脏病
+Goodpasture syndrome	肺出血-肾炎综合征；Goodpasture综合征	肾脏病
+ANCA-associated glomerulonephritis	ANCA相关性肾小球肾炎	肾脏病
+nephrotic syndrome	肾病综合征	肾脏病
+primary nephrotic syndrome	原发性肾病综合征	肾脏病
+steroid-resistant nephrotic syndrome	激素抵抗型肾病综合征	肾脏病
+nephritic syndrome	肾炎综合征	肾脏病
+minimal change disease	微小病变肾病	肾脏病
+focal segmental glomerulosclerosis	局灶节段性肾小球硬化（FSGS）	肾脏病
+membranous nephropathy	膜性肾病	肾脏病
+membranoproliferative glomerulonephritis	膜增生性肾小球肾炎（MPGN）	肾脏病
+mesangial proliferative glomerulonephritis	系膜增生性肾小球肾炎	肾脏病
+IgA nephropathy	IgA肾病	肾脏病
+IgA vasculitis nephritis	IgA血管炎肾炎；过敏性紫癜性肾炎	肾脏病
+Henoch-Schönlein purpura nephritis	过敏性紫癜性肾炎	肾脏病
+lupus nephritis	狼疮性肾炎	肾脏病
+diabetic nephropathy	糖尿病肾病	肾脏病
+diabetic kidney disease	糖尿病肾脏病（DKD）	肾脏病
+hypertensive nephropathy	高血压肾病	肾脏病
+benign nephrosclerosis	良性小动脉性肾硬化	肾脏病
+malignant nephrosclerosis	恶性小动脉性肾硬化	肾脏病
+C3 glomerulopathy	C3肾小球病	肾脏病
+fibrillary glomerulonephritis	纤维样肾小球肾炎	肾脏病
+Alport syndrome	Alport综合征；奥尔波特综合征	肾脏病
+thin basement membrane nephropathy	薄基底膜肾病	肾脏病
+hereditary nephritis	遗传性肾炎	肾脏病
+renal amyloidosis	肾淀粉样变性	肾脏病
+myeloma kidney	骨髓瘤肾病	肾脏病
+light chain deposition disease	轻链沉积病	肾脏病
+monoclonal gammopathy of renal significance	具有肾脏意义的单克隆免疫球蛋白血症（MGRS）	肾脏病
+hepatitis B virus-associated glomerulonephritis	乙型肝炎病毒相关性肾炎	肾脏病
+HIV-associated nephropathy	HIV相关性肾病	肾脏病
+obesity-related glomerulopathy	肥胖相关性肾小球病	肾脏病
+interstitial nephritis	间质性肾炎	肾脏病
+acute interstitial nephritis	急性间质性肾炎	肾脏病
+chronic interstitial nephritis	慢性间质性肾炎	肾脏病
+tubulointerstitial nephritis	肾小管间质性肾炎	肾脏病
+tubulointerstitial nephritis and uveitis syndrome	肾小管间质性肾炎-葡萄膜炎综合征（TINU）	肾脏病
+analgesic nephropathy	镇痛药肾病	肾脏病
+aristolochic acid nephropathy	马兜铃酸肾病	肾脏病
+uric acid nephropathy	尿酸性肾病	肾脏病
+gouty nephropathy	痛风性肾病	肾脏病
+reflux nephropathy	反流性肾病	肾脏病
+obstructive nephropathy	梗阻性肾病	肾脏病
+renal papillary necrosis	肾乳头坏死	肾脏病
+renal tubular acidosis	肾小管酸中毒（RTA）	肾脏病
+distal renal tubular acidosis	远端肾小管酸中毒	肾脏病
+proximal renal tubular acidosis	近端肾小管酸中毒	肾脏病
+Fanconi syndrome	范科尼综合征；Fanconi综合征	肾脏病
+Bartter syndrome	Bartter综合征	肾脏病
+Gitelman syndrome	Gitelman综合征	肾脏病
+Liddle syndrome	Liddle综合征	肾脏病
+nephrogenic diabetes insipidus	肾性尿崩症	肾脏病
+renal glycosuria	肾性糖尿	肾脏病
+hypercalciuria	高钙尿症	肾脏病
+hyperoxaluria	高草酸尿症	肾脏病
+cystinuria	胱氨酸尿症	肾脏病
+urinary tract infection	尿路感染（UTI）	肾脏病
+upper urinary tract infection	上尿路感染	肾脏病
+lower urinary tract infection	下尿路感染	肾脏病
+complicated urinary tract infection	复杂性尿路感染	肾脏病
+recurrent urinary tract infection	复发性尿路感染	肾脏病
+catheter-associated urinary tract infection	导管相关性尿路感染	肾脏病
+pyelonephritis	肾盂肾炎	肾脏病
+acute pyelonephritis	急性肾盂肾炎	肾脏病
+chronic pyelonephritis	慢性肾盂肾炎	肾脏病
+emphysematous pyelonephritis	气肿性肾盂肾炎	肾脏病
+cystitis	膀胱炎	肾脏病
+acute cystitis	急性膀胱炎	肾脏病
+urethral syndrome	尿道综合征	肾脏病
+asymptomatic bacteriuria	无症状细菌尿	肾脏病
+renal tuberculosis	肾结核	肾脏病
+renal abscess	肾脓肿	肾脏病
+perinephric abscess	肾周脓肿	肾脏病
+polycystic kidney disease	多囊肾病	肾脏病
+autosomal dominant polycystic kidney disease	常染色体显性多囊肾病（ADPKD）	肾脏病
+autosomal recessive polycystic kidney disease	常染色体隐性多囊肾病（ARPKD）	肾脏病
+medullary sponge kidney	髓质海绵肾	肾脏病
+renal cyst	肾囊肿	肾脏病
+acquired cystic kidney disease	获得性肾囊肿病	肾脏病
+nephrolithiasis	肾结石	肾脏病
+urolithiasis	尿石症	肾脏病
+renal colic	肾绞痛	肾脏病
+hydronephrosis	肾积水	肾脏病
+renal artery stenosis	肾动脉狭窄	肾脏病
+renal vein thrombosis	肾静脉血栓形成	肾脏病
+renal infarction	肾梗死	肾脏病
+atheroembolic renal disease	动脉粥样硬化栓塞性肾病	肾脏病
+ischemic nephropathy	缺血性肾病	肾脏病
+renal parenchymal hypertension	肾实质性高血压	肾脏病
+nutcracker syndrome	胡桃夹综合征；左肾静脉压迫综合征	肾脏病
+hemolytic uremic syndrome	溶血尿毒症综合征（HUS）	肾脏病
+atypical hemolytic uremic syndrome	非典型溶血尿毒症综合征（aHUS）	肾脏病
+renal anemia	肾性贫血	肾脏病
+renal osteodystrophy	肾性骨营养不良	肾脏病
+chronic kidney disease-mineral and bone disorder	慢性肾脏病矿物质和骨异常（CKD-MBD）	肾脏病
+uremic pericarditis	尿毒症性心包炎	肾脏病
+uremic encephalopathy	尿毒症脑病	肾脏病
+uremic pruritus	尿毒症瘙痒	肾脏病
+calciphylaxis	钙化防御	肾脏病
+dialysis disequilibrium syndrome	透析失衡综合征	肾脏病
+dialysis-related amyloidosis	透析相关性淀粉样变	肾脏病
+peritoneal dialysis-associated peritonitis	腹膜透析相关腹膜炎	肾脏病
+renal transplant rejection	肾移植排斥反应	肾脏病
+orthostatic proteinuria	直立性蛋白尿	肾脏病
+isolated hematuria	单纯性血尿	肾脏病
+asymptomatic hematuria and proteinuria	无症状性血尿和蛋白尿	肾脏病
+cardiorenal anemia syndrome	心肾贫血综合征	肾脏病
+diabetes mellitus	糖尿病	内分泌与代谢
+type 1 diabetes mellitus	1型糖尿病（T1DM）	内分泌与代谢
+type 2 diabetes mellitus	2型糖尿病（T2DM）	内分泌与代谢
+fulminant type 1 diabetes mellitus	暴发性1型糖尿病	内分泌与代谢
+latent autoimmune diabetes in adults	成人隐匿性自身免疫性糖尿病（LADA）	内分泌与代谢
+maturity-onset diabetes of the young	青少年发病的成人型糖尿病（MODY）	内分泌与代谢
+mitochondrial diabetes	线粒体糖尿病	内分泌与代谢
+steroid-induced diabetes	类固醇性糖尿病	内分泌与代谢
+brittle diabetes	脆性糖尿病	内分泌与代谢
+prediabetes	糖尿病前期	内分泌与代谢
+impaired fasting glucose	空腹血糖受损（IFG）	内分泌与代谢
+impaired glucose tolerance	糖耐量减低；糖耐量受损（IGT）	内分泌与代谢
+diabetic ketoacidosis	糖尿病酮症酸中毒（DKA）	内分泌与代谢
+diabetic ketosis	糖尿病酮症	内分泌与代谢
+hyperosmolar hyperglycemic state	高渗高血糖综合征（HHS）	内分泌与代谢
+hyperosmolar hyperglycemic nonketotic coma	高渗性非酮症高血糖昏迷	内分泌与代谢
+lactic acidosis	乳酸性酸中毒	内分泌与代谢
+hypoglycemia	低血糖症；低血糖	内分泌与代谢
+hypoglycemic coma	低血糖昏迷	内分泌与代谢
+hypoglycemia unawareness	无感知性低血糖	内分泌与代谢
+reactive hypoglycemia	反应性低血糖	内分泌与代谢
+insulin autoimmune syndrome	胰岛素自身免疫综合征	内分泌与代谢
+insulin resistance	胰岛素抵抗	内分泌与代谢
+metabolic syndrome	代谢综合征	内分泌与代谢
+diabetic neuropathy	糖尿病神经病变	内分泌与代谢
+diabetic peripheral neuropathy	糖尿病周围神经病变	内分泌与代谢
+diabetic autonomic neuropathy	糖尿病自主神经病变	内分泌与代谢
+diabetic amyotrophy	糖尿病性肌萎缩	内分泌与代谢
+diabetic foot	糖尿病足	内分泌与代谢
+diabetic foot ulcer	糖尿病足溃疡	内分泌与代谢
+diabetic macroangiopathy	糖尿病大血管病变	内分泌与代谢
+diabetic microangiopathy	糖尿病微血管病变	内分泌与代谢
+diabetic dermopathy	糖尿病皮肤病	内分泌与代谢
+Somogyi effect	苏木杰效应；Somogyi现象	内分泌与代谢
+dawn phenomenon	黎明现象	内分泌与代谢
+obesity	肥胖症	内分泌与代谢
+abdominal obesity	腹型肥胖；中心性肥胖	内分泌与代谢
+simple obesity	单纯性肥胖	内分泌与代谢
+secondary obesity	继发性肥胖	内分泌与代谢
+overweight	超重	内分泌与代谢
+lipodystrophy	脂肪营养不良	内分泌与代谢
+dyslipidemia	血脂异常	内分泌与代谢
+hyperlipidemia	高脂血症	内分泌与代谢
+hyperlipoproteinemia	高脂蛋白血症	内分泌与代谢
+hypercholesterolemia	高胆固醇血症	内分泌与代谢
+familial hypercholesterolemia	家族性高胆固醇血症	内分泌与代谢
+hypertriglyceridemia	高甘油三酯血症	内分泌与代谢
+familial hypertriglyceridemia	家族性高甘油三酯血症	内分泌与代谢
+mixed hyperlipidemia	混合型高脂血症	内分泌与代谢
+familial combined hyperlipidemia	家族性混合型高脂血症	内分泌与代谢
+lipoprotein lipase deficiency	脂蛋白脂酶缺乏症	内分泌与代谢
+abetalipoproteinemia	无β脂蛋白血症	内分泌与代谢
+hyperuricemia	高尿酸血症	内分泌与代谢
+hyperthyroidism	甲状腺功能亢进症；甲亢	内分泌与代谢
+thyrotoxicosis	甲状腺毒症	内分泌与代谢
+Graves' disease	格雷夫斯病；毒性弥漫性甲状腺肿	内分泌与代谢
+toxic multinodular goiter	毒性多结节性甲状腺肿	内分泌与代谢
+toxic thyroid adenoma	毒性甲状腺腺瘤；高功能腺瘤	内分泌与代谢
+apathetic hyperthyroidism	淡漠型甲状腺功能亢进症	内分泌与代谢
+T3 thyrotoxicosis	T3型甲状腺毒症	内分泌与代谢
+iodine-induced hyperthyroidism	碘致甲状腺功能亢进症	内分泌与代谢
+amiodarone-induced thyrotoxicosis	胺碘酮所致甲状腺毒症	内分泌与代谢
+subclinical hyperthyroidism	亚临床甲状腺功能亢进症	内分泌与代谢
+thyroid storm	甲状腺危象	内分泌与代谢
+thyrotoxic periodic paralysis	甲状腺毒症性周期性瘫痪	内分泌与代谢
+Graves' ophthalmopathy	Graves眼病；甲状腺相关眼病	内分泌与代谢
+hypothyroidism	甲状腺功能减退症；甲减	内分泌与代谢
+primary hypothyroidism	原发性甲状腺功能减退症	内分泌与代谢
+central hypothyroidism	中枢性甲状腺功能减退症	内分泌与代谢
+subclinical hypothyroidism	亚临床甲状腺功能减退症	内分泌与代谢
+myxedema	黏液性水肿	内分泌与代谢
+myxedema coma	黏液性水肿昏迷	内分泌与代谢
+cretinism	呆小病；克汀病	内分泌与代谢
+thyroiditis	甲状腺炎	内分泌与代谢
+Hashimoto's thyroiditis	桥本甲状腺炎；慢性淋巴细胞性甲状腺炎	内分泌与代谢
+autoimmune thyroiditis	自身免疫性甲状腺炎	内分泌与代谢
+subacute thyroiditis	亚急性甲状腺炎	内分泌与代谢
+painless thyroiditis	无痛性甲状腺炎	内分泌与代谢
+postpartum thyroiditis	产后甲状腺炎	内分泌与代谢
+acute suppurative thyroiditis	急性化脓性甲状腺炎	内分泌与代谢
+Riedel's thyroiditis	Riedel甲状腺炎；慢性纤维性甲状腺炎	内分泌与代谢
+goiter	甲状腺肿	内分泌与代谢
+simple goiter	单纯性甲状腺肿	内分泌与代谢
+endemic goiter	地方性甲状腺肿	内分泌与代谢
+nodular goiter	结节性甲状腺肿	内分泌与代谢
+thyroid nodule	甲状腺结节	内分泌与代谢
+euthyroid sick syndrome	甲状腺功能正常病态综合征	内分泌与代谢
+nonthyroidal illness syndrome	非甲状腺疾病综合征	内分泌与代谢
+thyroid hormone resistance syndrome	甲状腺激素抵抗综合征	内分泌与代谢
+iodine deficiency disorder	碘缺乏病	内分泌与代谢
+hypopituitarism	腺垂体功能减退症；垂体功能减退症	内分泌与代谢
+Sheehan syndrome	希恩综合征；Sheehan综合征	内分泌与代谢
+pituitary apoplexy	垂体卒中	内分泌与代谢
+hypophysitis	垂体炎	内分泌与代谢
+lymphocytic hypophysitis	淋巴细胞性垂体炎	内分泌与代谢
+empty sella syndrome	空泡蝶鞍综合征	内分泌与代谢
+hyperprolactinemia	高催乳素血症；高泌乳素血症	内分泌与代谢
+acromegaly	肢端肥大症	内分泌与代谢
+gigantism	巨人症	内分泌与代谢
+growth hormone deficiency	生长激素缺乏症	内分泌与代谢
+adult growth hormone deficiency	成人生长激素缺乏症	内分泌与代谢
+diabetes insipidus	尿崩症	内分泌与代谢
+central diabetes insipidus	中枢性尿崩症	内分泌与代谢
+arginine vasopressin deficiency	精氨酸加压素缺乏症	内分泌与代谢
+syndrome of inappropriate antidiuretic hormone secretion	抗利尿激素分泌失调综合征（SIADH）	内分泌与代谢
+Cushing's syndrome	库欣综合征；皮质醇增多症	内分泌与代谢
+Cushing's disease	库欣病	内分泌与代谢
+ectopic ACTH syndrome	异位ACTH综合征	内分泌与代谢
+subclinical Cushing's syndrome	亚临床库欣综合征	内分泌与代谢
+pseudo-Cushing syndrome	假性库欣综合征	内分泌与代谢
+Nelson syndrome	Nelson综合征；纳尔逊综合征	内分泌与代谢
+adrenal insufficiency	肾上腺皮质功能减退症	内分泌与代谢
+primary adrenal insufficiency	原发性肾上腺皮质功能减退症	内分泌与代谢
+secondary adrenal insufficiency	继发性肾上腺皮质功能减退症	内分泌与代谢
+Addison's disease	艾迪生病；Addison病	内分泌与代谢
+adrenal crisis	肾上腺危象	内分泌与代谢
+primary aldosteronism	原发性醛固酮增多症	内分泌与代谢
+hyperaldosteronism	醛固酮增多症	内分泌与代谢
+secondary aldosteronism	继发性醛固酮增多症	内分泌与代谢
+aldosterone-producing adenoma	醛固酮瘤；分泌醛固酮的腺瘤	内分泌与代谢
+idiopathic hyperaldosteronism	特发性醛固酮增多症	内分泌与代谢
+glucocorticoid-remediable aldosteronism	糖皮质激素可抑制性醛固酮增多症	内分泌与代谢
+hypoaldosteronism	醛固酮减少症	内分泌与代谢
+hyporeninemic hypoaldosteronism	低肾素性醛固酮减少症	内分泌与代谢
+apparent mineralocorticoid excess	表观盐皮质激素过多综合征	内分泌与代谢
+pheochromocytoma	嗜铬细胞瘤	内分泌与代谢
+adrenal incidentaloma	肾上腺意外瘤	内分泌与代谢
+congenital adrenal hyperplasia	先天性肾上腺皮质增生症（CAH）	内分泌与代谢
+21-hydroxylase deficiency	21-羟化酶缺乏症	内分泌与代谢
+hyperparathyroidism	甲状旁腺功能亢进症	内分泌与代谢
+primary hyperparathyroidism	原发性甲状旁腺功能亢进症	内分泌与代谢
+secondary hyperparathyroidism	继发性甲状旁腺功能亢进症	内分泌与代谢
+tertiary hyperparathyroidism	三发性甲状旁腺功能亢进症	内分泌与代谢
+hypoparathyroidism	甲状旁腺功能减退症	内分泌与代谢
+pseudohypoparathyroidism	假性甲状旁腺功能减退症	内分泌与代谢
+hypercalcemic crisis	高钙危象	内分泌与代谢
+familial hypocalciuric hypercalcemia	家族性低尿钙性高钙血症	内分泌与代谢
+multiple endocrine neoplasia	多发性内分泌腺瘤病（MEN）	内分泌与代谢
+autoimmune polyglandular syndrome	自身免疫性多内分泌腺病综合征	内分泌与代谢
+hypogonadism	性腺功能减退症	内分泌与代谢
+male hypogonadism	男性性腺功能减退症	内分泌与代谢
+hypogonadotropic hypogonadism	低促性腺激素性性腺功能减退症	内分泌与代谢
+late-onset hypogonadism	迟发性性腺功能减退症	内分泌与代谢
+Klinefelter syndrome	克兰费尔特综合征；Klinefelter综合征	内分泌与代谢
+Turner syndrome	特纳综合征；Turner综合征	内分泌与代谢
+Kallmann syndrome	卡尔曼综合征；Kallmann综合征	内分泌与代谢
+porphyria	卟啉病	内分泌与代谢
+acute intermittent porphyria	急性间歇性卟啉病	内分泌与代谢
+porphyria cutanea tarda	迟发性皮肤卟啉病	内分泌与代谢
+erythropoietic protoporphyria	红细胞生成性原卟啉病	内分泌与代谢
+hemochromatosis	血色病；血色素沉着症	内分泌与代谢
+hereditary hemochromatosis	遗传性血色病	内分泌与代谢
+Wilson's disease	肝豆状核变性；威尔逊病	内分泌与代谢
+glycogen storage disease	糖原贮积症	内分泌与代谢
+lysosomal storage disease	溶酶体贮积症	内分泌与代谢
+Gaucher disease	戈谢病	内分泌与代谢
+Fabry disease	法布里病	内分泌与代谢
+Niemann-Pick disease	尼曼-皮克病	内分泌与代谢
+Pompe disease	庞贝病	内分泌与代谢
+mucopolysaccharidosis	黏多糖贮积症	内分泌与代谢
+phenylketonuria	苯丙酮尿症	内分泌与代谢
+homocystinuria	同型胱氨酸尿症	内分泌与代谢
+hyperhomocysteinemia	高同型半胱氨酸血症	内分泌与代谢
+alkaptonuria	尿黑酸尿症	内分泌与代谢
+Lesch-Nyhan syndrome	莱施-奈恩综合征；Lesch-Nyhan综合征	内分泌与代谢
+hypophosphatasia	低磷酸酯酶症	内分泌与代谢
+inborn error of metabolism	先天性代谢缺陷	内分泌与代谢
+malnutrition	营养不良	内分泌与代谢
+protein-energy malnutrition	蛋白质-能量营养不良	内分泌与代谢
+kwashiorkor	恶性营养不良；夸希奥科	内分泌与代谢
+marasmus	消瘦型营养不良	内分泌与代谢
+refeeding syndrome	再喂养综合征；再进食综合征	内分泌与代谢
+vitamin deficiency	维生素缺乏症	内分泌与代谢
+vitamin A deficiency	维生素A缺乏症	内分泌与代谢
+thiamine deficiency	硫胺素缺乏症；维生素B1缺乏症	内分泌与代谢
+beriberi	脚气病	内分泌与代谢
+riboflavin deficiency	核黄素缺乏症；维生素B2缺乏症	内分泌与代谢
+pellagra	糙皮病；烟酸缺乏症	内分泌与代谢
+vitamin B6 deficiency	维生素B6缺乏症	内分泌与代谢
+vitamin B12 deficiency	维生素B12缺乏症	内分泌与代谢
+folate deficiency	叶酸缺乏症	内分泌与代谢
+scurvy	坏血病；维生素C缺乏症	内分泌与代谢
+vitamin D deficiency	维生素D缺乏症	内分泌与代谢
+vitamin E deficiency	维生素E缺乏症	内分泌与代谢
+vitamin K deficiency	维生素K缺乏症	内分泌与代谢
+hypervitaminosis A	维生素A过多症；维生素A中毒	内分泌与代谢
+hypervitaminosis D	维生素D过多症；维生素D中毒	内分泌与代谢
+zinc deficiency	锌缺乏症	内分泌与代谢
+osteoporosis	骨质疏松症	内分泌与代谢
+primary osteoporosis	原发性骨质疏松症	内分泌与代谢
+secondary osteoporosis	继发性骨质疏松症	内分泌与代谢
+postmenopausal osteoporosis	绝经后骨质疏松症	内分泌与代谢
+glucocorticoid-induced osteoporosis	糖皮质激素性骨质疏松症	内分泌与代谢
+osteopenia	骨量减少；低骨量	内分泌与代谢
+osteomalacia	骨软化症	内分泌与代谢
+tumor-induced osteomalacia	肿瘤性骨软化症	内分泌与代谢
+Paget's disease of bone	变形性骨炎；Paget骨病	内分泌与代谢
+metabolic bone disease	代谢性骨病	内分泌与代谢
+electrolyte disturbance	电解质紊乱	内分泌与代谢
+hyponatremia	低钠血症	内分泌与代谢
+hypernatremia	高钠血症	内分泌与代谢
+pseudohyponatremia	假性低钠血症	内分泌与代谢
+cerebral salt wasting syndrome	脑性盐耗综合征	内分泌与代谢
+hypokalemia	低钾血症	内分泌与代谢
+hyperkalemia	高钾血症	内分泌与代谢
+pseudohyperkalemia	假性高钾血症	内分泌与代谢
+hypocalcemia	低钙血症	内分泌与代谢
+hypercalcemia	高钙血症	内分泌与代谢
+hypomagnesemia	低镁血症	内分泌与代谢
+hypermagnesemia	高镁血症	内分泌与代谢
+hypophosphatemia	低磷血症	内分泌与代谢
+hyperphosphatemia	高磷血症	内分泌与代谢
+hypochloremia	低氯血症	内分泌与代谢
+hyperchloremia	高氯血症	内分泌与代谢
+milk-alkali syndrome	乳碱综合征	内分泌与代谢
+dehydration	脱水	内分泌与代谢
+hypertonic dehydration	高渗性脱水	内分泌与代谢
+hypotonic dehydration	低渗性脱水	内分泌与代谢
+isotonic dehydration	等渗性脱水	内分泌与代谢
+water intoxication	水中毒	内分泌与代谢
+hypervolemia	高血容量；容量负荷过重	内分泌与代谢
+hypovolemia	低血容量	内分泌与代谢
+acid-base disorder	酸碱平衡紊乱	内分泌与代谢
+metabolic acidosis	代谢性酸中毒	内分泌与代谢
+metabolic alkalosis	代谢性碱中毒	内分泌与代谢
+respiratory acidosis	呼吸性酸中毒	内分泌与代谢
+respiratory alkalosis	呼吸性碱中毒	内分泌与代谢
+mixed acid-base disorder	混合型酸碱平衡紊乱	内分泌与代谢
+high anion gap metabolic acidosis	高阴离子间隙代谢性酸中毒	内分泌与代谢
+hyperchloremic metabolic acidosis	高氯性代谢性酸中毒	内分泌与代谢
+ketoacidosis	酮症酸中毒	内分泌与代谢
+alcoholic ketoacidosis	酒精性酮症酸中毒	内分泌与代谢
+starvation ketoacidosis	饥饿性酮症酸中毒	内分泌与代谢
+anemia	贫血	血液病
+iron deficiency	铁缺乏症；缺铁	血液病
+iron deficiency anemia	缺铁性贫血	血液病
+megaloblastic anemia	巨幼细胞贫血	血液病
+pernicious anemia	恶性贫血	血液病
+aplastic anemia	再生障碍性贫血	血液病
+severe aplastic anemia	重型再生障碍性贫血	血液病
+pure red cell aplasia	纯红细胞再生障碍	血液病
+Fanconi anemia	范科尼贫血	血液病
+congenital dyserythropoietic anemia	先天性红细胞生成异常性贫血	血液病
+hemolytic anemia	溶血性贫血	血液病
+autoimmune hemolytic anemia	自身免疫性溶血性贫血（AIHA）	血液病
+warm autoimmune hemolytic anemia	温抗体型自身免疫性溶血性贫血	血液病
+cold agglutinin disease	冷凝集素病	血液病
+paroxysmal cold hemoglobinuria	阵发性冷性血红蛋白尿症	血液病
+paroxysmal nocturnal hemoglobinuria	阵发性睡眠性血红蛋白尿症（PNH）	血液病
+march hemoglobinuria	行军性血红蛋白尿	血液病
+drug-induced hemolytic anemia	药物性溶血性贫血	血液病
+microangiopathic hemolytic anemia	微血管病性溶血性贫血	血液病
+Evans syndrome	Evans综合征	血液病
+hereditary spherocytosis	遗传性球形红细胞增多症	血液病
+hereditary elliptocytosis	遗传性椭圆形红细胞增多症	血液病
+hereditary stomatocytosis	遗传性口形红细胞增多症	血液病
+glucose-6-phosphate dehydrogenase deficiency	葡萄糖-6-磷酸脱氢酶缺乏症（G6PD缺乏症）	血液病
+favism	蚕豆病	血液病
+pyruvate kinase deficiency	丙酮酸激酶缺乏症	血液病
+hemoglobinopathy	血红蛋白病	血液病
+thalassemia	地中海贫血；珠蛋白生成障碍性贫血	血液病
+alpha thalassemia	α地中海贫血	血液病
+beta thalassemia	β地中海贫血	血液病
+thalassemia major	重型地中海贫血	血液病
+thalassemia intermedia	中间型地中海贫血	血液病
+thalassemia minor	轻型地中海贫血	血液病
+hemoglobin H disease	血红蛋白H病	血液病
+sickle cell disease	镰状细胞病	血液病
+sickle cell anemia	镰状细胞贫血	血液病
+unstable hemoglobin disease	不稳定血红蛋白病	血液病
+methemoglobinemia	高铁血红蛋白血症	血液病
+sideroblastic anemia	铁粒幼细胞贫血	血液病
+anemia of chronic disease	慢性病贫血	血液病
+macrocytic anemia	大细胞性贫血	血液病
+microcytic hypochromic anemia	小细胞低色素性贫血	血液病
+normocytic anemia	正细胞性贫血	血液病
+hemolytic crisis	溶血危象	血液病
+aplastic crisis	再生障碍危象	血液病
+iron overload	铁过载	血液病
+transfusion reaction	输血反应	血液病
+hemolytic transfusion reaction	溶血性输血反应	血液病
+febrile non-hemolytic transfusion reaction	非溶血性发热性输血反应	血液病
+transfusion-related acute lung injury	输血相关急性肺损伤（TRALI）	血液病
+transfusion-associated circulatory overload	输血相关循环超负荷（TACO）	血液病
+transfusion-associated graft-versus-host disease	输血相关移植物抗宿主病	血液病
+polycythemia	红细胞增多症	血液病
+polycythemia vera	真性红细胞增多症	血液病
+secondary polycythemia	继发性红细胞增多症	血液病
+relative polycythemia	相对性红细胞增多症	血液病
+essential thrombocythemia	原发性血小板增多症	血液病
+primary myelofibrosis	原发性骨髓纤维化	血液病
+myelofibrosis	骨髓纤维化	血液病
+myeloproliferative neoplasm	骨髓增殖性肿瘤（MPN）	血液病
+myelodysplastic syndrome	骨髓增生异常综合征（MDS）	血液病
+myelodysplastic/myeloproliferative neoplasm	骨髓增生异常/骨髓增殖性肿瘤	血液病
+leukopenia	白细胞减少症	血液病
+neutropenia	中性粒细胞减少症	血液病
+agranulocytosis	粒细胞缺乏症	血液病
+febrile neutropenia	粒细胞缺乏伴发热；发热性中性粒细胞减少症	血液病
+cyclic neutropenia	周期性中性粒细胞减少症	血液病
+leukocytosis	白细胞增多症	血液病
+neutrophilia	中性粒细胞增多症	血液病
+lymphocytosis	淋巴细胞增多症	血液病
+lymphopenia	淋巴细胞减少症	血液病
+monocytosis	单核细胞增多症	血液病
+eosinophilia	嗜酸性粒细胞增多症	血液病
+hypereosinophilic syndrome	高嗜酸性粒细胞综合征	血液病
+leukemoid reaction	类白血病反应	血液病
+leukoerythroblastic reaction	幼白-幼红细胞反应	血液病
+pancytopenia	全血细胞减少症	血液病
+thrombocytopenia	血小板减少症	血液病
+immune thrombocytopenia	免疫性血小板减少症（ITP）	血液病
+idiopathic thrombocytopenic purpura	特发性血小板减少性紫癜	血液病
+thrombotic thrombocytopenic purpura	血栓性血小板减少性紫癜（TTP）	血液病
+heparin-induced thrombocytopenia	肝素诱导的血小板减少症（HIT）	血液病
+pseudothrombocytopenia	假性血小板减少症	血液病
+thrombocytosis	血小板增多症	血液病
+reactive thrombocytosis	反应性血小板增多症	血液病
+platelet function disorder	血小板功能障碍	血液病
+Bernard-Soulier syndrome	巨大血小板综合征；Bernard-Soulier综合征	血液病
+Glanzmann thrombasthenia	血小板无力症；Glanzmann血小板无力症	血液病
+thrombotic microangiopathy	血栓性微血管病（TMA）	血液病
+disseminated intravascular coagulation	弥散性血管内凝血（DIC）	血液病
+coagulopathy	凝血病	血液病
+hyperfibrinolysis	纤溶亢进	血液病
+hemophilia	血友病	血液病
+hemophilia A	血友病A；甲型血友病	血液病
+hemophilia B	血友病B；乙型血友病	血液病
+acquired hemophilia	获得性血友病	血液病
+von Willebrand disease	血管性血友病	血液病
+coagulation factor deficiency	凝血因子缺乏症	血液病
+afibrinogenemia	无纤维蛋白原血症	血液病
+dysfibrinogenemia	异常纤维蛋白原血症	血液病
+hereditary hemorrhagic telangiectasia	遗传性出血性毛细血管扩张症	血液病
+simple purpura	单纯性紫癜	血液病
+thrombophilia	易栓症	血液病
+antithrombin deficiency	抗凝血酶缺乏症	血液病
+protein C deficiency	蛋白C缺乏症	血液病
+protein S deficiency	蛋白S缺乏症	血液病
+factor V Leiden mutation	凝血因子V Leiden突变	血液病
+thrombosis	血栓形成	血液病
+hemophagocytic lymphohistiocytosis	噬血细胞性淋巴组织细胞增生症（HLH）	血液病
+Langerhans cell histiocytosis	朗格汉斯细胞组织细胞增生症	血液病
+Rosai-Dorfman disease	Rosai-Dorfman病；窦组织细胞增生伴巨大淋巴结病	血液病
+Castleman disease	Castleman病；卡斯尔曼病	血液病
+histiocytic necrotizing lymphadenitis	组织细胞坏死性淋巴结炎；菊池病	血液病
+Kimura disease	木村病；嗜酸性粒细胞增生性淋巴肉芽肿	血液病
+lymphadenitis	淋巴结炎	血液病
+monoclonal gammopathy of undetermined significance	意义未明的单克隆丙种球蛋白病（MGUS）	血液病
+monoclonal gammopathy	单克隆丙种球蛋白病	血液病
+amyloidosis	淀粉样变性	血液病
+light chain amyloidosis	轻链型淀粉样变性；AL型淀粉样变性	血液病
+POEMS syndrome	POEMS综合征	血液病
+cryoglobulinemia	冷球蛋白血症	血液病
+hyperviscosity syndrome	高黏滞综合征	血液病
+hypersplenism	脾功能亢进	血液病
+hyposplenism	脾功能减退	血液病
+asplenia	无脾	血液病
+splenic infarction	脾梗死	血液病
+overwhelming post-splenectomy infection	脾切除术后凶险性感染	血液病
+mastocytosis	肥大细胞增多症	血液病
+systemic mastocytosis	系统性肥大细胞增多症	血液病
+graft-versus-host disease	移植物抗宿主病（GVHD）	血液病
+acute graft-versus-host disease	急性移植物抗宿主病	血液病
+chronic graft-versus-host disease	慢性移植物抗宿主病	血液病
+poor graft function	植入功能不良	血液病
+rheumatic disease	风湿性疾病；风湿病	风湿免疫
+autoimmune disease	自身免疫病	风湿免疫
+connective tissue disease	结缔组织病	风湿免疫
+arthritis	关节炎	风湿免疫
+polyarthritis	多关节炎	风湿免疫
+inflammatory arthritis	炎性关节炎	风湿免疫
+rheumatoid arthritis	类风湿关节炎（RA）	风湿免疫
+seronegative rheumatoid arthritis	血清阴性类风湿关节炎	风湿免疫
+rheumatoid vasculitis	类风湿血管炎	风湿免疫
+Felty syndrome	Felty综合征	风湿免疫
+palindromic rheumatism	回纹型风湿症	风湿免疫
+remitting seronegative symmetrical synovitis with pitting edema	缓解性血清阴性对称性滑膜炎伴凹陷性水肿综合征（RS3PE）	风湿免疫
+systemic lupus erythematosus	系统性红斑狼疮（SLE）	风湿免疫
+drug-induced lupus	药物性狼疮	风湿免疫
+neuropsychiatric lupus	神经精神狼疮	风湿免疫
+lupus crisis	狼疮危象	风湿免疫
+Sjögren's syndrome	干燥综合征	风湿免疫
+primary Sjögren's syndrome	原发性干燥综合征	风湿免疫
+secondary Sjögren's syndrome	继发性干燥综合征	风湿免疫
+Mikulicz disease	Mikulicz病；米库利奇病	风湿免疫
+systemic sclerosis	系统性硬化症	风湿免疫
+scleroderma	硬皮病	风湿免疫
+limited cutaneous systemic sclerosis	局限皮肤型系统性硬化症	风湿免疫
+diffuse cutaneous systemic sclerosis	弥漫皮肤型系统性硬化症	风湿免疫
+CREST syndrome	CREST综合征	风湿免疫
+scleroderma renal crisis	硬皮病肾危象	风湿免疫
+eosinophilic fasciitis	嗜酸性筋膜炎	风湿免疫
+idiopathic inflammatory myopathy	特发性炎性肌病	风湿免疫
+polymyositis	多发性肌炎	风湿免疫
+dermatomyositis	皮肌炎	风湿免疫
+clinically amyopathic dermatomyositis	临床无肌病性皮肌炎	风湿免疫
+anti-MDA5 antibody-positive dermatomyositis	抗MDA5抗体阳性皮肌炎	风湿免疫
+inclusion body myositis	包涵体肌炎	风湿免疫
+immune-mediated necrotizing myopathy	免疫介导坏死性肌病	风湿免疫
+antisynthetase syndrome	抗合成酶综合征	风湿免疫
+mixed connective tissue disease	混合性结缔组织病（MCTD）	风湿免疫
+undifferentiated connective tissue disease	未分化结缔组织病	风湿免疫
+overlap syndrome	重叠综合征	风湿免疫
+antiphospholipid syndrome	抗磷脂综合征（APS）	风湿免疫
+catastrophic antiphospholipid syndrome	灾难性抗磷脂综合征	风湿免疫
+spondyloarthritis	脊柱关节炎	风湿免疫
+ankylosing spondylitis	强直性脊柱炎（AS）	风湿免疫
+axial spondyloarthritis	中轴型脊柱关节炎	风湿免疫
+peripheral spondyloarthritis	外周型脊柱关节炎	风湿免疫
+psoriatic arthritis	银屑病关节炎（PsA）	风湿免疫
+reactive arthritis	反应性关节炎	风湿免疫
+Reiter syndrome	Reiter综合征；赖特综合征	风湿免疫
+enteropathic arthritis	肠病性关节炎	风湿免疫
+SAPHO syndrome	SAPHO综合征	风湿免疫
+adult-onset Still's disease	成人斯蒂尔病；成人Still病	风湿免疫
+gout	痛风	风湿免疫
+acute gouty arthritis	急性痛风性关节炎	风湿免疫
+chronic tophaceous gout	慢性痛风石性痛风	风湿免疫
+pseudogout	假性痛风	风湿免疫
+calcium pyrophosphate deposition disease	焦磷酸钙沉积病（CPPD）	风湿免疫
+osteoarthritis	骨关节炎	风湿免疫
+erosive osteoarthritis	侵蚀性骨关节炎	风湿免疫
+diffuse idiopathic skeletal hyperostosis	弥漫性特发性骨肥厚（DISH）	风湿免疫
+hypertrophic osteoarthropathy	肥大性骨关节病	风湿免疫
+neuropathic arthropathy	神经性关节病；Charcot关节	风湿免疫
+fibromyalgia	纤维肌痛综合征	风湿免疫
+polymyalgia rheumatica	风湿性多肌痛	风湿免疫
+relapsing polychondritis	复发性多软骨炎	风湿免疫
+costochondritis	肋软骨炎	风湿免疫
+Tietze syndrome	Tietze综合征；非化脓性肋软骨炎	风湿免疫
+Behçet's disease	白塞病；贝赫切特病	风湿免疫
+rheumatic fever	风湿热	风湿免疫
+vasculitis	血管炎	风湿免疫
+systemic vasculitis	系统性血管炎	风湿免疫
+large vessel vasculitis	大血管炎	风湿免疫
+medium vessel vasculitis	中等血管炎	风湿免疫
+small vessel vasculitis	小血管炎	风湿免疫
+giant cell arteritis	巨细胞动脉炎	风湿免疫
+temporal arteritis	颞动脉炎	风湿免疫
+Takayasu arteritis	大动脉炎；高安动脉炎	风湿免疫
+polyarteritis nodosa	结节性多动脉炎	风湿免疫
+Kawasaki disease	川崎病；皮肤黏膜淋巴结综合征	风湿免疫
+ANCA-associated vasculitis	ANCA相关性血管炎	风湿免疫
+granulomatosis with polyangiitis	肉芽肿性多血管炎（GPA）	风湿免疫
+Wegener's granulomatosis	韦格纳肉芽肿；Wegener肉芽肿	风湿免疫
+microscopic polyangiitis	显微镜下多血管炎（MPA）	风湿免疫
+eosinophilic granulomatosis with polyangiitis	嗜酸性肉芽肿性多血管炎（EGPA）	风湿免疫
+Churg-Strauss syndrome	Churg-Strauss综合征；变应性肉芽肿性血管炎	风湿免疫
+IgA vasculitis	IgA血管炎	风湿免疫
+Henoch-Schönlein purpura	过敏性紫癜	风湿免疫
+allergic purpura	过敏性紫癜	风湿免疫
+cryoglobulinemic vasculitis	冷球蛋白血症性血管炎	风湿免疫
+hypocomplementemic urticarial vasculitis	低补体血症性荨麻疹性血管炎	风湿免疫
+Cogan syndrome	Cogan综合征	风湿免疫
+IgG4-related disease	IgG4相关性疾病	风湿免疫
+autoinflammatory disease	自身炎症性疾病	风湿免疫
+familial Mediterranean fever	家族性地中海热	风湿免疫
+TNF receptor-associated periodic syndrome	TNF受体相关周期性综合征（TRAPS）	风湿免疫
+cryopyrin-associated periodic syndrome	冷吡啉相关周期性综合征（CAPS）	风湿免疫
+VEXAS syndrome	VEXAS综合征	风湿免疫
+Schnitzler syndrome	Schnitzler综合征	风湿免疫
+macrophage activation syndrome	巨噬细胞活化综合征	风湿免疫
+synovitis	滑膜炎	风湿免疫
+enthesitis	附着点炎	风湿免疫
+sacroiliitis	骶髂关节炎	风湿免疫
+dactylitis	指趾炎；腊肠指	风湿免疫
+primary immunodeficiency	原发性免疫缺陷病	风湿免疫
+secondary immunodeficiency	继发性免疫缺陷病	风湿免疫
+common variable immunodeficiency	普通变异型免疫缺陷病	风湿免疫
+selective IgA deficiency	选择性IgA缺乏症	风湿免疫
+severe combined immunodeficiency	重症联合免疫缺陷病（SCID）	风湿免疫
+X-linked agammaglobulinemia	X连锁无丙种球蛋白血症	风湿免疫
+chronic granulomatous disease	慢性肉芽肿病	风湿免疫
+complement deficiency	补体缺陷	风湿免疫
+hereditary angioedema	遗传性血管性水肿	风湿免疫
+anaphylaxis	严重过敏反应；全身性过敏反应	风湿免疫
+anaphylactic shock	过敏性休克	风湿免疫
+hypersensitivity reaction	超敏反应	风湿免疫
+drug allergy	药物过敏	风湿免疫
+food allergy	食物过敏	风湿免疫
+allergic rhinitis	变应性鼻炎；过敏性鼻炎	风湿免疫
+serum sickness	血清病	风湿免疫
+mast cell activation syndrome	肥大细胞活化综合征	风湿免疫
+infectious disease	传染病；感染性疾病	传染病
+emerging infectious disease	新发传染病	传染病
+zoonosis	人兽共患病；人畜共患病	传染病
+opportunistic infection	机会性感染	传染病
+nosocomial infection	医院感染	传染病
+healthcare-associated infection	医疗保健相关感染	传染病
+influenza	流行性感冒；流感	传染病
+seasonal influenza	季节性流感	传染病
+avian influenza	禽流感；人感染禽流感	传染病
+COVID-19	新型冠状病毒感染；新冠肺炎	传染病
+severe acute respiratory syndrome	严重急性呼吸综合征；传染性非典型肺炎（SARS）	传染病
+Middle East respiratory syndrome	中东呼吸综合征（MERS）	传染病
+respiratory syncytial virus infection	呼吸道合胞病毒感染	传染病
+human metapneumovirus infection	人偏肺病毒感染	传染病
+parainfluenza virus infection	副流感病毒感染	传染病
+adenovirus infection	腺病毒感染	传染病
+measles	麻疹	传染病
+rubella	风疹	传染病
+mumps	流行性腮腺炎	传染病
+varicella	水痘	传染病
+chickenpox	水痘	传染病
+smallpox	天花	传染病
+mpox	猴痘；mpox	传染病
+monkeypox	猴痘	传染病
+poliomyelitis	脊髓灰质炎	传染病
+hand, foot and mouth disease	手足口病	传染病
+herpangina	疱疹性咽峡炎	传染病
+enterovirus infection	肠道病毒感染	传染病
+Coxsackievirus infection	柯萨奇病毒感染	传染病
+erythema infectiosum	传染性红斑	传染病
+parvovirus B19 infection	细小病毒B19感染	传染病
+exanthem subitum	幼儿急疹	传染病
+infectious mononucleosis	传染性单核细胞增多症	传染病
+Epstein-Barr virus infection	EB病毒感染	传染病
+chronic active Epstein-Barr virus infection	慢性活动性EB病毒感染	传染病
+cytomegalovirus infection	巨细胞病毒感染	传染病
+human papillomavirus infection	人乳头瘤病毒感染	传染病
+viral hepatitis	病毒性肝炎	传染病
+hepatitis A	甲型病毒性肝炎；甲型肝炎	传染病
+hepatitis B	乙型病毒性肝炎；乙型肝炎	传染病
+acute hepatitis B	急性乙型肝炎	传染病
+chronic hepatitis B	慢性乙型肝炎	传染病
+hepatitis B virus carrier	乙型肝炎病毒携带者	传染病
+hepatitis B-related cirrhosis	乙型肝炎肝硬化	传染病
+hepatitis C	丙型病毒性肝炎；丙型肝炎	传染病
+chronic hepatitis C	慢性丙型肝炎	传染病
+hepatitis D	丁型病毒性肝炎；丁型肝炎	传染病
+hepatitis E	戊型病毒性肝炎；戊型肝炎	传染病
+HIV infection	人类免疫缺陷病毒感染；HIV感染	传染病
+acute HIV infection	急性HIV感染	传染病
+acquired immunodeficiency syndrome	获得性免疫缺陷综合征；艾滋病（AIDS）	传染病
+immune reconstitution inflammatory syndrome	免疫重建炎症综合征（IRIS）	传染病
+rabies	狂犬病	传染病
+Japanese encephalitis	流行性乙型脑炎；日本脑炎	传染病
+tick-borne encephalitis	蜱传脑炎；森林脑炎	传染病
+Nipah virus infection	尼帕病毒感染；尼帕病毒病	传染病
+viral hemorrhagic fever	病毒性出血热	传染病
+dengue fever	登革热	传染病
+severe dengue	重症登革热	传染病
+dengue hemorrhagic fever	登革出血热	传染病
+yellow fever	黄热病	传染病
+chikungunya fever	基孔肯雅热	传染病
+Zika virus disease	寨卡病毒病	传染病
+West Nile fever	西尼罗热	传染病
+Ebola virus disease	埃博拉病毒病；埃博拉出血热	传染病
+Marburg virus disease	马尔堡病毒病；马尔堡出血热	传染病
+Lassa fever	拉沙热	传染病
+Rift Valley fever	裂谷热	传染病
+Crimean-Congo hemorrhagic fever	克里米亚-刚果出血热；新疆出血热	传染病
+hemorrhagic fever with renal syndrome	肾综合征出血热；流行性出血热	传染病
+hantavirus pulmonary syndrome	汉坦病毒肺综合征	传染病
+severe fever with thrombocytopenia syndrome	发热伴血小板减少综合征（SFTS）	传染病
+rotavirus enteritis	轮状病毒肠炎	传染病
+norovirus infection	诺如病毒感染	传染病
+HTLV-1-associated myelopathy	HTLV-1相关脊髓病	传染病
+tropical spastic paraparesis	热带痉挛性截瘫	传染病
+tuberculosis	结核病	传染病
+pulmonary tuberculosis	肺结核	传染病
+primary pulmonary tuberculosis	原发性肺结核	传染病
+secondary pulmonary tuberculosis	继发性肺结核	传染病
+miliary tuberculosis	粟粒性结核	传染病
+hematogenous disseminated pulmonary tuberculosis	血行播散性肺结核	传染病
+tuberculous pleurisy with effusion	结核性渗出性胸膜炎	传染病
+extrapulmonary tuberculosis	肺外结核	传染病
+latent tuberculosis infection	结核潜伏感染；潜伏性结核感染	传染病
+endobronchial tuberculosis	气管支气管结核	传染病
+tuberculous meningitis	结核性脑膜炎	传染病
+tuberculous lymphadenitis	淋巴结结核；结核性淋巴结炎	传染病
+tuberculoma	结核球；结核瘤	传染病
+multidrug-resistant tuberculosis	耐多药结核病（MDR-TB）	传染病
+extensively drug-resistant tuberculosis	广泛耐药结核病（XDR-TB）	传染病
+rifampicin-resistant tuberculosis	利福平耐药结核病	传染病
+nontuberculous mycobacterial infection	非结核分枝杆菌感染	传染病
+Mycobacterium avium complex infection	鸟分枝杆菌复合群感染	传染病
+leprosy	麻风病；麻风	传染病
+typhoid fever	伤寒	传染病
+paratyphoid fever	副伤寒	传染病
+bacillary dysentery	细菌性痢疾；菌痢	传染病
+toxic bacillary dysentery	中毒型细菌性痢疾	传染病
+shigellosis	志贺菌病	传染病
+cholera	霍乱	传染病
+salmonellosis	沙门菌病	传染病
+infectious diarrhea	感染性腹泻	传染病
+travelers' diarrhea	旅行者腹泻	传染病
+food poisoning	食物中毒	传染病
+bacterial food poisoning	细菌性食物中毒	传染病
+staphylococcal food poisoning	葡萄球菌食物中毒	传染病
+Vibrio parahaemolyticus food poisoning	副溶血性弧菌食物中毒	传染病
+Bacillus cereus food poisoning	蜡样芽孢杆菌食物中毒	传染病
+botulism	肉毒中毒	传染病
+enterohemorrhagic Escherichia coli infection	肠出血性大肠埃希菌感染	传染病
+Campylobacter enteritis	弯曲菌肠炎	传染病
+brucellosis	布鲁氏菌病；布鲁菌病	传染病
+plague	鼠疫	传染病
+bubonic plague	腺鼠疫	传染病
+pneumonic plague	肺鼠疫	传染病
+septicemic plague	败血症型鼠疫	传染病
+anthrax	炭疽	传染病
+cutaneous anthrax	皮肤炭疽	传染病
+inhalational anthrax	吸入性炭疽；肺炭疽	传染病
+intestinal anthrax	肠炭疽	传染病
+tularemia	土拉菌病；兔热病	传染病
+diphtheria	白喉	传染病
+pertussis	百日咳	传染病
+whooping cough	百日咳	传染病
+tetanus	破伤风	传染病
+scarlet fever	猩红热	传染病
+epidemic cerebrospinal meningitis	流行性脑脊髓膜炎；流脑	传染病
+meningococcal disease	脑膜炎球菌病	传染病
+meningococcemia	脑膜炎球菌血症	传染病
+Waterhouse-Friderichsen syndrome	Waterhouse-Friderichsen综合征；华-佛综合征	传染病
+Streptococcus suis infection	猪链球菌病；人感染猪链球菌病	传染病
+leptospirosis	钩端螺旋体病	传染病
+Lyme disease	莱姆病	传染病
+relapsing fever	回归热	传染病
+rat-bite fever	鼠咬热	传染病
+yaws	雅司病	传染病
+pinta	品他病	传染病
+syphilis	梅毒	传染病
+primary syphilis	一期梅毒	传染病
+secondary syphilis	二期梅毒	传染病
+tertiary syphilis	三期梅毒	传染病
+latent syphilis	潜伏梅毒	传染病
+neurosyphilis	神经梅毒	传染病
+cardiovascular syphilis	心血管梅毒	传染病
+congenital syphilis	先天梅毒；胎传梅毒	传染病
+tabes dorsalis	脊髓痨	传染病
+general paresis	麻痹性痴呆	传染病
+gonorrhea	淋病	传染病
+genital chlamydial infection	生殖道沙眼衣原体感染	传染病
+nongonococcal urethritis	非淋菌性尿道炎	传染病
+chancroid	软下疳	传染病
+lymphogranuloma venereum	性病性淋巴肉芽肿	传染病
+granuloma inguinale	腹股沟肉芽肿	传染病
+sexually transmitted infection	性传播感染（STI）	传染病
+sexually transmitted disease	性传播疾病；性病（STD）	传染病
+sepsis	脓毒症	传染病
+septic shock	脓毒性休克；感染性休克	传染病
+bacteremia	菌血症	传染病
+septicemia	败血症	传染病
+systemic inflammatory response syndrome	全身炎症反应综合征（SIRS）	传染病
+multiple organ dysfunction syndrome	多器官功能障碍综合征（MODS）	传染病
+toxic shock syndrome	中毒性休克综合征	传染病
+streptococcal toxic shock syndrome	链球菌中毒性休克综合征	传染病
+catheter-related bloodstream infection	导管相关血流感染	传染病
+methicillin-resistant Staphylococcus aureus infection	耐甲氧西林金黄色葡萄球菌感染（MRSA）	传染病
+vancomycin-resistant enterococcus infection	耐万古霉素肠球菌感染（VRE）	传染病
+carbapenem-resistant Enterobacteriaceae infection	耐碳青霉烯类肠杆菌科细菌感染（CRE）	传染病
+Pseudomonas aeruginosa infection	铜绿假单胞菌感染	传染病
+Acinetobacter baumannii infection	鲍曼不动杆菌感染	传染病
+enterococcal infection	肠球菌感染	传染病
+Haemophilus influenzae infection	流感嗜血杆菌感染	传染病
+Vibrio vulnificus infection	创伤弧菌感染	传染病
+gas gangrene	气性坏疽	传染病
+Legionnaires' disease	军团病	传染病
+Pontiac fever	庞蒂亚克热	传染病
+melioidosis	类鼻疽	传染病
+glanders	鼻疽	传染病
+listeriosis	李斯特菌病	传染病
+nocardiosis	诺卡菌病	传染病
+actinomycosis	放线菌病	传染病
+erysipeloid	类丹毒	传染病
+cat-scratch disease	猫抓病	传染病
+bartonellosis	巴尔通体病	传染病
+trench fever	战壕热	传染病
+psittacosis	鹦鹉热	传染病
+mycoplasma infection	支原体感染	传染病
+Q fever	Q热	传染病
+rickettsiosis	立克次体病	传染病
+epidemic typhus	流行性斑疹伤寒	传染病
+endemic typhus	地方性斑疹伤寒	传染病
+scrub typhus	恙虫病	传染病
+spotted fever	斑点热	传染病
+Rocky Mountain spotted fever	落基山斑点热	传染病
+Mediterranean spotted fever	地中海斑点热	传染病
+rickettsialpox	立克次体痘	传染病
+human granulocytic anaplasmosis	人粒细胞无形体病	传染病
+ehrlichiosis	埃立克体病	传染病
+fungal infection	真菌感染	传染病
+invasive fungal infection	侵袭性真菌感染	传染病
+candidiasis	念珠菌病	传染病
+invasive candidiasis	侵袭性念珠菌病	传染病
+candidemia	念珠菌血症	传染病
+aspergillosis	曲霉病	传染病
+cryptococcosis	隐球菌病	传染病
+cryptococcal meningitis	隐球菌性脑膜炎	传染病
+mucormycosis	毛霉病	传染病
+histoplasmosis	组织胞浆菌病	传染病
+coccidioidomycosis	球孢子菌病	传染病
+blastomycosis	芽生菌病	传染病
+paracoccidioidomycosis	副球孢子菌病	传染病
+talaromycosis	马尔尼菲篮状菌病；篮状菌病	传染病
+penicilliosis marneffei	马尔尼菲青霉病	传染病
+fusariosis	镰刀菌病	传染病
+pneumocystosis	肺孢子菌病	传染病
+parasitic disease	寄生虫病	传染病
+malaria	疟疾	传染病
+falciparum malaria	恶性疟	传染病
+vivax malaria	间日疟	传染病
+quartan malaria	三日疟	传染病
+ovale malaria	卵形疟	传染病
+cerebral malaria	脑型疟疾	传染病
+blackwater fever	黑尿热	传染病
+amebiasis	阿米巴病	传染病
+intestinal amebiasis	肠阿米巴病	传染病
+amebic dysentery	阿米巴痢疾	传染病
+amebic liver abscess	阿米巴肝脓肿	传染病
+primary amebic meningoencephalitis	原发性阿米巴脑膜脑炎	传染病
+giardiasis	贾第虫病	传染病
+toxoplasmosis	弓形虫病	传染病
+cryptosporidiosis	隐孢子虫病	传染病
+cyclosporiasis	环孢子虫病	传染病
+cystoisosporiasis	囊等孢球虫病	传染病
+microsporidiosis	微孢子虫病	传染病
+balantidiasis	结肠小袋纤毛虫病	传染病
+babesiosis	巴贝虫病	传染病
+trichomoniasis	滴虫病	传染病
+leishmaniasis	利什曼病	传染病
+visceral leishmaniasis	内脏利什曼病；黑热病	传染病
+kala-azar	黑热病	传染病
+cutaneous leishmaniasis	皮肤利什曼病	传染病
+African trypanosomiasis	非洲锥虫病；睡眠病	传染病
+Chagas disease	恰加斯病；美洲锥虫病	传染病
+helminthiasis	蠕虫病	传染病
+schistosomiasis	血吸虫病	传染病
+schistosomiasis japonica	日本血吸虫病	传染病
+schistosomiasis mansoni	曼氏血吸虫病	传染病
+schistosomiasis haematobia	埃及血吸虫病	传染病
+clonorchiasis	华支睾吸虫病	传染病
+opisthorchiasis	后睾吸虫病	传染病
+paragonimiasis	并殖吸虫病；肺吸虫病	传染病
+fascioliasis	片形吸虫病	传染病
+fasciolopsiasis	姜片虫病	传染病
+taeniasis	绦虫病	传染病
+hymenolepiasis	膜壳绦虫病	传染病
+diphyllobothriasis	裂头绦虫病	传染病
+cysticercosis	囊尾蚴病；囊虫病	传染病
+neurocysticercosis	脑囊尾蚴病；脑囊虫病	传染病
+echinococcosis	棘球蚴病；包虫病	传染病
+hydatid disease	包虫病	传染病
+cystic echinococcosis	囊型包虫病	传染病
+alveolar echinococcosis	泡型包虫病	传染病
+sparganosis	裂头蚴病	传染病
+ascariasis	蛔虫病	传染病
+biliary ascariasis	胆道蛔虫病	传染病
+hookworm disease	钩虫病	传染病
+enterobiasis	蛲虫病	传染病
+trichuriasis	鞭虫病	传染病
+strongyloidiasis	类圆线虫病	传染病
+trichinosis	旋毛虫病	传染病
+filariasis	丝虫病	传染病
+lymphatic filariasis	淋巴丝虫病	传染病
+onchocerciasis	盘尾丝虫病；河盲症	传染病
+loiasis	罗阿丝虫病	传染病
+dracunculiasis	麦地那龙线虫病	传染病
+toxocariasis	弓首蛔虫病	传染病
+angiostrongyliasis	管圆线虫病；广州管圆线虫病	传染病
+gnathostomiasis	颚口线虫病	传染病
+anisakiasis	异尖线虫病	传染病
+larva migrans	幼虫移行症	传染病
+visceral larva migrans	内脏幼虫移行症	传染病
+myiasis	蝇蛆病	传染病
+stroke	脑卒中；中风	神经病学
+cerebrovascular disease	脑血管病	神经病学
+acute cerebrovascular disease	急性脑血管病	神经病学
+ischemic stroke	缺血性脑卒中	神经病学
+cerebral infarction	脑梗死	神经病学
+cerebral thrombosis	脑血栓形成	神经病学
+cerebral embolism	脑栓塞	神经病学
+cardioembolic stroke	心源性脑栓塞	神经病学
+lacunar infarction	腔隙性脑梗死	神经病学
+watershed infarction	分水岭脑梗死	神经病学
+cerebellar infarction	小脑梗死	神经病学
+brainstem infarction	脑干梗死	神经病学
+cryptogenic stroke	隐源性卒中	神经病学
+transient ischemic attack	短暂性脑缺血发作（TIA）	神经病学
+basilar artery occlusion	基底动脉闭塞	神经病学
+middle cerebral artery occlusion	大脑中动脉闭塞	神经病学
+internal carotid artery occlusion	颈内动脉闭塞	神经病学
+intracranial atherosclerotic stenosis	颅内动脉粥样硬化性狭窄	神经病学
+cerebral arteriosclerosis	脑动脉硬化	神经病学
+vertebrobasilar insufficiency	椎基底动脉供血不足	神经病学
+cervical artery dissection	颈部动脉夹层	神经病学
+hemorrhagic stroke	出血性脑卒中	神经病学
+intracerebral hemorrhage	脑出血	神经病学
+cerebral hemorrhage	脑出血	神经病学
+hypertensive intracerebral hemorrhage	高血压性脑出血	神经病学
+putaminal hemorrhage	壳核出血	神经病学
+thalamic hemorrhage	丘脑出血	神经病学
+pontine hemorrhage	脑桥出血	神经病学
+cerebellar hemorrhage	小脑出血	神经病学
+subarachnoid hemorrhage	蛛网膜下腔出血（SAH）	神经病学
+cerebral vasospasm	脑血管痉挛	神经病学
+hemorrhagic transformation	出血性转化	神经病学
+cerebral amyloid angiopathy	脑淀粉样血管病	神经病学
+cerebral microbleed	脑微出血	神经病学
+superficial siderosis	表面铁沉积症	神经病学
+cerebral venous sinus thrombosis	颅内静脉窦血栓形成；脑静脉窦血栓形成	神经病学
+cavernous sinus thrombosis	海绵窦血栓形成	神经病学
+intracranial aneurysm	颅内动脉瘤	神经病学
+cerebral arteriovenous malformation	脑动静脉畸形	神经病学
+dural arteriovenous fistula	硬脑膜动静脉瘘	神经病学
+cavernous malformation	海绵状血管畸形	神经病学
+moyamoya disease	烟雾病	神经病学
+CADASIL	伴皮质下梗死和白质脑病的常染色体显性遗传性脑动脉病（CADASIL）	神经病学
+cerebral small vessel disease	脑小血管病	神经病学
+leukoaraiosis	脑白质疏松	神经病学
+Binswanger disease	Binswanger病；皮质下动脉硬化性脑病	神经病学
+vascular cognitive impairment	血管性认知障碍	神经病学
+vascular dementia	血管性痴呆	神经病学
+posterior reversible encephalopathy syndrome	可逆性后部脑病综合征（PRES）	神经病学
+reversible cerebral vasoconstriction syndrome	可逆性脑血管收缩综合征（RCVS）	神经病学
+cerebral hyperperfusion syndrome	脑过度灌注综合征	神经病学
+primary angiitis of central nervous system	原发性中枢神经系统血管炎	神经病学
+lateral medullary syndrome	延髓背外侧综合征	神经病学
+Wallenberg syndrome	Wallenberg综合征；延髓背外侧综合征	神经病学
+Weber syndrome	Weber综合征；大脑脚综合征	神经病学
+Benedikt syndrome	Benedikt综合征	神经病学
+Millard-Gubler syndrome	Millard-Gubler综合征	神经病学
+Parinaud syndrome	Parinaud综合征；帕里诺综合征	神经病学
+locked-in syndrome	闭锁综合征	神经病学
+top of basilar syndrome	基底动脉尖综合征	神经病学
+thalamic pain syndrome	丘脑痛综合征	神经病学
+anterior spinal artery syndrome	脊髓前动脉综合征	神经病学
+epilepsy	癫痫	神经病学
+seizure	癫痫发作；痫性发作	神经病学
+generalized tonic-clonic seizure	全面强直-阵挛发作	神经病学
+absence seizure	失神发作	神经病学
+focal seizure	局灶性发作	神经病学
+myoclonic seizure	肌阵挛发作	神经病学
+atonic seizure	失张力发作	神经病学
+tonic seizure	强直发作	神经病学
+status epilepticus	癫痫持续状态	神经病学
+convulsive status epilepticus	惊厥性癫痫持续状态	神经病学
+nonconvulsive status epilepticus	非惊厥性癫痫持续状态	神经病学
+epilepsia partialis continua	持续性部分性癫痫	神经病学
+temporal lobe epilepsy	颞叶癫痫	神经病学
+juvenile myoclonic epilepsy	青少年肌阵挛癫痫	神经病学
+refractory epilepsy	难治性癫痫	神经病学
+reflex epilepsy	反射性癫痫	神经病学
+post-stroke epilepsy	卒中后癫痫	神经病学
+post-traumatic epilepsy	外伤后癫痫	神经病学
+psychogenic nonepileptic seizure	心因性非癫痫性发作	神经病学
+migraine	偏头痛	神经病学
+migraine with aura	有先兆偏头痛	神经病学
+migraine without aura	无先兆偏头痛	神经病学
+chronic migraine	慢性偏头痛	神经病学
+vestibular migraine	前庭性偏头痛	神经病学
+tension-type headache	紧张型头痛	神经病学
+cluster headache	丛集性头痛	神经病学
+trigeminal autonomic cephalalgia	三叉神经自主神经性头痛	神经病学
+medication-overuse headache	药物过度使用性头痛	神经病学
+new daily persistent headache	新发每日持续性头痛	神经病学
+idiopathic intracranial hypertension	特发性颅内高压	神经病学
+pseudotumor cerebri	假性脑瘤	神经病学
+spontaneous intracranial hypotension	自发性低颅压	神经病学
+trigeminal neuralgia	三叉神经痛	神经病学
+glossopharyngeal neuralgia	舌咽神经痛	神经病学
+occipital neuralgia	枕神经痛	神经病学
+postherpetic neuralgia	带状疱疹后神经痛	神经病学
+Bell's palsy	贝尔麻痹；特发性面神经麻痹	神经病学
+facial palsy	面神经麻痹；面瘫	神经病学
+hemifacial spasm	面肌痉挛；偏侧面肌痉挛	神经病学
+Ramsay Hunt syndrome	Ramsay Hunt综合征；亨特综合征	神经病学
+oculomotor nerve palsy	动眼神经麻痹	神经病学
+trochlear nerve palsy	滑车神经麻痹	神经病学
+abducens nerve palsy	展神经麻痹	神经病学
+internuclear ophthalmoplegia	核间性眼肌麻痹	神经病学
+ophthalmoplegia	眼肌麻痹	神经病学
+Tolosa-Hunt syndrome	Tolosa-Hunt综合征；痛性眼肌麻痹	神经病学
+Horner syndrome	霍纳综合征；Horner综合征	神经病学
+Parkinson's disease	帕金森病	神经病学
+parkinsonism	帕金森综合征	神经病学
+drug-induced parkinsonism	药源性帕金森综合征	神经病学
+vascular parkinsonism	血管性帕金森综合征	神经病学
+multiple system atrophy	多系统萎缩（MSA）	神经病学
+progressive supranuclear palsy	进行性核上性麻痹（PSP）	神经病学
+corticobasal degeneration	皮质基底节变性	神经病学
+dementia with Lewy bodies	路易体痴呆	神经病学
+Parkinson's disease dementia	帕金森病痴呆	神经病学
+dementia	痴呆	神经病学
+Alzheimer's disease	阿尔茨海默病	神经病学
+frontotemporal dementia	额颞叶痴呆	神经病学
+mild cognitive impairment	轻度认知障碍（MCI）	神经病学
+normal pressure hydrocephalus	正常压力脑积水	神经病学
+hydrocephalus	脑积水	神经病学
+Huntington's disease	亨廷顿病	神经病学
+essential tremor	特发性震颤	神经病学
+dystonia	肌张力障碍	神经病学
+cervical dystonia	颈部肌张力障碍；痉挛性斜颈	神经病学
+blepharospasm	眼睑痉挛	神经病学
+Meige syndrome	Meige综合征；梅热综合征	神经病学
+writer's cramp	书写痉挛	神经病学
+acute dystonic reaction	急性肌张力障碍	神经病学
+tardive dyskinesia	迟发性运动障碍	神经病学
+akathisia	静坐不能	神经病学
+restless legs syndrome	不宁腿综合征；不安腿综合征	神经病学
+chorea	舞蹈症	神经病学
+Sydenham chorea	小舞蹈病；Sydenham舞蹈病	神经病学
+athetosis	手足徐动症	神经病学
+hemiballismus	偏侧投掷症	神经病学
+myoclonus	肌阵挛	神经病学
+paroxysmal kinesigenic dyskinesia	发作性运动诱发性运动障碍	神经病学
+neuroacanthocytosis	神经棘红细胞增多症	神经病学
+hepatolenticular degeneration	肝豆状核变性	神经病学
+spinocerebellar ataxia	脊髓小脑性共济失调	神经病学
+Machado-Joseph disease	Machado-Joseph病；脊髓小脑性共济失调3型	神经病学
+Friedreich ataxia	Friedreich共济失调；弗里德赖希共济失调	神经病学
+episodic ataxia	发作性共济失调	神经病学
+paraneoplastic cerebellar degeneration	副肿瘤性小脑变性	神经病学
+multiple sclerosis	多发性硬化（MS）	神经病学
+relapsing-remitting multiple sclerosis	复发缓解型多发性硬化	神经病学
+secondary progressive multiple sclerosis	继发进展型多发性硬化	神经病学
+primary progressive multiple sclerosis	原发进展型多发性硬化	神经病学
+clinically isolated syndrome	临床孤立综合征	神经病学
+neuromyelitis optica	视神经脊髓炎	神经病学
+neuromyelitis optica spectrum disorder	视神经脊髓炎谱系疾病（NMOSD）	神经病学
+myelin oligodendrocyte glycoprotein antibody-associated disease	髓鞘少突胶质细胞糖蛋白抗体相关疾病（MOGAD）	神经病学
+acute disseminated encephalomyelitis	急性播散性脑脊髓炎（ADEM）	神经病学
+Balo concentric sclerosis	同心圆性硬化；Baló病	神经病学
+demyelinating disease	脱髓鞘疾病	神经病学
+transverse myelitis	横贯性脊髓炎	神经病学
+acute myelitis	急性脊髓炎	神经病学
+osmotic demyelination syndrome	渗透性脱髓鞘综合征	神经病学
+central pontine myelinolysis	脑桥中央髓鞘溶解症	神经病学
+Marchiafava-Bignami disease	Marchiafava-Bignami病；原发性胼胝体变性	神经病学
+encephalitis	脑炎	神经病学
+viral encephalitis	病毒性脑炎	神经病学
+herpes simplex encephalitis	单纯疱疹病毒性脑炎	神经病学
+autoimmune encephalitis	自身免疫性脑炎	神经病学
+anti-NMDA receptor encephalitis	抗NMDA受体脑炎	神经病学
+limbic encephalitis	边缘性脑炎	神经病学
+Hashimoto encephalopathy	桥本脑病	神经病学
+meningitis	脑膜炎	神经病学
+bacterial meningitis	细菌性脑膜炎	神经病学
+purulent meningitis	化脓性脑膜炎	神经病学
+viral meningitis	病毒性脑膜炎	神经病学
+aseptic meningitis	无菌性脑膜炎	神经病学
+meningoencephalitis	脑膜脑炎	神经病学
+brain abscess	脑脓肿	神经病学
+neurobrucellosis	神经型布鲁氏菌病	神经病学
+Creutzfeldt-Jakob disease	克-雅病；克罗伊茨费尔特-雅各布病	神经病学
+prion disease	朊蛋白病；朊病毒病	神经病学
+fatal familial insomnia	致死性家族性失眠症	神经病学
+kuru	库鲁病	神经病学
+progressive multifocal leukoencephalopathy	进行性多灶性白质脑病（PML）	神经病学
+HIV-associated neurocognitive disorder	HIV相关神经认知障碍	神经病学
+subacute sclerosing panencephalitis	亚急性硬化性全脑炎	神经病学
+neuro-Behçet's disease	神经白塞病	神经病学
+neurosarcoidosis	神经结节病	神经病学
+radiation encephalopathy	放射性脑病	神经病学
+peripheral neuropathy	周围神经病	神经病学
+polyneuropathy	多发性神经病	神经病学
+mononeuropathy	单神经病	神经病学
+mononeuritis multiplex	多发性单神经炎	神经病学
+Guillain-Barré syndrome	吉兰-巴雷综合征（GBS）	神经病学
+acute inflammatory demyelinating polyneuropathy	急性炎性脱髓鞘性多发性神经病（AIDP）	神经病学
+acute motor axonal neuropathy	急性运动轴索性神经病（AMAN）	神经病学
+Miller Fisher syndrome	Miller Fisher综合征	神经病学
+chronic inflammatory demyelinating polyneuropathy	慢性炎性脱髓鞘性多发性神经病（CIDP）	神经病学
+multifocal motor neuropathy	多灶性运动神经病	神经病学
+Charcot-Marie-Tooth disease	腓骨肌萎缩症；Charcot-Marie-Tooth病	神经病学
+alcoholic neuropathy	酒精性神经病	神经病学
+critical illness polyneuropathy	危重病性多发性神经病	神经病学
+small fiber neuropathy	小纤维神经病	神经病学
+ulnar neuropathy	尺神经病	神经病学
+radial nerve palsy	桡神经麻痹	神经病学
+common peroneal nerve palsy	腓总神经麻痹	神经病学
+meralgia paresthetica	股外侧皮神经炎；感觉异常性股痛	神经病学
+radiculopathy	神经根病	神经病学
+phantom limb pain	幻肢痛	神经病学
+complex regional pain syndrome	复杂性区域疼痛综合征	神经病学
+neuropathic pain	神经病理性疼痛	神经病学
+myasthenia gravis	重症肌无力（MG）	神经病学
+ocular myasthenia gravis	眼肌型重症肌无力	神经病学
+myasthenic crisis	肌无力危象	神经病学
+cholinergic crisis	胆碱能危象	神经病学
+Lambert-Eaton myasthenic syndrome	Lambert-Eaton肌无力综合征；兰伯特-伊顿综合征	神经病学
+myopathy	肌病	神经病学
+muscular dystrophy	肌营养不良症；肌营养不良	神经病学
+Duchenne muscular dystrophy	Duchenne型肌营养不良；迪谢内肌营养不良	神经病学
+Becker muscular dystrophy	Becker型肌营养不良；贝克肌营养不良	神经病学
+myotonic dystrophy	强直性肌营养不良	神经病学
+facioscapulohumeral muscular dystrophy	面肩肱型肌营养不良	神经病学
+limb-girdle muscular dystrophy	肢带型肌营养不良	神经病学
+myotonia congenita	先天性肌强直	神经病学
+periodic paralysis	周期性瘫痪	神经病学
+hypokalemic periodic paralysis	低钾性周期性瘫痪	神经病学
+hyperkalemic periodic paralysis	高钾性周期性瘫痪	神经病学
+mitochondrial myopathy	线粒体肌病	神经病学
+mitochondrial encephalomyopathy	线粒体脑肌病	神经病学
+MELAS	线粒体脑肌病伴高乳酸血症和卒中样发作（MELAS）	神经病学
+statin-associated myopathy	他汀相关肌病	神经病学
+steroid myopathy	类固醇肌病	神经病学
+neuromyotonia	神经性肌强直	神经病学
+Isaacs syndrome	Isaacs综合征	神经病学
+stiff person syndrome	僵人综合征	神经病学
+motor neuron disease	运动神经元病	神经病学
+amyotrophic lateral sclerosis	肌萎缩侧索硬化（ALS）	神经病学
+progressive bulbar palsy	进行性延髓麻痹	神经病学
+primary lateral sclerosis	原发性侧索硬化	神经病学
+progressive muscular atrophy	进行性肌萎缩	神经病学
+spinal muscular atrophy	脊髓性肌萎缩症（SMA）	神经病学
+Kennedy disease	肯尼迪病；脊髓延髓肌萎缩症	神经病学
+syringomyelia	脊髓空洞症	神经病学
+Chiari malformation	Chiari畸形；小脑扁桃体下疝畸形	神经病学
+subacute combined degeneration of spinal cord	脊髓亚急性联合变性	神经病学
+spinal cord compression	脊髓压迫症	神经病学
+spinal cord infarction	脊髓梗死	神经病学
+cauda equina syndrome	马尾综合征	神经病学
+conus medullaris syndrome	脊髓圆锥综合征	神经病学
+Brown-Séquard syndrome	脊髓半切综合征；Brown-Séquard综合征	神经病学
+hereditary spastic paraplegia	遗传性痉挛性截瘫	神经病学
+Wernicke encephalopathy	韦尼克脑病；Wernicke脑病	神经病学
+Korsakoff syndrome	科萨科夫综合征；Korsakoff综合征	神经病学
+metabolic encephalopathy	代谢性脑病	神经病学
+hypoxic-ischemic encephalopathy	缺氧缺血性脑病	神经病学
+sepsis-associated encephalopathy	脓毒症相关性脑病	神经病学
+toxic encephalopathy	中毒性脑病	神经病学
+leukodystrophy	脑白质营养不良	神经病学
+adrenoleukodystrophy	肾上腺脑白质营养不良	神经病学
+neurodegenerative disease	神经退行性疾病	神经病学
+brain death	脑死亡	神经病学
+persistent vegetative state	持续性植物状态	神经病学
+minimally conscious state	微意识状态；最小意识状态	神经病学
+akinetic mutism	无动性缄默症	神经病学
+transient global amnesia	短暂性全面性遗忘	神经病学
+cortical blindness	皮质盲	神经病学
+narcolepsy	发作性睡病	神经病学
+REM sleep behavior disorder	快速眼动睡眠行为障碍（RBD）	神经病学
+idiopathic hypersomnia	特发性睡眠增多；特发性嗜睡症	神经病学
+Kleine-Levin syndrome	Kleine-Levin综合征；周期性嗜睡贪食综合征	神经病学
+tuberous sclerosis complex	结节性硬化症	神经病学
+neurofibromatosis	神经纤维瘤病	神经病学
+neurofibromatosis type 1	神经纤维瘤病1型	神经病学
+neurofibromatosis type 2	神经纤维瘤病2型	神经病学
+Sturge-Weber syndrome	Sturge-Weber综合征；脑面血管瘤病	神经病学
+autonomic dysfunction	自主神经功能障碍	神经病学
+pure autonomic failure	单纯自主神经功能衰竭	神经病学
+cerebral edema	脑水肿	神经病学
+intracranial hypertension	颅内高压	神经病学
+brain herniation	脑疝	神经病学
+transtentorial herniation	小脑幕切迹疝	神经病学
+tonsillar herniation	枕骨大孔疝；小脑扁桃体疝	神经病学
+paraneoplastic neurological syndrome	副肿瘤性神经综合征	神经病学
+neurogenic bladder	神经源性膀胱	神经病学
+mental disorder	精神障碍	精神病学
+psychosis	精神病	精神病学
+neurosis	神经症	精神病学
+organic mental disorder	器质性精神障碍	精神病学
+schizophrenia	精神分裂症	精神病学
+paranoid schizophrenia	偏执型精神分裂症	精神病学
+hebephrenic schizophrenia	青春型精神分裂症	精神病学
+catatonic schizophrenia	紧张型精神分裂症	精神病学
+simple schizophrenia	单纯型精神分裂症	精神病学
+undifferentiated schizophrenia	未分化型精神分裂症	精神病学
+residual schizophrenia	残留型精神分裂症	精神病学
+post-schizophrenic depression	精神分裂症后抑郁	精神病学
+treatment-resistant schizophrenia	难治性精神分裂症	精神病学
+schizoaffective disorder	分裂情感性障碍	精神病学
+schizophreniform disorder	精神分裂症样障碍	精神病学
+brief psychotic disorder	短暂精神病性障碍	精神病学
+acute and transient psychotic disorder	急性短暂性精神病性障碍	精神病学
+delusional disorder	妄想障碍	精神病学
+shared psychotic disorder	感应性精神病；共享型精神病性障碍	精神病学
+schizotypal disorder	分裂型障碍	精神病学
+substance-induced psychotic disorder	物质所致精神病性障碍	精神病学
+catatonia	紧张症	精神病学
+mood disorder	心境障碍	精神病学
+affective disorder	情感障碍	精神病学
+bipolar disorder	双相障碍；双相情感障碍	精神病学
+bipolar I disorder	双相I型障碍	精神病学
+bipolar II disorder	双相II型障碍	精神病学
+cyclothymic disorder	环性心境障碍	精神病学
+rapid cycling	快速循环	精神病学
+manic episode	躁狂发作	精神病学
+hypomanic episode	轻躁狂发作	精神病学
+mixed episode	混合发作	精神病学
+mania	躁狂	精神病学
+hypomania	轻躁狂	精神病学
+depression	抑郁症；抑郁	精神病学
+major depressive disorder	重性抑郁障碍；抑郁症	精神病学
+depressive episode	抑郁发作	精神病学
+recurrent depressive disorder	复发性抑郁障碍	精神病学
+persistent depressive disorder	持续性抑郁障碍	精神病学
+dysthymia	恶劣心境	精神病学
+atypical depression	非典型抑郁	精神病学
+psychotic depression	精神病性抑郁	精神病学
+treatment-resistant depression	难治性抑郁症	精神病学
+late-life depression	老年期抑郁症	精神病学
+post-stroke depression	卒中后抑郁	精神病学
+postpartum depression	产后抑郁	精神病学
+postpartum psychosis	产后精神病	精神病学
+seasonal affective disorder	季节性情感障碍	精神病学
+premenstrual dysphoric disorder	经前期烦躁障碍	精神病学
+disruptive mood dysregulation disorder	破坏性心境失调障碍	精神病学
+mixed anxiety and depressive disorder	混合性焦虑抑郁障碍	精神病学
+pseudodementia	假性痴呆	精神病学
+anxiety disorder	焦虑障碍	精神病学
+generalized anxiety disorder	广泛性焦虑障碍	精神病学
+panic disorder	惊恐障碍	精神病学
+panic attack	惊恐发作	精神病学
+agoraphobia	广场恐怖症；场所恐惧症	精神病学
+social anxiety disorder	社交焦虑障碍；社交恐怖症	精神病学
+specific phobia	特定恐怖症；特定恐惧症	精神病学
+phobia	恐怖症；恐惧症	精神病学
+separation anxiety disorder	分离焦虑障碍	精神病学
+selective mutism	选择性缄默症	精神病学
+obsessive-compulsive disorder	强迫症；强迫障碍（OCD）	精神病学
+body dysmorphic disorder	躯体变形障碍	精神病学
+hoarding disorder	囤积障碍	精神病学
+trichotillomania	拔毛癖；拔毛障碍	精神病学
+excoriation disorder	抓痕障碍；皮肤搔抓障碍	精神病学
+post-traumatic stress disorder	创伤后应激障碍（PTSD）	精神病学
+complex post-traumatic stress disorder	复合性创伤后应激障碍	精神病学
+acute stress disorder	急性应激障碍	精神病学
+acute stress reaction	急性应激反应	精神病学
+adjustment disorder	适应障碍	精神病学
+prolonged grief disorder	延长哀伤障碍	精神病学
+dissociative disorder	分离障碍	精神病学
+dissociative identity disorder	分离性身份障碍	精神病学
+dissociative amnesia	分离性遗忘症	精神病学
+dissociative fugue	分离性漫游	精神病学
+depersonalization-derealization disorder	人格解体-现实解体障碍	精神病学
+Ganser syndrome	Ganser综合征；刚塞综合征	精神病学
+conversion disorder	转换障碍	精神病学
+functional neurological symptom disorder	功能性神经症状障碍	精神病学
+somatic symptom disorder	躯体症状障碍	精神病学
+somatization disorder	躯体化障碍	精神病学
+bodily distress disorder	躯体不适障碍；躯体痛苦障碍	精神病学
+illness anxiety disorder	疾病焦虑障碍	精神病学
+hypochondriasis	疑病症	精神病学
+factitious disorder	做作性障碍	精神病学
+Munchausen syndrome	孟乔森综合征；Munchausen综合征	精神病学
+neurasthenia	神经衰弱	精神病学
+hysteria	癔症	精神病学
+eating disorder	进食障碍	精神病学
+anorexia nervosa	神经性厌食	精神病学
+bulimia nervosa	神经性贪食	精神病学
+binge eating disorder	暴食障碍	精神病学
+avoidant/restrictive food intake disorder	回避性/限制性摄食障碍	精神病学
+pica	异食癖	精神病学
+rumination disorder	反刍障碍	精神病学
+night eating syndrome	夜食症	精神病学
+psychogenic polydipsia	精神性烦渴	精神病学
+insomnia disorder	失眠障碍	精神病学
+hypersomnolence disorder	嗜睡障碍	精神病学
+nightmare disorder	梦魇障碍	精神病学
+sleepwalking	睡行症	精神病学
+sleep terror	睡惊症；夜惊	精神病学
+circadian rhythm sleep-wake disorder	昼夜节律睡眠-觉醒障碍	精神病学
+substance use disorder	物质使用障碍	精神病学
+substance dependence	物质依赖	精神病学
+drug dependence	药物依赖	精神病学
+alcohol use disorder	酒精使用障碍	精神病学
+alcohol dependence	酒精依赖	精神病学
+alcohol withdrawal syndrome	酒精戒断综合征	精神病学
+delirium tremens	震颤谵妄	精神病学
+alcoholic hallucinosis	酒精性幻觉症	精神病学
+opioid use disorder	阿片类物质使用障碍	精神病学
+opioid withdrawal syndrome	阿片类物质戒断综合征	精神病学
+nicotine dependence	尼古丁依赖	精神病学
+tobacco use disorder	烟草使用障碍	精神病学
+cannabis use disorder	大麻使用障碍	精神病学
+stimulant use disorder	兴奋剂使用障碍	精神病学
+inhalant use disorder	吸入剂使用障碍	精神病学
+caffeine intoxication	咖啡因中毒	精神病学
+gambling disorder	赌博障碍	精神病学
+gaming disorder	游戏障碍	精神病学
+personality disorder	人格障碍	精神病学
+paranoid personality disorder	偏执型人格障碍	精神病学
+schizoid personality disorder	分裂样人格障碍	精神病学
+schizotypal personality disorder	分裂型人格障碍	精神病学
+antisocial personality disorder	反社会型人格障碍	精神病学
+borderline personality disorder	边缘型人格障碍	精神病学
+histrionic personality disorder	表演型人格障碍	精神病学
+narcissistic personality disorder	自恋型人格障碍	精神病学
+avoidant personality disorder	回避型人格障碍	精神病学
+dependent personality disorder	依赖型人格障碍	精神病学
+obsessive-compulsive personality disorder	强迫型人格障碍	精神病学
+attention-deficit/hyperactivity disorder	注意缺陷多动障碍（ADHD）	精神病学
+autism spectrum disorder	孤独症谱系障碍；自闭症谱系障碍（ASD）	精神病学
+intellectual disability	智力障碍；智力发育障碍	精神病学
+specific learning disorder	特定学习障碍	精神病学
+tic disorder	抽动障碍	精神病学
+Tourette syndrome	抽动秽语综合征；Tourette综合征	精神病学
+oppositional defiant disorder	对立违抗障碍	精神病学
+conduct disorder	品行障碍	精神病学
+intermittent explosive disorder	间歇性暴怒障碍	精神病学
+kleptomania	偷窃狂	精神病学
+pyromania	纵火狂	精神病学
+gender dysphoria	性别烦躁	精神病学
+paraphilic disorder	性欲倒错障碍	精神病学
+sexual dysfunction	性功能障碍	精神病学
+delirium	谵妄	精神病学
+postoperative delirium	术后谵妄	精神病学
+neurocognitive disorder	神经认知障碍	精神病学
+major neurocognitive disorder	重度神经认知障碍	精神病学
+mild neurocognitive disorder	轻度神经认知障碍	精神病学
+amnestic disorder	遗忘障碍	精神病学
+Capgras syndrome	Capgras综合征；替身综合征	精神病学
+Cotard syndrome	Cotard综合征；虚无妄想综合征	精神病学
+de Clérambault syndrome	钟情妄想综合征；de Clérambault综合征	精神病学
+Othello syndrome	Othello综合征；病理性嫉妒	精神病学
+neuroleptic malignant syndrome	神经阻滞剂恶性综合征；恶性综合征	精神病学
+serotonin syndrome	5-羟色胺综合征；血清素综合征	精神病学
+suicidal ideation	自杀意念；自杀观念	精神病学
+suicide attempt	自杀未遂	精神病学
+non-suicidal self-injury	非自杀性自伤	精神病学
+burnout	职业倦怠	精神病学
+dermatitis	皮炎	皮肤病
+eczema	湿疹	皮肤病
+acute eczema	急性湿疹	皮肤病
+chronic eczema	慢性湿疹	皮肤病
+hand eczema	手部湿疹	皮肤病
+atopic dermatitis	特应性皮炎	皮肤病
+contact dermatitis	接触性皮炎	皮肤病
+allergic contact dermatitis	变应性接触性皮炎	皮肤病
+irritant contact dermatitis	刺激性接触性皮炎	皮肤病
+seborrheic dermatitis	脂溢性皮炎	皮肤病
+dyshidrotic eczema	汗疱疹	皮肤病
+nummular eczema	钱币状湿疹	皮肤病
+asteatotic eczema	乏脂性湿疹	皮肤病
+stasis dermatitis	淤积性皮炎	皮肤病
+autosensitization dermatitis	自身敏感性皮炎	皮肤病
+infectious eczematoid dermatitis	传染性湿疹样皮炎	皮肤病
+neurodermatitis	神经性皮炎	皮肤病
+lichen simplex chronicus	慢性单纯性苔藓	皮肤病
+perioral dermatitis	口周皮炎	皮肤病
+radiation dermatitis	放射性皮炎	皮肤病
+insect bite dermatitis	虫咬皮炎	皮肤病
+solar dermatitis	日光性皮炎	皮肤病
+polymorphous light eruption	多形性日光疹	皮肤病
+chronic actinic dermatitis	慢性光化性皮炎	皮肤病
+photosensitivity	光敏感；光敏性	皮肤病
+sunburn	日晒伤	皮肤病
+drug eruption	药疹	皮肤病
+fixed drug eruption	固定型药疹	皮肤病
+exanthematous drug eruption	发疹型药疹	皮肤病
+drug reaction with eosinophilia and systemic symptoms	药物反应伴嗜酸性粒细胞增多和系统症状（DRESS）	皮肤病
+acute generalized exanthematous pustulosis	急性泛发性发疹性脓疱病（AGEP）	皮肤病
+Stevens-Johnson syndrome	Stevens-Johnson综合征；史-约综合征	皮肤病
+toxic epidermal necrolysis	中毒性表皮坏死松解症（TEN）	皮肤病
+erythema multiforme	多形红斑	皮肤病
+urticaria	荨麻疹	皮肤病
+acute urticaria	急性荨麻疹	皮肤病
+chronic urticaria	慢性荨麻疹	皮肤病
+chronic spontaneous urticaria	慢性自发性荨麻疹	皮肤病
+cholinergic urticaria	胆碱能性荨麻疹	皮肤病
+cold urticaria	寒冷性荨麻疹	皮肤病
+dermatographism	皮肤划痕症	皮肤病
+papular urticaria	丘疹性荨麻疹	皮肤病
+urticarial vasculitis	荨麻疹性血管炎	皮肤病
+angioedema	血管性水肿	皮肤病
+psoriasis	银屑病	皮肤病
+psoriasis vulgaris	寻常型银屑病	皮肤病
+pustular psoriasis	脓疱型银屑病	皮肤病
+generalized pustular psoriasis	泛发性脓疱型银屑病	皮肤病
+palmoplantar pustulosis	掌跖脓疱病	皮肤病
+erythrodermic psoriasis	红皮病型银屑病	皮肤病
+guttate psoriasis	点滴状银屑病	皮肤病
+nail psoriasis	甲银屑病	皮肤病
+erythroderma	红皮病	皮肤病
+pityriasis rosea	玫瑰糠疹	皮肤病
+pityriasis rubra pilaris	毛发红糠疹	皮肤病
+pityriasis lichenoides	苔藓样糠疹	皮肤病
+pityriasis alba	白色糠疹	皮肤病
+parapsoriasis	副银屑病	皮肤病
+lichen planus	扁平苔藓	皮肤病
+lichen nitidus	光泽苔藓	皮肤病
+lichen striatus	线状苔藓	皮肤病
+lichen sclerosus	硬化性苔藓	皮肤病
+lichen amyloidosis	苔藓样淀粉样变	皮肤病
+acne	痤疮	皮肤病
+acne vulgaris	寻常痤疮	皮肤病
+rosacea	玫瑰痤疮；酒渣鼻	皮肤病
+hidradenitis suppurativa	化脓性汗腺炎	皮肤病
+folliculitis	毛囊炎	皮肤病
+Malassezia folliculitis	马拉色菌毛囊炎	皮肤病
+furuncle	疖	皮肤病
+carbuncle	痈	皮肤病
+sycosis	须疮	皮肤病
+impetigo	脓疱疮	皮肤病
+ecthyma	臁疮	皮肤病
+cellulitis	蜂窝织炎	皮肤病
+erysipelas	丹毒	皮肤病
+staphylococcal scalded skin syndrome	葡萄球菌烫伤样皮肤综合征	皮肤病
+erythrasma	红癣	皮肤病
+pitted keratolysis	窝状角质松解症	皮肤病
+paronychia	甲沟炎	皮肤病
+cutaneous tuberculosis	皮肤结核	皮肤病
+lupus vulgaris	寻常狼疮	皮肤病
+herpes simplex	单纯疱疹	皮肤病
+herpes labialis	唇疱疹	皮肤病
+genital herpes	生殖器疱疹	皮肤病
+Kaposi varicelliform eruption	卡波西水痘样疹	皮肤病
+herpes zoster	带状疱疹	皮肤病
+wart	疣	皮肤病
+verruca vulgaris	寻常疣	皮肤病
+plantar wart	跖疣	皮肤病
+flat wart	扁平疣	皮肤病
+condyloma acuminatum	尖锐湿疣	皮肤病
+molluscum contagiosum	传染性软疣	皮肤病
+tinea	癣	皮肤病
+dermatophytosis	皮肤癣菌病	皮肤病
+tinea capitis	头癣	皮肤病
+tinea corporis	体癣	皮肤病
+tinea cruris	股癣	皮肤病
+tinea pedis	足癣	皮肤病
+tinea manuum	手癣	皮肤病
+tinea incognito	难辨认癣	皮肤病
+onychomycosis	甲真菌病；甲癣	皮肤病
+tinea versicolor	花斑癣	皮肤病
+pityriasis versicolor	花斑糠疹；花斑癣	皮肤病
+cutaneous candidiasis	皮肤念珠菌病	皮肤病
+sporotrichosis	孢子丝菌病	皮肤病
+chromoblastomycosis	着色芽生菌病	皮肤病
+mycetoma	足菌肿	皮肤病
+scabies	疥疮	皮肤病
+crusted scabies	结痂性疥疮；挪威疥	皮肤病
+pediculosis	虱病	皮肤病
+pediculosis capitis	头虱病	皮肤病
+pediculosis pubis	阴虱病	皮肤病
+demodicosis	蠕形螨病	皮肤病
+cutaneous larva migrans	皮肤幼虫移行症	皮肤病
+tungiasis	潜蚤病	皮肤病
+pemphigus	天疱疮	皮肤病
+pemphigus vulgaris	寻常型天疱疮	皮肤病
+pemphigus foliaceus	落叶型天疱疮	皮肤病
+paraneoplastic pemphigus	副肿瘤性天疱疮	皮肤病
+bullous pemphigoid	大疱性类天疱疮	皮肤病
+mucous membrane pemphigoid	黏膜类天疱疮	皮肤病
+dermatitis herpetiformis	疱疹样皮炎	皮肤病
+linear IgA bullous dermatosis	线状IgA大疱性皮病	皮肤病
+epidermolysis bullosa	大疱性表皮松解症	皮肤病
+epidermolysis bullosa acquisita	获得性大疱性表皮松解症	皮肤病
+Hailey-Hailey disease	家族性良性慢性天疱疮；Hailey-Hailey病	皮肤病
+Darier disease	毛囊角化病；Darier病	皮肤病
+vitiligo	白癜风	皮肤病
+idiopathic guttate hypomelanosis	特发性点状白斑	皮肤病
+albinism	白化病	皮肤病
+melasma	黄褐斑	皮肤病
+chloasma	黄褐斑	皮肤病
+freckle	雀斑	皮肤病
+lentigo	雀斑样痣	皮肤病
+solar lentigo	日光性雀斑样痣；老年性雀斑样痣	皮肤病
+café-au-lait spot	咖啡斑；牛奶咖啡斑	皮肤病
+post-inflammatory hyperpigmentation	炎症后色素沉着	皮肤病
+nevus	痣	皮肤病
+melanocytic nevus	黑素细胞痣	皮肤病
+dysplastic nevus	发育不良痣	皮肤病
+halo nevus	晕痣	皮肤病
+blue nevus	蓝痣	皮肤病
+nevus of Ota	太田痣	皮肤病
+Becker nevus	Becker痣；贝克痣	皮肤病
+nevus sebaceus	皮脂腺痣	皮肤病
+port-wine stain	鲜红斑痣	皮肤病
+cherry angioma	樱桃状血管瘤	皮肤病
+pyogenic granuloma	化脓性肉芽肿	皮肤病
+alopecia	脱发	皮肤病
+alopecia areata	斑秃	皮肤病
+alopecia totalis	全秃	皮肤病
+alopecia universalis	普秃	皮肤病
+androgenetic alopecia	雄激素性脱发	皮肤病
+telogen effluvium	休止期脱发	皮肤病
+cicatricial alopecia	瘢痕性脱发	皮肤病
+hyperhidrosis	多汗症	皮肤病
+anhidrosis	无汗症	皮肤病
+bromhidrosis	臭汗症	皮肤病
+miliaria	痱子；粟粒疹	皮肤病
+keratosis pilaris	毛周角化病	皮肤病
+ichthyosis	鱼鳞病	皮肤病
+ichthyosis vulgaris	寻常型鱼鳞病	皮肤病
+xerosis	皮肤干燥症	皮肤病
+seborrheic keratosis	脂溢性角化病	皮肤病
+actinic keratosis	日光性角化病；光线性角化病	皮肤病
+palmoplantar keratoderma	掌跖角化病	皮肤病
+porokeratosis	汗孔角化症	皮肤病
+xeroderma pigmentosum	着色性干皮病	皮肤病
+cutaneous horn	皮角	皮肤病
+keratoacanthoma	角化棘皮瘤	皮肤病
+callus	胼胝	皮肤病
+corn	鸡眼	皮肤病
+keloid	瘢痕疙瘩	皮肤病
+hypertrophic scar	增生性瘢痕	皮肤病
+striae distensae	萎缩纹；膨胀纹	皮肤病
+xanthoma	黄瘤	皮肤病
+xanthelasma	睑黄瘤	皮肤病
+epidermal cyst	表皮样囊肿；表皮囊肿	皮肤病
+milium	粟丘疹	皮肤病
+syringoma	汗管瘤	皮肤病
+dermatofibroma	皮肤纤维瘤	皮肤病
+skin tag	软纤维瘤；皮赘	皮肤病
+cutaneous lupus erythematosus	皮肤型红斑狼疮	皮肤病
+discoid lupus erythematosus	盘状红斑狼疮	皮肤病
+subacute cutaneous lupus erythematosus	亚急性皮肤型红斑狼疮	皮肤病
+morphea	硬斑病	皮肤病
+localized scleroderma	局限性硬皮病	皮肤病
+erythema nodosum	结节性红斑	皮肤病
+erythema annulare centrifugum	离心性环状红斑	皮肤病
+erythema migrans	游走性红斑	皮肤病
+erythema marginatum	边缘性红斑	皮肤病
+panniculitis	脂膜炎	皮肤病
+pyoderma gangrenosum	坏疽性脓皮病	皮肤病
+Sweet syndrome	Sweet综合征；急性发热性嗜中性皮病	皮肤病
+cutaneous vasculitis	皮肤血管炎	皮肤病
+leukocytoclastic vasculitis	白细胞碎裂性血管炎	皮肤病
+livedo reticularis	网状青斑	皮肤病
+livedoid vasculopathy	青斑样血管病	皮肤病
+granuloma annulare	环状肉芽肿	皮肤病
+necrobiosis lipoidica	类脂质渐进性坏死	皮肤病
+acanthosis nigricans	黑棘皮病	皮肤病
+prurigo	痒疹	皮肤病
+prurigo nodularis	结节性痒疹	皮肤病
+urticaria pigmentosa	色素性荨麻疹	皮肤病
+venous ulcer	静脉性溃疡	皮肤病
+chilblain	冻疮	皮肤病
+intertrigo	间擦疹	皮肤病
+cancer	癌症；癌	肿瘤
+tumor	肿瘤	肿瘤
+neoplasm	肿瘤；新生物	肿瘤
+benign tumor	良性肿瘤	肿瘤
+malignant tumor	恶性肿瘤	肿瘤
+borderline tumor	交界性肿瘤	肿瘤
+carcinoma	癌	肿瘤
+sarcoma	肉瘤	肿瘤
+adenocarcinoma	腺癌	肿瘤
+squamous cell carcinoma	鳞状细胞癌；鳞癌	肿瘤
+adenosquamous carcinoma	腺鳞癌	肿瘤
+small cell carcinoma	小细胞癌	肿瘤
+large cell neuroendocrine carcinoma	大细胞神经内分泌癌	肿瘤
+mucinous adenocarcinoma	黏液腺癌	肿瘤
+signet ring cell carcinoma	印戒细胞癌	肿瘤
+undifferentiated carcinoma	未分化癌	肿瘤
+clear cell carcinoma	透明细胞癌	肿瘤
+transitional cell carcinoma	移行细胞癌	肿瘤
+papillary carcinoma	乳头状癌	肿瘤
+carcinoma in situ	原位癌	肿瘤
+precancerous lesion	癌前病变	肿瘤
+dysplasia	异型增生	肿瘤
+atypical hyperplasia	非典型增生	肿瘤
+metastasis	转移	肿瘤
+metastatic tumor	转移性肿瘤；转移瘤	肿瘤
+oligometastasis	寡转移	肿瘤
+cancer of unknown primary	原发灶不明肿瘤	肿瘤
+second primary malignancy	第二原发恶性肿瘤	肿瘤
+paraneoplastic syndrome	副肿瘤综合征	肿瘤
+lung cancer	肺癌	肿瘤
+bronchogenic carcinoma	支气管肺癌	肿瘤
+non-small cell lung cancer	非小细胞肺癌（NSCLC）	肿瘤
+small cell lung cancer	小细胞肺癌（SCLC）	肿瘤
+lung adenocarcinoma	肺腺癌	肿瘤
+lung squamous cell carcinoma	肺鳞状细胞癌；肺鳞癌	肿瘤
+large cell lung carcinoma	肺大细胞癌	肿瘤
+Pancoast tumor	肺上沟瘤；Pancoast瘤	肿瘤
+pulmonary carcinoid	肺类癌	肿瘤
+pulmonary hamartoma	肺错构瘤	肿瘤
+mesothelioma	间皮瘤	肿瘤
+malignant pleural mesothelioma	恶性胸膜间皮瘤	肿瘤
+thymoma	胸腺瘤	肿瘤
+thymic carcinoma	胸腺癌	肿瘤
+mediastinal tumor	纵隔肿瘤	肿瘤
+esophageal cancer	食管癌	肿瘤
+esophageal squamous cell carcinoma	食管鳞状细胞癌	肿瘤
+esophageal adenocarcinoma	食管腺癌	肿瘤
+esophagogastric junction adenocarcinoma	食管胃结合部腺癌	肿瘤
+cardia cancer	贲门癌	肿瘤
+gastric cancer	胃癌	肿瘤
+early gastric cancer	早期胃癌	肿瘤
+advanced gastric cancer	进展期胃癌	肿瘤
+gastrointestinal stromal tumor	胃肠间质瘤（GIST）	肿瘤
+mucosa-associated lymphoid tissue lymphoma	黏膜相关淋巴组织淋巴瘤；MALT淋巴瘤	肿瘤
+small bowel adenocarcinoma	小肠腺癌	肿瘤
+colorectal cancer	结直肠癌	肿瘤
+colon cancer	结肠癌	肿瘤
+rectal cancer	直肠癌	肿瘤
+anal cancer	肛管癌	肿瘤
+colorectal adenoma	结直肠腺瘤	肿瘤
+Lynch syndrome	Lynch综合征；遗传性非息肉病性结直肠癌	肿瘤
+pseudomyxoma peritonei	腹膜假黏液瘤	肿瘤
+peritoneal carcinomatosis	腹膜癌病	肿瘤
+neuroendocrine tumor	神经内分泌肿瘤（NET）	肿瘤
+neuroendocrine carcinoma	神经内分泌癌	肿瘤
+carcinoid tumor	类癌	肿瘤
+carcinoid syndrome	类癌综合征	肿瘤
+liver cancer	肝癌	肿瘤
+primary liver cancer	原发性肝癌	肿瘤
+hepatocellular carcinoma	肝细胞癌（HCC）	肿瘤
+fibrolamellar hepatocellular carcinoma	纤维板层型肝细胞癌	肿瘤
+hepatocellular adenoma	肝细胞腺瘤	肿瘤
+hepatic hemangioma	肝血管瘤	肿瘤
+liver metastasis	肝转移；肝转移瘤	肿瘤
+cholangiocarcinoma	胆管癌	肿瘤
+intrahepatic cholangiocarcinoma	肝内胆管癌	肿瘤
+hilar cholangiocarcinoma	肝门部胆管癌	肿瘤
+gallbladder cancer	胆囊癌	肿瘤
+ampullary carcinoma	壶腹癌	肿瘤
+periampullary carcinoma	壶腹周围癌	肿瘤
+pancreatic cancer	胰腺癌	肿瘤
+pancreatic ductal adenocarcinoma	胰腺导管腺癌	肿瘤
+pancreatic neuroendocrine tumor	胰腺神经内分泌肿瘤	肿瘤
+insulinoma	胰岛素瘤	肿瘤
+gastrinoma	胃泌素瘤	肿瘤
+glucagonoma	胰高血糖素瘤	肿瘤
+VIPoma	血管活性肠肽瘤；VIP瘤	肿瘤
+somatostatinoma	生长抑素瘤	肿瘤
+intraductal papillary mucinous neoplasm	导管内乳头状黏液性肿瘤（IPMN）	肿瘤
+mucinous cystic neoplasm	黏液性囊性肿瘤	肿瘤
+serous cystic neoplasm	浆液性囊性肿瘤	肿瘤
+solid pseudopapillary neoplasm	实性假乳头状肿瘤	肿瘤
+kidney cancer	肾癌	肿瘤
+renal cell carcinoma	肾细胞癌	肿瘤
+clear cell renal cell carcinoma	透明细胞肾细胞癌	肿瘤
+renal angiomyolipoma	肾血管平滑肌脂肪瘤	肿瘤
+urothelial carcinoma	尿路上皮癌	肿瘤
+bladder cancer	膀胱癌	肿瘤
+prostate cancer	前列腺癌	肿瘤
+castration-resistant prostate cancer	去势抵抗性前列腺癌（CRPC）	肿瘤
+testicular cancer	睾丸癌	肿瘤
+germ cell tumor	生殖细胞肿瘤	肿瘤
+seminoma	精原细胞瘤	肿瘤
+penile cancer	阴茎癌	肿瘤
+adrenocortical carcinoma	肾上腺皮质癌	肿瘤
+adrenal adenoma	肾上腺腺瘤	肿瘤
+paraganglioma	副神经节瘤	肿瘤
+breast cancer	乳腺癌	肿瘤
+triple-negative breast cancer	三阴性乳腺癌	肿瘤
+HER2-positive breast cancer	HER2阳性乳腺癌	肿瘤
+hormone receptor-positive breast cancer	激素受体阳性乳腺癌	肿瘤
+invasive ductal carcinoma	浸润性导管癌	肿瘤
+invasive lobular carcinoma	浸润性小叶癌	肿瘤
+ductal carcinoma in situ	导管原位癌（DCIS）	肿瘤
+inflammatory breast cancer	炎性乳腺癌	肿瘤
+male breast cancer	男性乳腺癌	肿瘤
+hereditary breast and ovarian cancer syndrome	遗传性乳腺癌卵巢癌综合征	肿瘤
+ovarian cancer	卵巢癌	肿瘤
+cervical cancer	宫颈癌	肿瘤
+endometrial cancer	子宫内膜癌	肿瘤
+uterine sarcoma	子宫肉瘤	肿瘤
+vulvar cancer	外阴癌	肿瘤
+choriocarcinoma	绒毛膜癌	肿瘤
+Krukenberg tumor	Krukenberg瘤；库肯勃瘤	肿瘤
+thyroid cancer	甲状腺癌	肿瘤
+papillary thyroid carcinoma	甲状腺乳头状癌	肿瘤
+follicular thyroid carcinoma	甲状腺滤泡癌	肿瘤
+medullary thyroid carcinoma	甲状腺髓样癌	肿瘤
+anaplastic thyroid carcinoma	甲状腺未分化癌	肿瘤
+thyroid adenoma	甲状腺腺瘤	肿瘤
+parathyroid carcinoma	甲状旁腺癌	肿瘤
+parathyroid adenoma	甲状旁腺腺瘤	肿瘤
+pituitary adenoma	垂体腺瘤	肿瘤
+pituitary neuroendocrine tumor	垂体神经内分泌肿瘤	肿瘤
+prolactinoma	催乳素瘤；泌乳素瘤	肿瘤
+growth hormone-secreting pituitary adenoma	生长激素腺瘤	肿瘤
+nonfunctioning pituitary adenoma	无功能垂体腺瘤	肿瘤
+craniopharyngioma	颅咽管瘤	肿瘤
+head and neck cancer	头颈部癌；头颈部肿瘤	肿瘤
+nasopharyngeal carcinoma	鼻咽癌	肿瘤
+laryngeal cancer	喉癌	肿瘤
+oral cancer	口腔癌	肿瘤
+tongue cancer	舌癌	肿瘤
+oropharyngeal cancer	口咽癌	肿瘤
+hypopharyngeal cancer	下咽癌	肿瘤
+pleomorphic adenoma	多形性腺瘤	肿瘤
+Warthin tumor	Warthin瘤；腺淋巴瘤	肿瘤
+esthesioneuroblastoma	嗅神经母细胞瘤	肿瘤
+brain tumor	脑肿瘤	肿瘤
+glioma	胶质瘤	肿瘤
+low-grade glioma	低级别胶质瘤	肿瘤
+high-grade glioma	高级别胶质瘤	肿瘤
+glioblastoma	胶质母细胞瘤	肿瘤
+astrocytoma	星形细胞瘤	肿瘤
+oligodendroglioma	少突胶质细胞瘤	肿瘤
+ependymoma	室管膜瘤	肿瘤
+medulloblastoma	髓母细胞瘤	肿瘤
+germinoma	生殖细胞瘤	肿瘤
+hemangioblastoma	血管母细胞瘤	肿瘤
+meningioma	脑膜瘤	肿瘤
+acoustic neuroma	听神经瘤	肿瘤
+vestibular schwannoma	前庭神经鞘瘤	肿瘤
+schwannoma	神经鞘瘤	肿瘤
+neurofibroma	神经纤维瘤	肿瘤
+spinal cord tumor	脊髓肿瘤	肿瘤
+primary central nervous system lymphoma	原发性中枢神经系统淋巴瘤	肿瘤
+brain metastasis	脑转移瘤	肿瘤
+leptomeningeal metastasis	软脑膜转移	肿瘤
+carcinomatous meningitis	癌性脑膜炎	肿瘤
+bone metastasis	骨转移	肿瘤
+metastatic spinal cord compression	转移性脊髓压迫	肿瘤
+melanoma	黑色素瘤	肿瘤
+malignant melanoma	恶性黑色素瘤	肿瘤
+acral lentiginous melanoma	肢端雀斑样黑色素瘤	肿瘤
+basal cell carcinoma	基底细胞癌	肿瘤
+cutaneous squamous cell carcinoma	皮肤鳞状细胞癌	肿瘤
+Bowen's disease	鲍恩病；Bowen病	肿瘤
+Merkel cell carcinoma	Merkel细胞癌；梅克尔细胞癌	肿瘤
+extramammary Paget's disease	乳房外Paget病；乳房外佩吉特病	肿瘤
+Kaposi sarcoma	卡波西肉瘤	肿瘤
+dermatofibrosarcoma protuberans	隆突性皮肤纤维肉瘤	肿瘤
+soft tissue sarcoma	软组织肉瘤	肿瘤
+liposarcoma	脂肪肉瘤	肿瘤
+leiomyosarcoma	平滑肌肉瘤	肿瘤
+rhabdomyosarcoma	横纹肌肉瘤	肿瘤
+synovial sarcoma	滑膜肉瘤	肿瘤
+angiosarcoma	血管肉瘤	肿瘤
+undifferentiated pleomorphic sarcoma	未分化多形性肉瘤	肿瘤
+osteosarcoma	骨肉瘤	肿瘤
+Ewing sarcoma	尤因肉瘤	肿瘤
+chondrosarcoma	软骨肉瘤	肿瘤
+chordoma	脊索瘤	肿瘤
+desmoid tumor	韧带样纤维瘤病；硬纤维瘤	肿瘤
+solitary fibrous tumor	孤立性纤维性肿瘤	肿瘤
+inflammatory myofibroblastic tumor	炎性肌纤维母细胞瘤	肿瘤
+lipoma	脂肪瘤	肿瘤
+hemangioma	血管瘤	肿瘤
+leiomyoma	平滑肌瘤	肿瘤
+adenoma	腺瘤	肿瘤
+papilloma	乳头状瘤	肿瘤
+fibroma	纤维瘤	肿瘤
+hamartoma	错构瘤	肿瘤
+teratoma	畸胎瘤	肿瘤
+atrial myxoma	心房黏液瘤	肿瘤
+von Hippel-Lindau disease	von Hippel-Lindau病；VHL病	肿瘤
+Li-Fraumeni syndrome	Li-Fraumeni综合征	肿瘤
+leukemia	白血病	肿瘤
+acute leukemia	急性白血病	肿瘤
+chronic leukemia	慢性白血病	肿瘤
+acute myeloid leukemia	急性髓系白血病（AML）	肿瘤
+acute promyelocytic leukemia	急性早幼粒细胞白血病（APL）	肿瘤
+acute myelomonocytic leukemia	急性粒-单核细胞白血病	肿瘤
+acute monocytic leukemia	急性单核细胞白血病	肿瘤
+acute erythroleukemia	急性红白血病	肿瘤
+acute megakaryoblastic leukemia	急性巨核细胞白血病	肿瘤
+acute lymphoblastic leukemia	急性淋巴细胞白血病（ALL）	肿瘤
+Philadelphia chromosome-positive acute lymphoblastic leukemia	费城染色体阳性急性淋巴细胞白血病（Ph+ ALL）	肿瘤
+mixed phenotype acute leukemia	混合表型急性白血病	肿瘤
+chronic myeloid leukemia	慢性髓系白血病；慢性粒细胞白血病（CML）	肿瘤
+chronic lymphocytic leukemia	慢性淋巴细胞白血病（CLL）	肿瘤
+chronic myelomonocytic leukemia	慢性粒-单核细胞白血病（CMML）	肿瘤
+chronic neutrophilic leukemia	慢性中性粒细胞白血病	肿瘤
+chronic eosinophilic leukemia	慢性嗜酸性粒细胞白血病	肿瘤
+hairy cell leukemia	毛细胞白血病	肿瘤
+prolymphocytic leukemia	幼淋巴细胞白血病	肿瘤
+large granular lymphocytic leukemia	大颗粒淋巴细胞白血病	肿瘤
+adult T-cell leukemia/lymphoma	成人T细胞白血病/淋巴瘤	肿瘤
+plasma cell leukemia	浆细胞白血病	肿瘤
+myeloid sarcoma	髓系肉瘤；粒细胞肉瘤	肿瘤
+central nervous system leukemia	中枢神经系统白血病	肿瘤
+blast crisis	急变期	肿瘤
+leukostasis	白细胞淤滞	肿瘤
+hyperleukocytosis	高白细胞血症	肿瘤
+minimal residual disease	微小残留病（MRD）	肿瘤
+lymphoma	淋巴瘤	肿瘤
+malignant lymphoma	恶性淋巴瘤	肿瘤
+Hodgkin lymphoma	霍奇金淋巴瘤（HL）	肿瘤
+non-Hodgkin lymphoma	非霍奇金淋巴瘤（NHL）	肿瘤
+diffuse large B-cell lymphoma	弥漫大B细胞淋巴瘤（DLBCL）	肿瘤
+follicular lymphoma	滤泡性淋巴瘤	肿瘤
+mantle cell lymphoma	套细胞淋巴瘤	肿瘤
+marginal zone lymphoma	边缘区淋巴瘤	肿瘤
+small lymphocytic lymphoma	小淋巴细胞淋巴瘤（SLL）	肿瘤
+Burkitt lymphoma	Burkitt淋巴瘤；伯基特淋巴瘤	肿瘤
+lymphoblastic lymphoma	淋巴母细胞淋巴瘤	肿瘤
+primary mediastinal large B-cell lymphoma	原发纵隔大B细胞淋巴瘤	肿瘤
+lymphoplasmacytic lymphoma	淋巴浆细胞淋巴瘤	肿瘤
+Waldenström macroglobulinemia	Waldenström巨球蛋白血症；华氏巨球蛋白血症	肿瘤
+peripheral T-cell lymphoma	外周T细胞淋巴瘤	肿瘤
+anaplastic large cell lymphoma	间变性大细胞淋巴瘤	肿瘤
+angioimmunoblastic T-cell lymphoma	血管免疫母细胞性T细胞淋巴瘤	肿瘤
+extranodal NK/T-cell lymphoma	结外NK/T细胞淋巴瘤	肿瘤
+cutaneous T-cell lymphoma	皮肤T细胞淋巴瘤	肿瘤
+mycosis fungoides	蕈样肉芽肿	肿瘤
+Sézary syndrome	Sézary综合征；塞扎里综合征	肿瘤
+post-transplant lymphoproliferative disorder	移植后淋巴组织增殖性疾病（PTLD）	肿瘤
+multiple myeloma	多发性骨髓瘤（MM）	肿瘤
+smoldering multiple myeloma	冒烟型多发性骨髓瘤	肿瘤
+plasmacytoma	浆细胞瘤	肿瘤
+heavy chain disease	重链病	肿瘤
+oncologic emergency	肿瘤急症	肿瘤
+tumor lysis syndrome	肿瘤溶解综合征	肿瘤
+hypercalcemia of malignancy	恶性肿瘤相关高钙血症	肿瘤
+malignant ascites	恶性腹水	肿瘤
+malignant pericardial effusion	恶性心包积液	肿瘤
+cancer-associated thrombosis	肿瘤相关血栓形成	肿瘤
+Trousseau syndrome	Trousseau综合征；特鲁索综合征	肿瘤
+cancer pain	癌痛；癌性疼痛	肿瘤
+cancer cachexia	癌症恶病质；肿瘤恶病质	肿瘤
+cancer-related fatigue	癌因性疲乏	肿瘤
+myelosuppression	骨髓抑制	肿瘤
+chemotherapy-induced nausea and vomiting	化疗所致恶心呕吐（CINV）	肿瘤
+chemotherapy-induced peripheral neuropathy	化疗所致周围神经病	肿瘤
+hand-foot syndrome	手足综合征	肿瘤
+cytokine release syndrome	细胞因子释放综合征（CRS）	肿瘤
+immune effector cell-associated neurotoxicity syndrome	免疫效应细胞相关神经毒性综合征（ICANS）	肿瘤
+immune-related adverse event	免疫相关不良事件（irAE）	肿瘤
+checkpoint inhibitor pneumonitis	免疫检查点抑制剂相关肺炎	肿瘤
+radiation-induced lung injury	放射性肺损伤	肿瘤
+geriatric syndrome	老年综合征	老年医学
+aging	衰老；老化	老年医学
+senescence	衰老	老年医学
+frailty	衰弱	老年医学
+pre-frailty	衰弱前期	老年医学
+cognitive frailty	认知衰弱	老年医学
+sarcopenia	肌少症；肌肉减少症	老年医学
+fall	跌倒	老年医学
+polypharmacy	多重用药	老年医学
+potentially inappropriate medication	潜在不适当用药	老年医学
+multimorbidity	共病；多病共存	老年医学
+senile dementia	老年性痴呆	老年医学
+pressure injury	压力性损伤	老年医学
+pressure ulcer	压疮；压力性溃疡	老年医学
+decubitus ulcer	褥疮	老年医学
+disuse syndrome	失用综合征	老年医学
+postoperative cognitive dysfunction	术后认知功能障碍	老年医学
+sundown syndrome	日落综合征	老年医学
+senile pruritus	老年性瘙痒症	老年医学
+senile purpura	老年性紫癜	老年医学
+senile osteoporosis	老年性骨质疏松症	老年医学
+anorexia of aging	老年性厌食	老年医学
+silent aspiration	隐性误吸	老年医学
+elder abuse	虐待老人	老年医学
+wild-type transthyretin amyloidosis	野生型转甲状腺素蛋白淀粉样变性	老年医学
+acute poisoning	急性中毒	中毒与理化损伤
+chronic poisoning	慢性中毒	中毒与理化损伤
+drug overdose	药物过量	中毒与理化损伤
+pesticide poisoning	农药中毒	中毒与理化损伤
+organophosphate poisoning	有机磷杀虫药中毒；有机磷农药中毒	中毒与理化损伤
+intermediate syndrome	中间综合征	中毒与理化损伤
+organophosphate-induced delayed polyneuropathy	有机磷迟发性神经病	中毒与理化损伤
+carbamate insecticide poisoning	氨基甲酸酯类杀虫剂中毒	中毒与理化损伤
+pyrethroid poisoning	拟除虫菊酯类杀虫剂中毒	中毒与理化损伤
+paraquat poisoning	百草枯中毒	中毒与理化损伤
+tetramine poisoning	毒鼠强中毒	中毒与理化损伤
+carbon monoxide poisoning	一氧化碳中毒	中毒与理化损伤
+delayed encephalopathy after carbon monoxide poisoning	一氧化碳中毒迟发性脑病	中毒与理化损伤
+hydrogen sulfide poisoning	硫化氢中毒	中毒与理化损伤
+cyanide poisoning	氰化物中毒	中毒与理化损伤
+nitrite poisoning	亚硝酸盐中毒	中毒与理化损伤
+acute alcohol intoxication	急性酒精中毒	中毒与理化损伤
+methanol poisoning	甲醇中毒	中毒与理化损伤
+ethylene glycol poisoning	乙二醇中毒	中毒与理化损伤
+benzodiazepine poisoning	苯二氮䓬类药物中毒	中毒与理化损伤
+barbiturate poisoning	巴比妥类药物中毒	中毒与理化损伤
+opioid overdose	阿片类药物过量	中毒与理化损伤
+acetaminophen poisoning	对乙酰氨基酚中毒	中毒与理化损伤
+salicylate poisoning	水杨酸盐中毒	中毒与理化损伤
+tricyclic antidepressant poisoning	三环类抗抑郁药中毒	中毒与理化损伤
+lithium toxicity	锂中毒	中毒与理化损伤
+lead poisoning	铅中毒	中毒与理化损伤
+mercury poisoning	汞中毒	中毒与理化损伤
+arsenic poisoning	砷中毒	中毒与理化损伤
+mushroom poisoning	毒蕈中毒；蘑菇中毒	中毒与理化损伤
+snakebite	蛇咬伤	中毒与理化损伤
+heat stroke	热射病；中暑	中毒与理化损伤
+heat exhaustion	热衰竭	中毒与理化损伤
+heat cramp	热痉挛	中毒与理化损伤
+hypothermia	低体温；体温过低	中毒与理化损伤
+frostbite	冻伤	中毒与理化损伤
+drowning	淹溺；溺水	中毒与理化损伤
+electrical injury	电击伤	中毒与理化损伤
+acute mountain sickness	急性高原病；急性高山病	中毒与理化损伤
+high-altitude cerebral edema	高原脑水肿	中毒与理化损伤
+chronic mountain sickness	慢性高原病	中毒与理化损伤
+decompression sickness	减压病	中毒与理化损伤
+acute radiation syndrome	急性放射病	中毒与理化损伤
+motion sickness	晕动病	中毒与理化损伤
+fever	发热	症状与体征
+pyrexia	发热	症状与体征
+hyperthermia	体温过高	症状与体征
+hyperpyrexia	超高热	症状与体征
+low-grade fever	低热	症状与体征
+high fever	高热	症状与体征
+continued fever	稽留热	症状与体征
+remittent fever	弛张热	症状与体征
+intermittent fever	间歇热	症状与体征
+undulant fever	波状热	症状与体征
+irregular fever	不规则热	症状与体征
+fever of unknown origin	不明原因发热（FUO）	症状与体征
+chill	寒战；发冷	症状与体征
+rigor	寒战	症状与体征
+night sweat	盗汗	症状与体征
+diaphoresis	大汗；出汗	症状与体征
+cold sweat	冷汗	症状与体征
+fatigue	疲乏；乏力	症状与体征
+malaise	不适；全身不适	症状与体征
+weakness	无力；乏力	症状与体征
+asthenia	虚弱；乏力	症状与体征
+weight loss	体重减轻	症状与体征
+weight gain	体重增加	症状与体征
+cachexia	恶病质	症状与体征
+emaciation	消瘦	症状与体征
+anorexia	食欲不振；厌食	症状与体征
+pallor	苍白；面色苍白	症状与体征
+flushing	潮红；面部潮红	症状与体征
+cyanosis	发绀	症状与体征
+central cyanosis	中心性发绀	症状与体征
+peripheral cyanosis	周围性发绀	症状与体征
+jaundice	黄疸	症状与体征
+icterus	黄疸	症状与体征
+scleral icterus	巩膜黄染	症状与体征
+hemolytic jaundice	溶血性黄疸	症状与体征
+hepatocellular jaundice	肝细胞性黄疸	症状与体征
+obstructive jaundice	梗阻性黄疸；阻塞性黄疸	症状与体征
+cholestatic jaundice	胆汁淤积性黄疸	症状与体征
+edema	水肿	症状与体征
+pitting edema	凹陷性水肿	症状与体征
+non-pitting edema	非凹陷性水肿	症状与体征
+generalized edema	全身性水肿	症状与体征
+anasarca	全身水肿；全身性水肿	症状与体征
+peripheral edema	外周水肿	症状与体征
+facial edema	面部水肿	症状与体征
+periorbital edema	眶周水肿	症状与体征
+dependent edema	下垂性水肿	症状与体征
+lymphedema	淋巴水肿	症状与体征
+lymphadenopathy	淋巴结肿大；淋巴结病	症状与体征
+generalized lymphadenopathy	全身淋巴结肿大	症状与体征
+hilar lymphadenopathy	肺门淋巴结肿大	症状与体征
+Virchow's node	Virchow淋巴结；魏尔啸淋巴结	症状与体征
+Sister Mary Joseph nodule	Sister Mary Joseph结节	症状与体征
+pain	疼痛	症状与体征
+chronic pain	慢性疼痛	症状与体征
+referred pain	牵涉痛	症状与体征
+shock	休克	症状与体征
+hypovolemic shock	低血容量性休克	症状与体征
+hemorrhagic shock	失血性休克	症状与体征
+distributive shock	分布性休克	症状与体征
+obstructive shock	梗阻性休克	症状与体征
+neurogenic shock	神经源性休克	症状与体征
+hemorrhage	出血	症状与体征
+cough	咳嗽	症状与体征
+dry cough	干咳	症状与体征
+productive cough	咳痰性咳嗽；湿性咳嗽	症状与体征
+chronic cough	慢性咳嗽	症状与体征
+sputum	痰	症状与体征
+expectoration	咳痰	症状与体征
+purulent sputum	脓痰	症状与体征
+rusty sputum	铁锈色痰	症状与体征
+pink frothy sputum	粉红色泡沫痰	症状与体征
+blood-streaked sputum	痰中带血	症状与体征
+hemoptysis	咯血	症状与体征
+massive hemoptysis	大咯血	症状与体征
+dyspnea	呼吸困难	症状与体征
+shortness of breath	气短；气促	症状与体征
+exertional dyspnea	劳力性呼吸困难	症状与体征
+orthopnea	端坐呼吸	症状与体征
+paroxysmal nocturnal dyspnea	夜间阵发性呼吸困难	症状与体征
+platypnea	平卧呼吸	症状与体征
+trepopnea	转卧呼吸	症状与体征
+inspiratory dyspnea	吸气性呼吸困难	症状与体征
+expiratory dyspnea	呼气性呼吸困难	症状与体征
+tachypnea	呼吸急促	症状与体征
+bradypnea	呼吸过缓	症状与体征
+apnea	呼吸暂停	症状与体征
+hypopnea	低通气	症状与体征
+hyperventilation	过度通气	症状与体征
+hypoventilation	通气不足；低通气	症状与体征
+Kussmaul respiration	Kussmaul呼吸；酸中毒大呼吸	症状与体征
+Cheyne-Stokes respiration	潮式呼吸；陈-施呼吸	症状与体征
+Biot respiration	间停呼吸；Biot呼吸	症状与体征
+paradoxical respiration	反常呼吸	症状与体征
+nasal flaring	鼻翼扇动	症状与体征
+wheezing	喘息	症状与体征
+wheeze	哮鸣音	症状与体征
+stridor	喘鸣	症状与体征
+rale	啰音	症状与体征
+moist rale	湿啰音	症状与体征
+dry rale	干啰音	症状与体征
+crackle	爆裂音；湿啰音	症状与体征
+fine crackle	细湿啰音；细爆裂音	症状与体征
+coarse crackle	粗湿啰音	症状与体征
+Velcro crackle	Velcro啰音	症状与体征
+rhonchus	鼾音；干啰音	症状与体征
+pleural friction rub	胸膜摩擦音	症状与体征
+vesicular breath sound	肺泡呼吸音	症状与体征
+bronchial breath sound	支气管呼吸音	症状与体征
+diminished breath sound	呼吸音减弱	症状与体征
+tactile fremitus	触觉语颤	症状与体征
+vocal fremitus	语音震颤	症状与体征
+vocal resonance	语音共振	症状与体征
+egophony	羊鸣音	症状与体征
+whispered pectoriloquy	耳语音增强	症状与体征
+resonance	清音	症状与体征
+dullness	浊音	症状与体征
+flatness	实音	症状与体征
+hyperresonance	过清音	症状与体征
+tympany	鼓音	症状与体征
+barrel chest	桶状胸	症状与体征
+tracheal deviation	气管移位；气管偏移	症状与体征
+mediastinal shift	纵隔移位	症状与体征
+subcutaneous emphysema	皮下气肿	症状与体征
+crepitus	捻发音；捻发感	症状与体征
+clubbed finger	杵状指	症状与体征
+clubbing	杵状指	症状与体征
+chest pain	胸痛	症状与体征
+pleuritic chest pain	胸膜炎性胸痛	症状与体征
+chest tightness	胸闷	症状与体征
+hiccup	呃逆	症状与体征
+snoring	打鼾	症状与体征
+hoarseness	声音嘶哑	症状与体征
+rhinorrhea	流涕	症状与体征
+nasal congestion	鼻塞	症状与体征
+sore throat	咽痛	症状与体征
+hypoxemia	低氧血症	症状与体征
+hypoxia	缺氧	症状与体征
+hypercapnia	高碳酸血症	症状与体征
+consolidation	实变；肺实变	症状与体征
+pulmonary cavity	肺空洞	症状与体征
+ground-glass opacity	磨玻璃影	症状与体征
+honeycombing	蜂窝肺	症状与体征
+air bronchogram	支气管充气征	症状与体征
+tree-in-bud sign	树芽征	症状与体征
+halo sign	晕征	症状与体征
+reversed halo sign	反晕征	症状与体征
+air crescent sign	空气新月征	症状与体征
+bat wing sign	蝶翼征	症状与体征
+Kerley B line	Kerley B线	症状与体征
+pulmonary hyperinflation	肺过度充气	症状与体征
+palpitation	心悸	症状与体征
+syncope	晕厥	症状与体征
+presyncope	晕厥前兆；先兆晕厥	症状与体征
+tachycardia	心动过速	症状与体征
+bradycardia	心动过缓	症状与体征
+pulse deficit	脉搏短绌	症状与体征
+pulsus paradoxus	奇脉	症状与体征
+pulsus alternans	交替脉	症状与体征
+water hammer pulse	水冲脉	症状与体征
+pulsus parvus et tardus	细迟脉	症状与体征
+thready pulse	细脉	症状与体征
+bigeminal pulse	二联脉	症状与体征
+wide pulse pressure	脉压增大	症状与体征
+narrow pulse pressure	脉压减小	症状与体征
+murmur	杂音	症状与体征
+heart murmur	心脏杂音	症状与体征
+systolic murmur	收缩期杂音	症状与体征
+diastolic murmur	舒张期杂音	症状与体征
+continuous murmur	连续性杂音	症状与体征
+holosystolic murmur	全收缩期杂音	症状与体征
+ejection systolic murmur	收缩期喷射性杂音	症状与体征
+machinery murmur	机器样杂音	症状与体征
+functional murmur	功能性杂音	症状与体征
+Austin Flint murmur	Austin Flint杂音	症状与体征
+Graham Steell murmur	Graham Steell杂音	症状与体征
+first heart sound	第一心音（S1）	症状与体征
+second heart sound	第二心音（S2）	症状与体征
+third heart sound	第三心音（S3）	症状与体征
+fourth heart sound	第四心音（S4）	症状与体征
+splitting of second heart sound	第二心音分裂	症状与体征
+fixed splitting	固定分裂	症状与体征
+paradoxical splitting	反常分裂	症状与体征
+gallop rhythm	奔马律	症状与体征
+opening snap	开瓣音	症状与体征
+ejection click	喷射音	症状与体征
+mid-systolic click	收缩中晚期喀喇音	症状与体征
+pericardial friction rub	心包摩擦音	症状与体征
+pericardial knock	心包叩击音	症状与体征
+thrill	震颤	症状与体征
+apical impulse	心尖搏动	症状与体征
+lifting apical impulse	抬举性心尖搏动	症状与体征
+cardiac dullness	心浊音界	症状与体征
+jugular venous distension	颈静脉怒张	症状与体征
+hepatojugular reflux	肝颈静脉回流征	症状与体征
+Kussmaul sign	Kussmaul征；库斯莫尔征	症状与体征
+Beck triad	Beck三联征；贝克三联征	症状与体征
+Duroziez sign	Duroziez征；Duroziez双重杂音	症状与体征
+de Musset sign	de Musset征；点头征	症状与体征
+capillary pulsation sign	毛细血管搏动征	症状与体征
+pistol shot sound	枪击音	症状与体征
+vascular bruit	血管杂音	症状与体征
+carotid bruit	颈动脉杂音	症状与体征
+abdominal bruit	腹部血管杂音	症状与体征
+venous hum	静脉营营音	症状与体征
+Osler node	Osler结节；奥斯勒结节	症状与体征
+Janeway lesion	Janeway损害；詹韦损害	症状与体征
+Roth spot	Roth斑	症状与体征
+splinter hemorrhage	裂片形出血；甲下线状出血	症状与体征
+Levine sign	Levine征	症状与体征
+Homans sign	Homans征；霍曼斯征	症状与体征
+intermittent claudication	间歇性跛行	症状与体征
+mitral facies	二尖瓣面容	症状与体征
+ST-segment elevation	ST段抬高	症状与体征
+ST-segment depression	ST段压低	症状与体征
+T wave inversion	T波倒置	症状与体征
+pathological Q wave	病理性Q波	症状与体征
+QT prolongation	QT间期延长	症状与体征
+low voltage	低电压	症状与体征
+electrical alternans	电交替	症状与体征
+delta wave	δ波；预激波	症状与体征
+Osborn wave	Osborn波；J波	症状与体征
+P mitrale	二尖瓣型P波	症状与体征
+P pulmonale	肺型P波	症状与体征
+nausea	恶心	症状与体征
+vomiting	呕吐	症状与体征
+projectile vomiting	喷射性呕吐	症状与体征
+hematemesis	呕血	症状与体征
+coffee-ground vomitus	咖啡渣样呕吐物	症状与体征
+melena	黑便；柏油样便	症状与体征
+tarry stool	柏油样便	症状与体征
+hematochezia	便血；鲜血便	症状与体征
+fecal occult blood	粪便隐血；大便潜血	症状与体征
+diarrhea	腹泻	症状与体征
+acute diarrhea	急性腹泻	症状与体征
+chronic diarrhea	慢性腹泻	症状与体征
+watery diarrhea	水样泻	症状与体征
+bloody diarrhea	血性腹泻	症状与体征
+mucopurulent bloody stool	黏液脓血便	症状与体征
+steatorrhea	脂肪泻	症状与体征
+constipation	便秘	症状与体征
+change in bowel habit	排便习惯改变	症状与体征
+tenesmus	里急后重	症状与体征
+fecal incontinence	大便失禁	症状与体征
+abdominal pain	腹痛	症状与体征
+acute abdomen	急腹症	症状与体征
+epigastric pain	上腹痛	症状与体征
+colicky pain	绞痛	症状与体征
+abdominal distension	腹胀	症状与体征
+bloating	腹胀；胀气	症状与体征
+flatulence	胃肠胀气；排气过多	症状与体征
+borborygmus	肠鸣	症状与体征
+bowel sound	肠鸣音	症状与体征
+hyperactive bowel sound	肠鸣音亢进	症状与体征
+absent bowel sound	肠鸣音消失	症状与体征
+succussion splash	振水音	症状与体征
+visible peristalsis	胃肠蠕动波	症状与体征
+heartburn	烧心；胃灼热	症状与体征
+pyrosis	胃灼热	症状与体征
+acid regurgitation	反酸	症状与体征
+regurgitation	反流；反食	症状与体征
+belching	嗳气	症状与体征
+eructation	嗳气	症状与体征
+dyspepsia	消化不良	症状与体征
+early satiety	早饱	症状与体征
+dysphagia	吞咽困难	症状与体征
+odynophagia	吞咽痛	症状与体征
+globus sensation	癔球症；咽异物感	症状与体征
+ascites	腹水	症状与体征
+shifting dullness	移动性浊音	症状与体征
+fluid wave	液波震颤	症状与体征
+abdominal mass	腹部肿块	症状与体征
+hepatomegaly	肝大；肝肿大	症状与体征
+splenomegaly	脾大；脾肿大	症状与体征
+hepatosplenomegaly	肝脾大；肝脾肿大	症状与体征
+caput medusae	海蛇头	症状与体征
+abdominal wall varices	腹壁静脉曲张	症状与体征
+spider angioma	蜘蛛痣	症状与体征
+spider nevus	蜘蛛痣	症状与体征
+palmar erythema	肝掌；掌红斑	症状与体征
+asterixis	扑翼样震颤	症状与体征
+flapping tremor	扑翼样震颤	症状与体征
+fetor hepaticus	肝臭	症状与体征
+hepatic facies	肝病面容	症状与体征
+Murphy sign	Murphy征；墨菲征	症状与体征
+McBurney point tenderness	麦氏点压痛	症状与体征
+abdominal tenderness	腹部压痛	症状与体征
+rebound tenderness	反跳痛	症状与体征
+guarding	肌紧张；腹肌紧张	症状与体征
+board-like abdomen	板状腹	症状与体征
+Cullen sign	Cullen征；脐周皮肤青紫	症状与体征
+Grey Turner sign	Grey Turner征；腰胁部皮肤青紫	症状与体征
+Courvoisier sign	Courvoisier征；库瓦西耶征	症状与体征
+pruritus	瘙痒；瘙痒症	症状与体征
+hyperbilirubinemia	高胆红素血症	症状与体征
+hyperammonemia	高氨血症	症状与体征
+hypoalbuminemia	低白蛋白血症	症状与体征
+hypoproteinemia	低蛋白血症	症状与体征
+proteinuria	蛋白尿	症状与体征
+albuminuria	白蛋白尿	症状与体征
+microalbuminuria	微量白蛋白尿	症状与体征
+nephrotic-range proteinuria	肾病范围蛋白尿	症状与体征
+hematuria	血尿	症状与体征
+gross hematuria	肉眼血尿	症状与体征
+microscopic hematuria	镜下血尿	症状与体征
+hemoglobinuria	血红蛋白尿	症状与体征
+myoglobinuria	肌红蛋白尿	症状与体征
+pyuria	脓尿	症状与体征
+bacteriuria	菌尿	症状与体征
+glycosuria	糖尿	症状与体征
+ketonuria	酮尿	症状与体征
+chyluria	乳糜尿	症状与体征
+pneumaturia	气尿	症状与体征
+foamy urine	泡沫尿	症状与体征
+red blood cell cast	红细胞管型	症状与体征
+oliguria	少尿	症状与体征
+anuria	无尿	症状与体征
+polyuria	多尿	症状与体征
+nocturia	夜尿增多	症状与体征
+isosthenuria	等渗尿	症状与体征
+dysuria	尿痛；排尿困难	症状与体征
+urinary frequency	尿频	症状与体征
+urinary urgency	尿急	症状与体征
+urinary retention	尿潴留	症状与体征
+urinary incontinence	尿失禁	症状与体征
+costovertebral angle tenderness	肋脊角叩痛；肾区叩痛	症状与体征
+flank pain	侧腹痛；腰痛	症状与体征
+uremic frost	尿素霜	症状与体征
+nephrotic facies	肾病面容	症状与体征
+headache	头痛	症状与体征
+thunderclap headache	霹雳样头痛	症状与体征
+dizziness	头晕	症状与体征
+vertigo	眩晕	症状与体征
+convulsion	惊厥；抽搐	症状与体征
+coma	昏迷	症状与体征
+stupor	昏睡；木僵	症状与体征
+somnolence	嗜睡	症状与体征
+drowsiness	困倦；嗜睡	症状与体征
+confusion	意识模糊；精神错乱	症状与体征
+clouding of consciousness	意识模糊	症状与体征
+disturbance of consciousness	意识障碍	症状与体征
+altered mental status	意识状态改变；精神状态改变	症状与体征
+paralysis	瘫痪	症状与体征
+paresis	轻瘫	症状与体征
+hemiplegia	偏瘫	症状与体征
+hemiparesis	轻偏瘫	症状与体征
+monoplegia	单瘫	症状与体征
+paraplegia	截瘫	症状与体征
+quadriplegia	四肢瘫	症状与体征
+tetraplegia	四肢瘫	症状与体征
+alternating hemiplegia	交叉性偏瘫	症状与体征
+flaccid paralysis	弛缓性瘫痪；软瘫	症状与体征
+spastic paralysis	痉挛性瘫痪；硬瘫	症状与体征
+bulbar palsy	延髓麻痹；球麻痹	症状与体征
+pseudobulbar palsy	假性延髓麻痹；假性球麻痹	症状与体征
+aphasia	失语；失语症	症状与体征
+motor aphasia	运动性失语	症状与体征
+Broca aphasia	Broca失语；运动性失语	症状与体征
+sensory aphasia	感觉性失语	症状与体征
+Wernicke aphasia	Wernicke失语；感觉性失语	症状与体征
+global aphasia	完全性失语	症状与体征
+conduction aphasia	传导性失语	症状与体征
+anomic aphasia	命名性失语	症状与体征
+dysarthria	构音障碍	症状与体征
+dysphonia	发声困难；发音障碍	症状与体征
+apraxia	失用症	症状与体征
+agnosia	失认症	症状与体征
+hemispatial neglect	偏侧空间忽视；单侧忽略	症状与体征
+amnesia	遗忘；遗忘症	症状与体征
+anterograde amnesia	顺行性遗忘	症状与体征
+retrograde amnesia	逆行性遗忘	症状与体征
+memory impairment	记忆障碍；记忆力减退	症状与体征
+cognitive impairment	认知障碍；认知功能障碍	症状与体征
+ataxia	共济失调	症状与体征
+cerebellar ataxia	小脑性共济失调	症状与体征
+sensory ataxia	感觉性共济失调	症状与体征
+dysmetria	辨距不良	症状与体征
+dysdiadochokinesia	轮替运动障碍	症状与体征
+tremor	震颤	症状与体征
+resting tremor	静止性震颤	症状与体征
+intention tremor	意向性震颤	症状与体征
+postural tremor	姿势性震颤	症状与体征
+muscle rigidity	肌强直	症状与体征
+cogwheel rigidity	齿轮样强直	症状与体征
+lead-pipe rigidity	铅管样强直	症状与体征
+bradykinesia	运动迟缓	症状与体征
+masked face	面具脸；面具样面容	症状与体征
+festinating gait	慌张步态	症状与体征
+spastic gait	痉挛步态	症状与体征
+hemiplegic gait	偏瘫步态；划圈样步态	症状与体征
+scissor gait	剪刀步态	症状与体征
+steppage gait	跨阈步态	症状与体征
+waddling gait	鸭步；摇摆步态	症状与体征
+ataxic gait	共济失调步态	症状与体征
+gait disturbance	步态异常；步态障碍	症状与体征
+involuntary movement	不自主运动	症状与体征
+tic	抽动	症状与体征
+fasciculation	肌束颤动；肌束震颤	症状与体征
+myokymia	肌纤维颤搐	症状与体征
+muscle atrophy	肌萎缩	症状与体征
+muscle weakness	肌无力	症状与体征
+myalgia	肌痛	症状与体征
+muscle cramp	肌肉痛性痉挛	症状与体征
+spasticity	痉挛；痉挛状态	症状与体征
+hypotonia	肌张力减低	症状与体征
+hypertonia	肌张力增高	症状与体征
+hyperreflexia	反射亢进	症状与体征
+hyporeflexia	反射减弱	症状与体征
+areflexia	反射消失	症状与体征
+pathological reflex	病理反射	症状与体征
+Babinski sign	Babinski征；巴宾斯基征	症状与体征
+Chaddock sign	Chaddock征；查多克征	症状与体征
+Oppenheim sign	Oppenheim征；奥本海姆征	症状与体征
+Gordon sign	Gordon征；戈登征	症状与体征
+Hoffmann sign	Hoffmann征；霍夫曼征	症状与体征
+clonus	阵挛	症状与体征
+ankle clonus	踝阵挛	症状与体征
+patellar clonus	髌阵挛	症状与体征
+meningeal irritation sign	脑膜刺激征	症状与体征
+nuchal rigidity	颈强直；颈项强直	症状与体征
+neck stiffness	颈项强直	症状与体征
+Kernig sign	Kernig征；克尼格征	症状与体征
+Brudzinski sign	Brudzinski征；布鲁津斯基征	症状与体征
+Romberg sign	Romberg征；闭目难立征	症状与体征
+Lasègue sign	Lasègue征；直腿抬高试验阳性	症状与体征
+Lhermitte sign	Lhermitte征；莱尔米特征	症状与体征
+Gowers sign	Gowers征；高尔斯征	症状与体征
+pseudohypertrophy	假性肥大	症状与体征
+claw hand	爪形手	症状与体征
+wrist drop	腕下垂	症状与体征
+foot drop	足下垂	症状与体征
+winged scapula	翼状肩胛	症状与体征
+decerebrate rigidity	去大脑强直	症状与体征
+decorticate rigidity	去皮质强直	症状与体征
+opisthotonus	角弓反张	症状与体征
+trismus	牙关紧闭	症状与体征
+risus sardonicus	苦笑面容	症状与体征
+nystagmus	眼球震颤	症状与体征
+diplopia	复视	症状与体征
+ptosis	上睑下垂	症状与体征
+anisocoria	瞳孔不等大	症状与体征
+miosis	瞳孔缩小	症状与体征
+mydriasis	瞳孔散大	症状与体征
+Argyll Robertson pupil	Argyll Robertson瞳孔；阿-罗瞳孔	症状与体征
+papilledema	视乳头水肿；视盘水肿	症状与体征
+visual field defect	视野缺损	症状与体征
+hemianopia	偏盲	症状与体征
+homonymous hemianopia	同向性偏盲	症状与体征
+bitemporal hemianopia	双颞侧偏盲	症状与体征
+amaurosis fugax	一过性黑矇	症状与体征
+blurred vision	视物模糊	症状与体征
+photophobia	畏光	症状与体征
+tinnitus	耳鸣	症状与体征
+anosmia	嗅觉丧失	症状与体征
+dysgeusia	味觉障碍	症状与体征
+paresthesia	感觉异常	症状与体征
+numbness	麻木	症状与体征
+hypoesthesia	感觉减退	症状与体征
+hyperesthesia	感觉过敏	症状与体征
+allodynia	痛觉超敏；触诱发痛	症状与体征
+glove-and-stocking sensory loss	手套-袜套样感觉减退	症状与体征
+radicular pain	根性疼痛；神经根痛	症状与体征
+neuralgia	神经痛	症状与体征
+Cushing reflex	Cushing反射；库欣反射	症状与体征
+hallucination	幻觉	症状与体征
+auditory hallucination	幻听	症状与体征
+command hallucination	命令性幻听	症状与体征
+visual hallucination	幻视	症状与体征
+olfactory hallucination	幻嗅	症状与体征
+gustatory hallucination	幻味	症状与体征
+tactile hallucination	幻触	症状与体征
+hypnagogic hallucination	入睡前幻觉	症状与体征
+pseudohallucination	假性幻觉	症状与体征
+illusion	错觉	症状与体征
+delusion	妄想	症状与体征
+persecutory delusion	被害妄想	症状与体征
+delusion of reference	关系妄想	症状与体征
+grandiose delusion	夸大妄想	症状与体征
+delusion of jealousy	嫉妒妄想	症状与体征
+erotomanic delusion	钟情妄想	症状与体征
+nihilistic delusion	虚无妄想	症状与体征
+hypochondriacal delusion	疑病妄想	症状与体征
+delusion of guilt	罪恶妄想	症状与体征
+ideas of reference	牵连观念	症状与体征
+overvalued idea	超价观念	症状与体征
+thought disorder	思维障碍	症状与体征
+thought insertion	思维插入	症状与体征
+thought withdrawal	思维被夺	症状与体征
+thought broadcasting	思维被广播；思维播散	症状与体征
+thought blocking	思维中断	症状与体征
+flight of ideas	思维奔逸	症状与体征
+poverty of thought	思维贫乏	症状与体征
+loosening of association	联想松弛；思维松弛	症状与体征
+word salad	词语杂拌	症状与体征
+circumstantiality	病理性赘述	症状与体征
+perseveration	持续言语；持续症	症状与体征
+neologism	语词新作	症状与体征
+echolalia	模仿言语	症状与体征
+echopraxia	模仿动作	症状与体征
+obsession	强迫观念；强迫思维	症状与体征
+compulsion	强迫行为	症状与体征
+anxiety	焦虑	症状与体征
+depressed mood	情绪低落；心境低落	症状与体征
+anhedonia	快感缺失	症状与体征
+euphoria	欣快	症状与体征
+elation	情感高涨	症状与体征
+irritability	易激惹	症状与体征
+emotional lability	情感不稳	症状与体征
+blunted affect	情感迟钝	症状与体征
+flat affect	情感平淡	症状与体征
+inappropriate affect	情感倒错；情感不协调	症状与体征
+apathy	情感淡漠；淡漠	症状与体征
+ambivalence	矛盾意向；矛盾情感	症状与体征
+abulia	意志缺乏	症状与体征
+avolition	意志减退	症状与体征
+alogia	言语贫乏	症状与体征
+pressured speech	言语急促；言语迫促	症状与体征
+psychomotor agitation	精神运动性激越	症状与体征
+psychomotor retardation	精神运动性迟滞	症状与体征
+catatonic stupor	紧张性木僵	症状与体征
+waxy flexibility	蜡样屈曲	症状与体征
+negativism	违拗症	症状与体征
+stereotypy	刻板动作；刻板症	症状与体征
+mannerism	作态	症状与体征
+mutism	缄默症	症状与体征
+depersonalization	人格解体	症状与体征
+derealization	现实解体	症状与体征
+déjà vu	似曾相识感	症状与体征
+jamais vu	旧事如新感	症状与体征
+confabulation	虚构	症状与体征
+disorientation	定向障碍	症状与体征
+lack of insight	自知力缺乏	症状与体征
+insomnia	失眠	症状与体征
+hypersomnia	睡眠过多；嗜睡	症状与体征
+rash	皮疹	症状与体征
+macule	斑疹	症状与体征
+papule	丘疹	症状与体征
+maculopapular rash	斑丘疹	症状与体征
+plaque	斑块	症状与体征
+nodule	结节	症状与体征
+vesicle	水疱	症状与体征
+bulla	大疱	症状与体征
+pustule	脓疱	症状与体征
+wheal	风团	症状与体征
+erosion	糜烂	症状与体征
+ulcer	溃疡	症状与体征
+scale	鳞屑	症状与体征
+crust	痂	症状与体征
+lichenification	苔藓样变	症状与体征
+excoriation	抓痕；表皮剥脱	症状与体征
+fissure	皲裂	症状与体征
+atrophy	萎缩	症状与体征
+scar	瘢痕	症状与体征
+erythema	红斑	症状与体征
+petechia	瘀点	症状与体征
+ecchymosis	瘀斑	症状与体征
+purpura	紫癜	症状与体征
+telangiectasia	毛细血管扩张	症状与体征
+hyperpigmentation	色素沉着	症状与体征
+hypopigmentation	色素减退	症状与体征
+depigmentation	色素脱失	症状与体征
+Koebner phenomenon	同形反应；Koebner现象	症状与体征
+Nikolsky sign	Nikolsky征；尼氏征	症状与体征
+Auspitz sign	Auspitz征；点状出血现象	症状与体征
+Darier sign	Darier征	症状与体征
+butterfly rash	蝶形红斑	症状与体征
+malar rash	颊部红斑	症状与体征
+heliotrope rash	向阳性皮疹	症状与体征
+Gottron papule	Gottron丘疹	症状与体征
+Gottron sign	Gottron征	症状与体征
+shawl sign	披肩征	症状与体征
+mechanic's hand	技工手	症状与体征
+sclerodactyly	指端硬化	症状与体征
+digital ulcer	指端溃疡	症状与体征
+calcinosis	钙质沉着	症状与体征
+oral ulcer	口腔溃疡	症状与体征
+xerostomia	口干；口干燥症	症状与体征
+koilonychia	反甲；匙状甲	症状与体征
+leukonychia	白甲	症状与体征
+onycholysis	甲剥离	症状与体征
+nail pitting	甲凹点；顶针样凹陷	症状与体征
+Beau lines	Beau线	症状与体征
+Terry's nails	Terry甲	症状与体征
+arthralgia	关节痛	症状与体征
+joint swelling	关节肿胀	症状与体征
+morning stiffness	晨僵	症状与体征
+inflammatory back pain	炎性腰背痛	症状与体征
+back pain	背痛	症状与体征
+tophus	痛风石	症状与体征
+rheumatoid nodule	类风湿结节	症状与体征
+swan neck deformity	天鹅颈样畸形	症状与体征
+boutonnière deformity	纽扣花样畸形	症状与体征
+ulnar deviation	尺侧偏斜	症状与体征
+Heberden node	Heberden结节；赫伯登结节	症状与体征
+Bouchard node	Bouchard结节；布夏尔结节	症状与体征
+bone pain	骨痛	症状与体征
+hemarthrosis	关节积血	症状与体征
+polydipsia	多饮；烦渴	症状与体征
+polyphagia	多食	症状与体征
+hyperglycemia	高血糖；高血糖症	症状与体征
+fruity breath odor	烂苹果味呼气	症状与体征
+moon face	满月脸	症状与体征
+buffalo hump	水牛背	症状与体征
+central obesity	向心性肥胖；中心性肥胖	症状与体征
+purple striae	紫纹	症状与体征
+exophthalmos	突眼；眼球突出	症状与体征
+lid lag	眼睑迟落	症状与体征
+pretibial myxedema	胫前黏液性水肿	症状与体征
+heat intolerance	怕热	症状与体征
+cold intolerance	怕冷；畏寒	症状与体征
+hirsutism	多毛症	症状与体征
+virilization	男性化	症状与体征
+gynecomastia	男性乳房发育	症状与体征
+galactorrhea	溢乳	症状与体征
+tetany	手足搐搦	症状与体征
+carpopedal spasm	手足痉挛	症状与体征
+Chvostek sign	Chvostek征；面神经叩击征	症状与体征
+Trousseau sign	Trousseau征；陶瑟征	症状与体征
+Whipple triad	Whipple三联征	症状与体征
+acromegalic facies	肢端肥大症面容	症状与体征
+myxedema facies	黏液水肿面容	症状与体征
+hyperthyroid facies	甲亢面容	症状与体征
+anemic facies	贫血面容	症状与体征
+hippocratic facies	希氏面容；病危面容	症状与体征
+Kayser-Fleischer ring	角膜色素环；K-F环	症状与体征
+bleeding tendency	出血倾向	症状与体征
+epistaxis	鼻出血	症状与体征
+gum bleeding	牙龈出血	症状与体征
+glossitis	舌炎	症状与体征
+angular cheilitis	口角炎	症状与体征
+sternal tenderness	胸骨压痛	症状与体征
+hypergammaglobulinemia	高丙种球蛋白血症	症状与体征
+hypogammaglobulinemia	低丙种球蛋白血症	症状与体征
+hypocomplementemia	低补体血症	症状与体征
+hyperlactatemia	高乳酸血症	症状与体征
+sialorrhea	流涎	症状与体征

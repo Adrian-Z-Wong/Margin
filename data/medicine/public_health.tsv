@@ -1,0 +1,3085 @@
+epidemiology	流行病学	流行病学
+descriptive epidemiology	描述流行病学	流行病学
+analytical epidemiology	分析流行病学	流行病学
+experimental epidemiology	实验流行病学	流行病学
+theoretical epidemiology	理论流行病学	流行病学
+clinical epidemiology	临床流行病学	流行病学
+molecular epidemiology	分子流行病学	流行病学
+genetic epidemiology	遗传流行病学	流行病学
+social epidemiology	社会流行病学	流行病学
+environmental epidemiology	环境流行病学	流行病学
+occupational epidemiology	职业流行病学	流行病学
+nutritional epidemiology	营养流行病学	流行病学
+pharmacoepidemiology	药物流行病学	流行病学
+infectious disease epidemiology	传染病流行病学	流行病学
+chronic disease epidemiology	慢性病流行病学	流行病学
+cancer epidemiology	肿瘤流行病学	流行病学
+injury epidemiology	伤害流行病学	流行病学
+field epidemiology	现场流行病学	流行病学
+life course epidemiology	生命历程流行病学	流行病学
+seroepidemiology	血清流行病学	流行病学
+landscape epidemiology	景观流行病学	流行病学
+spatial epidemiology	空间流行病学	流行病学
+migrant epidemiology	移民流行病学	流行病学
+incidence	发病率；发生率	流行病学
+cumulative incidence	累积发病率	流行病学
+incidence density	发病密度	流行病学
+prevalence	患病率；现患率	流行病学
+point prevalence	时点患病率	流行病学
+period prevalence	期间患病率	流行病学
+lifetime prevalence	终生患病率	流行病学
+morbidity	发病；发病率	流行病学
+mortality	死亡；死亡率	流行病学
+mortality rate	死亡率	流行病学
+crude death rate	粗死亡率	流行病学
+age-specific death rate	年龄别死亡率	流行病学
+cause-specific death rate	死因别死亡率	流行病学
+standardized mortality rate	标化死亡率；标准化死亡率	流行病学
+standardized mortality ratio	标准化死亡比（SMR）	流行病学
+proportionate mortality ratio	比例死亡比（PMR）	流行病学
+case fatality rate	病死率	流行病学
+attack rate	罹患率	流行病学
+secondary attack rate	续发率；二代罹患率	流行病学
+infection rate	感染率	流行病学
+cure rate	治愈率	流行病学
+recurrence rate	复发率	流行病学
+disability rate	残疾率	流行病学
+detection rate	检出率	流行病学
+positive rate	阳性率	流行病学
+absolute risk	绝对危险度	流行病学
+excess risk	超额危险度	流行病学
+basic reproduction number	基本再生数；基本繁殖数（R0）	流行病学
+effective reproduction number	有效再生数（Rt）	流行病学
+epidemic threshold	流行阈值	流行病学
+epidemic intensity	流行强度	流行病学
+incubation period	潜伏期	流行病学
+latent period	潜隐期	流行病学
+generation time	世代时间	流行病学
+serial interval	代间隔；序列间隔	流行病学
+infectious period	传染期	流行病学
+prodromal period	前驱期	流行病学
+convalescent period	恢复期	流行病学
+source of infection	传染源	流行病学
+reservoir	储存宿主	流行病学
+carrier	病原携带者	流行病学
+healthy carrier	健康携带者	流行病学
+convalescent carrier	恢复期携带者	流行病学
+incubatory carrier	潜伏期携带者	流行病学
+chronic carrier	慢性携带者	流行病学
+asymptomatic carrier	无症状携带者	流行病学
+route of transmission	传播途径	流行病学
+mode of transmission	传播方式	流行病学
+airborne transmission	空气传播	流行病学
+droplet transmission	飞沫传播	流行病学
+aerosol transmission	气溶胶传播	流行病学
+contact transmission	接触传播	流行病学
+direct contact transmission	直接接触传播	流行病学
+indirect contact transmission	间接接触传播	流行病学
+fecal-oral transmission	粪-口传播	流行病学
+vector-borne transmission	虫媒传播；媒介传播	流行病学
+waterborne transmission	经水传播	流行病学
+foodborne transmission	经食物传播	流行病学
+bloodborne transmission	血液传播；经血传播	流行病学
+vertical transmission	垂直传播	流行病学
+horizontal transmission	水平传播	流行病学
+mother-to-child transmission	母婴传播	流行病学
+sexual transmission	性传播	流行病学
+iatrogenic transmission	医源性传播	流行病学
+mechanical transmission	机械性传播	流行病学
+biological transmission	生物性传播	流行病学
+fomite	污染物品	流行病学
+vector	传播媒介；病媒	流行病学
+susceptible population	易感人群	流行病学
+susceptibility	易感性	流行病学
+herd susceptibility	人群易感性	流行病学
+zoonosis	人兽共患病；人畜共患病	流行病学
+natural focus	自然疫源地	流行病学
+epidemic focus	疫源地	流行病学
+epidemic area	疫区	流行病学
+epidemic	流行	流行病学
+pandemic	大流行	流行病学
+endemic disease	地方病	流行病学
+sporadic	散发	流行病学
+outbreak	暴发	流行病学
+epidemic curve	流行曲线	流行病学
+outbreak investigation	暴发调查	流行病学
+index case	指示病例；索引病例	流行病学
+primary case	原发病例	流行病学
+secondary case	续发病例；二代病例	流行病学
+case definition	病例定义	流行病学
+suspected case	疑似病例	流行病学
+probable case	可能病例	流行病学
+confirmed case	确诊病例	流行病学
+asymptomatic infection	无症状感染	流行病学
+close contact	密切接触者	流行病学
+contact tracing	接触者追踪	流行病学
+superspreader	超级传播者	流行病学
+disease cluster	疾病聚集	流行病学
+common source outbreak	同源暴发	流行病学
+point source outbreak	点源暴发	流行病学
+propagated epidemic	连续传播性流行	流行病学
+seasonality	季节性	流行病学
+secular trend	长期趋势；长期变异	流行病学
+periodicity	周期性	流行病学
+distribution of disease	疾病分布	流行病学
+descriptive study	描述性研究	流行病学
+analytical study	分析性研究	流行病学
+experimental study	实验性研究	流行病学
+observational study	观察性研究	流行病学
+cross-sectional study	横断面研究；现况研究	流行病学
+prevalence survey	患病率调查	流行病学
+census	普查	流行病学
+sampling survey	抽样调查	流行病学
+ecological study	生态学研究	流行病学
+ecological fallacy	生态学谬误	流行病学
+longitudinal study	纵向研究	流行病学
+follow-up study	随访研究	流行病学
+cohort study	队列研究	流行病学
+prospective cohort study	前瞻性队列研究	流行病学
+retrospective cohort study	回顾性队列研究；历史性队列研究	流行病学
+ambispective cohort study	双向性队列研究	流行病学
+fixed cohort	固定队列	流行病学
+dynamic cohort	动态队列	流行病学
+birth cohort	出生队列	流行病学
+exposure	暴露	流行病学
+exposed group	暴露组	流行病学
+unexposed group	非暴露组	流行病学
+dose-response relationship	剂量-反应关系	流行病学
+person-time	人时	流行病学
+person-year	人年	流行病学
+follow-up	随访	流行病学
+loss to follow-up	失访	流行病学
+relative risk	相对危险度；相对风险（RR）	流行病学
+attributable risk	归因危险度；特异危险度（AR）	流行病学
+attributable risk percent	归因危险度百分比（AR%）	流行病学
+population attributable risk	人群归因危险度（PAR）	流行病学
+population attributable fraction	人群归因分值（PAF）	流行病学
+rate difference	率差	流行病学
+rate ratio	率比	流行病学
+case-control study	病例对照研究	流行病学
+nested case-control study	巢式病例对照研究	流行病学
+case-cohort study	病例-队列研究	流行病学
+case-crossover design	病例交叉设计	流行病学
+case-only study	单纯病例研究	流行病学
+case series	病例系列	流行病学
+case report	病例报告	流行病学
+matching	匹配；配比	流行病学
+individual matching	个体匹配	流行病学
+frequency matching	频数匹配；成组匹配	流行病学
+overmatching	匹配过度	流行病学
+odds	比值；优势	流行病学
+odds ratio	比值比；优势比（OR）	流行病学
+twin study	双生子研究	流行病学
+bias	偏倚	流行病学
+selection bias	选择偏倚	流行病学
+information bias	信息偏倚	流行病学
+confounding bias	混杂偏倚	流行病学
+recall bias	回忆偏倚	流行病学
+admission rate bias	入院率偏倚	流行病学
+Berkson bias	伯克森偏倚；入院率偏倚	流行病学
+prevalence-incidence bias	现患病例-新发病例偏倚	流行病学
+Neyman bias	奈曼偏倚	流行病学
+detection signal bias	检出征候偏倚	流行病学
+non-response bias	无应答偏倚	流行病学
+volunteer bias	志愿者偏倚	流行病学
+healthy worker effect	健康工人效应	流行病学
+lead-time bias	领先时间偏倚	流行病学
+length-time bias	病程长短偏倚	流行病学
+overdiagnosis bias	过度诊断偏倚	流行病学
+interviewer bias	调查者偏倚	流行病学
+reporting bias	报告偏倚	流行病学
+measurement bias	测量偏倚	流行病学
+misclassification	错分；错误分类	流行病学
+differential misclassification	差异性错分	流行病学
+non-differential misclassification	非差异性错分	流行病学
+attrition bias	失访偏倚；损耗偏倚	流行病学
+confounding	混杂	流行病学
+confounder	混杂因素；混杂因子	流行病学
+residual confounding	残余混杂	流行病学
+effect modification	效应修饰	流行病学
+effect modifier	效应修饰因子	流行病学
+interaction	交互作用	流行病学
+mediator	中介变量	流行病学
+intermediate variable	中间变量	流行病学
+stratification	分层	流行病学
+standardization	标准化	流行病学
+direct standardization	直接标准化法	流行病学
+indirect standardization	间接标准化法	流行病学
+standard population	标准人口	流行病学
+causal inference	因果推断	流行病学
+causation	因果关系	流行病学
+association	关联	流行病学
+spurious association	虚假关联	流行病学
+indirect association	间接关联	流行病学
+causal association	因果关联	流行病学
+Hill criteria	希尔标准；Hill标准	流行病学
+strength of association	关联强度	流行病学
+biological gradient	生物学梯度	流行病学
+biological plausibility	生物学合理性	流行病学
+necessary cause	必要病因	流行病学
+sufficient cause	充分病因	流行病学
+component cause	组分病因	流行病学
+risk factor	危险因素	流行病学
+protective factor	保护因素	流行病学
+determinant	决定因素	流行病学
+web of causation	病因网	流行病学
+epidemiologic triangle	流行病学三角	流行病学
+wheel model	轮状模型	流行病学
+agent	致病因子	流行病学
+host	宿主	流行病学
+natural history of disease	疾病自然史	流行病学
+disease spectrum	疾病谱	流行病学
+spectrum of infection	感染谱	流行病学
+iceberg phenomenon	冰山现象	流行病学
+population at risk	危险人群	流行病学
+high-risk group	高危人群	流行病学
+surveillance	监测	流行病学
+public health surveillance	公共卫生监测	流行病学
+passive surveillance	被动监测	流行病学
+active surveillance	主动监测	流行病学
+sentinel surveillance	哨点监测	流行病学
+syndromic surveillance	症状监测	流行病学
+sentinel site	哨点	流行病学
+notifiable disease	法定报告传染病；法定传染病	流行病学
+disease reporting	疫情报告	流行病学
+underreporting	漏报	流行病学
+early warning	预警	流行病学
+early warning system	预警系统	流行病学
+death registration	死亡登记	流行病学
+cause-of-death surveillance	死因监测	流行病学
+underlying cause of death	根本死因	流行病学
+disease registry	疾病登记	流行病学
+cancer registry	肿瘤登记	流行病学
+record linkage	记录链接	流行病学
+emerging infectious disease	新发传染病	流行病学
+re-emerging infectious disease	再发传染病	流行病学
+nosocomial infection	医院感染	流行病学
+healthcare-associated infection	医疗保健相关感染	流行病学
+cross infection	交叉感染	流行病学
+endogenous infection	内源性感染	流行病学
+exogenous infection	外源性感染	流行病学
+opportunistic infection	机会性感染	流行病学
+inapparent infection	隐性感染	流行病学
+subclinical infection	亚临床感染	流行病学
+latent infection	潜伏性感染	流行病学
+persistent infection	持续性感染	流行病学
+reinfection	再感染	流行病学
+comorbidity	共病	流行病学
+multimorbidity	多病共存；多重共病	流行病学
+field investigation	现场调查	流行病学
+epidemiological investigation	流行病学调查	流行病学
+disease burden	疾病负担	流行病学
+disability-adjusted life year	伤残调整生命年（DALY）	流行病学
+years of life lost	寿命损失年（YLL）	流行病学
+years lived with disability	伤残损失健康生命年（YLD）	流行病学
+potential years of life lost	潜在减寿年数（PYLL）	流行病学
+life expectancy	期望寿命；预期寿命	流行病学
+healthy life expectancy	健康期望寿命	流行病学
+disability-free life expectancy	无残疾期望寿命	流行病学
+active life expectancy	活动期望寿命	流行病学
+epidemiological transition	流行病学转变	流行病学
+demographic transition	人口转变	流行病学
+demography	人口学	流行病学
+crude birth rate	粗出生率	流行病学
+rate of natural increase	人口自然增长率	流行病学
+dependency ratio	抚养比	流行病学
+population aging	人口老龄化	流行病学
+sex ratio	性别比	流行病学
+population pyramid	人口金字塔	流行病学
+epidemic model	传染病模型	流行病学
+compartmental model	仓室模型	流行病学
+SIR model	SIR模型	流行病学
+SEIR model	SEIR模型	流行病学
+Mendelian randomization	孟德尔随机化	流行病学
+genome-wide association study	全基因组关联研究（GWAS）	流行病学
+linkage analysis	连锁分析	流行病学
+heritability	遗传度；遗传率	流行病学
+gene-environment interaction	基因-环境交互作用	流行病学
+epigenetics	表观遗传学	流行病学
+exposome	暴露组	流行病学
+biomarker	生物标志物	流行病学
+statistics	统计学	医学统计
+medical statistics	医学统计学	医学统计
+biostatistics	生物统计学	医学统计
+health statistics	卫生统计学	医学统计
+vital statistics	生命统计	医学统计
+population	总体	医学统计
+sample	样本	医学统计
+observation unit	观察单位	医学统计
+homogeneity	同质性	医学统计
+variation	变异	医学统计
+sampling	抽样	医学统计
+sampling error	抽样误差	医学统计
+sampling distribution	抽样分布	医学统计
+random sampling	随机抽样	医学统计
+simple random sampling	单纯随机抽样；简单随机抽样	医学统计
+systematic sampling	系统抽样	医学统计
+stratified sampling	分层抽样	医学统计
+cluster sampling	整群抽样	医学统计
+multistage sampling	多阶段抽样	医学统计
+convenience sampling	方便抽样	医学统计
+quota sampling	配额抽样	医学统计
+snowball sampling	滚雪球抽样	医学统计
+purposive sampling	目的抽样；立意抽样	医学统计
+probability proportional to size sampling	概率比例规模抽样（PPS抽样）	医学统计
+complex sampling	复杂抽样	医学统计
+sampling frame	抽样框	医学统计
+sampling unit	抽样单位	医学统计
+sampling weight	抽样权重	医学统计
+design effect	设计效应	医学统计
+finite population correction	有限总体校正	医学统计
+random number	随机数	医学统计
+random number table	随机数字表	医学统计
+sample size	样本量；样本含量	医学统计
+sample size estimation	样本量估计	医学统计
+statistical power	检验效能；统计功效	医学统计
+parameter	参数	医学统计
+statistic	统计量	医学统计
+variable	变量	医学统计
+quantitative variable	定量变量	医学统计
+qualitative variable	定性变量	医学统计
+continuous variable	连续变量	医学统计
+discrete variable	离散变量	医学统计
+categorical variable	分类变量	医学统计
+ordinal variable	有序变量；等级变量	医学统计
+nominal variable	名义变量；无序分类变量	医学统计
+binary variable	二分类变量	医学统计
+dummy variable	哑变量	医学统计
+independent variable	自变量	医学统计
+dependent variable	因变量；应变量	医学统计
+covariate	协变量	医学统计
+latent variable	潜变量	医学统计
+instrumental variable	工具变量	医学统计
+measurement data	计量资料	医学统计
+enumeration data	计数资料	医学统计
+ranked data	等级资料	医学统计
+statistical description	统计描述	医学统计
+descriptive statistics	描述性统计	医学统计
+statistical inference	统计推断	医学统计
+inferential statistics	推断统计	医学统计
+frequency	频数	医学统计
+relative frequency	相对频数；频率	医学统计
+frequency distribution	频数分布	医学统计
+frequency table	频数表	医学统计
+histogram	直方图	医学统计
+bar chart	条图；直条图	医学统计
+pie chart	饼图	医学统计
+line graph	线图	医学统计
+scatter plot	散点图	医学统计
+box plot	箱式图；箱线图	医学统计
+stem-and-leaf plot	茎叶图	医学统计
+mean	均数；平均数	医学统计
+arithmetic mean	算术均数	医学统计
+geometric mean	几何均数	医学统计
+harmonic mean	调和均数	医学统计
+weighted mean	加权均数	医学统计
+median	中位数	医学统计
+mode	众数	医学统计
+percentile	百分位数	医学统计
+quartile	四分位数	医学统计
+interquartile range	四分位数间距（IQR）	医学统计
+range	极差；全距	医学统计
+variance	方差	医学统计
+standard deviation	标准差（SD）	医学统计
+standard error	标准误（SE）	医学统计
+coefficient of variation	变异系数（CV）	医学统计
+skewness	偏度	医学统计
+kurtosis	峰度	医学统计
+skewed distribution	偏态分布	医学统计
+normal distribution	正态分布	医学统计
+standard normal distribution	标准正态分布	医学统计
+binomial distribution	二项分布	医学统计
+Poisson distribution	泊松分布；Poisson分布	医学统计
+t distribution	t分布	医学统计
+chi-square distribution	卡方分布；χ²分布	医学统计
+F distribution	F分布	医学统计
+lognormal distribution	对数正态分布	医学统计
+uniform distribution	均匀分布	医学统计
+exponential distribution	指数分布	医学统计
+Weibull distribution	威布尔分布；Weibull分布	医学统计
+negative binomial distribution	负二项分布	医学统计
+probability	概率	医学统计
+probability density function	概率密度函数	医学统计
+cumulative distribution function	累积分布函数	医学统计
+expected value	期望值	医学统计
+reference range	参考值范围	医学统计
+standard score	标准分；Z分数	医学统计
+central limit theorem	中心极限定理	医学统计
+law of large numbers	大数定律	医学统计
+point estimation	点估计	医学统计
+interval estimation	区间估计	医学统计
+confidence interval	置信区间；可信区间（CI）	医学统计
+confidence level	置信水平；置信度	医学统计
+hypothesis testing	假设检验	医学统计
+null hypothesis	无效假设；零假设	医学统计
+alternative hypothesis	备择假设	医学统计
+significance level	检验水准；显著性水平	医学统计
+P value	P值	医学统计
+statistical significance	统计学显著性；统计学意义	医学统计
+clinical significance	临床意义	医学统计
+type I error	I型错误；第一类错误	医学统计
+type II error	II型错误；第二类错误	医学统计
+one-tailed test	单侧检验	医学统计
+two-tailed test	双侧检验	医学统计
+test statistic	检验统计量	医学统计
+degree of freedom	自由度	医学统计
+critical value	临界值	医学统计
+parametric test	参数检验	医学统计
+nonparametric test	非参数检验	医学统计
+t test	t检验	医学统计
+paired t test	配对t检验	医学统计
+one-sample t test	单样本t检验	医学统计
+two-sample t test	两样本t检验	医学统计
+z test	Z检验；u检验	医学统计
+analysis of variance	方差分析（ANOVA）	医学统计
+one-way analysis of variance	单因素方差分析	医学统计
+two-way analysis of variance	两因素方差分析	医学统计
+repeated measures analysis of variance	重复测量方差分析	医学统计
+analysis of covariance	协方差分析	医学统计
+multivariate analysis of variance	多元方差分析（MANOVA）	医学统计
+sphericity test	球形检验	医学统计
+completely randomized design	完全随机设计	医学统计
+randomized block design	随机区组设计	医学统计
+paired design	配对设计	医学统计
+factorial design	析因设计	医学统计
+Latin square design	拉丁方设计	医学统计
+orthogonal design	正交设计	医学统计
+multiple comparison	多重比较	医学统计
+Bonferroni correction	Bonferroni校正；邦费罗尼校正	医学统计
+LSD test	LSD检验	医学统计
+SNK test	SNK检验	医学统计
+Tukey test	Tukey检验	医学统计
+Dunnett test	Dunnett检验	医学统计
+false discovery rate	错误发现率（FDR）	医学统计
+chi-square test	卡方检验；χ²检验	医学统计
+McNemar test	McNemar检验；配对卡方检验	医学统计
+Fisher exact test	Fisher确切概率法	医学统计
+contingency table	列联表	医学统计
+fourfold table	四格表	医学统计
+Mantel-Haenszel method	Mantel-Haenszel法	医学统计
+rank sum test	秩和检验	医学统计
+rank	秩	医学统计
+Wilcoxon signed-rank test	Wilcoxon符号秩检验	医学统计
+Wilcoxon rank sum test	Wilcoxon秩和检验	医学统计
+Mann-Whitney U test	Mann-Whitney U检验	医学统计
+Kruskal-Wallis test	Kruskal-Wallis检验	医学统计
+Friedman test	Friedman检验	医学统计
+sign test	符号检验	医学统计
+Kolmogorov-Smirnov test	Kolmogorov-Smirnov检验；K-S检验	医学统计
+Shapiro-Wilk test	Shapiro-Wilk检验	医学统计
+normality test	正态性检验	医学统计
+homogeneity of variance	方差齐性	医学统计
+Levene test	Levene检验	医学统计
+correlation	相关	医学统计
+correlation coefficient	相关系数	医学统计
+Pearson correlation coefficient	Pearson相关系数；皮尔逊相关系数	医学统计
+Spearman rank correlation	Spearman秩相关	医学统计
+partial correlation	偏相关	医学统计
+canonical correlation	典型相关	医学统计
+intraclass correlation coefficient	组内相关系数（ICC）	医学统计
+coefficient of determination	决定系数	医学统计
+regression	回归	医学统计
+linear regression	线性回归	医学统计
+simple linear regression	简单线性回归	医学统计
+multiple linear regression	多重线性回归	医学统计
+polynomial regression	多项式回归	医学统计
+nonlinear regression	非线性回归	医学统计
+regression coefficient	回归系数	医学统计
+standardized regression coefficient	标准化回归系数	医学统计
+least squares method	最小二乘法	医学统计
+residual	残差	医学统计
+multicollinearity	多重共线性	医学统计
+variance inflation factor	方差膨胀因子（VIF）	医学统计
+heteroscedasticity	异方差	医学统计
+Cook distance	Cook距离	医学统计
+stepwise regression	逐步回归	医学统计
+ridge regression	岭回归	医学统计
+LASSO regression	LASSO回归	医学统计
+quantile regression	分位数回归	医学统计
+restricted cubic spline	限制性立方样条	医学统计
+logistic regression	logistic回归；逻辑斯谛回归	医学统计
+conditional logistic regression	条件logistic回归	医学统计
+multinomial logistic regression	多项logistic回归；多分类logistic回归	医学统计
+ordinal logistic regression	有序logistic回归	医学统计
+Poisson regression	Poisson回归；泊松回归	医学统计
+negative binomial regression	负二项回归	医学统计
+zero-inflated model	零膨胀模型	医学统计
+generalized linear model	广义线性模型	医学统计
+generalized estimating equation	广义估计方程（GEE）	医学统计
+mixed effects model	混合效应模型	医学统计
+multilevel model	多水平模型	医学统计
+random effect	随机效应	医学统计
+fixed effect	固定效应	医学统计
+maximum likelihood estimation	最大似然估计	医学统计
+likelihood ratio test	似然比检验	医学统计
+Wald test	Wald检验	医学统计
+goodness of fit	拟合优度	医学统计
+Hosmer-Lemeshow test	Hosmer-Lemeshow检验	医学统计
+Akaike information criterion	赤池信息准则（AIC）	医学统计
+Bayesian information criterion	贝叶斯信息准则（BIC）	医学统计
+overfitting	过拟合	医学统计
+cross-validation	交叉验证	医学统计
+bootstrap	自助法	医学统计
+jackknife	刀切法	医学统计
+permutation test	置换检验	医学统计
+survival analysis	生存分析	医学统计
+survival time	生存时间	医学统计
+survival rate	生存率	医学统计
+five-year survival rate	五年生存率	医学统计
+censoring	删失；截尾	医学统计
+censored data	删失数据；截尾数据	医学统计
+right censoring	右删失	医学统计
+left censoring	左删失	医学统计
+interval censoring	区间删失	医学统计
+survival function	生存函数	医学统计
+survival curve	生存曲线	医学统计
+hazard function	风险函数	医学统计
+hazard ratio	风险比（HR）	医学统计
+cumulative hazard	累积风险	医学统计
+median survival time	中位生存时间	医学统计
+Kaplan-Meier method	Kaplan-Meier法；乘积极限法	医学统计
+life table	寿命表；生命表	医学统计
+life table method	寿命表法	医学统计
+log-rank test	对数秩检验；log-rank检验	医学统计
+Cox proportional hazards model	Cox比例风险模型	医学统计
+proportional hazards assumption	比例风险假定	医学统计
+time-dependent covariate	时依协变量	医学统计
+competing risk	竞争风险	医学统计
+multivariate analysis	多因素分析；多变量分析	医学统计
+factor analysis	因子分析	医学统计
+principal component analysis	主成分分析	医学统计
+cluster analysis	聚类分析	医学统计
+discriminant analysis	判别分析	医学统计
+path analysis	通径分析	医学统计
+structural equation model	结构方程模型	医学统计
+time series analysis	时间序列分析	医学统计
+autocorrelation	自相关	医学统计
+stationarity	平稳性	医学统计
+moving average	移动平均	医学统计
+exponential smoothing	指数平滑	医学统计
+ARIMA model	ARIMA模型；自回归积分滑动平均模型	医学统计
+interrupted time series	间断时间序列	医学统计
+joinpoint regression	连接点回归	医学统计
+age-period-cohort model	年龄-时期-队列模型	医学统计
+causal diagram	因果图	医学统计
+directed acyclic graph	有向无环图（DAG）	医学统计
+counterfactual	反事实	医学统计
+potential outcome	潜在结局	医学统计
+average treatment effect	平均处理效应	医学统计
+propensity score	倾向性评分；倾向评分	医学统计
+propensity score matching	倾向性评分匹配	医学统计
+inverse probability weighting	逆概率加权	医学统计
+regression discontinuity design	断点回归设计	医学统计
+E-value	E值	医学统计
+missing data	缺失数据	医学统计
+multiple imputation	多重插补；多重填补	医学统计
+missing completely at random	完全随机缺失（MCAR）	医学统计
+missing at random	随机缺失（MAR）	医学统计
+missing not at random	非随机缺失（MNAR）	医学统计
+outlier	离群值；异常值	医学统计
+data cleaning	数据清理	医学统计
+data transformation	数据转换；变量变换	医学统计
+logarithmic transformation	对数变换	医学统计
+weighting	加权	医学统计
+Bayesian statistics	贝叶斯统计	医学统计
+Bayes theorem	贝叶斯定理	医学统计
+prior probability	先验概率	医学统计
+posterior probability	后验概率	医学统计
+Markov chain Monte Carlo	马尔可夫链蒙特卡洛（MCMC）	医学统计
+Monte Carlo simulation	蒙特卡洛模拟	医学统计
+rate	率	医学统计
+ratio	比	医学统计
+proportion	比例	医学统计
+constituent ratio	构成比	医学统计
+relative number	相对数	医学统计
+crude rate	粗率	医学统计
+standardized rate	标准化率	医学统计
+adjusted rate	调整率	医学统计
+age-adjusted rate	年龄调整率	医学统计
+diagnostic test	诊断试验	医学统计
+sensitivity	灵敏度；敏感度	医学统计
+specificity	特异度	医学统计
+true positive	真阳性	医学统计
+false positive	假阳性	医学统计
+true negative	真阴性	医学统计
+false negative	假阴性	医学统计
+false positive rate	假阳性率；误诊率	医学统计
+false negative rate	假阴性率；漏诊率	医学统计
+positive predictive value	阳性预测值（PPV）	医学统计
+negative predictive value	阴性预测值（NPV）	医学统计
+accuracy	准确度；准确性	医学统计
+Youden index	约登指数	医学统计
+likelihood ratio	似然比	医学统计
+positive likelihood ratio	阳性似然比	医学统计
+negative likelihood ratio	阴性似然比	医学统计
+diagnostic odds ratio	诊断比值比	医学统计
+receiver operating characteristic curve	受试者操作特征曲线（ROC曲线）	医学统计
+area under curve	曲线下面积（AUC）	医学统计
+cutoff value	截断值；临界值	医学统计
+gold standard	金标准	医学统计
+reference standard	参考标准	医学统计
+pretest probability	验前概率	医学统计
+post-test probability	验后概率	医学统计
+parallel test	并联试验	医学统计
+serial test	串联试验	医学统计
+reliability	信度；可靠性	医学统计
+validity	效度；真实性	医学统计
+reproducibility	可重复性；重现性	医学统计
+repeatability	重复性	医学统计
+kappa coefficient	kappa系数；kappa值	医学统计
+Cronbach alpha coefficient	Cronbach α系数；克龙巴赫α系数	医学统计
+internal consistency	内部一致性	医学统计
+test-retest reliability	重测信度	医学统计
+split-half reliability	分半信度	医学统计
+inter-rater reliability	评定者间信度	医学统计
+content validity	内容效度	医学统计
+construct validity	结构效度；构想效度	医学统计
+criterion validity	效标效度	医学统计
+face validity	表面效度	医学统计
+internal validity	内部真实性；内部效度	医学统计
+external validity	外部真实性；外部效度	医学统计
+precision	精确度；精密度	医学统计
+random error	随机误差	医学统计
+systematic error	系统误差	医学统计
+measurement error	测量误差	医学统计
+Bland-Altman plot	Bland-Altman图	医学统计
+effect size	效应量	医学统计
+mean difference	均数差	医学统计
+standardized mean difference	标准化均数差（SMD）	医学统计
+weighted mean difference	加权均数差（WMD）	医学统计
+pooled effect size	合并效应量	医学统计
+heterogeneity	异质性	医学统计
+heterogeneity test	异质性检验	医学统计
+I-squared statistic	I²统计量	医学统计
+fixed effect model	固定效应模型	医学统计
+random effects model	随机效应模型	医学统计
+sensitivity analysis	敏感性分析	医学统计
+subgroup analysis	亚组分析	医学统计
+meta-regression	Meta回归	医学统计
+Egger test	Egger检验	医学统计
+trim and fill method	剪补法	医学统计
+fail-safe number	失效安全数	医学统计
+statistical model	统计模型	医学统计
+prediction model	预测模型	医学统计
+nomogram	列线图	医学统计
+calibration	校准度；校准	医学统计
+discrimination	区分度	医学统计
+C statistic	C统计量	医学统计
+decision curve analysis	决策曲线分析	医学统计
+net reclassification improvement	净重新分类指数（NRI）	医学统计
+machine learning	机器学习	医学统计
+random forest	随机森林	医学统计
+decision tree	决策树	医学统计
+support vector machine	支持向量机	医学统计
+artificial neural network	人工神经网络	医学统计
+deep learning	深度学习	医学统计
+big data	大数据	医学统计
+data mining	数据挖掘	医学统计
+spatial analysis	空间分析	医学统计
+spatial autocorrelation	空间自相关	医学统计
+geographic information system	地理信息系统（GIS）	医学统计
+statistical software	统计软件	医学统计
+clinical trial	临床试验	临床试验
+clinical research	临床研究	临床试验
+randomized controlled trial	随机对照试验（RCT）	临床试验
+non-randomized controlled trial	非随机对照试验	临床试验
+pragmatic trial	实效性试验；实用性试验	临床试验
+explanatory trial	解释性试验	临床试验
+adaptive design	适应性设计	临床试验
+cluster randomized trial	整群随机试验；群随机试验	临床试验
+crossover design	交叉设计	临床试验
+parallel-group design	平行组设计	临床试验
+superiority trial	优效性试验	临床试验
+non-inferiority trial	非劣效性试验	临床试验
+equivalence trial	等效性试验	临床试验
+non-inferiority margin	非劣效界值	临床试验
+equivalence margin	等效界值	临床试验
+bioequivalence	生物等效性	临床试验
+bioavailability	生物利用度	临床试验
+phase I clinical trial	I期临床试验	临床试验
+phase II clinical trial	II期临床试验	临床试验
+phase III clinical trial	III期临床试验	临床试验
+phase IV clinical trial	IV期临床试验	临床试验
+first-in-human study	首次人体试验	临床试验
+dose escalation	剂量递增	临床试验
+maximum tolerated dose	最大耐受剂量（MTD）	临床试验
+dose-limiting toxicity	剂量限制性毒性（DLT）	临床试验
+pharmacokinetics	药代动力学；药动学	临床试验
+pharmacodynamics	药效动力学；药效学	临床试验
+pharmacogenomics	药物基因组学	临床试验
+proof of concept	概念验证	临床试验
+pivotal trial	关键性试验	临床试验
+post-marketing surveillance	上市后监测	临床试验
+multicenter trial	多中心试验	临床试验
+investigator-initiated trial	研究者发起的临床试验	临床试验
+basket trial	篮式试验	临床试验
+umbrella trial	伞式试验	临床试验
+platform trial	平台试验	临床试验
+N-of-1 trial	单病例随机对照试验；N-of-1试验	临床试验
+single-arm trial	单臂试验	临床试验
+real-world study	真实世界研究	临床试验
+real-world data	真实世界数据	临床试验
+real-world evidence	真实世界证据	临床试验
+interventional study	干预性研究	临床试验
+community trial	社区试验	临床试验
+field trial	现场试验	临床试验
+quasi-experiment	类实验；准实验	临床试验
+before-after study	前后对照研究	临床试验
+natural experiment	自然实验	临床试验
+randomization	随机化	临床试验
+random allocation	随机分配	临床试验
+simple randomization	简单随机化	临床试验
+block randomization	区组随机化	临床试验
+stratified randomization	分层随机化	临床试验
+minimization	最小化法	临床试验
+allocation concealment	分配隐藏	临床试验
+allocation ratio	分配比例	临床试验
+randomization list	随机化表；随机表	临床试验
+interactive web response system	交互式网络应答系统（IWRS）	临床试验
+blinding	盲法	临床试验
+single-blind	单盲	临床试验
+double-blind	双盲	临床试验
+triple-blind	三盲	临床试验
+open-label trial	开放标签试验	临床试验
+blinding code	盲底	临床试验
+unblinding	揭盲；破盲	临床试验
+emergency unblinding	紧急揭盲	临床试验
+emergency letter	应急信件	临床试验
+placebo	安慰剂	临床试验
+placebo effect	安慰剂效应	临床试验
+nocebo effect	反安慰剂效应	临床试验
+placebo-controlled trial	安慰剂对照试验	临床试验
+active control	阳性对照；活性对照	临床试验
+negative control	阴性对照	临床试验
+historical control	历史对照	临床试验
+blank control	空白对照	临床试验
+double-dummy technique	双模拟技术	临床试验
+control group	对照组	临床试验
+experimental group	试验组	临床试验
+baseline	基线	临床试验
+baseline characteristic	基线特征	临床试验
+screening period	筛选期	临床试验
+run-in period	导入期	临床试验
+treatment period	治疗期	临床试验
+follow-up period	随访期	临床试验
+washout period	洗脱期	临床试验
+carryover effect	延滞效应；残留效应	临床试验
+visit window	访视窗	临床试验
+inclusion criteria	纳入标准	临床试验
+exclusion criteria	排除标准	临床试验
+eligibility criteria	入选标准；合格标准	临床试验
+recruitment	招募	临床试验
+screening failure	筛选失败	临床试验
+enrollment	入组	临床试验
+withdrawal	退出	临床试验
+dropout	脱落	临床试验
+protocol deviation	方案偏离	临床试验
+protocol violation	方案违背	临床试验
+compliance	依从性	临床试验
+adherence	依从性；遵从性	临床试验
+concomitant medication	合并用药	临床试验
+rescue medication	补救用药；急救药物	临床试验
+contamination	沾染	临床试验
+co-intervention	干扰；共同干预	临床试验
+Hawthorne effect	霍桑效应	临床试验
+regression to the mean	回归均数；趋均数回归	临床试验
+performance bias	实施偏倚	临床试验
+detection bias	测量偏倚；检出偏倚	临床试验
+intention-to-treat analysis	意向性治疗分析（ITT）	临床试验
+per-protocol analysis	符合方案分析（PP）	临床试验
+full analysis set	全分析集（FAS）	临床试验
+per-protocol set	符合方案集（PPS）	临床试验
+safety analysis set	安全性分析集（SS）	临床试验
+last observation carried forward	末次观测值结转（LOCF）	临床试验
+interim analysis	期中分析	临床试验
+futility analysis	无效性分析	临床试验
+data monitoring committee	数据监查委员会（DMC）	临床试验
+data and safety monitoring board	数据安全监查委员会（DSMB）	临床试验
+stopping rule	终止规则	临床试验
+early termination	提前终止	临床试验
+endpoint	终点	临床试验
+primary endpoint	主要终点	临床试验
+secondary endpoint	次要终点	临床试验
+surrogate endpoint	替代终点	临床试验
+composite endpoint	复合终点	临床试验
+clinical endpoint	临床终点	临床试验
+hard endpoint	硬终点	临床试验
+exploratory endpoint	探索性终点	临床试验
+overall survival	总生存期（OS）	临床试验
+progression-free survival	无进展生存期（PFS）	临床试验
+disease-free survival	无病生存期（DFS）	临床试验
+event-free survival	无事件生存期（EFS）	临床试验
+time to progression	疾病进展时间（TTP）	临床试验
+objective response rate	客观缓解率（ORR）	临床试验
+complete response	完全缓解（CR）	临床试验
+partial response	部分缓解（PR）	临床试验
+stable disease	疾病稳定（SD）	临床试验
+progressive disease	疾病进展（PD）	临床试验
+duration of response	缓解持续时间（DOR）	临床试验
+Response Evaluation Criteria in Solid Tumors	实体瘤疗效评价标准（RECIST）	临床试验
+patient-reported outcome	患者报告结局（PRO）	临床试验
+quality of life	生活质量	临床试验
+health-related quality of life	健康相关生活质量（HRQoL）	临床试验
+efficacy	疗效；有效性	临床试验
+effectiveness	效果；实际效果	临床试验
+efficacy evaluation	疗效评价	临床试验
+safety	安全性	临床试验
+adverse event	不良事件（AE）	临床试验
+serious adverse event	严重不良事件（SAE）	临床试验
+adverse drug reaction	药物不良反应（ADR）	临床试验
+suspected unexpected serious adverse reaction	可疑且非预期严重不良反应（SUSAR）	临床试验
+side effect	副作用	临床试验
+Common Terminology Criteria for Adverse Events	常见不良事件评价标准（CTCAE）	临床试验
+Medical Dictionary for Regulatory Activities	监管活动医学词典（MedDRA）	临床试验
+pharmacovigilance	药物警戒	临床试验
+good clinical practice	药物临床试验质量管理规范（GCP）	临床试验
+good laboratory practice	药物非临床研究质量管理规范（GLP）	临床试验
+good manufacturing practice	药品生产质量管理规范（GMP）	临床试验
+International Council for Harmonisation	国际人用药品注册技术协调会（ICH）	临床试验
+drug clinical trial institution	药物临床试验机构	临床试验
+trial site	研究中心；试验中心	临床试验
+site initiation visit	启动访视	临床试验
+close-out visit	关闭访视	临床试验
+investigator	研究者	临床试验
+principal investigator	主要研究者（PI）	临床试验
+sponsor	申办者	临床试验
+contract research organization	合同研究组织（CRO）	临床试验
+site management organization	临床试验现场管理组织（SMO）	临床试验
+clinical research coordinator	临床研究协调员（CRC）	临床试验
+clinical research associate	临床监查员（CRA）	临床试验
+monitor	监查员	临床试验
+monitoring	监查	临床试验
+audit	稽查	临床试验
+inspection	检查；视察	临床试验
+source data	源数据	临床试验
+source document	源文件	临床试验
+source data verification	源数据核查（SDV）	临床试验
+case report form	病例报告表（CRF）	临床试验
+electronic data capture	电子数据采集（EDC）	临床试验
+investigator's brochure	研究者手册（IB）	临床试验
+trial protocol	试验方案	临床试验
+protocol amendment	方案修订	临床试验
+standard operating procedure	标准操作规程（SOP）	临床试验
+essential document	必备文件	临床试验
+trial master file	试验主文件（TMF）	临床试验
+subject	受试者	临床试验
+healthy volunteer	健康志愿者	临床试验
+investigational product	试验用药品	临床试验
+investigational new drug	研究性新药（IND）	临床试验
+new drug application	新药上市申请（NDA）	临床试验
+marketing authorization	上市许可	临床试验
+National Medical Products Administration	国家药品监督管理局（NMPA）	临床试验
+Food and Drug Administration	美国食品药品监督管理局（FDA）	临床试验
+European Medicines Agency	欧洲药品管理局（EMA）	临床试验
+clinical trial registration	临床试验注册	临床试验
+quality control	质量控制	临床试验
+quality assurance	质量保证	临床试验
+data management	数据管理	临床试验
+database lock	数据库锁定	临床试验
+statistical analysis plan	统计分析计划（SAP）	临床试验
+clinical study report	临床研究报告（CSR）	临床试验
+compassionate use	同情使用；同情用药	临床试验
+orphan drug	孤儿药；罕见病用药	临床试验
+generic drug	仿制药	临床试验
+biosimilar	生物类似药	临床试验
+evidence-based medicine	循证医学（EBM）	循证医学
+evidence-based practice	循证实践	循证医学
+evidence-based nursing	循证护理	循证医学
+evidence-based public health	循证公共卫生	循证医学
+evidence-based decision making	循证决策	循证医学
+level of evidence	证据等级；证据水平	循证医学
+grade of recommendation	推荐强度；推荐级别	循证医学
+GRADE system	GRADE系统	循证医学
+evidence pyramid	证据金字塔	循证医学
+best evidence	最佳证据	循证医学
+clinical question	临床问题	循证医学
+PICO principle	PICO原则	循证医学
+critical appraisal	严格评价	循证医学
+clinical practice guideline	临床实践指南	循证医学
+expert consensus	专家共识	循证医学
+Cochrane Collaboration	Cochrane协作网	循证医学
+Cochrane Library	Cochrane图书馆	循证医学
+systematic review	系统评价；系统综述	循证医学
+meta-analysis	Meta分析；荟萃分析	循证医学
+network meta-analysis	网状Meta分析	循证医学
+cumulative meta-analysis	累积Meta分析	循证医学
+individual patient data meta-analysis	个体患者数据Meta分析	循证医学
+overview of systematic reviews	系统评价再评价	循证医学
+narrative review	叙述性综述	循证医学
+scoping review	范围综述	循证医学
+rapid review	快速评价；快速综述	循证医学
+evidence synthesis	证据合成；证据综合	循证医学
+forest plot	森林图	循证医学
+funnel plot	漏斗图	循证医学
+risk of bias	偏倚风险	循证医学
+risk of bias tool	偏倚风险评估工具	循证医学
+Jadad scale	Jadad量表	循证医学
+Newcastle-Ottawa Scale	纽卡斯尔-渥太华量表（NOS）	循证医学
+publication bias	发表偏倚	循证医学
+language bias	语言偏倚	循证医学
+citation bias	引用偏倚	循证医学
+time-lag bias	时滞偏倚	循证医学
+duplicate publication bias	重复发表偏倚	循证医学
+selective reporting	选择性报告	循证医学
+outcome reporting bias	结局报告偏倚	循证医学
+grey literature	灰色文献	循证医学
+literature search	文献检索	循证医学
+search strategy	检索策略	循证医学
+Medical Subject Headings	医学主题词表（MeSH）	循证医学
+Boolean operator	布尔运算符；布尔逻辑运算符	循证医学
+data extraction	资料提取；数据提取	循证医学
+indirectness	间接性	循证医学
+imprecision	不精确性	循证医学
+inconsistency	不一致性	循证医学
+applicability	适用性	循证医学
+generalizability	可推广性；普遍性	循证医学
+number needed to treat	需治疗人数（NNT）	循证医学
+number needed to harm	需伤害人数（NNH）	循证医学
+absolute risk reduction	绝对危险度降低（ARR）	循证医学
+relative risk reduction	相对危险度降低（RRR）	循证医学
+shared decision making	共同决策；医患共同决策	循证医学
+decision analysis	决策分析	循证医学
+clinical decision support system	临床决策支持系统	循证医学
+knowledge translation	知识转化	循证医学
+implementation science	实施科学	循证医学
+comparative effectiveness research	比较效果研究	循证医学
+preventive medicine	预防医学	预防医学
+public health	公共卫生	预防医学
+primary prevention	一级预防；病因预防	预防医学
+secondary prevention	二级预防	预防医学
+tertiary prevention	三级预防	预防医学
+primordial prevention	零级预防；根本预防	预防医学
+high-risk strategy	高危策略	预防医学
+population strategy	全人群策略	预防医学
+prevention paradox	预防悖论	预防医学
+disease prevention and control	疾病预防控制	预防医学
+Centers for Disease Control and Prevention	疾病预防控制中心（CDC）	预防医学
+vaccine	疫苗	预防医学
+vaccination	疫苗接种	预防医学
+immunization	免疫接种	预防医学
+active immunization	主动免疫	预防医学
+passive immunization	被动免疫	预防医学
+artificial active immunization	人工主动免疫	预防医学
+artificial passive immunization	人工被动免疫	预防医学
+herd immunity	群体免疫	预防医学
+herd immunity threshold	群体免疫阈值	预防医学
+expanded program on immunization	扩大免疫规划（EPI）	预防医学
+national immunization program	国家免疫规划	预防医学
+planned immunization	计划免疫	预防医学
+immunization schedule	免疫程序	预防医学
+primary immunization	基础免疫	预防医学
+booster dose	加强剂次；加强针	预防医学
+catch-up vaccination	补种	预防医学
+mass vaccination	群体接种	预防医学
+ring vaccination	环形接种	预防医学
+cold chain	冷链	预防医学
+vaccination coverage	接种率；疫苗接种覆盖率	预防医学
+vaccine efficacy	疫苗效力	预防医学
+vaccine effectiveness	疫苗效果	预防医学
+immunogenicity	免疫原性	预防医学
+seroconversion	血清阳转	预防医学
+seroconversion rate	血清阳转率	预防医学
+seroprevalence	血清阳性率	预防医学
+antibody titer	抗体滴度	预防医学
+geometric mean titer	几何平均滴度（GMT）	预防医学
+adverse event following immunization	疑似预防接种异常反应（AEFI）	预防医学
+contraindication	禁忌证	预防医学
+vaccine hesitancy	疫苗犹豫	预防医学
+live attenuated vaccine	减毒活疫苗	预防医学
+inactivated vaccine	灭活疫苗	预防医学
+subunit vaccine	亚单位疫苗	预防医学
+recombinant vaccine	重组疫苗	预防医学
+conjugate vaccine	结合疫苗	预防医学
+polysaccharide vaccine	多糖疫苗	预防医学
+toxoid	类毒素	预防医学
+mRNA vaccine	mRNA疫苗	预防医学
+viral vector vaccine	病毒载体疫苗	预防医学
+DNA vaccine	DNA疫苗	预防医学
+combined vaccine	联合疫苗	预防医学
+polyvalent vaccine	多价疫苗	预防医学
+adjuvant	佐剂	预防医学
+BCG vaccine	卡介苗	预防医学
+hepatitis B vaccine	乙型肝炎疫苗	预防医学
+hepatitis A vaccine	甲型肝炎疫苗	预防医学
+measles vaccine	麻疹疫苗	预防医学
+MMR vaccine	麻腮风联合疫苗	预防医学
+DTaP vaccine	无细胞百白破联合疫苗	预防医学
+oral polio vaccine	口服脊髓灰质炎疫苗（OPV）	预防医学
+inactivated polio vaccine	脊髓灰质炎灭活疫苗（IPV）	预防医学
+HPV vaccine	人乳头瘤病毒疫苗；HPV疫苗	预防医学
+influenza vaccine	流感疫苗	预防医学
+rabies vaccine	狂犬病疫苗	预防医学
+pneumococcal vaccine	肺炎球菌疫苗	预防医学
+rotavirus vaccine	轮状病毒疫苗	预防医学
+varicella vaccine	水痘疫苗	预防医学
+Japanese encephalitis vaccine	乙型脑炎疫苗；乙脑疫苗	预防医学
+post-exposure prophylaxis	暴露后预防（PEP）	预防医学
+pre-exposure prophylaxis	暴露前预防（PrEP）	预防医学
+chemoprophylaxis	药物预防	预防医学
+immunoglobulin	免疫球蛋白	预防医学
+antitoxin	抗毒素	预防医学
+rabies immunoglobulin	狂犬病免疫球蛋白	预防医学
+screening	筛查	预防医学
+mass screening	人群筛查；群体筛查	预防医学
+selective screening	选择性筛查	预防医学
+opportunistic screening	机会性筛查	预防医学
+multiphasic screening	多项筛查	预防医学
+cancer screening	癌症筛查	预防医学
+lead time	领先时间	预防医学
+number needed to screen	需筛查人数（NNS）	预防医学
+early detection	早期发现	预防医学
+early diagnosis	早期诊断	预防医学
+early treatment	早期治疗	预防医学
+health examination	健康检查；体检	预防医学
+periodic health examination	定期健康检查	预防医学
+quarantine	检疫	预防医学
+isolation	隔离	预防医学
+home quarantine	居家隔离	预防医学
+self-isolation	自我隔离	预防医学
+medical observation	医学观察	预防医学
+quarantine period	检疫期	预防医学
+border quarantine	国境卫生检疫	预防医学
+quarantinable disease	检疫传染病	预防医学
+social distancing	保持社交距离	预防医学
+non-pharmaceutical intervention	非药物干预（NPI）	预防医学
+personal protective equipment	个人防护装备（PPE）	预防医学
+N95 respirator	N95口罩；N95呼吸器	预防医学
+surgical mask	医用外科口罩	预防医学
+hand hygiene	手卫生	预防医学
+standard precaution	标准预防	预防医学
+universal precaution	普遍预防	预防医学
+airborne precaution	空气传播预防	预防医学
+droplet precaution	飞沫传播预防	预防医学
+contact precaution	接触传播预防	预防医学
+negative pressure ward	负压病房	预防医学
+infection control	感染控制	预防医学
+disinfection	消毒	预防医学
+sterilization	灭菌	预防医学
+preventive disinfection	预防性消毒	预防医学
+terminal disinfection	终末消毒	预防医学
+concurrent disinfection	随时消毒	预防医学
+disinfectant	消毒剂	预防医学
+aseptic technique	无菌技术	预防医学
+vector control	病媒控制；媒介控制	预防医学
+vector-borne disease	虫媒传染病；媒介传播疾病	预防医学
+rodent control	灭鼠	预防医学
+insecticide-treated net	药浸蚊帐；经杀虫剂处理的蚊帐	预防医学
+indoor residual spraying	室内滞留喷洒	预防医学
+antimicrobial resistance	抗微生物药物耐药性（AMR）	预防医学
+antimicrobial stewardship	抗菌药物管理	预防医学
+drug resistance	耐药性	预防医学
+multidrug resistance	多重耐药	预防医学
+case management	病例管理	预防医学
+directly observed treatment	直接督导治疗（DOT）	预防医学
+directly observed treatment short-course	直接督导下的短程化疗（DOTS）	预防医学
+elimination	消除	预防医学
+eradication	消灭；根除	预防医学
+emergency response	应急响应	预防医学
+public health emergency	突发公共卫生事件	预防医学
+public health emergency of international concern	国际关注的突发公共卫生事件（PHEIC）	预防医学
+International Health Regulations	国际卫生条例（IHR）	预防医学
+emergency preparedness	应急准备	预防医学
+contingency plan	应急预案	预防医学
+risk communication	风险沟通	预防医学
+risk assessment	风险评估	预防医学
+bioterrorism	生物恐怖	预防医学
+biosafety	生物安全	预防医学
+biosafety level	生物安全防护水平（BSL）	预防医学
+noncommunicable disease	非传染性疾病（NCD）	预防医学
+chronic disease management	慢性病管理	预防医学
+communicable disease	传染病	预防医学
+infectious disease	感染性疾病；传染病	预防医学
+sexually transmitted infection	性传播感染（STI）	预防医学
+sexually transmitted disease	性传播疾病（STD）	预防医学
+risk stratification	风险分层	预防医学
+health management	健康管理	预防医学
+dental caries	龋病；龋齿	预防医学
+oral health	口腔健康	预防医学
+water fluoridation	饮水加氟	预防医学
+pit and fissure sealant	窝沟封闭剂	预防医学
+salt iodization	食盐加碘	预防医学
+universal salt iodization	全民食盐加碘	预防医学
+tobacco control	控烟；烟草控制	预防医学
+environmental health	环境卫生；环境卫生学	环境与职业卫生
+environmental medicine	环境医学	环境与职业卫生
+occupational health	职业卫生；职业健康	环境与职业卫生
+occupational medicine	职业医学	环境与职业卫生
+industrial hygiene	工业卫生	环境与职业卫生
+toxicology	毒理学	环境与职业卫生
+environmental toxicology	环境毒理学	环境与职业卫生
+toxicity	毒性	环境与职业卫生
+acute toxicity	急性毒性	环境与职业卫生
+subchronic toxicity	亚慢性毒性	环境与职业卫生
+chronic toxicity	慢性毒性	环境与职业卫生
+median lethal dose	半数致死量（LD50）	环境与职业卫生
+median lethal concentration	半数致死浓度（LC50）	环境与职业卫生
+no observed adverse effect level	未观察到有害作用水平（NOAEL）	环境与职业卫生
+lowest observed adverse effect level	观察到有害作用的最低水平（LOAEL）	环境与职业卫生
+threshold	阈值	环境与职业卫生
+reference dose	参考剂量（RfD）	环境与职业卫生
+tolerable daily intake	每日耐受摄入量（TDI）	环境与职业卫生
+benchmark dose	基准剂量（BMD）	环境与职业卫生
+dose-effect relationship	剂量-效应关系	环境与职业卫生
+target organ	靶器官	环境与职业卫生
+biotransformation	生物转化	环境与职业卫生
+bioaccumulation	生物蓄积	环境与职业卫生
+biomagnification	生物放大	环境与职业卫生
+bioconcentration	生物浓缩	环境与职业卫生
+biological monitoring	生物监测	环境与职业卫生
+biomarker of exposure	暴露生物标志物	环境与职业卫生
+biomarker of effect	效应生物标志物	环境与职业卫生
+biomarker of susceptibility	易感性生物标志物	环境与职业卫生
+internal dose	内剂量	环境与职业卫生
+biologically effective dose	生物有效剂量	环境与职业卫生
+carcinogen	致癌物	环境与职业卫生
+carcinogenicity	致癌性	环境与职业卫生
+mutagenicity	致突变性	环境与职业卫生
+mutagen	致突变物；诱变剂	环境与职业卫生
+teratogenicity	致畸性	环境与职业卫生
+teratogen	致畸物	环境与职业卫生
+genotoxicity	遗传毒性	环境与职业卫生
+endocrine disruptor	内分泌干扰物	环境与职业卫生
+persistent organic pollutant	持久性有机污染物（POPs）	环境与职业卫生
+dioxin	二噁英	环境与职业卫生
+polychlorinated biphenyl	多氯联苯（PCB）	环境与职业卫生
+polycyclic aromatic hydrocarbon	多环芳烃（PAH）	环境与职业卫生
+heavy metal	重金属	环境与职业卫生
+lead poisoning	铅中毒	环境与职业卫生
+mercury poisoning	汞中毒	环境与职业卫生
+cadmium poisoning	镉中毒	环境与职业卫生
+arsenic poisoning	砷中毒	环境与职业卫生
+benzene poisoning	苯中毒	环境与职业卫生
+carbon monoxide poisoning	一氧化碳中毒	环境与职业卫生
+organophosphorus pesticide poisoning	有机磷农药中毒	环境与职业卫生
+Minamata disease	水俣病	环境与职业卫生
+itai-itai disease	痛痛病	环境与职业卫生
+pesticide	农药	环境与职业卫生
+pollutant	污染物	环境与职业卫生
+primary pollutant	一次污染物	环境与职业卫生
+secondary pollutant	二次污染物	环境与职业卫生
+exposure pathway	暴露途径	环境与职业卫生
+exposure assessment	暴露评估；暴露评定	环境与职业卫生
+hazard identification	危害识别；危害鉴定	环境与职业卫生
+dose-response assessment	剂量-反应评定	环境与职业卫生
+risk characterization	危险度特征分析；风险特征描述	环境与职业卫生
+health risk assessment	健康风险评估	环境与职业卫生
+risk management	风险管理	环境与职业卫生
+precautionary principle	预防原则	环境与职业卫生
+health impact assessment	健康影响评价	环境与职业卫生
+environmental impact assessment	环境影响评价	环境与职业卫生
+air pollution	大气污染；空气污染	环境与职业卫生
+indoor air pollution	室内空气污染	环境与职业卫生
+air quality index	空气质量指数（AQI）	环境与职业卫生
+particulate matter	颗粒物	环境与职业卫生
+fine particulate matter	细颗粒物（PM2.5）	环境与职业卫生
+inhalable particulate matter	可吸入颗粒物（PM10）	环境与职业卫生
+total suspended particulate	总悬浮颗粒物（TSP）	环境与职业卫生
+sulfur dioxide	二氧化硫	环境与职业卫生
+nitrogen dioxide	二氧化氮	环境与职业卫生
+ozone	臭氧	环境与职业卫生
+photochemical smog	光化学烟雾	环境与职业卫生
+acid rain	酸雨	环境与职业卫生
+greenhouse effect	温室效应	环境与职业卫生
+global warming	全球变暖	环境与职业卫生
+climate change	气候变化	环境与职业卫生
+heat wave	热浪	环境与职业卫生
+urban heat island effect	城市热岛效应	环境与职业卫生
+formaldehyde	甲醛	环境与职业卫生
+radon	氡	环境与职业卫生
+volatile organic compound	挥发性有机化合物（VOC）	环境与职业卫生
+secondhand smoke	二手烟	环境与职业卫生
+environmental tobacco smoke	环境烟草烟雾	环境与职业卫生
+sick building syndrome	不良建筑物综合征	环境与职业卫生
+microclimate	微小气候	环境与职业卫生
+housing hygiene	住宅卫生	环境与职业卫生
+built environment	建成环境	环境与职业卫生
+green space	绿地	环境与职业卫生
+water pollution	水污染	环境与职业卫生
+drinking water	饮用水	环境与职业卫生
+safe drinking water	安全饮用水	环境与职业卫生
+water treatment	水处理	环境与职业卫生
+chlorination	氯化消毒	环境与职业卫生
+disinfection by-product	消毒副产物	环境与职业卫生
+residual chlorine	余氯	环境与职业卫生
+total coliform	总大肠菌群	环境与职业卫生
+fecal coliform	粪大肠菌群	环境与职业卫生
+biochemical oxygen demand	生化需氧量（BOD）	环境与职业卫生
+chemical oxygen demand	化学需氧量（COD）	环境与职业卫生
+dissolved oxygen	溶解氧	环境与职业卫生
+eutrophication	富营养化	环境与职业卫生
+sewage	污水	环境与职业卫生
+sewage treatment	污水处理	环境与职业卫生
+sanitation	卫生设施；环境卫生设施	环境与职业卫生
+sanitary latrine	卫生厕所	环境与职业卫生
+open defecation	露天排便	环境与职业卫生
+solid waste	固体废物	环境与职业卫生
+medical waste	医疗废物	环境与职业卫生
+hazardous waste	危险废物	环境与职业卫生
+landfill	填埋	环境与职业卫生
+incineration	焚烧	环境与职业卫生
+soil pollution	土壤污染	环境与职业卫生
+microplastic	微塑料	环境与职业卫生
+noise	噪声	环境与职业卫生
+noise pollution	噪声污染	环境与职业卫生
+noise-induced hearing loss	噪声性听力损失；噪声聋	环境与职业卫生
+vibration	振动	环境与职业卫生
+hand-arm vibration syndrome	手臂振动病	环境与职业卫生
+ionizing radiation	电离辐射	环境与职业卫生
+non-ionizing radiation	非电离辐射	环境与职业卫生
+electromagnetic radiation	电磁辐射	环境与职业卫生
+ultraviolet radiation	紫外辐射	环境与职业卫生
+radiation protection	辐射防护	环境与职业卫生
+absorbed dose	吸收剂量	环境与职业卫生
+equivalent dose	当量剂量	环境与职业卫生
+effective dose	有效剂量	环境与职业卫生
+acute radiation syndrome	急性放射病	环境与职业卫生
+radioactive contamination	放射性污染	环境与职业卫生
+heat illness	中暑	环境与职业卫生
+heat stroke	热射病	环境与职业卫生
+heat exhaustion	热衰竭	环境与职业卫生
+heat cramp	热痉挛	环境与职业卫生
+high temperature operation	高温作业	环境与职业卫生
+frostbite	冻伤	环境与职业卫生
+decompression sickness	减压病	环境与职业卫生
+altitude sickness	高原病；高山病	环境与职业卫生
+acute mountain sickness	急性高原病；急性高山病	环境与职业卫生
+biogeochemical disease	生物地球化学性疾病	环境与职业卫生
+endemic goiter	地方性甲状腺肿	环境与职业卫生
+endemic cretinism	地方性克汀病	环境与职业卫生
+iodine deficiency disorder	碘缺乏病	环境与职业卫生
+endemic fluorosis	地方性氟中毒	环境与职业卫生
+dental fluorosis	氟斑牙	环境与职业卫生
+skeletal fluorosis	氟骨症	环境与职业卫生
+endemic arsenicosis	地方性砷中毒	环境与职业卫生
+Kashin-Beck disease	大骨节病	环境与职业卫生
+Keshan disease	克山病	环境与职业卫生
+One Health	同一健康	环境与职业卫生
+occupational disease	职业病	环境与职业卫生
+work-related disease	工作有关疾病	环境与职业卫生
+occupational hazard	职业性有害因素	环境与职业卫生
+occupational exposure	职业接触；职业暴露	环境与职业卫生
+occupational exposure limit	职业接触限值（OEL）	环境与职业卫生
+permissible concentration-time weighted average	时间加权平均容许浓度（PC-TWA）	环境与职业卫生
+permissible concentration-short term exposure limit	短时间接触容许浓度（PC-STEL）	环境与职业卫生
+maximum allowable concentration	最高容许浓度（MAC）	环境与职业卫生
+threshold limit value	阈限值（TLV）	环境与职业卫生
+occupational injury	职业伤害	环境与职业卫生
+industrial injury	工伤	环境与职业卫生
+occupational poisoning	职业中毒	环境与职业卫生
+pneumoconiosis	尘肺病；尘肺	环境与职业卫生
+silicosis	矽肺；硅沉着病	环境与职业卫生
+coal workers' pneumoconiosis	煤工尘肺	环境与职业卫生
+asbestosis	石棉肺；石棉沉着病	环境与职业卫生
+byssinosis	棉尘病	环境与职业卫生
+productive dust	生产性粉尘	环境与职业卫生
+respirable dust	呼吸性粉尘	环境与职业卫生
+total dust	总粉尘	环境与职业卫生
+free silica	游离二氧化硅	环境与职业卫生
+occupational cancer	职业性肿瘤；职业癌	环境与职业卫生
+occupational asthma	职业性哮喘	环境与职业卫生
+occupational dermatosis	职业性皮肤病	环境与职业卫生
+occupational stress	职业紧张；职业应激	环境与职业卫生
+burnout	职业倦怠	环境与职业卫生
+shift work	轮班作业；倒班	环境与职业卫生
+ergonomics	工效学；人类工效学	环境与职业卫生
+work-related musculoskeletal disorder	工作相关肌肉骨骼疾患	环境与职业卫生
+repetitive strain injury	重复性劳损	环境与职业卫生
+pre-employment medical examination	上岗前职业健康检查	环境与职业卫生
+occupational health surveillance	职业健康监护	环境与职业卫生
+workplace health promotion	工作场所健康促进	环境与职业卫生
+hierarchy of controls	控制层级	环境与职业卫生
+engineering control	工程控制	环境与职业卫生
+administrative control	管理控制	环境与职业卫生
+ventilation	通风	环境与职业卫生
+local exhaust ventilation	局部排风	环境与职业卫生
+respirator	呼吸防护器；呼吸器	环境与职业卫生
+hearing protector	护听器	环境与职业卫生
+safety data sheet	化学品安全技术说明书（SDS）	环境与职业卫生
+nutrition	营养	营养与食品卫生
+nutritional science	营养学	营养与食品卫生
+public nutrition	公共营养	营养与食品卫生
+clinical nutrition	临床营养	营养与食品卫生
+nutrient	营养素	营养与食品卫生
+macronutrient	宏量营养素	营养与食品卫生
+micronutrient	微量营养素	营养与食品卫生
+essential nutrient	必需营养素	营养与食品卫生
+protein	蛋白质	营养与食品卫生
+essential amino acid	必需氨基酸	营养与食品卫生
+limiting amino acid	限制氨基酸	营养与食品卫生
+complementary action of protein	蛋白质互补作用	营养与食品卫生
+protein digestibility	蛋白质消化率	营养与食品卫生
+biological value	生物价	营养与食品卫生
+net protein utilization	蛋白质净利用率（NPU）	营养与食品卫生
+protein efficiency ratio	蛋白质功效比值（PER）	营养与食品卫生
+amino acid score	氨基酸评分	营养与食品卫生
+nitrogen balance	氮平衡	营养与食品卫生
+lipid	脂类	营养与食品卫生
+fatty acid	脂肪酸	营养与食品卫生
+saturated fatty acid	饱和脂肪酸	营养与食品卫生
+monounsaturated fatty acid	单不饱和脂肪酸	营养与食品卫生
+polyunsaturated fatty acid	多不饱和脂肪酸	营养与食品卫生
+trans fatty acid	反式脂肪酸	营养与食品卫生
+essential fatty acid	必需脂肪酸	营养与食品卫生
+omega-3 fatty acid	n-3脂肪酸；ω-3脂肪酸	营养与食品卫生
+cholesterol	胆固醇	营养与食品卫生
+carbohydrate	碳水化合物	营养与食品卫生
+dietary fiber	膳食纤维	营养与食品卫生
+glycemic index	血糖生成指数（GI）	营养与食品卫生
+glycemic load	血糖负荷（GL）	营养与食品卫生
+added sugar	添加糖	营养与食品卫生
+free sugar	游离糖	营养与食品卫生
+energy requirement	能量需要量	营养与食品卫生
+basal metabolism	基础代谢	营养与食品卫生
+basal metabolic rate	基础代谢率（BMR）	营养与食品卫生
+thermic effect of food	食物热效应	营养与食品卫生
+physical activity level	身体活动水平（PAL）	营养与食品卫生
+energy balance	能量平衡	营养与食品卫生
+energy density	能量密度	营养与食品卫生
+nutrient density	营养素密度	营养与食品卫生
+index of nutritional quality	营养质量指数（INQ）	营养与食品卫生
+kilocalorie	千卡	营养与食品卫生
+kilojoule	千焦	营养与食品卫生
+vitamin	维生素	营养与食品卫生
+fat-soluble vitamin	脂溶性维生素	营养与食品卫生
+water-soluble vitamin	水溶性维生素	营养与食品卫生
+vitamin A	维生素A	营养与食品卫生
+retinol	视黄醇	营养与食品卫生
+retinol activity equivalent	视黄醇活性当量（RAE）	营养与食品卫生
+beta-carotene	β-胡萝卜素	营养与食品卫生
+vitamin D	维生素D	营养与食品卫生
+vitamin E	维生素E	营养与食品卫生
+vitamin K	维生素K	营养与食品卫生
+thiamine	硫胺素；维生素B1	营养与食品卫生
+riboflavin	核黄素；维生素B2	营养与食品卫生
+niacin	烟酸；尼克酸	营养与食品卫生
+vitamin B6	维生素B6	营养与食品卫生
+folate	叶酸	营养与食品卫生
+dietary folate equivalent	膳食叶酸当量（DFE）	营养与食品卫生
+vitamin B12	维生素B12	营养与食品卫生
+vitamin C	维生素C；抗坏血酸	营养与食品卫生
+mineral	矿物质	营养与食品卫生
+macroelement	常量元素	营养与食品卫生
+trace element	微量元素	营养与食品卫生
+calcium	钙	营养与食品卫生
+phosphorus	磷	营养与食品卫生
+iron	铁	营养与食品卫生
+heme iron	血红素铁	营养与食品卫生
+non-heme iron	非血红素铁	营养与食品卫生
+zinc	锌	营养与食品卫生
+selenium	硒	营养与食品卫生
+iodine	碘	营养与食品卫生
+fluorine	氟	营养与食品卫生
+copper	铜	营养与食品卫生
+sodium	钠	营养与食品卫生
+potassium	钾	营养与食品卫生
+magnesium	镁	营养与食品卫生
+phytochemical	植物化学物	营养与食品卫生
+polyphenol	多酚	营养与食品卫生
+flavonoid	类黄酮	营养与食品卫生
+dietary reference intake	膳食营养素参考摄入量（DRIs）	营养与食品卫生
+estimated average requirement	平均需要量（EAR）	营养与食品卫生
+recommended nutrient intake	推荐摄入量（RNI）	营养与食品卫生
+recommended dietary allowance	推荐膳食供给量（RDA）	营养与食品卫生
+adequate intake	适宜摄入量（AI）	营养与食品卫生
+tolerable upper intake level	可耐受最高摄入量（UL）	营养与食品卫生
+acceptable macronutrient distribution range	宏量营养素可接受范围（AMDR）	营养与食品卫生
+proposed intake for preventing non-communicable chronic diseases	预防非传染性慢性病的建议摄入量（PI-NCD）	营养与食品卫生
+dietary guideline	膳食指南	营养与食品卫生
+Chinese food guide pagoda	中国居民平衡膳食宝塔	营养与食品卫生
+balanced diet	平衡膳食	营养与食品卫生
+dietary pattern	膳食模式	营养与食品卫生
+Mediterranean diet	地中海膳食；地中海饮食	营养与食品卫生
+DASH diet	DASH饮食；终止高血压膳食疗法	营养与食品卫生
+vegetarian diet	素食	营养与食品卫生
+dietary survey	膳食调查	营养与食品卫生
+24-hour dietary recall	24小时膳食回顾法	营养与食品卫生
+food frequency questionnaire	食物频率问卷（FFQ）	营养与食品卫生
+weighed food record	称重记录法；称重法	营养与食品卫生
+nutritional status	营养状况	营养与食品卫生
+nutritional assessment	营养评价	营养与食品卫生
+nutritional screening	营养筛查	营养与食品卫生
+anthropometry	人体测量	营养与食品卫生
+body mass index	体质指数（BMI）	营养与食品卫生
+waist circumference	腰围	营养与食品卫生
+waist-to-hip ratio	腰臀比	营养与食品卫生
+skinfold thickness	皮褶厚度	营养与食品卫生
+body composition	身体成分；体成分	营养与食品卫生
+malnutrition	营养不良	营养与食品卫生
+undernutrition	营养不足	营养与食品卫生
+overnutrition	营养过剩	营养与食品卫生
+protein-energy malnutrition	蛋白质-能量营养不良（PEM）	营养与食品卫生
+kwashiorkor	恶性营养不良；夸希奥科病	营养与食品卫生
+marasmus	消瘦型营养不良	营养与食品卫生
+stunting	生长迟缓	营养与食品卫生
+wasting	消瘦	营养与食品卫生
+underweight	低体重	营养与食品卫生
+overweight	超重	营养与食品卫生
+obesity	肥胖；肥胖症	营养与食品卫生
+central obesity	中心性肥胖	营养与食品卫生
+double burden of malnutrition	营养不良双重负担	营养与食品卫生
+hidden hunger	隐性饥饿	营养与食品卫生
+iron deficiency anemia	缺铁性贫血	营养与食品卫生
+rickets	佝偻病	营养与食品卫生
+osteomalacia	骨软化症	营养与食品卫生
+beriberi	脚气病	营养与食品卫生
+pellagra	糙皮病；癞皮病	营养与食品卫生
+scurvy	坏血病	营养与食品卫生
+night blindness	夜盲症	营养与食品卫生
+xerophthalmia	干眼病	营养与食品卫生
+dietary supplement	膳食补充剂	营养与食品卫生
+food fortification	食品强化；营养强化	营养与食品卫生
+fortified food	强化食品	营养与食品卫生
+enteral nutrition	肠内营养	营养与食品卫生
+parenteral nutrition	肠外营养	营养与食品卫生
+therapeutic diet	治疗膳食	营养与食品卫生
+salt reduction	减盐	营养与食品卫生
+sugar-sweetened beverage	含糖饮料	营养与食品卫生
+ultra-processed food	超加工食品	营养与食品卫生
+nutrition label	营养标签	营养与食品卫生
+nutrient reference value	营养素参考值（NRV）	营养与食品卫生
+nutrition claim	营养声称	营养与食品卫生
+health claim	健康声称	营养与食品卫生
+functional food	功能食品	营养与食品卫生
+health food	保健食品	营养与食品卫生
+food safety	食品安全	营养与食品卫生
+food hygiene	食品卫生	营养与食品卫生
+foodborne disease	食源性疾病	营养与食品卫生
+food poisoning	食物中毒	营养与食品卫生
+bacterial food poisoning	细菌性食物中毒	营养与食品卫生
+Salmonella food poisoning	沙门菌食物中毒	营养与食品卫生
+staphylococcal food poisoning	葡萄球菌食物中毒	营养与食品卫生
+Vibrio parahaemolyticus food poisoning	副溶血性弧菌食物中毒	营养与食品卫生
+botulism	肉毒中毒	营养与食品卫生
+mycotoxin	真菌毒素	营养与食品卫生
+aflatoxin	黄曲霉毒素	营养与食品卫生
+food contamination	食品污染	营养与食品卫生
+food additive	食品添加剂	营养与食品卫生
+preservative	防腐剂	营养与食品卫生
+antioxidant	抗氧化剂	营养与食品卫生
+sweetener	甜味剂	营养与食品卫生
+colorant	着色剂	营养与食品卫生
+emulsifier	乳化剂	营养与食品卫生
+nitrite	亚硝酸盐	营养与食品卫生
+N-nitroso compound	N-亚硝基化合物	营养与食品卫生
+acrylamide	丙烯酰胺	营养与食品卫生
+heterocyclic amine	杂环胺	营养与食品卫生
+melamine	三聚氰胺	营养与食品卫生
+pesticide residue	农药残留	营养与食品卫生
+veterinary drug residue	兽药残留	营养与食品卫生
+maximum residue limit	最大残留限量（MRL）	营养与食品卫生
+acceptable daily intake	每日允许摄入量（ADI）	营养与食品卫生
+food safety standard	食品安全标准	营养与食品卫生
+food safety risk assessment	食品安全风险评估	营养与食品卫生
+food traceability	食品可追溯性；食品溯源	营养与食品卫生
+hazard analysis and critical control point	危害分析与关键控制点（HACCP）	营养与食品卫生
+critical control point	关键控制点（CCP）	营养与食品卫生
+food recall	食品召回	营养与食品卫生
+shelf life	保质期	营养与食品卫生
+genetically modified food	转基因食品	营养与食品卫生
+novel food	新食品原料	营养与食品卫生
+organic food	有机食品	营养与食品卫生
+food allergy	食物过敏	营养与食品卫生
+food allergen	食物过敏原	营养与食品卫生
+food intolerance	食物不耐受	营养与食品卫生
+lactose intolerance	乳糖不耐受	营养与食品卫生
+pasteurization	巴氏杀菌；巴氏消毒	营养与食品卫生
+commercial sterility	商业无菌	营养与食品卫生
+water activity	水分活度	营养与食品卫生
+food spoilage	食品腐败变质	营养与食品卫生
+lipid rancidity	油脂酸败	营养与食品卫生
+food irradiation	食品辐照	营养与食品卫生
+maternal and child health	妇幼保健	妇幼保健
+maternal health care	孕产妇保健	妇幼保健
+child health care	儿童保健	妇幼保健
+women's health care	妇女保健	妇幼保健
+reproductive health	生殖健康	妇幼保健
+family planning	计划生育	妇幼保健
+contraception	避孕	妇幼保健
+contraceptive	避孕药具；避孕药	妇幼保健
+intrauterine device	宫内节育器（IUD）	妇幼保健
+oral contraceptive	口服避孕药	妇幼保健
+emergency contraception	紧急避孕	妇幼保健
+condom	避孕套	妇幼保健
+tubal ligation	输卵管结扎术	妇幼保健
+vasectomy	输精管结扎术	妇幼保健
+induced abortion	人工流产	妇幼保健
+spontaneous abortion	自然流产	妇幼保健
+unsafe abortion	不安全流产	妇幼保健
+premarital medical examination	婚前医学检查	妇幼保健
+preconception care	孕前保健	妇幼保健
+antenatal care	产前保健	妇幼保健
+prenatal examination	产前检查	妇幼保健
+prenatal screening	产前筛查	妇幼保健
+prenatal diagnosis	产前诊断	妇幼保健
+amniocentesis	羊膜腔穿刺术	妇幼保健
+noninvasive prenatal testing	无创产前检测（NIPT）	妇幼保健
+genetic counseling	遗传咨询	妇幼保健
+high-risk pregnancy	高危妊娠	妇幼保健
+gestational hypertension	妊娠期高血压	妇幼保健
+gestational diabetes mellitus	妊娠期糖尿病（GDM）	妇幼保健
+preeclampsia	子痫前期	妇幼保健
+gestational age	胎龄；孕龄	妇幼保健
+gestational weight gain	孕期增重	妇幼保健
+intrapartum care	产时保健	妇幼保健
+skilled birth attendant	熟练助产人员	妇幼保健
+institutional delivery	住院分娩；机构分娩	妇幼保健
+cesarean section rate	剖宫产率	妇幼保健
+postpartum care	产后保健	妇幼保健
+postnatal visit	产后访视	妇幼保健
+puerperium	产褥期	妇幼保健
+postpartum depression	产后抑郁	妇幼保健
+postpartum hemorrhage	产后出血	妇幼保健
+maternal death	孕产妇死亡	妇幼保健
+maternal mortality ratio	孕产妇死亡率（MMR）	妇幼保健
+neonatal mortality rate	新生儿死亡率	妇幼保健
+perinatal mortality rate	围生儿死亡率；围产儿死亡率	妇幼保健
+infant mortality rate	婴儿死亡率（IMR）	妇幼保健
+under-five mortality rate	5岁以下儿童死亡率	妇幼保健
+stillbirth	死产	妇幼保健
+live birth	活产	妇幼保健
+perinatal period	围生期；围产期	妇幼保健
+neonatal period	新生儿期	妇幼保健
+infancy	婴儿期	妇幼保健
+preschool age	学龄前期	妇幼保健
+school age	学龄期	妇幼保健
+adolescence	青春期	妇幼保健
+puberty	青春发育期	妇幼保健
+menarche	月经初潮	妇幼保健
+perimenopause	围绝经期	妇幼保健
+menopause	绝经	妇幼保健
+low birth weight	低出生体重	妇幼保健
+very low birth weight	极低出生体重	妇幼保健
+preterm birth	早产	妇幼保健
+small for gestational age	小于胎龄儿（SGA）	妇幼保健
+large for gestational age	大于胎龄儿（LGA）	妇幼保健
+macrosomia	巨大儿	妇幼保健
+birth defect	出生缺陷	妇幼保健
+congenital anomaly	先天畸形；先天异常	妇幼保健
+neural tube defect	神经管缺陷	妇幼保健
+neonatal screening	新生儿疾病筛查	妇幼保健
+newborn hearing screening	新生儿听力筛查	妇幼保健
+phenylketonuria	苯丙酮尿症	妇幼保健
+congenital hypothyroidism	先天性甲状腺功能减退症	妇幼保健
+neonatal asphyxia	新生儿窒息	妇幼保健
+neonatal jaundice	新生儿黄疸	妇幼保健
+Apgar score	Apgar评分；阿普加评分	妇幼保健
+breastfeeding	母乳喂养	妇幼保健
+exclusive breastfeeding	纯母乳喂养	妇幼保健
+colostrum	初乳	妇幼保健
+complementary food	辅食；辅助食品	妇幼保健
+weaning	断奶	妇幼保健
+infant formula	婴儿配方食品	妇幼保健
+baby-friendly hospital	爱婴医院	妇幼保健
+rooming-in	母婴同室	妇幼保健
+kangaroo mother care	袋鼠式护理	妇幼保健
+growth monitoring	生长监测	妇幼保健
+growth chart	生长曲线图	妇幼保健
+weight-for-age	年龄别体重	妇幼保健
+height-for-age	年龄别身高	妇幼保健
+weight-for-height	身高别体重	妇幼保健
+Z score	Z评分	妇幼保健
+developmental milestone	发育里程碑	妇幼保健
+developmental delay	发育迟缓	妇幼保健
+early childhood development	儿童早期发展	妇幼保健
+adolescent health	青少年健康	妇幼保健
+school health	学校卫生	妇幼保健
+cervical cancer screening	宫颈癌筛查	妇幼保健
+breast cancer screening	乳腺癌筛查	妇幼保健
+Pap smear	巴氏涂片	妇幼保健
+prevention of mother-to-child transmission	预防母婴传播（PMTCT）	妇幼保健
+total fertility rate	总和生育率（TFR）	妇幼保健
+general fertility rate	一般生育率	妇幼保健
+birth spacing	生育间隔	妇幼保健
+parity	产次	妇幼保健
+gravidity	孕次	妇幼保健
+infertility	不孕症；不育症	妇幼保健
+assisted reproductive technology	辅助生殖技术（ART）	妇幼保健
+in vitro fertilization	体外受精（IVF）	妇幼保健
+integrated management of childhood illness	儿童疾病综合管理（IMCI）	妇幼保健
+child neglect	儿童忽视	妇幼保健
+health policy	卫生政策	卫生政策
+health system	卫生系统；卫生体系	卫生政策
+health care system	医疗卫生体系	卫生政策
+health service	卫生服务	卫生政策
+health service management	卫生事业管理	卫生政策
+hospital management	医院管理	卫生政策
+health planning	卫生规划	卫生政策
+regional health planning	区域卫生规划	卫生政策
+health resource	卫生资源	卫生政策
+health workforce	卫生人力	卫生政策
+medical institution	医疗机构	卫生政策
+tertiary hospital	三级医院	卫生政策
+community health center	社区卫生服务中心	卫生政策
+community health service	社区卫生服务	卫生政策
+township health center	乡镇卫生院	卫生政策
+village clinic	村卫生室	卫生政策
+village doctor	乡村医生	卫生政策
+barefoot doctor	赤脚医生	卫生政策
+primary health care	初级卫生保健	卫生政策
+basic public health service	基本公共卫生服务	卫生政策
+general practitioner	全科医生	卫生政策
+family doctor	家庭医生	卫生政策
+family doctor contract service	家庭医生签约服务	卫生政策
+hierarchical medical system	分级诊疗	卫生政策
+referral	转诊	卫生政策
+two-way referral	双向转诊	卫生政策
+gatekeeper	守门人	卫生政策
+medical consortium	医疗联合体；医联体	卫生政策
+public hospital reform	公立医院改革	卫生政策
+health care reform	医疗卫生体制改革；医改	卫生政策
+universal health coverage	全民健康覆盖（UHC）	卫生政策
+health equity	健康公平；卫生公平	卫生政策
+health inequality	健康不平等	卫生政策
+health disparity	健康差异	卫生政策
+social determinants of health	健康社会决定因素	卫生政策
+accessibility	可及性	卫生政策
+access to health care	卫生服务可及性	卫生政策
+health service need	卫生服务需要	卫生政策
+health service utilization	卫生服务利用	卫生政策
+two-week prevalence	两周患病率	卫生政策
+two-week consultation rate	两周就诊率	卫生政策
+hospitalization rate	住院率	卫生政策
+average length of stay	平均住院日	卫生政策
+bed occupancy rate	病床使用率	卫生政策
+bed turnover rate	病床周转次数	卫生政策
+readmission rate	再入院率	卫生政策
+patient satisfaction	患者满意度	卫生政策
+quality of medical care	医疗质量	卫生政策
+patient safety	患者安全	卫生政策
+medical error	医疗差错	卫生政策
+clinical pathway	临床路径	卫生政策
+performance appraisal	绩效考核；绩效评价	卫生政策
+key performance indicator	关键绩效指标（KPI）	卫生政策
+hospital accreditation	医院评审	卫生政策
+balanced scorecard	平衡计分卡	卫生政策
+total quality management	全面质量管理（TQM）	卫生政策
+PDCA cycle	PDCA循环；戴明环	卫生政策
+root cause analysis	根本原因分析（RCA）	卫生政策
+failure mode and effects analysis	失效模式与效应分析（FMEA）	卫生政策
+lean management	精益管理	卫生政策
+health information system	卫生信息系统	卫生政策
+hospital information system	医院信息系统（HIS）	卫生政策
+electronic health record	电子健康档案；电子健康记录（EHR）	卫生政策
+electronic medical record	电子病历（EMR）	卫生政策
+health record	健康档案	卫生政策
+telemedicine	远程医疗	卫生政策
+digital health	数字健康	卫生政策
+mobile health	移动医疗；移动健康	卫生政策
+health governance	卫生治理	卫生政策
+health legislation	卫生立法	卫生政策
+National Health Commission	国家卫生健康委员会	卫生政策
+Healthy China 2030 Plan	健康中国2030规划纲要	卫生政策
+Health in All Policies	将健康融入所有政策（HiAP）	卫生政策
+healthy city	健康城市	卫生政策
+patriotic health campaign	爱国卫生运动	卫生政策
+essential medicine	基本药物	卫生政策
+national essential medicines list	国家基本药物目录	卫生政策
+centralized drug procurement	药品集中采购	卫生政策
+volume-based procurement	带量采购	卫生政策
+zero-markup drug policy	药品零加成政策	卫生政策
+rational drug use	合理用药	卫生政策
+prescription	处方	卫生政策
+prescription drug	处方药	卫生政策
+over-the-counter drug	非处方药（OTC）	卫生政策
+licensed physician	执业医师	卫生政策
+licensed assistant physician	执业助理医师	卫生政策
+health indicator	健康指标；卫生指标	卫生政策
+health status	健康状况	卫生政策
+self-rated health	自评健康	卫生政策
+policy analysis	政策分析	卫生政策
+policy evaluation	政策评估	卫生政策
+stakeholder analysis	利益相关者分析	卫生政策
+SWOT analysis	SWOT分析	卫生政策
+public-private partnership	公私合作伙伴关系（PPP）	卫生政策
+private hospital	民营医院；私立医院	卫生政策
+nonprofit hospital	非营利性医院	卫生政策
+for-profit hospital	营利性医院	卫生政策
+emergency medical service	急救医疗服务（EMS）	卫生政策
+long-term care	长期照护；长期护理	卫生政策
+palliative care	姑息治疗	卫生政策
+hospice care	安宁疗护；临终关怀	卫生政策
+home-based care	居家照护	卫生政策
+integration of medical and elderly care	医养结合	卫生政策
+healthy aging	健康老龄化	卫生政策
+active aging	积极老龄化	卫生政策
+rehabilitation	康复	卫生政策
+community rehabilitation	社区康复	卫生政策
+disability	残疾	卫生政策
+International Classification of Diseases	国际疾病分类（ICD）	卫生政策
+International Classification of Functioning, Disability and Health	国际功能、残疾和健康分类（ICF）	卫生政策
+task shifting	任务转移	卫生政策
+health insurance	健康保险；医疗保险	医疗保险
+medical insurance	医疗保险	医疗保险
+social health insurance	社会医疗保险	医疗保险
+basic medical insurance	基本医疗保险	医疗保险
+urban employee basic medical insurance	城镇职工基本医疗保险	医疗保险
+urban and rural resident basic medical insurance	城乡居民基本医疗保险	医疗保险
+new rural cooperative medical scheme	新型农村合作医疗（NRCMS）	医疗保险
+critical illness insurance	大病保险；重大疾病保险	医疗保险
+medical assistance	医疗救助	医疗保险
+commercial health insurance	商业健康保险	医疗保险
+private health insurance	私人医疗保险	医疗保险
+supplementary medical insurance	补充医疗保险	医疗保险
+long-term care insurance	长期护理保险	医疗保险
+maternity insurance	生育保险	医疗保险
+work injury insurance	工伤保险	医疗保险
+social insurance	社会保险	医疗保险
+social security	社会保障	医疗保险
+National Health Service	国家医疗服务体系（NHS）	医疗保险
+Medicare	医疗照顾计划	医疗保险
+Medicaid	医疗救助计划	医疗保险
+insured person	被保险人；参保人	医疗保险
+insurer	保险人	医疗保险
+policyholder	投保人	医疗保险
+premium	保险费；保费	医疗保险
+contribution rate	缴费率	医疗保险
+insurance coverage rate	参保率	医疗保险
+deductible	起付线；免赔额	医疗保险
+copayment	共付；定额自付	医疗保险
+coinsurance	共付比例；共同保险	医疗保险
+cost sharing	费用分担	医疗保险
+out-of-pocket expenditure	自付费用；个人现金卫生支出	医疗保险
+reimbursement	报销；补偿	医疗保险
+reimbursement rate	报销比例；补偿比	医疗保险
+insurance claim	保险理赔	医疗保险
+loss ratio	赔付率	医疗保险
+benefit package	福利包；待遇包	医疗保险
+national reimbursement drug list	国家医保药品目录（NRDL）	医疗保险
+medical insurance fund	医疗保险基金；医保基金	医疗保险
+risk pooling	风险分担；风险统筹	医疗保险
+social pooling fund	统筹基金	医疗保险
+individual account	个人账户	医疗保险
+medical savings account	医疗储蓄账户（MSA）	医疗保险
+moral hazard	道德风险	医疗保险
+adverse selection	逆向选择	医疗保险
+risk adjustment	风险调整	医疗保险
+pre-existing condition	既往症	医疗保险
+waiting period	等待期	医疗保险
+actuary	精算师	医疗保险
+third-party payer	第三方付费者；第三方支付方	医疗保险
+single-payer system	单一支付方体制	医疗保险
+payer	支付方	医疗保险
+health care provider	医疗服务提供者	医疗保险
+provider payment method	医疗服务支付方式	医疗保险
+fee-for-service	按项目付费（FFS）	医疗保险
+diagnosis-related group	疾病诊断相关分组（DRG）	医疗保险
+diagnosis-intervention packet	按病种分值付费（DIP）	医疗保险
+case-based payment	按病种付费	医疗保险
+capitation	按人头付费	医疗保险
+global budget	总额预算；总额预付	医疗保险
+per diem payment	按床日付费	医疗保险
+pay for performance	按绩效付费（P4P）	医疗保险
+value-based payment	按价值付费	医疗保险
+bundled payment	捆绑支付	医疗保险
+prospective payment system	预付制（PPS）	医疗保险
+retrospective payment	后付制	医疗保险
+casemix	病例组合	医疗保险
+case mix index	病例组合指数（CMI）	医疗保险
+relative weight	相对权重（RW）	医疗保险
+upcoding	高套编码	医疗保险
+cost shifting	成本转移	医疗保险
+managed care	管理式医疗	医疗保险
+health maintenance organization	健康维护组织（HMO）	医疗保险
+preferred provider organization	优先提供者组织（PPO）	医疗保险
+accountable care organization	责任医疗组织（ACO）	医疗保险
+designated medical institution	定点医疗机构	医疗保险
+designated retail pharmacy	定点零售药店	医疗保险
+medical insurance fraud	医保欺诈；骗保	医疗保险
+price negotiation	价格谈判	医疗保险
+health economics	卫生经济学	卫生经济学
+pharmacoeconomics	药物经济学	卫生经济学
+economic evaluation	经济学评价	卫生经济学
+cost-effectiveness analysis	成本-效果分析（CEA）	卫生经济学
+cost-utility analysis	成本-效用分析（CUA）	卫生经济学
+cost-benefit analysis	成本-效益分析（CBA）	卫生经济学
+cost-minimization analysis	最小成本分析（CMA）	卫生经济学
+cost of illness	疾病成本	卫生经济学
+cost-effectiveness ratio	成本-效果比	卫生经济学
+incremental cost-effectiveness ratio	增量成本-效果比（ICER）	卫生经济学
+willingness to pay	支付意愿（WTP）	卫生经济学
+willingness-to-pay threshold	意愿支付阈值	卫生经济学
+cost-effectiveness acceptability curve	成本-效果可接受曲线	卫生经济学
+cost-effectiveness plane	成本-效果平面	卫生经济学
+net monetary benefit	净货币效益	卫生经济学
+quality-adjusted life year	质量调整生命年（QALY）	卫生经济学
+utility	效用	卫生经济学
+health utility value	健康效用值	卫生经济学
+standard gamble	标准博弈法	卫生经济学
+time trade-off	时间权衡法	卫生经济学
+visual analogue scale	视觉模拟评分法（VAS）	卫生经济学
+EuroQol five-dimension questionnaire	欧洲五维健康量表（EQ-5D）	卫生经济学
+36-item short form health survey	SF-36健康调查简表	卫生经济学
+direct cost	直接成本	卫生经济学
+direct medical cost	直接医疗成本	卫生经济学
+direct non-medical cost	直接非医疗成本	卫生经济学
+indirect cost	间接成本	卫生经济学
+intangible cost	无形成本	卫生经济学
+opportunity cost	机会成本	卫生经济学
+marginal cost	边际成本	卫生经济学
+average cost	平均成本	卫生经济学
+fixed cost	固定成本	卫生经济学
+variable cost	可变成本	卫生经济学
+sunk cost	沉没成本	卫生经济学
+total cost	总成本	卫生经济学
+unit cost	单位成本	卫生经济学
+cost accounting	成本核算	卫生经济学
+activity-based costing	作业成本法	卫生经济学
+micro-costing	微观成本法	卫生经济学
+discounting	贴现	卫生经济学
+discount rate	贴现率	卫生经济学
+time horizon	研究时限	卫生经济学
+Markov model	马尔可夫模型；Markov模型	卫生经济学
+budget impact analysis	预算影响分析	卫生经济学
+probabilistic sensitivity analysis	概率敏感性分析	卫生经济学
+one-way sensitivity analysis	单因素敏感性分析	卫生经济学
+tornado diagram	龙卷风图	卫生经济学
+health technology assessment	卫生技术评估（HTA）	卫生经济学
+health expenditure	卫生费用；卫生支出	卫生经济学
+total health expenditure	卫生总费用（THE）	卫生经济学
+government health expenditure	政府卫生支出	卫生经济学
+social health expenditure	社会卫生支出	卫生经济学
+per capita health expenditure	人均卫生费用	卫生经济学
+national health accounts	国民卫生账户；卫生总费用核算	卫生经济学
+health financing	卫生筹资	卫生经济学
+health service demand	卫生服务需求	卫生经济学
+supplier-induced demand	供方诱导需求	卫生经济学
+price elasticity of demand	需求价格弹性	卫生经济学
+market failure	市场失灵	卫生经济学
+government failure	政府失灵	卫生经济学
+information asymmetry	信息不对称	卫生经济学
+externality	外部性	卫生经济学
+public good	公共产品；公共物品	卫生经济学
+merit good	优效品	卫生经济学
+efficiency	效率	卫生经济学
+allocative efficiency	配置效率	卫生经济学
+technical efficiency	技术效率	卫生经济学
+equity	公平	卫生经济学
+horizontal equity	水平公平	卫生经济学
+vertical equity	垂直公平	卫生经济学
+Gini coefficient	基尼系数	卫生经济学
+Lorenz curve	洛伦兹曲线	卫生经济学
+concentration index	集中指数	卫生经济学
+data envelopment analysis	数据包络分析（DEA）	卫生经济学
+stochastic frontier analysis	随机前沿分析	卫生经济学
+economies of scale	规模经济	卫生经济学
+human capital	人力资本	卫生经济学
+human capital approach	人力资本法	卫生经济学
+friction cost method	摩擦成本法	卫生经济学
+productivity loss	生产力损失	卫生经济学
+value of statistical life	统计生命价值	卫生经济学
+contingent valuation method	条件价值评估法	卫生经济学
+discrete choice experiment	离散选择实验（DCE）	卫生经济学
+return on investment	投资回报率（ROI）	卫生经济学
+difference-in-differences	双重差分	卫生经济学
+synthetic control method	合成控制法	卫生经济学
+reference pricing	参考定价	卫生经济学
+medical service price	医疗服务价格	卫生经济学
+cost containment	费用控制	卫生经济学
+medical expense	医疗费用	卫生经济学
+catastrophic health expenditure	灾难性卫生支出	卫生经济学
+illness-induced poverty	因病致贫	卫生经济学
+affordability	可负担性	卫生经济学
+global health	全球健康；全球卫生	全球健康
+international health	国际卫生	全球健康
+World Health Organization	世界卫生组织（WHO）	全球健康
+World Health Assembly	世界卫生大会（WHA）	全球健康
+United Nations Children's Fund	联合国儿童基金会（UNICEF）	全球健康
+Joint United Nations Programme on HIV/AIDS	联合国艾滋病规划署（UNAIDS）	全球健康
+Global Alliance for Vaccines and Immunization	全球疫苗免疫联盟（GAVI）	全球健康
+Global Fund to Fight AIDS, Tuberculosis and Malaria	全球抗击艾滋病、结核病和疟疾基金	全球健康
+World Bank	世界银行	全球健康
+Millennium Development Goals	千年发展目标（MDGs）	全球健康
+Sustainable Development Goals	可持续发展目标（SDGs）	全球健康
+Alma-Ata Declaration	阿拉木图宣言	全球健康
+Framework Convention on Tobacco Control	烟草控制框架公约（FCTC）	全球健康
+global burden of disease	全球疾病负担（GBD）	全球健康
+global health diplomacy	全球卫生外交	全球健康
+global health security	全球卫生安全	全球健康
+global health governance	全球卫生治理	全球健康
+pandemic preparedness	大流行防范	全球健康
+low- and middle-income country	中低收入国家（LMICs）	全球健康
+developing country	发展中国家	全球健康
+development assistance for health	卫生发展援助	全球健康
+South-South cooperation	南南合作	全球健康
+health systems strengthening	卫生系统强化	全球健康
+community health worker	社区卫生工作者	全球健康
+refugee health	难民健康	全球健康
+migrant health	移民健康	全球健康
+travel medicine	旅行医学	全球健康
+tropical medicine	热带医学	全球健康
+neglected tropical disease	被忽视的热带病（NTDs）	全球健康
+malaria	疟疾	全球健康
+tuberculosis	结核病	全球健康
+acquired immunodeficiency syndrome	获得性免疫缺陷综合征；艾滋病（AIDS）	全球健康
+human immunodeficiency virus	人类免疫缺陷病毒（HIV）	全球健康
+schistosomiasis	血吸虫病	全球健康
+dengue fever	登革热	全球健康
+cholera	霍乱	全球健康
+Ebola virus disease	埃博拉病毒病	全球健康
+leprosy	麻风病	全球健康
+lymphatic filariasis	淋巴丝虫病	全球健康
+trachoma	沙眼	全球健康
+onchocerciasis	盘尾丝虫病；河盲症	全球健康
+soil-transmitted helminthiasis	土源性蠕虫病	全球健康
+mass drug administration	群体服药；群体药物治疗（MDA）	全球健康
+water, sanitation and hygiene	水、环境卫生与个人卫生（WASH）	全球健康
+oral rehydration salts	口服补液盐（ORS）	全球健康
+oral rehydration therapy	口服补液疗法	全球健康
+food security	粮食安全；食物保障	全球健康
+famine	饥荒	全球健康
+disaster medicine	灾难医学	全球健康
+mass casualty incident	大规模伤亡事件	全球健康
+triage	检伤分类；分诊	全球健康
+Doctors Without Borders	无国界医生（MSF）	全球健康
+International Committee of the Red Cross	红十字国际委员会（ICRC）	全球健康
+right to health	健康权	全球健康
+gender-based violence	基于性别的暴力	全球健康
+female genital mutilation	女性生殖器切割	全球健康
+child marriage	童婚	全球健康
+medical ethics	医学伦理学	医学伦理与法律
+bioethics	生命伦理学	医学伦理与法律
+research ethics	研究伦理	医学伦理与法律
+clinical ethics	临床伦理	医学伦理与法律
+public health ethics	公共卫生伦理	医学伦理与法律
+respect for autonomy	尊重自主原则	医学伦理与法律
+beneficence	有利原则；行善原则	医学伦理与法律
+non-maleficence	不伤害原则	医学伦理与法律
+justice	公正原则	医学伦理与法律
+informed consent	知情同意	医学伦理与法律
+informed consent form	知情同意书	医学伦理与法律
+written informed consent	书面知情同意	医学伦理与法律
+waiver of informed consent	免除知情同意；豁免知情同意	医学伦理与法律
+broad consent	泛知情同意	医学伦理与法律
+surrogate consent	代理同意	医学伦理与法律
+informed refusal	知情拒绝	医学伦理与法律
+presumed consent	推定同意	医学伦理与法律
+legal guardian	法定监护人	医学伦理与法律
+legal representative	法定代理人	医学伦理与法律
+decision-making capacity	决策能力	医学伦理与法律
+institutional review board	机构审查委员会（IRB）	医学伦理与法律
+ethics committee	伦理委员会	医学伦理与法律
+independent ethics committee	独立伦理委员会（IEC）	医学伦理与法律
+ethical review	伦理审查	医学伦理与法律
+expedited review	快速审查	医学伦理与法律
+full board review	会议审查	医学伦理与法律
+continuing review	跟踪审查；持续审查	医学伦理与法律
+exemption from review	免除审查	医学伦理与法律
+Declaration of Helsinki	赫尔辛基宣言	医学伦理与法律
+Nuremberg Code	纽伦堡法典	医学伦理与法律
+Belmont Report	贝尔蒙报告	医学伦理与法律
+Tuskegee syphilis study	塔斯基吉梅毒研究	医学伦理与法律
+Hippocratic Oath	希波克拉底誓言	医学伦理与法律
+Declaration of Geneva	日内瓦宣言	医学伦理与法律
+clinical equipoise	临床均势	医学伦理与法律
+therapeutic misconception	治疗误解	医学伦理与法律
+risk-benefit assessment	风险-受益评估	医学伦理与法律
+minimal risk	最小风险	医学伦理与法律
+undue inducement	不当诱导	医学伦理与法律
+coercion	强迫	医学伦理与法律
+vulnerable population	弱势群体；易受伤害群体	医学伦理与法律
+privacy	隐私	医学伦理与法律
+confidentiality	保密	医学伦理与法律
+data protection	数据保护	医学伦理与法律
+de-identification	去标识化	医学伦理与法律
+anonymization	匿名化	医学伦理与法律
+protected health information	受保护的健康信息	医学伦理与法律
+conflict of interest	利益冲突	医学伦理与法律
+patient rights	患者权利	医学伦理与法律
+right to know	知情权	医学伦理与法律
+right to refuse treatment	拒绝治疗权	医学伦理与法律
+advance directive	预立医疗指示	医学伦理与法律
+living will	生前预嘱	医学伦理与法律
+do-not-resuscitate order	不予复苏医嘱（DNR）	医学伦理与法律
+euthanasia	安乐死	医学伦理与法律
+active euthanasia	主动安乐死	医学伦理与法律
+passive euthanasia	被动安乐死	医学伦理与法律
+physician-assisted suicide	医生协助自杀	医学伦理与法律
+brain death	脑死亡	医学伦理与法律
+organ donation	器官捐献	医学伦理与法律
+organ trafficking	器官贩卖	医学伦理与法律
+human cloning	人类克隆	医学伦理与法律
+reproductive cloning	生殖性克隆	医学伦理与法律
+therapeutic cloning	治疗性克隆	医学伦理与法律
+human embryonic stem cell research	人胚胎干细胞研究	医学伦理与法律
+gene editing	基因编辑	医学伦理与法律
+germline gene editing	生殖系基因编辑	医学伦理与法律
+genetic privacy	遗传隐私	医学伦理与法律
+genetic discrimination	基因歧视	医学伦理与法律
+human genetic resources	人类遗传资源	医学伦理与法律
+benefit sharing	惠益分享	医学伦理与法律
+surrogacy	代孕	医学伦理与法律
+sex selection	性别选择	医学伦理与法律
+eugenics	优生学	医学伦理与法律
+animal welfare	动物福利	医学伦理与法律
+3Rs principle	3R原则	医学伦理与法律
+Institutional Animal Care and Use Committee	实验动物管理和使用委员会（IACUC）	医学伦理与法律
+doctor-patient relationship	医患关系	医学伦理与法律
+doctor-patient communication	医患沟通	医学伦理与法律
+medical professionalism	医学职业精神	医学伦理与法律
+medical paternalism	医疗家长主义	医学伦理与法律
+health care rationing	医疗配给	医学伦理与法律
+medical law	医事法；医事法学	医学伦理与法律
+health law	卫生法；卫生法学	医学伦理与法律
+medical malpractice	医疗过失	医学伦理与法律
+medical accident	医疗事故	医学伦理与法律
+medical dispute	医疗纠纷	医学伦理与法律
+medical damage liability	医疗损害责任	医学伦理与法律
+tort liability	侵权责任	医学伦理与法律
+duty of care	注意义务	医学伦理与法律
+standard of care	医疗标准；诊疗标准	医学伦理与法律
+medical liability insurance	医疗责任保险	医学伦理与法律
+defensive medicine	防御性医疗	医学伦理与法律
+mandatory reporting	强制报告	医学伦理与法律
+compulsory treatment	强制治疗	医学伦理与法律
+Law on Prevention and Treatment of Infectious Diseases	传染病防治法	医学伦理与法律
+Law on Prevention and Control of Occupational Diseases	职业病防治法	医学伦理与法律
+Food Safety Law	食品安全法	医学伦理与法律
+Drug Administration Law	药品管理法	医学伦理与法律
+Vaccine Administration Law	疫苗管理法	医学伦理与法律
+Mental Health Law	精神卫生法	医学伦理与法律
+Law on Maternal and Infant Health Care	母婴保健法	医学伦理与法律
+Health Insurance Portability and Accountability Act	健康保险流通与责任法案（HIPAA）	医学伦理与法律
+General Data Protection Regulation	通用数据保护条例（GDPR）	医学伦理与法律
+research misconduct	科研不端行为	医学伦理与法律
+academic misconduct	学术不端	医学伦理与法律
+research integrity	科研诚信	医学伦理与法律
+fabrication	伪造；捏造	医学伦理与法律
+falsification	篡改	医学伦理与法律
+plagiarism	剽窃；抄袭	医学伦理与法律
+duplicate publication	重复发表	医学伦理与法律
+ghostwriting	代写	医学伦理与法律
+honorary authorship	荣誉署名	医学伦理与法律
+medical research	医学研究	医学科研
+basic research	基础研究	医学科研
+applied research	应用研究	医学科研
+translational research	转化研究	医学科研
+translational medicine	转化医学	医学科研
+precision medicine	精准医学	医学科研
+personalized medicine	个体化医学	医学科研
+research design	研究设计	医学科研
+research proposal	研究计划书	医学科研
+research question	研究问题	医学科研
+research hypothesis	研究假设	医学科研
+study population	研究人群	医学科研
+target population	目标人群	医学科研
+pilot study	预试验；预调查	医学科研
+feasibility study	可行性研究	医学科研
+qualitative research	定性研究；质性研究	医学科研
+quantitative research	定量研究	医学科研
+mixed methods research	混合方法研究	医学科研
+grounded theory	扎根理论	医学科研
+thematic analysis	主题分析	医学科研
+phenomenology	现象学	医学科研
+focus group	焦点小组访谈	医学科研
+in-depth interview	深入访谈	医学科研
+key informant interview	关键知情人访谈	医学科研
+participant observation	参与式观察	医学科研
+Delphi method	德尔菲法	医学科研
+nominal group technique	名义群体法	医学科研
+questionnaire	问卷	医学科研
+questionnaire survey	问卷调查	医学科研
+scale	量表	医学科研
+item	条目	医学科研
+dimension	维度	医学科研
+Likert scale	Likert量表；利克特量表	医学科研
+open-ended question	开放式问题	医学科研
+closed-ended question	封闭式问题	医学科研
+response rate	应答率	医学科研
+in vivo	体内	医学科研
+in vitro	体外	医学科研
+in silico	计算机模拟	医学科研
+animal model	动物模型	医学科研
+experimental animal	实验动物	医学科研
+cell line	细胞系	医学科研
+biobank	生物样本库	医学科研
+specimen	标本	医学科研
+literature review	文献综述	医学科研
+review article	综述	医学科研
+original article	论著；原创性论文	医学科研
+short communication	简报；短篇报道	医学科研
+letter to the editor	读者来信；致编辑的信	医学科研
+editorial	社论；述评	医学科研
+commentary	评论	医学科研
+abstract	摘要	医学科研
+structured abstract	结构式摘要	医学科研
+keyword	关键词	医学科研
+introduction	引言；前言	医学科研
+result	结果	医学科研
+discussion	讨论	医学科研
+conclusion	结论	医学科研
+limitation	局限性	医学科研
+acknowledgment	致谢	医学科研
+reference	参考文献	医学科研
+citation	引用；引文	医学科研
+figure legend	图注	医学科研
+supplementary material	补充材料	医学科研
+manuscript	稿件；手稿	医学科研
+submission	投稿	医学科研
+cover letter	投稿信	医学科研
+peer review	同行评议	医学科研
+double-blind peer review	双盲同行评议	医学科研
+open peer review	开放式同行评议	医学科研
+reviewer	审稿人	医学科研
+editor	编辑	医学科研
+editor-in-chief	主编	医学科研
+major revision	大修	医学科研
+minor revision	小修	医学科研
+acceptance	录用	医学科研
+rejection	拒稿	医学科研
+desk rejection	直接拒稿	医学科研
+retraction	撤稿	医学科研
+proof	校样	医学科研
+open access	开放获取	医学科研
+preprint	预印本	医学科研
+predatory journal	掠夺性期刊	医学科研
+impact factor	影响因子（IF）	医学科研
+Journal Citation Reports	期刊引证报告（JCR）	医学科研
+h-index	h指数	医学科研
+Science Citation Index	科学引文索引（SCI）	医学科研
+corresponding author	通讯作者	医学科研
+first author	第一作者	医学科研
+co-first author	共同第一作者	医学科研
+coauthor	合著者	医学科研
+authorship	作者资格；署名	医学科研
+International Committee of Medical Journal Editors	国际医学期刊编辑委员会（ICMJE）	医学科研
+reporting guideline	报告规范	医学科研
+CONSORT statement	CONSORT声明	医学科研
+STROBE statement	STROBE声明	医学科研
+PRISMA statement	PRISMA声明	医学科研
+STARD statement	STARD声明	医学科研
+CARE guideline	CARE指南	医学科研
+digital object identifier	数字对象标识符（DOI）	医学科研
+Open Researcher and Contributor ID	开放研究者与贡献者身份识别码（ORCID）	医学科研
+research grant	科研基金	医学科研
+grant proposal	基金申请书	医学科研
+National Natural Science Foundation of China	国家自然科学基金（NSFC）	医学科研
+National Institutes of Health	美国国立卫生研究院（NIH）	医学科研
+data sharing	数据共享	医学科研
+negative result	阴性结果	医学科研
+p-hacking	P值操纵	医学科研
+academic conference	学术会议	医学科研
+poster presentation	壁报交流；海报展示	医学科研
+oral presentation	口头报告	医学科研
+thesis	学位论文	医学科研
+doctoral dissertation	博士学位论文	医学科研
+master's thesis	硕士学位论文	医学科研
+thesis defense	论文答辩	医学科研
+supervisor	导师	医学科研
+postdoctoral fellow	博士后	医学科研
+medical education	医学教育	医学教育
+undergraduate medical education	医学本科教育	医学教育
+graduate medical education	毕业后医学教育	医学教育
+continuing medical education	继续医学教育（CME）	医学教育
+standardized residency training	住院医师规范化培训	医学教育
+standardized specialist training	专科医师规范化培训	医学教育
+resident physician	住院医师	医学教育
+attending physician	主治医师	医学教育
+associate chief physician	副主任医师	医学教育
+chief physician	主任医师	医学教育
+intern	实习医生	医学教育
+internship	实习	医学教育
+clerkship	见习	医学教育
+medical student	医学生	医学教育
+curriculum	课程	医学教育
+problem-based learning	以问题为基础的学习（PBL）	医学教育
+case-based learning	以案例为基础的学习（CBL）	医学教育
+team-based learning	以团队为基础的学习（TBL）	医学教育
+flipped classroom	翻转课堂	医学教育
+simulation-based medical education	模拟医学教育	医学教育
+standardized patient	标准化病人（SP）	医学教育
+objective structured clinical examination	客观结构化临床考试（OSCE）	医学教育
+mini-clinical evaluation exercise	迷你临床演练评估（Mini-CEX）	医学教育
+direct observation of procedural skills	操作技能直接观察评估（DOPS）	医学教育
+competency-based medical education	胜任力导向的医学教育	医学教育
+core competency	核心胜任力；核心能力	医学教育
+entrustable professional activity	置信职业行为（EPA）	医学教育
+formative assessment	形成性评价	医学教育
+summative assessment	终结性评价	医学教育
+bedside teaching	床边教学	医学教育
+ward round	查房	医学教育
+grand rounds	大查房	医学教育
+journal club	期刊俱乐部；文献报告会	医学教育
+national medical licensing examination	国家医师资格考试	医学教育
+United States Medical Licensing Examination	美国执业医师资格考试（USMLE）	医学教育
+medical humanities	医学人文	医学教育
+narrative medicine	叙事医学	医学教育
+mentorship	导师制	医学教育
+Doctor of Medicine	医学博士（MD）	医学教育
+Master of Public Health	公共卫生硕士（MPH）	医学教育
+Doctor of Philosophy	哲学博士（PhD）	医学教育
+Bachelor of Medicine and Bachelor of Surgery	医学学士（MBBS）	医学教育
+health promotion	健康促进	健康促进
+health education	健康教育	健康促进
+health literacy	健康素养	健康促进
+health behavior	健康行为	健康促进
+health-promoting behavior	促进健康行为	健康促进
+health risk behavior	危害健康行为	健康促进
+health belief model	健康信念模式	健康促进
+theory of planned behavior	计划行为理论	健康促进
+theory of reasoned action	理性行为理论	健康促进
+transtheoretical model	跨理论模型；行为改变阶段模型	健康促进
+stage of change	行为改变阶段	健康促进
+precontemplation stage	无打算阶段	健康促进
+contemplation stage	打算阶段	健康促进
+preparation stage	准备阶段	健康促进
+action stage	行动阶段	健康促进
+maintenance stage	维持阶段	健康促进
+social cognitive theory	社会认知理论	健康促进
+self-efficacy	自我效能	健康促进
+locus of control	控制点	健康促进
+PRECEDE-PROCEED model	格林模式；PRECEDE-PROCEED模式	健康促进
+knowledge-attitude-practice model	知信行模式（KAP）	健康促进
+social marketing	社会营销；社会市场学	健康促进
+health communication	健康传播	健康促进
+peer education	同伴教育	健康促进
+motivational interviewing	动机性访谈	健康促进
+brief intervention	简短干预	健康促进
+empowerment	赋权；增权	健康促进
+community participation	社区参与	健康促进
+community diagnosis	社区诊断	健康促进
+needs assessment	需求评估	健康促进
+health advocacy	健康倡导	健康促进
+supportive environment	支持性环境	健康促进
+healthy public policy	健康的公共政策	健康促进
+Ottawa Charter for Health Promotion	渥太华宪章	健康促进
+health-promoting school	健康促进学校	健康促进
+health-promoting hospital	健康促进医院	健康促进
+determinants of health	健康决定因素	健康促进
+lifestyle	生活方式	健康促进
+healthy lifestyle	健康生活方式	健康促进
+lifestyle-related disease	生活方式疾病	健康促进
+sedentary behavior	久坐行为；静态行为	健康促进
+physical activity	身体活动	健康促进
+physical inactivity	身体活动不足	健康促进
+moderate-intensity physical activity	中等强度身体活动	健康促进
+vigorous-intensity physical activity	高强度身体活动	健康促进
+metabolic equivalent	代谢当量（MET）	健康促进
+aerobic exercise	有氧运动	健康促进
+resistance training	抗阻训练	健康促进
+screen time	视屏时间	健康促进
+sleep hygiene	睡眠卫生	健康促进
+weight management	体重管理	健康促进
+tobacco use	烟草使用	健康促进
+smoking	吸烟	健康促进
+current smoker	现在吸烟者	健康促进
+former smoker	戒烟者；既往吸烟者	健康促进
+never smoker	从不吸烟者	健康促进
+pack-year	包年	健康促进
+smoking cessation	戒烟	健康促进
+nicotine replacement therapy	尼古丁替代疗法（NRT）	健康促进
+nicotine dependence	尼古丁依赖；烟草依赖	健康促进
+electronic cigarette	电子烟	健康促进
+smokeless tobacco	无烟烟草	健康促进
+tobacco tax	烟草税	健康促进
+plain packaging	平装；素面包装	健康促进
+graphic health warning	图形健康警示	健康促进
+smoke-free legislation	无烟立法	健康促进
+alcohol consumption	饮酒	健康促进
+binge drinking	狂饮；暴饮	健康促进
+harmful use of alcohol	有害饮酒	健康促进
+drink driving	酒后驾驶；酒驾	健康促进
+drunk driving	醉酒驾驶；醉驾	健康促进
+drug abuse	药物滥用	健康促进
+substance abuse	物质滥用	健康促进
+harm reduction	减少危害；减害	健康促进
+needle exchange program	针具交换项目	健康促进
+methadone maintenance treatment	美沙酮维持治疗（MMT）	健康促进
+safer sex	安全性行为	健康促进
+injury prevention	伤害预防	健康促进
+road traffic injury	道路交通伤害	健康促进
+seat belt	安全带	健康促进
+fall	跌倒	健康促进
+oral hygiene	口腔卫生	健康促进
+personal hygiene	个人卫生	健康促进
+health counseling	健康咨询	健康促进
+self-management	自我管理	健康促进
+self-care	自我保健；自我照护	健康促进
+patient education	患者教育	健康促进
+nudge	助推	健康促进
+behavioral economics	行为经济学	健康促进
+infodemic	信息疫情	健康促进
+misinformation	错误信息	健康促进
+mental health	心理健康；精神卫生	心理卫生
+mental hygiene	心理卫生	心理卫生
+mental disorder	精神障碍	心理卫生
+mental illness	精神疾病	心理卫生
+severe mental illness	严重精神障碍	心理卫生
+common mental disorder	常见精神障碍	心理卫生
+depression	抑郁症	心理卫生
+anxiety disorder	焦虑障碍	心理卫生
+generalized anxiety disorder	广泛性焦虑障碍	心理卫生
+post-traumatic stress disorder	创伤后应激障碍（PTSD）	心理卫生
+acute stress disorder	急性应激障碍	心理卫生
+adjustment disorder	适应障碍	心理卫生
+schizophrenia	精神分裂症	心理卫生
+bipolar disorder	双相障碍；双相情感障碍	心理卫生
+obsessive-compulsive disorder	强迫障碍；强迫症	心理卫生
+eating disorder	进食障碍	心理卫生
+anorexia nervosa	神经性厌食	心理卫生
+bulimia nervosa	神经性贪食	心理卫生
+insomnia	失眠	心理卫生
+attention deficit hyperactivity disorder	注意缺陷多动障碍（ADHD）	心理卫生
+autism spectrum disorder	孤独症谱系障碍（ASD）	心理卫生
+dementia	痴呆	心理卫生
+Alzheimer disease	阿尔茨海默病	心理卫生
+cognitive impairment	认知障碍；认知损害	心理卫生
+mild cognitive impairment	轻度认知障碍（MCI）	心理卫生
+alcohol use disorder	酒精使用障碍	心理卫生
+substance use disorder	物质使用障碍	心理卫生
+internet addiction	网络成瘾	心理卫生
+gaming disorder	游戏障碍	心理卫生
+gambling disorder	赌博障碍	心理卫生
+self-harm	自伤；自我伤害	心理卫生
+suicide	自杀	心理卫生
+suicidal ideation	自杀意念	心理卫生
+suicide attempt	自杀未遂	心理卫生
+suicide prevention	自杀预防	心理卫生
+psychological crisis	心理危机	心理卫生
+crisis intervention	危机干预	心理卫生
+psychological first aid	心理急救	心理卫生
+psychological counseling	心理咨询	心理卫生
+psychotherapy	心理治疗	心理卫生
+cognitive behavioral therapy	认知行为疗法（CBT）	心理卫生
+mindfulness	正念	心理卫生
+mindfulness-based stress reduction	正念减压疗法（MBSR）	心理卫生
+stress	应激；压力	心理卫生
+stressor	应激源	心理卫生
+coping	应对	心理卫生
+coping style	应对方式	心理卫生
+resilience	心理韧性；复原力	心理卫生
+social support	社会支持	心理卫生
+subjective well-being	主观幸福感	心理卫生
+loneliness	孤独感	心理卫生
+social isolation	社会隔离	心理卫生
+psychological distress	心理困扰	心理卫生
+psychosomatic disease	心身疾病	心理卫生
+compassion fatigue	同情疲劳	心理卫生
+vicarious trauma	替代性创伤	心理卫生
+community mental health	社区精神卫生	心理卫生
+deinstitutionalization	去机构化	心理卫生
+mental health literacy	心理健康素养	心理卫生
+stigma	病耻感；污名	心理卫生
+self-stigma	自我病耻感	心理卫生
+psychiatric rehabilitation	精神康复	心理卫生
+mental health service	精神卫生服务	心理卫生
+psychiatric hospital	精神专科医院；精神病院	心理卫生
+involuntary admission	非自愿住院	心理卫生
+employee assistance program	员工援助计划（EAP）	心理卫生
+psychological assessment	心理评估	心理卫生
+Patient Health Questionnaire-9	患者健康问卷-9（PHQ-9）	心理卫生
+Generalized Anxiety Disorder-7	广泛性焦虑障碍量表（GAD-7）	心理卫生
+Self-rating Depression Scale	抑郁自评量表（SDS）	心理卫生
+Self-rating Anxiety Scale	焦虑自评量表（SAS）	心理卫生
+Symptom Checklist-90	症状自评量表（SCL-90）	心理卫生
+Hamilton Depression Rating Scale	汉密尔顿抑郁量表（HAMD）	心理卫生
+Hamilton Anxiety Rating Scale	汉密尔顿焦虑量表（HAMA）	心理卫生
+Edinburgh Postnatal Depression Scale	爱丁堡产后抑郁量表（EPDS）	心理卫生
+Mini-Mental State Examination	简易精神状态检查（MMSE）	心理卫生
+Montreal Cognitive Assessment	蒙特利尔认知评估（MoCA）	心理卫生
+Diagnostic and Statistical Manual of Mental Disorders	精神障碍诊断与统计手册（DSM）	心理卫生
+forensic medicine	法医学	法医学
+legal medicine	法医学	法医学
+forensic pathology	法医病理学	法医学
+forensic clinical medicine	法医临床学	法医学
+forensic toxicology	法医毒理学	法医学
+forensic psychiatry	法医精神病学	法医学
+forensic anthropology	法医人类学	法医学
+forensic odontology	法医牙科学；法医齿科学	法医学
+forensic genetics	法医遗传学	法医学
+forensic serology	法医血清学	法医学
+forensic biology	法医物证学	法医学
+forensic entomology	法医昆虫学	法医学
+forensic radiology	法医影像学	法医学
+forensic science	法庭科学	法医学
+forensic pathologist	法医病理学家	法医学
+medical examiner	法医	法医学
+coroner	验尸官	法医学
+expert witness	专家证人	法医学
+expert opinion	鉴定意见	法医学
+autopsy	尸体解剖；尸检	法医学
+forensic autopsy	法医学尸体解剖	法医学
+external examination	尸表检验	法医学
+postmortem examination	尸体检验	法医学
+exhumation	尸体发掘	法医学
+death investigation	死亡调查	法医学
+crime scene investigation	犯罪现场勘查	法医学
+cause of death	死因	法医学
+manner of death	死亡方式	法医学
+mechanism of death	死亡机制	法医学
+natural death	自然死亡	法医学
+unnatural death	非自然死亡	法医学
+violent death	暴力死亡	法医学
+sudden death	猝死	法医学
+sudden cardiac death	心脏性猝死	法医学
+sudden infant death syndrome	婴儿猝死综合征（SIDS）	法医学
+homicide	他杀	法医学
+accidental death	意外死亡	法医学
+death certificate	死亡证明书	法医学
+time of death	死亡时间	法医学
+postmortem interval	死后间隔时间（PMI）	法医学
+early postmortem change	早期尸体现象	法医学
+late postmortem change	晚期尸体现象	法医学
+livor mortis	尸斑	法医学
+rigor mortis	尸僵	法医学
+algor mortis	尸冷	法医学
+cadaveric spasm	尸体痉挛	法医学
+corneal opacity	角膜混浊	法医学
+autolysis	自溶	法医学
+putrefaction	腐败	法医学
+marbling	腐败静脉网	法医学
+adipocere	尸蜡	法医学
+mummification	干尸化；木乃伊化	法医学
+skeletonization	白骨化	法医学
+vital reaction	生活反应	法医学
+antemortem injury	生前伤	法医学
+postmortem injury	死后伤	法医学
+injury	损伤	法医学
+mechanical injury	机械性损伤	法医学
+blunt force injury	钝器伤	法医学
+sharp force injury	锐器伤	法医学
+abrasion	擦伤	法医学
+contusion	挫伤	法医学
+laceration	挫裂创	法医学
+incised wound	切创	法医学
+stab wound	刺创	法医学
+chop wound	砍创	法医学
+gunshot wound	枪弹创；枪弹伤	法医学
+entrance wound	射入口	法医学
+exit wound	射出口	法医学
+contact shot	接触射击	法医学
+defense wound	抵抗伤	法医学
+hesitation mark	试切创	法医学
+self-inflicted injury	自伤	法医学
+fabricated injury	造作伤	法医学
+craniocerebral injury	颅脑损伤	法医学
+epidural hematoma	硬膜外血肿	法医学
+subdural hematoma	硬膜下血肿	法医学
+diffuse axonal injury	弥漫性轴索损伤	法医学
+contrecoup injury	对冲伤	法医学
+traffic accident injury	交通事故损伤	法医学
+bumper fracture	保险杠骨折	法医学
+fall from height	高坠	法医学
+fat embolism	脂肪栓塞	法医学
+air embolism	空气栓塞	法医学
+asphyxia	窒息	法医学
+mechanical asphyxia	机械性窒息	法医学
+hanging	缢死	法医学
+ligature strangulation	勒死	法医学
+manual strangulation	扼死	法医学
+smothering	闷死	法医学
+choking	哽死	法医学
+positional asphyxia	体位性窒息	法医学
+ligature mark	缢沟；勒沟	法医学
+petechial hemorrhage	点状出血	法医学
+drowning	溺死；溺水	法医学
+diatom test	硅藻检验	法医学
+electrical injury	电损伤；电击伤	法医学
+electrical mark	电流斑	法医学
+lightning injury	雷击伤	法医学
+thermal injury	高温损伤	法医学
+scald	烫伤	法医学
+carboxyhemoglobin	碳氧血红蛋白	法医学
+death from cold	冻死	法医学
+paradoxical undressing	反常脱衣现象	法医学
+poisoning	中毒	法医学
+poison	毒物	法医学
+fatal dose	致死量	法医学
+toxicological analysis	毒物分析	法医学
+cyanide poisoning	氰化物中毒	法医学
+ethanol poisoning	乙醇中毒	法医学
+blood alcohol concentration	血液酒精浓度	法医学
+methanol poisoning	甲醇中毒	法医学
+paraquat poisoning	百草枯中毒	法医学
+rodenticide poisoning	杀鼠剂中毒	法医学
+tetramine poisoning	毒鼠强中毒	法医学
+sedative-hypnotic poisoning	镇静催眠药中毒	法医学
+illicit drug	毒品	法医学
+hair analysis	毛发分析	法医学
+postmortem redistribution	死后再分布	法医学
+DNA typing	DNA分型	法医学
+DNA fingerprinting	DNA指纹	法医学
+short tandem repeat	短串联重复序列（STR）	法医学
+mitochondrial DNA	线粒体DNA（mtDNA）	法医学
+paternity testing	亲子鉴定	法医学
+individual identification	个人识别	法医学
+age estimation	年龄推断	法医学
+sex determination	性别鉴定	法医学
+stature estimation	身高推断	法医学
+craniofacial reconstruction	颅面复原	法医学
+bite mark	咬痕	法医学
+fingerprint	指纹	法医学
+bloodstain pattern analysis	血迹形态分析	法医学
+luminol test	鲁米诺试验	法医学
+precipitin test	沉淀素试验	法医学
+biological evidence	生物物证	法医学
+trace evidence	微量物证	法医学
+chain of custody	证据保管链	法医学
+disaster victim identification	灾难遇难者身份识别（DVI）	法医学
+forensic psychiatric evaluation	司法精神病鉴定	法医学
+criminal responsibility	刑事责任能力	法医学
+competence to stand trial	受审能力	法医学
+civil capacity	民事行为能力	法医学
+disability evaluation	伤残鉴定；伤残评定	法医学
+assessment of injury severity	人体损伤程度鉴定	法医学
+medical damage appraisal	医疗损害鉴定	法医学
+malingering	诈病	法医学
+sexual assault	性侵害；性侵犯	法医学
+rape	强奸	法医学
+child abuse	儿童虐待；虐待儿童	法医学
+child sexual abuse	儿童性虐待	法医学
+battered child syndrome	受虐儿童综合征	法医学
+shaken baby syndrome	摇晃婴儿综合征	法医学
+elder abuse	虐待老人	法医学
+domestic violence	家庭暴力	法医学
+intimate partner violence	亲密伴侣暴力	法医学
+infanticide	杀婴	法医学
+lung float test	肺浮扬试验	法医学
+death in custody	羁押期间死亡	法医学
+hospital-acquired infection	医院获得性感染	流行病学
+surgical site infection	手术部位感染	流行病学
+catheter-related bloodstream infection	导管相关血流感染	流行病学
+ventilator-associated pneumonia	呼吸机相关性肺炎	流行病学
+nosocomial infection rate	医院感染率	流行病学
+case detection rate	病例发现率	流行病学
+reported incidence	报告发病率	流行病学
+follow-up rate	随访率	流行病学
+infection fatality rate	感染病死率	流行病学
+excess mortality	超额死亡	流行病学
+health-adjusted life expectancy	健康调整期望寿命（HALE）	流行病学
+leading cause of death	主要死因	流行病学
+migration bias	迁移偏倚	流行病学
+observer bias	观察者偏倚	流行病学
+social desirability bias	社会期望偏倚	流行病学
+confounding by indication	指征混杂	流行病学
+immortal time bias	永恒时间偏倚；不朽时间偏倚	流行病学
+surveillance bias	监测偏倚	流行病学
+exposure suspicion bias	暴露怀疑偏倚	流行病学
+diagnostic suspicion bias	诊断怀疑偏倚	流行病学
+family information bias	家族信息偏倚	流行病学
+spatial clustering	空间聚集性	流行病学
+space-time clustering	时空聚集性	流行病学
+imported case	输入性病例	流行病学
+local case	本地病例	流行病学
+community transmission	社区传播	流行病学
+intermediate host	中间宿主	流行病学
+definitive host	终宿主	流行病学
+Breteau index	布雷图指数	流行病学
+house index	房屋指数	流行病学
+statistical table	统计表	医学统计
+statistical chart	统计图	医学统计
+error bar	误差线	医学统计
+prediction interval	预测区间	医学统计
+trend test	趋势检验	医学统计
+Cochran-Armitage trend test	Cochran-Armitage趋势检验	医学统计
+Cochran Q test	Cochran Q检验	医学统计
+Kendall rank correlation	Kendall秩相关	医学统计
+hierarchical clustering	系统聚类	医学统计
+k-means clustering	K均值聚类	医学统计
+correspondence analysis	对应分析	医学统计
+latent class analysis	潜在类别分析	医学统计
+item response theory	项目反应理论	医学统计
+Rasch model	Rasch模型	医学统计
+accelerated failure time model	加速失效时间模型	医学统计
+Fine-Gray model	Fine-Gray模型	医学统计
+cumulative incidence function	累积发生函数	医学统计
+risk set	风险集	医学统计
+generalized additive model	广义相加模型	医学统计
+distributed lag nonlinear model	分布滞后非线性模型（DLNM）	医学统计
+Bayesian network	贝叶斯网络	医学统计
+Moran index	Moran指数	医学统计
+Kriging interpolation	克里金插值	医学统计
+spatial scan statistic	空间扫描统计量	医学统计
+geographically weighted regression	地理加权回归	医学统计
+group sequential design	成组序贯设计	临床试验
+alpha spending function	α消耗函数	临床试验
+sample size re-estimation	样本量再估计	临床试验
+seamless design	无缝设计	临床试验
+enrichment design	富集设计	临床试验
+master protocol	主方案	临床试验
+dose-finding study	剂量探索研究	临床试验
+3+3 design	3+3设计	临床试验
+recommended phase II dose	II期推荐剂量（RP2D）	临床试验
+estimand	估计目标	临床试验
+intercurrent event	伴发事件	临床试验
+multiplicity	多重性	临床试验
+minimal clinically important difference	最小临床重要差异（MCID）	临床试验
+decentralized clinical trial	去中心化临床试验	临床试验
+electronic patient-reported outcome	电子化患者报告结局（ePRO）	临床试验
+risk-based monitoring	基于风险的监查	临床试验
+central monitoring	中心化监查	临床试验
+data query	数据质疑	临床试验
+double data entry	双份录入	临床试验
+medical coding	医学编码	临床试验
+blind review	盲态审核	临床试验
+subject diary	受试者日记	临床试验
+investigator meeting	研究者会议	临床试验
+drug-drug interaction	药物相互作用	临床试验
+half-life	半衰期	临床试验
+needlestick injury	针刺伤	预防医学
+fever clinic	发热门诊	预防医学
+mass gathering	大型集会	预防医学
+vaccination certificate	预防接种证	预防医学
+inoculation	接种	预防医学
+variolation	人痘接种	预防医学
+smallpox	天花	预防医学
+vaccine-derived poliovirus	疫苗衍生脊髓灰质炎病毒	预防医学
+acute flaccid paralysis surveillance	急性弛缓性麻痹监测	预防医学
+tuberculin skin test	结核菌素皮肤试验	预防医学
+latent tuberculosis infection	结核潜伏感染	预防医学
+voluntary counseling and testing	自愿咨询检测（VCT）	预防医学
+antiretroviral therapy	抗逆转录病毒治疗（ART）	预防医学
+viral load	病毒载量	预防医学
+seasonal influenza	季节性流感	预防医学
+avian influenza	禽流感	预防医学
+hand, foot and mouth disease	手足口病	预防医学
+mosquito breeding site	蚊虫孳生地	预防医学
+low-dose CT screening	低剂量CT筛查	预防医学
+fecal occult blood test	粪便隐血试验	预防医学
+mammography	乳腺X线摄影	预防医学
+environmental pollution	环境污染	环境与职业卫生
+environmental monitoring	环境监测	环境与职业卫生
+environmental quality standard	环境质量标准	环境与职业卫生
+ambient air	环境空气	环境与职业卫生
+haze	灰霾；雾霾	环境与职业卫生
+black carbon	黑碳	环境与职业卫生
+ultrafine particle	超细颗粒物	环境与职业卫生
+carbon monoxide	一氧化碳	环境与职业卫生
+asbestos	石棉	环境与职业卫生
+lead	铅	环境与职业卫生
+mercury	汞	环境与职业卫生
+methylmercury	甲基汞	环境与职业卫生
+cadmium	镉	环境与职业卫生
+arsenic	砷	环境与职业卫生
+benzene	苯	环境与职业卫生
+toluene	甲苯	环境与职业卫生
+n-hexane	正己烷	环境与职业卫生
+vinyl chloride	氯乙烯	环境与职业卫生
+trichloroethylene	三氯乙烯	环境与职业卫生
+hexavalent chromium	六价铬	环境与职业卫生
+manganese poisoning	锰中毒	环境与职业卫生
+hydrogen sulfide poisoning	硫化氢中毒	环境与职业卫生
+irritant gas	刺激性气体	环境与职业卫生
+asphyxiant gas	窒息性气体	环境与职业卫生
+toxic pulmonary edema	中毒性肺水肿	环境与职业卫生
+metal fume fever	金属烟热	环境与职业卫生
+audiometry	听力测定	环境与职业卫生
+temporary threshold shift	暂时性听阈位移	环境与职业卫生
+permanent threshold shift	永久性听阈位移	环境与职业卫生
+sound pressure level	声压级	环境与职业卫生
+A-weighted sound level	A声级	环境与职业卫生
+vibration white finger	振动性白指	环境与职业卫生
+radiofrequency radiation	射频辐射	环境与职业卫生
+infrared radiation	红外辐射	环境与职业卫生
+electro-ophthalmia	电光性眼炎	环境与职业卫生
+background radiation	本底辐射	环境与职业卫生
+dose limit	剂量限值	环境与职业卫生
+ALARA principle	ALARA原则；可合理达到的尽量低原则	环境与职业卫生
+sievert	希沃特	环境与职业卫生
+gray	戈瑞	环境与职业卫生
+becquerel	贝可勒尔	环境与职业卫生
+water source protection	水源保护	环境与职业卫生
+turbidity	浑浊度	环境与职业卫生
+trihalomethane	三卤甲烷	环境与职业卫生
+algal bloom	水华；藻华	环境与职业卫生
+microcystin	微囊藻毒素	环境与职业卫生
+red tide	赤潮	环境与职业卫生
+groundwater	地下水	环境与职业卫生
+point source pollution	点源污染	环境与职业卫生
+non-point source pollution	面源污染	环境与职业卫生
+waste sorting	垃圾分类	环境与职业卫生
+composting	堆肥	环境与职业卫生
+toilet revolution	厕所革命	环境与职业卫生
+occupational health service	职业卫生服务	环境与职业卫生
+occupational contraindication	职业禁忌证	环境与职业卫生
+suspected occupational disease	疑似职业病	环境与职业卫生
+occupational disease diagnosis	职业病诊断	环境与职业卫生
+work ability index	工作能力指数（WAI）	环境与职业卫生
+presenteeism	带病出勤	环境与职业卫生
+absenteeism	缺勤	环境与职业卫生
+karoshi	过劳死	环境与职业卫生
+job demand-control model	工作要求-控制模型	环境与职业卫生
+effort-reward imbalance model	付出-回报失衡模型	环境与职业卫生
+workplace violence	工作场所暴力	环境与职业卫生
+International Agency for Research on Cancer	国际癌症研究机构（IARC）	环境与职业卫生
+dietary diversity	膳食多样性	营养与食品卫生
+dietary diversity score	膳食多样化评分	营养与食品卫生
+healthy eating index	健康饮食指数（HEI）	营养与食品卫生
+nutrition intervention	营养干预	营养与食品卫生
+ready-to-use therapeutic food	即食营养治疗食品（RUTF）	营养与食品卫生
+severe acute malnutrition	重度急性营养不良（SAM）	营养与食品卫生
+moderate acute malnutrition	中度急性营养不良（MAM）	营养与食品卫生
+mid-upper arm circumference	上臂中围（MUAC）	营养与食品卫生
+Nutritional Risk Screening 2002	营养风险筛查2002（NRS 2002）	营养与食品卫生
+Subjective Global Assessment	主观全面评定（SGA）	营养与食品卫生
+Mini Nutritional Assessment	微型营养评定（MNA）	营养与食品卫生
+refeeding syndrome	再喂养综合征	营养与食品卫生
+ketogenic diet	生酮饮食	营养与食品卫生
+low-sodium diet	低钠膳食；低盐饮食	营养与食品卫生
+low-fat diet	低脂膳食	营养与食品卫生
+high-protein diet	高蛋白膳食	营养与食品卫生
+intermittent fasting	间歇性禁食；间歇性断食	营养与食品卫生
+calorie restriction	热量限制；能量限制	营养与食品卫生
+whole grain	全谷物	营养与食品卫生
+refined grain	精制谷物	营养与食品卫生
+legume	豆类	营养与食品卫生
+probiotic	益生菌	营养与食品卫生
+prebiotic	益生元	营养与食品卫生
+antinutritional factor	抗营养因子	营养与食品卫生
+phytic acid	植酸	营养与食品卫生
+oxalic acid	草酸	营养与食品卫生
+trypsin inhibitor	胰蛋白酶抑制剂	营养与食品卫生
+vitamin D deficiency	维生素D缺乏	营养与食品卫生
+iodine deficiency	碘缺乏	营养与食品卫生
+zinc deficiency	锌缺乏	营养与食品卫生
+anemia	贫血	营养与食品卫生
+serum ferritin	血清铁蛋白	营养与食品卫生
+food safety incident	食品安全事故	营养与食品卫生
+Listeria monocytogenes	单核细胞增生李斯特菌	营养与食品卫生
+norovirus	诺如病毒	营养与食品卫生
+Bacillus cereus food poisoning	蜡样芽胞杆菌食物中毒	营养与食品卫生
+mushroom poisoning	毒蕈中毒；毒蘑菇中毒	营养与食品卫生
+puffer fish poisoning	河鲀中毒；河豚中毒	营养与食品卫生
+tetrodotoxin	河鲀毒素；河豚毒素	营养与食品卫生
+paralytic shellfish poisoning	麻痹性贝类中毒	营养与食品卫生
+histamine poisoning	组胺中毒	营养与食品卫生
+nitrite poisoning	亚硝酸盐中毒	营养与食品卫生
+zearalenone	玉米赤霉烯酮	营养与食品卫生
+deoxynivalenol	脱氧雪腐镰刀菌烯醇	营养与食品卫生
+ochratoxin A	赭曲霉毒素A	营养与食品卫生
+patulin	展青霉素	营养与食品卫生
+Sudan red	苏丹红	营养与食品卫生
+plasticizer	增塑剂；塑化剂	营养与食品卫生
+bisphenol A	双酚A	营养与食品卫生
+food contact material	食品接触材料	营养与食品卫生
+food label	食品标签	营养与食品卫生
+food production license	食品生产许可	营养与食品卫生
+Codex Alimentarius Commission	国际食品法典委员会（CAC）	营养与食品卫生
+total diet study	总膳食研究	营养与食品卫生
+food consumption survey	食物消费量调查	营养与食品卫生
+dietary exposure assessment	膳食暴露评估	营养与食品卫生
+maternal and child health care institution	妇幼保健机构	妇幼保健
+folic acid supplementation	叶酸增补	妇幼保健
+Down syndrome screening	唐氏综合征筛查	妇幼保健
+nuchal translucency	颈项透明层（NT）	妇幼保健
+thalassemia screening	地中海贫血筛查	妇幼保健
+neonatal intensive care unit	新生儿重症监护病房（NICU）	妇幼保健
+neonatal resuscitation	新生儿复苏	妇幼保健
+delayed cord clamping	延迟脐带结扎	妇幼保健
+skin-to-skin contact	皮肤接触；肌肤接触	妇幼保健
+early initiation of breastfeeding	早开奶	妇幼保健
+breast milk substitute	母乳代用品	妇幼保健
+International Code of Marketing of Breast-milk Substitutes	国际母乳代用品销售守则	妇幼保健
+lactation	泌乳；哺乳	妇幼保健
+lactational amenorrhea method	哺乳闭经避孕法	妇幼保健
+WHO child growth standard	WHO儿童生长标准	妇幼保健
+head circumference	头围	妇幼保健
+catch-up growth	追赶生长	妇幼保健
+childhood obesity	儿童肥胖	妇幼保健
+developmental screening	发育筛查	妇幼保健
+Denver Developmental Screening Test	丹佛发育筛查测验（DDST）	妇幼保健
+adolescent pregnancy	青少年妊娠	妇幼保健
+sex education	性教育	妇幼保健
+comprehensive sexuality education	全面性教育	妇幼保健
+menstrual hygiene	经期卫生	妇幼保健
+climacteric syndrome	更年期综合征；围绝经期综合征	妇幼保健
+repeat abortion	重复流产	妇幼保健
+child mortality	儿童死亡率	妇幼保健
+infant and young child feeding	婴幼儿喂养	妇幼保健
+vitamin A supplementation	维生素A补充	妇幼保健
+deworming	驱虫	妇幼保健
+county hospital	县医院	卫生政策
+general hospital	综合医院	卫生政策
+specialized hospital	专科医院	卫生政策
+teaching hospital	教学医院	卫生政策
+outpatient visit	门诊人次	卫生政策
+outpatient	门诊患者	卫生政策
+inpatient	住院患者	卫生政策
+day surgery	日间手术	卫生政策
+Internet hospital	互联网医院	卫生政策
+smart hospital	智慧医院	卫生政策
+regional health information platform	区域卫生信息平台	卫生政策
+health informatics	卫生信息学	卫生政策
+medical informatics	医学信息学	卫生政策
+interoperability	互操作性	卫生政策
+physician multi-site practice	医师多点执业	卫生政策
+public health system	公共卫生体系	卫生政策
+health emergency management	卫生应急管理	卫生政策
+health supervision	卫生监督	卫生政策
+health administrative licensing	卫生行政许可	卫生政策
+health administrative penalty	卫生行政处罚	卫生政策
+health standard	卫生标准	卫生政策
+public place hygiene	公共场所卫生	卫生政策
+health certificate	健康证明	卫生政策
+medical resource allocation	医疗资源配置	卫生政策
+primary care physician	初级保健医生	卫生政策
+registered nurse	注册护士	卫生政策
+nurse practitioner	执业护士	卫生政策
+pharmacist	药师	卫生政策
+licensed pharmacist	执业药师	卫生政策
+medical technician	医技人员	卫生政策
+public health physician	公共卫生医师	卫生政策
+Healthy People 2030	健康人民2030	卫生政策
+health care quality indicator	医疗质量指标	卫生政策
+medical record management	病案管理	卫生政策
+front page of medical record	病案首页	卫生政策
+clinical coding	临床编码	卫生政策
+health system performance	卫生系统绩效	卫生政策
+health outcome	健康结局	卫生政策
+medical insurance payment	医保支付	医疗保险
+medical insurance catalog	医保目录	医疗保险
+Category A drug	甲类药品	医疗保险
+Category B drug	乙类药品	医疗保险
+direct settlement	直接结算	医疗保险
+medical insurance card	医保卡；社会保障卡	医疗保险
+claims review	医保审核	医疗保险
+Affordable Care Act	平价医疗法案（ACA）	医疗保险
+Bismarck model	俾斯麦模式	医疗保险
+Beveridge model	贝弗里奇模式	医疗保险
+means test	家计调查	医疗保险
+premium subsidy	保费补贴	医疗保险
+pooling level	统筹层次	医疗保险
+municipal-level pooling	市级统筹	医疗保险
+provincial-level pooling	省级统筹	医疗保险
+cost-effectiveness threshold	成本-效果阈值	卫生经济学
+dominance	占优	卫生经济学
+extended dominance	扩展占优	卫生经济学
+half-cycle correction	半周期校正	卫生经济学
+transition probability	转移概率	卫生经济学
+health state	健康状态	卫生经济学
+partitioned survival model	分区生存模型	卫生经济学
+health production function	健康生产函数	卫生经济学
+Grossman model	Grossman模型	卫生经济学
+demand for health	健康需求	卫生经济学
+health capital	健康资本	卫生经济学
+health investment	健康投资	卫生经济学
+Engel coefficient	恩格尔系数	卫生经济学
+poverty line	贫困线	卫生经济学
+health care market	医疗服务市场	卫生经济学
+monopoly	垄断	卫生经济学
+price regulation	价格管制	卫生经济学
+economic burden of disease	疾病经济负担	卫生经济学
+purchasing power parity	购买力平价（PPP）	卫生经济学
+gross domestic product	国内生产总值（GDP）	卫生经济学
+World Organisation for Animal Health	世界动物卫生组织（WOAH）	全球健康
+Food and Agriculture Organization	联合国粮食及农业组织（FAO）	全球健康
+United Nations Population Fund	联合国人口基金（UNFPA）	全球健康
+Global Polio Eradication Initiative	全球消灭脊灰行动（GPEI）	全球健康
+Stop TB Partnership	遏制结核病伙伴关系	全球健康
+Roll Back Malaria Partnership	遏制疟疾伙伴关系	全球健康
+End TB Strategy	终止结核病策略	全球健康
+Global Health Security Agenda	全球卫生安全议程	全球健康
+high-income country	高收入国家	全球健康
+least developed country	最不发达国家	全球健康
+medical aid	医疗援助	全球健康
+humanitarian assistance	人道主义援助	全球健康
+displaced person	流离失所者	全球健康
+Chagas disease	恰加斯病	全球健康
+leishmaniasis	利什曼病	全球健康
+African trypanosomiasis	非洲锥虫病	全球健康
+yellow fever	黄热病	全球健康
+Zika virus disease	寨卡病毒病	全球健康
+mpox	猴痘	全球健康
+Middle East respiratory syndrome	中东呼吸综合征（MERS）	全球健康
+severe acute respiratory syndrome	严重急性呼吸综合征（SARS）	全球健康
+coronavirus disease 2019	新型冠状病毒感染（COVID-19）	全球健康
+pandemic influenza	大流行性流感	全球健康
+therapeutic privilege	治疗特权	医学伦理与法律
+dual-use research	两用研究	医学伦理与法律
+gain-of-function research	功能增益研究	医学伦理与法律
+Good Samaritan law	好撒玛利亚人法	医学伦理与法律
+moral distress	道德困扰	医学伦理与法律
+ethics consultation	伦理咨询	医学伦理与法律
+life-sustaining treatment	生命维持治疗	医学伦理与法律
+withdrawal of life-sustaining treatment	撤除生命维持治疗	医学伦理与法律
+futile treatment	无效治疗	医学伦理与法律
+principle of double effect	双重效应原则	医学伦理与法律
+utilitarianism	功利主义	医学伦理与法律
+deontology	义务论	医学伦理与法律
+virtue ethics	美德伦理学	医学伦理与法律
+care ethics	关怀伦理学	医学伦理与法律
+secondary use of data	数据二次利用	医学伦理与法律
+algorithmic bias	算法偏见	医学伦理与法律
+civil liability	民事责任	医学伦理与法律
+criminal liability	刑事责任	医学伦理与法律
+administrative liability	行政责任	医学伦理与法律
+illegal medical practice	非法行医	医学伦理与法律
+medical damage compensation	医疗损害赔偿	医学伦理与法律
+burden of proof	举证责任	医学伦理与法律
+reversal of burden of proof	举证责任倒置	医学伦理与法律
+research protocol	研究方案	医学科研
+data analysis	数据分析	医学科研
+data visualization	数据可视化	医学科研
+codebook	编码手册	医学科研
+data dictionary	数据字典	医学科研
+theoretical saturation	理论饱和	医学科研
+triangulation	三角验证；三角互证	医学科研
+coding	编码	医学科研
+conceptual framework	概念框架	医学科研
+theoretical framework	理论框架	医学科研
+research gap	研究空白	医学科研
+reference management software	文献管理软件	医学科研
+scientific writing	科研写作；科技写作	医学科研
+running title	短标题；页眉标题	医学科研
+highlight	研究亮点	医学科研
+graphical abstract	图文摘要	医学科研
+author contribution	作者贡献	医学科研
+data availability statement	数据可用性声明	医学科研
+funding statement	基金声明	医学科研
+competing interest	竞争性利益	医学科研
+ethics approval	伦理批准	医学科研
+clinical trial registry	临床试验注册中心	医学科研
+Chinese Clinical Trial Registry	中国临床试验注册中心（ChiCTR）	医学科研
+embargo	禁发期	医学科研
+erratum	勘误	医学科研
+corrigendum	更正	医学科研
+expression of concern	关注声明	医学科研
+special issue	特刊；专刊	医学科研
+monograph	专著	医学科研
+bibliography	参考书目	医学科研
+core journal	核心期刊	医学科研
+China National Knowledge Infrastructure	中国知网（CNKI）	医学科研
+eight-year medical program	八年制医学教育	医学教育
+five-year medical program	五年制医学教育	医学教育
+medical school	医学院	医学教育
+school of public health	公共卫生学院	医学教育
+teaching round	教学查房	医学教育
+case discussion	病例讨论	医学教育
+clinical skills training	临床技能培训	医学教育
+clinical skills center	临床技能中心	医学教育
+high-fidelity simulation	高仿真模拟	医学教育
+virtual reality	虚拟现实	医学教育
+e-learning	在线学习；电子化学习	医学教育
+massive open online course	大规模开放在线课程（MOOC）	医学教育
+learning objective	学习目标	医学教育
+outcome-based education	成果导向教育	医学教育
+interprofessional education	跨专业教育	医学教育
+workplace-based assessment	基于工作场所的评价	医学教育
+360-degree evaluation	360度评价	医学教育
+multiple-choice question	多项选择题	医学教育
+board certification	专科医师资格认证	医学教育
+fellowship	专科培训	医学教育
+residency program	住院医师培训项目	医学教育
+World Federation for Medical Education	世界医学教育联合会（WFME）	医学教育
+Accreditation Council for Graduate Medical Education	美国毕业后医学教育认证委员会（ACGME）	医学教育
+health knowledge	健康知识	健康促进
+perceived susceptibility	感知易感性	健康促进
+perceived severity	感知严重性	健康促进
+perceived benefit	感知益处	健康促进
+perceived barrier	感知障碍	健康促进
+cue to action	行动线索	健康促进
+subjective norm	主观规范	健康促进
+perceived behavioral control	知觉行为控制	健康促进
+behavioral intention	行为意向	健康促进
+decisional balance	决策平衡	健康促进
+diffusion of innovations theory	创新扩散理论	健康促进
+social ecological model	社会生态学模型	健康促进
+health action process approach	健康行动过程取向	健康促进
+protection motivation theory	保护动机理论	健康促进
+intervention mapping	干预映射	健康促进
+RE-AIM framework	RE-AIM框架	健康促进
+logic model	逻辑模型	健康促进
+process evaluation	过程评价	健康促进
+outcome evaluation	结局评价	健康促进
+impact evaluation	效应评价	健康促进
+formative evaluation	形成评价	健康促进
+World No Tobacco Day	世界无烟日	健康促进
+World Health Day	世界卫生日	健康促进
+World AIDS Day	世界艾滋病日	健康促进
+healthy weight	健康体重	健康促进
+physical fitness	体适能；体质	健康促进
+child safety seat	儿童安全座椅	健康促进
+fall prevention	跌倒预防	健康促进
+thirdhand smoke	三手烟	健康促进
+heated tobacco product	加热烟草制品	健康促进
+waterpipe	水烟	健康促进
+quitline	戒烟热线	健康促进
+minimum unit pricing	最低单位定价	健康促进
+sugar tax	糖税	健康促进
+front-of-package labeling	包装正面标识	健康促进
+wearable device	可穿戴设备	健康促进
+positive psychology	积极心理学	心理卫生
+emotion regulation	情绪调节	心理卫生
+depressive symptom	抑郁症状	心理卫生
+anxiety symptom	焦虑症状	心理卫生
+panic disorder	惊恐障碍	心理卫生
+social anxiety disorder	社交焦虑障碍	心理卫生
+specific phobia	特定恐怖症	心理卫生
+somatic symptom disorder	躯体症状障碍	心理卫生
+personality disorder	人格障碍	心理卫生
+conduct disorder	品行障碍	心理卫生
+oppositional defiant disorder	对立违抗障碍	心理卫生
+intellectual disability	智力障碍	心理卫生
+late-life depression	老年期抑郁	心理卫生
+school bullying	校园欺凌	心理卫生
+cyberbullying	网络欺凌	心理卫生
+adverse childhood experience	童年不良经历（ACE）	心理卫生
+trauma-informed care	创伤知情照护	心理卫生
+psychoeducation	心理教育	心理卫生
+family therapy	家庭治疗	心理卫生
+group therapy	团体治疗	心理卫生
+interpersonal psychotherapy	人际心理治疗	心理卫生
+dialectical behavior therapy	辩证行为疗法（DBT）	心理卫生
+acceptance and commitment therapy	接纳承诺疗法（ACT）	心理卫生
+eye movement desensitization and reprocessing	眼动脱敏与再加工（EMDR）	心理卫生
+biofeedback	生物反馈	心理卫生
+relaxation training	放松训练	心理卫生
+mental health first aid	心理健康急救	心理卫生
+gatekeeper training	守门人培训	心理卫生
+Werther effect	维特效应	心理卫生
+Papageno effect	帕帕基诺效应	心理卫生
+means restriction	致死手段限制	心理卫生
+psychological autopsy	心理解剖	心理卫生
+Kessler Psychological Distress Scale	凯斯勒心理困扰量表（K10）	心理卫生
+Pittsburgh Sleep Quality Index	匹兹堡睡眠质量指数（PSQI）	心理卫生
+Beck Depression Inventory	贝克抑郁量表（BDI）	心理卫生
+Center for Epidemiologic Studies Depression Scale	流调中心抑郁量表（CES-D）	心理卫生
+Geriatric Depression Scale	老年抑郁量表（GDS）	心理卫生
+Maslach Burnout Inventory	马斯拉克职业倦怠量表（MBI）	心理卫生
+Perceived Stress Scale	知觉压力量表（PSS）	心理卫生
+Social Support Rating Scale	社会支持评定量表（SSRS）	心理卫生
+judicial appraisal	司法鉴定	法医学
+forensic expertise institution	司法鉴定机构	法医学
+clinical forensic examination	活体检查	法医学
+pugilistic attitude	拳斗姿势	法医学
+heat hematoma	热血肿	法医学
+cherry-red lividity	樱桃红色尸斑	法医学
+emphysema aquosum	水性肺气肿	法医学
+cutis anserina	鸡皮样皮肤	法医学
+postmortem immersion	死后入水	法医学
+body packer	人体藏毒者	法医学
+drug-related death	药物相关死亡	法医学
+gas chromatography-mass spectrometry	气相色谱-质谱联用（GC-MS）	法医学
+liquid chromatography-tandem mass spectrometry	液相色谱-串联质谱联用（LC-MS/MS）	法医学
+immunoassay	免疫分析	法医学
+vitreous humor analysis	玻璃体液分析	法医学
+histopathological examination	组织病理学检验	法医学
+virtual autopsy	虚拟解剖	法医学
+postmortem computed tomography	死后CT（PMCT）	法医学
+dental identification	牙齿鉴定	法医学
+skull-photo superimposition	颅像重合	法医学
+epiphyseal union	骨骺愈合	法医学
+pubic symphysis	耻骨联合	法医学
+maggot	蝇蛆	法医学
+insect succession	昆虫演替	法医学
+seminal stain	精斑	法医学
+bloodstain	血痕；血迹	法医学
+species identification	种属鉴定	法医学
+ABO blood group	ABO血型	法医学
+Y-chromosome short tandem repeat	Y染色体短串联重复序列（Y-STR）	法医学
+single nucleotide polymorphism	单核苷酸多态性（SNP）	法医学
+DNA database	DNA数据库	法医学
+paternity index	亲权指数（PI）	法医学
+probability of paternity	亲权概率	法医学
+mixed stain	混合斑	法医学
+touch DNA	接触DNA	法医学
+degraded DNA	降解DNA	法医学
+tram-line bruise	中空性皮下出血	法医学
+skull fracture	颅骨骨折	法医学
+cerebral concussion	脑震荡	法医学
+cerebral contusion	脑挫伤	法医学
+traumatic subarachnoid hemorrhage	外伤性蛛网膜下腔出血	法医学
+rib fracture	肋骨骨折	法医学
+traumatic shock	创伤性休克	法医学
+hemorrhagic shock	失血性休克	法医学
+crush syndrome	挤压综合征	法医学
+exsanguination	失血	法医学

@@ -1,0 +1,3269 @@
+pharmacology	药理学	药理学概念
+pharmacodynamics	药效学；药物效应动力学	药理学概念
+pharmacogenetics	遗传药理学；药物遗传学	药理学概念
+pharmacogenomics	药物基因组学	药理学概念
+clinical pharmacology	临床药理学	药理学概念
+molecular pharmacology	分子药理学	药理学概念
+biochemical pharmacology	生化药理学	药理学概念
+neuropharmacology	神经药理学	药理学概念
+psychopharmacology	精神药理学	药理学概念
+immunopharmacology	免疫药理学	药理学概念
+cardiovascular pharmacology	心血管药理学	药理学概念
+chronopharmacology	时辰药理学；时间药理学	药理学概念
+chemotherapy	化学治疗；化疗	药理学概念
+pharmacotherapy	药物治疗	药理学概念
+pharmacotherapeutics	药物治疗学	药理学概念
+pharmacy	药学；药房	药理学概念
+pharmacognosy	生药学	药理学概念
+medicinal chemistry	药物化学	药理学概念
+drug	药物；药品	药理学概念
+drug target	药物靶点	药理学概念
+receptor	受体	药理学概念
+ligand	配体	药理学概念
+agonist	激动药；激动剂	药理学概念
+full agonist	完全激动药；完全激动剂	药理学概念
+partial agonist	部分激动药；部分激动剂	药理学概念
+inverse agonist	反向激动药；反向激动剂	药理学概念
+antagonist	拮抗药；拮抗剂	药理学概念
+competitive antagonist	竞争性拮抗药；竞争性拮抗剂	药理学概念
+noncompetitive antagonist	非竞争性拮抗药；非竞争性拮抗剂	药理学概念
+irreversible antagonist	不可逆性拮抗药	药理学概念
+allosteric modulator	变构调节剂；别构调节剂	药理学概念
+affinity	亲和力	药理学概念
+intrinsic activity	内在活性	药理学概念
+efficacy	效能；疗效	药理学概念
+maximal efficacy	最大效能	药理学概念
+potency	效价强度	药理学概念
+dose-response relationship	量效关系	药理学概念
+dose-response curve	量效曲线	药理学概念
+time-effect relationship	时效关系	药理学概念
+graded response	量反应	药理学概念
+quantal response	质反应	药理学概念
+median effective dose	半数有效量（ED50）	药理学概念
+median effective concentration	半数有效浓度（EC50）	药理学概念
+therapeutic index	治疗指数（TI）	药理学概念
+margin of safety	安全范围	药理学概念
+therapeutic window	治疗窗	药理学概念
+threshold dose	阈剂量	药理学概念
+minimum effective dose	最小有效量	药理学概念
+maximum tolerated dose	最大耐受剂量（MTD）	药理学概念
+ceiling effect	封顶效应；天花板效应	药理学概念
+therapeutic dose	治疗量；常用量	药理学概念
+toxic dose	中毒量	药理学概念
+lethal dose	致死量	药理学概念
+overdose	过量；药物过量	药理学概念
+therapeutic effect	治疗作用	药理学概念
+etiological treatment	对因治疗	药理学概念
+symptomatic treatment	对症治疗	药理学概念
+local effect	局部作用	药理学概念
+systemic effect	全身作用；吸收作用	药理学概念
+direct effect	直接作用	药理学概念
+indirect effect	间接作用	药理学概念
+selectivity	选择性	药理学概念
+adverse drug reaction	药品不良反应（ADR）	药理学概念
+adverse event	不良事件	药理学概念
+side effect	副作用；副反应	药理学概念
+toxic reaction	毒性反应	药理学概念
+acute toxic reaction	急性毒性反应	药理学概念
+chronic toxic reaction	慢性毒性反应	药理学概念
+allergic reaction	变态反应；过敏反应	药理学概念
+hypersensitivity	超敏反应；过敏反应	药理学概念
+idiosyncratic reaction	特异质反应	药理学概念
+residual effect	后遗效应	药理学概念
+withdrawal reaction	停药反应；撤药反应	药理学概念
+rebound phenomenon	反跳现象	药理学概念
+secondary reaction	继发反应	药理学概念
+first-dose phenomenon	首剂现象	药理学概念
+paradoxical reaction	反常反应；矛盾反应	药理学概念
+drug dependence	药物依赖性	药理学概念
+physical dependence	躯体依赖性；生理依赖性	药理学概念
+psychological dependence	精神依赖性；心理依赖性	药理学概念
+addiction	成瘾；成瘾性	药理学概念
+withdrawal syndrome	戒断综合征	药理学概念
+tolerance	耐受性	药理学概念
+tachyphylaxis	快速耐受性；快速减敏	药理学概念
+cross tolerance	交叉耐受性	药理学概念
+drug resistance	耐药性；抗药性	药理学概念
+acquired resistance	获得性耐药	药理学概念
+intrinsic resistance	固有耐药；天然耐药	药理学概念
+cross resistance	交叉耐药性	药理学概念
+multidrug resistance	多药耐药（MDR）	药理学概念
+placebo	安慰剂	药理学概念
+placebo effect	安慰剂效应	药理学概念
+nocebo effect	反安慰剂效应	药理学概念
+synergism	协同作用	药理学概念
+antagonism	拮抗作用	药理学概念
+additive effect	相加作用	药理学概念
+potentiation	增强作用	药理学概念
+drug interaction	药物相互作用	药理学概念
+pharmacodynamic interaction	药效学相互作用	药理学概念
+pharmacokinetic interaction	药动学相互作用	药理学概念
+receptor occupancy theory	受体占领学说	药理学概念
+rate theory	速率学说	药理学概念
+two-state model	二态模型	药理学概念
+spare receptor	储备受体	药理学概念
+receptor up-regulation	受体上调；受体向上调节	药理学概念
+receptor down-regulation	受体下调；受体向下调节	药理学概念
+desensitization	脱敏；减敏	药理学概念
+hypersensitization	增敏	药理学概念
+signal transduction	信号转导	药理学概念
+second messenger	第二信使	药理学概念
+G protein	G蛋白	药理学概念
+G protein-coupled receptor	G蛋白偶联受体（GPCR）	药理学概念
+ligand-gated ion channel	配体门控离子通道	药理学概念
+voltage-gated ion channel	电压门控离子通道	药理学概念
+receptor tyrosine kinase	受体酪氨酸激酶	药理学概念
+nuclear receptor	核受体	药理学概念
+ion channel	离子通道	药理学概念
+cyclic adenosine monophosphate	环磷酸腺苷（cAMP）	药理学概念
+cyclic guanosine monophosphate	环磷酸鸟苷（cGMP）	药理学概念
+inositol trisphosphate	三磷酸肌醇（IP3）	药理学概念
+diacylglycerol	二酰甘油（DAG）	药理学概念
+adenylate cyclase	腺苷酸环化酶	药理学概念
+protein kinase A	蛋白激酶A（PKA）	药理学概念
+protein kinase C	蛋白激酶C（PKC）	药理学概念
+adrenergic receptor	肾上腺素受体	药理学概念
+alpha adrenergic receptor	α肾上腺素受体；α受体	药理学概念
+beta adrenergic receptor	β肾上腺素受体；β受体	药理学概念
+cholinergic receptor	胆碱受体	药理学概念
+muscarinic receptor	毒蕈碱受体；M受体	药理学概念
+nicotinic receptor	烟碱受体；N受体	药理学概念
+dopamine receptor	多巴胺受体	药理学概念
+serotonin receptor	5-羟色胺受体	药理学概念
+histamine receptor	组胺受体	药理学概念
+opioid receptor	阿片受体	药理学概念
+GABA receptor	γ-氨基丁酸受体；GABA受体	药理学概念
+NMDA receptor	NMDA受体	药理学概念
+benzodiazepine receptor	苯二氮䓬受体	药理学概念
+insulin receptor	胰岛素受体	药理学概念
+estrogen receptor	雌激素受体	药理学概念
+glucocorticoid receptor	糖皮质激素受体	药理学概念
+neurotransmitter	神经递质	药理学概念
+neuromodulator	神经调质	药理学概念
+autacoid	自体活性物质	药理学概念
+cholinergic nerve	胆碱能神经	药理学概念
+adrenergic nerve	去甲肾上腺素能神经	药理学概念
+autonomic nervous system	自主神经系统	药理学概念
+sympathetic nervous system	交感神经系统	药理学概念
+parasympathetic nervous system	副交感神经系统	药理学概念
+reuptake	再摄取	药理学概念
+acetylcholinesterase	乙酰胆碱酯酶（AChE）	药理学概念
+monoamine oxidase	单胺氧化酶（MAO）	药理学概念
+catechol-O-methyltransferase	儿茶酚-O-甲基转移酶（COMT）	药理学概念
+cyclooxygenase	环氧合酶；环加氧酶（COX）	药理学概念
+prostaglandin	前列腺素	药理学概念
+leukotriene	白三烯	药理学概念
+thromboxane	血栓素	药理学概念
+prodrug	前药；前体药物	药理学概念
+active metabolite	活性代谢物	药理学概念
+enzyme inhibitor	酶抑制剂	药理学概念
+loading dose	负荷剂量；首剂加倍量	药理学概念
+maintenance dose	维持剂量	药理学概念
+genetic polymorphism	遗传多态性	药理学概念
+poor metabolizer	慢代谢者；弱代谢者	药理学概念
+extensive metabolizer	快代谢者；强代谢者	药理学概念
+ultrarapid metabolizer	超快代谢者	药理学概念
+slow acetylator	慢乙酰化者	药理学概念
+fast acetylator	快乙酰化者	药理学概念
+individual variation	个体差异	药理学概念
+drug-induced disease	药源性疾病	药理学概念
+drug-induced liver injury	药物性肝损伤（DILI）	药理学概念
+drug allergy	药物过敏	药理学概念
+anaphylaxis	严重过敏反应；全身性过敏反应	药理学概念
+anaphylactic shock	过敏性休克	药理学概念
+drug fever	药物热	药理学概念
+drug eruption	药疹	药理学概念
+fixed drug eruption	固定性药疹	药理学概念
+photosensitivity	光敏反应；光敏性	药理学概念
+Stevens-Johnson syndrome	史-约综合征；Stevens-Johnson综合征	药理学概念
+toxic epidermal necrolysis	中毒性表皮坏死松解症	药理学概念
+QT prolongation	QT间期延长	药理学概念
+torsade de pointes	尖端扭转型室性心动过速	药理学概念
+gray baby syndrome	灰婴综合征	药理学概念
+red man syndrome	红人综合征	药理学概念
+disulfiram-like reaction	双硫仑样反应	药理学概念
+serotonin syndrome	5-羟色胺综合征	药理学概念
+neuroleptic malignant syndrome	抗精神病药恶性综合征	药理学概念
+extrapyramidal reaction	锥体外系反应	药理学概念
+tardive dyskinesia	迟发性运动障碍	药理学概念
+acute dystonia	急性肌张力障碍	药理学概念
+akathisia	静坐不能	药理学概念
+drug-induced parkinsonism	药源性帕金森综合征	药理学概念
+malignant hyperthermia	恶性高热	药理学概念
+cinchonism	金鸡纳反应	药理学概念
+digitalis toxicity	洋地黄中毒	药理学概念
+aspirin-induced asthma	阿司匹林哮喘	药理学概念
+Reye syndrome	瑞夷综合征；瑞氏综合征	药理学概念
+superinfection	二重感染	药理学概念
+antibiotic-associated diarrhea	抗生素相关性腹泻	药理学概念
+pseudomembranous colitis	假膜性结肠炎	药理学概念
+hepatotoxicity	肝毒性	药理学概念
+nephrotoxicity	肾毒性	药理学概念
+ototoxicity	耳毒性	药理学概念
+cardiotoxicity	心脏毒性	药理学概念
+neurotoxicity	神经毒性	药理学概念
+myelosuppression	骨髓抑制	药理学概念
+agranulocytosis	粒细胞缺乏症	药理学概念
+aplastic anemia	再生障碍性贫血	药理学概念
+hemolytic anemia	溶血性贫血	药理学概念
+first-pass effect	首过效应；首关效应	药动学
+post-antibiotic effect	抗生素后效应（PAE）	抗感染药
+minimum inhibitory concentration	最低抑菌浓度（MIC）	抗感染药
+minimum bactericidal concentration	最低杀菌浓度（MBC）	抗感染药
+mutant prevention concentration	防突变浓度（MPC）	抗感染药
+chemotherapeutic index	化疗指数	抗感染药
+antibacterial spectrum	抗菌谱	抗感染药
+antibacterial activity	抗菌活性	抗感染药
+broad-spectrum antibiotic	广谱抗生素	抗感染药
+narrow-spectrum antibiotic	窄谱抗生素	抗感染药
+bacteriostatic agent	抑菌药	抗感染药
+bactericidal agent	杀菌药	抗感染药
+time-dependent antibacterial	时间依赖性抗菌药	抗感染药
+concentration-dependent antibacterial	浓度依赖性抗菌药	抗感染药
+beta-lactamase	β-内酰胺酶	抗感染药
+extended-spectrum beta-lactamase	超广谱β-内酰胺酶（ESBL）	抗感染药
+carbapenemase	碳青霉烯酶	抗感染药
+penicillin-binding protein	青霉素结合蛋白（PBP）	抗感染药
+methicillin-resistant Staphylococcus aureus	耐甲氧西林金黄色葡萄球菌（MRSA）	抗感染药
+vancomycin-resistant enterococcus	耐万古霉素肠球菌（VRE）	抗感染药
+efflux pump	外排泵	抗感染药
+pharmacokinetics	药动学；药物代谢动力学	药动学
+ADME	吸收、分布、代谢和排泄（ADME）	药动学
+absorption	吸收	药动学
+distribution	分布	药动学
+metabolism	代谢	药动学
+biotransformation	生物转化	药动学
+excretion	排泄	药动学
+elimination	消除	药动学
+disposition	处置	药动学
+transmembrane transport	跨膜转运	药动学
+passive transport	被动转运	药动学
+passive diffusion	被动扩散	药动学
+simple diffusion	简单扩散	药动学
+facilitated diffusion	易化扩散	药动学
+active transport	主动转运	药动学
+carrier-mediated transport	载体转运	药动学
+filtration	滤过	药动学
+pinocytosis	胞饮	药动学
+endocytosis	胞吞	药动学
+drug transporter	药物转运体	药动学
+P-glycoprotein	P-糖蛋白（P-gp）	药动学
+dissociation constant	解离常数	药动学
+ion trapping	离子障；离子捕获	药动学
+bioavailability	生物利用度	药动学
+absolute bioavailability	绝对生物利用度	药动学
+relative bioavailability	相对生物利用度	药动学
+bioequivalence	生物等效性	药动学
+first-pass elimination	首过消除；首关消除	药动学
+presystemic elimination	系统前消除	药动学
+enterohepatic circulation	肝肠循环	药动学
+plasma protein binding	血浆蛋白结合	药动学
+plasma protein binding rate	血浆蛋白结合率	药动学
+free drug	游离型药物	药动学
+bound drug	结合型药物	药动学
+fraction unbound	游离分数	药动学
+volume of distribution	分布容积	药动学
+apparent volume of distribution	表观分布容积（Vd）	药动学
+redistribution	再分布	药动学
+blood-brain barrier	血脑屏障	药动学
+placental barrier	胎盘屏障	药动学
+blood-testis barrier	血睾屏障	药动学
+blood-eye barrier	血眼屏障	药动学
+half-life	半衰期	药动学
+elimination half-life	消除半衰期（t1/2）	药动学
+absorption half-life	吸收半衰期	药动学
+distribution half-life	分布半衰期	药动学
+clearance	清除率（CL）	药动学
+total body clearance	总体清除率	药动学
+renal clearance	肾清除率	药动学
+hepatic clearance	肝清除率	药动学
+creatinine clearance	肌酐清除率（CCr）	药动学
+extraction ratio	摄取比；提取率	药动学
+area under the curve	曲线下面积（AUC）	药动学
+peak concentration	峰浓度（Cmax）	药动学
+time to peak concentration	达峰时间（Tmax）	药动学
+trough concentration	谷浓度（Cmin）	药动学
+steady state	稳态	药动学
+steady-state concentration	稳态血药浓度（Css）	药动学
+plasma concentration	血药浓度	药动学
+plasma concentration-time curve	血药浓度-时间曲线；药-时曲线	药动学
+minimum effective concentration	最低有效浓度（MEC）	药动学
+minimum toxic concentration	最低中毒浓度（MTC）	药动学
+first-order kinetics	一级动力学	药动学
+zero-order kinetics	零级动力学	药动学
+first-order elimination	一级消除	药动学
+zero-order elimination	零级消除	药动学
+Michaelis-Menten kinetics	米氏动力学；米-曼动力学	药动学
+linear pharmacokinetics	线性药动学	药动学
+nonlinear pharmacokinetics	非线性药动学	药动学
+saturation kinetics	饱和动力学	药动学
+compartment model	房室模型	药动学
+one-compartment model	一室模型；单室模型	药动学
+two-compartment model	二室模型	药动学
+central compartment	中央室	药动学
+peripheral compartment	周边室；外周室	药动学
+noncompartmental analysis	非房室分析	药动学
+elimination rate constant	消除速率常数（k）	药动学
+absorption rate constant	吸收速率常数（ka）	药动学
+mean residence time	平均滞留时间（MRT）	药动学
+statistical moment	统计矩	药动学
+absorption phase	吸收相	药动学
+distribution phase	分布相	药动学
+elimination phase	消除相	药动学
+lag time	滞后时间	药动学
+onset of action	起效时间	药动学
+duration of action	作用持续时间	药动学
+latent period	潜伏期	药动学
+residual period	残留期	药动学
+phase I reaction	Ⅰ相反应	药动学
+phase II reaction	Ⅱ相反应	药动学
+oxidation	氧化	药动学
+reduction	还原	药动学
+hydrolysis	水解	药动学
+conjugation	结合反应	药动学
+glucuronidation	葡萄糖醛酸化；葡萄糖醛酸结合	药动学
+acetylation	乙酰化	药动学
+sulfation	硫酸化；硫酸结合	药动学
+methylation	甲基化	药动学
+glutathione conjugation	谷胱甘肽结合	药动学
+cytochrome P450	细胞色素P450（CYP450）	药动学
+CYP3A4	细胞色素P450 3A4（CYP3A4）	药动学
+CYP2D6	细胞色素P450 2D6（CYP2D6）	药动学
+CYP2C19	细胞色素P450 2C19（CYP2C19）	药动学
+CYP2C9	细胞色素P450 2C9（CYP2C9）	药动学
+CYP1A2	细胞色素P450 1A2（CYP1A2）	药动学
+microsomal enzyme	微粒体酶	药动学
+hepatic microsomal enzyme	肝微粒体酶；肝药酶	药动学
+uridine diphosphate glucuronosyltransferase	尿苷二磷酸葡萄糖醛酸转移酶（UGT）	药动学
+N-acetyltransferase	N-乙酰基转移酶（NAT）	药动学
+enzyme induction	酶诱导	药动学
+enzyme inhibition	酶抑制	药动学
+enzyme inducer	酶诱导剂；药酶诱导剂	药动学
+glomerular filtration	肾小球滤过	药动学
+glomerular filtration rate	肾小球滤过率（GFR）	药动学
+tubular secretion	肾小管分泌	药动学
+tubular reabsorption	肾小管重吸收	药动学
+biliary excretion	胆汁排泄	药动学
+urinary excretion	尿排泄	药动学
+dosing interval	给药间隔	药动学
+dosage regimen	给药方案	药动学
+accumulation	蓄积	药动学
+accumulation factor	蓄积因子	药动学
+fluctuation	波动度	药动学
+constant rate infusion	恒速静脉滴注；恒速输注	药动学
+infusion rate	输注速率	药动学
+multiple dosing	多次给药	药动学
+single dosing	单次给药	药动学
+population pharmacokinetics	群体药动学	药动学
+physiologically based pharmacokinetic model	生理药动学模型（PBPK）	药动学
+pharmacokinetic-pharmacodynamic model	药动学-药效学模型（PK-PD模型）	药动学
+pharmacokinetic parameter	药动学参数	药动学
+dose proportionality	剂量比例性	药动学
+dose-dependent kinetics	剂量依赖性动力学	药动学
+drug-drug interaction	药物-药物相互作用（DDI）	药动学
+food-drug interaction	食物-药物相互作用	药动学
+food effect	食物影响	药动学
+gastric emptying	胃排空	药动学
+gastric emptying rate	胃排空速率	药动学
+membrane permeability	膜通透性	药动学
+lipid solubility	脂溶性	药动学
+hepatic blood flow	肝血流量	药动学
+mass balance	物料平衡	药动学
+tissue distribution	组织分布	药动学
+antibiotic	抗生素	抗感染药
+antibacterial agent	抗菌药；抗菌药物	抗感染药
+antimicrobial agent	抗微生物药	抗感染药
+anti-infective agent	抗感染药	抗感染药
+beta-lactam antibiotic	β-内酰胺类抗生素	抗感染药
+penicillin	青霉素；青霉素类	抗感染药
+penicillinase-resistant penicillin	耐酶青霉素	抗感染药
+cephalosporin	头孢菌素；头孢菌素类	抗感染药
+cephamycin	头霉素类	抗感染药
+oxacephem	氧头孢烯类	抗感染药
+carbapenem	碳青霉烯类	抗感染药
+penem	青霉烯类	抗感染药
+monobactam	单环β-内酰胺类	抗感染药
+beta-lactamase inhibitor	β-内酰胺酶抑制剂	抗感染药
+aminoglycoside	氨基糖苷类	抗感染药
+macrolide	大环内酯类	抗感染药
+ketolide	酮内酯类	抗感染药
+tetracycline antibiotic	四环素类抗生素	抗感染药
+glycylcycline	甘氨酰环素类	抗感染药
+lincosamide	林可酰胺类	抗感染药
+glycopeptide antibiotic	糖肽类抗生素	抗感染药
+lipoglycopeptide	脂糖肽类	抗感染药
+cyclic lipopeptide	环脂肽类	抗感染药
+oxazolidinone	噁唑烷酮类	抗感染药
+polymyxin	多黏菌素；多黏菌素类	抗感染药
+amphenicol	酰胺醇类	抗感染药
+quinolone	喹诺酮类	抗感染药
+fluoroquinolone	氟喹诺酮类	抗感染药
+sulfonamide	磺胺类；磺胺类药	抗感染药
+nitrofuran	硝基呋喃类	抗感染药
+nitroimidazole	硝基咪唑类	抗感染药
+antituberculosis drug	抗结核药	抗感染药
+antileprosy drug	抗麻风药	抗感染药
+antifungal agent	抗真菌药	抗感染药
+azole antifungal	唑类抗真菌药	抗感染药
+triazole antifungal	三唑类抗真菌药	抗感染药
+imidazole antifungal	咪唑类抗真菌药	抗感染药
+polyene antifungal	多烯类抗真菌药	抗感染药
+echinocandin	棘白菌素类	抗感染药
+allylamine antifungal	丙烯胺类抗真菌药	抗感染药
+antiviral agent	抗病毒药	抗感染药
+nucleoside analog	核苷类似物	抗感染药
+nucleoside reverse transcriptase inhibitor	核苷类逆转录酶抑制剂（NRTI）	抗感染药
+non-nucleoside reverse transcriptase inhibitor	非核苷类逆转录酶抑制剂（NNRTI）	抗感染药
+HIV protease inhibitor	HIV蛋白酶抑制剂	抗感染药
+integrase inhibitor	整合酶抑制剂	抗感染药
+integrase strand transfer inhibitor	整合酶链转移抑制剂（INSTI）	抗感染药
+fusion inhibitor	融合抑制剂	抗感染药
+CCR5 antagonist	CCR5拮抗剂	抗感染药
+neuraminidase inhibitor	神经氨酸酶抑制剂	抗感染药
+direct-acting antiviral agent	直接抗病毒药物（DAA）	抗感染药
+NS5A inhibitor	NS5A抑制剂	抗感染药
+NS5B polymerase inhibitor	NS5B聚合酶抑制剂	抗感染药
+NS3/4A protease inhibitor	NS3/4A蛋白酶抑制剂	抗感染药
+antiretroviral agent	抗逆转录病毒药	抗感染药
+antiretroviral therapy	抗逆转录病毒治疗（ART）	抗感染药
+highly active antiretroviral therapy	高效抗逆转录病毒治疗（HAART）	抗感染药
+pre-exposure prophylaxis	暴露前预防（PrEP）	抗感染药
+post-exposure prophylaxis	暴露后预防（PEP）	抗感染药
+antiparasitic agent	抗寄生虫药	抗感染药
+antimalarial agent	抗疟药	抗感染药
+artemisinin-based combination therapy	以青蒿素为基础的联合疗法（ACT）	抗感染药
+antiprotozoal agent	抗原虫药	抗感染药
+antiamoebic agent	抗阿米巴药	抗感染药
+antitrichomonal agent	抗滴虫药	抗感染药
+antileishmanial agent	抗利什曼原虫药	抗感染药
+anthelmintic	驱虫药；抗蠕虫药	抗感染药
+antischistosomal agent	抗血吸虫药	抗感染药
+antifilarial agent	抗丝虫药	抗感染药
+benzylpenicillin	青霉素；苄青霉素；青霉素G	抗感染药
+benzathine benzylpenicillin	苄星青霉素	抗感染药
+procaine benzylpenicillin	普鲁卡因青霉素	抗感染药
+phenoxymethylpenicillin	青霉素V；苯氧甲基青霉素	抗感染药
+oxacillin	苯唑西林	抗感染药
+cloxacillin	氯唑西林	抗感染药
+dicloxacillin	双氯西林	抗感染药
+flucloxacillin	氟氯西林	抗感染药
+methicillin	甲氧西林	抗感染药
+nafcillin	萘夫西林	抗感染药
+ampicillin	氨苄西林	抗感染药
+amoxicillin	阿莫西林	抗感染药
+pivampicillin	匹氨西林	抗感染药
+bacampicillin	巴氨西林	抗感染药
+carbenicillin	羧苄西林	抗感染药
+ticarcillin	替卡西林	抗感染药
+piperacillin	哌拉西林	抗感染药
+mezlocillin	美洛西林	抗感染药
+azlocillin	阿洛西林	抗感染药
+furbenicillin	呋苄西林	抗感染药
+sulbenicillin	磺苄西林	抗感染药
+temocillin	替莫西林	抗感染药
+mecillinam	美西林	抗感染药
+pivmecillinam	匹美西林	抗感染药
+clavulanic acid	克拉维酸	抗感染药
+clavulanate potassium	克拉维酸钾	抗感染药
+sulbactam	舒巴坦	抗感染药
+tazobactam	他唑巴坦	抗感染药
+avibactam	阿维巴坦	抗感染药
+cefazolin	头孢唑林	抗感染药
+cefalexin	头孢氨苄	抗感染药
+cephalexin	头孢氨苄	抗感染药
+cefradine	头孢拉定	抗感染药
+cefadroxil	头孢羟氨苄	抗感染药
+cefalotin	头孢噻吩	抗感染药
+cefapirin	头孢匹林	抗感染药
+cefathiamidine	头孢硫脒	抗感染药
+cefuroxime	头孢呋辛	抗感染药
+cefuroxime axetil	头孢呋辛酯	抗感染药
+cefaclor	头孢克洛	抗感染药
+cefamandole	头孢孟多	抗感染药
+cefotiam	头孢替安	抗感染药
+cefprozil	头孢丙烯	抗感染药
+cefonicid	头孢尼西	抗感染药
+cefotaxime	头孢噻肟	抗感染药
+ceftriaxone	头孢曲松	抗感染药
+ceftazidime	头孢他啶	抗感染药
+cefoperazone	头孢哌酮	抗感染药
+ceftizoxime	头孢唑肟	抗感染药
+cefixime	头孢克肟	抗感染药
+cefdinir	头孢地尼	抗感染药
+cefpodoxime proxetil	头孢泊肟酯	抗感染药
+cefditoren pivoxil	头孢妥仑匹酯	抗感染药
+ceftibuten	头孢布烯	抗感染药
+cefmenoxime	头孢甲肟	抗感染药
+cefodizime	头孢地嗪	抗感染药
+cefpiramide	头孢匹胺	抗感染药
+cefetamet pivoxil	头孢他美酯	抗感染药
+cefepime	头孢吡肟	抗感染药
+cefpirome	头孢匹罗	抗感染药
+cefoselis	头孢噻利	抗感染药
+ceftaroline	头孢洛林	抗感染药
+ceftolozane	头孢洛扎	抗感染药
+cefiderocol	头孢地尔	抗感染药
+cefoxitin	头孢西丁	抗感染药
+cefmetazole	头孢美唑	抗感染药
+cefotetan	头孢替坦	抗感染药
+cefminox	头孢米诺	抗感染药
+cefbuperazone	头孢拉宗	抗感染药
+latamoxef	拉氧头孢	抗感染药
+flomoxef	氟氧头孢	抗感染药
+imipenem	亚胺培南	抗感染药
+cilastatin	西司他丁	抗感染药
+meropenem	美罗培南	抗感染药
+ertapenem	厄他培南	抗感染药
+biapenem	比阿培南	抗感染药
+panipenem	帕尼培南	抗感染药
+betamipron	倍他米隆	抗感染药
+doripenem	多立培南	抗感染药
+faropenem	法罗培南	抗感染药
+tebipenem pivoxil	替比培南酯	抗感染药
+aztreonam	氨曲南	抗感染药
+streptomycin	链霉素	抗感染药
+gentamicin	庆大霉素	抗感染药
+tobramycin	妥布霉素	抗感染药
+amikacin	阿米卡星	抗感染药
+netilmicin	奈替米星	抗感染药
+kanamycin	卡那霉素	抗感染药
+neomycin	新霉素	抗感染药
+etimicin	依替米星	抗感染药
+isepamicin	异帕米星	抗感染药
+sisomicin	西索米星	抗感染药
+micronomicin	小诺霉素；小诺米星	抗感染药
+ribostamycin	核糖霉素	抗感染药
+dibekacin	地贝卡星	抗感染药
+arbekacin	阿贝卡星	抗感染药
+spectinomycin	大观霉素	抗感染药
+paromomycin	巴龙霉素	抗感染药
+erythromycin	红霉素	抗感染药
+erythromycin ethylsuccinate	琥乙红霉素	抗感染药
+erythromycin estolate	依托红霉素	抗感染药
+erythromycin lactobionate	乳糖酸红霉素	抗感染药
+azithromycin	阿奇霉素	抗感染药
+clarithromycin	克拉霉素	抗感染药
+roxithromycin	罗红霉素	抗感染药
+spiramycin	螺旋霉素	抗感染药
+acetylspiramycin	乙酰螺旋霉素	抗感染药
+josamycin	交沙霉素	抗感染药
+midecamycin	麦迪霉素	抗感染药
+kitasamycin	吉他霉素；柱晶白霉素	抗感染药
+dirithromycin	地红霉素	抗感染药
+rokitamycin	罗他霉素	抗感染药
+telithromycin	泰利霉素	抗感染药
+fidaxomicin	非达霉素	抗感染药
+tetracycline	四环素	抗感染药
+oxytetracycline	土霉素	抗感染药
+chlortetracycline	金霉素	抗感染药
+doxycycline	多西环素；强力霉素	抗感染药
+minocycline	米诺环素	抗感染药
+demeclocycline	地美环素	抗感染药
+metacycline	美他环素	抗感染药
+tigecycline	替加环素	抗感染药
+omadacycline	奥马环素	抗感染药
+eravacycline	依拉环素	抗感染药
+lincomycin	林可霉素	抗感染药
+clindamycin	克林霉素	抗感染药
+vancomycin	万古霉素	抗感染药
+norvancomycin	去甲万古霉素	抗感染药
+teicoplanin	替考拉宁	抗感染药
+telavancin	特拉万星	抗感染药
+dalbavancin	达巴万星	抗感染药
+oritavancin	奥利万星	抗感染药
+daptomycin	达托霉素	抗感染药
+linezolid	利奈唑胺	抗感染药
+tedizolid	特地唑胺	抗感染药
+contezolid	康替唑胺	抗感染药
+polymyxin B	多黏菌素B	抗感染药
+colistin	黏菌素；多黏菌素E	抗感染药
+chloramphenicol	氯霉素	抗感染药
+thiamphenicol	甲砜霉素	抗感染药
+fosfomycin	磷霉素	抗感染药
+fusidic acid	夫西地酸	抗感染药
+mupirocin	莫匹罗星	抗感染药
+retapamulin	瑞他莫林	抗感染药
+bacitracin	杆菌肽	抗感染药
+gramicidin	短杆菌肽	抗感染药
+rifaximin	利福昔明	抗感染药
+nitrofurantoin	呋喃妥因	抗感染药
+furazolidone	呋喃唑酮	抗感染药
+methenamine	乌洛托品	抗感染药
+nalidixic acid	萘啶酸	抗感染药
+pipemidic acid	吡哌酸	抗感染药
+norfloxacin	诺氟沙星	抗感染药
+ciprofloxacin	环丙沙星	抗感染药
+ofloxacin	氧氟沙星	抗感染药
+levofloxacin	左氧氟沙星	抗感染药
+moxifloxacin	莫西沙星	抗感染药
+gatifloxacin	加替沙星	抗感染药
+sparfloxacin	司帕沙星	抗感染药
+lomefloxacin	洛美沙星	抗感染药
+fleroxacin	氟罗沙星	抗感染药
+pefloxacin	培氟沙星	抗感染药
+enoxacin	依诺沙星	抗感染药
+gemifloxacin	吉米沙星	抗感染药
+sitafloxacin	西他沙星	抗感染药
+nemonoxacin	奈诺沙星	抗感染药
+rufloxacin	芦氟沙星	抗感染药
+pazufloxacin	帕珠沙星	抗感染药
+antofloxacin	安妥沙星	抗感染药
+prulifloxacin	普卢利沙星	抗感染药
+garenoxacin	加雷沙星	抗感染药
+delafloxacin	德拉沙星	抗感染药
+tosufloxacin	妥舒沙星	抗感染药
+balofloxacin	巴洛沙星	抗感染药
+trovafloxacin	曲伐沙星	抗感染药
+grepafloxacin	格帕沙星	抗感染药
+sulfamethoxazole	磺胺甲噁唑	抗感染药
+trimethoprim	甲氧苄啶	抗感染药
+co-trimoxazole	复方磺胺甲噁唑	抗感染药
+sulfadiazine	磺胺嘧啶	抗感染药
+silver sulfadiazine	磺胺嘧啶银	抗感染药
+sulfacetamide	磺胺醋酰	抗感染药
+mafenide	磺胺米隆	抗感染药
+sulfadoxine	磺胺多辛	抗感染药
+sulfisoxazole	磺胺异噁唑	抗感染药
+sulfadimidine	磺胺二甲嘧啶	抗感染药
+sulfaguanidine	磺胺脒	抗感染药
+metronidazole	甲硝唑	抗感染药
+tinidazole	替硝唑	抗感染药
+ornidazole	奥硝唑	抗感染药
+secnidazole	塞克硝唑	抗感染药
+morinidazole	吗啉硝唑	抗感染药
+isoniazid	异烟肼	抗感染药
+rifampicin	利福平	抗感染药
+rifampin	利福平	抗感染药
+rifapentine	利福喷丁	抗感染药
+rifabutin	利福布汀	抗感染药
+rifamycin	利福霉素	抗感染药
+rifandin	利福定	抗感染药
+pyrazinamide	吡嗪酰胺	抗感染药
+ethambutol	乙胺丁醇	抗感染药
+aminosalicylic acid	对氨基水杨酸	抗感染药
+sodium aminosalicylate	对氨基水杨酸钠	抗感染药
+pasiniazid	帕司烟肼	抗感染药
+ethionamide	乙硫异烟胺	抗感染药
+protionamide	丙硫异烟胺	抗感染药
+cycloserine	环丝氨酸	抗感染药
+terizidone	特立齐酮	抗感染药
+capreomycin	卷曲霉素	抗感染药
+thioacetazone	氨硫脲	抗感染药
+bedaquiline	贝达喹啉	抗感染药
+delamanid	德拉马尼	抗感染药
+pretomanid	普托马尼	抗感染药
+clofazimine	氯法齐明	抗感染药
+dapsone	氨苯砜	抗感染药
+amphotericin B	两性霉素B	抗感染药
+nystatin	制霉菌素	抗感染药
+natamycin	那他霉素	抗感染药
+fluconazole	氟康唑	抗感染药
+itraconazole	伊曲康唑	抗感染药
+voriconazole	伏立康唑	抗感染药
+posaconazole	泊沙康唑	抗感染药
+isavuconazole	艾沙康唑	抗感染药
+ketoconazole	酮康唑	抗感染药
+miconazole	咪康唑	抗感染药
+clotrimazole	克霉唑	抗感染药
+econazole	益康唑	抗感染药
+bifonazole	联苯苄唑	抗感染药
+sertaconazole	舍他康唑	抗感染药
+luliconazole	卢立康唑	抗感染药
+isoconazole	异康唑	抗感染药
+oxiconazole	奥昔康唑	抗感染药
+tioconazole	噻康唑	抗感染药
+butoconazole	布康唑	抗感染药
+terconazole	特康唑	抗感染药
+sulconazole	硫康唑	抗感染药
+caspofungin	卡泊芬净	抗感染药
+micafungin	米卡芬净	抗感染药
+anidulafungin	阿尼芬净	抗感染药
+flucytosine	氟胞嘧啶	抗感染药
+griseofulvin	灰黄霉素	抗感染药
+terbinafine	特比萘芬	抗感染药
+naftifine	萘替芬	抗感染药
+butenafine	布替萘芬	抗感染药
+amorolfine	阿莫罗芬	抗感染药
+ciclopirox olamine	环吡酮胺	抗感染药
+tolnaftate	托萘酯	抗感染药
+undecylenic acid	十一烯酸	抗感染药
+aciclovir	阿昔洛韦	抗感染药
+acyclovir	阿昔洛韦	抗感染药
+valaciclovir	伐昔洛韦	抗感染药
+ganciclovir	更昔洛韦	抗感染药
+valganciclovir	缬更昔洛韦	抗感染药
+famciclovir	泛昔洛韦	抗感染药
+penciclovir	喷昔洛韦	抗感染药
+foscarnet sodium	膦甲酸钠	抗感染药
+cidofovir	西多福韦	抗感染药
+idoxuridine	碘苷	抗感染药
+trifluridine	曲氟尿苷	抗感染药
+vidarabine	阿糖腺苷	抗感染药
+letermovir	来特莫韦	抗感染药
+maribavir	马立巴韦	抗感染药
+ribavirin	利巴韦林	抗感染药
+amantadine	金刚烷胺	抗感染药
+rimantadine	金刚乙胺	抗感染药
+oseltamivir	奥司他韦	抗感染药
+zanamivir	扎那米韦	抗感染药
+peramivir	帕拉米韦	抗感染药
+baloxavir marboxil	玛巴洛沙韦	抗感染药
+umifenovir	阿比多尔	抗感染药
+moroxydine	吗啉胍	抗感染药
+lamivudine	拉米夫定	抗感染药
+adefovir dipivoxil	阿德福韦酯	抗感染药
+entecavir	恩替卡韦	抗感染药
+telbivudine	替比夫定	抗感染药
+tenofovir	替诺福韦	抗感染药
+tenofovir disoproxil	替诺福韦二吡呋酯	抗感染药
+tenofovir alafenamide	丙酚替诺福韦	抗感染药
+sofosbuvir	索磷布韦	抗感染药
+ledipasvir	来迪派韦	抗感染药
+velpatasvir	维帕他韦	抗感染药
+voxilaprevir	伏西瑞韦	抗感染药
+daclatasvir	达拉他韦	抗感染药
+asunaprevir	阿舒瑞韦	抗感染药
+simeprevir	西米瑞韦	抗感染药
+glecaprevir	格卡瑞韦	抗感染药
+pibrentasvir	哌仑他韦	抗感染药
+grazoprevir	格拉瑞韦	抗感染药
+elbasvir	艾尔巴韦	抗感染药
+ombitasvir	奥比他韦	抗感染药
+paritaprevir	帕立瑞韦	抗感染药
+dasabuvir	达塞布韦	抗感染药
+danoprevir	达诺瑞韦	抗感染药
+ravidasvir	拉维达韦	抗感染药
+zidovudine	齐多夫定	抗感染药
+stavudine	司他夫定	抗感染药
+didanosine	去羟肌苷	抗感染药
+zalcitabine	扎西他滨	抗感染药
+abacavir	阿巴卡韦	抗感染药
+emtricitabine	恩曲他滨	抗感染药
+azvudine	阿兹夫定	抗感染药
+nevirapine	奈韦拉平	抗感染药
+efavirenz	依非韦伦	抗感染药
+etravirine	依曲韦林	抗感染药
+rilpivirine	利匹韦林	抗感染药
+doravirine	多拉韦林	抗感染药
+delavirdine	地拉韦啶	抗感染药
+ainuovirine	艾诺韦林	抗感染药
+saquinavir	沙奎那韦	抗感染药
+ritonavir	利托那韦	抗感染药
+indinavir	茚地那韦	抗感染药
+nelfinavir	奈非那韦	抗感染药
+lopinavir	洛匹那韦	抗感染药
+atazanavir	阿扎那韦	抗感染药
+darunavir	达芦那韦	抗感染药
+amprenavir	安普那韦	抗感染药
+fosamprenavir	福沙那韦	抗感染药
+tipranavir	替拉那韦	抗感染药
+raltegravir	拉替拉韦	抗感染药
+dolutegravir	多替拉韦	抗感染药
+elvitegravir	艾维雷韦	抗感染药
+bictegravir	比克替拉韦	抗感染药
+enfuvirtide	恩夫韦肽	抗感染药
+albuvirtide	艾博韦泰	抗感染药
+maraviroc	马拉韦罗	抗感染药
+cobicistat	考比司他	抗感染药
+nirmatrelvir	奈玛特韦	抗感染药
+molnupiravir	莫诺拉韦	抗感染药
+remdesivir	瑞德西韦	抗感染药
+chloroquine	氯喹	抗感染药
+hydroxychloroquine	羟氯喹	抗感染药
+quinine	奎宁	抗感染药
+mefloquine	甲氟喹	抗感染药
+primaquine	伯氨喹	抗感染药
+tafenoquine	他非诺喹	抗感染药
+artemisinin	青蒿素	抗感染药
+artesunate	青蒿琥酯	抗感染药
+artemether	蒿甲醚	抗感染药
+arteether	蒿乙醚	抗感染药
+dihydroartemisinin	双氢青蒿素	抗感染药
+piperaquine	哌喹	抗感染药
+lumefantrine	本芴醇	抗感染药
+pyrimethamine	乙胺嘧啶	抗感染药
+proguanil	氯胍	抗感染药
+atovaquone	阿托伐醌	抗感染药
+amodiaquine	阿莫地喹	抗感染药
+pyronaridine	咯萘啶	抗感染药
+halofantrine	卤泛群	抗感染药
+naphthoquine	萘酚喹	抗感染药
+diloxanide furoate	二氯尼特糠酸酯	抗感染药
+emetine	依米丁；吐根碱	抗感染药
+dehydroemetine	去氢依米丁	抗感染药
+iodoquinol	双碘喹啉	抗感染药
+nitazoxanide	硝唑尼特	抗感染药
+pentamidine	喷他脒	抗感染药
+sodium stibogluconate	葡萄糖酸锑钠	抗感染药
+miltefosine	米替福新	抗感染药
+suramin	苏拉明	抗感染药
+melarsoprol	美拉胂醇	抗感染药
+eflornithine	依氟鸟氨酸	抗感染药
+acetarsol	乙酰胂胺	抗感染药
+albendazole	阿苯达唑	抗感染药
+mebendazole	甲苯咪唑	抗感染药
+flubendazole	氟苯达唑	抗感染药
+thiabendazole	噻苯达唑	抗感染药
+triclabendazole	三氯苯达唑	抗感染药
+praziquantel	吡喹酮	抗感染药
+oxamniquine	奥沙尼喹	抗感染药
+ivermectin	伊维菌素	抗感染药
+pyrantel	噻嘧啶	抗感染药
+pyrantel pamoate	双羟萘酸噻嘧啶	抗感染药
+oxantel	奥克太尔	抗感染药
+piperazine	哌嗪	抗感染药
+levamisole	左旋咪唑	抗感染药
+niclosamide	氯硝柳胺	抗感染药
+diethylcarbamazine	乙胺嗪	抗感染药
+tribendimidine	三苯双脒	抗感染药
+bithionol	硫双二氯酚	抗感染药
+antiseptic	防腐药；抗菌防腐剂	消毒防腐药
+disinfectant	消毒药；消毒剂	消毒防腐药
+povidone-iodine	聚维酮碘	消毒防腐药
+iodine tincture	碘酊	消毒防腐药
+iodophor	碘伏	消毒防腐药
+chlorhexidine	氯己定	消毒防腐药
+benzalkonium chloride	苯扎氯铵	消毒防腐药
+benzalkonium bromide	苯扎溴铵	消毒防腐药
+domiphen bromide	度米芬	消毒防腐药
+cetylpyridinium chloride	西吡氯铵	消毒防腐药
+hydrogen peroxide	过氧化氢	消毒防腐药
+potassium permanganate	高锰酸钾	消毒防腐药
+gentian violet	甲紫；龙胆紫	消毒防腐药
+boric acid	硼酸	消毒防腐药
+ethacridine	依沙吖啶；利凡诺	消毒防腐药
+nitrofurazone	呋喃西林	消毒防腐药
+merbromin	汞溴红；红汞	消毒防腐药
+triclosan	三氯生	消毒防腐药
+hexachlorophene	六氯酚	消毒防腐药
+glutaraldehyde	戊二醛	消毒防腐药
+formaldehyde	甲醛	消毒防腐药
+peracetic acid	过氧乙酸	消毒防腐药
+sodium hypochlorite	次氯酸钠	消毒防腐药
+phenol	苯酚	消毒防腐药
+cresol	甲酚	消毒防腐药
+silver nitrate	硝酸银	消毒防腐药
+ethanol	乙醇	消毒防腐药
+isopropyl alcohol	异丙醇	消毒防腐药
+antihypertensive agent	抗高血压药；降压药	心血管药
+diuretic	利尿药；利尿剂	心血管药
+thiazide diuretic	噻嗪类利尿药	心血管药
+thiazide-like diuretic	类噻嗪类利尿药	心血管药
+loop diuretic	袢利尿药；髓袢利尿药	心血管药
+potassium-sparing diuretic	保钾利尿药	心血管药
+osmotic diuretic	渗透性利尿药；脱水药	心血管药
+carbonic anhydrase inhibitor	碳酸酐酶抑制剂	心血管药
+vasopressin receptor antagonist	血管加压素受体拮抗剂	心血管药
+beta blocker	β受体阻滞剂；β受体拮抗药	心血管药
+cardioselective beta blocker	心脏选择性β受体阻滞剂	心血管药
+alpha blocker	α受体阻滞剂；α受体拮抗药	心血管药
+adrenergic agonist	肾上腺素受体激动药	心血管药
+sympathomimetic	拟交感神经药	心血管药
+sympatholytic	抗交感神经药	心血管药
+calcium channel blocker	钙通道阻滞剂；钙拮抗剂（CCB）	心血管药
+dihydropyridine calcium channel blocker	二氢吡啶类钙通道阻滞剂	心血管药
+ACE inhibitor	血管紧张素转换酶抑制剂（ACEI）	心血管药
+angiotensin-converting enzyme inhibitor	血管紧张素转换酶抑制剂（ACEI）	心血管药
+angiotensin II receptor blocker	血管紧张素Ⅱ受体阻滞剂（ARB）	心血管药
+angiotensin receptor-neprilysin inhibitor	血管紧张素受体脑啡肽酶抑制剂（ARNI）	心血管药
+renin inhibitor	肾素抑制剂	心血管药
+renin-angiotensin-aldosterone system	肾素-血管紧张素-醛固酮系统（RAAS）	心血管药
+aldosterone antagonist	醛固酮拮抗剂	心血管药
+mineralocorticoid receptor antagonist	盐皮质激素受体拮抗剂（MRA）	心血管药
+vasodilator	血管扩张药	心血管药
+centrally acting antihypertensive	中枢性降压药	心血管药
+ganglionic blocker	神经节阻断药	心血管药
+antianginal agent	抗心绞痛药	心血管药
+organic nitrate	有机硝酸酯类	心血管药
+nitric oxide donor	一氧化氮供体	心血管药
+antiarrhythmic agent	抗心律失常药	心血管药
+sodium channel blocker	钠通道阻滞剂	心血管药
+potassium channel blocker	钾通道阻滞剂	心血管药
+potassium channel opener	钾通道开放剂	心血管药
+cardiac glycoside	强心苷	心血管药
+positive inotropic agent	正性肌力药	心血管药
+phosphodiesterase inhibitor	磷酸二酯酶抑制剂	心血管药
+calcium sensitizer	钙增敏剂	心血管药
+vasopressor	升压药；血管升压药	心血管药
+soluble guanylate cyclase stimulator	可溶性鸟苷酸环化酶激动剂	心血管药
+endothelin receptor antagonist	内皮素受体拮抗剂	心血管药
+prostacyclin analog	前列环素类似物	心血管药
+lipid-lowering agent	调血脂药；降脂药	心血管药
+statin	他汀类药物	心血管药
+HMG-CoA reductase inhibitor	HMG-CoA还原酶抑制剂	心血管药
+fibrate	贝特类；苯氧芳酸类	心血管药
+bile acid sequestrant	胆汁酸螯合剂；胆汁酸结合树脂	心血管药
+cholesterol absorption inhibitor	胆固醇吸收抑制剂	心血管药
+PCSK9 inhibitor	PCSK9抑制剂	心血管药
+hydrochlorothiazide	氢氯噻嗪	心血管药
+chlorothiazide	氯噻嗪	心血管药
+bendroflumethiazide	苄氟噻嗪	心血管药
+chlortalidone	氯噻酮	心血管药
+chlorthalidone	氯噻酮	心血管药
+indapamide	吲达帕胺	心血管药
+metolazone	美托拉宗	心血管药
+furosemide	呋塞米	心血管药
+bumetanide	布美他尼	心血管药
+torasemide	托拉塞米	心血管药
+torsemide	托拉塞米	心血管药
+etacrynic acid	依他尼酸	心血管药
+ethacrynic acid	依他尼酸	心血管药
+spironolactone	螺内酯	心血管药
+eplerenone	依普利酮	心血管药
+finerenone	非奈利酮	心血管药
+triamterene	氨苯蝶啶	心血管药
+amiloride	阿米洛利	心血管药
+mannitol	甘露醇	心血管药
+acetazolamide	乙酰唑胺	心血管药
+methazolamide	醋甲唑胺	心血管药
+tolvaptan	托伐普坦	心血管药
+conivaptan	考尼伐坦	心血管药
+propranolol	普萘洛尔	心血管药
+metoprolol	美托洛尔	心血管药
+atenolol	阿替洛尔	心血管药
+bisoprolol	比索洛尔	心血管药
+carvedilol	卡维地洛	心血管药
+labetalol	拉贝洛尔	心血管药
+esmolol	艾司洛尔	心血管药
+landiolol	兰地洛尔	心血管药
+nebivolol	奈必洛尔	心血管药
+timolol	噻吗洛尔	心血管药
+pindolol	吲哚洛尔	心血管药
+sotalol	索他洛尔	心血管药
+nadolol	纳多洛尔	心血管药
+acebutolol	醋丁洛尔	心血管药
+betaxolol	倍他洛尔	心血管药
+arotinolol	阿罗洛尔	心血管药
+celiprolol	塞利洛尔	心血管药
+carteolol	卡替洛尔	心血管药
+oxprenolol	氧烯洛尔	心血管药
+alprenolol	阿普洛尔	心血管药
+levobunolol	左布诺洛尔	心血管药
+penbutolol	喷布洛尔	心血管药
+prazosin	哌唑嗪	心血管药
+terazosin	特拉唑嗪	心血管药
+doxazosin	多沙唑嗪	心血管药
+urapidil	乌拉地尔	心血管药
+phentolamine	酚妥拉明	心血管药
+phenoxybenzamine	酚苄明	心血管药
+tolazoline	妥拉唑林	心血管药
+clonidine	可乐定	心血管药
+methyldopa	甲基多巴	心血管药
+moxonidine	莫索尼定	心血管药
+rilmenidine	利美尼定	心血管药
+guanfacine	胍法辛	心血管药
+reserpine	利血平	心血管药
+guanethidine	胍乙啶	心血管药
+nifedipine	硝苯地平	心血管药
+amlodipine	氨氯地平	心血管药
+levamlodipine	左氨氯地平	心血管药
+felodipine	非洛地平	心血管药
+nicardipine	尼卡地平	心血管药
+nitrendipine	尼群地平	心血管药
+lacidipine	拉西地平	心血管药
+lercanidipine	乐卡地平	心血管药
+benidipine	贝尼地平	心血管药
+cilnidipine	西尼地平	心血管药
+isradipine	伊拉地平	心血管药
+nisoldipine	尼索地平	心血管药
+azelnidipine	阿折地平	心血管药
+barnidipine	巴尼地平	心血管药
+manidipine	马尼地平	心血管药
+clevidipine	氯维地平	心血管药
+verapamil	维拉帕米	心血管药
+diltiazem	地尔硫䓬	心血管药
+bepridil	苄普地尔	心血管药
+captopril	卡托普利	心血管药
+enalapril	依那普利	心血管药
+enalaprilat	依那普利拉	心血管药
+lisinopril	赖诺普利	心血管药
+benazepril	贝那普利	心血管药
+ramipril	雷米普利	心血管药
+perindopril	培哚普利	心血管药
+fosinopril	福辛普利	心血管药
+quinapril	喹那普利	心血管药
+imidapril	咪达普利	心血管药
+cilazapril	西拉普利	心血管药
+trandolapril	群多普利	心血管药
+moexipril	莫昔普利	心血管药
+losartan	氯沙坦	心血管药
+valsartan	缬沙坦	心血管药
+irbesartan	厄贝沙坦	心血管药
+candesartan cilexetil	坎地沙坦酯	心血管药
+telmisartan	替米沙坦	心血管药
+olmesartan medoxomil	奥美沙坦酯	心血管药
+eprosartan	依普罗沙坦	心血管药
+azilsartan	阿齐沙坦	心血管药
+allisartan isoproxil	阿利沙坦酯	心血管药
+sacubitril	沙库巴曲	心血管药
+aliskiren	阿利吉仑	心血管药
+hydralazine	肼屈嗪	心血管药
+dihydralazine	双肼屈嗪	心血管药
+minoxidil	米诺地尔	心血管药
+sodium nitroprusside	硝普钠	心血管药
+diazoxide	二氮嗪	心血管药
+fenoldopam	非诺多泮	心血管药
+nitroglycerin	硝酸甘油	心血管药
+glyceryl trinitrate	硝酸甘油	心血管药
+isosorbide dinitrate	硝酸异山梨酯	心血管药
+isosorbide mononitrate	单硝酸异山梨酯	心血管药
+pentaerythritol tetranitrate	戊四硝酯	心血管药
+amyl nitrite	亚硝酸异戊酯	心血管药
+nicorandil	尼可地尔	心血管药
+molsidomine	吗多明	心血管药
+ranolazine	雷诺嗪	心血管药
+trimetazidine	曲美他嗪	心血管药
+ivabradine	伊伐布雷定	心血管药
+quinidine	奎尼丁	心血管药
+procainamide	普鲁卡因胺	心血管药
+disopyramide	丙吡胺	心血管药
+mexiletine	美西律	心血管药
+tocainide	妥卡尼	心血管药
+flecainide	氟卡尼	心血管药
+encainide	恩卡尼	心血管药
+propafenone	普罗帕酮	心血管药
+moricizine	莫雷西嗪	心血管药
+aprindine	阿普林定	心血管药
+ajmaline	阿义马林	心血管药
+cibenzoline	西苯唑啉	心血管药
+pilsicainide	吡西卡尼	心血管药
+amiodarone	胺碘酮	心血管药
+dronedarone	决奈达隆	心血管药
+ibutilide	伊布利特	心血管药
+dofetilide	多非利特	心血管药
+nifekalant	尼非卡兰	心血管药
+bretylium	溴苄铵	心血管药
+vernakalant	维纳卡兰	心血管药
+adenosine	腺苷	心血管药
+digoxin	地高辛	心血管药
+digitoxin	洋地黄毒苷	心血管药
+deslanoside	去乙酰毛花苷	心血管药
+lanatoside C	毛花苷丙；毛花苷C	心血管药
+ouabain	毒毛花苷G；哇巴因	心血管药
+strophanthin K	毒毛花苷K	心血管药
+digitalis	洋地黄	心血管药
+milrinone	米力农	心血管药
+amrinone	氨力农	心血管药
+enoximone	依诺昔酮	心血管药
+levosimendan	左西孟旦	心血管药
+dobutamine	多巴酚丁胺	心血管药
+dopamine	多巴胺	心血管药
+dopexamine	多培沙明	心血管药
+isoprenaline	异丙肾上腺素	心血管药
+isoproterenol	异丙肾上腺素	心血管药
+epinephrine	肾上腺素	心血管药
+adrenaline	肾上腺素	心血管药
+norepinephrine	去甲肾上腺素	心血管药
+noradrenaline	去甲肾上腺素	心血管药
+phenylephrine	去氧肾上腺素；苯肾上腺素	心血管药
+metaraminol	间羟胺	心血管药
+methoxamine	甲氧明	心血管药
+ephedrine	麻黄碱	心血管药
+midodrine	米多君	心血管药
+mephentermine	美芬丁胺	心血管药
+droxidopa	屈昔多巴	心血管药
+vericiguat	维立西呱	心血管药
+riociguat	利奥西呱	心血管药
+nesiritide	奈西立肽	心血管药
+bosentan	波生坦	心血管药
+ambrisentan	安立生坦	心血管药
+macitentan	马昔腾坦	心血管药
+epoprostenol	依前列醇	心血管药
+iloprost	伊洛前列素	心血管药
+treprostinil	曲前列尼尔	心血管药
+beraprost	贝前列素	心血管药
+selexipag	司来帕格	心血管药
+alprostadil	前列地尔	心血管药
+atorvastatin	阿托伐他汀	心血管药
+simvastatin	辛伐他汀	心血管药
+rosuvastatin	瑞舒伐他汀	心血管药
+pravastatin	普伐他汀	心血管药
+fluvastatin	氟伐他汀	心血管药
+lovastatin	洛伐他汀	心血管药
+pitavastatin	匹伐他汀	心血管药
+cerivastatin	西立伐他汀	心血管药
+ezetimibe	依折麦布	心血管药
+hybutimibe	海博麦布	心血管药
+fenofibrate	非诺贝特	心血管药
+gemfibrozil	吉非罗齐	心血管药
+bezafibrate	苯扎贝特	心血管药
+ciprofibrate	环丙贝特	心血管药
+clofibrate	氯贝丁酯	心血管药
+pemafibrate	佩玛贝特	心血管药
+acipimox	阿昔莫司	心血管药
+colestyramine	考来烯胺	心血管药
+cholestyramine	考来烯胺	心血管药
+colestipol	考来替泊	心血管药
+colesevelam	考来维仑	心血管药
+probucol	普罗布考	心血管药
+evolocumab	依洛尤单抗	心血管药
+alirocumab	阿利西尤单抗	心血管药
+tafolecimab	托莱西单抗	心血管药
+inclisiran	英克司兰	心血管药
+bempedoic acid	贝派地酸	心血管药
+lomitapide	洛美他派	心血管药
+mipomersen	米泊美生	心血管药
+icosapent ethyl	二十碳五烯酸乙酯	心血管药
+pentoxifylline	己酮可可碱	心血管药
+anticoagulant	抗凝药；抗凝血药	血液系统药
+antiplatelet agent	抗血小板药	血液系统药
+thrombolytic agent	溶栓药；血栓溶解药	血液系统药
+fibrinolytic agent	纤维蛋白溶解药；纤溶药	血液系统药
+antifibrinolytic agent	抗纤维蛋白溶解药；抗纤溶药	血液系统药
+hemostatic agent	止血药	血液系统药
+vitamin K antagonist	维生素K拮抗剂	血液系统药
+direct oral anticoagulant	直接口服抗凝药（DOAC）	血液系统药
+factor Xa inhibitor	Xa因子抑制剂	血液系统药
+direct thrombin inhibitor	直接凝血酶抑制剂	血液系统药
+low molecular weight heparin	低分子量肝素（LMWH）	血液系统药
+unfractionated heparin	普通肝素	血液系统药
+P2Y12 receptor antagonist	P2Y12受体拮抗剂	血液系统药
+glycoprotein IIb/IIIa inhibitor	血小板糖蛋白Ⅱb/Ⅲa受体拮抗剂	血液系统药
+antianemic agent	抗贫血药	血液系统药
+iron supplement	铁剂	血液系统药
+hematopoietic growth factor	造血生长因子	血液系统药
+colony-stimulating factor	集落刺激因子（CSF）	血液系统药
+thrombopoietin receptor agonist	血小板生成素受体激动剂	血液系统药
+iron chelator	铁螯合剂	血液系统药
+plasma volume expander	血容量扩充药；血浆代用品	血液系统药
+heparin	肝素	血液系统药
+heparin sodium	肝素钠	血液系统药
+enoxaparin	依诺肝素	血液系统药
+dalteparin	达肝素	血液系统药
+nadroparin	那屈肝素	血液系统药
+tinzaparin	亭扎肝素	血液系统药
+bemiparin	贝米肝素	血液系统药
+fondaparinux sodium	磺达肝癸钠	血液系统药
+warfarin	华法林	血液系统药
+acenocoumarol	醋硝香豆素	血液系统药
+phenprocoumon	苯丙香豆素	血液系统药
+dicoumarol	双香豆素	血液系统药
+phenindione	苯茚二酮	血液系统药
+dabigatran	达比加群	血液系统药
+dabigatran etexilate	达比加群酯	血液系统药
+rivaroxaban	利伐沙班	血液系统药
+apixaban	阿哌沙班	血液系统药
+edoxaban	艾多沙班	血液系统药
+betrixaban	贝曲沙班	血液系统药
+argatroban	阿加曲班	血液系统药
+bivalirudin	比伐芦定	血液系统药
+hirudin	水蛭素	血液系统药
+lepirudin	来匹芦定	血液系统药
+desirudin	地西芦定	血液系统药
+clopidogrel	氯吡格雷	血液系统药
+ticlopidine	噻氯匹定	血液系统药
+prasugrel	普拉格雷	血液系统药
+ticagrelor	替格瑞洛	血液系统药
+cangrelor	坎格雷洛	血液系统药
+abciximab	阿昔单抗	血液系统药
+eptifibatide	依替巴肽	血液系统药
+tirofiban	替罗非班	血液系统药
+cilostazol	西洛他唑	血液系统药
+dipyridamole	双嘧达莫	血液系统药
+vorapaxar	沃拉帕沙	血液系统药
+indobufen	吲哚布芬	血液系统药
+sarpogrelate	沙格雷酯	血液系统药
+ozagrel	奥扎格雷	血液系统药
+anagrelide	阿那格雷	血液系统药
+triflusal	三氟柳	血液系统药
+streptokinase	链激酶	血液系统药
+urokinase	尿激酶	血液系统药
+prourokinase	尿激酶原	血液系统药
+alteplase	阿替普酶	血液系统药
+reteplase	瑞替普酶	血液系统药
+tenecteplase	替奈普酶	血液系统药
+anistreplase	阿尼普酶	血液系统药
+staphylokinase	葡激酶	血液系统药
+lumbrokinase	蚓激酶	血液系统药
+batroxobin	巴曲酶	血液系统药
+defibrase	降纤酶	血液系统药
+tissue plasminogen activator	组织型纤溶酶原激活物（t-PA）	血液系统药
+phytomenadione	维生素K1；植物甲萘醌	血液系统药
+menadione sodium bisulfite	亚硫酸氢钠甲萘醌	血液系统药
+tranexamic acid	氨甲环酸	血液系统药
+aminocaproic acid	氨基己酸	血液系统药
+aminomethylbenzoic acid	氨甲苯酸	血液系统药
+aprotinin	抑肽酶	血液系统药
+etamsylate	酚磺乙胺	血液系统药
+carbazochrome	卡巴克络	血液系统药
+hemocoagulase	血凝酶	血液系统药
+thrombin	凝血酶	血液系统药
+fibrinogen	纤维蛋白原	血液系统药
+prothrombin complex concentrate	人凝血酶原复合物（PCC）	血液系统药
+coagulation factor VIII	人凝血因子Ⅷ	血液系统药
+coagulation factor IX	人凝血因子Ⅸ	血液系统药
+recombinant coagulation factor VIIa	重组人凝血因子Ⅶa	血液系统药
+emicizumab	艾美赛珠单抗	血液系统药
+idarucizumab	依达赛珠单抗	血液系统药
+thrombopoietin	血小板生成素（TPO）	血液系统药
+eltrombopag	艾曲泊帕	血液系统药
+romiplostim	罗米司亭	血液系统药
+avatrombopag	阿伐曲泊帕	血液系统药
+hetrombopag	海曲泊帕	血液系统药
+lusutrombopag	芦曲泊帕	血液系统药
+oprelvekin	奥普瑞白介素	血液系统药
+ferrous sulfate	硫酸亚铁	血液系统药
+ferrous fumarate	富马酸亚铁	血液系统药
+ferrous gluconate	葡萄糖酸亚铁	血液系统药
+ferrous succinate	琥珀酸亚铁	血液系统药
+ferrous lactate	乳酸亚铁	血液系统药
+polysaccharide iron complex	多糖铁复合物	血液系统药
+iron protein succinylate	蛋白琥珀酸铁	血液系统药
+iron sucrose	蔗糖铁	血液系统药
+iron dextran	右旋糖酐铁	血液系统药
+ferric carboxymaltose	羧基麦芽糖铁	血液系统药
+ferric derisomaltose	异麦芽糖酐铁	血液系统药
+calcium folinate	亚叶酸钙	血液系统药
+leucovorin	亚叶酸；亚叶酸钙	血液系统药
+erythropoietin	促红细胞生成素（EPO）	血液系统药
+epoetin alfa	依泊汀α；重组人促红素	血液系统药
+darbepoetin alfa	达依泊汀α	血液系统药
+roxadustat	罗沙司他	血液系统药
+luspatercept	罗特西普	血液系统药
+granulocyte colony-stimulating factor	粒细胞集落刺激因子（G-CSF）	血液系统药
+granulocyte-macrophage colony-stimulating factor	粒细胞-巨噬细胞集落刺激因子（GM-CSF）	血液系统药
+filgrastim	非格司亭	血液系统药
+pegfilgrastim	培非格司亭	血液系统药
+mecapegfilgrastim	硫培非格司亭	血液系统药
+lenograstim	来格司亭	血液系统药
+molgramostim	莫拉司亭	血液系统药
+sargramostim	沙格司亭	血液系统药
+plerixafor	普乐沙福	血液系统药
+deferoxamine	去铁胺	血液系统药
+deferasirox	地拉罗司	血液系统药
+deferiprone	去铁酮	血液系统药
+dextran	右旋糖酐	血液系统药
+dextran 40	右旋糖酐40	血液系统药
+hydroxyethyl starch	羟乙基淀粉	血液系统药
+succinylated gelatin	琥珀酰明胶	血液系统药
+polygeline	聚明胶肽	血液系统药
+human albumin	人血白蛋白	血液系统药
+antacid	抗酸药；制酸药	消化系统药
+acid suppressant	抑酸药	消化系统药
+proton pump inhibitor	质子泵抑制剂（PPI）	消化系统药
+H2 receptor antagonist	H2受体拮抗剂	消化系统药
+potassium-competitive acid blocker	钾离子竞争性酸阻滞剂（P-CAB）	消化系统药
+gastric mucosal protective agent	胃黏膜保护药；胃黏膜保护剂	消化系统药
+prokinetic agent	促胃肠动力药	消化系统药
+antiemetic	止吐药；镇吐药	消化系统药
+5-HT3 receptor antagonist	5-HT3受体拮抗剂	消化系统药
+NK-1 receptor antagonist	NK-1受体拮抗剂	消化系统药
+laxative	泻药；缓泻药	消化系统药
+stimulant laxative	刺激性泻药	消化系统药
+osmotic laxative	渗透性泻药	消化系统药
+bulk-forming laxative	容积性泻药	消化系统药
+lubricant laxative	润滑性泻药	消化系统药
+stool softener	粪便软化剂	消化系统药
+antidiarrheal agent	止泻药	消化系统药
+antispasmodic	解痉药	消化系统药
+digestant	助消化药	消化系统药
+choleretic	利胆药	消化系统药
+hepatoprotective agent	保肝药；肝脏保护剂	消化系统药
+probiotic	益生菌	消化系统药
+prebiotic	益生元	消化系统药
+aminosalicylate	氨基水杨酸类	消化系统药
+Helicobacter pylori eradication therapy	幽门螺杆菌根除治疗	消化系统药
+bismuth quadruple therapy	铋剂四联疗法	消化系统药
+omeprazole	奥美拉唑	消化系统药
+esomeprazole	埃索美拉唑	消化系统药
+lansoprazole	兰索拉唑	消化系统药
+dexlansoprazole	右兰索拉唑	消化系统药
+pantoprazole	泮托拉唑	消化系统药
+rabeprazole	雷贝拉唑	消化系统药
+ilaprazole	艾普拉唑	消化系统药
+vonoprazan	伏诺拉生	消化系统药
+tegoprazan	替戈拉生	消化系统药
+keverprazan	凯普拉生	消化系统药
+cimetidine	西咪替丁	消化系统药
+ranitidine	雷尼替丁	消化系统药
+famotidine	法莫替丁	消化系统药
+nizatidine	尼扎替丁	消化系统药
+roxatidine	罗沙替丁	消化系统药
+lafutidine	拉呋替丁	消化系统药
+pirenzepine	哌仑西平	消化系统药
+proglumide	丙谷胺	消化系统药
+aluminium hydroxide	氢氧化铝	消化系统药
+magnesium hydroxide	氢氧化镁	消化系统药
+magnesium trisilicate	三硅酸镁	消化系统药
+hydrotalcite	铝碳酸镁	消化系统药
+magaldrate	镁加铝	消化系统药
+sucralfate	硫糖铝	消化系统药
+bismuth potassium citrate	枸橼酸铋钾	消化系统药
+colloidal bismuth pectin	胶体果胶铋	消化系统药
+bismuth subsalicylate	碱式水杨酸铋	消化系统药
+ranitidine bismuth citrate	枸橼酸铋雷尼替丁	消化系统药
+misoprostol	米索前列醇	消化系统药
+rebamipide	瑞巴派特	消化系统药
+teprenone	替普瑞酮	消化系统药
+gefarnate	吉法酯	消化系统药
+ecabet sodium	依卡倍特钠	消化系统药
+irsogladine	伊索拉定	消化系统药
+polaprezinc	聚普瑞锌	消化系统药
+carbenoxolone	甘珀酸	消化系统药
+metoclopramide	甲氧氯普胺	消化系统药
+domperidone	多潘立酮	消化系统药
+mosapride	莫沙必利	消化系统药
+itopride	伊托必利	消化系统药
+cisapride	西沙必利	消化系统药
+cinitapride	西尼必利	消化系统药
+prucalopride	普芦卡必利	消化系统药
+tegaserod	替加色罗	消化系统药
+trimebutine	曲美布汀	消化系统药
+acotiamide	阿考替胺	消化系统药
+ondansetron	昂丹司琼	消化系统药
+granisetron	格拉司琼	消化系统药
+tropisetron	托烷司琼	消化系统药
+palonosetron	帕洛诺司琼	消化系统药
+ramosetron	雷莫司琼	消化系统药
+azasetron	阿扎司琼	消化系统药
+dolasetron	多拉司琼	消化系统药
+aprepitant	阿瑞匹坦	消化系统药
+fosaprepitant	福沙匹坦	消化系统药
+netupitant	奈妥匹坦	消化系统药
+rolapitant	罗拉匹坦	消化系统药
+prochlorperazine	丙氯拉嗪	消化系统药
+dimenhydrinate	茶苯海明	消化系统药
+meclozine	美克洛嗪	消化系统药
+dronabinol	屈大麻酚	消化系统药
+nabilone	大麻隆	消化系统药
+lactulose	乳果糖	消化系统药
+lactitol	乳糖醇	消化系统药
+macrogol	聚乙二醇	消化系统药
+magnesium sulfate	硫酸镁	消化系统药
+sodium sulfate	硫酸钠	消化系统药
+sodium phosphate	磷酸钠	消化系统药
+bisacodyl	比沙可啶	消化系统药
+sennoside	番泻苷	消化系统药
+phenolphthalein	酚酞	消化系统药
+sodium picosulfate	匹可硫酸钠	消化系统药
+docusate sodium	多库酯钠	消化系统药
+liquid paraffin	液体石蜡	消化系统药
+castor oil	蓖麻油	消化系统药
+polycarbophil calcium	聚卡波非钙	消化系统药
+sorbitol	山梨醇	消化系统药
+linaclotide	利那洛肽	消化系统药
+plecanatide	普卡那肽	消化系统药
+lubiprostone	鲁比前列酮	消化系统药
+methylnaltrexone	甲基纳曲酮	消化系统药
+naloxegol	纳洛醇醚	消化系统药
+alvimopan	阿维莫泮	消化系统药
+loperamide	洛哌丁胺	消化系统药
+diphenoxylate	地芬诺酯	消化系统药
+dioctahedral smectite	蒙脱石	消化系统药
+racecadotril	消旋卡多曲	消化系统药
+berberine	小檗碱；黄连素	消化系统药
+albumin tannate	鞣酸蛋白	消化系统药
+anisodamine	山莨菪碱	消化系统药
+hyoscine butylbromide	丁溴东莨菪碱	消化系统药
+drotaverine	屈他维林	消化系统药
+pinaverium bromide	匹维溴铵	消化系统药
+otilonium bromide	奥替溴铵	消化系统药
+mebeverine	美贝维林	消化系统药
+alverine	阿尔维林	消化系统药
+dicycloverine	双环维林	消化系统药
+propantheline bromide	溴丙胺太林	消化系统药
+papaverine	罂粟碱	消化系统药
+phloroglucinol	间苯三酚	消化系统药
+pancreatin	胰酶	消化系统药
+pancrelipase	胰脂肪酶	消化系统药
+pepsin	胃蛋白酶	消化系统药
+dilute hydrochloric acid	稀盐酸	消化系统药
+dried yeast	干酵母	消化系统药
+simeticone	西甲硅油	消化系统药
+simethicone	西甲硅油	消化系统药
+ursodeoxycholic acid	熊去氧胆酸	消化系统药
+chenodeoxycholic acid	鹅去氧胆酸	消化系统药
+tauroursodeoxycholic acid	牛磺熊去氧胆酸	消化系统药
+obeticholic acid	奥贝胆酸	消化系统药
+anethol trithione	茴三硫	消化系统药
+hymecromone	羟甲香豆素	消化系统药
+silymarin	水飞蓟素	消化系统药
+silibinin	水飞蓟宾	消化系统药
+diammonium glycyrrhizinate	甘草酸二铵	消化系统药
+magnesium isoglycyrrhizinate	异甘草酸镁	消化系统药
+polyene phosphatidylcholine	多烯磷脂酰胆碱	消化系统药
+glutathione	谷胱甘肽	消化系统药
+bicyclol	双环醇	消化系统药
+bifendate	联苯双酯	消化系统药
+ademetionine	腺苷蛋氨酸	消化系统药
+tiopronin	硫普罗宁	消化系统药
+glucurolactone	葡醛内酯	消化系统药
+ornithine aspartate	门冬氨酸鸟氨酸	消化系统药
+mesalazine	美沙拉秦	消化系统药
+mesalamine	美沙拉秦	消化系统药
+sulfasalazine	柳氮磺吡啶	消化系统药
+olsalazine	奥沙拉秦	消化系统药
+balsalazide	巴柳氮	消化系统药
+vedolizumab	维得利珠单抗	消化系统药
+ozanimod	奥扎莫德	消化系统药
+somatostatin	生长抑素	消化系统药
+ulinastatin	乌司他丁	消化系统药
+gabexate	加贝酯	消化系统药
+nafamostat	萘莫司他	消化系统药
+orlistat	奥利司他	消化系统药
+bronchodilator	支气管扩张药；支气管扩张剂	呼吸系统药
+antiasthmatic agent	平喘药	呼吸系统药
+beta2-adrenergic agonist	β2肾上腺素受体激动剂；β2受体激动剂	呼吸系统药
+short-acting beta2 agonist	短效β2受体激动剂（SABA）	呼吸系统药
+long-acting beta2 agonist	长效β2受体激动剂（LABA）	呼吸系统药
+short-acting muscarinic antagonist	短效抗胆碱能药（SAMA）	呼吸系统药
+long-acting muscarinic antagonist	长效抗胆碱能药（LAMA）	呼吸系统药
+inhaled corticosteroid	吸入性糖皮质激素（ICS）	呼吸系统药
+leukotriene receptor antagonist	白三烯受体拮抗剂	呼吸系统药
+leukotriene modifier	白三烯调节剂	呼吸系统药
+methylxanthine	甲基黄嘌呤类	呼吸系统药
+mast cell stabilizer	肥大细胞膜稳定剂	呼吸系统药
+phosphodiesterase-4 inhibitor	磷酸二酯酶-4抑制剂（PDE-4抑制剂）	呼吸系统药
+antitussive	镇咳药	呼吸系统药
+centrally acting antitussive	中枢性镇咳药	呼吸系统药
+peripherally acting antitussive	外周性镇咳药	呼吸系统药
+expectorant	祛痰药	呼吸系统药
+mucolytic agent	黏痰溶解药；黏液溶解剂	呼吸系统药
+respiratory stimulant	呼吸兴奋药；呼吸中枢兴奋药	呼吸系统药
+pulmonary surfactant	肺表面活性物质	呼吸系统药
+nasal decongestant	鼻减充血剂	呼吸系统药
+antifibrotic agent	抗纤维化药	呼吸系统药
+salbutamol	沙丁胺醇	呼吸系统药
+albuterol	沙丁胺醇	呼吸系统药
+levosalbutamol	左沙丁胺醇	呼吸系统药
+terbutaline	特布他林	呼吸系统药
+fenoterol	非诺特罗	呼吸系统药
+procaterol	丙卡特罗	呼吸系统药
+clenbuterol	克仑特罗	呼吸系统药
+tulobuterol	妥洛特罗	呼吸系统药
+bambuterol	班布特罗	呼吸系统药
+salmeterol	沙美特罗	呼吸系统药
+formoterol	福莫特罗	呼吸系统药
+indacaterol	茚达特罗	呼吸系统药
+olodaterol	奥达特罗	呼吸系统药
+vilanterol	维兰特罗	呼吸系统药
+ipratropium bromide	异丙托溴铵	呼吸系统药
+tiotropium bromide	噻托溴铵	呼吸系统药
+umeclidinium bromide	乌美溴铵	呼吸系统药
+aclidinium bromide	阿地溴铵	呼吸系统药
+glycopyrronium bromide	格隆溴铵	呼吸系统药
+theophylline	茶碱	呼吸系统药
+aminophylline	氨茶碱	呼吸系统药
+doxofylline	多索茶碱	呼吸系统药
+diprophylline	二羟丙茶碱	呼吸系统药
+choline theophyllinate	胆茶碱	呼吸系统药
+beclometasone	倍氯米松	呼吸系统药
+beclomethasone dipropionate	丙酸倍氯米松	呼吸系统药
+budesonide	布地奈德	呼吸系统药
+fluticasone propionate	丙酸氟替卡松	呼吸系统药
+fluticasone furoate	糠酸氟替卡松	呼吸系统药
+ciclesonide	环索奈德	呼吸系统药
+mometasone furoate	糠酸莫米松	呼吸系统药
+flunisolide	氟尼缩松	呼吸系统药
+montelukast	孟鲁司特	呼吸系统药
+zafirlukast	扎鲁司特	呼吸系统药
+pranlukast	普仑司特	呼吸系统药
+zileuton	齐留通	呼吸系统药
+seratrodast	塞曲司特	呼吸系统药
+sodium cromoglicate	色甘酸钠	呼吸系统药
+cromolyn sodium	色甘酸钠	呼吸系统药
+nedocromil	奈多罗米	呼吸系统药
+omalizumab	奥马珠单抗	呼吸系统药
+mepolizumab	美泊利珠单抗	呼吸系统药
+reslizumab	瑞利珠单抗	呼吸系统药
+dupilumab	度普利尤单抗	呼吸系统药
+roflumilast	罗氟司特	呼吸系统药
+dextromethorphan	右美沙芬	呼吸系统药
+pentoxyverine	喷托维林	呼吸系统药
+benproperine	苯丙哌林	呼吸系统药
+pholcodine	福尔可定	呼吸系统药
+noscapine	那可丁	呼吸系统药
+levodropropizine	左羟丙哌嗪	呼吸系统药
+cloperastine	氯哌斯汀	呼吸系统药
+benzonatate	苯佐那酯	呼吸系统药
+butamirate	布他米酯	呼吸系统药
+ambroxol	氨溴索	呼吸系统药
+bromhexine	溴己新	呼吸系统药
+acetylcysteine	乙酰半胱氨酸	呼吸系统药
+carbocisteine	羧甲司坦	呼吸系统药
+erdosteine	厄多司坦	呼吸系统药
+fudosteine	福多司坦	呼吸系统药
+guaifenesin	愈创甘油醚	呼吸系统药
+ammonium chloride	氯化铵	呼吸系统药
+dornase alfa	阿法链道酶	呼吸系统药
+nikethamide	尼可刹米	呼吸系统药
+lobeline	洛贝林	呼吸系统药
+doxapram	多沙普仑	呼吸系统药
+dimefline	二甲弗林	呼吸系统药
+almitrine	阿米三嗪	呼吸系统药
+bemegride	贝美格	呼吸系统药
+poractant alfa	猪肺磷脂	呼吸系统药
+pirfenidone	吡非尼酮	呼吸系统药
+nintedanib	尼达尼布	呼吸系统药
+pseudoephedrine	伪麻黄碱	呼吸系统药
+oxymetazoline	羟甲唑啉	呼吸系统药
+xylometazoline	赛洛唑啉	呼吸系统药
+naphazoline	萘甲唑啉	呼吸系统药
+phenylpropanolamine	苯丙醇胺	呼吸系统药
+ivacaftor	依伐卡托	呼吸系统药
+antihistamine	抗组胺药	抗过敏药
+H1 receptor antagonist	H1受体拮抗剂	抗过敏药
+first-generation antihistamine	第一代抗组胺药	抗过敏药
+second-generation antihistamine	第二代抗组胺药	抗过敏药
+antiallergic agent	抗过敏药；抗变态反应药	抗过敏药
+diphenhydramine	苯海拉明	抗过敏药
+chlorphenamine	氯苯那敏；扑尔敏	抗过敏药
+chlorpheniramine	氯苯那敏	抗过敏药
+dexchlorpheniramine	右氯苯那敏	抗过敏药
+brompheniramine	溴苯那敏	抗过敏药
+promethazine	异丙嗪	抗过敏药
+cyproheptadine	赛庚啶	抗过敏药
+clemastine	氯马斯汀	抗过敏药
+hydroxyzine	羟嗪	抗过敏药
+triprolidine	曲普利啶	抗过敏药
+tripelennamine	曲吡那敏	抗过敏药
+cyclizine	赛克利嗪	抗过敏药
+doxylamine	多西拉敏	抗过敏药
+mequitazine	美喹他嗪	抗过敏药
+azatadine	阿扎他定	抗过敏药
+cetirizine	西替利嗪	抗过敏药
+levocetirizine	左西替利嗪	抗过敏药
+loratadine	氯雷他定	抗过敏药
+desloratadine	地氯雷他定	抗过敏药
+fexofenadine	非索非那定	抗过敏药
+terfenadine	特非那定	抗过敏药
+astemizole	阿司咪唑	抗过敏药
+ebastine	依巴斯汀	抗过敏药
+mizolastine	咪唑斯汀	抗过敏药
+rupatadine	卢帕他定	抗过敏药
+bilastine	比拉斯汀	抗过敏药
+acrivastine	阿伐斯汀	抗过敏药
+epinastine	依匹斯汀	抗过敏药
+olopatadine	奥洛他定	抗过敏药
+azelastine	氮䓬斯汀	抗过敏药
+levocabastine	左卡巴斯汀	抗过敏药
+emedastine	依美斯汀	抗过敏药
+bepotastine	贝他斯汀	抗过敏药
+ketotifen	酮替芬	抗过敏药
+tranilast	曲尼司特	抗过敏药
+pemirolast	吡嘧司特	抗过敏药
+oxatomide	奥沙米特	抗过敏药
+sedative-hypnotic	镇静催眠药	神经精神药
+sedative	镇静药	神经精神药
+hypnotic	催眠药	神经精神药
+benzodiazepine	苯二氮䓬类	神经精神药
+barbiturate	巴比妥类	神经精神药
+nonbenzodiazepine hypnotic	非苯二氮䓬类催眠药	神经精神药
+orexin receptor antagonist	食欲素受体拮抗剂	神经精神药
+melatonin receptor agonist	褪黑素受体激动剂	神经精神药
+anxiolytic	抗焦虑药	神经精神药
+antidepressant	抗抑郁药	神经精神药
+tricyclic antidepressant	三环类抗抑郁药（TCA）	神经精神药
+tetracyclic antidepressant	四环类抗抑郁药	神经精神药
+selective serotonin reuptake inhibitor	选择性5-羟色胺再摄取抑制剂（SSRI）	神经精神药
+serotonin-norepinephrine reuptake inhibitor	5-羟色胺和去甲肾上腺素再摄取抑制剂（SNRI）	神经精神药
+norepinephrine-dopamine reuptake inhibitor	去甲肾上腺素和多巴胺再摄取抑制剂（NDRI）	神经精神药
+noradrenergic and specific serotonergic antidepressant	去甲肾上腺素能和特异性5-羟色胺能抗抑郁药（NaSSA）	神经精神药
+monoamine oxidase inhibitor	单胺氧化酶抑制剂（MAOI）	神经精神药
+antipsychotic	抗精神病药	神经精神药
+typical antipsychotic	典型抗精神病药；第一代抗精神病药	神经精神药
+atypical antipsychotic	非典型抗精神病药；第二代抗精神病药	神经精神药
+phenothiazine	吩噻嗪类	神经精神药
+butyrophenone	丁酰苯类	神经精神药
+thioxanthene	硫杂蒽类；噻吨类	神经精神药
+benzamide	苯甲酰胺类	神经精神药
+long-acting injectable antipsychotic	长效注射抗精神病药	神经精神药
+mood stabilizer	心境稳定剂	神经精神药
+antimanic agent	抗躁狂药	神经精神药
+antiepileptic drug	抗癫痫药（AED）	神经精神药
+anticonvulsant	抗惊厥药	神经精神药
+antiparkinsonian agent	抗帕金森病药	神经精神药
+dopamine agonist	多巴胺受体激动剂	神经精神药
+dopamine antagonist	多巴胺受体拮抗剂	神经精神药
+COMT inhibitor	儿茶酚-O-甲基转移酶抑制剂（COMT抑制剂）	神经精神药
+MAO-B inhibitor	单胺氧化酶B抑制剂（MAO-B抑制剂）	神经精神药
+peripheral decarboxylase inhibitor	外周脱羧酶抑制剂	神经精神药
+cholinomimetic	拟胆碱药	神经精神药
+cholinergic agonist	胆碱受体激动药	神经精神药
+cholinesterase inhibitor	胆碱酯酶抑制剂；抗胆碱酯酶药	神经精神药
+anticholinergic agent	抗胆碱药	神经精神药
+muscarinic antagonist	M胆碱受体阻断药	神经精神药
+anti-dementia drug	抗痴呆药	神经精神药
+central nervous system stimulant	中枢兴奋药	神经精神药
+psychostimulant	精神兴奋药	神经精神药
+nootropic	促智药；益智药	神经精神药
+neuroprotective agent	神经保护剂	神经精神药
+antimigraine agent	抗偏头痛药	神经精神药
+triptan	曲坦类	神经精神药
+CGRP receptor antagonist	降钙素基因相关肽受体拮抗剂（CGRP受体拮抗剂）	神经精神药
+centrally acting muscle relaxant	中枢性肌松药	神经精神药
+VMAT2 inhibitor	囊泡单胺转运体2抑制剂（VMAT2抑制剂）	神经精神药
+antivertigo agent	抗眩晕药	神经精神药
+diazepam	地西泮	神经精神药
+lorazepam	劳拉西泮	神经精神药
+alprazolam	阿普唑仑	神经精神药
+clonazepam	氯硝西泮	神经精神药
+estazolam	艾司唑仑	神经精神药
+triazolam	三唑仑	神经精神药
+oxazepam	奥沙西泮	神经精神药
+temazepam	替马西泮	神经精神药
+nitrazepam	硝西泮	神经精神药
+flurazepam	氟西泮	神经精神药
+chlordiazepoxide	氯氮䓬	神经精神药
+bromazepam	溴西泮	神经精神药
+flunitrazepam	氟硝西泮	神经精神药
+clobazam	氯巴占	神经精神药
+tofisopam	托非索泮	神经精神药
+medazepam	美达西泮	神经精神药
+quazepam	夸西泮	神经精神药
+lormetazepam	氯甲西泮	神经精神药
+brotizolam	溴替唑仑	神经精神药
+phenobarbital	苯巴比妥	神经精神药
+pentobarbital	戊巴比妥	神经精神药
+amobarbital	异戊巴比妥	神经精神药
+secobarbital	司可巴比妥	神经精神药
+barbital	巴比妥	神经精神药
+primidone	扑米酮	神经精神药
+zolpidem	唑吡坦	神经精神药
+zopiclone	佐匹克隆	神经精神药
+eszopiclone	右佐匹克隆	神经精神药
+zaleplon	扎来普隆	神经精神药
+ramelteon	雷美替胺	神经精神药
+suvorexant	苏沃雷生	神经精神药
+lemborexant	莱博雷生	神经精神药
+daridorexant	达利雷生	神经精神药
+melatonin	褪黑素	神经精神药
+chloral hydrate	水合氯醛	神经精神药
+paraldehyde	副醛	神经精神药
+methaqualone	甲喹酮	神经精神药
+meprobamate	甲丙氨酯	神经精神药
+buspirone	丁螺环酮	神经精神药
+tandospirone	坦度螺酮	神经精神药
+imipramine	丙米嗪	神经精神药
+desipramine	地昔帕明	神经精神药
+clomipramine	氯米帕明	神经精神药
+amitriptyline	阿米替林	神经精神药
+nortriptyline	去甲替林	神经精神药
+doxepin	多塞平	神经精神药
+trimipramine	曲米帕明	神经精神药
+amoxapine	阿莫沙平	神经精神药
+maprotiline	马普替林	神经精神药
+mianserin	米安色林	神经精神药
+fluoxetine	氟西汀	神经精神药
+paroxetine	帕罗西汀	神经精神药
+sertraline	舍曲林	神经精神药
+citalopram	西酞普兰	神经精神药
+escitalopram	艾司西酞普兰	神经精神药
+fluvoxamine	氟伏沙明	神经精神药
+venlafaxine	文拉法辛	神经精神药
+desvenlafaxine	去甲文拉法辛	神经精神药
+duloxetine	度洛西汀	神经精神药
+milnacipran	米那普仑	神经精神药
+levomilnacipran	左米那普仑	神经精神药
+mirtazapine	米氮平	神经精神药
+trazodone	曲唑酮	神经精神药
+nefazodone	奈法唑酮	神经精神药
+bupropion	安非他酮	神经精神药
+reboxetine	瑞波西汀	神经精神药
+vortioxetine	伏硫西汀	神经精神药
+vilazodone	维拉佐酮	神经精神药
+agomelatine	阿戈美拉汀	神经精神药
+moclobemide	吗氯贝胺	神经精神药
+phenelzine	苯乙肼	神经精神药
+tranylcypromine	反苯环丙胺	神经精神药
+isocarboxazid	异卡波肼	神经精神药
+tianeptine	噻奈普汀	神经精神药
+esketamine	艾司氯胺酮	神经精神药
+melitracen	美利曲辛	神经精神药
+flupentixol	氟哌噻吨	神经精神药
+chlorpromazine	氯丙嗪	神经精神药
+perphenazine	奋乃静	神经精神药
+fluphenazine	氟奋乃静	神经精神药
+trifluoperazine	三氟拉嗪	神经精神药
+thioridazine	硫利达嗪	神经精神药
+promazine	丙嗪	神经精神药
+levomepromazine	左美丙嗪	神经精神药
+haloperidol	氟哌啶醇	神经精神药
+droperidol	氟哌利多	神经精神药
+chlorprothixene	氯普噻吨	神经精神药
+zuclopenthixol	珠氯噻醇	神经精神药
+tiotixene	替沃噻吨	神经精神药
+pimozide	匹莫齐特	神经精神药
+penfluridol	五氟利多	神经精神药
+fluspirilene	氟司必林	神经精神药
+sulpiride	舒必利	神经精神药
+amisulpride	氨磺必利	神经精神药
+tiapride	硫必利	神经精神药
+loxapine	洛沙平	神经精神药
+clozapine	氯氮平	神经精神药
+olanzapine	奥氮平	神经精神药
+quetiapine	喹硫平	神经精神药
+risperidone	利培酮	神经精神药
+paliperidone	帕利哌酮	神经精神药
+ziprasidone	齐拉西酮	神经精神药
+aripiprazole	阿立哌唑	神经精神药
+brexpiprazole	依匹哌唑	神经精神药
+cariprazine	卡利拉嗪	神经精神药
+lurasidone	鲁拉西酮	神经精神药
+asenapine	阿塞那平	神经精神药
+iloperidone	伊潘立酮	神经精神药
+blonanserin	布南色林	神经精神药
+perospirone	哌罗匹隆	神经精神药
+sertindole	舍吲哚	神经精神药
+zotepine	佐替平	神经精神药
+pimavanserin	匹莫范色林	神经精神药
+lumateperone	卢美哌隆	神经精神药
+lithium carbonate	碳酸锂	神经精神药
+valproic acid	丙戊酸	神经精神药
+sodium valproate	丙戊酸钠	神经精神药
+carbamazepine	卡马西平	神经精神药
+oxcarbazepine	奥卡西平	神经精神药
+eslicarbazepine acetate	醋酸艾司利卡西平	神经精神药
+lamotrigine	拉莫三嗪	神经精神药
+phenytoin	苯妥英	神经精神药
+phenytoin sodium	苯妥英钠	神经精神药
+fosphenytoin	磷苯妥英	神经精神药
+ethosuximide	乙琥胺	神经精神药
+topiramate	托吡酯	神经精神药
+levetiracetam	左乙拉西坦	神经精神药
+brivaracetam	布瓦西坦	神经精神药
+gabapentin	加巴喷丁	神经精神药
+pregabalin	普瑞巴林	神经精神药
+zonisamide	唑尼沙胺	神经精神药
+lacosamide	拉考沙胺	神经精神药
+perampanel	吡仑帕奈	神经精神药
+vigabatrin	氨己烯酸	神经精神药
+tiagabine	噻加宾	神经精神药
+felbamate	非尔氨酯	神经精神药
+rufinamide	卢非酰胺	神经精神药
+stiripentol	司替戊醇	神经精神药
+sultiame	舒噻美	神经精神药
+trimethadione	三甲双酮	神经精神药
+cannabidiol	大麻二酚	神经精神药
+levodopa	左旋多巴	神经精神药
+carbidopa	卡比多巴	神经精神药
+benserazide	苄丝肼	神经精神药
+entacapone	恩他卡朋	神经精神药
+tolcapone	托卡朋	神经精神药
+opicapone	奥匹卡朋	神经精神药
+selegiline	司来吉兰	神经精神药
+rasagiline	雷沙吉兰	神经精神药
+safinamide	沙芬酰胺	神经精神药
+bromocriptine	溴隐亭	神经精神药
+pergolide	培高利特	神经精神药
+cabergoline	卡麦角林	神经精神药
+pramipexole	普拉克索	神经精神药
+ropinirole	罗匹尼罗	神经精神药
+rotigotine	罗替高汀	神经精神药
+piribedil	吡贝地尔	神经精神药
+apomorphine	阿扑吗啡	神经精神药
+trihexyphenidyl	苯海索	神经精神药
+benzatropine	苯扎托品	神经精神药
+biperiden	比哌立登	神经精神药
+donepezil	多奈哌齐	神经精神药
+rivastigmine	卡巴拉汀；利斯的明	神经精神药
+galantamine	加兰他敏	神经精神药
+memantine	美金刚	神经精神药
+huperzine A	石杉碱甲	神经精神药
+sodium oligomannate	甘露特钠	神经精神药
+lecanemab	仑卡奈单抗	神经精神药
+donanemab	多奈单抗	神经精神药
+idebenone	艾地苯醌	神经精神药
+nicergoline	尼麦角林	神经精神药
+dihydroergotoxine	双氢麦角毒碱	神经精神药
+citicoline	胞磷胆碱	神经精神药
+piracetam	吡拉西坦	神经精神药
+oxiracetam	奥拉西坦	神经精神药
+aniracetam	茴拉西坦	神经精神药
+butylphthalide	丁苯酞	神经精神药
+edaravone	依达拉奉	神经精神药
+vinpocetine	长春西汀	神经精神药
+nimodipine	尼莫地平	神经精神药
+flunarizine	氟桂利嗪	神经精神药
+cinnarizine	桂利嗪	神经精神药
+betahistine	倍他司汀	神经精神药
+pilocarpine	毛果芸香碱	神经精神药
+carbachol	卡巴胆碱	神经精神药
+bethanechol chloride	氯贝胆碱	神经精神药
+methacholine	醋甲胆碱	神经精神药
+cevimeline	西维美林	神经精神药
+neostigmine	新斯的明	神经精神药
+pyridostigmine	吡斯的明	神经精神药
+physostigmine	毒扁豆碱	神经精神药
+edrophonium	依酚氯铵	神经精神药
+ambenonium	安贝氯铵	神经精神药
+atropine	阿托品	神经精神药
+scopolamine	东莨菪碱	神经精神药
+hyoscine	东莨菪碱	神经精神药
+anisodine	樟柳碱	神经精神药
+penehyclidine	戊乙奎醚	神经精神药
+riluzole	利鲁唑	神经精神药
+fingolimod	芬戈莫德	神经精神药
+siponimod	西尼莫德	神经精神药
+teriflunomide	特立氟胺	神经精神药
+dimethyl fumarate	富马酸二甲酯	神经精神药
+natalizumab	那他珠单抗	神经精神药
+ocrelizumab	奥瑞珠单抗	神经精神药
+ofatumumab	奥法妥木单抗	神经精神药
+glatiramer acetate	醋酸格拉替雷	神经精神药
+nusinersen	诺西那生钠	神经精神药
+risdiplam	利司扑兰	神经精神药
+tetrabenazine	丁苯那嗪	神经精神药
+deutetrabenazine	氘丁苯那嗪	神经精神药
+valbenazine	缬苯那嗪	神经精神药
+botulinum toxin type A	A型肉毒毒素	神经精神药
+sumatriptan	舒马普坦	神经精神药
+zolmitriptan	佐米曲普坦	神经精神药
+rizatriptan	利扎曲普坦	神经精神药
+naratriptan	那拉曲坦	神经精神药
+eletriptan	依来曲普坦	神经精神药
+almotriptan	阿莫曲坦	神经精神药
+frovatriptan	夫罗曲坦	神经精神药
+ergotamine	麦角胺	神经精神药
+dihydroergotamine	双氢麦角胺	神经精神药
+erenumab	依瑞奈尤单抗	神经精神药
+rimegepant	瑞美吉泮	神经精神药
+ubrogepant	乌布吉泮	神经精神药
+lasmiditan	拉米地坦	神经精神药
+methylphenidate	哌甲酯	神经精神药
+atomoxetine	托莫西汀	神经精神药
+amfetamine	苯丙胺；安非他明	神经精神药
+dexamfetamine	右苯丙胺	神经精神药
+lisdexamfetamine	赖右苯丙胺	神经精神药
+modafinil	莫达非尼	神经精神药
+armodafinil	阿莫达非尼	神经精神药
+pemoline	匹莫林	神经精神药
+caffeine	咖啡因	神经精神药
+meclofenoxate	甲氯芬酯	神经精神药
+baclofen	巴氯芬	神经精神药
+tizanidine	替扎尼定	神经精神药
+eperisone	乙哌立松	神经精神药
+tolperisone	托哌酮	神经精神药
+cyclobenzaprine	环苯扎林	神经精神药
+methocarbamol	美索巴莫	神经精神药
+carisoprodol	卡立普多	神经精神药
+chlorzoxazone	氯唑沙宗	神经精神药
+orphenadrine	奥芬那君	神经精神药
+dantrolene	丹曲林	神经精神药
+disulfiram	双硫仑	神经精神药
+acamprosate	阿坎酸	神经精神药
+varenicline	伐尼克兰	神经精神药
+cytisine	金雀花碱	神经精神药
+nicotine	尼古丁；烟碱	神经精神药
+nicotine replacement therapy	尼古丁替代疗法（NRT）	神经精神药
+lofexidine	洛非西定	神经精神药
+nonsteroidal anti-inflammatory drug	非甾体抗炎药（NSAID）	解热镇痛药
+antipyretic analgesic	解热镇痛药	解热镇痛药
+antipyretic	解热药；退热药	解热镇痛药
+cyclooxygenase inhibitor	环氧合酶抑制剂	解热镇痛药
+selective COX-2 inhibitor	选择性COX-2抑制剂	解热镇痛药
+salicylate	水杨酸类	解热镇痛药
+aspirin	阿司匹林	解热镇痛药
+acetylsalicylic acid	乙酰水杨酸；阿司匹林	解热镇痛药
+sodium salicylate	水杨酸钠	解热镇痛药
+diflunisal	二氟尼柳	解热镇痛药
+salsalate	双水杨酯	解热镇痛药
+benorilate	贝诺酯	解热镇痛药
+acetaminophen	对乙酰氨基酚；扑热息痛	解热镇痛药
+paracetamol	对乙酰氨基酚；扑热息痛	解热镇痛药
+propacetamol	丙帕他莫	解热镇痛药
+phenacetin	非那西丁	解热镇痛药
+metamizole sodium	安乃近	解热镇痛药
+aminophenazone	氨基比林	解热镇痛药
+phenazone	安替比林	解热镇痛药
+propyphenazone	异丙安替比林	解热镇痛药
+ibuprofen	布洛芬	解热镇痛药
+dexibuprofen	右布洛芬；右旋布洛芬	解热镇痛药
+naproxen	萘普生	解热镇痛药
+ketoprofen	酮洛芬	解热镇痛药
+dexketoprofen	右酮洛芬	解热镇痛药
+flurbiprofen	氟比洛芬	解热镇痛药
+flurbiprofen axetil	氟比洛芬酯	解热镇痛药
+fenoprofen	非诺洛芬	解热镇痛药
+loxoprofen	洛索洛芬	解热镇痛药
+zaltoprofen	扎托布洛芬	解热镇痛药
+pranoprofen	普拉洛芬	解热镇痛药
+oxaprozin	奥沙普秦	解热镇痛药
+fenbufen	芬布芬	解热镇痛药
+indometacin	吲哚美辛	解热镇痛药
+indomethacin	吲哚美辛	解热镇痛药
+acemetacin	阿西美辛	解热镇痛药
+sulindac	舒林酸	解热镇痛药
+etodolac	依托度酸	解热镇痛药
+tolmetin	托美丁	解热镇痛药
+diclofenac	双氯芬酸	解热镇痛药
+aceclofenac	醋氯芬酸	解热镇痛药
+ketorolac	酮咯酸	解热镇痛药
+bromfenac	溴芬酸	解热镇痛药
+nepafenac	奈帕芬胺	解热镇痛药
+felbinac	联苯乙酸	解热镇痛药
+piroxicam	吡罗昔康	解热镇痛药
+meloxicam	美洛昔康	解热镇痛药
+lornoxicam	氯诺昔康	解热镇痛药
+tenoxicam	替诺昔康	解热镇痛药
+nabumetone	萘丁美酮	解热镇痛药
+nimesulide	尼美舒利	解热镇痛药
+mefenamic acid	甲芬那酸	解热镇痛药
+flufenamic acid	氟芬那酸	解热镇痛药
+tolfenamic acid	托芬那酸	解热镇痛药
+celecoxib	塞来昔布	解热镇痛药
+etoricoxib	依托考昔	解热镇痛药
+parecoxib	帕瑞昔布	解热镇痛药
+rofecoxib	罗非昔布	解热镇痛药
+valdecoxib	伐地昔布	解热镇痛药
+imrecoxib	艾瑞昔布	解热镇痛药
+phenylbutazone	保泰松	解热镇痛药
+benzydamine	苄达明	解热镇痛药
+analgesic	镇痛药	镇痛药
+opioid	阿片类药物	镇痛药
+opioid analgesic	阿片类镇痛药	镇痛药
+mu opioid receptor agonist	μ阿片受体激动剂	镇痛药
+opioid agonist-antagonist	阿片受体激动-拮抗药	镇痛药
+opioid antagonist	阿片受体拮抗药	镇痛药
+opioid-induced constipation	阿片类药物引起的便秘（OIC）	镇痛药
+three-step analgesic ladder	三阶梯镇痛疗法	镇痛药
+breakthrough pain	爆发痛；突破性疼痛	镇痛药
+morphine	吗啡	镇痛药
+codeine	可待因	镇痛药
+dihydrocodeine	双氢可待因	镇痛药
+diamorphine	二醋吗啡；海洛因	镇痛药
+hydromorphone	氢吗啡酮	镇痛药
+oxycodone	羟考酮	镇痛药
+hydrocodone	氢可酮	镇痛药
+oxymorphone	羟吗啡酮	镇痛药
+pethidine	哌替啶；度冷丁	镇痛药
+meperidine	哌替啶	镇痛药
+fentanyl	芬太尼	镇痛药
+sufentanil	舒芬太尼	镇痛药
+alfentanil	阿芬太尼	镇痛药
+remifentanil	瑞芬太尼	镇痛药
+methadone	美沙酮	镇痛药
+buprenorphine	丁丙诺啡	镇痛药
+butorphanol	布托啡诺	镇痛药
+nalbuphine	纳布啡	镇痛药
+pentazocine	喷他佐辛	镇痛药
+dezocine	地佐辛	镇痛药
+tramadol	曲马多	镇痛药
+tapentadol	他喷他多	镇痛药
+dihydroetorphine	二氢埃托啡	镇痛药
+bucinnazine	布桂嗪；强痛定	镇痛药
+rotundine	罗通定	镇痛药
+dextropropoxyphene	右丙氧芬	镇痛药
+oliceridine	奥赛利定	镇痛药
+nefopam	奈福泮	镇痛药
+flupirtine	氟吡汀	镇痛药
+ziconotide	齐考诺肽	镇痛药
+capsaicin	辣椒碱	镇痛药
+naloxone	纳洛酮	镇痛药
+naltrexone	纳曲酮	镇痛药
+nalmefene	纳美芬	镇痛药
+nalorphine	烯丙吗啡	镇痛药
+antigout agent	抗痛风药	抗痛风药
+uricosuric agent	促尿酸排泄药	抗痛风药
+xanthine oxidase inhibitor	黄嘌呤氧化酶抑制剂	抗痛风药
+urate-lowering therapy	降尿酸治疗	抗痛风药
+allopurinol	别嘌醇	抗痛风药
+febuxostat	非布司他	抗痛风药
+topiroxostat	托匹司他	抗痛风药
+benzbromarone	苯溴马隆	抗痛风药
+probenecid	丙磺舒	抗痛风药
+sulfinpyrazone	磺吡酮	抗痛风药
+lesinurad	雷西纳德	抗痛风药
+colchicine	秋水仙碱	抗痛风药
+rasburicase	拉布立海	抗痛风药
+pegloticase	培戈洛酶	抗痛风药
+general anesthetic	全身麻醉药；全麻药	麻醉药
+inhalational anesthetic	吸入麻醉药	麻醉药
+intravenous anesthetic	静脉麻醉药	麻醉药
+local anesthetic	局部麻醉药；局麻药	麻醉药
+ester-type local anesthetic	酯类局麻药	麻醉药
+amide-type local anesthetic	酰胺类局麻药	麻醉药
+neuromuscular blocking agent	神经肌肉阻滞药；骨骼肌松弛药	麻醉药
+depolarizing muscle relaxant	去极化型肌松药	麻醉药
+nondepolarizing muscle relaxant	非去极化型肌松药	麻醉药
+minimum alveolar concentration	最低肺泡有效浓度（MAC）	麻醉药
+blood/gas partition coefficient	血/气分配系数	麻醉药
+induction of anesthesia	麻醉诱导	麻醉药
+maintenance of anesthesia	麻醉维持	麻醉药
+balanced anesthesia	平衡麻醉	麻醉药
+total intravenous anesthesia	全凭静脉麻醉（TIVA）	麻醉药
+dissociative anesthesia	分离麻醉	麻醉药
+neuroleptanalgesia	神经安定镇痛术	麻醉药
+premedication	麻醉前给药；麻醉前用药	麻醉药
+surface anesthesia	表面麻醉	麻醉药
+infiltration anesthesia	浸润麻醉	麻醉药
+conduction anesthesia	传导麻醉	麻醉药
+nerve block	神经阻滞	麻醉药
+spinal anesthesia	蛛网膜下腔麻醉；腰麻	麻醉药
+epidural anesthesia	硬膜外麻醉	麻醉药
+patient-controlled analgesia	患者自控镇痛（PCA）	麻醉药
+nitrous oxide	氧化亚氮；笑气	麻醉药
+halothane	氟烷	麻醉药
+enflurane	恩氟烷	麻醉药
+isoflurane	异氟烷	麻醉药
+sevoflurane	七氟烷	麻醉药
+desflurane	地氟烷	麻醉药
+methoxyflurane	甲氧氟烷	麻醉药
+diethyl ether	乙醚	麻醉药
+propofol	丙泊酚	麻醉药
+fospropofol	磷丙泊酚	麻醉药
+ciprofol	环泊酚	麻醉药
+ketamine	氯胺酮	麻醉药
+etomidate	依托咪酯	麻醉药
+thiopental sodium	硫喷妥钠	麻醉药
+methohexital	美索比妥	麻醉药
+sodium oxybate	羟丁酸钠	麻醉药
+midazolam	咪达唑仑	麻醉药
+remimazolam	瑞马唑仑	麻醉药
+dexmedetomidine	右美托咪定	麻醉药
+procaine	普鲁卡因	麻醉药
+chloroprocaine	氯普鲁卡因	麻醉药
+tetracaine	丁卡因	麻醉药
+benzocaine	苯佐卡因	麻醉药
+cocaine	可卡因	麻醉药
+lidocaine	利多卡因	麻醉药
+bupivacaine	布比卡因	麻醉药
+levobupivacaine	左布比卡因	麻醉药
+ropivacaine	罗哌卡因	麻醉药
+mepivacaine	甲哌卡因	麻醉药
+prilocaine	丙胺卡因	麻醉药
+articaine	阿替卡因	麻醉药
+etidocaine	依替卡因	麻醉药
+cinchocaine	辛可卡因	麻醉药
+oxybuprocaine	奥布卡因	麻醉药
+proxymetacaine	丙美卡因	麻醉药
+pramocaine	普莫卡因	麻醉药
+dyclonine	达克罗宁	麻醉药
+oxetacaine	奥昔卡因	麻醉药
+suxamethonium	琥珀胆碱	麻醉药
+succinylcholine	琥珀胆碱	麻醉药
+tubocurarine	筒箭毒碱	麻醉药
+pancuronium	泮库溴铵	麻醉药
+vecuronium	维库溴铵	麻醉药
+rocuronium	罗库溴铵	麻醉药
+atracurium	阿曲库铵	麻醉药
+cisatracurium	顺阿曲库铵	麻醉药
+mivacurium	米库氯铵	麻醉药
+pipecuronium	哌库溴铵	麻醉药
+sugammadex	舒更葡糖钠	麻醉药
+hormone	激素	内分泌药
+corticosteroid	皮质类固醇；肾上腺皮质激素	内分泌药
+glucocorticoid	糖皮质激素	内分泌药
+mineralocorticoid	盐皮质激素	内分泌药
+topical corticosteroid	外用糖皮质激素	内分泌药
+adrenocortical insufficiency	肾上腺皮质功能不全	内分泌药
+iatrogenic Cushing syndrome	医源性库欣综合征	内分泌药
+antidiabetic agent	降糖药；抗糖尿病药	内分泌药
+oral hypoglycemic agent	口服降糖药	内分泌药
+insulin	胰岛素	内分泌药
+human insulin	人胰岛素	内分泌药
+insulin analog	胰岛素类似物	内分泌药
+rapid-acting insulin	速效胰岛素	内分泌药
+short-acting insulin	短效胰岛素	内分泌药
+intermediate-acting insulin	中效胰岛素	内分泌药
+long-acting insulin	长效胰岛素	内分泌药
+premixed insulin	预混胰岛素	内分泌药
+basal insulin	基础胰岛素	内分泌药
+sulfonylurea	磺酰脲类	内分泌药
+biguanide	双胍类	内分泌药
+thiazolidinedione	噻唑烷二酮类	内分泌药
+glinide	格列奈类	内分泌药
+alpha-glucosidase inhibitor	α-葡萄糖苷酶抑制剂	内分泌药
+DPP-4 inhibitor	二肽基肽酶-4抑制剂（DPP-4抑制剂）	内分泌药
+GLP-1 receptor agonist	胰高血糖素样肽-1受体激动剂（GLP-1受体激动剂）	内分泌药
+SGLT2 inhibitor	钠-葡萄糖协同转运蛋白2抑制剂（SGLT2抑制剂）	内分泌药
+glucokinase activator	葡萄糖激酶激活剂	内分泌药
+hypoglycemia	低血糖	内分泌药
+antithyroid drug	抗甲状腺药	内分泌药
+thyroid hormone	甲状腺激素	内分泌药
+thioamide	硫脲类	内分泌药
+estrogen	雌激素	内分泌药
+progestogen	孕激素	内分泌药
+androgen	雄激素	内分泌药
+anabolic steroid	蛋白同化激素；同化激素	内分泌药
+antiestrogen	抗雌激素药	内分泌药
+selective estrogen receptor modulator	选择性雌激素受体调节剂（SERM）	内分泌药
+selective progesterone receptor modulator	选择性孕激素受体调节剂	内分泌药
+antiandrogen	抗雄激素药	内分泌药
+oral contraceptive	口服避孕药	内分泌药
+combined oral contraceptive	复方口服避孕药	内分泌药
+emergency contraceptive	紧急避孕药	内分泌药
+hormone replacement therapy	激素替代疗法（HRT）	内分泌药
+gonadotropin	促性腺激素	内分泌药
+gonadotropin-releasing hormone agonist	促性腺激素释放激素激动剂（GnRH激动剂）	内分泌药
+gonadotropin-releasing hormone antagonist	促性腺激素释放激素拮抗剂（GnRH拮抗剂）	内分泌药
+somatostatin analog	生长抑素类似物	内分泌药
+oxytocic	子宫兴奋药；子宫收缩药	内分泌药
+tocolytic agent	子宫平滑肌松弛药；抗早产药	内分泌药
+antiosteoporotic agent	抗骨质疏松药	内分泌药
+bisphosphonate	双膦酸盐类	内分泌药
+bone resorption inhibitor	骨吸收抑制剂	内分泌药
+bone formation promoter	骨形成促进剂	内分泌药
+calcimimetic	拟钙剂	内分泌药
+antiobesity agent	减肥药；抗肥胖药	内分泌药
+hydrocortisone	氢化可的松	内分泌药
+cortisone	可的松	内分泌药
+prednisone	泼尼松	内分泌药
+prednisolone	泼尼松龙	内分泌药
+methylprednisolone	甲泼尼龙	内分泌药
+triamcinolone	曲安西龙	内分泌药
+triamcinolone acetonide	曲安奈德	内分泌药
+dexamethasone	地塞米松	内分泌药
+betamethasone	倍他米松	内分泌药
+fludrocortisone	氟氢可的松	内分泌药
+deoxycorticosterone	去氧皮质酮	内分泌药
+deflazacort	地夫可特	内分泌药
+clobetasol propionate	丙酸氯倍他索	内分泌药
+halcinonide	哈西奈德	内分泌药
+fluocinonide	醋酸氟轻松	内分泌药
+desonide	地奈德	内分泌药
+hydrocortisone butyrate	丁酸氢化可的松	内分泌药
+desoximetasone	去羟米松	内分泌药
+halometasone	卤米松	内分泌药
+amcinonide	安西奈德	内分泌药
+fluorometholone	氟米龙	内分泌药
+loteprednol	氯替泼诺	内分泌药
+corticotropin	促皮质素；促肾上腺皮质激素（ACTH）	内分泌药
+tetracosactide	替可克肽	内分泌药
+metyrapone	美替拉酮	内分泌药
+mitotane	米托坦	内分泌药
+aminoglutethimide	氨鲁米特	内分泌药
+regular insulin	普通胰岛素；正规胰岛素	内分泌药
+isophane insulin	低精蛋白锌胰岛素；中性鱼精蛋白锌胰岛素（NPH）	内分泌药
+protamine zinc insulin	精蛋白锌胰岛素	内分泌药
+insulin aspart	门冬胰岛素	内分泌药
+insulin lispro	赖脯胰岛素	内分泌药
+insulin glulisine	谷赖胰岛素	内分泌药
+insulin glargine	甘精胰岛素	内分泌药
+insulin detemir	地特胰岛素	内分泌药
+insulin degludec	德谷胰岛素	内分泌药
+metformin	二甲双胍	内分泌药
+phenformin	苯乙双胍	内分泌药
+glibenclamide	格列本脲；优降糖	内分泌药
+glyburide	格列本脲	内分泌药
+glipizide	格列吡嗪	内分泌药
+gliclazide	格列齐特	内分泌药
+glimepiride	格列美脲	内分泌药
+gliquidone	格列喹酮	内分泌药
+tolbutamide	甲苯磺丁脲	内分泌药
+chlorpropamide	氯磺丙脲	内分泌药
+repaglinide	瑞格列奈	内分泌药
+nateglinide	那格列奈	内分泌药
+mitiglinide	米格列奈	内分泌药
+pioglitazone	吡格列酮	内分泌药
+rosiglitazone	罗格列酮	内分泌药
+troglitazone	曲格列酮	内分泌药
+chiglitazar	西格列他钠	内分泌药
+acarbose	阿卡波糖	内分泌药
+voglibose	伏格列波糖	内分泌药
+miglitol	米格列醇	内分泌药
+sitagliptin	西格列汀	内分泌药
+vildagliptin	维格列汀	内分泌药
+saxagliptin	沙格列汀	内分泌药
+linagliptin	利格列汀	内分泌药
+alogliptin	阿格列汀	内分泌药
+trelagliptin	曲格列汀	内分泌药
+exenatide	艾塞那肽	内分泌药
+liraglutide	利拉鲁肽	内分泌药
+dulaglutide	度拉糖肽	内分泌药
+semaglutide	司美格鲁肽	内分泌药
+lixisenatide	利司那肽	内分泌药
+beinaglutide	贝那鲁肽	内分泌药
+albiglutide	阿必鲁肽	内分泌药
+tirzepatide	替尔泊肽	内分泌药
+dapagliflozin	达格列净	内分泌药
+empagliflozin	恩格列净	内分泌药
+canagliflozin	卡格列净	内分泌药
+ertugliflozin	艾托格列净	内分泌药
+henagliflozin	恒格列净	内分泌药
+dorzagliatin	多格列艾汀	内分泌药
+pramlintide	普兰林肽	内分泌药
+glucagon	胰高血糖素	内分泌药
+levothyroxine sodium	左甲状腺素钠	内分泌药
+liothyronine	碘塞罗宁	内分泌药
+propylthiouracil	丙硫氧嘧啶	内分泌药
+methylthiouracil	甲硫氧嘧啶	内分泌药
+thiamazole	甲巯咪唑；他巴唑	内分泌药
+methimazole	甲巯咪唑	内分泌药
+carbimazole	卡比马唑	内分泌药
+potassium iodide	碘化钾	内分泌药
+compound iodine solution	复方碘溶液	内分泌药
+sodium iodide I-131	碘［131I］化钠	内分泌药
+estradiol	雌二醇	内分泌药
+estradiol valerate	戊酸雌二醇	内分泌药
+ethinylestradiol	炔雌醇	内分泌药
+estriol	雌三醇	内分泌药
+estrone	雌酮	内分泌药
+conjugated estrogens	结合雌激素	内分泌药
+diethylstilbestrol	己烯雌酚	内分泌药
+nilestriol	尼尔雌醇	内分泌药
+promestriene	普罗雌烯	内分泌药
+tibolone	替勃龙	内分泌药
+progesterone	黄体酮；孕酮	内分泌药
+medroxyprogesterone acetate	醋酸甲羟孕酮	内分泌药
+megestrol acetate	醋酸甲地孕酮	内分泌药
+norethisterone	炔诺酮	内分泌药
+levonorgestrel	左炔诺孕酮	内分泌药
+norgestrel	炔诺孕酮	内分泌药
+desogestrel	去氧孕烯	内分泌药
+gestodene	孕二烯酮	内分泌药
+drospirenone	屈螺酮	内分泌药
+dydrogesterone	地屈孕酮	内分泌药
+dienogest	地诺孕素	内分泌药
+cyproterone acetate	醋酸环丙孕酮	内分泌药
+chlormadinone acetate	醋酸氯地孕酮	内分泌药
+hydroxyprogesterone caproate	己酸羟孕酮	内分泌药
+etonogestrel	依托孕烯	内分泌药
+norgestimate	诺孕酯	内分泌药
+mifepristone	米非司酮	内分泌药
+ulipristal acetate	醋酸乌利司他	内分泌药
+gestrinone	孕三烯酮	内分泌药
+danazol	达那唑	内分泌药
+testosterone	睾酮	内分泌药
+testosterone propionate	丙酸睾酮	内分泌药
+testosterone undecanoate	十一酸睾酮	内分泌药
+methyltestosterone	甲睾酮	内分泌药
+nandrolone phenylpropionate	苯丙酸诺龙	内分泌药
+stanozolol	司坦唑醇	内分泌药
+oxandrolone	氧雄龙	内分泌药
+clomifene	氯米芬	内分泌药
+clomiphene	氯米芬	内分泌药
+raloxifene	雷洛昔芬	内分泌药
+bazedoxifene	巴多昔芬	内分泌药
+chorionic gonadotrophin	绒促性素；人绒毛膜促性腺激素（hCG）	内分泌药
+menotropins	尿促性素	内分泌药
+urofollitropin	尿促卵泡素	内分泌药
+follitropin alfa	促卵泡素α	内分泌药
+gonadorelin	戈那瑞林	内分泌药
+leuprorelin	亮丙瑞林	内分泌药
+leuprolide	亮丙瑞林	内分泌药
+goserelin	戈舍瑞林	内分泌药
+triptorelin	曲普瑞林	内分泌药
+buserelin	布舍瑞林	内分泌药
+nafarelin	那法瑞林	内分泌药
+cetrorelix	西曲瑞克	内分泌药
+ganirelix	加尼瑞克	内分泌药
+degarelix	地加瑞克	内分泌药
+relugolix	瑞卢戈利	内分泌药
+somatropin	生长激素；重组人生长激素	内分泌药
+mecasermin	美卡舍明	内分泌药
+octreotide	奥曲肽	内分泌药
+lanreotide	兰瑞肽	内分泌药
+pasireotide	帕瑞肽	内分泌药
+pegvisomant	培维索孟	内分泌药
+quinagolide	喹高利特	内分泌药
+vasopressin	血管加压素；加压素	内分泌药
+desmopressin	去氨加压素	内分泌药
+terlipressin	特利加压素	内分泌药
+oxytocin	缩宫素；催产素	内分泌药
+carbetocin	卡贝缩宫素	内分泌药
+atosiban	阿托西班	内分泌药
+ergometrine	麦角新碱	内分泌药
+methylergometrine	甲麦角新碱	内分泌药
+carboprost	卡前列素	内分泌药
+carboprost tromethamine	卡前列素氨丁三醇	内分泌药
+dinoprostone	地诺前列酮	内分泌药
+dinoprost	地诺前列素	内分泌药
+gemeprost	吉美前列素	内分泌药
+sulprostone	硫前列酮	内分泌药
+ritodrine	利托君	内分泌药
+alendronate sodium	阿仑膦酸钠	内分泌药
+alendronic acid	阿仑膦酸	内分泌药
+risedronate sodium	利塞膦酸钠	内分泌药
+ibandronate sodium	伊班膦酸钠	内分泌药
+zoledronic acid	唑来膦酸	内分泌药
+pamidronate disodium	帕米膦酸二钠	内分泌药
+etidronate disodium	依替膦酸二钠	内分泌药
+clodronate disodium	氯膦酸二钠	内分泌药
+minodronic acid	米诺膦酸	内分泌药
+teriparatide	特立帕肽	内分泌药
+abaloparatide	阿巴洛肽	内分泌药
+denosumab	地舒单抗	内分泌药
+romosozumab	罗莫佐单抗	内分泌药
+calcitonin	降钙素	内分泌药
+salmon calcitonin	鲑降钙素	内分泌药
+elcatonin	依降钙素	内分泌药
+strontium ranelate	雷奈酸锶	内分泌药
+ipriflavone	依普黄酮	内分泌药
+cinacalcet	西那卡塞	内分泌药
+paricalcitol	帕立骨化醇	内分泌药
+phentermine	芬特明	内分泌药
+sibutramine	西布曲明	内分泌药
+rimonabant	利莫那班	内分泌药
+alpha blocker for BPH	治疗良性前列腺增生的α受体阻滞剂	泌尿生殖系统药
+5-alpha reductase inhibitor	5α还原酶抑制剂	泌尿生殖系统药
+phosphodiesterase type 5 inhibitor	5型磷酸二酯酶抑制剂（PDE5抑制剂）	泌尿生殖系统药
+beta3-adrenergic agonist	β3肾上腺素受体激动剂	泌尿生殖系统药
+antimuscarinic for overactive bladder	治疗膀胱过度活动症的抗胆碱药	泌尿生殖系统药
+urinary alkalinizer	尿碱化剂	泌尿生殖系统药
+tamsulosin	坦洛新；坦索罗辛	泌尿生殖系统药
+alfuzosin	阿夫唑嗪	泌尿生殖系统药
+silodosin	西洛多辛	泌尿生殖系统药
+naftopidil	萘哌地尔	泌尿生殖系统药
+finasteride	非那雄胺	泌尿生殖系统药
+dutasteride	度他雄胺	泌尿生殖系统药
+epristeride	依立雄胺	泌尿生殖系统药
+oxybutynin	奥昔布宁	泌尿生殖系统药
+tolterodine	托特罗定	泌尿生殖系统药
+solifenacin	索利那新	泌尿生殖系统药
+darifenacin	达非那新	泌尿生殖系统药
+trospium chloride	曲司氯铵	泌尿生殖系统药
+fesoterodine	非索罗定	泌尿生殖系统药
+propiverine	丙哌维林	泌尿生殖系统药
+flavoxate	黄酮哌酯	泌尿生殖系统药
+mirabegron	米拉贝隆	泌尿生殖系统药
+vibegron	维贝格龙	泌尿生殖系统药
+sildenafil	西地那非	泌尿生殖系统药
+tadalafil	他达拉非	泌尿生殖系统药
+vardenafil	伐地那非	泌尿生殖系统药
+avanafil	阿伐那非	泌尿生殖系统药
+dapoxetine	达泊西汀	泌尿生殖系统药
+potassium citrate	枸橼酸钾	泌尿生殖系统药
+phenazopyridine	非那吡啶	泌尿生殖系统药
+pentosan polysulfate sodium	戊聚糖多硫酸钠	泌尿生殖系统药
+retinoid	维A酸类	皮肤科用药
+keratolytic agent	角质溶解剂	皮肤科用药
+scabicide	抗疥螨药；杀疥螨药	皮肤科用药
+tretinoin	维A酸；全反式维A酸	皮肤科用药
+isotretinoin	异维A酸	皮肤科用药
+acitretin	阿维A	皮肤科用药
+adapalene	阿达帕林	皮肤科用药
+tazarotene	他扎罗汀	皮肤科用药
+benzoyl peroxide	过氧苯甲酰	皮肤科用药
+azelaic acid	壬二酸	皮肤科用药
+salicylic acid	水杨酸	皮肤科用药
+urea	尿素	皮肤科用药
+calcipotriol	卡泊三醇	皮肤科用药
+pimecrolimus	吡美莫司	皮肤科用药
+crisaborole	克立硼罗	皮肤科用药
+dithranol	地蒽酚	皮肤科用药
+coal tar	煤焦油	皮肤科用药
+ichthammol	鱼石脂	皮肤科用药
+calamine	炉甘石	皮肤科用药
+zinc oxide	氧化锌	皮肤科用药
+podophyllotoxin	鬼臼毒素	皮肤科用药
+imiquimod	咪喹莫特	皮肤科用药
+permethrin	氯菊酯	皮肤科用药
+lindane	林旦	皮肤科用药
+crotamiton	克罗米通	皮肤科用药
+methoxsalen	甲氧沙林	皮肤科用药
+hydroquinone	氢醌	皮肤科用药
+antiglaucoma agent	抗青光眼药	眼科用药
+mydriatic	扩瞳药	眼科用药
+miotic	缩瞳药	眼科用药
+cycloplegic	睫状肌麻痹药	眼科用药
+anti-VEGF agent	抗血管内皮生长因子药物（抗VEGF药物）	眼科用药
+artificial tears	人工泪液	眼科用药
+latanoprost	拉坦前列素	眼科用药
+travoprost	曲伏前列素	眼科用药
+bimatoprost	贝美前列素	眼科用药
+tafluprost	他氟前列素	眼科用药
+brimonidine	溴莫尼定	眼科用药
+dorzolamide	多佐胺	眼科用药
+brinzolamide	布林佐胺	眼科用药
+tropicamide	托吡卡胺	眼科用药
+cyclopentolate	环喷托酯	眼科用药
+homatropine	后马托品	眼科用药
+ranibizumab	雷珠单抗	眼科用药
+aflibercept	阿柏西普	眼科用药
+conbercept	康柏西普	眼科用药
+brolucizumab	布西珠单抗	眼科用药
+faricimab	法瑞西单抗	眼科用药
+verteporfin	维替泊芬	眼科用药
+pirenoxine	吡诺克辛	眼科用药
+sodium hyaluronate	玻璃酸钠	眼科用药
+contrast agent	造影剂；对比剂	诊断用药
+iodinated contrast medium	碘对比剂；含碘造影剂	诊断用药
+nonionic contrast medium	非离子型造影剂	诊断用药
+gadolinium-based contrast agent	钆对比剂	诊断用药
+contrast-induced nephropathy	对比剂肾病	诊断用药
+iohexol	碘海醇	诊断用药
+iopamidol	碘帕醇	诊断用药
+iodixanol	碘克沙醇	诊断用药
+iopromide	碘普罗胺	诊断用药
+ioversol	碘佛醇	诊断用药
+iomeprol	碘美普尔	诊断用药
+meglumine diatrizoate	泛影葡胺	诊断用药
+ethiodized oil	碘化油	诊断用药
+barium sulfate	硫酸钡	诊断用药
+gadopentetate dimeglumine	钆喷酸葡胺	诊断用药
+gadoterate meglumine	钆特酸葡胺	诊断用药
+gadobutrol	钆布醇	诊断用药
+gadoxetate disodium	钆塞酸二钠	诊断用药
+gadodiamide	钆双胺	诊断用药
+gadobenate dimeglumine	钆贝葡胺	诊断用药
+indocyanine green	吲哚菁绿	诊断用药
+fluorescein sodium	荧光素钠	诊断用药
+tuberculin purified protein derivative	结核菌素纯蛋白衍生物（PPD）	诊断用药
+radiopharmaceutical	放射性药物；放射性药品	诊断用药
+antineoplastic agent	抗肿瘤药	抗肿瘤药
+cytotoxic drug	细胞毒类药物	抗肿瘤药
+alkylating agent	烷化剂	抗肿瘤药
+nitrogen mustard	氮芥类	抗肿瘤药
+nitrosourea	亚硝脲类	抗肿瘤药
+platinum compound	铂类药物；铂类化合物	抗肿瘤药
+antimetabolite	抗代谢药	抗肿瘤药
+folate antagonist	叶酸拮抗剂	抗肿瘤药
+pyrimidine antagonist	嘧啶拮抗剂	抗肿瘤药
+purine antagonist	嘌呤拮抗剂	抗肿瘤药
+antitumor antibiotic	抗肿瘤抗生素	抗肿瘤药
+anthracycline	蒽环类	抗肿瘤药
+vinca alkaloid	长春碱类	抗肿瘤药
+taxane	紫杉烷类	抗肿瘤药
+microtubule inhibitor	微管抑制剂	抗肿瘤药
+topoisomerase inhibitor	拓扑异构酶抑制剂	抗肿瘤药
+topoisomerase I inhibitor	拓扑异构酶Ⅰ抑制剂	抗肿瘤药
+topoisomerase II inhibitor	拓扑异构酶Ⅱ抑制剂	抗肿瘤药
+cell cycle-specific agent	细胞周期特异性药物	抗肿瘤药
+cell cycle-nonspecific agent	细胞周期非特异性药物	抗肿瘤药
+targeted therapy	靶向治疗	抗肿瘤药
+molecular targeted drug	分子靶向药物	抗肿瘤药
+tyrosine kinase inhibitor	酪氨酸激酶抑制剂（TKI）	抗肿瘤药
+multi-targeted kinase inhibitor	多靶点激酶抑制剂	抗肿瘤药
+EGFR tyrosine kinase inhibitor	表皮生长因子受体酪氨酸激酶抑制剂（EGFR-TKI）	抗肿瘤药
+ALK inhibitor	间变性淋巴瘤激酶抑制剂（ALK抑制剂）	抗肿瘤药
+BCR-ABL inhibitor	BCR-ABL抑制剂	抗肿瘤药
+BRAF inhibitor	BRAF抑制剂	抗肿瘤药
+MEK inhibitor	MEK抑制剂	抗肿瘤药
+angiogenesis inhibitor	血管生成抑制剂	抗肿瘤药
+mTOR inhibitor	哺乳动物雷帕霉素靶蛋白抑制剂（mTOR抑制剂）	抗肿瘤药
+PARP inhibitor	多腺苷二磷酸核糖聚合酶抑制剂（PARP抑制剂）	抗肿瘤药
+CDK4/6 inhibitor	细胞周期蛋白依赖性激酶4/6抑制剂（CDK4/6抑制剂）	抗肿瘤药
+BTK inhibitor	布鲁顿酪氨酸激酶抑制剂（BTK抑制剂）	抗肿瘤药
+PI3K inhibitor	磷脂酰肌醇3-激酶抑制剂（PI3K抑制剂）	抗肿瘤药
+proteasome inhibitor	蛋白酶体抑制剂	抗肿瘤药
+histone deacetylase inhibitor	组蛋白去乙酰化酶抑制剂（HDAC抑制剂）	抗肿瘤药
+hypomethylating agent	去甲基化药物	抗肿瘤药
+BCL-2 inhibitor	BCL-2抑制剂	抗肿瘤药
+monoclonal antibody	单克隆抗体；单抗	抗肿瘤药
+antibody-drug conjugate	抗体偶联药物（ADC）	抗肿瘤药
+bispecific antibody	双特异性抗体	抗肿瘤药
+immune checkpoint inhibitor	免疫检查点抑制剂	抗肿瘤药
+PD-1 inhibitor	PD-1抑制剂	抗肿瘤药
+PD-L1 inhibitor	PD-L1抑制剂	抗肿瘤药
+CTLA-4 inhibitor	CTLA-4抑制剂	抗肿瘤药
+immune-related adverse event	免疫相关不良事件（irAE）	抗肿瘤药
+endocrine therapy	内分泌治疗	抗肿瘤药
+aromatase inhibitor	芳香化酶抑制剂	抗肿瘤药
+androgen receptor antagonist	雄激素受体拮抗剂	抗肿瘤药
+chimeric antigen receptor T-cell therapy	嵌合抗原受体T细胞疗法（CAR-T）	抗肿瘤药
+adjuvant chemotherapy	辅助化疗	抗肿瘤药
+neoadjuvant chemotherapy	新辅助化疗	抗肿瘤药
+combination chemotherapy	联合化疗	抗肿瘤药
+induction chemotherapy	诱导化疗	抗肿瘤药
+consolidation chemotherapy	巩固化疗	抗肿瘤药
+palliative chemotherapy	姑息化疗	抗肿瘤药
+intrathecal chemotherapy	鞘内化疗	抗肿瘤药
+dose-limiting toxicity	剂量限制性毒性（DLT）	抗肿瘤药
+chemotherapy-induced nausea and vomiting	化疗所致恶心呕吐（CINV）	抗肿瘤药
+febrile neutropenia	发热性中性粒细胞减少症	抗肿瘤药
+tumor lysis syndrome	肿瘤溶解综合征	抗肿瘤药
+hand-foot syndrome	手足综合征	抗肿瘤药
+extravasation	外渗	抗肿瘤药
+chemoprotectant	化疗保护剂	抗肿瘤药
+chlormethine	氮芥	抗肿瘤药
+cyclophosphamide	环磷酰胺	抗肿瘤药
+ifosfamide	异环磷酰胺	抗肿瘤药
+melphalan	美法仑	抗肿瘤药
+chlorambucil	苯丁酸氮芥	抗肿瘤药
+bendamustine	苯达莫司汀	抗肿瘤药
+busulfan	白消安	抗肿瘤药
+thiotepa	塞替派	抗肿瘤药
+carmustine	卡莫司汀	抗肿瘤药
+lomustine	洛莫司汀	抗肿瘤药
+semustine	司莫司汀	抗肿瘤药
+nimustine	尼莫司汀	抗肿瘤药
+fotemustine	福莫司汀	抗肿瘤药
+streptozocin	链佐星	抗肿瘤药
+dacarbazine	达卡巴嗪	抗肿瘤药
+temozolomide	替莫唑胺	抗肿瘤药
+procarbazine	丙卡巴肼	抗肿瘤药
+altretamine	六甲蜜胺	抗肿瘤药
+trabectedin	曲贝替定	抗肿瘤药
+mitobronitol	二溴甘露醇	抗肿瘤药
+treosulfan	曲奥舒凡	抗肿瘤药
+estramustine	雌莫司汀	抗肿瘤药
+mesna	美司钠	抗肿瘤药
+amifostine	氨磷汀	抗肿瘤药
+dexrazoxane	右雷佐生	抗肿瘤药
+cisplatin	顺铂	抗肿瘤药
+carboplatin	卡铂	抗肿瘤药
+oxaliplatin	奥沙利铂	抗肿瘤药
+nedaplatin	奈达铂	抗肿瘤药
+lobaplatin	洛铂	抗肿瘤药
+methotrexate	甲氨蝶呤	抗肿瘤药
+pemetrexed	培美曲塞	抗肿瘤药
+raltitrexed	雷替曲塞	抗肿瘤药
+pralatrexate	普拉曲沙	抗肿瘤药
+fluorouracil	氟尿嘧啶	抗肿瘤药
+capecitabine	卡培他滨	抗肿瘤药
+tegafur	替加氟	抗肿瘤药
+carmofur	卡莫氟	抗肿瘤药
+doxifluridine	去氧氟尿苷	抗肿瘤药
+floxuridine	氟尿苷	抗肿瘤药
+cytarabine	阿糖胞苷	抗肿瘤药
+ancitabine	安西他滨	抗肿瘤药
+gemcitabine	吉西他滨	抗肿瘤药
+azacitidine	阿扎胞苷	抗肿瘤药
+decitabine	地西他滨	抗肿瘤药
+mercaptopurine	巯嘌呤	抗肿瘤药
+tioguanine	硫鸟嘌呤	抗肿瘤药
+fludarabine	氟达拉滨	抗肿瘤药
+cladribine	克拉屈滨	抗肿瘤药
+clofarabine	氯法拉滨	抗肿瘤药
+nelarabine	奈拉滨	抗肿瘤药
+pentostatin	喷司他丁	抗肿瘤药
+hydroxycarbamide	羟基脲	抗肿瘤药
+hydroxyurea	羟基脲	抗肿瘤药
+doxorubicin	多柔比星；阿霉素	抗肿瘤药
+daunorubicin	柔红霉素	抗肿瘤药
+epirubicin	表柔比星	抗肿瘤药
+idarubicin	伊达比星	抗肿瘤药
+pirarubicin	吡柔比星	抗肿瘤药
+aclarubicin	阿柔比星	抗肿瘤药
+amrubicin	氨柔比星	抗肿瘤药
+mitoxantrone	米托蒽醌	抗肿瘤药
+bleomycin	博来霉素	抗肿瘤药
+pingyangmycin	平阳霉素	抗肿瘤药
+peplomycin	培洛霉素	抗肿瘤药
+mitomycin	丝裂霉素	抗肿瘤药
+dactinomycin	放线菌素D	抗肿瘤药
+plicamycin	普卡霉素	抗肿瘤药
+vincristine	长春新碱	抗肿瘤药
+vinblastine	长春碱	抗肿瘤药
+vindesine	长春地辛	抗肿瘤药
+vinorelbine	长春瑞滨	抗肿瘤药
+vinflunine	长春氟宁	抗肿瘤药
+paclitaxel	紫杉醇	抗肿瘤药
+albumin-bound paclitaxel	白蛋白结合型紫杉醇	抗肿瘤药
+docetaxel	多西他赛	抗肿瘤药
+cabazitaxel	卡巴他赛	抗肿瘤药
+eribulin	艾立布林	抗肿瘤药
+ixabepilone	伊沙匹隆	抗肿瘤药
+utidelone	优替德隆	抗肿瘤药
+etoposide	依托泊苷	抗肿瘤药
+teniposide	替尼泊苷	抗肿瘤药
+irinotecan	伊立替康	抗肿瘤药
+topotecan	拓扑替康	抗肿瘤药
+camptothecin	喜树碱	抗肿瘤药
+hydroxycamptothecin	羟喜树碱	抗肿瘤药
+homoharringtonine	高三尖杉酯碱	抗肿瘤药
+harringtonine	三尖杉酯碱	抗肿瘤药
+elemene	榄香烯	抗肿瘤药
+tamoxifen	他莫昔芬	抗肿瘤药
+toremifene	托瑞米芬	抗肿瘤药
+fulvestrant	氟维司群	抗肿瘤药
+anastrozole	阿那曲唑	抗肿瘤药
+letrozole	来曲唑	抗肿瘤药
+exemestane	依西美坦	抗肿瘤药
+flutamide	氟他胺	抗肿瘤药
+bicalutamide	比卡鲁胺	抗肿瘤药
+nilutamide	尼鲁米特	抗肿瘤药
+enzalutamide	恩扎卢胺	抗肿瘤药
+apalutamide	阿帕他胺	抗肿瘤药
+darolutamide	达罗他胺	抗肿瘤药
+rezvilutamide	瑞维鲁胺	抗肿瘤药
+abiraterone acetate	醋酸阿比特龙	抗肿瘤药
+imatinib	伊马替尼	抗肿瘤药
+dasatinib	达沙替尼	抗肿瘤药
+nilotinib	尼洛替尼	抗肿瘤药
+bosutinib	博舒替尼	抗肿瘤药
+ponatinib	泊那替尼	抗肿瘤药
+flumatinib	氟马替尼	抗肿瘤药
+olverembatinib	奥雷巴替尼	抗肿瘤药
+asciminib	阿思尼布	抗肿瘤药
+gefitinib	吉非替尼	抗肿瘤药
+erlotinib	厄洛替尼	抗肿瘤药
+icotinib	埃克替尼	抗肿瘤药
+afatinib	阿法替尼	抗肿瘤药
+dacomitinib	达可替尼	抗肿瘤药
+osimertinib	奥希替尼	抗肿瘤药
+aumolertinib	阿美替尼	抗肿瘤药
+furmonertinib	伏美替尼	抗肿瘤药
+lapatinib	拉帕替尼	抗肿瘤药
+neratinib	奈拉替尼	抗肿瘤药
+pyrotinib	吡咯替尼	抗肿瘤药
+tucatinib	图卡替尼	抗肿瘤药
+crizotinib	克唑替尼	抗肿瘤药
+ceritinib	塞瑞替尼	抗肿瘤药
+alectinib	阿来替尼	抗肿瘤药
+brigatinib	布格替尼	抗肿瘤药
+lorlatinib	劳拉替尼	抗肿瘤药
+ensartinib	恩沙替尼	抗肿瘤药
+sorafenib	索拉非尼	抗肿瘤药
+sunitinib	舒尼替尼	抗肿瘤药
+pazopanib	帕唑帕尼	抗肿瘤药
+axitinib	阿昔替尼	抗肿瘤药
+regorafenib	瑞戈非尼	抗肿瘤药
+lenvatinib	仑伐替尼	抗肿瘤药
+cabozantinib	卡博替尼	抗肿瘤药
+vandetanib	凡德他尼	抗肿瘤药
+anlotinib	安罗替尼	抗肿瘤药
+apatinib	阿帕替尼	抗肿瘤药
+fruquintinib	呋喹替尼	抗肿瘤药
+surufatinib	索凡替尼	抗肿瘤药
+donafenib	多纳非尼	抗肿瘤药
+vemurafenib	维莫非尼	抗肿瘤药
+dabrafenib	达拉非尼	抗肿瘤药
+encorafenib	康奈非尼	抗肿瘤药
+trametinib	曲美替尼	抗肿瘤药
+cobimetinib	考比替尼	抗肿瘤药
+binimetinib	比美替尼	抗肿瘤药
+ibrutinib	伊布替尼	抗肿瘤药
+acalabrutinib	阿可替尼	抗肿瘤药
+zanubrutinib	泽布替尼	抗肿瘤药
+orelabrutinib	奥布替尼	抗肿瘤药
+ruxolitinib	芦可替尼	抗肿瘤药
+palbociclib	哌柏西利	抗肿瘤药
+ribociclib	瑞波西利	抗肿瘤药
+abemaciclib	阿贝西利	抗肿瘤药
+dalpiciclib	达尔西利	抗肿瘤药
+olaparib	奥拉帕利	抗肿瘤药
+niraparib	尼拉帕利	抗肿瘤药
+rucaparib	卢卡帕利	抗肿瘤药
+talazoparib	他拉唑帕利	抗肿瘤药
+fluzoparib	氟唑帕利	抗肿瘤药
+pamiparib	帕米帕利	抗肿瘤药
+everolimus	依维莫司	抗肿瘤药
+temsirolimus	替西罗莫司	抗肿瘤药
+bortezomib	硼替佐米	抗肿瘤药
+carfilzomib	卡非佐米	抗肿瘤药
+ixazomib	伊沙佐米	抗肿瘤药
+vorinostat	伏立诺他	抗肿瘤药
+chidamide	西达本胺	抗肿瘤药
+romidepsin	罗米地辛	抗肿瘤药
+panobinostat	帕比司他	抗肿瘤药
+venetoclax	维奈克拉	抗肿瘤药
+idelalisib	艾代拉里斯	抗肿瘤药
+alpelisib	阿培利司	抗肿瘤药
+capmatinib	卡马替尼	抗肿瘤药
+tepotinib	特泊替尼	抗肿瘤药
+savolitinib	赛沃替尼	抗肿瘤药
+selpercatinib	塞普替尼	抗肿瘤药
+pralsetinib	普拉替尼	抗肿瘤药
+larotrectinib	拉罗替尼	抗肿瘤药
+entrectinib	恩曲替尼	抗肿瘤药
+sotorasib	索托拉西布	抗肿瘤药
+gilteritinib	吉瑞替尼	抗肿瘤药
+midostaurin	米哚妥林	抗肿瘤药
+ivosidenib	艾伏尼布	抗肿瘤药
+erdafitinib	厄达替尼	抗肿瘤药
+pemigatinib	佩米替尼	抗肿瘤药
+avapritinib	阿伐替尼	抗肿瘤药
+ripretinib	瑞派替尼	抗肿瘤药
+selinexor	塞利尼索	抗肿瘤药
+rituximab	利妥昔单抗	抗肿瘤药
+obinutuzumab	奥妥珠单抗	抗肿瘤药
+trastuzumab	曲妥珠单抗	抗肿瘤药
+pertuzumab	帕妥珠单抗	抗肿瘤药
+inetetamab	伊尼妥单抗	抗肿瘤药
+cetuximab	西妥昔单抗	抗肿瘤药
+panitumumab	帕尼单抗	抗肿瘤药
+nimotuzumab	尼妥珠单抗	抗肿瘤药
+bevacizumab	贝伐珠单抗	抗肿瘤药
+ramucirumab	雷莫西尤单抗	抗肿瘤药
+daratumumab	达雷妥尤单抗	抗肿瘤药
+isatuximab	艾沙妥昔单抗	抗肿瘤药
+elotuzumab	埃罗妥珠单抗	抗肿瘤药
+blinatumomab	贝林妥欧单抗	抗肿瘤药
+nivolumab	纳武利尤单抗	抗肿瘤药
+pembrolizumab	帕博利珠单抗	抗肿瘤药
+atezolizumab	阿替利珠单抗	抗肿瘤药
+durvalumab	度伐利尤单抗	抗肿瘤药
+avelumab	阿维鲁单抗	抗肿瘤药
+cemiplimab	西米普利单抗	抗肿瘤药
+ipilimumab	伊匹木单抗	抗肿瘤药
+tremelimumab	替西木单抗	抗肿瘤药
+sintilimab	信迪利单抗	抗肿瘤药
+camrelizumab	卡瑞利珠单抗	抗肿瘤药
+tislelizumab	替雷利珠单抗	抗肿瘤药
+toripalimab	特瑞普利单抗	抗肿瘤药
+penpulimab	派安普利单抗	抗肿瘤药
+zimberelimab	赛帕利单抗	抗肿瘤药
+serplulimab	斯鲁利单抗	抗肿瘤药
+envafolimab	恩沃利单抗	抗肿瘤药
+sugemalimab	舒格利单抗	抗肿瘤药
+adebrelimab	阿得贝利单抗	抗肿瘤药
+cadonilimab	卡度尼利单抗	抗肿瘤药
+ivonescimab	依沃西单抗	抗肿瘤药
+trastuzumab emtansine	恩美曲妥珠单抗	抗肿瘤药
+trastuzumab deruxtecan	德曲妥珠单抗	抗肿瘤药
+disitamab vedotin	维迪西妥单抗	抗肿瘤药
+sacituzumab govitecan	戈沙妥珠单抗	抗肿瘤药
+brentuximab vedotin	维布妥昔单抗	抗肿瘤药
+polatuzumab vedotin	维泊妥珠单抗	抗肿瘤药
+inotuzumab ozogamicin	奥加伊妥珠单抗	抗肿瘤药
+arsenic trioxide	三氧化二砷；亚砷酸	抗肿瘤药
+asparaginase	门冬酰胺酶	抗肿瘤药
+pegaspargase	培门冬酶	抗肿瘤药
+thalidomide	沙利度胺	抗肿瘤药
+lenalidomide	来那度胺	抗肿瘤药
+pomalidomide	泊马度胺	抗肿瘤药
+aldesleukin	阿地白介素	抗肿瘤药
+porfimer sodium	卟吩姆钠	抗肿瘤药
+aminolevulinic acid	氨基酮戊酸	抗肿瘤药
+bexarotene	贝沙罗汀	抗肿瘤药
+sodium glycididazole	甘氨双唑钠	抗肿瘤药
+immunosuppressant	免疫抑制剂	免疫药物
+immunomodulator	免疫调节剂	免疫药物
+immunostimulant	免疫增强剂	免疫药物
+calcineurin inhibitor	钙调磷酸酶抑制剂	免疫药物
+antiproliferative immunosuppressant	抗增殖类免疫抑制剂	免疫药物
+biological agent	生物制剂	免疫药物
+TNF-alpha inhibitor	肿瘤坏死因子α抑制剂（TNF-α抑制剂）	免疫药物
+interleukin inhibitor	白细胞介素抑制剂	免疫药物
+JAK inhibitor	Janus激酶抑制剂（JAK抑制剂）	免疫药物
+disease-modifying antirheumatic drug	改善病情抗风湿药（DMARD）	免疫药物
+conventional synthetic DMARD	传统合成改善病情抗风湿药（csDMARD）	免疫药物
+targeted synthetic DMARD	靶向合成改善病情抗风湿药（tsDMARD）	免疫药物
+biologic DMARD	生物改善病情抗风湿药（bDMARD）	免疫药物
+complement inhibitor	补体抑制剂	免疫药物
+immunoglobulin	免疫球蛋白	免疫药物
+intravenous immunoglobulin	静脉注射用人免疫球蛋白（IVIG）	免疫药物
+antiserum	抗血清	免疫药物
+antitoxin	抗毒素	免疫药物
+toxoid	类毒素	免疫药物
+vaccine	疫苗	免疫药物
+live attenuated vaccine	减毒活疫苗	免疫药物
+inactivated vaccine	灭活疫苗	免疫药物
+subunit vaccine	亚单位疫苗	免疫药物
+conjugate vaccine	结合疫苗	免疫药物
+recombinant vaccine	重组疫苗	免疫药物
+mRNA vaccine	mRNA疫苗	免疫药物
+combined vaccine	联合疫苗	免疫药物
+adjuvant	佐剂	免疫药物
+ciclosporin	环孢素	免疫药物
+cyclosporine	环孢素	免疫药物
+tacrolimus	他克莫司	免疫药物
+sirolimus	西罗莫司；雷帕霉素	免疫药物
+mycophenolate mofetil	吗替麦考酚酯	免疫药物
+mycophenolic acid	麦考酚酸	免疫药物
+mycophenolate sodium	麦考酚钠	免疫药物
+azathioprine	硫唑嘌呤	免疫药物
+mizoribine	咪唑立宾	免疫药物
+leflunomide	来氟米特	免疫药物
+penicillamine	青霉胺	免疫药物
+auranofin	金诺芬	免疫药物
+iguratimod	艾拉莫德	免疫药物
+basiliximab	巴利昔单抗	免疫药物
+daclizumab	达利珠单抗	免疫药物
+antithymocyte globulin	抗胸腺细胞球蛋白（ATG）	免疫药物
+antilymphocyte globulin	抗淋巴细胞球蛋白（ALG）	免疫药物
+muromonab-CD3	莫罗单抗-CD3	免疫药物
+belatacept	贝拉西普	免疫药物
+abatacept	阿巴西普	免疫药物
+infliximab	英夫利西单抗	免疫药物
+adalimumab	阿达木单抗	免疫药物
+etanercept	依那西普	免疫药物
+golimumab	戈利木单抗	免疫药物
+certolizumab pegol	培塞利珠单抗	免疫药物
+tocilizumab	托珠单抗	免疫药物
+sarilumab	沙利鲁单抗	免疫药物
+anakinra	阿那白滞素	免疫药物
+canakinumab	卡那单抗	免疫药物
+secukinumab	司库奇尤单抗	免疫药物
+ixekizumab	依奇珠单抗	免疫药物
+guselkumab	古塞奇尤单抗	免疫药物
+risankizumab	利生奇珠单抗	免疫药物
+tildrakizumab	替瑞奇珠单抗	免疫药物
+ustekinumab	乌司奴单抗	免疫药物
+belimumab	贝利尤单抗	免疫药物
+telitacicept	泰它西普	免疫药物
+anifrolumab	阿尼鲁单抗	免疫药物
+alemtuzumab	阿仑单抗	免疫药物
+tofacitinib	托法替布	免疫药物
+baricitinib	巴瑞替尼	免疫药物
+upadacitinib	乌帕替尼	免疫药物
+filgotinib	非戈替尼	免疫药物
+abrocitinib	阿布昔替尼	免疫药物
+deucravacitinib	氘可来昔替尼	免疫药物
+apremilast	阿普米司特	免疫药物
+eculizumab	依库珠单抗	免疫药物
+ravulizumab	雷夫利珠单抗	免疫药物
+efgartigimod alfa	艾加莫德α	免疫药物
+human immunoglobulin	人免疫球蛋白	免疫药物
+hepatitis B immunoglobulin	乙型肝炎人免疫球蛋白	免疫药物
+tetanus immunoglobulin	破伤风人免疫球蛋白	免疫药物
+rabies immunoglobulin	狂犬病人免疫球蛋白	免疫药物
+tetanus antitoxin	破伤风抗毒素（TAT）	免疫药物
+diphtheria antitoxin	白喉抗毒素	免疫药物
+interferon	干扰素	免疫药物
+interferon alfa	干扰素α	免疫药物
+peginterferon alfa	聚乙二醇干扰素α	免疫药物
+interferon beta	干扰素β	免疫药物
+interferon gamma	干扰素γ	免疫药物
+interleukin-2	白细胞介素-2（IL-2）	免疫药物
+thymalfasin	胸腺法新	免疫药物
+thymopentin	胸腺五肽	免疫药物
+transfer factor	转移因子	免疫药物
+pidotimod	匹多莫德	免疫药物
+lentinan	香菇多糖	免疫药物
+mannatide	甘露聚糖肽	免疫药物
+BCG vaccine	卡介苗	免疫药物
+hepatitis B vaccine	乙型肝炎疫苗	免疫药物
+hepatitis A vaccine	甲型肝炎疫苗	免疫药物
+measles vaccine	麻疹疫苗	免疫药物
+MMR vaccine	麻腮风联合减毒活疫苗	免疫药物
+varicella vaccine	水痘减毒活疫苗	免疫药物
+influenza vaccine	流感疫苗	免疫药物
+rabies vaccine	狂犬病疫苗	免疫药物
+pneumococcal vaccine	肺炎球菌疫苗	免疫药物
+HPV vaccine	人乳头瘤病毒疫苗（HPV疫苗）	免疫药物
+poliomyelitis vaccine	脊髓灰质炎疫苗	免疫药物
+DTaP vaccine	吸附无细胞百白破联合疫苗	免疫药物
+tetanus toxoid	破伤风类毒素	免疫药物
+rotavirus vaccine	轮状病毒疫苗	免疫药物
+herpes zoster vaccine	带状疱疹疫苗	免疫药物
+meningococcal vaccine	脑膜炎球菌疫苗	免疫药物
+Hib vaccine	b型流感嗜血杆菌结合疫苗（Hib疫苗）	免疫药物
+COVID-19 vaccine	新型冠状病毒疫苗	免疫药物
+vitamin	维生素	维生素与营养
+fat-soluble vitamin	脂溶性维生素	维生素与营养
+water-soluble vitamin	水溶性维生素	维生素与营养
+vitamin A	维生素A	维生素与营养
+retinol	视黄醇	维生素与营养
+beta-carotene	β-胡萝卜素	维生素与营养
+vitamin B1	维生素B1	维生素与营养
+thiamine	硫胺素；维生素B1	维生素与营养
+benfotiamine	苯磷硫胺	维生素与营养
+vitamin B2	维生素B2	维生素与营养
+riboflavin	核黄素；维生素B2	维生素与营养
+niacin	烟酸	维生素与营养
+nicotinic acid	烟酸	维生素与营养
+nicotinamide	烟酰胺	维生素与营养
+vitamin B6	维生素B6	维生素与营养
+pyridoxine	吡哆醇；维生素B6	维生素与营养
+calcium pantothenate	泛酸钙	维生素与营养
+pantothenic acid	泛酸	维生素与营养
+biotin	生物素	维生素与营养
+folic acid	叶酸	维生素与营养
+vitamin B12	维生素B12	维生素与营养
+cyanocobalamin	氰钴胺；维生素B12	维生素与营养
+hydroxocobalamin	羟钴胺	维生素与营养
+mecobalamin	甲钴胺	维生素与营养
+cobamamide	腺苷钴胺	维生素与营养
+vitamin C	维生素C	维生素与营养
+ascorbic acid	抗坏血酸；维生素C	维生素与营养
+vitamin D	维生素D	维生素与营养
+cholecalciferol	维生素D3；胆骨化醇	维生素与营养
+ergocalciferol	维生素D2；麦角骨化醇	维生素与营养
+calcitriol	骨化三醇	维生素与营养
+alfacalcidol	阿法骨化醇	维生素与营养
+calcifediol	骨化二醇	维生素与营养
+eldecalcitol	艾地骨化醇	维生素与营养
+vitamin E	维生素E	维生素与营养
+tocopherol	生育酚	维生素与营养
+vitamin K	维生素K	维生素与营养
+multivitamin	多种维生素；复合维生素	维生素与营养
+vitamin B complex	复合维生素B	维生素与营养
+electrolyte	电解质	维生素与营养
+acid-base balance regulator	酸碱平衡调节药	维生素与营养
+potassium chloride	氯化钾	维生素与营养
+sodium chloride	氯化钠	维生素与营养
+physiological saline	生理盐水	维生素与营养
+compound sodium chloride	复方氯化钠	维生素与营养
+lactated Ringer's solution	乳酸钠林格液	维生素与营养
+glucose	葡萄糖	维生素与营养
+glucose and sodium chloride injection	葡萄糖氯化钠注射液	维生素与营养
+calcium gluconate	葡萄糖酸钙	维生素与营养
+calcium chloride	氯化钙	维生素与营养
+calcium carbonate	碳酸钙	维生素与营养
+calcium lactate	乳酸钙	维生素与营养
+calcium acetate	醋酸钙	维生素与营养
+magnesium chloride	氯化镁	维生素与营养
+potassium magnesium aspartate	门冬氨酸钾镁	维生素与营养
+sodium bicarbonate	碳酸氢钠	维生素与营养
+sodium lactate	乳酸钠	维生素与营养
+tromethamine	氨丁三醇	维生素与营养
+arginine hydrochloride	盐酸精氨酸	维生素与营养
+sodium glycerophosphate	甘油磷酸钠	维生素与营养
+potassium phosphate	磷酸钾	维生素与营养
+zinc sulfate	硫酸锌	维生素与营养
+zinc gluconate	葡萄糖酸锌	维生素与营养
+sodium selenite	亚硒酸钠	维生素与营养
+trace element	微量元素	维生素与营养
+oral rehydration salts	口服补液盐（ORS）	维生素与营养
+sevelamer	司维拉姆	维生素与营养
+lanthanum carbonate	碳酸镧	维生素与营养
+sucroferric oxyhydroxide	蔗糖羟基氧化铁	维生素与营养
+calcium polystyrene sulfonate	聚苯乙烯磺酸钙	维生素与营养
+sodium polystyrene sulfonate	聚苯乙烯磺酸钠	维生素与营养
+patiromer	帕替罗默	维生素与营养
+sodium zirconium cyclosilicate	环硅酸锆钠	维生素与营养
+phosphate binder	磷结合剂	维生素与营养
+parenteral nutrition	肠外营养（PN）	维生素与营养
+total parenteral nutrition	全胃肠外营养（TPN）	维生素与营养
+enteral nutrition	肠内营养（EN）	维生素与营养
+total nutrient admixture	全营养混合液（TNA）	维生素与营养
+compound amino acid injection	复方氨基酸注射液	维生素与营养
+essential amino acid	必需氨基酸	维生素与营养
+branched-chain amino acid	支链氨基酸	维生素与营养
+fat emulsion injection	脂肪乳注射液	维生素与营养
+medium-chain triglyceride	中链甘油三酯（MCT）	维生素与营养
+alanyl glutamine	丙氨酰谷氨酰胺	维生素与营养
+glutamine	谷氨酰胺	维生素与营养
+levocarnitine	左卡尼汀	维生素与营养
+ubidecarenone	泛癸利酮；辅酶Q10	维生素与营养
+adenosine triphosphate	三磷酸腺苷（ATP）	维生素与营养
+coenzyme A	辅酶A	维生素与营养
+cocarboxylase	辅羧酶	维生素与营养
+inosine	肌苷	维生素与营养
+fructose	果糖	维生素与营养
+xylitol	木糖醇	维生素与营养
+omega-3 fatty acid	ω-3脂肪酸	维生素与营养
+dietary supplement	膳食补充剂	维生素与营养
+dosage form	剂型	剂型与给药
+preparation	制剂	剂型与给药
+solid dosage form	固体剂型	剂型与给药
+liquid dosage form	液体剂型	剂型与给药
+semisolid dosage form	半固体剂型	剂型与给药
+tablet	片剂	剂型与给药
+film-coated tablet	薄膜衣片	剂型与给药
+sugar-coated tablet	糖衣片	剂型与给药
+enteric-coated tablet	肠溶片	剂型与给药
+sustained-release tablet	缓释片	剂型与给药
+controlled-release tablet	控释片	剂型与给药
+extended-release tablet	缓释片；延长释放片	剂型与给药
+chewable tablet	咀嚼片	剂型与给药
+effervescent tablet	泡腾片	剂型与给药
+dispersible tablet	分散片	剂型与给药
+soluble tablet	可溶片	剂型与给药
+orally disintegrating tablet	口腔崩解片；口崩片	剂型与给药
+sublingual tablet	舌下片	剂型与给药
+lozenge	含片	剂型与给药
+buccal patch	口腔贴片	剂型与给药
+vaginal tablet	阴道片	剂型与给药
+osmotic pump tablet	渗透泵片	剂型与给药
+multilayer tablet	多层片	剂型与给药
+capsule	胶囊剂	剂型与给药
+hard capsule	硬胶囊	剂型与给药
+soft capsule	软胶囊	剂型与给药
+enteric capsule	肠溶胶囊	剂型与给药
+sustained-release capsule	缓释胶囊	剂型与给药
+granule	颗粒剂	剂型与给药
+powder	散剂；粉剂	剂型与给药
+pill	丸剂	剂型与给药
+dripping pill	滴丸	剂型与给药
+pellet	微丸	剂型与给药
+oral solution	口服溶液剂	剂型与给药
+oral liquid	口服液	剂型与给药
+syrup	糖浆剂	剂型与给药
+suspension	混悬剂	剂型与给药
+dry suspension	干混悬剂	剂型与给药
+emulsion	乳剂	剂型与给药
+elixir	酏剂	剂型与给药
+tincture	酊剂	剂型与给药
+mixture	合剂	剂型与给药
+drops	滴剂	剂型与给药
+injection	注射剂；注射液	剂型与给药
+powder for injection	注射用无菌粉末；粉针剂	剂型与给药
+lyophilized powder for injection	注射用冻干粉	剂型与给药
+concentrate for injection	注射用浓溶液	剂型与给药
+large-volume parenteral	大容量注射剂；输液	剂型与给药
+small-volume injection	小容量注射剂	剂型与给药
+infusion	输液	剂型与给药
+emulsion for injection	注射用乳剂	剂型与给药
+depot injection	长效注射剂	剂型与给药
+implant	植入剂	剂型与给药
+ointment	软膏剂	剂型与给药
+cream	乳膏剂	剂型与给药
+gel	凝胶剂	剂型与给药
+paste	糊剂	剂型与给药
+plaster	贴膏剂	剂型与给药
+patch	贴剂	剂型与给药
+transdermal patch	透皮贴剂	剂型与给药
+lotion	洗剂	剂型与给药
+liniment	搽剂	剂型与给药
+tincture for external use	外用酊剂	剂型与给药
+suppository	栓剂	剂型与给药
+vaginal suppository	阴道栓	剂型与给药
+aerosol	气雾剂	剂型与给药
+spray	喷雾剂	剂型与给药
+inhalation powder	吸入粉雾剂	剂型与给药
+inhalation solution	吸入用溶液	剂型与给药
+metered-dose inhaler	定量吸入器（MDI）	剂型与给药
+pressurized metered-dose inhaler	压力定量吸入器（pMDI）	剂型与给药
+dry powder inhaler	干粉吸入器（DPI）	剂型与给药
+soft mist inhaler	软雾吸入器	剂型与给药
+nebulizer	雾化器	剂型与给药
+spacer	储雾罐	剂型与给药
+eye drops	滴眼剂	剂型与给药
+eye ointment	眼膏剂	剂型与给药
+ear drops	滴耳剂	剂型与给药
+nasal drops	滴鼻剂	剂型与给药
+nasal spray	鼻用喷雾剂	剂型与给药
+gargle	含漱液	剂型与给药
+film	膜剂	剂型与给药
+enema	灌肠剂	剂型与给药
+liposome	脂质体	剂型与给药
+microsphere	微球	剂型与给药
+microcapsule	微囊	剂型与给药
+nanoparticle	纳米粒	剂型与给药
+microemulsion	微乳	剂型与给药
+nanoemulsion	纳米乳	剂型与给药
+micelle	胶束	剂型与给药
+lipid nanoparticle	脂质纳米粒（LNP）	剂型与给药
+in situ gel	原位凝胶	剂型与给药
+drug delivery system	药物递送系统；给药系统（DDS）	剂型与给药
+targeted drug delivery system	靶向给药系统	剂型与给药
+transdermal drug delivery system	经皮给药系统（TDDS）	剂型与给药
+self-emulsifying drug delivery system	自乳化给药系统（SEDDS）	剂型与给药
+oral colon-specific drug delivery system	口服结肠定位给药系统	剂型与给药
+gastroretentive drug delivery system	胃滞留给药系统	剂型与给药
+sustained-release preparation	缓释制剂	剂型与给药
+controlled-release preparation	控释制剂	剂型与给药
+immediate-release preparation	速释制剂；普通制剂	剂型与给药
+modified-release preparation	调释制剂	剂型与给药
+delayed-release preparation	迟释制剂	剂型与给药
+pulsatile-release preparation	脉冲释放制剂	剂型与给药
+compound preparation	复方制剂	剂型与给药
+fixed-dose combination	固定剂量复方制剂	剂型与给药
+route of administration	给药途径	剂型与给药
+oral administration	口服给药	剂型与给药
+sublingual administration	舌下给药	剂型与给药
+buccal administration	颊黏膜给药	剂型与给药
+rectal administration	直肠给药	剂型与给药
+vaginal administration	阴道给药	剂型与给药
+parenteral administration	胃肠外给药；注射给药	剂型与给药
+enteral administration	肠内给药	剂型与给药
+intravenous injection	静脉注射（iv）	剂型与给药
+intravenous infusion	静脉滴注；静脉输注（ivgtt）	剂型与给药
+intravenous bolus	静脉推注	剂型与给药
+intramuscular injection	肌内注射（im）	剂型与给药
+subcutaneous injection	皮下注射（ih）	剂型与给药
+intradermal injection	皮内注射	剂型与给药
+intra-arterial injection	动脉内注射	剂型与给药
+intrathecal injection	鞘内注射	剂型与给药
+intra-articular injection	关节腔内注射	剂型与给药
+intraperitoneal injection	腹腔注射	剂型与给药
+intravitreal injection	玻璃体腔注射	剂型与给药
+epidural injection	硬膜外注射	剂型与给药
+intraosseous infusion	骨髓腔内输注	剂型与给药
+intravesical instillation	膀胱内灌注	剂型与给药
+inhalation	吸入给药	剂型与给药
+nebulized inhalation	雾化吸入	剂型与给药
+topical administration	局部给药	剂型与给药
+transdermal administration	经皮给药	剂型与给药
+intranasal administration	经鼻给药；鼻腔给药	剂型与给药
+ophthalmic administration	眼部给药	剂型与给药
+nasogastric administration	鼻饲给药	剂型与给药
+dose	剂量	剂型与给药
+daily dose	日剂量	剂型与给药
+single dose	单次剂量	剂型与给药
+initial dose	首剂量；起始剂量	剂型与给药
+unit dose	单位剂量	剂型与给药
+once daily	每日一次（qd）	剂型与给药
+twice daily	每日两次（bid）	剂型与给药
+three times daily	每日三次（tid）	剂型与给药
+four times daily	每日四次（qid）	剂型与给药
+every other day	隔日一次（qod）	剂型与给药
+every night	每晚一次（qn）	剂型与给药
+at bedtime	睡前（hs）	剂型与给药
+as needed	必要时（prn）	剂型与给药
+immediately	立即（st）	剂型与给药
+before meals	饭前（ac）	剂型与给药
+after meals	饭后（pc）	剂型与给药
+prefilled syringe	预充式注射器；预灌封注射器	剂型与给药
+autoinjector	自动注射器	剂型与给药
+pen injector	注射笔	剂型与给药
+infusion pump	输液泵	剂型与给药
+syringe pump	注射泵	剂型与给药
+insulin pump	胰岛素泵	剂型与给药
+ampoule	安瓿	剂型与给药
+vial	西林瓶；小瓶	剂型与给药
+blister pack	泡罩包装	剂型与给药
+pharmaceutics	药剂学	药剂学
+biopharmaceutics	生物药剂学	药剂学
+physical pharmacy	物理药剂学	药剂学
+industrial pharmacy	工业药剂学	药剂学
+pharmaceutical preparation	药物制剂	药剂学
+formulation	处方；制剂处方	药剂学
+preformulation study	处方前研究	药剂学
+active pharmaceutical ingredient	原料药；活性药物成分（API）	药剂学
+excipient	辅料；赋形剂	药剂学
+pharmaceutical excipient	药用辅料	药剂学
+diluent	稀释剂	药剂学
+filler	填充剂	药剂学
+binder	黏合剂	药剂学
+disintegrant	崩解剂	药剂学
+superdisintegrant	超级崩解剂	药剂学
+lubricant	润滑剂	药剂学
+glidant	助流剂	药剂学
+anti-adherent	抗黏剂	药剂学
+wetting agent	润湿剂	药剂学
+surfactant	表面活性剂	药剂学
+emulsifier	乳化剂	药剂学
+suspending agent	助悬剂	药剂学
+solubilizer	增溶剂	药剂学
+cosolvent	潜溶剂	药剂学
+flocculating agent	絮凝剂	药剂学
+deflocculating agent	反絮凝剂	药剂学
+preservative	防腐剂；抑菌剂	药剂学
+antioxidant	抗氧剂	药剂学
+chelating agent	螯合剂；金属离子络合剂	药剂学
+buffer	缓冲剂	药剂学
+tonicity agent	渗透压调节剂；等渗调节剂	药剂学
+pH adjuster	pH调节剂	药剂学
+flavoring agent	矫味剂；芳香剂	药剂学
+sweetener	甜味剂	药剂学
+colorant	着色剂	药剂学
+coating material	包衣材料	药剂学
+plasticizer	增塑剂	药剂学
+opacifier	遮光剂	药剂学
+propellant	抛射剂	药剂学
+thickening agent	增稠剂	药剂学
+gelling agent	胶凝剂	药剂学
+penetration enhancer	透皮吸收促进剂；渗透促进剂	药剂学
+absorption enhancer	吸收促进剂	药剂学
+lyoprotectant	冻干保护剂	药剂学
+cryoprotectant	冷冻保护剂	药剂学
+matrix	骨架	药剂学
+hydrophilic matrix	亲水凝胶骨架	药剂学
+ointment base	软膏基质	药剂学
+suppository base	栓剂基质	药剂学
+vehicle	溶媒；载体	药剂学
+solvent	溶剂	药剂学
+carrier	载体	药剂学
+water for injection	注射用水	药剂学
+purified water	纯化水	药剂学
+sterile water for injection	灭菌注射用水	药剂学
+microcrystalline cellulose	微晶纤维素	药剂学
+lactose	乳糖	药剂学
+starch	淀粉	药剂学
+pregelatinized starch	预胶化淀粉	药剂学
+sodium starch glycolate	羧甲淀粉钠	药剂学
+croscarmellose sodium	交联羧甲纤维素钠	药剂学
+crospovidone	交联聚维酮	药剂学
+povidone	聚维酮（PVP）	药剂学
+magnesium stearate	硬脂酸镁	药剂学
+talc	滑石粉	药剂学
+colloidal silicon dioxide	胶态二氧化硅	药剂学
+hypromellose	羟丙甲纤维素（HPMC）	药剂学
+hydroxypropyl cellulose	羟丙纤维素（HPC）	药剂学
+low-substituted hydroxypropyl cellulose	低取代羟丙纤维素	药剂学
+methylcellulose	甲基纤维素	药剂学
+ethylcellulose	乙基纤维素	药剂学
+carmellose sodium	羧甲纤维素钠（CMC-Na）	药剂学
+cellulose acetate phthalate	醋酸纤维素酞酸酯（CAP）	药剂学
+polyvinyl alcohol	聚乙烯醇（PVA）	药剂学
+polyethylene glycol	聚乙二醇（PEG）	药剂学
+carbomer	卡波姆	药剂学
+poloxamer	泊洛沙姆	药剂学
+polysorbate 80	聚山梨酯80；吐温80	药剂学
+sorbitan monooleate	油酸山梨坦；司盘80	药剂学
+sodium lauryl sulfate	十二烷基硫酸钠	药剂学
+lecithin	卵磷脂	药剂学
+cyclodextrin	环糊精	药剂学
+hydroxypropyl betadex	羟丙基倍他环糊精	药剂学
+sucrose	蔗糖	药剂学
+gelatin	明胶	药剂学
+glycerol	甘油	药剂学
+propylene glycol	丙二醇	药剂学
+benzyl alcohol	苯甲醇	药剂学
+benzoic acid	苯甲酸	药剂学
+sodium benzoate	苯甲酸钠	药剂学
+methylparaben	羟苯甲酯；尼泊金甲酯	药剂学
+ethylparaben	羟苯乙酯；尼泊金乙酯	药剂学
+propylparaben	羟苯丙酯；尼泊金丙酯	药剂学
+sorbic acid	山梨酸	药剂学
+potassium sorbate	山梨酸钾	药剂学
+chlorobutanol	三氯叔丁醇	药剂学
+phenoxyethanol	苯氧乙醇	药剂学
+thiomersal	硫柳汞	药剂学
+sodium metabisulfite	焦亚硫酸钠	药剂学
+sodium bisulfite	亚硫酸氢钠	药剂学
+butylated hydroxytoluene	二丁基羟基甲苯（BHT）	药剂学
+butylated hydroxyanisole	丁基羟基茴香醚（BHA）	药剂学
+edetate disodium	依地酸二钠	药剂学
+citric acid	枸橼酸；柠檬酸	药剂学
+sodium citrate	枸橼酸钠	药剂学
+white petrolatum	白凡士林	药剂学
+lanolin	羊毛脂	药剂学
+paraffin	石蜡	药剂学
+beeswax	蜂蜡	药剂学
+cocoa butter	可可脂	药剂学
+hard fat	硬脂	药剂学
+stearic acid	硬脂酸	药剂学
+cetyl alcohol	十六醇；鲸蜡醇	药剂学
+stearyl alcohol	十八醇	药剂学
+glyceryl monostearate	单硬脂酸甘油酯	药剂学
+dimethicone	二甲硅油	药剂学
+chitosan	壳聚糖	药剂学
+sodium alginate	海藻酸钠	药剂学
+xanthan gum	黄原胶	药剂学
+acacia	阿拉伯胶	药剂学
+tragacanth	西黄蓍胶	药剂学
+agar	琼脂	药剂学
+pectin	果胶	药剂学
+shellac	虫胶	药剂学
+titanium dioxide	二氧化钛	药剂学
+aspartame	阿司帕坦	药剂学
+saccharin sodium	糖精钠	药剂学
+menthol	薄荷脑	药剂学
+granulation	制粒	药剂学
+wet granulation	湿法制粒	药剂学
+dry granulation	干法制粒	药剂学
+fluidized bed granulation	流化床制粒	药剂学
+direct compression	粉末直接压片	药剂学
+tablet compression	压片	药剂学
+coating	包衣	药剂学
+film coating	薄膜包衣	药剂学
+sugar coating	糖包衣	药剂学
+enteric coating	肠溶包衣	药剂学
+comminution	粉碎	药剂学
+sieving	过筛	药剂学
+mixing	混合	药剂学
+drying	干燥	药剂学
+freeze-drying	冷冻干燥；冻干	药剂学
+spray drying	喷雾干燥	药剂学
+sterilization	灭菌	药剂学
+terminal sterilization	终端灭菌	药剂学
+moist heat sterilization	湿热灭菌	药剂学
+dry heat sterilization	干热灭菌	药剂学
+filtration sterilization	过滤除菌	药剂学
+radiation sterilization	辐射灭菌	药剂学
+aseptic processing	无菌生产工艺	药剂学
+aseptic technique	无菌操作	药剂学
+microencapsulation	微囊化	药剂学
+emulsification	乳化	药剂学
+solubilization	增溶	药剂学
+solid dispersion	固体分散体	药剂学
+inclusion complex	包合物	药剂学
+hot-melt extrusion	热熔挤出	药剂学
+nanocrystal	纳米晶体	药剂学
+solubility	溶解度	药剂学
+dissolution	溶出	药剂学
+dissolution rate	溶出速率	药剂学
+drug release	药物释放	药剂学
+disintegration	崩解	药剂学
+friability	脆碎度	药剂学
+hardness	硬度	药剂学
+weight variation	重量差异	药剂学
+content uniformity	含量均匀度	药剂学
+polymorphism	多晶型	药剂学
+crystal form	晶型	药剂学
+amorphous form	无定形	药剂学
+particle size	粒径；粒度	药剂学
+particle size distribution	粒度分布	药剂学
+hygroscopicity	引湿性；吸湿性	药剂学
+flowability	流动性	药剂学
+angle of repose	休止角	药剂学
+compressibility	可压性	药剂学
+stability	稳定性	药剂学
+shelf life	有效期；货架期	药剂学
+expiration date	失效期；有效期至	药剂学
+accelerated testing	加速试验	药剂学
+long-term testing	长期试验	药剂学
+stress testing	影响因素试验	药剂学
+partition coefficient	分配系数	药剂学
+oil-water partition coefficient	油水分配系数	药剂学
+critical micelle concentration	临界胶束浓度（CMC）	药剂学
+hydrophile-lipophile balance	亲水亲油平衡值（HLB值）	药剂学
+zeta potential	ζ电位	药剂学
+encapsulation efficiency	包封率	药剂学
+drug loading	载药量	药剂学
+iso-osmotic solution	等渗溶液	药剂学
+isotonic solution	等张溶液	药剂学
+pyrogen	热原	药剂学
+endotoxin	内毒素	药剂学
+incompatibility	配伍禁忌；配伍变化	药剂学
+biopharmaceutics classification system	生物药剂学分类系统（BCS）	药剂学
+in vitro-in vivo correlation	体内外相关性（IVIVC）	药剂学
+reference product	参比制剂	药剂学
+compounding	调配；配制	药剂学
+nanomedicine	纳米药物	药剂学

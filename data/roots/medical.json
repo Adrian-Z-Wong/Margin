@@ -1,0 +1,2313 @@
+[
+{
+"type": "root",
+"forms": [
+"cardi",
+"card"
+],
+"meaning": "心",
+"origin": "希腊语 kardia「心」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cardiology",
+"parts": "cardi(心) + o + logy(学科)",
+"m": "心脏病学"
+},
+{
+"w": "cardiac",
+"parts": "cardi(心) + ac(…的)",
+"m": "心脏的"
+},
+{
+"w": "tachycardia",
+"parts": "tachy(快) + card(心) + ia(病症)",
+"m": "心动过速"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"hepat"
+],
+"meaning": "肝",
+"origin": "希腊语 hepar, hepatos「肝」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hepatitis",
+"parts": "hepat(肝) + itis(炎症)",
+"m": "肝炎"
+},
+{
+"w": "hepatic",
+"parts": "hepat(肝) + ic(…的)",
+"m": "肝的"
+},
+{
+"w": "hepatocyte",
+"parts": "hepat(肝) + o + cyte(细胞)",
+"m": "肝细胞"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nephr",
+"ren"
+],
+"meaning": "肾",
+"origin": "希腊语 nephros「肾」，拉丁语 renes「肾」",
+"note": "医学常用",
+"examples": [
+{
+"w": "nephritis",
+"parts": "nephr(肾) + itis(炎症)",
+"m": "肾炎"
+},
+{
+"w": "nephrology",
+"parts": "nephr(肾) + o + logy(学科)",
+"m": "肾脏病学"
+},
+{
+"w": "renal",
+"parts": "ren(肾) + al(…的)",
+"m": "肾的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"gastr"
+],
+"meaning": "胃",
+"origin": "希腊语 gaster, gastros「胃」",
+"note": "医学常用",
+"examples": [
+{
+"w": "gastritis",
+"parts": "gastr(胃) + itis(炎症)",
+"m": "胃炎"
+},
+{
+"w": "gastric",
+"parts": "gastr(胃) + ic(…的)",
+"m": "胃的"
+},
+{
+"w": "gastroscopy",
+"parts": "gastr(胃) + o + scopy(检查)",
+"m": "胃镜检查"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"enter"
+],
+"meaning": "肠",
+"origin": "希腊语 enteron「肠」",
+"note": "医学常用",
+"examples": [
+{
+"w": "enteritis",
+"parts": "enter(肠) + itis(炎症)",
+"m": "肠炎"
+},
+{
+"w": "gastroenterology",
+"parts": "gastr(胃) + o + enter(肠) + o + logy(学科)",
+"m": "胃肠病学"
+},
+{
+"w": "enteric",
+"parts": "enter(肠) + ic(…的)",
+"m": "肠的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"col",
+"colon"
+],
+"meaning": "结肠",
+"origin": "希腊语 kolon「结肠」",
+"note": "医学常用",
+"examples": [
+{
+"w": "colitis",
+"parts": "col(结肠) + itis(炎症)",
+"m": "结肠炎"
+},
+{
+"w": "colonoscopy",
+"parts": "colon(结肠) + o + scopy(检查)",
+"m": "结肠镜检查"
+},
+{
+"w": "colectomy",
+"parts": "col(结肠) + ectomy(切除术)",
+"m": "结肠切除术"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pneum",
+"pneumon",
+"pulmon"
+],
+"meaning": "肺；气",
+"origin": "希腊语 pneumon「肺」，拉丁语 pulmo「肺」",
+"note": "医学常用",
+"examples": [
+{
+"w": "pneumonia",
+"parts": "pneumon(肺) + ia(病症)",
+"m": "肺炎"
+},
+{
+"w": "pneumothorax",
+"parts": "pneum(气) + o + thorax(胸)",
+"m": "气胸"
+},
+{
+"w": "pulmonary",
+"parts": "pulmon(肺) + ary(…的)",
+"m": "肺的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"bronch"
+],
+"meaning": "支气管",
+"origin": "希腊语 bronchos「气管」",
+"note": "医学常用",
+"examples": [
+{
+"w": "bronchitis",
+"parts": "bronch(支气管) + itis(炎症)",
+"m": "支气管炎"
+},
+{
+"w": "bronchoscopy",
+"parts": "bronch(支气管) + o + scopy(检查)",
+"m": "支气管镜检查"
+},
+{
+"w": "bronchial",
+"parts": "bronch(支气管) + ial(…的)",
+"m": "支气管的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"laryng"
+],
+"meaning": "喉",
+"origin": "希腊语 larynx, laryngos「喉」",
+"note": "医学常用",
+"examples": [
+{
+"w": "laryngitis",
+"parts": "laryng(喉) + itis(炎症)",
+"m": "喉炎"
+},
+{
+"w": "laryngoscope",
+"parts": "laryng(喉) + o + scope(镜)",
+"m": "喉镜"
+},
+{
+"w": "laryngectomy",
+"parts": "laryng(喉) + ectomy(切除术)",
+"m": "喉切除术"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"rhin"
+],
+"meaning": "鼻",
+"origin": "希腊语 rhis, rhinos「鼻」",
+"note": "医学常用",
+"examples": [
+{
+"w": "rhinitis",
+"parts": "rhin(鼻) + itis(炎症)",
+"m": "鼻炎"
+},
+{
+"w": "rhinoplasty",
+"parts": "rhin(鼻) + o + plasty(成形术)",
+"m": "鼻成形术"
+},
+{
+"w": "rhinorrhea",
+"parts": "rhin(鼻) + o + rrhea(流出)",
+"m": "流涕"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ot"
+],
+"meaning": "耳",
+"origin": "希腊语 ous, otos「耳」",
+"note": "医学常用",
+"examples": [
+{
+"w": "otitis",
+"parts": "ot(耳) + itis(炎症)",
+"m": "耳炎"
+},
+{
+"w": "otology",
+"parts": "ot(耳) + o + logy(学科)",
+"m": "耳科学"
+},
+{
+"w": "otoscope",
+"parts": "ot(耳) + o + scope(镜)",
+"m": "耳镜"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ophthalm",
+"ocul"
+],
+"meaning": "眼",
+"origin": "希腊语 ophthalmos「眼」，拉丁语 oculus「眼」",
+"note": "医学常用",
+"examples": [
+{
+"w": "ophthalmology",
+"parts": "ophthalm(眼) + o + logy(学科)",
+"m": "眼科学"
+},
+{
+"w": "ophthalmic",
+"parts": "ophthalm(眼) + ic(…的)",
+"m": "眼的"
+},
+{
+"w": "ocular",
+"parts": "ocul(眼) + ar(…的)",
+"m": "眼的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"derm",
+"dermat",
+"cutane"
+],
+"meaning": "皮肤",
+"origin": "希腊语 derma「皮肤」，拉丁语 cutis「皮肤」",
+"note": "医学常用",
+"examples": [
+{
+"w": "dermatology",
+"parts": "dermat(皮肤) + o + logy(学科)",
+"m": "皮肤病学"
+},
+{
+"w": "dermatitis",
+"parts": "dermat(皮肤) + itis(炎症)",
+"m": "皮炎"
+},
+{
+"w": "subcutaneous",
+"parts": "sub(在下) + cutane(皮肤) + ous(…的)",
+"m": "皮下的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"oste",
+"osse"
+],
+"meaning": "骨",
+"origin": "希腊语 osteon「骨」，拉丁语 os, ossis「骨」",
+"note": "医学常用",
+"examples": [
+{
+"w": "osteoporosis",
+"parts": "oste(骨) + o + por(孔) + osis(病态)",
+"m": "骨质疏松症"
+},
+{
+"w": "osteitis",
+"parts": "oste(骨) + itis(炎症)",
+"m": "骨炎"
+},
+{
+"w": "osseous",
+"parts": "osse(骨) + ous(…的)",
+"m": "骨的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"arthr"
+],
+"meaning": "关节",
+"origin": "希腊语 arthron「关节」",
+"note": "医学常用",
+"examples": [
+{
+"w": "arthritis",
+"parts": "arthr(关节) + itis(炎症)",
+"m": "关节炎"
+},
+{
+"w": "arthroscopy",
+"parts": "arthr(关节) + o + scopy(检查)",
+"m": "关节镜检查"
+},
+{
+"w": "arthroplasty",
+"parts": "arthr(关节) + o + plasty(成形术)",
+"m": "关节成形术"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"my",
+"myo",
+"muscul"
+],
+"meaning": "肌肉",
+"origin": "希腊语 mys, myos「肌肉」，拉丁语 musculus「肌肉」",
+"note": "医学常用",
+"examples": [
+{
+"w": "myocardium",
+"parts": "myo(肌肉) + cardi(心) + um",
+"m": "心肌"
+},
+{
+"w": "myalgia",
+"parts": "my(肌肉) + algia(疼痛)",
+"m": "肌痛"
+},
+{
+"w": "muscular",
+"parts": "muscul(肌肉) + ar(…的)",
+"m": "肌肉的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"neur"
+],
+"meaning": "神经",
+"origin": "希腊语 neuron「神经」",
+"note": "医学常用",
+"examples": [
+{
+"w": "neurology",
+"parts": "neur(神经) + o + logy(学科)",
+"m": "神经病学"
+},
+{
+"w": "neuralgia",
+"parts": "neur(神经) + algia(疼痛)",
+"m": "神经痛"
+},
+{
+"w": "neuron",
+"parts": "neur(神经) + on",
+"m": "神经元"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"encephal"
+],
+"meaning": "脑",
+"origin": "希腊语 enkephalos「脑」",
+"note": "医学常用",
+"examples": [
+{
+"w": "encephalitis",
+"parts": "encephal(脑) + itis(炎症)",
+"m": "脑炎"
+},
+{
+"w": "electroencephalogram",
+"parts": "electr(电) + o + encephal(脑) + o + gram(图)",
+"m": "脑电图"
+},
+{
+"w": "encephalopathy",
+"parts": "encephal(脑) + o + pathy(病)",
+"m": "脑病"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"cerebr"
+],
+"meaning": "大脑",
+"origin": "拉丁语 cerebrum「脑」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cerebral",
+"parts": "cerebr(大脑) + al(…的)",
+"m": "大脑的"
+},
+{
+"w": "cerebrovascular",
+"parts": "cerebr(大脑) + o + vascul(血管) + ar(…的)",
+"m": "脑血管的"
+},
+{
+"w": "cerebrospinal",
+"parts": "cerebr(大脑) + o + spin(脊) + al(…的)",
+"m": "脑脊髓的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mening"
+],
+"meaning": "脑膜",
+"origin": "希腊语 meninx, meningos「膜」",
+"note": "医学常用",
+"examples": [
+{
+"w": "meningitis",
+"parts": "mening(脑膜) + itis(炎症)",
+"m": "脑膜炎"
+},
+{
+"w": "meningioma",
+"parts": "mening(脑膜) + i + oma(瘤)",
+"m": "脑膜瘤"
+},
+{
+"w": "meningeal",
+"parts": "mening(脑膜) + eal(…的)",
+"m": "脑膜的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"myel"
+],
+"meaning": "脊髓；骨髓",
+"origin": "希腊语 myelos「髓」",
+"note": "医学常用",
+"examples": [
+{
+"w": "myelitis",
+"parts": "myel(脊髓) + itis(炎症)",
+"m": "脊髓炎"
+},
+{
+"w": "myeloma",
+"parts": "myel(骨髓) + oma(瘤)",
+"m": "骨髓瘤"
+},
+{
+"w": "myelogram",
+"parts": "myel(脊髓) + o + gram(图)",
+"m": "脊髓造影片"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"angi",
+"vas",
+"vascul"
+],
+"meaning": "血管",
+"origin": "希腊语 angeion「容器，血管」，拉丁语 vas「管」",
+"note": "医学常用",
+"examples": [
+{
+"w": "angiography",
+"parts": "angi(血管) + o + graphy(造影)",
+"m": "血管造影"
+},
+{
+"w": "vascular",
+"parts": "vascul(血管) + ar(…的)",
+"m": "血管的"
+},
+{
+"w": "vasoconstriction",
+"parts": "vas(血管) + o + constriction(收缩)",
+"m": "血管收缩"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"arteri"
+],
+"meaning": "动脉",
+"origin": "希腊语 arteria「动脉」",
+"note": "医学常用",
+"examples": [
+{
+"w": "arteriosclerosis",
+"parts": "arteri(动脉) + o + sclerosis(硬化)",
+"m": "动脉硬化"
+},
+{
+"w": "arterial",
+"parts": "arteri(动脉) + al(…的)",
+"m": "动脉的"
+},
+{
+"w": "arteriole",
+"parts": "arteri(动脉) + ole(小)",
+"m": "小动脉"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phleb",
+"ven"
+],
+"meaning": "静脉",
+"origin": "希腊语 phleps, phlebos「静脉」，拉丁语 vena「静脉」",
+"note": "医学常用",
+"examples": [
+{
+"w": "phlebitis",
+"parts": "phleb(静脉) + itis(炎症)",
+"m": "静脉炎"
+},
+{
+"w": "intravenous",
+"parts": "intra(在内) + ven(静脉) + ous(…的)",
+"m": "静脉内的"
+},
+{
+"w": "venous",
+"parts": "ven(静脉) + ous(…的)",
+"m": "静脉的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"hem",
+"hemat",
+"em"
+],
+"meaning": "血",
+"origin": "希腊语 haima, haimatos「血」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hematology",
+"parts": "hemat(血) + o + logy(学科)",
+"m": "血液学"
+},
+{
+"w": "hemoglobin",
+"parts": "hem(血) + o + globin(球蛋白)",
+"m": "血红蛋白"
+},
+{
+"w": "anemia",
+"parts": "an(无) + em(血) + ia(病症)",
+"m": "贫血"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"lymph"
+],
+"meaning": "淋巴",
+"origin": "拉丁语 lympha「清水」",
+"note": "医学常用",
+"examples": [
+{
+"w": "lymphoma",
+"parts": "lymph(淋巴) + oma(瘤)",
+"m": "淋巴瘤"
+},
+{
+"w": "lymphocyte",
+"parts": "lymph(淋巴) + o + cyte(细胞)",
+"m": "淋巴细胞"
+},
+{
+"w": "lymphatic",
+"parts": "lymph(淋巴) + atic(…的)",
+"m": "淋巴的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"splen"
+],
+"meaning": "脾",
+"origin": "希腊语 splen「脾」",
+"note": "医学常用",
+"examples": [
+{
+"w": "splenomegaly",
+"parts": "splen(脾) + o + megaly(肿大)",
+"m": "脾大"
+},
+{
+"w": "splenectomy",
+"parts": "splen(脾) + ectomy(切除术)",
+"m": "脾切除术"
+},
+{
+"w": "splenic",
+"parts": "splen(脾) + ic(…的)",
+"m": "脾的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"thyr"
+],
+"meaning": "甲状腺",
+"origin": "希腊语 thyreos「盾」",
+"note": "医学常用",
+"examples": [
+{
+"w": "thyroid",
+"parts": "thyr(盾) + oid(像…的)",
+"m": "甲状腺"
+},
+{
+"w": "thyroiditis",
+"parts": "thyr(甲状腺) + oid + itis(炎症)",
+"m": "甲状腺炎"
+},
+{
+"w": "hyperthyroidism",
+"parts": "hyper(过度) + thyr(甲状腺) + oid + ism(状态)",
+"m": "甲状腺功能亢进"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"aden"
+],
+"meaning": "腺",
+"origin": "希腊语 aden「腺」",
+"note": "医学常用",
+"examples": [
+{
+"w": "adenoma",
+"parts": "aden(腺) + oma(瘤)",
+"m": "腺瘤"
+},
+{
+"w": "adenocarcinoma",
+"parts": "aden(腺) + o + carcin(癌) + oma(瘤)",
+"m": "腺癌"
+},
+{
+"w": "adenitis",
+"parts": "aden(腺) + itis(炎症)",
+"m": "腺炎"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mamm",
+"mast"
+],
+"meaning": "乳房",
+"origin": "拉丁语 mamma「乳房」，希腊语 mastos「乳房」",
+"note": "医学常用",
+"examples": [
+{
+"w": "mammogram",
+"parts": "mamm(乳房) + o + gram(图)",
+"m": "乳房X线照片"
+},
+{
+"w": "mastectomy",
+"parts": "mast(乳房) + ectomy(切除术)",
+"m": "乳房切除术"
+},
+{
+"w": "mastitis",
+"parts": "mast(乳房) + itis(炎症)",
+"m": "乳腺炎"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"hyster",
+"metr",
+"uter"
+],
+"meaning": "子宫",
+"origin": "希腊语 hystera, metra「子宫」，拉丁语 uterus「子宫」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hysterectomy",
+"parts": "hyster(子宫) + ectomy(切除术)",
+"m": "子宫切除术"
+},
+{
+"w": "endometrium",
+"parts": "endo(在内) + metr(子宫) + ium",
+"m": "子宫内膜"
+},
+{
+"w": "uterine",
+"parts": "uter(子宫) + ine(…的)",
+"m": "子宫的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"oophor",
+"ovari"
+],
+"meaning": "卵巢",
+"origin": "希腊语 oophoron「卵巢」，拉丁语 ovarium「卵巢」",
+"note": "医学常用",
+"examples": [
+{
+"w": "oophorectomy",
+"parts": "oophor(卵巢) + ectomy(切除术)",
+"m": "卵巢切除术"
+},
+{
+"w": "ovarian",
+"parts": "ovari(卵巢) + an(…的)",
+"m": "卵巢的"
+},
+{
+"w": "oophoritis",
+"parts": "oophor(卵巢) + itis(炎症)",
+"m": "卵巢炎"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"cyst",
+"vesic"
+],
+"meaning": "膀胱；囊",
+"origin": "希腊语 kystis「膀胱，囊」，拉丁语 vesica「膀胱」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cystitis",
+"parts": "cyst(膀胱) + itis(炎症)",
+"m": "膀胱炎"
+},
+{
+"w": "cystoscopy",
+"parts": "cyst(膀胱) + o + scopy(检查)",
+"m": "膀胱镜检查"
+},
+{
+"w": "vesicle",
+"parts": "vesic(囊) + le(小)",
+"m": "小泡"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ur",
+"uro"
+],
+"meaning": "尿；泌尿",
+"origin": "希腊语 ouron「尿」",
+"note": "医学常用",
+"examples": [
+{
+"w": "urology",
+"parts": "uro(泌尿) + logy(学科)",
+"m": "泌尿外科学"
+},
+{
+"w": "urinary",
+"parts": "ur(尿) + inary(…的)",
+"m": "泌尿的"
+},
+{
+"w": "hematuria",
+"parts": "hemat(血) + ur(尿) + ia(病症)",
+"m": "血尿"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"chol",
+"bil"
+],
+"meaning": "胆汁；胆",
+"origin": "希腊语 chole「胆汁」，拉丁语 bilis「胆汁」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cholecystitis",
+"parts": "chol(胆) + e + cyst(囊) + itis(炎症)",
+"m": "胆囊炎"
+},
+{
+"w": "cholesterol",
+"parts": "chol(胆汁) + e + sterol(固醇)",
+"m": "胆固醇"
+},
+{
+"w": "biliary",
+"parts": "bil(胆汁) + iary(…的)",
+"m": "胆的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pancreat"
+],
+"meaning": "胰",
+"origin": "希腊语 pankreas「胰」",
+"note": "医学常用",
+"examples": [
+{
+"w": "pancreatitis",
+"parts": "pancreat(胰) + itis(炎症)",
+"m": "胰腺炎"
+},
+{
+"w": "pancreatic",
+"parts": "pancreat(胰) + ic(…的)",
+"m": "胰的"
+},
+{
+"w": "pancreatectomy",
+"parts": "pancreat(胰) + ectomy(切除术)",
+"m": "胰切除术"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"stomat",
+"or"
+],
+"meaning": "口",
+"origin": "希腊语 stoma, stomatos「口」，拉丁语 os, oris「口」",
+"note": "医学常用",
+"examples": [
+{
+"w": "stomatitis",
+"parts": "stomat(口) + itis(炎症)",
+"m": "口腔炎"
+},
+{
+"w": "oral",
+"parts": "or(口) + al(…的)",
+"m": "口的；口服的"
+},
+{
+"w": "stomatology",
+"parts": "stomat(口) + o + logy(学科)",
+"m": "口腔医学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"odont",
+"dent"
+],
+"meaning": "牙",
+"origin": "希腊语 odous, odontos「牙」，拉丁语 dens, dentis「牙」",
+"note": "医学常用",
+"examples": [
+{
+"w": "orthodontics",
+"parts": "orth(正) + odont(牙) + ics(学科)",
+"m": "正畸学"
+},
+{
+"w": "periodontitis",
+"parts": "peri(周围) + odont(牙) + itis(炎症)",
+"m": "牙周炎"
+},
+{
+"w": "dental",
+"parts": "dent(牙) + al(…的)",
+"m": "牙的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"gloss",
+"lingu"
+],
+"meaning": "舌",
+"origin": "希腊语 glossa「舌」，拉丁语 lingua「舌」",
+"note": "医学常用",
+"examples": [
+{
+"w": "glossitis",
+"parts": "gloss(舌) + itis(炎症)",
+"m": "舌炎"
+},
+{
+"w": "sublingual",
+"parts": "sub(在下) + lingu(舌) + al(…的)",
+"m": "舌下的"
+},
+{
+"w": "hypoglossal",
+"parts": "hypo(在下) + gloss(舌) + al(…的)",
+"m": "舌下的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"cephal"
+],
+"meaning": "头",
+"origin": "希腊语 kephale「头」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cephalic",
+"parts": "cephal(头) + ic(…的)",
+"m": "头的"
+},
+{
+"w": "hydrocephalus",
+"parts": "hydr(水) + o + cephal(头) + us",
+"m": "脑积水"
+},
+{
+"w": "encephalon",
+"parts": "en(在内) + cephal(头) + on",
+"m": "脑"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"crani"
+],
+"meaning": "颅",
+"origin": "希腊语 kranion「颅」",
+"note": "医学常用",
+"examples": [
+{
+"w": "craniotomy",
+"parts": "crani(颅) + otomy(切开术)",
+"m": "开颅术"
+},
+{
+"w": "cranial",
+"parts": "crani(颅) + al(…的)",
+"m": "颅的"
+},
+{
+"w": "intracranial",
+"parts": "intra(在内) + crani(颅) + al(…的)",
+"m": "颅内的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"thorac"
+],
+"meaning": "胸",
+"origin": "希腊语 thorax, thorakos「胸」",
+"note": "医学常用",
+"examples": [
+{
+"w": "thoracic",
+"parts": "thorac(胸) + ic(…的)",
+"m": "胸的"
+},
+{
+"w": "thoracotomy",
+"parts": "thorac(胸) + otomy(切开术)",
+"m": "开胸术"
+},
+{
+"w": "thoracoscopy",
+"parts": "thorac(胸) + o + scopy(检查)",
+"m": "胸腔镜检查"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"lapar",
+"abdomin"
+],
+"meaning": "腹",
+"origin": "希腊语 lapara「腹胁」，拉丁语 abdomen「腹」",
+"note": "医学常用",
+"examples": [
+{
+"w": "laparoscopy",
+"parts": "lapar(腹) + o + scopy(检查)",
+"m": "腹腔镜检查"
+},
+{
+"w": "laparotomy",
+"parts": "lapar(腹) + otomy(切开术)",
+"m": "剖腹术"
+},
+{
+"w": "abdominal",
+"parts": "abdomin(腹) + al(…的)",
+"m": "腹部的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"carcin"
+],
+"meaning": "癌",
+"origin": "希腊语 karkinos「蟹，癌」",
+"note": "医学常用",
+"examples": [
+{
+"w": "carcinoma",
+"parts": "carcin(癌) + oma(瘤)",
+"m": "癌"
+},
+{
+"w": "carcinogen",
+"parts": "carcin(癌) + o + gen(产生)",
+"m": "致癌物"
+},
+{
+"w": "carcinogenic",
+"parts": "carcin(癌) + o + genic(产生…的)",
+"m": "致癌的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"onc"
+],
+"meaning": "肿瘤",
+"origin": "希腊语 onkos「肿块」",
+"note": "医学常用",
+"examples": [
+{
+"w": "oncology",
+"parts": "onc(肿瘤) + o + logy(学科)",
+"m": "肿瘤学"
+},
+{
+"w": "oncologist",
+"parts": "onc(肿瘤) + o + logist(专家)",
+"m": "肿瘤科医生"
+},
+{
+"w": "oncogene",
+"parts": "onc(肿瘤) + o + gene(基因)",
+"m": "癌基因"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"path"
+],
+"meaning": "病；感受",
+"origin": "希腊语 pathos「痛苦，疾病」",
+"note": "医学常用",
+"examples": [
+{
+"w": "pathology",
+"parts": "path(病) + o + logy(学科)",
+"m": "病理学"
+},
+{
+"w": "pathogen",
+"parts": "path(病) + o + gen(产生)",
+"m": "病原体"
+},
+{
+"w": "neuropathy",
+"parts": "neur(神经) + o + pathy(病)",
+"m": "神经病变"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"necr"
+],
+"meaning": "死",
+"origin": "希腊语 nekros「尸体」",
+"note": "医学常用",
+"examples": [
+{
+"w": "necrosis",
+"parts": "necr(死) + osis(病态)",
+"m": "坏死"
+},
+{
+"w": "necropsy",
+"parts": "necr(死) + opsy(检视)",
+"m": "尸检"
+},
+{
+"w": "necrotic",
+"parts": "necr(死) + otic(…的)",
+"m": "坏死的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"cyt"
+],
+"meaning": "细胞",
+"origin": "希腊语 kytos「容器，细胞」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cytology",
+"parts": "cyt(细胞) + o + logy(学科)",
+"m": "细胞学"
+},
+{
+"w": "leukocyte",
+"parts": "leuk(白) + o + cyte(细胞)",
+"m": "白细胞"
+},
+{
+"w": "cytoplasm",
+"parts": "cyt(细胞) + o + plasm(浆)",
+"m": "细胞质"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"hist"
+],
+"meaning": "组织",
+"origin": "希腊语 histos「网，组织」",
+"note": "医学常用",
+"examples": [
+{
+"w": "histology",
+"parts": "hist(组织) + o + logy(学科)",
+"m": "组织学"
+},
+{
+"w": "histamine",
+"parts": "hist(组织) + amine(胺)",
+"m": "组胺"
+},
+{
+"w": "histopathology",
+"parts": "hist(组织) + o + path(病) + o + logy(学科)",
+"m": "组织病理学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"leuk",
+"leuc"
+],
+"meaning": "白",
+"origin": "希腊语 leukos「白」",
+"note": "医学常用",
+"examples": [
+{
+"w": "leukemia",
+"parts": "leuk(白) + emia(血症)",
+"m": "白血病"
+},
+{
+"w": "leukocyte",
+"parts": "leuk(白) + o + cyte(细胞)",
+"m": "白细胞"
+},
+{
+"w": "leukoplakia",
+"parts": "leuk(白) + o + plakia(斑)",
+"m": "白斑"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"erythr"
+],
+"meaning": "红",
+"origin": "希腊语 erythros「红」",
+"note": "医学常用",
+"examples": [
+{
+"w": "erythrocyte",
+"parts": "erythr(红) + o + cyte(细胞)",
+"m": "红细胞"
+},
+{
+"w": "erythema",
+"parts": "erythr(红) + ema",
+"m": "红斑"
+},
+{
+"w": "erythropoietin",
+"parts": "erythr(红) + o + poietin(生成素)",
+"m": "促红细胞生成素"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"cyan"
+],
+"meaning": "青紫，蓝",
+"origin": "希腊语 kyanos「深蓝」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cyanosis",
+"parts": "cyan(青紫) + osis(病态)",
+"m": "发绀"
+},
+{
+"w": "cyanide",
+"parts": "cyan(蓝) + ide(化合物)",
+"m": "氰化物"
+},
+{
+"w": "acrocyanosis",
+"parts": "acro(肢端) + cyan(青紫) + osis(病态)",
+"m": "手足发绀"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"melan"
+],
+"meaning": "黑",
+"origin": "希腊语 melas, melanos「黑」",
+"note": "医学常用",
+"examples": [
+{
+"w": "melanoma",
+"parts": "melan(黑) + oma(瘤)",
+"m": "黑色素瘤"
+},
+{
+"w": "melanin",
+"parts": "melan(黑) + in(素)",
+"m": "黑色素"
+},
+{
+"w": "melena",
+"parts": "mel(黑) + ena",
+"m": "黑便"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"glyc",
+"gluc"
+],
+"meaning": "糖",
+"origin": "希腊语 glykys「甜」",
+"note": "医学常用",
+"examples": [
+{
+"w": "glycemia",
+"parts": "glyc(糖) + emia(血症)",
+"m": "血糖"
+},
+{
+"w": "hypoglycemia",
+"parts": "hypo(低) + glyc(糖) + emia(血症)",
+"m": "低血糖"
+},
+{
+"w": "glucose",
+"parts": "gluc(糖) + ose(糖)",
+"m": "葡萄糖"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"lip"
+],
+"meaning": "脂肪",
+"origin": "希腊语 lipos「脂肪」",
+"note": "医学常用",
+"examples": [
+{
+"w": "lipid",
+"parts": "lip(脂肪) + id",
+"m": "脂质"
+},
+{
+"w": "lipoma",
+"parts": "lip(脂肪) + oma(瘤)",
+"m": "脂肪瘤"
+},
+{
+"w": "hyperlipidemia",
+"parts": "hyper(过度) + lip(脂肪) + id + emia(血症)",
+"m": "高脂血症"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pharmac"
+],
+"meaning": "药",
+"origin": "希腊语 pharmakon「药」",
+"note": "医学常用",
+"examples": [
+{
+"w": "pharmacology",
+"parts": "pharmac(药) + o + logy(学科)",
+"m": "药理学"
+},
+{
+"w": "pharmacy",
+"parts": "pharmac(药) + y",
+"m": "药房；药学"
+},
+{
+"w": "pharmacist",
+"parts": "pharmac(药) + ist(人)",
+"m": "药剂师"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ped",
+"paed"
+],
+"meaning": "儿童",
+"origin": "希腊语 pais, paidos「儿童」",
+"note": "医学常用",
+"examples": [
+{
+"w": "pediatrics",
+"parts": "ped(儿童) + iatr(治疗) + ics(学科)",
+"m": "儿科学"
+},
+{
+"w": "pediatrician",
+"parts": "ped(儿童) + iatr(治疗) + ician(人)",
+"m": "儿科医生"
+},
+{
+"w": "orthopedics",
+"parts": "ortho(正) + ped(儿童) + ics(学科)",
+"m": "骨科学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ger",
+"geront"
+],
+"meaning": "老人",
+"origin": "希腊语 geron, gerontos「老人」",
+"note": "医学常用",
+"examples": [
+{
+"w": "geriatrics",
+"parts": "ger(老人) + iatr(治疗) + ics(学科)",
+"m": "老年医学"
+},
+{
+"w": "gerontology",
+"parts": "geront(老人) + o + logy(学科)",
+"m": "老年学"
+},
+{
+"w": "geriatric",
+"parts": "ger(老人) + iatr(治疗) + ic(…的)",
+"m": "老年病的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"psych"
+],
+"meaning": "心理，精神",
+"origin": "希腊语 psyche「灵魂」",
+"note": "医学常用",
+"examples": [
+{
+"w": "psychology",
+"parts": "psych(心理) + o + logy(学科)",
+"m": "心理学"
+},
+{
+"w": "psychiatry",
+"parts": "psych(精神) + iatry(医治)",
+"m": "精神病学"
+},
+{
+"w": "psychosis",
+"parts": "psych(精神) + osis(病态)",
+"m": "精神病"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"iatr"
+],
+"meaning": "医治",
+"origin": "希腊语 iatros「医生」",
+"note": "医学常用",
+"examples": [
+{
+"w": "psychiatrist",
+"parts": "psych(精神) + iatr(医治) + ist(人)",
+"m": "精神科医生"
+},
+{
+"w": "iatrogenic",
+"parts": "iatr(医治) + o + genic(产生…的)",
+"m": "医源性的"
+},
+{
+"w": "podiatry",
+"parts": "pod(脚) + iatr(医治) + y",
+"m": "足病学"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"itis"
+],
+"meaning": "炎症",
+"origin": "希腊语 -itis",
+"note": "医学常用",
+"examples": [
+{
+"w": "arthritis",
+"parts": "arthr(关节) + itis(炎症)",
+"m": "关节炎"
+},
+{
+"w": "appendicitis",
+"parts": "appendic(阑尾) + itis(炎症)",
+"m": "阑尾炎"
+},
+{
+"w": "tonsillitis",
+"parts": "tonsill(扁桃体) + itis(炎症)",
+"m": "扁桃体炎"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"osis"
+],
+"meaning": "病态，状态",
+"origin": "希腊语 -osis",
+"note": "医学常用",
+"examples": [
+{
+"w": "fibrosis",
+"parts": "fibr(纤维) + osis(病态)",
+"m": "纤维化"
+},
+{
+"w": "thrombosis",
+"parts": "thromb(血栓) + osis(病态)",
+"m": "血栓形成"
+},
+{
+"w": "tuberculosis",
+"parts": "tubercul(结节) + osis(病态)",
+"m": "结核病"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"oma"
+],
+"meaning": "瘤",
+"origin": "希腊语 -oma",
+"note": "医学常用",
+"examples": [
+{
+"w": "carcinoma",
+"parts": "carcin(癌) + oma(瘤)",
+"m": "癌"
+},
+{
+"w": "sarcoma",
+"parts": "sarc(肉) + oma(瘤)",
+"m": "肉瘤"
+},
+{
+"w": "glaucoma",
+"parts": "glauc(灰蓝) + oma",
+"m": "青光眼"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"pathy"
+],
+"meaning": "病，病变",
+"origin": "希腊语 pathos「疾病」",
+"note": "医学常用",
+"examples": [
+{
+"w": "cardiomyopathy",
+"parts": "cardi(心) + o + my(肌) + o + pathy(病)",
+"m": "心肌病"
+},
+{
+"w": "retinopathy",
+"parts": "retin(视网膜) + o + pathy(病)",
+"m": "视网膜病变"
+},
+{
+"w": "homeopathy",
+"parts": "home(相同) + o + pathy(病)",
+"m": "顺势疗法"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"algia",
+"dynia"
+],
+"meaning": "疼痛",
+"origin": "希腊语 algos「痛」，odyne「痛」",
+"note": "医学常用",
+"examples": [
+{
+"w": "neuralgia",
+"parts": "neur(神经) + algia(疼痛)",
+"m": "神经痛"
+},
+{
+"w": "arthralgia",
+"parts": "arthr(关节) + algia(疼痛)",
+"m": "关节痛"
+},
+{
+"w": "mastodynia",
+"parts": "mast(乳房) + o + dynia(疼痛)",
+"m": "乳房痛"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"emia"
+],
+"meaning": "血症",
+"origin": "希腊语 haima「血」",
+"note": "医学常用",
+"examples": [
+{
+"w": "anemia",
+"parts": "an(无) + emia(血症)",
+"m": "贫血"
+},
+{
+"w": "septicemia",
+"parts": "septic(腐败) + emia(血症)",
+"m": "败血症"
+},
+{
+"w": "uremia",
+"parts": "ur(尿) + emia(血症)",
+"m": "尿毒症"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"penia"
+],
+"meaning": "减少，缺乏",
+"origin": "希腊语 penia「贫乏」",
+"note": "医学常用",
+"examples": [
+{
+"w": "leukopenia",
+"parts": "leuk(白) + o + penia(减少)",
+"m": "白细胞减少"
+},
+{
+"w": "thrombocytopenia",
+"parts": "thromb(血栓) + o + cyt(细胞) + o + penia(减少)",
+"m": "血小板减少"
+},
+{
+"w": "osteopenia",
+"parts": "oste(骨) + o + penia(减少)",
+"m": "骨量减少"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"megaly"
+],
+"meaning": "肿大",
+"origin": "希腊语 megas「大」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hepatomegaly",
+"parts": "hepat(肝) + o + megaly(肿大)",
+"m": "肝大"
+},
+{
+"w": "cardiomegaly",
+"parts": "cardi(心) + o + megaly(肿大)",
+"m": "心脏扩大"
+},
+{
+"w": "acromegaly",
+"parts": "acr(肢端) + o + megaly(肿大)",
+"m": "肢端肥大症"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"plasia"
+],
+"meaning": "形成，发育",
+"origin": "希腊语 plasis「塑造」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hyperplasia",
+"parts": "hyper(过度) + plasia(增生)",
+"m": "增生"
+},
+{
+"w": "dysplasia",
+"parts": "dys(异常) + plasia(发育)",
+"m": "发育异常；不典型增生"
+},
+{
+"w": "aplasia",
+"parts": "a(无) + plasia(发育)",
+"m": "发育不全"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"trophy"
+],
+"meaning": "营养，生长",
+"origin": "希腊语 trophe「营养」",
+"note": "医学常用",
+"examples": [
+{
+"w": "atrophy",
+"parts": "a(无) + trophy(营养)",
+"m": "萎缩"
+},
+{
+"w": "hypertrophy",
+"parts": "hyper(过度) + trophy(生长)",
+"m": "肥大"
+},
+{
+"w": "dystrophy",
+"parts": "dys(异常) + trophy(营养)",
+"m": "营养不良"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"rrhea"
+],
+"meaning": "流出",
+"origin": "希腊语 rhoia「流」",
+"note": "医学常用",
+"examples": [
+{
+"w": "diarrhea",
+"parts": "dia(穿过) + rrhea(流出)",
+"m": "腹泻"
+},
+{
+"w": "amenorrhea",
+"parts": "a(无) + men(月) + o + rrhea(流出)",
+"m": "闭经"
+},
+{
+"w": "rhinorrhea",
+"parts": "rhin(鼻) + o + rrhea(流出)",
+"m": "流涕"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"rrhage",
+"rrhagia"
+],
+"meaning": "大出血",
+"origin": "希腊语 rhegnynai「破裂」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hemorrhage",
+"parts": "hem(血) + o + rrhage(破裂)",
+"m": "出血"
+},
+{
+"w": "menorrhagia",
+"parts": "men(月) + o + rrhagia(大出血)",
+"m": "月经过多"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"sclerosis"
+],
+"meaning": "硬化",
+"origin": "希腊语 skleros「硬」",
+"note": "医学常用",
+"examples": [
+{
+"w": "arteriosclerosis",
+"parts": "arteri(动脉) + o + sclerosis(硬化)",
+"m": "动脉硬化"
+},
+{
+"w": "atherosclerosis",
+"parts": "ather(粥) + o + sclerosis(硬化)",
+"m": "动脉粥样硬化"
+},
+{
+"w": "otosclerosis",
+"parts": "ot(耳) + o + sclerosis(硬化)",
+"m": "耳硬化症"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"stenosis"
+],
+"meaning": "狭窄",
+"origin": "希腊语 stenos「窄」",
+"note": "医学常用",
+"examples": [
+{
+"w": "stenosis",
+"parts": "stenosis(狭窄)",
+"m": "狭窄"
+},
+{
+"w": "aortic stenosis",
+"parts": "aortic(主动脉的) + stenosis(狭窄)",
+"m": "主动脉瓣狭窄"
+},
+{
+"w": "pyloric stenosis",
+"parts": "pyloric(幽门的) + stenosis(狭窄)",
+"m": "幽门狭窄"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"ectomy"
+],
+"meaning": "切除术",
+"origin": "希腊语 ektome「切除」",
+"note": "医学常用",
+"examples": [
+{
+"w": "appendectomy",
+"parts": "append(阑尾) + ectomy(切除术)",
+"m": "阑尾切除术"
+},
+{
+"w": "tonsillectomy",
+"parts": "tonsill(扁桃体) + ectomy(切除术)",
+"m": "扁桃体切除术"
+},
+{
+"w": "gastrectomy",
+"parts": "gastr(胃) + ectomy(切除术)",
+"m": "胃切除术"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"otomy",
+"tomy"
+],
+"meaning": "切开术",
+"origin": "希腊语 tome「切」",
+"note": "医学常用",
+"examples": [
+{
+"w": "tracheotomy",
+"parts": "trache(气管) + otomy(切开术)",
+"m": "气管切开术"
+},
+{
+"w": "laparotomy",
+"parts": "lapar(腹) + otomy(切开术)",
+"m": "剖腹术"
+},
+{
+"w": "episiotomy",
+"parts": "episi(会阴) + otomy(切开术)",
+"m": "会阴切开术"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"ostomy",
+"stomy"
+],
+"meaning": "造口术",
+"origin": "希腊语 stoma「口」",
+"note": "医学常用",
+"examples": [
+{
+"w": "colostomy",
+"parts": "col(结肠) + ostomy(造口术)",
+"m": "结肠造口术"
+},
+{
+"w": "tracheostomy",
+"parts": "trache(气管) + ostomy(造口术)",
+"m": "气管造口术"
+},
+{
+"w": "gastrostomy",
+"parts": "gastr(胃) + ostomy(造口术)",
+"m": "胃造口术"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"plasty"
+],
+"meaning": "成形术",
+"origin": "希腊语 plastos「塑造的」",
+"note": "医学常用",
+"examples": [
+{
+"w": "rhinoplasty",
+"parts": "rhin(鼻) + o + plasty(成形术)",
+"m": "鼻成形术"
+},
+{
+"w": "angioplasty",
+"parts": "angi(血管) + o + plasty(成形术)",
+"m": "血管成形术"
+},
+{
+"w": "arthroplasty",
+"parts": "arthr(关节) + o + plasty(成形术)",
+"m": "关节成形术"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"scopy",
+"scope"
+],
+"meaning": "检查；镜",
+"origin": "希腊语 skopein「看」",
+"note": "医学常用",
+"examples": [
+{
+"w": "endoscopy",
+"parts": "endo(在内) + scopy(检查)",
+"m": "内镜检查"
+},
+{
+"w": "stethoscope",
+"parts": "stetho(胸) + scope(镜)",
+"m": "听诊器"
+},
+{
+"w": "gastroscope",
+"parts": "gastr(胃) + o + scope(镜)",
+"m": "胃镜"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"graphy",
+"gram"
+],
+"meaning": "造影；图",
+"origin": "希腊语 graphein「写，画」",
+"note": "医学常用",
+"examples": [
+{
+"w": "electrocardiogram",
+"parts": "electr(电) + o + cardi(心) + o + gram(图)",
+"m": "心电图"
+},
+{
+"w": "angiography",
+"parts": "angi(血管) + o + graphy(造影)",
+"m": "血管造影"
+},
+{
+"w": "mammography",
+"parts": "mamm(乳房) + o + graphy(造影)",
+"m": "乳房X线摄影"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"centesis"
+],
+"meaning": "穿刺术",
+"origin": "希腊语 kentesis「刺」",
+"note": "医学常用",
+"examples": [
+{
+"w": "amniocentesis",
+"parts": "amni(羊膜) + o + centesis(穿刺术)",
+"m": "羊膜腔穿刺术"
+},
+{
+"w": "thoracentesis",
+"parts": "thora(胸) + centesis(穿刺术)",
+"m": "胸腔穿刺术"
+},
+{
+"w": "paracentesis",
+"parts": "para(旁) + centesis(穿刺术)",
+"m": "腹腔穿刺术"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"lysis"
+],
+"meaning": "分解，溶解",
+"origin": "希腊语 lysis「松开」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hemolysis",
+"parts": "hem(血) + o + lysis(溶解)",
+"m": "溶血"
+},
+{
+"w": "dialysis",
+"parts": "dia(穿过) + lysis(分离)",
+"m": "透析"
+},
+{
+"w": "thrombolysis",
+"parts": "thromb(血栓) + o + lysis(溶解)",
+"m": "溶栓"
+}
+]
+},
+{
+"type": "suffix",
+"forms": [
+"genic",
+"genesis"
+],
+"meaning": "产生",
+"origin": "希腊语 genesis「起源」",
+"note": "医学常用",
+"examples": [
+{
+"w": "pathogenic",
+"parts": "path(病) + o + genic(产生…的)",
+"m": "致病的"
+},
+{
+"w": "carcinogenesis",
+"parts": "carcin(癌) + o + genesis(发生)",
+"m": "癌变"
+},
+{
+"w": "osteogenesis",
+"parts": "oste(骨) + o + genesis(发生)",
+"m": "骨生成"
+}
+]
+},
+{
+"type": "prefix",
+"forms": [
+"tachy"
+],
+"meaning": "快",
+"origin": "希腊语 tachys「快」",
+"note": "医学常用",
+"examples": [
+{
+"w": "tachycardia",
+"parts": "tachy(快) + card(心) + ia(病症)",
+"m": "心动过速"
+},
+{
+"w": "tachypnea",
+"parts": "tachy(快) + pnea(呼吸)",
+"m": "呼吸急促"
+}
+]
+},
+{
+"type": "prefix",
+"forms": [
+"brady"
+],
+"meaning": "慢",
+"origin": "希腊语 bradys「慢」",
+"note": "医学常用",
+"examples": [
+{
+"w": "bradycardia",
+"parts": "brady(慢) + card(心) + ia(病症)",
+"m": "心动过缓"
+},
+{
+"w": "bradykinesia",
+"parts": "brady(慢) + kinesia(运动)",
+"m": "运动迟缓"
+}
+]
+},
+{
+"type": "prefix",
+"forms": [
+"dys"
+],
+"meaning": "异常，困难",
+"origin": "希腊语 dys-「坏，困难」",
+"note": "医学常用",
+"examples": [
+{
+"w": "dyspnea",
+"parts": "dys(困难) + pnea(呼吸)",
+"m": "呼吸困难"
+},
+{
+"w": "dysphagia",
+"parts": "dys(困难) + phagia(吞咽)",
+"m": "吞咽困难"
+},
+{
+"w": "dysfunction",
+"parts": "dys(异常) + function(功能)",
+"m": "功能障碍"
+}
+]
+},
+{
+"type": "prefix",
+"forms": [
+"endo"
+],
+"meaning": "在内",
+"origin": "希腊语 endon「在内」",
+"note": "医学常用",
+"examples": [
+{
+"w": "endoscope",
+"parts": "endo(在内) + scope(镜)",
+"m": "内镜"
+},
+{
+"w": "endocrine",
+"parts": "endo(在内) + crine(分泌)",
+"m": "内分泌的"
+},
+{
+"w": "endocarditis",
+"parts": "endo(在内) + card(心) + itis(炎症)",
+"m": "心内膜炎"
+}
+]
+},
+{
+"type": "prefix",
+"forms": [
+"hemi"
+],
+"meaning": "半",
+"origin": "希腊语 hemi-「半」",
+"note": "医学常用",
+"examples": [
+{
+"w": "hemiplegia",
+"parts": "hemi(半) + plegia(瘫痪)",
+"m": "偏瘫"
+},
+{
+"w": "hemisphere",
+"parts": "hemi(半) + sphere(球)",
+"m": "半球"
+},
+{
+"w": "hemianopia",
+"parts": "hemi(半) + an(无) + opia(视)",
+"m": "偏盲"
+}
+]
+}
+]

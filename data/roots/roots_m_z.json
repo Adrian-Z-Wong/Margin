@@ -1,0 +1,6573 @@
+[
+{
+"type": "root",
+"forms": [
+"magn",
+"maj",
+"max"
+],
+"meaning": "大",
+"origin": "拉丁语 magnus「大的」（比较级 major，最高级 maximus）",
+"note": "",
+"examples": [
+{
+"w": "magnify",
+"parts": "magn(大) + ify(使…化)",
+"m": "放大，夸大"
+},
+{
+"w": "magnitude",
+"parts": "magn(大) + itude(性质)",
+"m": "巨大；量级，震级"
+},
+{
+"w": "magnificent",
+"parts": "magn(大) + i + fic(做) + ent(…的)",
+"m": "宏伟的，壮丽的"
+},
+{
+"w": "magnate",
+"parts": "magn(大) + ate(人)",
+"m": "巨头，大亨"
+},
+{
+"w": "majority",
+"parts": "maj(更大) + or + ity(名词)",
+"m": "大多数"
+},
+{
+"w": "maximum",
+"parts": "max(最大) + imum",
+"m": "最大值，最大量"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"man",
+"manu",
+"mani"
+],
+"meaning": "手",
+"origin": "拉丁语 manus「手」",
+"note": "",
+"examples": [
+{
+"w": "manual",
+"parts": "manu(手) + al(…的)",
+"m": "手工的；手册"
+},
+{
+"w": "manuscript",
+"parts": "manu(手) + script(写)",
+"m": "手稿"
+},
+{
+"w": "manufacture",
+"parts": "manu(手) + fact(做) + ure(名词)",
+"m": "制造；制造业"
+},
+{
+"w": "manicure",
+"parts": "mani(手) + cure(护理)",
+"m": "修指甲"
+},
+{
+"w": "emancipate",
+"parts": "e(出) + man(手) + cip(拿) + ate(使…)",
+"m": "解放，使摆脱束缚"
+},
+{
+"w": "maneuver",
+"parts": "man(手) + euver(操作)",
+"m": "策略；调动，操纵"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mand",
+"mend"
+],
+"meaning": "命令，委托",
+"origin": "拉丁语 mandare「交付，命令」",
+"note": "",
+"examples": [
+{
+"w": "command",
+"parts": "com(加强) + mand(命令)",
+"m": "命令；指挥；掌握"
+},
+{
+"w": "demand",
+"parts": "de(加强) + mand(命令)",
+"m": "要求；需求"
+},
+{
+"w": "mandate",
+"parts": "mand(命令) + ate(名词)",
+"m": "授权；指令"
+},
+{
+"w": "mandatory",
+"parts": "mand(命令) + atory(…的)",
+"m": "强制的，义务的"
+},
+{
+"w": "recommend",
+"parts": "re(加强) + com(加强) + mend(委托)",
+"m": "推荐，建议"
+},
+{
+"w": "commend",
+"parts": "com(加强) + mend(委托)",
+"m": "表扬；推荐"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mania"
+],
+"meaning": "疯狂，癖好",
+"origin": "希腊语 mania「疯狂」",
+"note": "",
+"examples": [
+{
+"w": "maniac",
+"parts": "mani(疯狂) + ac(人)",
+"m": "疯子；狂热者"
+},
+{
+"w": "kleptomania",
+"parts": "klepto(偷) + mania(癖)",
+"m": "偷窃癖"
+},
+{
+"w": "pyromania",
+"parts": "pyro(火) + mania(癖)",
+"m": "纵火癖"
+},
+{
+"w": "megalomania",
+"parts": "megalo(大) + mania(狂)",
+"m": "自大狂"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mar",
+"mari"
+],
+"meaning": "海",
+"origin": "拉丁语 mare「海」",
+"note": "",
+"examples": [
+{
+"w": "marine",
+"parts": "mar(海) + ine(…的)",
+"m": "海洋的；海军陆战队士兵"
+},
+{
+"w": "submarine",
+"parts": "sub(在下) + mar(海) + ine(…的)",
+"m": "潜水艇；海底的"
+},
+{
+"w": "maritime",
+"parts": "mari(海) + time(…的)",
+"m": "海事的，航海的"
+},
+{
+"w": "mariner",
+"parts": "mari(海) + n + er(人)",
+"m": "水手"
+},
+{
+"w": "marina",
+"parts": "mar(海) + ina(地方)",
+"m": "小船坞，游艇码头"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mater",
+"matr",
+"matri"
+],
+"meaning": "母亲",
+"origin": "拉丁语 mater「母亲」",
+"note": "",
+"examples": [
+{
+"w": "maternal",
+"parts": "mater(母亲) + nal(…的)",
+"m": "母亲的；母系的"
+},
+{
+"w": "maternity",
+"parts": "mater(母亲) + nity(状态)",
+"m": "母性；产妇的"
+},
+{
+"w": "matrix",
+"parts": "matr(母亲，子宫) + ix",
+"m": "矩阵；基质，母体"
+},
+{
+"w": "matriarch",
+"parts": "matri(母亲) + arch(统治者)",
+"m": "女家长，女族长"
+},
+{
+"w": "matrimony",
+"parts": "matri(母亲) + mony(状态)",
+"m": "婚姻"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"medi"
+],
+"meaning": "中间",
+"origin": "拉丁语 medius「中间的」",
+"note": "",
+"examples": [
+{
+"w": "medium",
+"parts": "medi(中间) + um(名词)",
+"m": "媒介；中等的"
+},
+{
+"w": "mediate",
+"parts": "medi(中间) + ate(动词)",
+"m": "调解，斡旋"
+},
+{
+"w": "intermediate",
+"parts": "inter(在…之间) + medi(中间) + ate(…的)",
+"m": "中级的，中间的"
+},
+{
+"w": "immediate",
+"parts": "im(无) + medi(中间) + ate(…的)",
+"m": "立即的；直接的"
+},
+{
+"w": "medieval",
+"parts": "medi(中间) + ev(时代) + al(…的)",
+"m": "中世纪的"
+},
+{
+"w": "mediocre",
+"parts": "medi(中间) + ocre(山)",
+"m": "平庸的，普通的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"medic",
+"med"
+],
+"meaning": "治疗",
+"origin": "拉丁语 mederi「治疗」，medicus「医生」",
+"note": "",
+"examples": [
+{
+"w": "medicine",
+"parts": "medic(治疗) + ine(名词)",
+"m": "药；医学"
+},
+{
+"w": "medical",
+"parts": "medic(治疗) + al(…的)",
+"m": "医学的，医疗的"
+},
+{
+"w": "medication",
+"parts": "medic(治疗) + ation(名词)",
+"m": "药物；药物治疗"
+},
+{
+"w": "remedy",
+"parts": "re(再，回) + med(治疗) + y(名词)",
+"m": "补救；疗法"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"memor",
+"mem"
+],
+"meaning": "记忆",
+"origin": "拉丁语 memor「记得的」，memoria「记忆」",
+"note": "",
+"examples": [
+{
+"w": "memory",
+"parts": "memor(记忆) + y(名词)",
+"m": "记忆；回忆"
+},
+{
+"w": "memorial",
+"parts": "memor(记忆) + ial(…的)",
+"m": "纪念碑；纪念的"
+},
+{
+"w": "commemorate",
+"parts": "com(共同) + memor(记忆) + ate(动词)",
+"m": "纪念"
+},
+{
+"w": "memorandum",
+"parts": "memor(记忆) + andum(应…的)",
+"m": "备忘录"
+},
+{
+"w": "memoir",
+"parts": "mem(记忆) + oir(名词)",
+"m": "回忆录"
+},
+{
+"w": "memorize",
+"parts": "memor(记忆) + ize(使…化)",
+"m": "记住，背熟"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mens",
+"meas"
+],
+"meaning": "测量",
+"origin": "拉丁语 metiri（过去分词 mensus）「测量」",
+"note": "",
+"examples": [
+{
+"w": "dimension",
+"parts": "di(分开) + mens(测量) + ion(名词)",
+"m": "维度；尺寸；方面"
+},
+{
+"w": "immense",
+"parts": "im(不) + mens(测量) + e",
+"m": "巨大的，无法测量的"
+},
+{
+"w": "commensurate",
+"parts": "com(共同) + mensur(测量) + ate(…的)",
+"m": "相称的，相当的"
+},
+{
+"w": "measure",
+"parts": "meas(测量) + ure(名词)",
+"m": "测量；措施"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ment"
+],
+"meaning": "心智，思考",
+"origin": "拉丁语 mens（属格 mentis）「心智」",
+"note": "",
+"examples": [
+{
+"w": "mental",
+"parts": "ment(心智) + al(…的)",
+"m": "精神的，心理的"
+},
+{
+"w": "mentality",
+"parts": "ment(心智) + al + ity(性质)",
+"m": "心态，思维方式"
+},
+{
+"w": "mention",
+"parts": "ment(心智，想起) + ion(名词)",
+"m": "提到，提及"
+},
+{
+"w": "comment",
+"parts": "com(加强) + ment(思考)",
+"m": "评论"
+},
+{
+"w": "demented",
+"parts": "de(去掉) + ment(心智) + ed(…的)",
+"m": "疯狂的，痴呆的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"merc"
+],
+"meaning": "交易，商品",
+"origin": "拉丁语 merx（属格 mercis）「商品」",
+"note": "",
+"examples": [
+{
+"w": "merchant",
+"parts": "merc(交易) + h + ant(人)",
+"m": "商人"
+},
+{
+"w": "commerce",
+"parts": "com(共同) + merc(交易) + e",
+"m": "商业，贸易"
+},
+{
+"w": "commercial",
+"parts": "com(共同) + merc(交易) + ial(…的)",
+"m": "商业的；广告"
+},
+{
+"w": "merchandise",
+"parts": "merc(商品) + h + and + ise(名词)",
+"m": "商品，货物"
+},
+{
+"w": "mercenary",
+"parts": "merc(报酬) + en + ary(…的/人)",
+"m": "唯利是图的；雇佣兵"
+},
+{
+"w": "mercantile",
+"parts": "merc(交易) + ant + ile(…的)",
+"m": "商业的，贸易的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"merg",
+"mers"
+],
+"meaning": "沉，浸",
+"origin": "拉丁语 mergere（过去分词 mersus）「浸没」",
+"note": "",
+"examples": [
+{
+"w": "merge",
+"parts": "merg(沉入) + e",
+"m": "合并，融合"
+},
+{
+"w": "merger",
+"parts": "merg(沉入) + er(名词)",
+"m": "（公司）合并"
+},
+{
+"w": "emerge",
+"parts": "e(出) + merg(沉) + e",
+"m": "浮现，出现"
+},
+{
+"w": "emergency",
+"parts": "e(出) + merg(沉) + ency(名词)",
+"m": "紧急情况"
+},
+{
+"w": "submerge",
+"parts": "sub(在下) + merg(沉) + e",
+"m": "淹没，浸没"
+},
+{
+"w": "immerse",
+"parts": "im(向内) + mers(浸) + e",
+"m": "使沉浸，浸入"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"meter",
+"metr"
+],
+"meaning": "测量",
+"origin": "希腊语 metron「尺度，测量」",
+"note": "",
+"examples": [
+{
+"w": "thermometer",
+"parts": "thermo(热) + meter(测量)",
+"m": "温度计"
+},
+{
+"w": "barometer",
+"parts": "baro(压力) + meter(测量)",
+"m": "气压计；晴雨表"
+},
+{
+"w": "diameter",
+"parts": "dia(穿过) + meter(测量)",
+"m": "直径"
+},
+{
+"w": "perimeter",
+"parts": "peri(周围) + meter(测量)",
+"m": "周长；周边"
+},
+{
+"w": "symmetry",
+"parts": "sym(相同) + metr(测量) + y(名词)",
+"m": "对称"
+},
+{
+"w": "geometry",
+"parts": "geo(土地) + metr(测量) + y(名词)",
+"m": "几何学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"migr"
+],
+"meaning": "迁移",
+"origin": "拉丁语 migrare「迁移」",
+"note": "",
+"examples": [
+{
+"w": "migrate",
+"parts": "migr(迁移) + ate(动词)",
+"m": "迁移，迁徙"
+},
+{
+"w": "migrant",
+"parts": "migr(迁移) + ant(人)",
+"m": "移民；候鸟"
+},
+{
+"w": "immigrant",
+"parts": "im(向内) + migr(迁移) + ant(人)",
+"m": "（外来）移民"
+},
+{
+"w": "emigrate",
+"parts": "e(向外) + migr(迁移) + ate(动词)",
+"m": "移居国外"
+},
+{
+"w": "migratory",
+"parts": "migr(迁移) + atory(…的)",
+"m": "迁移的，流动的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"milit"
+],
+"meaning": "军事，士兵",
+"origin": "拉丁语 miles（属格 militis）「士兵」",
+"note": "",
+"examples": [
+{
+"w": "military",
+"parts": "milit(军事) + ary(…的)",
+"m": "军事的；军队"
+},
+{
+"w": "militant",
+"parts": "milit(战斗) + ant(…的)",
+"m": "好战的，激进的"
+},
+{
+"w": "militia",
+"parts": "milit(士兵) + ia(集合名词)",
+"m": "民兵"
+},
+{
+"w": "demilitarize",
+"parts": "de(去除) + milit(军事) + ar + ize(使…化)",
+"m": "使非军事化"
+},
+{
+"w": "militate",
+"parts": "milit(战斗) + ate(动词)",
+"m": "产生作用（against 不利于）"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"min",
+"mini"
+],
+"meaning": "小",
+"origin": "拉丁语 minor「较小的」，minimus「最小的」，minuere「减少」",
+"note": "",
+"examples": [
+{
+"w": "minor",
+"parts": "min(小) + or(比较级)",
+"m": "较小的，次要的；未成年人"
+},
+{
+"w": "minimum",
+"parts": "min(小) + imum(最高级)",
+"m": "最小值，最低限度"
+},
+{
+"w": "minimal",
+"parts": "mini(小) + mal(…的)",
+"m": "最小的，极少的"
+},
+{
+"w": "diminish",
+"parts": "di(加强) + min(小) + ish(动词)",
+"m": "减少，缩小"
+},
+{
+"w": "minute",
+"parts": "min(小) + ute",
+"m": "分钟；微小的"
+},
+{
+"w": "minus",
+"parts": "min(小) + us",
+"m": "减去；负的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"min"
+],
+"meaning": "突出，伸出",
+"origin": "拉丁语 minere「突出」",
+"note": "注意与表示「小」的 min 区分",
+"examples": [
+{
+"w": "eminent",
+"parts": "e(出) + min(突出) + ent(…的)",
+"m": "杰出的，著名的"
+},
+{
+"w": "prominent",
+"parts": "pro(向前) + min(突出) + ent(…的)",
+"m": "突出的；著名的"
+},
+{
+"w": "imminent",
+"parts": "im(在上) + min(伸出) + ent(…的)",
+"m": "即将发生的，迫近的"
+},
+{
+"w": "preeminent",
+"parts": "pre(在前) + e(出) + min(突出) + ent(…的)",
+"m": "卓越的，超群的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mir",
+"mar"
+],
+"meaning": "惊奇",
+"origin": "拉丁语 mirari「惊奇」",
+"note": "",
+"examples": [
+{
+"w": "admire",
+"parts": "ad(向) + mir(惊奇) + e",
+"m": "钦佩，欣赏"
+},
+{
+"w": "admirable",
+"parts": "ad(向) + mir(惊奇) + able(值得…的)",
+"m": "令人钦佩的"
+},
+{
+"w": "miracle",
+"parts": "mir(惊奇) + acle(名词)",
+"m": "奇迹"
+},
+{
+"w": "mirage",
+"parts": "mir(惊奇) + age(名词)",
+"m": "海市蜃楼；幻想"
+},
+{
+"w": "marvel",
+"parts": "mar(惊奇) + vel",
+"m": "奇迹；惊叹"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"misc",
+"mix"
+],
+"meaning": "混合",
+"origin": "拉丁语 miscere（过去分词 mixtus）「混合」",
+"note": "",
+"examples": [
+{
+"w": "miscellaneous",
+"parts": "misc(混合) + ellane + ous(…的)",
+"m": "各种各样的，混杂的"
+},
+{
+"w": "promiscuous",
+"parts": "pro(向前) + misc(混合) + uous(…的)",
+"m": "混杂的；滥交的"
+},
+{
+"w": "mixture",
+"parts": "mix(混合) + ture(名词)",
+"m": "混合物"
+},
+{
+"w": "admixture",
+"parts": "ad(加上) + mix(混合) + ture(名词)",
+"m": "混合；掺杂物"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mit",
+"miss",
+"mis"
+],
+"meaning": "送，放出",
+"origin": "拉丁语 mittere（过去分词 missus）「送，放」",
+"note": "",
+"examples": [
+{
+"w": "mission",
+"parts": "miss(派送) + ion(名词)",
+"m": "使命；任务；使团"
+},
+{
+"w": "transmit",
+"parts": "trans(穿过) + mit(送)",
+"m": "传送，传播"
+},
+{
+"w": "submit",
+"parts": "sub(在下) + mit(放)",
+"m": "提交；屈服"
+},
+{
+"w": "permit",
+"parts": "per(通过) + mit(放)",
+"m": "允许；许可证"
+},
+{
+"w": "emit",
+"parts": "e(出) + mit(放)",
+"m": "发出，排放"
+},
+{
+"w": "dismiss",
+"parts": "dis(分开) + miss(送走)",
+"m": "解散；解雇；不予考虑"
+},
+{
+"w": "commit",
+"parts": "com(加强) + mit(交付)",
+"m": "犯（罪）；承诺；投入"
+},
+{
+"w": "promise",
+"parts": "pro(向前) + mis(送出) + e",
+"m": "承诺；前途"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mne",
+"mnes"
+],
+"meaning": "记忆",
+"origin": "希腊语 mnasthai「记住」，mneme「记忆」",
+"note": "",
+"examples": [
+{
+"w": "amnesia",
+"parts": "a(无) + mnes(记忆) + ia(病症)",
+"m": "健忘症，失忆"
+},
+{
+"w": "amnesty",
+"parts": "a(不) + mnes(记) + ty(名词)",
+"m": "大赦，特赦"
+},
+{
+"w": "mnemonic",
+"parts": "mnemon(记忆的) + ic(…的)",
+"m": "助记的；记忆术"
+},
+{
+"w": "amnesiac",
+"parts": "a(无) + mnes(记忆) + iac(人)",
+"m": "健忘症患者"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mov",
+"mot",
+"mob"
+],
+"meaning": "动",
+"origin": "拉丁语 movere（过去分词 motus）「移动」；mobilis「可动的」",
+"note": "",
+"examples": [
+{
+"w": "movement",
+"parts": "mov(动) + e + ment(名词)",
+"m": "运动；移动"
+},
+{
+"w": "motion",
+"parts": "mot(动) + ion(名词)",
+"m": "运动；动议"
+},
+{
+"w": "motive",
+"parts": "mot(动) + ive(名词)",
+"m": "动机"
+},
+{
+"w": "promote",
+"parts": "pro(向前) + mot(动) + e",
+"m": "促进；提升；推销"
+},
+{
+"w": "remote",
+"parts": "re(向后) + mot(移开) + e",
+"m": "遥远的；偏僻的"
+},
+{
+"w": "emotion",
+"parts": "e(出) + mot(动) + ion(名词)",
+"m": "情感，情绪"
+},
+{
+"w": "mobile",
+"parts": "mob(动) + ile(能…的)",
+"m": "可移动的；手机"
+},
+{
+"w": "momentum",
+"parts": "mo(动) + mentum(名词)",
+"m": "势头；动量"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mod"
+],
+"meaning": "方式，尺度",
+"origin": "拉丁语 modus「尺度，方式」",
+"note": "",
+"examples": [
+{
+"w": "mode",
+"parts": "mod(方式) + e",
+"m": "模式，方式"
+},
+{
+"w": "modest",
+"parts": "mod(尺度) + est",
+"m": "谦虚的；适度的"
+},
+{
+"w": "modify",
+"parts": "mod(尺度) + ify(使…)",
+"m": "修改，调整"
+},
+{
+"w": "moderate",
+"parts": "mod(尺度) + er + ate(…的)",
+"m": "适度的，温和的"
+},
+{
+"w": "accommodate",
+"parts": "ac(向) + com(共同) + mod(尺度) + ate(使…)",
+"m": "容纳；提供住宿；适应"
+},
+{
+"w": "commodity",
+"parts": "com(加强) + mod(尺度，合适) + ity(名词)",
+"m": "商品，大宗商品"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mon",
+"monit"
+],
+"meaning": "提醒，警告",
+"origin": "拉丁语 monere（过去分词 monitus）「提醒，警告」",
+"note": "",
+"examples": [
+{
+"w": "monitor",
+"parts": "monit(提醒) + or(人/物)",
+"m": "监视器；监控"
+},
+{
+"w": "admonish",
+"parts": "ad(向) + mon(警告) + ish(动词)",
+"m": "告诫，警告"
+},
+{
+"w": "monument",
+"parts": "mon(提醒) + u + ment(名词)",
+"m": "纪念碑，遗迹"
+},
+{
+"w": "premonition",
+"parts": "pre(预先) + monit(警告) + ion(名词)",
+"m": "预感，预兆"
+},
+{
+"w": "summon",
+"parts": "sum(在下，私下) + mon(提醒)",
+"m": "召唤；召集"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"monet"
+],
+"meaning": "货币",
+"origin": "拉丁语 moneta「铸币（厂）」",
+"note": "古罗马在朱诺·莫内塔（Juno Moneta）神庙铸币，英语 money 也由此而来",
+"examples": [
+{
+"w": "monetary",
+"parts": "monet(货币) + ary(…的)",
+"m": "货币的，金融的"
+},
+{
+"w": "monetize",
+"parts": "monet(货币) + ize(使…化)",
+"m": "使货币化，变现"
+},
+{
+"w": "demonetize",
+"parts": "de(去除) + monet(货币) + ize(使…化)",
+"m": "废止（货币）流通"
+},
+{
+"w": "monetarism",
+"parts": "monet(货币) + ar + ism(主义)",
+"m": "货币主义"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"monstr"
+],
+"meaning": "显示",
+"origin": "拉丁语 monstrare「显示，指出」",
+"note": "",
+"examples": [
+{
+"w": "demonstrate",
+"parts": "de(加强) + monstr(显示) + ate(动词)",
+"m": "证明；示范；示威"
+},
+{
+"w": "demonstration",
+"parts": "de(加强) + monstr(显示) + ation(名词)",
+"m": "示范；示威游行"
+},
+{
+"w": "demonstrable",
+"parts": "de(加强) + monstr(显示) + able(能…的)",
+"m": "可证明的，明显的"
+},
+{
+"w": "remonstrate",
+"parts": "re(反) + monstr(显示) + ate(动词)",
+"m": "抗议，规劝"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mor"
+],
+"meaning": "风俗，道德",
+"origin": "拉丁语 mos（复数 mores）「习俗」",
+"note": "",
+"examples": [
+{
+"w": "moral",
+"parts": "mor(风俗) + al(…的)",
+"m": "道德的；寓意"
+},
+{
+"w": "morality",
+"parts": "mor(风俗) + al + ity(名词)",
+"m": "道德"
+},
+{
+"w": "morale",
+"parts": "mor(风俗) + ale",
+"m": "士气"
+},
+{
+"w": "mores",
+"parts": "mor(风俗) + es(复数)",
+"m": "习俗，惯例"
+},
+{
+"w": "demoralize",
+"parts": "de(去除) + mor(道德) + al + ize(使…)",
+"m": "使士气低落"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"morph"
+],
+"meaning": "形状，形态",
+"origin": "希腊语 morphe「形状」",
+"note": "",
+"examples": [
+{
+"w": "morphology",
+"parts": "morph(形态) + ology(学科)",
+"m": "形态学；词法"
+},
+{
+"w": "metamorphosis",
+"parts": "meta(变化) + morph(形状) + osis(过程)",
+"m": "变形，蜕变"
+},
+{
+"w": "amorphous",
+"parts": "a(无) + morph(形状) + ous(…的)",
+"m": "无定形的"
+},
+{
+"w": "polymorphic",
+"parts": "poly(多) + morph(形态) + ic(…的)",
+"m": "多形态的"
+},
+{
+"w": "anthropomorphic",
+"parts": "anthropo(人) + morph(形态) + ic(…的)",
+"m": "拟人化的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mort"
+],
+"meaning": "死",
+"origin": "拉丁语 mors（属格 mortis）「死亡」",
+"note": "",
+"examples": [
+{
+"w": "mortal",
+"parts": "mort(死) + al(…的)",
+"m": "致命的；凡人"
+},
+{
+"w": "immortal",
+"parts": "im(不) + mort(死) + al(…的)",
+"m": "不朽的"
+},
+{
+"w": "mortality",
+"parts": "mort(死) + al + ity(名词)",
+"m": "死亡率"
+},
+{
+"w": "mortgage",
+"parts": "mort(死) + gage(抵押)",
+"m": "抵押贷款，按揭"
+},
+{
+"w": "mortify",
+"parts": "mort(死) + ify(使…)",
+"m": "使羞愧"
+},
+{
+"w": "postmortem",
+"parts": "post(在后) + mort(死) + em",
+"m": "验尸；事后分析"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mount"
+],
+"meaning": "山；登上",
+"origin": "拉丁语 mons（属格 montis）「山」，经古法语 monter「登上」",
+"note": "",
+"examples": [
+{
+"w": "mountain",
+"parts": "mount(山) + ain",
+"m": "山"
+},
+{
+"w": "amount",
+"parts": "a(向) + mount(上)",
+"m": "数量；总计"
+},
+{
+"w": "surmount",
+"parts": "sur(在上) + mount(登上)",
+"m": "克服；登上"
+},
+{
+"w": "insurmountable",
+"parts": "in(不) + sur(在上) + mount(登上) + able(能…的)",
+"m": "难以克服的"
+},
+{
+"w": "dismount",
+"parts": "dis(相反) + mount(登上)",
+"m": "下马，下车"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mun",
+"muni",
+"mon"
+],
+"meaning": "公共；义务，礼物",
+"origin": "拉丁语 munus「职责，礼物」，communis「共同的」",
+"note": "",
+"examples": [
+{
+"w": "community",
+"parts": "com(共同) + mun(公共) + ity(名词)",
+"m": "社区；群体"
+},
+{
+"w": "communicate",
+"parts": "com(共同) + mun(公共) + ic + ate(动词)",
+"m": "交流，传达"
+},
+{
+"w": "common",
+"parts": "com(共同) + mon(公共)",
+"m": "共同的；普通的"
+},
+{
+"w": "municipal",
+"parts": "muni(义务) + cip(承担) + al(…的)",
+"m": "市政的"
+},
+{
+"w": "immune",
+"parts": "im(无) + mune(义务)",
+"m": "免疫的；豁免的"
+},
+{
+"w": "remunerate",
+"parts": "re(回) + muner(礼物) + ate(动词)",
+"m": "酬劳，付报酬"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"mut"
+],
+"meaning": "变化，交换",
+"origin": "拉丁语 mutare「改变」",
+"note": "",
+"examples": [
+{
+"w": "mutate",
+"parts": "mut(变) + ate(动词)",
+"m": "变异，突变"
+},
+{
+"w": "mutual",
+"parts": "mut(交换) + ual(…的)",
+"m": "相互的，共同的"
+},
+{
+"w": "commute",
+"parts": "com(加强) + mut(交换) + e",
+"m": "通勤；减刑"
+},
+{
+"w": "permutation",
+"parts": "per(彻底) + mut(变) + ation(名词)",
+"m": "排列；变更"
+},
+{
+"w": "transmute",
+"parts": "trans(转变) + mut(变) + e",
+"m": "使变形，转化"
+},
+{
+"w": "immutable",
+"parts": "im(不) + mut(变) + able(能…的)",
+"m": "不可改变的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"narr"
+],
+"meaning": "讲述",
+"origin": "拉丁语 narrare「讲述」",
+"note": "",
+"examples": [
+{
+"w": "narrate",
+"parts": "narr(讲述) + ate(动词)",
+"m": "叙述，讲述"
+},
+{
+"w": "narrative",
+"parts": "narr(讲述) + ative(…的/名词)",
+"m": "叙事，记叙文"
+},
+{
+"w": "narrator",
+"parts": "narr(讲述) + ator(人)",
+"m": "叙述者，解说员"
+},
+{
+"w": "narration",
+"parts": "narr(讲述) + ation(名词)",
+"m": "叙述，旁白"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nat",
+"nasc",
+"naiss"
+],
+"meaning": "出生",
+"origin": "拉丁语 nasci（过去分词 natus）「出生」",
+"note": "",
+"examples": [
+{
+"w": "native",
+"parts": "nat(出生) + ive(…的)",
+"m": "本地的，天生的；本地人"
+},
+{
+"w": "nature",
+"parts": "nat(出生) + ure(名词)",
+"m": "自然；天性"
+},
+{
+"w": "nation",
+"parts": "nat(出生) + ion(名词)",
+"m": "国家，民族"
+},
+{
+"w": "innate",
+"parts": "in(在内) + nat(出生) + e",
+"m": "天生的，固有的"
+},
+{
+"w": "prenatal",
+"parts": "pre(在前) + nat(出生) + al(…的)",
+"m": "产前的"
+},
+{
+"w": "nascent",
+"parts": "nasc(出生) + ent(…的)",
+"m": "新生的，初期的"
+},
+{
+"w": "renaissance",
+"parts": "re(再) + naiss(出生) + ance(名词)",
+"m": "复兴；文艺复兴"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"naut",
+"nau"
+],
+"meaning": "船，航行",
+"origin": "希腊语 naus「船」，nautes「水手」",
+"note": "",
+"examples": [
+{
+"w": "nautical",
+"parts": "naut(航海) + ical(…的)",
+"m": "航海的，海事的"
+},
+{
+"w": "astronaut",
+"parts": "astro(星) + naut(航行者)",
+"m": "宇航员"
+},
+{
+"w": "cosmonaut",
+"parts": "cosmo(宇宙) + naut(航行者)",
+"m": "（俄罗斯）宇航员"
+},
+{
+"w": "aeronautics",
+"parts": "aero(空气) + naut(航行) + ics(学科)",
+"m": "航空学"
+},
+{
+"w": "nausea",
+"parts": "nau(船) + sea(病状)",
+"m": "恶心，晕船"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nav"
+],
+"meaning": "船",
+"origin": "拉丁语 navis「船」",
+"note": "",
+"examples": [
+{
+"w": "navy",
+"parts": "nav(船) + y(集合名词)",
+"m": "海军"
+},
+{
+"w": "naval",
+"parts": "nav(船) + al(…的)",
+"m": "海军的"
+},
+{
+"w": "navigate",
+"parts": "nav(船) + ig(驱动) + ate(动词)",
+"m": "航行；导航"
+},
+{
+"w": "navigable",
+"parts": "nav(船) + ig(驱动) + able(能…的)",
+"m": "可通航的"
+},
+{
+"w": "circumnavigate",
+"parts": "circum(环绕) + nav(船) + ig(驱动) + ate(动词)",
+"m": "环航（地球）"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nect",
+"nex"
+],
+"meaning": "连接",
+"origin": "拉丁语 nectere（过去分词 nexus）「系，连结」",
+"note": "",
+"examples": [
+{
+"w": "connect",
+"parts": "con(共同) + nect(连接)",
+"m": "连接；联系"
+},
+{
+"w": "disconnect",
+"parts": "dis(分开) + con(共同) + nect(连接)",
+"m": "断开，切断"
+},
+{
+"w": "connection",
+"parts": "con(共同) + nect(连接) + ion(名词)",
+"m": "连接；关系"
+},
+{
+"w": "annex",
+"parts": "an(向) + nex(连接)",
+"m": "吞并；附加；附属建筑"
+},
+{
+"w": "nexus",
+"parts": "nex(连接) + us(名词)",
+"m": "联系；中心，核心"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"neg",
+"ny"
+],
+"meaning": "否认",
+"origin": "拉丁语 negare「否认，说不」",
+"note": "",
+"examples": [
+{
+"w": "negate",
+"parts": "neg(否认) + ate(动词)",
+"m": "否定；使无效"
+},
+{
+"w": "negative",
+"parts": "neg(否认) + ative(…的)",
+"m": "否定的；消极的；负的"
+},
+{
+"w": "negation",
+"parts": "neg(否认) + ation(名词)",
+"m": "否定，否认"
+},
+{
+"w": "deny",
+"parts": "de(加强) + ny(否认)",
+"m": "否认；拒绝给予"
+},
+{
+"w": "renegade",
+"parts": "re(反) + neg(否认) + ade(人)",
+"m": "叛徒，变节者"
+},
+{
+"w": "abnegate",
+"parts": "ab(离开) + neg(否认) + ate(动词)",
+"m": "放弃；克制"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"neur"
+],
+"meaning": "神经",
+"origin": "希腊语 neuron「神经；筋」",
+"note": "",
+"examples": [
+{
+"w": "neuron",
+"parts": "neur(神经) + on(名词)",
+"m": "神经元"
+},
+{
+"w": "neural",
+"parts": "neur(神经) + al(…的)",
+"m": "神经的"
+},
+{
+"w": "neurology",
+"parts": "neur(神经) + ology(学科)",
+"m": "神经病学"
+},
+{
+"w": "neurotic",
+"parts": "neur(神经) + otic(…的)",
+"m": "神经质的；神经过敏的"
+},
+{
+"w": "neuroscience",
+"parts": "neur(神经) + o + science(科学)",
+"m": "神经科学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"noc",
+"nox"
+],
+"meaning": "伤害",
+"origin": "拉丁语 nocere「伤害」，noxa「伤害」",
+"note": "",
+"examples": [
+{
+"w": "innocent",
+"parts": "in(无) + noc(伤害) + ent(…的)",
+"m": "无辜的；天真的"
+},
+{
+"w": "innocuous",
+"parts": "in(无) + noc(伤害) + uous(…的)",
+"m": "无害的；无伤大雅的"
+},
+{
+"w": "noxious",
+"parts": "nox(伤害) + ious(…的)",
+"m": "有毒的，有害的"
+},
+{
+"w": "obnoxious",
+"parts": "ob(向) + nox(伤害) + ious(…的)",
+"m": "令人讨厌的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nomin",
+"nom",
+"nomen"
+],
+"meaning": "名字",
+"origin": "拉丁语 nomen（属格 nominis）「名字」",
+"note": "",
+"examples": [
+{
+"w": "nominate",
+"parts": "nomin(名字) + ate(动词)",
+"m": "提名，任命"
+},
+{
+"w": "nominal",
+"parts": "nomin(名字) + al(…的)",
+"m": "名义上的；（金额）微不足道的"
+},
+{
+"w": "nominee",
+"parts": "nomin(名字) + ee(被…的人)",
+"m": "被提名者"
+},
+{
+"w": "denomination",
+"parts": "de(加强) + nomin(名字) + ation(名词)",
+"m": "面额；宗派；命名"
+},
+{
+"w": "nomenclature",
+"parts": "nomen(名字) + clat(召唤) + ure(名词)",
+"m": "命名法；术语"
+},
+{
+"w": "misnomer",
+"parts": "mis(错误) + nom(名字) + er(名词)",
+"m": "用词不当，误称"
+},
+{
+"w": "ignominy",
+"parts": "ig(无) + nomin(名字) + y(名词)",
+"m": "耻辱，不光彩"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nom",
+"nomy"
+],
+"meaning": "法则，管理",
+"origin": "希腊语 nomos「法则」，nemein「分配，管理」",
+"note": "注意与拉丁语表示「名字」的 nom 区分",
+"examples": [
+{
+"w": "economy",
+"parts": "eco(家) + nomy(管理)",
+"m": "经济；节约"
+},
+{
+"w": "autonomy",
+"parts": "auto(自己) + nomy(法则)",
+"m": "自治；自主权"
+},
+{
+"w": "astronomy",
+"parts": "astro(星) + nomy(法则)",
+"m": "天文学"
+},
+{
+"w": "agronomy",
+"parts": "agro(田地) + nomy(管理)",
+"m": "农学"
+},
+{
+"w": "taxonomy",
+"parts": "taxo(排列) + nomy(法则)",
+"m": "分类学，分类法"
+},
+{
+"w": "gastronomy",
+"parts": "gastro(胃) + nomy(法则)",
+"m": "烹饪法；美食学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"norm"
+],
+"meaning": "规范，标准",
+"origin": "拉丁语 norma「木工角尺；规则」",
+"note": "",
+"examples": [
+{
+"w": "normal",
+"parts": "norm(规范) + al(…的)",
+"m": "正常的，标准的"
+},
+{
+"w": "abnormal",
+"parts": "ab(偏离) + norm(规范) + al(…的)",
+"m": "反常的，异常的"
+},
+{
+"w": "enormous",
+"parts": "e(超出) + norm(规范) + ous(…的)",
+"m": "巨大的"
+},
+{
+"w": "normative",
+"parts": "norm(规范) + ative(…的)",
+"m": "规范的，标准的"
+},
+{
+"w": "normalize",
+"parts": "norm(规范) + al + ize(使…化)",
+"m": "使正常化"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"not"
+],
+"meaning": "标记；知道",
+"origin": "拉丁语 nota「标记」，noscere（过去分词 notus）「知道」",
+"note": "",
+"examples": [
+{
+"w": "notify",
+"parts": "not(知道) + ify(使…)",
+"m": "通知"
+},
+{
+"w": "notion",
+"parts": "not(知道) + ion(名词)",
+"m": "概念，观念"
+},
+{
+"w": "notorious",
+"parts": "not(知道) + orious(…的)",
+"m": "臭名昭著的"
+},
+{
+"w": "annotate",
+"parts": "an(向) + not(标记) + ate(动词)",
+"m": "注解，注释"
+},
+{
+"w": "denote",
+"parts": "de(加强) + not(标记) + e",
+"m": "表示，意味着"
+},
+{
+"w": "connotation",
+"parts": "con(共同) + not(标记) + ation(名词)",
+"m": "内涵，隐含意义"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nounce",
+"nunci"
+],
+"meaning": "宣告，报告",
+"origin": "拉丁语 nuntiare「报告，宣布」",
+"note": "",
+"examples": [
+{
+"w": "announce",
+"parts": "an(向) + nounce(宣告)",
+"m": "宣布"
+},
+{
+"w": "pronounce",
+"parts": "pro(向前) + nounce(宣告)",
+"m": "发音；宣判"
+},
+{
+"w": "denounce",
+"parts": "de(向下) + nounce(宣告)",
+"m": "谴责；告发"
+},
+{
+"w": "renounce",
+"parts": "re(反) + nounce(宣告)",
+"m": "放弃；宣布断绝"
+},
+{
+"w": "pronunciation",
+"parts": "pro(向前) + nunci(宣告) + ation(名词)",
+"m": "发音"
+},
+{
+"w": "enunciate",
+"parts": "e(出) + nunci(宣告) + ate(动词)",
+"m": "清楚地发音；阐明"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nov"
+],
+"meaning": "新",
+"origin": "拉丁语 novus「新的」",
+"note": "",
+"examples": [
+{
+"w": "novel",
+"parts": "nov(新) + el",
+"m": "新奇的；小说"
+},
+{
+"w": "novelty",
+"parts": "nov(新) + el + ty(名词)",
+"m": "新奇；新奇的事物"
+},
+{
+"w": "novice",
+"parts": "nov(新) + ice(人)",
+"m": "新手，初学者"
+},
+{
+"w": "innovate",
+"parts": "in(使) + nov(新) + ate(动词)",
+"m": "创新，革新"
+},
+{
+"w": "renovate",
+"parts": "re(再) + nov(新) + ate(动词)",
+"m": "翻新，修复"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"numer"
+],
+"meaning": "数",
+"origin": "拉丁语 numerus「数」",
+"note": "",
+"examples": [
+{
+"w": "numerous",
+"parts": "numer(数) + ous(…的)",
+"m": "众多的"
+},
+{
+"w": "numeral",
+"parts": "numer(数) + al(名词)",
+"m": "数字，数词"
+},
+{
+"w": "numerical",
+"parts": "numer(数) + ical(…的)",
+"m": "数字的，数值的"
+},
+{
+"w": "enumerate",
+"parts": "e(出) + numer(数) + ate(动词)",
+"m": "列举，枚举"
+},
+{
+"w": "innumerable",
+"parts": "in(不) + numer(数) + able(能…的)",
+"m": "无数的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"nutr",
+"nour",
+"nurt"
+],
+"meaning": "滋养",
+"origin": "拉丁语 nutrire「喂养，滋养」",
+"note": "",
+"examples": [
+{
+"w": "nutrition",
+"parts": "nutr(滋养) + ition(名词)",
+"m": "营养"
+},
+{
+"w": "nutrient",
+"parts": "nutr(滋养) + ient(名词)",
+"m": "营养素，养分"
+},
+{
+"w": "nutritious",
+"parts": "nutr(滋养) + itious(…的)",
+"m": "有营养的"
+},
+{
+"w": "malnutrition",
+"parts": "mal(坏) + nutr(滋养) + ition(名词)",
+"m": "营养不良"
+},
+{
+"w": "nourish",
+"parts": "nour(滋养) + ish(动词)",
+"m": "滋养；培育"
+},
+{
+"w": "nurture",
+"parts": "nurt(滋养) + ure(名词)",
+"m": "养育，培养"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"onym",
+"nym"
+],
+"meaning": "名字",
+"origin": "希腊语 onyma（onoma）「名字」",
+"note": "",
+"examples": [
+{
+"w": "synonym",
+"parts": "syn(相同) + onym(名字)",
+"m": "同义词"
+},
+{
+"w": "antonym",
+"parts": "ant(相反) + onym(名字)",
+"m": "反义词"
+},
+{
+"w": "anonymous",
+"parts": "an(无) + onym(名字) + ous(…的)",
+"m": "匿名的"
+},
+{
+"w": "pseudonym",
+"parts": "pseud(假) + onym(名字)",
+"m": "笔名，假名"
+},
+{
+"w": "acronym",
+"parts": "acr(顶端，首) + onym(名字)",
+"m": "首字母缩略词"
+},
+{
+"w": "homonym",
+"parts": "hom(相同) + onym(名字)",
+"m": "同音（同形）异义词"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ocul"
+],
+"meaning": "眼",
+"origin": "拉丁语 oculus「眼睛；芽眼」",
+"note": "",
+"examples": [
+{
+"w": "ocular",
+"parts": "ocul(眼) + ar(…的)",
+"m": "眼睛的，视觉的"
+},
+{
+"w": "binocular",
+"parts": "bin(双) + ocul(眼) + ar(…的)",
+"m": "双筒的；双筒望远镜"
+},
+{
+"w": "monocular",
+"parts": "mon(单) + ocul(眼) + ar(…的)",
+"m": "单眼的"
+},
+{
+"w": "inoculate",
+"parts": "in(向内) + ocul(芽眼) + ate(动词)",
+"m": "接种，注射疫苗"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"od",
+"hod"
+],
+"meaning": "道路",
+"origin": "希腊语 hodos「道路」",
+"note": "",
+"examples": [
+{
+"w": "method",
+"parts": "met(追随) + hod(道路)",
+"m": "方法"
+},
+{
+"w": "period",
+"parts": "peri(周围) + od(道路)",
+"m": "时期；周期；句号"
+},
+{
+"w": "episode",
+"parts": "epi(在…上) + is(进入) + ode(道路)",
+"m": "插曲；（一）集；事件"
+},
+{
+"w": "exodus",
+"parts": "ex(出) + od(道路) + us",
+"m": "大批离去，出走"
+},
+{
+"w": "odometer",
+"parts": "odo(道路) + meter(测量)",
+"m": "里程表"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ody",
+"od",
+"edy"
+],
+"meaning": "歌",
+"origin": "希腊语 oide「歌」",
+"note": "",
+"examples": [
+{
+"w": "melody",
+"parts": "mel(曲调) + ody(歌)",
+"m": "旋律"
+},
+{
+"w": "parody",
+"parts": "par(旁，模仿) + ody(歌)",
+"m": "滑稽模仿；恶搞"
+},
+{
+"w": "rhapsody",
+"parts": "rhaps(缝合) + ody(歌)",
+"m": "狂想曲；狂喜"
+},
+{
+"w": "comedy",
+"parts": "com(狂欢) + edy(歌)",
+"m": "喜剧"
+},
+{
+"w": "tragedy",
+"parts": "trag(山羊) + edy(歌)",
+"m": "悲剧"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"oper",
+"opus"
+],
+"meaning": "工作",
+"origin": "拉丁语 opus（属格 operis）「工作」，operari「工作」",
+"note": "",
+"examples": [
+{
+"w": "operate",
+"parts": "oper(工作) + ate(动词)",
+"m": "操作；运营；动手术"
+},
+{
+"w": "operation",
+"parts": "oper(工作) + ation(名词)",
+"m": "运作；手术；行动"
+},
+{
+"w": "cooperate",
+"parts": "co(共同) + oper(工作) + ate(动词)",
+"m": "合作"
+},
+{
+"w": "operational",
+"parts": "oper(工作) + ation + al(…的)",
+"m": "运营的；可使用的"
+},
+{
+"w": "opera",
+"parts": "oper(工作，作品) + a",
+"m": "歌剧"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"opt"
+],
+"meaning": "选择",
+"origin": "拉丁语 optare「选择，希望」",
+"note": "",
+"examples": [
+{
+"w": "opt",
+"parts": "opt(选择)",
+"m": "选择"
+},
+{
+"w": "option",
+"parts": "opt(选择) + ion(名词)",
+"m": "选择；期权"
+},
+{
+"w": "optional",
+"parts": "opt(选择) + ion + al(…的)",
+"m": "可选的"
+},
+{
+"w": "adopt",
+"parts": "ad(向) + opt(选择)",
+"m": "采用；收养"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"opt",
+"ops",
+"op"
+],
+"meaning": "眼，视力",
+"origin": "希腊语 opsis「视觉」，optos「看得见的」",
+"note": "注意与拉丁语表示「选择」的 opt 区分",
+"examples": [
+{
+"w": "optical",
+"parts": "opt(视力) + ical(…的)",
+"m": "光学的；视觉的"
+},
+{
+"w": "optician",
+"parts": "opt(视力) + ician(专业人员)",
+"m": "配镜师"
+},
+{
+"w": "synopsis",
+"parts": "syn(共同) + ops(看) + is(名词)",
+"m": "概要，梗概"
+},
+{
+"w": "autopsy",
+"parts": "auto(自己) + ops(看) + y(名词)",
+"m": "尸体解剖"
+},
+{
+"w": "biopsy",
+"parts": "bio(生命) + ops(看) + y(名词)",
+"m": "活组织检查"
+},
+{
+"w": "myopia",
+"parts": "my(闭合) + op(眼) + ia(病症)",
+"m": "近视；目光短浅"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"or",
+"ora"
+],
+"meaning": "嘴；说",
+"origin": "拉丁语 os（属格 oris）「嘴」，orare「说；祈祷」",
+"note": "",
+"examples": [
+{
+"w": "oral",
+"parts": "or(嘴) + al(…的)",
+"m": "口头的；口腔的"
+},
+{
+"w": "orator",
+"parts": "or(说) + ator(人)",
+"m": "演说家"
+},
+{
+"w": "oration",
+"parts": "or(说) + ation(名词)",
+"m": "演说"
+},
+{
+"w": "oracle",
+"parts": "or(说) + acle(名词)",
+"m": "神谕；先知"
+},
+{
+"w": "adore",
+"parts": "ad(向) + or(祈祷) + e",
+"m": "崇拜，非常喜爱"
+},
+{
+"w": "inexorable",
+"parts": "in(不) + ex(出) + or(恳求) + able(能…的)",
+"m": "无法阻挡的；不为所动的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ordin",
+"ord"
+],
+"meaning": "顺序",
+"origin": "拉丁语 ordo（属格 ordinis）「顺序，行列」",
+"note": "",
+"examples": [
+{
+"w": "order",
+"parts": "ord(顺序) + er",
+"m": "顺序；命令；订单"
+},
+{
+"w": "ordinary",
+"parts": "ordin(顺序) + ary(…的)",
+"m": "普通的，平常的"
+},
+{
+"w": "extraordinary",
+"parts": "extra(超出) + ordin(顺序) + ary(…的)",
+"m": "非凡的，特别的"
+},
+{
+"w": "coordinate",
+"parts": "co(共同) + ordin(顺序) + ate(动词)",
+"m": "协调；坐标"
+},
+{
+"w": "subordinate",
+"parts": "sub(在下) + ordin(顺序) + ate(…的)",
+"m": "下级的；下属"
+},
+{
+"w": "inordinate",
+"parts": "in(无) + ordin(顺序) + ate(…的)",
+"m": "过度的，无节制的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ori",
+"ort"
+],
+"meaning": "升起，开始",
+"origin": "拉丁语 oriri「升起，起源」",
+"note": "",
+"examples": [
+{
+"w": "origin",
+"parts": "ori(开始) + gin",
+"m": "起源，来源"
+},
+{
+"w": "original",
+"parts": "ori(开始) + gin + al(…的)",
+"m": "原始的；独创的"
+},
+{
+"w": "originate",
+"parts": "ori(开始) + gin + ate(动词)",
+"m": "起源于；发起"
+},
+{
+"w": "orient",
+"parts": "ori(升起) + ent(名词)",
+"m": "东方；使适应，定位"
+},
+{
+"w": "aboriginal",
+"parts": "ab(从) + ori(开始) + gin + al(…的)",
+"m": "土著的，原始的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"orn"
+],
+"meaning": "装饰",
+"origin": "拉丁语 ornare「装饰」",
+"note": "",
+"examples": [
+{
+"w": "ornament",
+"parts": "orn(装饰) + a + ment(名词)",
+"m": "装饰品"
+},
+{
+"w": "ornamental",
+"parts": "orn(装饰) + a + ment + al(…的)",
+"m": "装饰性的"
+},
+{
+"w": "ornate",
+"parts": "orn(装饰) + ate(…的)",
+"m": "华丽的，装饰繁复的"
+},
+{
+"w": "adorn",
+"parts": "ad(加上) + orn(装饰)",
+"m": "装饰，装扮"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"orth",
+"ortho"
+],
+"meaning": "正，直",
+"origin": "希腊语 orthos「正的，直的」",
+"note": "",
+"examples": [
+{
+"w": "orthodox",
+"parts": "ortho(正) + dox(观点)",
+"m": "正统的；传统的"
+},
+{
+"w": "orthodoxy",
+"parts": "ortho(正) + dox(观点) + y(名词)",
+"m": "正统观念"
+},
+{
+"w": "orthography",
+"parts": "ortho(正) + graph(写) + y(名词)",
+"m": "正字法，拼写法"
+},
+{
+"w": "orthodontics",
+"parts": "orth(正) + odont(牙) + ics(学科)",
+"m": "正畸学"
+},
+{
+"w": "orthopedic",
+"parts": "ortho(正) + ped(儿童) + ic(…的)",
+"m": "整形外科的，骨科的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pac",
+"pax",
+"peas",
+"peac"
+],
+"meaning": "和平",
+"origin": "拉丁语 pax（属格 pacis）「和平」",
+"note": "",
+"examples": [
+{
+"w": "pacific",
+"parts": "pac(和平) + i + fic(使…)",
+"m": "和平的；太平洋的"
+},
+{
+"w": "pacify",
+"parts": "pac(和平) + ify(使…)",
+"m": "使平静；平定"
+},
+{
+"w": "pacifist",
+"parts": "pac(和平) + if(使…) + ist(主张者)",
+"m": "和平主义者"
+},
+{
+"w": "appease",
+"parts": "ap(使) + peas(和平) + e",
+"m": "安抚；绥靖"
+},
+{
+"w": "peaceful",
+"parts": "peac(和平) + e + ful(…的)",
+"m": "和平的，平静的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pan"
+],
+"meaning": "面包",
+"origin": "拉丁语 panis「面包」",
+"note": "company 原指「一起吃面包的人」",
+"examples": [
+{
+"w": "company",
+"parts": "com(共同) + pan(面包) + y(名词)",
+"m": "公司；陪伴；同伴"
+},
+{
+"w": "companion",
+"parts": "com(共同) + pan(面包) + ion(人)",
+"m": "同伴，伴侣"
+},
+{
+"w": "accompany",
+"parts": "ac(向) + com(共同) + pan(面包) + y",
+"m": "陪伴；伴随"
+},
+{
+"w": "pantry",
+"parts": "pan(面包) + try(场所)",
+"m": "食品储藏室"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pand",
+"pans"
+],
+"meaning": "展开",
+"origin": "拉丁语 pandere（过去分词 pansus/passus）「展开」",
+"note": "",
+"examples": [
+{
+"w": "expand",
+"parts": "ex(向外) + pand(展开)",
+"m": "扩大，扩张"
+},
+{
+"w": "expansion",
+"parts": "ex(向外) + pans(展开) + ion(名词)",
+"m": "扩张，膨胀"
+},
+{
+"w": "expanse",
+"parts": "ex(向外) + pans(展开) + e",
+"m": "广阔的区域"
+},
+{
+"w": "expansive",
+"parts": "ex(向外) + pans(展开) + ive(…的)",
+"m": "广阔的；扩张性的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"par",
+"peer"
+],
+"meaning": "平等，相等",
+"origin": "拉丁语 par「相等的」",
+"note": "",
+"examples": [
+{
+"w": "parity",
+"parts": "par(相等) + ity(名词)",
+"m": "平等；（汇率）平价"
+},
+{
+"w": "compare",
+"parts": "com(共同) + par(相等) + e",
+"m": "比较"
+},
+{
+"w": "comparable",
+"parts": "com(共同) + par(相等) + able(能…的)",
+"m": "可比较的；比得上的"
+},
+{
+"w": "disparity",
+"parts": "dis(不) + par(相等) + ity(名词)",
+"m": "差距，悬殊"
+},
+{
+"w": "peer",
+"parts": "peer(同等的人)",
+"m": "同龄人，同辈；凝视"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"par",
+"pair"
+],
+"meaning": "准备",
+"origin": "拉丁语 parare「准备，安排」",
+"note": "",
+"examples": [
+{
+"w": "prepare",
+"parts": "pre(预先) + par(准备) + e",
+"m": "准备"
+},
+{
+"w": "repair",
+"parts": "re(再) + pair(准备)",
+"m": "修理；补救"
+},
+{
+"w": "separate",
+"parts": "se(分开) + par(准备，安排) + ate(动词)",
+"m": "分开；单独的"
+},
+{
+"w": "apparatus",
+"parts": "ap(向) + par(准备) + atus(名词)",
+"m": "器械，设备；机构"
+},
+{
+"w": "reparation",
+"parts": "re(再) + par(准备) + ation(名词)",
+"m": "赔偿；补偿"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"par",
+"pear"
+],
+"meaning": "出现",
+"origin": "拉丁语 parere「出现，显露」",
+"note": "",
+"examples": [
+{
+"w": "appear",
+"parts": "ap(向) + pear(出现)",
+"m": "出现；似乎"
+},
+{
+"w": "disappear",
+"parts": "dis(不) + ap(向) + pear(出现)",
+"m": "消失"
+},
+{
+"w": "apparent",
+"parts": "ap(向) + par(出现) + ent(…的)",
+"m": "明显的；表面上的"
+},
+{
+"w": "transparent",
+"parts": "trans(穿过) + par(出现) + ent(…的)",
+"m": "透明的；显而易见的"
+},
+{
+"w": "apparition",
+"parts": "ap(向) + par(出现) + ition(名词)",
+"m": "幽灵；出现"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"part",
+"pars",
+"port"
+],
+"meaning": "部分",
+"origin": "拉丁语 pars（属格 partis）「部分」，portio「份额」",
+"note": "",
+"examples": [
+{
+"w": "partial",
+"parts": "part(部分) + ial(…的)",
+"m": "部分的；偏袒的"
+},
+{
+"w": "particle",
+"parts": "part(部分) + icle(小)",
+"m": "微粒，颗粒"
+},
+{
+"w": "participate",
+"parts": "parti(部分) + cip(拿) + ate(动词)",
+"m": "参与，参加"
+},
+{
+"w": "depart",
+"parts": "de(离开) + part(部分，分开)",
+"m": "离开，出发"
+},
+{
+"w": "impart",
+"parts": "im(使) + part(部分)",
+"m": "传授；给予"
+},
+{
+"w": "particular",
+"parts": "part(部分) + icul(小) + ar(…的)",
+"m": "特定的；挑剔的"
+},
+{
+"w": "proportion",
+"parts": "pro(按照) + port(部分) + ion(名词)",
+"m": "比例；部分"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pass"
+],
+"meaning": "通过；步",
+"origin": "拉丁语 passus「步」，经古法语 passer「通过」",
+"note": "",
+"examples": [
+{
+"w": "passage",
+"parts": "pass(通过) + age(名词)",
+"m": "通道；（文章）段落"
+},
+{
+"w": "passenger",
+"parts": "pass(通过) + enger(人)",
+"m": "乘客"
+},
+{
+"w": "surpass",
+"parts": "sur(超过) + pass(通过)",
+"m": "超过，胜过"
+},
+{
+"w": "trespass",
+"parts": "tres(越过) + pass(通过)",
+"m": "擅自进入；侵犯"
+},
+{
+"w": "passport",
+"parts": "pass(通过) + port(港口)",
+"m": "护照"
+},
+{
+"w": "compass",
+"parts": "com(加强) + pass(步)",
+"m": "指南针；圆规；范围"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pass",
+"pati",
+"pat"
+],
+"meaning": "忍受，感情",
+"origin": "拉丁语 pati（过去分词 passus）「遭受，忍受」",
+"note": "注意与表示「通过」的 pass 区分",
+"examples": [
+{
+"w": "passion",
+"parts": "pass(感情，受苦) + ion(名词)",
+"m": "激情，热情"
+},
+{
+"w": "passive",
+"parts": "pass(忍受) + ive(…的)",
+"m": "被动的，消极的"
+},
+{
+"w": "compassion",
+"parts": "com(共同) + pass(感受) + ion(名词)",
+"m": "同情，怜悯"
+},
+{
+"w": "patient",
+"parts": "pati(忍受) + ent(…的/人)",
+"m": "耐心的；病人"
+},
+{
+"w": "impatient",
+"parts": "im(不) + pati(忍受) + ent(…的)",
+"m": "不耐烦的"
+},
+{
+"w": "compatible",
+"parts": "com(共同) + pat(忍受) + ible(能…的)",
+"m": "兼容的，和睦相处的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"patr",
+"pater",
+"patri"
+],
+"meaning": "父亲；祖国",
+"origin": "拉丁语 pater（属格 patris）「父亲」，patria「祖国」",
+"note": "",
+"examples": [
+{
+"w": "paternal",
+"parts": "pater(父亲) + nal(…的)",
+"m": "父亲的；父系的"
+},
+{
+"w": "patriot",
+"parts": "patri(祖国) + ot(人)",
+"m": "爱国者"
+},
+{
+"w": "patriotic",
+"parts": "patri(祖国) + ot + ic(…的)",
+"m": "爱国的"
+},
+{
+"w": "patron",
+"parts": "patr(父亲) + on(人)",
+"m": "赞助人；老主顾"
+},
+{
+"w": "patriarch",
+"parts": "patri(父亲) + arch(统治者)",
+"m": "家长，族长"
+},
+{
+"w": "expatriate",
+"parts": "ex(离开) + patri(祖国) + ate(人/动词)",
+"m": "移居国外者；侨民"
+},
+{
+"w": "compatriot",
+"parts": "com(共同) + patri(祖国) + ot(人)",
+"m": "同胞"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"path",
+"pathy"
+],
+"meaning": "感情；痛苦，疾病",
+"origin": "希腊语 pathos「感受，痛苦」",
+"note": "",
+"examples": [
+{
+"w": "sympathy",
+"parts": "sym(共同) + pathy(感情)",
+"m": "同情；赞同"
+},
+{
+"w": "apathy",
+"parts": "a(无) + pathy(感情)",
+"m": "冷漠，无动于衷"
+},
+{
+"w": "empathy",
+"parts": "em(进入) + pathy(感情)",
+"m": "同理心，共情"
+},
+{
+"w": "antipathy",
+"parts": "anti(反) + pathy(感情)",
+"m": "反感，厌恶"
+},
+{
+"w": "pathetic",
+"parts": "path(感情，痛苦) + etic(…的)",
+"m": "可怜的；可悲的"
+},
+{
+"w": "pathology",
+"parts": "path(疾病) + ology(学科)",
+"m": "病理学"
+},
+{
+"w": "telepathy",
+"parts": "tele(远) + pathy(感应)",
+"m": "心灵感应"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pecu",
+"pecun"
+],
+"meaning": "钱财",
+"origin": "拉丁语 pecus「牲畜」→ pecunia「钱财」",
+"note": "古代以牲畜计财富，所以「牲畜」引申为「钱」",
+"examples": [
+{
+"w": "pecuniary",
+"parts": "pecuni(钱财) + ary(…的)",
+"m": "金钱的，金钱上的"
+},
+{
+"w": "impecunious",
+"parts": "im(无) + pecuni(钱财) + ous(…的)",
+"m": "身无分文的，贫穷的"
+},
+{
+"w": "peculiar",
+"parts": "pecul(私有财产) + iar(…的)",
+"m": "特有的；奇怪的"
+},
+{
+"w": "peculation",
+"parts": "pecul(私有财产) + ation(名词)",
+"m": "挪用公款，贪污"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ped",
+"pedi"
+],
+"meaning": "脚",
+"origin": "拉丁语 pes（属格 pedis）「脚」",
+"note": "",
+"examples": [
+{
+"w": "pedal",
+"parts": "ped(脚) + al(名词/…的)",
+"m": "踏板"
+},
+{
+"w": "pedestrian",
+"parts": "ped(脚) + estr + ian(人)",
+"m": "行人；平淡的"
+},
+{
+"w": "expedition",
+"parts": "ex(出) + ped(脚) + ition(名词)",
+"m": "远征，探险"
+},
+{
+"w": "expedite",
+"parts": "ex(出) + ped(脚) + ite(动词)",
+"m": "加快，促进"
+},
+{
+"w": "impede",
+"parts": "im(进入) + ped(脚) + e",
+"m": "阻碍"
+},
+{
+"w": "impediment",
+"parts": "im(进入) + ped(脚) + i + ment(名词)",
+"m": "障碍；口吃"
+},
+{
+"w": "centipede",
+"parts": "centi(百) + ped(脚) + e",
+"m": "蜈蚣"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ped",
+"paed"
+],
+"meaning": "儿童；教育",
+"origin": "希腊语 pais（属格 paidos）「儿童」，paideia「教育」",
+"note": "注意与拉丁语表示「脚」的 ped 区分",
+"examples": [
+{
+"w": "pediatrics",
+"parts": "ped(儿童) + iatr(医治) + ics(学科)",
+"m": "儿科学"
+},
+{
+"w": "pediatrician",
+"parts": "ped(儿童) + iatr(医治) + ician(专业人员)",
+"m": "儿科医生"
+},
+{
+"w": "pedagogy",
+"parts": "ped(儿童) + agog(引导) + y(名词)",
+"m": "教育学，教学法"
+},
+{
+"w": "encyclopedia",
+"parts": "en(在内) + cyclo(圆，全面) + ped(教育) + ia(名词)",
+"m": "百科全书"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pel",
+"puls"
+],
+"meaning": "推，驱使",
+"origin": "拉丁语 pellere（过去分词 pulsus）「推，驱赶」",
+"note": "",
+"examples": [
+{
+"w": "compel",
+"parts": "com(加强) + pel(驱使)",
+"m": "强迫，迫使"
+},
+{
+"w": "expel",
+"parts": "ex(出) + pel(驱)",
+"m": "驱逐，开除"
+},
+{
+"w": "propel",
+"parts": "pro(向前) + pel(推)",
+"m": "推进，推动"
+},
+{
+"w": "repel",
+"parts": "re(回) + pel(推)",
+"m": "击退；排斥；使厌恶"
+},
+{
+"w": "dispel",
+"parts": "dis(分散) + pel(驱)",
+"m": "驱散，消除"
+},
+{
+"w": "impulse",
+"parts": "im(向内) + puls(推) + e",
+"m": "冲动；推动力"
+},
+{
+"w": "compulsory",
+"parts": "com(加强) + puls(驱使) + ory(…的)",
+"m": "强制的，义务的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pen",
+"pun",
+"pain"
+],
+"meaning": "惩罚",
+"origin": "拉丁语 poena「惩罚」，punire「惩罚」",
+"note": "",
+"examples": [
+{
+"w": "penalty",
+"parts": "pen(惩罚) + al + ty(名词)",
+"m": "处罚；罚款；点球"
+},
+{
+"w": "penal",
+"parts": "pen(惩罚) + al(…的)",
+"m": "刑罚的"
+},
+{
+"w": "punish",
+"parts": "pun(惩罚) + ish(动词)",
+"m": "惩罚"
+},
+{
+"w": "punitive",
+"parts": "pun(惩罚) + itive(…的)",
+"m": "惩罚性的"
+},
+{
+"w": "impunity",
+"parts": "im(无) + pun(惩罚) + ity(名词)",
+"m": "不受惩罚"
+},
+{
+"w": "subpoena",
+"parts": "sub(在…之下) + poena(惩罚)",
+"m": "传票"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pend",
+"pens"
+],
+"meaning": "悬挂",
+"origin": "拉丁语 pendere「悬挂」",
+"note": "",
+"examples": [
+{
+"w": "depend",
+"parts": "de(向下) + pend(悬挂)",
+"m": "依靠；取决于"
+},
+{
+"w": "independent",
+"parts": "in(不) + de(向下) + pend(悬挂) + ent(…的)",
+"m": "独立的"
+},
+{
+"w": "suspend",
+"parts": "sus(在下) + pend(悬挂)",
+"m": "暂停；悬挂；停职"
+},
+{
+"w": "append",
+"parts": "ap(向) + pend(悬挂)",
+"m": "附加，添加"
+},
+{
+"w": "appendix",
+"parts": "ap(向) + pend(悬挂) + ix(名词)",
+"m": "附录；阑尾"
+},
+{
+"w": "pending",
+"parts": "pend(悬挂) + ing(…的)",
+"m": "待定的，未决的"
+},
+{
+"w": "impending",
+"parts": "im(在上) + pend(悬挂) + ing(…的)",
+"m": "即将发生的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pens",
+"pend"
+],
+"meaning": "称量；花费，支付",
+"origin": "拉丁语 pendere（过去分词 pensus）「称重；支付」",
+"note": "古时以称重金属来付款，所以「称量」引申为「支付」",
+"examples": [
+{
+"w": "expense",
+"parts": "ex(出) + pens(支付) + e",
+"m": "费用，开支"
+},
+{
+"w": "expensive",
+"parts": "ex(出) + pens(支付) + ive(…的)",
+"m": "昂贵的"
+},
+{
+"w": "expenditure",
+"parts": "ex(出) + pend(支付) + iture(名词)",
+"m": "支出，开销"
+},
+{
+"w": "pension",
+"parts": "pens(支付) + ion(名词)",
+"m": "养老金，退休金"
+},
+{
+"w": "compensate",
+"parts": "com(共同) + pens(称量) + ate(动词)",
+"m": "补偿，赔偿"
+},
+{
+"w": "dispense",
+"parts": "dis(分开) + pens(称量) + e",
+"m": "分发；免除"
+},
+{
+"w": "stipend",
+"parts": "sti(钱币) + pend(支付)",
+"m": "薪金，津贴"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"peri",
+"per"
+],
+"meaning": "尝试",
+"origin": "拉丁语 experiri「尝试」，periculum「危险，试验」",
+"note": "",
+"examples": [
+{
+"w": "experiment",
+"parts": "ex(出) + peri(尝试) + ment(名词)",
+"m": "实验"
+},
+{
+"w": "experience",
+"parts": "ex(出) + peri(尝试) + ence(名词)",
+"m": "经验；经历"
+},
+{
+"w": "expert",
+"parts": "ex(出) + pert(尝试过的)",
+"m": "专家；熟练的"
+},
+{
+"w": "peril",
+"parts": "per(尝试) + il",
+"m": "危险"
+},
+{
+"w": "perilous",
+"parts": "per(尝试) + il + ous(…的)",
+"m": "危险的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pet",
+"peat"
+],
+"meaning": "寻求，追求",
+"origin": "拉丁语 petere「寻求，奔向」",
+"note": "",
+"examples": [
+{
+"w": "compete",
+"parts": "com(共同) + pet(追求) + e",
+"m": "竞争"
+},
+{
+"w": "competent",
+"parts": "com(共同) + pet(追求) + ent(…的)",
+"m": "能胜任的"
+},
+{
+"w": "petition",
+"parts": "pet(寻求) + ition(名词)",
+"m": "请愿；请愿书"
+},
+{
+"w": "appetite",
+"parts": "ap(向) + pet(追求) + ite(名词)",
+"m": "食欲；欲望"
+},
+{
+"w": "repeat",
+"parts": "re(再) + peat(寻求)",
+"m": "重复"
+},
+{
+"w": "impetus",
+"parts": "im(向) + pet(奔向) + us(名词)",
+"m": "推动力，促进"
+},
+{
+"w": "perpetual",
+"parts": "per(始终) + pet(追求) + ual(…的)",
+"m": "永久的，不断的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phen",
+"phan",
+"phas",
+"fan"
+],
+"meaning": "显现",
+"origin": "希腊语 phainein「显示，显现」",
+"note": "",
+"examples": [
+{
+"w": "phenomenon",
+"parts": "phen(显现) + omenon(名词)",
+"m": "现象"
+},
+{
+"w": "phantom",
+"parts": "phan(显现) + tom",
+"m": "幽灵，幻影"
+},
+{
+"w": "fantasy",
+"parts": "fan(显现) + tasy(名词)",
+"m": "幻想"
+},
+{
+"w": "emphasis",
+"parts": "em(在内) + phas(显现) + is(名词)",
+"m": "强调，重点"
+},
+{
+"w": "epiphany",
+"parts": "epi(在上) + phan(显现) + y(名词)",
+"m": "顿悟"
+},
+{
+"w": "diaphanous",
+"parts": "dia(穿过) + phan(显现) + ous(…的)",
+"m": "透明的，半透明的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phem",
+"phe"
+],
+"meaning": "说",
+"origin": "希腊语 pheme「言语」，phanai「说」",
+"note": "",
+"examples": [
+{
+"w": "euphemism",
+"parts": "eu(好) + phem(说) + ism(名词)",
+"m": "委婉语"
+},
+{
+"w": "euphemistic",
+"parts": "eu(好) + phem(说) + istic(…的)",
+"m": "委婉的"
+},
+{
+"w": "blasphemy",
+"parts": "blas(诋毁) + phem(说) + y(名词)",
+"m": "亵渎神明"
+},
+{
+"w": "prophet",
+"parts": "pro(预先) + phe(说) + t(人)",
+"m": "先知，预言者"
+},
+{
+"w": "prophecy",
+"parts": "pro(预先) + phe(说) + cy(名词)",
+"m": "预言"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phil",
+"philo",
+"phile"
+],
+"meaning": "爱",
+"origin": "希腊语 philos「爱的，喜爱的」",
+"note": "",
+"examples": [
+{
+"w": "philosophy",
+"parts": "philo(爱) + soph(智慧) + y(名词)",
+"m": "哲学"
+},
+{
+"w": "philanthropy",
+"parts": "phil(爱) + anthrop(人) + y(名词)",
+"m": "慈善，博爱"
+},
+{
+"w": "philanthropist",
+"parts": "phil(爱) + anthrop(人) + ist(人)",
+"m": "慈善家"
+},
+{
+"w": "bibliophile",
+"parts": "biblio(书) + phile(爱好者)",
+"m": "爱书者，藏书家"
+},
+{
+"w": "philharmonic",
+"parts": "phil(爱) + harmon(和谐) + ic(…的)",
+"m": "爱好音乐的；交响乐团"
+},
+{
+"w": "philology",
+"parts": "philo(爱) + logy(言语，学科)",
+"m": "语文学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phob",
+"phobia"
+],
+"meaning": "恐惧",
+"origin": "希腊语 phobos「恐惧」",
+"note": "",
+"examples": [
+{
+"w": "phobia",
+"parts": "phob(恐惧) + ia(病症)",
+"m": "恐惧症"
+},
+{
+"w": "claustrophobia",
+"parts": "claustro(封闭) + phobia(恐惧症)",
+"m": "幽闭恐惧症"
+},
+{
+"w": "xenophobia",
+"parts": "xeno(外国) + phobia(恐惧)",
+"m": "仇外，排外心理"
+},
+{
+"w": "acrophobia",
+"parts": "acro(高处) + phobia(恐惧症)",
+"m": "恐高症"
+},
+{
+"w": "hydrophobia",
+"parts": "hydro(水) + phobia(恐惧症)",
+"m": "恐水症；狂犬病"
+},
+{
+"w": "technophobe",
+"parts": "techno(技术) + phobe(恐惧者)",
+"m": "惧怕新技术的人"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phon",
+"phone"
+],
+"meaning": "声音",
+"origin": "希腊语 phone「声音」",
+"note": "",
+"examples": [
+{
+"w": "telephone",
+"parts": "tele(远) + phone(声音)",
+"m": "电话"
+},
+{
+"w": "microphone",
+"parts": "micro(小) + phone(声音)",
+"m": "麦克风"
+},
+{
+"w": "symphony",
+"parts": "sym(共同) + phon(声音) + y(名词)",
+"m": "交响乐"
+},
+{
+"w": "phonetic",
+"parts": "phon(声音) + etic(…的)",
+"m": "语音的"
+},
+{
+"w": "euphony",
+"parts": "eu(好) + phon(声音) + y(名词)",
+"m": "悦耳的声音"
+},
+{
+"w": "cacophony",
+"parts": "caco(坏) + phon(声音) + y(名词)",
+"m": "刺耳的声音，杂音"
+},
+{
+"w": "megaphone",
+"parts": "mega(大) + phone(声音)",
+"m": "扩音器，喇叭"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phor",
+"pher"
+],
+"meaning": "带，携带",
+"origin": "希腊语 pherein「携带」",
+"note": "",
+"examples": [
+{
+"w": "metaphor",
+"parts": "meta(转换) + phor(带)",
+"m": "隐喻，暗喻"
+},
+{
+"w": "euphoria",
+"parts": "eu(好) + phor(带) + ia(状态)",
+"m": "极度兴奋，狂喜"
+},
+{
+"w": "phosphorus",
+"parts": "phos(光) + phor(带) + us",
+"m": "磷"
+},
+{
+"w": "semaphore",
+"parts": "sema(信号) + phore(携带者)",
+"m": "信号灯，旗语"
+},
+{
+"w": "periphery",
+"parts": "peri(周围) + pher(带) + y(名词)",
+"m": "外围，边缘"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"photo",
+"phot"
+],
+"meaning": "光",
+"origin": "希腊语 phos（属格 photos）「光」",
+"note": "",
+"examples": [
+{
+"w": "photograph",
+"parts": "photo(光) + graph(写，画)",
+"m": "照片"
+},
+{
+"w": "photosynthesis",
+"parts": "photo(光) + syn(共同) + thesis(放置)",
+"m": "光合作用"
+},
+{
+"w": "photon",
+"parts": "phot(光) + on(粒子)",
+"m": "光子"
+},
+{
+"w": "photogenic",
+"parts": "photo(光) + gen(产生) + ic(…的)",
+"m": "上镜的"
+},
+{
+"w": "photocopy",
+"parts": "photo(光) + copy(复制)",
+"m": "复印；复印件"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"phys",
+"physi"
+],
+"meaning": "自然；身体",
+"origin": "希腊语 physis「自然」",
+"note": "",
+"examples": [
+{
+"w": "physics",
+"parts": "phys(自然) + ics(学科)",
+"m": "物理学"
+},
+{
+"w": "physical",
+"parts": "phys(自然，身体) + ical(…的)",
+"m": "身体的；物质的；物理的"
+},
+{
+"w": "physician",
+"parts": "phys(自然，身体) + ician(专业人员)",
+"m": "内科医生"
+},
+{
+"w": "physiology",
+"parts": "physi(自然) + ology(学科)",
+"m": "生理学"
+},
+{
+"w": "physique",
+"parts": "phys(身体) + ique(名词)",
+"m": "体格，体形"
+},
+{
+"w": "metaphysics",
+"parts": "meta(在…之后) + phys(自然) + ics(学科)",
+"m": "形而上学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pict",
+"pig",
+"paint"
+],
+"meaning": "描绘，画",
+"origin": "拉丁语 pingere（过去分词 pictus）「描绘」",
+"note": "",
+"examples": [
+{
+"w": "picture",
+"parts": "pict(画) + ure(名词)",
+"m": "图画；照片"
+},
+{
+"w": "depict",
+"parts": "de(加强) + pict(描绘)",
+"m": "描绘，描述"
+},
+{
+"w": "pictorial",
+"parts": "pict(画) + orial(…的)",
+"m": "图画的；画报"
+},
+{
+"w": "picturesque",
+"parts": "pict(画) + ur + esque(如…的)",
+"m": "如画的，风景优美的"
+},
+{
+"w": "pigment",
+"parts": "pig(描绘) + ment(名词)",
+"m": "颜料；色素"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"plac",
+"pleas"
+],
+"meaning": "使高兴，使平静",
+"origin": "拉丁语 placere「使高兴」，placare「使平静」",
+"note": "",
+"examples": [
+{
+"w": "please",
+"parts": "pleas(使高兴) + e",
+"m": "使高兴；请"
+},
+{
+"w": "pleasure",
+"parts": "pleas(使高兴) + ure(名词)",
+"m": "愉快，乐趣"
+},
+{
+"w": "placid",
+"parts": "plac(使平静) + id(…的)",
+"m": "平静的，温和的"
+},
+{
+"w": "placate",
+"parts": "plac(使平静) + ate(动词)",
+"m": "安抚，抚慰"
+},
+{
+"w": "complacent",
+"parts": "com(加强) + plac(使高兴) + ent(…的)",
+"m": "自满的，沾沾自喜的"
+},
+{
+"w": "implacable",
+"parts": "im(不) + plac(使平静) + able(能…的)",
+"m": "难以平息的，不能安抚的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"plant"
+],
+"meaning": "种植",
+"origin": "拉丁语 plantare「种植」，planta「嫩枝；脚底」",
+"note": "",
+"examples": [
+{
+"w": "implant",
+"parts": "im(向内) + plant(种植)",
+"m": "植入；灌输"
+},
+{
+"w": "transplant",
+"parts": "trans(转移) + plant(种植)",
+"m": "移植"
+},
+{
+"w": "plantation",
+"parts": "plant(种植) + ation(名词)",
+"m": "种植园"
+},
+{
+"w": "supplant",
+"parts": "sup(在下) + plant(脚底)",
+"m": "取代，排挤"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"plaud",
+"plaus",
+"plod",
+"plos"
+],
+"meaning": "鼓掌",
+"origin": "拉丁语 plaudere（过去分词 plausus）「拍手」",
+"note": "explode 原指「把演员嘘下台」",
+"examples": [
+{
+"w": "applaud",
+"parts": "ap(向) + plaud(鼓掌)",
+"m": "鼓掌；称赞"
+},
+{
+"w": "applause",
+"parts": "ap(向) + plaus(鼓掌) + e",
+"m": "掌声"
+},
+{
+"w": "plausible",
+"parts": "plaus(鼓掌) + ible(可…的)",
+"m": "貌似可信的，合理的"
+},
+{
+"w": "explode",
+"parts": "ex(出) + plod(鼓掌) + e",
+"m": "爆炸；激增"
+},
+{
+"w": "explosion",
+"parts": "ex(出) + plos(鼓掌) + ion(名词)",
+"m": "爆炸；激增"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ple",
+"plen",
+"plet",
+"pli"
+],
+"meaning": "满，填满",
+"origin": "拉丁语 plere（过去分词 pletus）「填满」，plenus「满的」",
+"note": "",
+"examples": [
+{
+"w": "complete",
+"parts": "com(加强) + plet(填满) + e",
+"m": "完成；完整的"
+},
+{
+"w": "deplete",
+"parts": "de(去掉) + plet(满) + e",
+"m": "耗尽，使枯竭"
+},
+{
+"w": "replete",
+"parts": "re(再) + plet(满) + e",
+"m": "充满的，饱食的"
+},
+{
+"w": "plenty",
+"parts": "plen(满) + ty(名词)",
+"m": "大量，充足"
+},
+{
+"w": "supplement",
+"parts": "sup(在下) + ple(填满) + ment(名词)",
+"m": "补充；增刊"
+},
+{
+"w": "implement",
+"parts": "im(在内) + ple(填满) + ment(名词)",
+"m": "实施，执行；工具"
+},
+{
+"w": "replenish",
+"parts": "re(再) + plen(满) + ish(动词)",
+"m": "补充，再装满"
+},
+{
+"w": "accomplish",
+"parts": "ac(加强) + com(加强) + pli(满) + sh(动词)",
+"m": "完成，实现"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"plic",
+"ply",
+"plex",
+"ploy"
+],
+"meaning": "折叠",
+"origin": "拉丁语 plicare「折叠」，plectere「编织」",
+"note": "",
+"examples": [
+{
+"w": "complicate",
+"parts": "com(共同) + plic(折叠) + ate(动词)",
+"m": "使复杂化"
+},
+{
+"w": "explicit",
+"parts": "ex(出) + plic(折叠) + it",
+"m": "明确的，直率的"
+},
+{
+"w": "implicit",
+"parts": "im(向内) + plic(折叠) + it",
+"m": "含蓄的，暗示的"
+},
+{
+"w": "imply",
+"parts": "im(向内) + ply(折叠)",
+"m": "暗示，意味着"
+},
+{
+"w": "duplicate",
+"parts": "du(二) + plic(折叠) + ate(动词)",
+"m": "复制；副本"
+},
+{
+"w": "multiply",
+"parts": "multi(多) + ply(折叠)",
+"m": "乘；成倍增加"
+},
+{
+"w": "complex",
+"parts": "com(共同) + plex(编织)",
+"m": "复杂的；综合体"
+},
+{
+"w": "perplex",
+"parts": "per(完全) + plex(编织)",
+"m": "使困惑"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"plor"
+],
+"meaning": "哭喊",
+"origin": "拉丁语 plorare「哭喊」",
+"note": "",
+"examples": [
+{
+"w": "deplore",
+"parts": "de(加强) + plor(哭喊) + e",
+"m": "谴责；悲叹"
+},
+{
+"w": "deplorable",
+"parts": "de(加强) + plor(哭喊) + able(可…的)",
+"m": "糟糕的，可悲的"
+},
+{
+"w": "implore",
+"parts": "im(向) + plor(哭喊) + e",
+"m": "恳求，哀求"
+},
+{
+"w": "explore",
+"parts": "ex(出) + plor(喊) + e",
+"m": "探索，勘探"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pod",
+"pus"
+],
+"meaning": "脚",
+"origin": "希腊语 pous（属格 podos）「脚」",
+"note": "",
+"examples": [
+{
+"w": "tripod",
+"parts": "tri(三) + pod(脚)",
+"m": "三脚架"
+},
+{
+"w": "podium",
+"parts": "pod(脚) + ium(名词)",
+"m": "讲台，指挥台"
+},
+{
+"w": "octopus",
+"parts": "octo(八) + pus(脚)",
+"m": "章鱼"
+},
+{
+"w": "antipodes",
+"parts": "anti(相对) + pod(脚) + es(复数)",
+"m": "对跖地（地球上正相对的地方）"
+},
+{
+"w": "platypus",
+"parts": "platy(扁平) + pus(脚)",
+"m": "鸭嘴兽"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"polit",
+"polis",
+"polic"
+],
+"meaning": "城市；城邦，政治",
+"origin": "希腊语 polis「城邦」，polites「公民」",
+"note": "",
+"examples": [
+{
+"w": "politics",
+"parts": "polit(城邦，政治) + ics(学科)",
+"m": "政治；政治学"
+},
+{
+"w": "policy",
+"parts": "polic(城邦管理) + y(名词)",
+"m": "政策，方针"
+},
+{
+"w": "police",
+"parts": "polic(城邦管理) + e",
+"m": "警察"
+},
+{
+"w": "metropolis",
+"parts": "metro(母亲) + polis(城市)",
+"m": "大都市，首府"
+},
+{
+"w": "cosmopolitan",
+"parts": "cosmo(世界) + polit(公民) + an(…的)",
+"m": "世界性的，国际化的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pond",
+"pound"
+],
+"meaning": "重量，称量",
+"origin": "拉丁语 pondus「重量」，pondo「按重量」",
+"note": "",
+"examples": [
+{
+"w": "ponder",
+"parts": "pond(称量) + er(动词)",
+"m": "沉思，仔细考虑"
+},
+{
+"w": "ponderous",
+"parts": "pond(重量) + er + ous(…的)",
+"m": "笨重的；沉闷冗长的"
+},
+{
+"w": "preponderance",
+"parts": "pre(超过) + pond(重量) + er + ance(名词)",
+"m": "优势，多数"
+},
+{
+"w": "imponderable",
+"parts": "im(不) + pond(称量) + er + able(能…的)",
+"m": "无法估量的；不可估量的因素"
+},
+{
+"w": "pound",
+"parts": "pound(重量单位)",
+"m": "磅；英镑"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"pos",
+"pon",
+"pound"
+],
+"meaning": "放置",
+"origin": "拉丁语 ponere（过去分词 positus）「放置」",
+"note": "",
+"examples": [
+{
+"w": "position",
+"parts": "pos(放置) + ition(名词)",
+"m": "位置；职位；立场"
+},
+{
+"w": "deposit",
+"parts": "de(向下) + pos(放置) + it",
+"m": "存款；押金；沉积"
+},
+{
+"w": "component",
+"parts": "com(共同) + pon(放置) + ent(名词)",
+"m": "组成部分，部件"
+},
+{
+"w": "opponent",
+"parts": "op(相反) + pon(放置) + ent(人)",
+"m": "对手，反对者"
+},
+{
+"w": "postpone",
+"parts": "post(在后) + pon(放置) + e",
+"m": "推迟，延期"
+},
+{
+"w": "proponent",
+"parts": "pro(向前) + pon(放置) + ent(人)",
+"m": "支持者，提倡者"
+},
+{
+"w": "compound",
+"parts": "com(共同) + pound(放置)",
+"m": "复合物；使恶化；复利计算"
+},
+{
+"w": "expound",
+"parts": "ex(出) + pound(放置)",
+"m": "详细阐述"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"popul",
+"publ"
+],
+"meaning": "人民",
+"origin": "拉丁语 populus「人民」，publicus「公众的」",
+"note": "",
+"examples": [
+{
+"w": "popular",
+"parts": "popul(人民) + ar(…的)",
+"m": "流行的，受欢迎的"
+},
+{
+"w": "population",
+"parts": "popul(人民) + ation(名词)",
+"m": "人口"
+},
+{
+"w": "populace",
+"parts": "popul(人民) + ace(名词)",
+"m": "平民，大众"
+},
+{
+"w": "populous",
+"parts": "popul(人民) + ous(…的)",
+"m": "人口稠密的"
+},
+{
+"w": "public",
+"parts": "publ(人民) + ic(…的)",
+"m": "公众的；公共的"
+},
+{
+"w": "publish",
+"parts": "publ(人民) + ish(动词)",
+"m": "出版；公布"
+},
+{
+"w": "republic",
+"parts": "re(事务) + publ(人民) + ic(…的)",
+"m": "共和国"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"potent",
+"poss"
+],
+"meaning": "能力，力量",
+"origin": "拉丁语 posse「能够」",
+"note": "",
+"examples": [
+{
+"w": "potent",
+"parts": "pot(力量) + ent(…的)",
+"m": "强有力的"
+},
+{
+"w": "potential",
+"parts": "pot(能力) + ential(…的)",
+"m": "潜在的；潜力"
+},
+{
+"w": "impotent",
+"parts": "im(不) + pot(力量) + ent(…的)",
+"m": "无力的"
+},
+{
+"w": "possible",
+"parts": "poss(能够) + ible(能…的)",
+"m": "可能的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"prehend",
+"prehens",
+"pris"
+],
+"meaning": "抓，握",
+"origin": "拉丁语 prehendere「抓住」",
+"note": "",
+"examples": [
+{
+"w": "comprehend",
+"parts": "com(全部) + prehend(抓住)",
+"m": "理解"
+},
+{
+"w": "apprehend",
+"parts": "ap(向) + prehend(抓)",
+"m": "逮捕；领会"
+},
+{
+"w": "comprehensive",
+"parts": "com(全部) + prehens(抓) + ive(…的)",
+"m": "全面的"
+},
+{
+"w": "enterprise",
+"parts": "enter(之间) + pris(抓) + e",
+"m": "企业"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"press"
+],
+"meaning": "压",
+"origin": "拉丁语 premere, pressus「压」",
+"note": "",
+"examples": [
+{
+"w": "depress",
+"parts": "de(向下) + press(压)",
+"m": "使沮丧；压低"
+},
+{
+"w": "compress",
+"parts": "com(一起) + press(压)",
+"m": "压缩"
+},
+{
+"w": "express",
+"parts": "ex(出) + press(压)",
+"m": "表达"
+},
+{
+"w": "oppress",
+"parts": "op(反) + press(压)",
+"m": "压迫"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"prim",
+"prin"
+],
+"meaning": "第一，首要",
+"origin": "拉丁语 primus「第一」",
+"note": "",
+"examples": [
+{
+"w": "primary",
+"parts": "prim(第一) + ary(…的)",
+"m": "首要的；初级的"
+},
+{
+"w": "primitive",
+"parts": "prim(最初) + itive(…的)",
+"m": "原始的"
+},
+{
+"w": "prime",
+"parts": "prim(第一) + e",
+"m": "首要的；最好的"
+},
+{
+"w": "principal",
+"parts": "prin(第一) + cip(拿) + al(…的)",
+"m": "主要的；本金"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"prob",
+"prov"
+],
+"meaning": "证明，检验",
+"origin": "拉丁语 probare「检验，证明」",
+"note": "",
+"examples": [
+{
+"w": "probe",
+"parts": "prob(检验) + e",
+"m": "探查"
+},
+{
+"w": "probable",
+"parts": "prob(证明) + able(能…的)",
+"m": "很可能的"
+},
+{
+"w": "approve",
+"parts": "ap(向) + prov(证明) + e",
+"m": "批准"
+},
+{
+"w": "reprove",
+"parts": "re(反) + prov(检验) + e",
+"m": "责备"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"punct",
+"pung"
+],
+"meaning": "刺，点",
+"origin": "拉丁语 pungere, punctus「刺」",
+"note": "",
+"examples": [
+{
+"w": "punctual",
+"parts": "punct(点) + ual(…的)",
+"m": "准时的"
+},
+{
+"w": "puncture",
+"parts": "punct(刺) + ure(名词)",
+"m": "刺孔；刺破"
+},
+{
+"w": "pungent",
+"parts": "pung(刺) + ent(…的)",
+"m": "辛辣的；尖刻的"
+},
+{
+"w": "punctuate",
+"parts": "punct(点) + uate(动词)",
+"m": "加标点；不时打断"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"put"
+],
+"meaning": "计算，思考",
+"origin": "拉丁语 putare「计算，认为」",
+"note": "",
+"examples": [
+{
+"w": "compute",
+"parts": "com(一起) + put(计算) + e",
+"m": "计算"
+},
+{
+"w": "dispute",
+"parts": "dis(分开) + put(思考) + e",
+"m": "争论"
+},
+{
+"w": "reputation",
+"parts": "re(反复) + put(思考) + ation(名词)",
+"m": "名声"
+},
+{
+"w": "deputy",
+"parts": "de(离开) + put(认为) + y",
+"m": "代理人"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"quer",
+"quest",
+"quir",
+"quis"
+],
+"meaning": "寻求，询问",
+"origin": "拉丁语 quaerere, quaesitus「寻求，询问」",
+"note": "",
+"examples": [
+{
+"w": "query",
+"parts": "quer(询问) + y",
+"m": "询问"
+},
+{
+"w": "request",
+"parts": "re(再) + quest(寻求)",
+"m": "请求"
+},
+{
+"w": "inquire",
+"parts": "in(向内) + quir(询问) + e",
+"m": "询问"
+},
+{
+"w": "acquisition",
+"parts": "ac(向) + quis(寻求) + ition(名词)",
+"m": "获得；收购"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"radi"
+],
+"meaning": "光线，辐射",
+"origin": "拉丁语 radius「光线，轮辐」",
+"note": "",
+"examples": [
+{
+"w": "radiate",
+"parts": "radi(光线) + ate(动词)",
+"m": "辐射"
+},
+{
+"w": "radiant",
+"parts": "radi(光线) + ant(…的)",
+"m": "光芒四射的"
+},
+{
+"w": "radius",
+"parts": "radi(轮辐) + us",
+"m": "半径"
+},
+{
+"w": "radical",
+"parts": "radi(根) + cal(…的)",
+"m": "根本的；激进的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"rect",
+"reg"
+],
+"meaning": "直，统治，管理",
+"origin": "拉丁语 regere, rectus「引导，统治」",
+"note": "",
+"examples": [
+{
+"w": "correct",
+"parts": "cor(加强) + rect(直)",
+"m": "正确的；改正"
+},
+{
+"w": "direct",
+"parts": "di(分开) + rect(直)",
+"m": "直接的；指导"
+},
+{
+"w": "regulate",
+"parts": "reg(管理) + ulate(动词)",
+"m": "管理；调节"
+},
+{
+"w": "regime",
+"parts": "reg(统治) + ime",
+"m": "政权；体制"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"rid",
+"ris"
+],
+"meaning": "笑",
+"origin": "拉丁语 ridere, risus「笑」",
+"note": "",
+"examples": [
+{
+"w": "ridicule",
+"parts": "rid(笑) + icule",
+"m": "嘲笑"
+},
+{
+"w": "ridiculous",
+"parts": "rid(笑) + iculous(…的)",
+"m": "荒谬的"
+},
+{
+"w": "derision",
+"parts": "de(向下) + ris(笑) + ion(名词)",
+"m": "嘲笑"
+},
+{
+"w": "risible",
+"parts": "ris(笑) + ible(能…的)",
+"m": "可笑的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"rog"
+],
+"meaning": "问，要求",
+"origin": "拉丁语 rogare「问，要求」",
+"note": "",
+"examples": [
+{
+"w": "interrogate",
+"parts": "inter(之间) + rog(问) + ate(动词)",
+"m": "审问"
+},
+{
+"w": "arrogant",
+"parts": "ar(向) + rog(要求) + ant(…的)",
+"m": "傲慢的"
+},
+{
+"w": "derogatory",
+"parts": "de(向下) + rog(要求) + atory(…的)",
+"m": "贬损的"
+},
+{
+"w": "prerogative",
+"parts": "pre(在前) + rog(要求) + ative(名词)",
+"m": "特权"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"rupt"
+],
+"meaning": "破，断",
+"origin": "拉丁语 rumpere, ruptus「打破」",
+"note": "",
+"examples": [
+{
+"w": "interrupt",
+"parts": "inter(之间) + rupt(断)",
+"m": "打断"
+},
+{
+"w": "bankrupt",
+"parts": "bank(银行) + rupt(破)",
+"m": "破产的"
+},
+{
+"w": "disrupt",
+"parts": "dis(分开) + rupt(破)",
+"m": "扰乱"
+},
+{
+"w": "erupt",
+"parts": "e(出) + rupt(破)",
+"m": "爆发"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sacr",
+"sanct"
+],
+"meaning": "神圣",
+"origin": "拉丁语 sacer「神圣的」，sanctus「神圣的」",
+"note": "",
+"examples": [
+{
+"w": "sacred",
+"parts": "sacr(神圣) + ed(…的)",
+"m": "神圣的"
+},
+{
+"w": "sacrifice",
+"parts": "sacr(神圣) + ific(做) + e",
+"m": "牺牲；祭品"
+},
+{
+"w": "sanction",
+"parts": "sanct(神圣) + ion(名词)",
+"m": "批准；制裁"
+},
+{
+"w": "sanctuary",
+"parts": "sanct(神圣) + uary(场所)",
+"m": "避难所；圣所"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sal",
+"sil",
+"sult"
+],
+"meaning": "跳",
+"origin": "拉丁语 salire「跳」",
+"note": "",
+"examples": [
+{
+"w": "salient",
+"parts": "sal(跳) + ient(…的)",
+"m": "显著的"
+},
+{
+"w": "resilient",
+"parts": "re(回) + sil(跳) + ient(…的)",
+"m": "有弹性的；能复原的"
+},
+{
+"w": "insult",
+"parts": "in(向上) + sult(跳)",
+"m": "侮辱"
+},
+{
+"w": "result",
+"parts": "re(回) + sult(跳)",
+"m": "结果"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sat",
+"satis"
+],
+"meaning": "足够，满",
+"origin": "拉丁语 satis「足够」",
+"note": "",
+"examples": [
+{
+"w": "satisfy",
+"parts": "satis(足够) + fy(使)",
+"m": "使满意"
+},
+{
+"w": "saturate",
+"parts": "sat(满) + urate(动词)",
+"m": "浸透；使饱和"
+},
+{
+"w": "satiate",
+"parts": "sat(满) + iate(动词)",
+"m": "使饱足"
+},
+{
+"w": "insatiable",
+"parts": "in(不) + sat(满) + iable(能…的)",
+"m": "贪得无厌的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"scend",
+"scens"
+],
+"meaning": "爬，攀",
+"origin": "拉丁语 scandere「爬」",
+"note": "",
+"examples": [
+{
+"w": "ascend",
+"parts": "a(向) + scend(爬)",
+"m": "上升"
+},
+{
+"w": "descend",
+"parts": "de(向下) + scend(爬)",
+"m": "下降"
+},
+{
+"w": "transcend",
+"parts": "tran(超越) + scend(爬)",
+"m": "超越"
+},
+{
+"w": "descendant",
+"parts": "de(向下) + scend(爬) + ant(人)",
+"m": "后代"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sci"
+],
+"meaning": "知道",
+"origin": "拉丁语 scire「知道」",
+"note": "",
+"examples": [
+{
+"w": "science",
+"parts": "sci(知道) + ence(名词)",
+"m": "科学"
+},
+{
+"w": "conscious",
+"parts": "con(一起) + sci(知道) + ous(…的)",
+"m": "有意识的"
+},
+{
+"w": "conscience",
+"parts": "con(一起) + sci(知道) + ence(名词)",
+"m": "良心"
+},
+{
+"w": "omniscient",
+"parts": "omni(全) + sci(知道) + ent(…的)",
+"m": "无所不知的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"scop"
+],
+"meaning": "看，观察",
+"origin": "希腊语 skopein「看」",
+"note": "",
+"examples": [
+{
+"w": "telescope",
+"parts": "tele(远) + scop(看) + e",
+"m": "望远镜"
+},
+{
+"w": "microscope",
+"parts": "micro(小) + scop(看) + e",
+"m": "显微镜"
+},
+{
+"w": "scope",
+"parts": "scop(看) + e",
+"m": "范围"
+},
+{
+"w": "periscope",
+"parts": "peri(周围) + scop(看) + e",
+"m": "潜望镜"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"scrib",
+"script"
+],
+"meaning": "写",
+"origin": "拉丁语 scribere, scriptus「写」",
+"note": "",
+"examples": [
+{
+"w": "describe",
+"parts": "de(加强) + scrib(写) + e",
+"m": "描述"
+},
+{
+"w": "subscribe",
+"parts": "sub(在下) + scrib(写) + e",
+"m": "订阅"
+},
+{
+"w": "manuscript",
+"parts": "manu(手) + script(写)",
+"m": "手稿"
+},
+{
+"w": "prescription",
+"parts": "pre(预先) + script(写) + ion(名词)",
+"m": "处方"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sect",
+"seg"
+],
+"meaning": "切，割",
+"origin": "拉丁语 secare, sectus「切」",
+"note": "",
+"examples": [
+{
+"w": "section",
+"parts": "sect(切) + ion(名词)",
+"m": "部分；章节"
+},
+{
+"w": "dissect",
+"parts": "dis(分开) + sect(切)",
+"m": "解剖"
+},
+{
+"w": "intersect",
+"parts": "inter(之间) + sect(切)",
+"m": "相交"
+},
+{
+"w": "segment",
+"parts": "seg(切) + ment(名词)",
+"m": "部分；细分市场"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sed",
+"sid",
+"sess"
+],
+"meaning": "坐",
+"origin": "拉丁语 sedere, sessus「坐」",
+"note": "",
+"examples": [
+{
+"w": "sedentary",
+"parts": "sed(坐) + entary(…的)",
+"m": "久坐的"
+},
+{
+"w": "preside",
+"parts": "pre(在前) + sid(坐) + e",
+"m": "主持"
+},
+{
+"w": "subsidy",
+"parts": "sub(在下) + sid(坐) + y",
+"m": "补贴"
+},
+{
+"w": "session",
+"parts": "sess(坐) + ion(名词)",
+"m": "会议；一段时间"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"semin"
+],
+"meaning": "种子",
+"origin": "拉丁语 semen, seminis「种子」",
+"note": "",
+"examples": [
+{
+"w": "seminar",
+"parts": "semin(种子) + ar",
+"m": "研讨会"
+},
+{
+"w": "disseminate",
+"parts": "dis(分散) + semin(种子) + ate(动词)",
+"m": "散播"
+},
+{
+"w": "seminal",
+"parts": "semin(种子) + al(…的)",
+"m": "开创性的"
+},
+{
+"w": "inseminate",
+"parts": "in(向内) + semin(种子) + ate(动词)",
+"m": "授精"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sens",
+"sent"
+],
+"meaning": "感觉",
+"origin": "拉丁语 sentire, sensus「感觉」",
+"note": "",
+"examples": [
+{
+"w": "sensitive",
+"parts": "sens(感觉) + itive(…的)",
+"m": "敏感的"
+},
+{
+"w": "consensus",
+"parts": "con(共同) + sens(感觉) + us",
+"m": "共识"
+},
+{
+"w": "sentiment",
+"parts": "senti(感觉) + ment(名词)",
+"m": "情感；情绪"
+},
+{
+"w": "resent",
+"parts": "re(反) + sent(感觉)",
+"m": "怨恨"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sequ",
+"secu"
+],
+"meaning": "跟随",
+"origin": "拉丁语 sequi, secutus「跟随」",
+"note": "",
+"examples": [
+{
+"w": "sequence",
+"parts": "sequ(跟随) + ence(名词)",
+"m": "顺序；序列"
+},
+{
+"w": "consequence",
+"parts": "con(一起) + sequ(跟随) + ence(名词)",
+"m": "后果"
+},
+{
+"w": "subsequent",
+"parts": "sub(在下) + sequ(跟随) + ent(…的)",
+"m": "随后的"
+},
+{
+"w": "execute",
+"parts": "exe(出) + cut(跟随) + e",
+"m": "执行"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"serv"
+],
+"meaning": "服务；保持",
+"origin": "拉丁语 servire「服务」，servare「保持」",
+"note": "",
+"examples": [
+{
+"w": "service",
+"parts": "serv(服务) + ice(名词)",
+"m": "服务"
+},
+{
+"w": "conserve",
+"parts": "con(加强) + serv(保持) + e",
+"m": "保存；节约"
+},
+{
+"w": "reserve",
+"parts": "re(回) + serv(保持) + e",
+"m": "储备；预订"
+},
+{
+"w": "servile",
+"parts": "serv(服务) + ile(…的)",
+"m": "奴性的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sign"
+],
+"meaning": "标记，记号",
+"origin": "拉丁语 signum「标记」",
+"note": "",
+"examples": [
+{
+"w": "signal",
+"parts": "sign(记号) + al",
+"m": "信号"
+},
+{
+"w": "signature",
+"parts": "sign(标记) + ature(名词)",
+"m": "签名"
+},
+{
+"w": "designate",
+"parts": "de(加强) + sign(标记) + ate(动词)",
+"m": "指定"
+},
+{
+"w": "significant",
+"parts": "sign(记号) + ific(做) + ant(…的)",
+"m": "重要的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"simil",
+"simul",
+"sembl"
+],
+"meaning": "相似，一起",
+"origin": "拉丁语 similis「相似的」，simul「同时」",
+"note": "",
+"examples": [
+{
+"w": "similar",
+"parts": "simil(相似) + ar(…的)",
+"m": "相似的"
+},
+{
+"w": "simulate",
+"parts": "simul(相似) + ate(动词)",
+"m": "模拟"
+},
+{
+"w": "simultaneous",
+"parts": "simul(同时) + taneous(…的)",
+"m": "同时发生的"
+},
+{
+"w": "resemble",
+"parts": "re(加强) + sembl(相似) + e",
+"m": "像"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sist",
+"st",
+"stat",
+"stit"
+],
+"meaning": "站，立",
+"origin": "拉丁语 stare, sistere, status「站立」",
+"note": "",
+"examples": [
+{
+"w": "insist",
+"parts": "in(在上) + sist(站)",
+"m": "坚持"
+},
+{
+"w": "consist",
+"parts": "con(一起) + sist(站)",
+"m": "由…组成"
+},
+{
+"w": "stable",
+"parts": "st(站) + able(能…的)",
+"m": "稳定的"
+},
+{
+"w": "institute",
+"parts": "in(在内) + stit(立) + ute",
+"m": "设立；机构"
+},
+{
+"w": "statistic",
+"parts": "stat(状态) + istic(…的)",
+"m": "统计数据"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"soci"
+],
+"meaning": "同伴，社会",
+"origin": "拉丁语 socius「同伴」",
+"note": "",
+"examples": [
+{
+"w": "social",
+"parts": "soci(社会) + al(…的)",
+"m": "社会的"
+},
+{
+"w": "society",
+"parts": "soci(同伴) + ety(名词)",
+"m": "社会"
+},
+{
+"w": "associate",
+"parts": "as(向) + soci(同伴) + ate(动词)",
+"m": "联系；合伙人"
+},
+{
+"w": "sociology",
+"parts": "soci(社会) + o + logy(学科)",
+"m": "社会学"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sol"
+],
+"meaning": "单独；太阳",
+"origin": "拉丁语 solus「单独的」，sol「太阳」",
+"note": "",
+"examples": [
+{
+"w": "solitary",
+"parts": "sol(单独) + itary(…的)",
+"m": "孤独的"
+},
+{
+"w": "isolate",
+"parts": "i + sol(单独) + ate(动词)",
+"m": "隔离"
+},
+{
+"w": "solo",
+"parts": "sol(单独) + o",
+"m": "独奏；单独的"
+},
+{
+"w": "solar",
+"parts": "sol(太阳) + ar(…的)",
+"m": "太阳的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"solv",
+"solu"
+],
+"meaning": "松开，解决",
+"origin": "拉丁语 solvere, solutus「松开」",
+"note": "",
+"examples": [
+{
+"w": "solve",
+"parts": "solv(解决) + e",
+"m": "解决"
+},
+{
+"w": "dissolve",
+"parts": "dis(分开) + solv(松开) + e",
+"m": "溶解；解散"
+},
+{
+"w": "solution",
+"parts": "solu(解决) + tion(名词)",
+"m": "解决办法；溶液"
+},
+{
+"w": "insolvent",
+"parts": "in(不) + solv(偿付) + ent(…的)",
+"m": "无力偿债的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"son"
+],
+"meaning": "声音",
+"origin": "拉丁语 sonus「声音」",
+"note": "",
+"examples": [
+{
+"w": "sonic",
+"parts": "son(声音) + ic(…的)",
+"m": "声音的"
+},
+{
+"w": "resonate",
+"parts": "re(回) + son(声音) + ate(动词)",
+"m": "共鸣"
+},
+{
+"w": "dissonance",
+"parts": "dis(分开) + son(声音) + ance(名词)",
+"m": "不和谐"
+},
+{
+"w": "consonant",
+"parts": "con(一起) + son(声音) + ant",
+"m": "辅音；一致的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"soph"
+],
+"meaning": "智慧",
+"origin": "希腊语 sophia「智慧」",
+"note": "",
+"examples": [
+{
+"w": "philosophy",
+"parts": "philo(爱) + soph(智慧) + y",
+"m": "哲学"
+},
+{
+"w": "sophisticated",
+"parts": "soph(智慧) + isticated(…的)",
+"m": "复杂的；老练的"
+},
+{
+"w": "sophomore",
+"parts": "soph(智慧) + o + more(愚蠢)",
+"m": "大二学生"
+},
+{
+"w": "sophistry",
+"parts": "soph(智慧) + istry(名词)",
+"m": "诡辩"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"spect",
+"spec",
+"spic"
+],
+"meaning": "看",
+"origin": "拉丁语 specere, spectus「看」",
+"note": "",
+"examples": [
+{
+"w": "inspect",
+"parts": "in(向内) + spect(看)",
+"m": "检查"
+},
+{
+"w": "prospect",
+"parts": "pro(向前) + spect(看)",
+"m": "前景"
+},
+{
+"w": "perspective",
+"parts": "per(贯穿) + spect(看) + ive(…的)",
+"m": "观点；视角"
+},
+{
+"w": "speculate",
+"parts": "spec(看) + ulate(动词)",
+"m": "推测；投机"
+},
+{
+"w": "conspicuous",
+"parts": "con(加强) + spic(看) + uous(…的)",
+"m": "显眼的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sper"
+],
+"meaning": "希望",
+"origin": "拉丁语 sperare「希望」",
+"note": "",
+"examples": [
+{
+"w": "desperate",
+"parts": "de(去掉) + sper(希望) + ate(…的)",
+"m": "绝望的"
+},
+{
+"w": "despair",
+"parts": "de(去掉) + spair(希望)",
+"m": "绝望"
+},
+{
+"w": "prosper",
+"parts": "pro(向前) + sper(希望)",
+"m": "繁荣"
+},
+{
+"w": "prosperity",
+"parts": "pro(向前) + sper(希望) + ity(名词)",
+"m": "繁荣"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"spir"
+],
+"meaning": "呼吸",
+"origin": "拉丁语 spirare「呼吸」",
+"note": "",
+"examples": [
+{
+"w": "inspire",
+"parts": "in(向内) + spir(呼吸) + e",
+"m": "激励；吸入"
+},
+{
+"w": "expire",
+"parts": "ex(出) + pir(呼吸) + e",
+"m": "到期；呼气"
+},
+{
+"w": "conspire",
+"parts": "con(一起) + spir(呼吸) + e",
+"m": "密谋"
+},
+{
+"w": "respiration",
+"parts": "re(反复) + spir(呼吸) + ation(名词)",
+"m": "呼吸"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"spond",
+"spons"
+],
+"meaning": "承诺，回应",
+"origin": "拉丁语 spondere, sponsus「承诺」",
+"note": "",
+"examples": [
+{
+"w": "respond",
+"parts": "re(回) + spond(回应)",
+"m": "回应"
+},
+{
+"w": "correspond",
+"parts": "cor(共同) + re(回) + spond(回应)",
+"m": "通信；相符"
+},
+{
+"w": "sponsor",
+"parts": "spons(承诺) + or(人)",
+"m": "赞助人"
+},
+{
+"w": "responsible",
+"parts": "re(回) + spons(回应) + ible(能…的)",
+"m": "负责的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"string",
+"strict",
+"strain"
+],
+"meaning": "拉紧，束缚",
+"origin": "拉丁语 stringere, strictus「拉紧」",
+"note": "",
+"examples": [
+{
+"w": "strict",
+"parts": "strict(拉紧)",
+"m": "严格的"
+},
+{
+"w": "restrict",
+"parts": "re(回) + strict(拉紧)",
+"m": "限制"
+},
+{
+"w": "stringent",
+"parts": "string(拉紧) + ent(…的)",
+"m": "严格的"
+},
+{
+"w": "constrain",
+"parts": "con(一起) + strain(拉紧)",
+"m": "约束"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"struct"
+],
+"meaning": "建造",
+"origin": "拉丁语 struere, structus「建造」",
+"note": "",
+"examples": [
+{
+"w": "structure",
+"parts": "struct(建造) + ure(名词)",
+"m": "结构"
+},
+{
+"w": "construct",
+"parts": "con(一起) + struct(建造)",
+"m": "建造"
+},
+{
+"w": "destruction",
+"parts": "de(相反) + struct(建造) + ion(名词)",
+"m": "破坏"
+},
+{
+"w": "obstruct",
+"parts": "ob(反) + struct(建造)",
+"m": "阻碍"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"sum",
+"sumpt"
+],
+"meaning": "拿，用",
+"origin": "拉丁语 sumere, sumptus「拿，取」",
+"note": "",
+"examples": [
+{
+"w": "consume",
+"parts": "con(加强) + sum(用) + e",
+"m": "消费；消耗"
+},
+{
+"w": "assume",
+"parts": "as(向) + sum(拿) + e",
+"m": "假定；承担"
+},
+{
+"w": "presume",
+"parts": "pre(预先) + sum(拿) + e",
+"m": "推测"
+},
+{
+"w": "consumption",
+"parts": "con(加强) + sumpt(用) + ion(名词)",
+"m": "消费"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"surg",
+"surrect"
+],
+"meaning": "升起",
+"origin": "拉丁语 surgere「升起」",
+"note": "",
+"examples": [
+{
+"w": "surge",
+"parts": "surg(升起) + e",
+"m": "激增"
+},
+{
+"w": "resurgence",
+"parts": "re(再) + surg(升起) + ence(名词)",
+"m": "复苏"
+},
+{
+"w": "insurgent",
+"parts": "in(向内) + surg(升起) + ent(人)",
+"m": "叛乱者"
+},
+{
+"w": "resurrect",
+"parts": "re(再) + surrect(升起)",
+"m": "复活"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tact",
+"tang",
+"tag",
+"ting"
+],
+"meaning": "接触",
+"origin": "拉丁语 tangere, tactus「接触」",
+"note": "",
+"examples": [
+{
+"w": "contact",
+"parts": "con(一起) + tact(接触)",
+"m": "接触"
+},
+{
+"w": "tangible",
+"parts": "tang(接触) + ible(能…的)",
+"m": "有形的"
+},
+{
+"w": "intact",
+"parts": "in(不) + tact(接触)",
+"m": "完整无损的"
+},
+{
+"w": "contagious",
+"parts": "con(一起) + tag(接触) + ious(…的)",
+"m": "传染的"
+},
+{
+"w": "contingent",
+"parts": "con(一起) + ting(接触) + ent(…的)",
+"m": "视情况而定的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tain",
+"ten",
+"tin"
+],
+"meaning": "握，保持",
+"origin": "拉丁语 tenere「握住，保持」",
+"note": "",
+"examples": [
+{
+"w": "contain",
+"parts": "con(一起) + tain(握)",
+"m": "包含"
+},
+{
+"w": "maintain",
+"parts": "main(手) + tain(握)",
+"m": "维持"
+},
+{
+"w": "tenacious",
+"parts": "ten(握) + acious(…的)",
+"m": "顽强的"
+},
+{
+"w": "continue",
+"parts": "con(一起) + tin(保持) + ue",
+"m": "继续"
+},
+{
+"w": "tenant",
+"parts": "ten(握) + ant(人)",
+"m": "租户"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"techn"
+],
+"meaning": "技艺",
+"origin": "希腊语 techne「技艺」",
+"note": "",
+"examples": [
+{
+"w": "technique",
+"parts": "techn(技艺) + ique",
+"m": "技术；技巧"
+},
+{
+"w": "technology",
+"parts": "techn(技艺) + o + logy(学科)",
+"m": "技术"
+},
+{
+"w": "technical",
+"parts": "techn(技艺) + ical(…的)",
+"m": "技术的"
+},
+{
+"w": "polytechnic",
+"parts": "poly(多) + techn(技艺) + ic(…的)",
+"m": "理工学院"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tempor",
+"temper"
+],
+"meaning": "时间；调和",
+"origin": "拉丁语 tempus, temporis「时间」，temperare「调和」",
+"note": "",
+"examples": [
+{
+"w": "temporary",
+"parts": "tempor(时间) + ary(…的)",
+"m": "暂时的"
+},
+{
+"w": "contemporary",
+"parts": "con(共同) + tempor(时间) + ary(…的)",
+"m": "当代的；同时代的"
+},
+{
+"w": "temperate",
+"parts": "temper(调和) + ate(…的)",
+"m": "温和的；适度的"
+},
+{
+"w": "temperament",
+"parts": "temper(调和) + ament(名词)",
+"m": "气质"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tend",
+"tens",
+"tent"
+],
+"meaning": "伸展；倾向",
+"origin": "拉丁语 tendere, tensus「伸展」",
+"note": "",
+"examples": [
+{
+"w": "extend",
+"parts": "ex(出) + tend(伸展)",
+"m": "延伸"
+},
+{
+"w": "intend",
+"parts": "in(向内) + tend(伸展)",
+"m": "打算"
+},
+{
+"w": "tension",
+"parts": "tens(伸展) + ion(名词)",
+"m": "紧张；张力"
+},
+{
+"w": "attention",
+"parts": "at(向) + tent(伸展) + ion(名词)",
+"m": "注意"
+},
+{
+"w": "tendency",
+"parts": "tend(倾向) + ency(名词)",
+"m": "倾向"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"terr"
+],
+"meaning": "土地",
+"origin": "拉丁语 terra「土地」",
+"note": "",
+"examples": [
+{
+"w": "territory",
+"parts": "terr(土地) + itory(场所)",
+"m": "领土"
+},
+{
+"w": "terrain",
+"parts": "terr(土地) + ain",
+"m": "地形"
+},
+{
+"w": "terrestrial",
+"parts": "terr(土地) + estrial(…的)",
+"m": "陆地的"
+},
+{
+"w": "Mediterranean",
+"parts": "medi(中间) + terr(土地) + anean(…的)",
+"m": "地中海的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"test"
+],
+"meaning": "证据，见证",
+"origin": "拉丁语 testis「证人」",
+"note": "",
+"examples": [
+{
+"w": "testify",
+"parts": "test(证据) + ify(动词)",
+"m": "作证"
+},
+{
+"w": "protest",
+"parts": "pro(向前) + test(证明)",
+"m": "抗议"
+},
+{
+"w": "contest",
+"parts": "con(一起) + test(见证)",
+"m": "竞赛；争夺"
+},
+{
+"w": "testimony",
+"parts": "test(见证) + imony(名词)",
+"m": "证词"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"the",
+"theo"
+],
+"meaning": "神",
+"origin": "希腊语 theos「神」",
+"note": "",
+"examples": [
+{
+"w": "theology",
+"parts": "theo(神) + logy(学科)",
+"m": "神学"
+},
+{
+"w": "atheist",
+"parts": "a(无) + the(神) + ist(人)",
+"m": "无神论者"
+},
+{
+"w": "theocracy",
+"parts": "theo(神) + cracy(统治)",
+"m": "神权政治"
+},
+{
+"w": "pantheon",
+"parts": "pan(全) + the(神) + on",
+"m": "万神殿"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"therm"
+],
+"meaning": "热",
+"origin": "希腊语 therme「热」",
+"note": "",
+"examples": [
+{
+"w": "thermal",
+"parts": "therm(热) + al(…的)",
+"m": "热的"
+},
+{
+"w": "thermometer",
+"parts": "therm(热) + o + meter(测量)",
+"m": "温度计"
+},
+{
+"w": "thermostat",
+"parts": "therm(热) + o + stat(稳定)",
+"m": "恒温器"
+},
+{
+"w": "geothermal",
+"parts": "geo(地) + therm(热) + al(…的)",
+"m": "地热的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tom"
+],
+"meaning": "切",
+"origin": "希腊语 tomos「切」",
+"note": "",
+"examples": [
+{
+"w": "anatomy",
+"parts": "ana(分开) + tom(切) + y",
+"m": "解剖学"
+},
+{
+"w": "atom",
+"parts": "a(不) + tom(切)",
+"m": "原子"
+},
+{
+"w": "epitome",
+"parts": "epi(在上) + tom(切) + e",
+"m": "缩影"
+},
+{
+"w": "dichotomy",
+"parts": "dicho(二分) + tom(切) + y",
+"m": "二分法"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tort"
+],
+"meaning": "扭曲",
+"origin": "拉丁语 torquere, tortus「扭曲」",
+"note": "",
+"examples": [
+{
+"w": "distort",
+"parts": "dis(分开) + tort(扭曲)",
+"m": "歪曲"
+},
+{
+"w": "torture",
+"parts": "tort(扭) + ure(名词)",
+"m": "折磨"
+},
+{
+"w": "extort",
+"parts": "ex(出) + tort(扭)",
+"m": "敲诈"
+},
+{
+"w": "retort",
+"parts": "re(回) + tort(扭)",
+"m": "反驳"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tox"
+],
+"meaning": "毒",
+"origin": "希腊语 toxikon「毒药」",
+"note": "",
+"examples": [
+{
+"w": "toxic",
+"parts": "tox(毒) + ic(…的)",
+"m": "有毒的"
+},
+{
+"w": "toxin",
+"parts": "tox(毒) + in(物质)",
+"m": "毒素"
+},
+{
+"w": "detoxify",
+"parts": "de(去除) + tox(毒) + ify(动词)",
+"m": "解毒"
+},
+{
+"w": "intoxicate",
+"parts": "in(向内) + tox(毒) + icate(动词)",
+"m": "使喝醉"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"tract"
+],
+"meaning": "拉，拖",
+"origin": "拉丁语 trahere, tractus「拉」",
+"note": "",
+"examples": [
+{
+"w": "attract",
+"parts": "at(向) + tract(拉)",
+"m": "吸引"
+},
+{
+"w": "contract",
+"parts": "con(一起) + tract(拉)",
+"m": "合同；收缩"
+},
+{
+"w": "distract",
+"parts": "dis(分开) + tract(拉)",
+"m": "分散注意力"
+},
+{
+"w": "subtract",
+"parts": "sub(在下) + tract(拉)",
+"m": "减去"
+},
+{
+"w": "tractor",
+"parts": "tract(拉) + or(物)",
+"m": "拖拉机"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"trib"
+],
+"meaning": "给予，分配",
+"origin": "拉丁语 tribuere「给予，分配」",
+"note": "",
+"examples": [
+{
+"w": "contribute",
+"parts": "con(一起) + trib(给予) + ute",
+"m": "贡献"
+},
+{
+"w": "distribute",
+"parts": "dis(分开) + trib(分配) + ute",
+"m": "分配；分销"
+},
+{
+"w": "attribute",
+"parts": "at(向) + trib(给予) + ute",
+"m": "归因于；属性"
+},
+{
+"w": "tribute",
+"parts": "trib(给予) + ute",
+"m": "贡品；致敬"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"trud",
+"trus"
+],
+"meaning": "推，挤",
+"origin": "拉丁语 trudere, trusus「推」",
+"note": "",
+"examples": [
+{
+"w": "intrude",
+"parts": "in(向内) + trud(推) + e",
+"m": "闯入"
+},
+{
+"w": "protrude",
+"parts": "pro(向前) + trud(推) + e",
+"m": "突出"
+},
+{
+"w": "obtrusive",
+"parts": "ob(反) + trus(推) + ive(…的)",
+"m": "突兀的"
+},
+{
+"w": "abstruse",
+"parts": "abs(离开) + trus(推) + e",
+"m": "深奥的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"turb"
+],
+"meaning": "扰乱",
+"origin": "拉丁语 turbare「扰乱」",
+"note": "",
+"examples": [
+{
+"w": "disturb",
+"parts": "dis(加强) + turb(扰乱)",
+"m": "打扰"
+},
+{
+"w": "turbulent",
+"parts": "turb(扰乱) + ulent(…的)",
+"m": "动荡的"
+},
+{
+"w": "perturb",
+"parts": "per(彻底) + turb(扰乱)",
+"m": "使不安"
+},
+{
+"w": "turbine",
+"parts": "turb(旋转) + ine",
+"m": "涡轮机"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"umbr"
+],
+"meaning": "影子",
+"origin": "拉丁语 umbra「影子」",
+"note": "",
+"examples": [
+{
+"w": "umbrella",
+"parts": "umbr(影子) + ella(小)",
+"m": "伞"
+},
+{
+"w": "umbrage",
+"parts": "umbr(影子) + age",
+"m": "不快；树荫"
+},
+{
+"w": "adumbrate",
+"parts": "ad(向) + umbr(影子) + ate(动词)",
+"m": "预示；勾勒"
+},
+{
+"w": "penumbra",
+"parts": "pen(几乎) + umbra(影子)",
+"m": "半影"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"uni"
+],
+"meaning": "一",
+"origin": "拉丁语 unus「一」",
+"note": "",
+"examples": [
+{
+"w": "unify",
+"parts": "uni(一) + fy(使)",
+"m": "统一"
+},
+{
+"w": "uniform",
+"parts": "uni(一) + form(形式)",
+"m": "统一的；制服"
+},
+{
+"w": "unique",
+"parts": "uni(一) + que",
+"m": "独特的"
+},
+{
+"w": "unanimous",
+"parts": "un(一) + anim(心) + ous(…的)",
+"m": "一致同意的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"urb"
+],
+"meaning": "城市",
+"origin": "拉丁语 urbs, urbis「城市」",
+"note": "",
+"examples": [
+{
+"w": "urban",
+"parts": "urb(城市) + an(…的)",
+"m": "城市的"
+},
+{
+"w": "suburb",
+"parts": "sub(在下) + urb(城市)",
+"m": "郊区"
+},
+{
+"w": "urbane",
+"parts": "urb(城市) + ane(…的)",
+"m": "温文尔雅的"
+},
+{
+"w": "urbanization",
+"parts": "urb(城市) + an + ization(…化)",
+"m": "城市化"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"us",
+"ut"
+],
+"meaning": "用",
+"origin": "拉丁语 uti, usus「使用」",
+"note": "",
+"examples": [
+{
+"w": "usage",
+"parts": "us(用) + age(名词)",
+"m": "用法"
+},
+{
+"w": "abuse",
+"parts": "ab(偏离) + us(用) + e",
+"m": "滥用"
+},
+{
+"w": "utility",
+"parts": "ut(用) + ility(名词)",
+"m": "效用；公用事业"
+},
+{
+"w": "utilize",
+"parts": "ut(用) + ilize(动词)",
+"m": "利用"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vac",
+"van",
+"void"
+],
+"meaning": "空",
+"origin": "拉丁语 vacare「空」",
+"note": "",
+"examples": [
+{
+"w": "vacant",
+"parts": "vac(空) + ant(…的)",
+"m": "空着的"
+},
+{
+"w": "vacuum",
+"parts": "vac(空) + uum",
+"m": "真空"
+},
+{
+"w": "evacuate",
+"parts": "e(出) + vac(空) + uate(动词)",
+"m": "疏散"
+},
+{
+"w": "vanish",
+"parts": "van(空) + ish(动词)",
+"m": "消失"
+},
+{
+"w": "avoid",
+"parts": "a(出) + void(空)",
+"m": "避免"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vad",
+"vas"
+],
+"meaning": "走",
+"origin": "拉丁语 vadere, vasus「走」",
+"note": "",
+"examples": [
+{
+"w": "invade",
+"parts": "in(向内) + vad(走) + e",
+"m": "入侵"
+},
+{
+"w": "evade",
+"parts": "e(出) + vad(走) + e",
+"m": "逃避"
+},
+{
+"w": "pervasive",
+"parts": "per(贯穿) + vas(走) + ive(…的)",
+"m": "遍布的"
+},
+{
+"w": "invasion",
+"parts": "in(向内) + vas(走) + ion(名词)",
+"m": "入侵"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"val",
+"vail"
+],
+"meaning": "价值；强",
+"origin": "拉丁语 valere「有力，有价值」",
+"note": "",
+"examples": [
+{
+"w": "value",
+"parts": "val(价值) + ue",
+"m": "价值"
+},
+{
+"w": "valid",
+"parts": "val(强) + id(…的)",
+"m": "有效的"
+},
+{
+"w": "evaluate",
+"parts": "e(出) + val(价值) + uate(动词)",
+"m": "评估"
+},
+{
+"w": "prevail",
+"parts": "pre(在前) + vail(强)",
+"m": "盛行；获胜"
+},
+{
+"w": "equivalent",
+"parts": "equi(相等) + val(价值) + ent(…的)",
+"m": "相等的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ven",
+"vent"
+],
+"meaning": "来",
+"origin": "拉丁语 venire, ventus「来」",
+"note": "",
+"examples": [
+{
+"w": "convene",
+"parts": "con(一起) + ven(来) + e",
+"m": "召集"
+},
+{
+"w": "intervene",
+"parts": "inter(之间) + ven(来) + e",
+"m": "干预"
+},
+{
+"w": "revenue",
+"parts": "re(回) + ven(来) + ue",
+"m": "收入"
+},
+{
+"w": "event",
+"parts": "e(出) + vent(来)",
+"m": "事件"
+},
+{
+"w": "venture",
+"parts": "vent(来) + ure(名词)",
+"m": "冒险；风险投资"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"ver"
+],
+"meaning": "真实",
+"origin": "拉丁语 verus「真实的」",
+"note": "",
+"examples": [
+{
+"w": "verify",
+"parts": "ver(真实) + ify(动词)",
+"m": "核实"
+},
+{
+"w": "verdict",
+"parts": "ver(真实) + dict(说)",
+"m": "裁决"
+},
+{
+"w": "veracity",
+"parts": "ver(真实) + acity(名词)",
+"m": "诚实；真实性"
+},
+{
+"w": "verisimilitude",
+"parts": "veri(真实) + simil(相似) + itude(名词)",
+"m": "逼真"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"verb"
+],
+"meaning": "词",
+"origin": "拉丁语 verbum「词」",
+"note": "",
+"examples": [
+{
+"w": "verbal",
+"parts": "verb(词) + al(…的)",
+"m": "口头的"
+},
+{
+"w": "proverb",
+"parts": "pro(向前) + verb(词)",
+"m": "谚语"
+},
+{
+"w": "verbose",
+"parts": "verb(词) + ose(多…的)",
+"m": "冗长的"
+},
+{
+"w": "verbatim",
+"parts": "verb(词) + atim(副词)",
+"m": "逐字地"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vert",
+"vers"
+],
+"meaning": "转",
+"origin": "拉丁语 vertere, versus「转」",
+"note": "",
+"examples": [
+{
+"w": "convert",
+"parts": "con(加强) + vert(转)",
+"m": "转变"
+},
+{
+"w": "divert",
+"parts": "di(分开) + vert(转)",
+"m": "转移"
+},
+{
+"w": "reverse",
+"parts": "re(回) + vers(转) + e",
+"m": "反转；相反的"
+},
+{
+"w": "diverse",
+"parts": "di(分开) + vers(转) + e",
+"m": "多样的"
+},
+{
+"w": "aversion",
+"parts": "a(离开) + vers(转) + ion(名词)",
+"m": "厌恶"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vest"
+],
+"meaning": "衣服",
+"origin": "拉丁语 vestis「衣服」",
+"note": "",
+"examples": [
+{
+"w": "vest",
+"parts": "vest(衣服)",
+"m": "背心；授予"
+},
+{
+"w": "invest",
+"parts": "in(向内) + vest(衣服)",
+"m": "投资"
+},
+{
+"w": "divest",
+"parts": "di(去掉) + vest(衣服)",
+"m": "剥夺；剥离资产"
+},
+{
+"w": "vestment",
+"parts": "vest(衣服) + ment(名词)",
+"m": "法衣"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"via",
+"vey",
+"voy"
+],
+"meaning": "道路",
+"origin": "拉丁语 via「道路」",
+"note": "",
+"examples": [
+{
+"w": "via",
+"parts": "via(道路)",
+"m": "经由"
+},
+{
+"w": "deviate",
+"parts": "de(离开) + vi(道路) + ate(动词)",
+"m": "偏离"
+},
+{
+"w": "obvious",
+"parts": "ob(在前) + vi(道路) + ous(…的)",
+"m": "明显的"
+},
+{
+"w": "convey",
+"parts": "con(一起) + vey(道路)",
+"m": "传达；运送"
+},
+{
+"w": "envoy",
+"parts": "en(在内) + voy(道路)",
+"m": "使节"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vid",
+"vis"
+],
+"meaning": "看",
+"origin": "拉丁语 videre, visus「看」",
+"note": "",
+"examples": [
+{
+"w": "evident",
+"parts": "e(出) + vid(看) + ent(…的)",
+"m": "明显的"
+},
+{
+"w": "provide",
+"parts": "pro(向前) + vid(看) + e",
+"m": "提供"
+},
+{
+"w": "vision",
+"parts": "vis(看) + ion(名词)",
+"m": "视力；远见"
+},
+{
+"w": "revise",
+"parts": "re(再) + vis(看) + e",
+"m": "修订"
+},
+{
+"w": "supervise",
+"parts": "super(在上) + vis(看) + e",
+"m": "监督"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vinc",
+"vict"
+],
+"meaning": "征服",
+"origin": "拉丁语 vincere, victus「征服」",
+"note": "",
+"examples": [
+{
+"w": "convince",
+"parts": "con(加强) + vinc(征服) + e",
+"m": "说服"
+},
+{
+"w": "invincible",
+"parts": "in(不) + vinc(征服) + ible(能…的)",
+"m": "不可战胜的"
+},
+{
+"w": "victory",
+"parts": "vict(征服) + ory(名词)",
+"m": "胜利"
+},
+{
+"w": "evict",
+"parts": "e(出) + vict(征服)",
+"m": "驱逐"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"viv",
+"vit"
+],
+"meaning": "生命，活",
+"origin": "拉丁语 vivere「活」，vita「生命」",
+"note": "",
+"examples": [
+{
+"w": "survive",
+"parts": "sur(超过) + viv(活) + e",
+"m": "幸存"
+},
+{
+"w": "revive",
+"parts": "re(再) + viv(活) + e",
+"m": "复兴；苏醒"
+},
+{
+"w": "vivid",
+"parts": "viv(活) + id(…的)",
+"m": "生动的"
+},
+{
+"w": "vital",
+"parts": "vit(生命) + al(…的)",
+"m": "至关重要的；生命的"
+},
+{
+"w": "vitamin",
+"parts": "vit(生命) + amin(胺)",
+"m": "维生素"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"voc",
+"vok"
+],
+"meaning": "声音，叫",
+"origin": "拉丁语 vocare「叫」，vox, vocis「声音」",
+"note": "",
+"examples": [
+{
+"w": "vocal",
+"parts": "voc(声音) + al(…的)",
+"m": "声音的；直言的"
+},
+{
+"w": "advocate",
+"parts": "ad(向) + voc(叫) + ate(动词)",
+"m": "提倡；拥护者"
+},
+{
+"w": "provoke",
+"parts": "pro(向前) + vok(叫) + e",
+"m": "激怒；引起"
+},
+{
+"w": "revoke",
+"parts": "re(回) + vok(叫) + e",
+"m": "撤销"
+},
+{
+"w": "vocation",
+"parts": "voc(召唤) + ation(名词)",
+"m": "职业；使命"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vol"
+],
+"meaning": "意愿",
+"origin": "拉丁语 velle「愿意」，voluntas「意愿」",
+"note": "",
+"examples": [
+{
+"w": "voluntary",
+"parts": "vol(意愿) + untary(…的)",
+"m": "自愿的"
+},
+{
+"w": "volunteer",
+"parts": "vol(意愿) + unteer(人)",
+"m": "志愿者"
+},
+{
+"w": "benevolent",
+"parts": "bene(好) + vol(意愿) + ent(…的)",
+"m": "仁慈的"
+},
+{
+"w": "malevolent",
+"parts": "male(坏) + vol(意愿) + ent(…的)",
+"m": "恶毒的"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"volv",
+"volu"
+],
+"meaning": "卷，转",
+"origin": "拉丁语 volvere, volutus「卷，转」",
+"note": "",
+"examples": [
+{
+"w": "involve",
+"parts": "in(向内) + volv(卷) + e",
+"m": "涉及"
+},
+{
+"w": "revolve",
+"parts": "re(回) + volv(转) + e",
+"m": "旋转"
+},
+{
+"w": "evolve",
+"parts": "e(出) + volv(卷) + e",
+"m": "演变"
+},
+{
+"w": "revolution",
+"parts": "re(回) + volu(转) + tion(名词)",
+"m": "革命"
+},
+{
+"w": "volume",
+"parts": "volu(卷) + me",
+"m": "卷；体积"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vor"
+],
+"meaning": "吃",
+"origin": "拉丁语 vorare「吞吃」",
+"note": "",
+"examples": [
+{
+"w": "voracious",
+"parts": "vor(吃) + acious(…的)",
+"m": "贪吃的；求知若渴的"
+},
+{
+"w": "devour",
+"parts": "de(加强) + vour(吃)",
+"m": "吞食"
+},
+{
+"w": "carnivore",
+"parts": "carni(肉) + vor(吃) + e",
+"m": "食肉动物"
+},
+{
+"w": "herbivore",
+"parts": "herbi(草) + vor(吃) + e",
+"m": "食草动物"
+}
+]
+},
+{
+"type": "root",
+"forms": [
+"vot",
+"vow"
+],
+"meaning": "发誓，许愿",
+"origin": "拉丁语 vovere, votus「发誓」",
+"note": "",
+"examples": [
+{
+"w": "vote",
+"parts": "vot(许愿) + e",
+"m": "投票"
+},
+{
+"w": "devote",
+"parts": "de(加强) + vot(发誓) + e",
+"m": "献身于"
+},
+{
+"w": "devotion",
+"parts": "de(加强) + vot(发誓) + ion(名词)",
+"m": "奉献"
+},
+{
+"w": "vow",
+"parts": "vow(发誓)",
+"m": "誓言；发誓"
+}
+]
+}
+]

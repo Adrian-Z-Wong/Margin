@@ -1,0 +1,3027 @@
+history taking	问诊；病史采集	诊断学
+physical examination	体格检查	诊断学
+general examination	一般检查	诊断学
+inspection	视诊	诊断学
+palpation	触诊	诊断学
+percussion	叩诊	诊断学
+auscultation	听诊	诊断学
+olfactory examination	嗅诊	诊断学
+light palpation	浅部触诊法	诊断学
+deep palpation	深部触诊法	诊断学
+deep slipping palpation	深部滑行触诊法	诊断学
+bimanual palpation	双手触诊法	诊断学
+deep press palpation	深压触诊法	诊断学
+ballottement	冲击触诊法；浮沉触诊法	诊断学
+direct percussion	直接叩诊法	诊断学
+indirect percussion	间接叩诊法	诊断学
+direct auscultation	直接听诊法	诊断学
+indirect auscultation	间接听诊法	诊断学
+percussion note	叩诊音	诊断学
+resonance	清音	诊断学
+hyperresonance	过清音	诊断学
+tympany	鼓音	诊断学
+dullness	浊音	诊断学
+flatness	实音	诊断学
+vital sign	生命体征	诊断学
+body temperature	体温	诊断学
+oral temperature	口腔温度；口温	诊断学
+axillary temperature	腋下温度；腋温	诊断学
+rectal temperature	直肠温度；肛温	诊断学
+tympanic temperature	鼓膜温度；耳温	诊断学
+pulse	脉搏	诊断学
+pulse rate	脉率	诊断学
+heart rate	心率	诊断学
+respiration	呼吸	诊断学
+respiratory rate	呼吸频率	诊断学
+blood pressure	血压（BP）	诊断学
+systolic blood pressure	收缩压（SBP）	诊断学
+diastolic blood pressure	舒张压（DBP）	诊断学
+pulse pressure	脉压	诊断学
+mean arterial pressure	平均动脉压（MAP）	诊断学
+Korotkoff sound	柯氏音；科罗特科夫音	诊断学
+pulse oxygen saturation	脉搏血氧饱和度（SpO2）	诊断学
+height	身高	诊断学
+body weight	体重	诊断学
+body mass index	体重指数（BMI）	诊断学
+waist circumference	腰围	诊断学
+hip circumference	臀围	诊断学
+waist-to-hip ratio	腰臀比（WHR）	诊断学
+head circumference	头围	诊断学
+chest circumference	胸围	诊断学
+abdominal circumference	腹围	诊断学
+pain score	疼痛评分	诊断学
+visual analogue scale	视觉模拟评分法（VAS）	诊断学
+numeric rating scale	数字评分法（NRS）	诊断学
+faces pain scale	面部表情疼痛评分法	诊断学
+body type	体型	诊断学
+asthenic type	无力型；瘦长型	诊断学
+sthenic type	超力型；矮胖型	诊断学
+nutritional status	营养状态	诊断学
+facies	面容	诊断学
+acute facies	急性病容	诊断学
+chronic facies	慢性病容	诊断学
+anemic facies	贫血面容	诊断学
+mitral facies	二尖瓣面容	诊断学
+moon facies	满月面容	诊断学
+acromegalic facies	肢端肥大症面容	诊断学
+myxedema facies	黏液性水肿面容	诊断学
+masked facies	面具面容	诊断学
+position	体位	诊断学
+active position	自动体位	诊断学
+passive position	被动体位	诊断学
+compulsive position	强迫体位	诊断学
+posture	姿势	诊断学
+gait	步态	诊断学
+festinating gait	慌张步态	诊断学
+scissors gait	剪刀步态	诊断学
+waddling gait	蹒跚步态；鸭步	诊断学
+steppage gait	跨阈步态	诊断学
+ataxic gait	共济失调步态	诊断学
+drunken gait	醉酒步态	诊断学
+hemiplegic gait	偏瘫步态	诊断学
+intermittent claudication	间歇性跛行	诊断学
+consciousness	意识	诊断学
+disturbance of consciousness	意识障碍	诊断学
+somnolence	嗜睡	诊断学
+confusion	意识模糊	诊断学
+stupor	昏睡	诊断学
+coma	昏迷	诊断学
+light coma	浅昏迷	诊断学
+deep coma	深昏迷	诊断学
+delirium	谵妄	诊断学
+orientation	定向力	诊断学
+Glasgow coma scale	格拉斯哥昏迷量表（GCS）	诊断学
+skin turgor	皮肤弹性	诊断学
+pallor	苍白	诊断学
+flushing	潮红	诊断学
+cyanosis	发绀	诊断学
+central cyanosis	中心性发绀	诊断学
+peripheral cyanosis	周围性发绀	诊断学
+jaundice	黄疸	诊断学
+pigmentation	色素沉着	诊断学
+depigmentation	色素脱失	诊断学
+rash	皮疹	诊断学
+macule	斑疹	诊断学
+papule	丘疹	诊断学
+maculopapule	斑丘疹	诊断学
+rose spot	玫瑰疹	诊断学
+wheal	风团	诊断学
+vesicle	水疱	诊断学
+pustule	脓疱	诊断学
+petechia	瘀点	诊断学
+purpura	紫癜	诊断学
+ecchymosis	瘀斑	诊断学
+spider angioma	蜘蛛痣	诊断学
+palmar erythema	肝掌	诊断学
+edema	水肿	诊断学
+pitting edema	凹陷性水肿	诊断学
+nonpitting edema	非凹陷性水肿	诊断学
+generalized edema	全身性水肿	诊断学
+localized edema	局部性水肿	诊断学
+subcutaneous nodule	皮下结节	诊断学
+lymphadenopathy	淋巴结肿大	诊断学
+emaciation	消瘦	诊断学
+cachexia	恶病质	诊断学
+pupillary light reflex	瞳孔对光反射	诊断学
+direct light reflex	直接对光反射	诊断学
+consensual light reflex	间接对光反射	诊断学
+accommodation reflex	调节反射	诊断学
+convergence reflex	集合反射；辐辏反射	诊断学
+corneal reflex	角膜反射	诊断学
+anisocoria	瞳孔不等大	诊断学
+miosis	瞳孔缩小	诊断学
+mydriasis	瞳孔散大	诊断学
+nystagmus	眼球震颤	诊断学
+exophthalmos	眼球突出	诊断学
+enophthalmos	眼球内陷	诊断学
+ptosis	上睑下垂	诊断学
+jugular venous distension	颈静脉怒张	诊断学
+jugular venous pressure	颈静脉压（JVP）	诊断学
+hepatojugular reflux	肝颈静脉回流征	诊断学
+tracheal deviation	气管移位	诊断学
+vascular bruit	血管杂音	诊断学
+barrel chest	桶状胸	诊断学
+funnel chest	漏斗胸	诊断学
+pigeon chest	鸡胸	诊断学
+flat chest	扁平胸	诊断学
+rachitic rosary	佝偻病串珠	诊断学
+respiratory movement	呼吸运动	诊断学
+thoracic respiration	胸式呼吸	诊断学
+abdominal respiration	腹式呼吸	诊断学
+three depression sign	三凹征	诊断学
+paradoxical respiration	反常呼吸	诊断学
+tachypnea	呼吸过速	诊断学
+bradypnea	呼吸过缓	诊断学
+hyperventilation	过度通气	诊断学
+apnea	呼吸暂停	诊断学
+Cheyne-Stokes respiration	潮式呼吸	诊断学
+Biot respiration	间停呼吸	诊断学
+Kussmaul respiration	库斯莫尔呼吸；深大呼吸	诊断学
+sighing respiration	叹气样呼吸	诊断学
+orthopnea	端坐呼吸	诊断学
+paroxysmal nocturnal dyspnea	夜间阵发性呼吸困难	诊断学
+inspiratory dyspnea	吸气性呼吸困难	诊断学
+expiratory dyspnea	呼气性呼吸困难	诊断学
+vocal fremitus	语音震颤	诊断学
+tactile fremitus	触觉语颤	诊断学
+vocal resonance	语音共振	诊断学
+egophony	羊鸣音	诊断学
+pleural friction rub	胸膜摩擦音	诊断学
+pleural friction fremitus	胸膜摩擦感	诊断学
+breath sound	呼吸音	诊断学
+vesicular breath sound	肺泡呼吸音	诊断学
+bronchial breath sound	支气管呼吸音	诊断学
+bronchovesicular breath sound	支气管肺泡呼吸音	诊断学
+tracheal breath sound	气管呼吸音	诊断学
+adventitious sound	附加音	诊断学
+rale	啰音	诊断学
+moist rale	湿啰音	诊断学
+dry rale	干啰音	诊断学
+crackle	爆裂音；湿啰音	诊断学
+wheeze	哮鸣音	诊断学
+rhonchus	鼾音；干啰音	诊断学
+stridor	喘鸣	诊断学
+apical impulse	心尖搏动	诊断学
+point of maximal impulse	最强搏动点（PMI）	诊断学
+heaving apex impulse	抬举性心尖搏动	诊断学
+precordial bulge	心前区隆起	诊断学
+thrill	震颤	诊断学
+pericardial friction rub	心包摩擦音	诊断学
+relative cardiac dullness	心脏相对浊音界	诊断学
+absolute cardiac dullness	心脏绝对浊音界	诊断学
+auscultatory valve area	心脏瓣膜听诊区	诊断学
+Erb area	主动脉瓣第二听诊区	诊断学
+heart sound	心音	诊断学
+first heart sound	第一心音（S1）	诊断学
+second heart sound	第二心音（S2）	诊断学
+third heart sound	第三心音（S3）	诊断学
+fourth heart sound	第四心音（S4）	诊断学
+physiological splitting	生理性分裂	诊断学
+fixed splitting	固定分裂	诊断学
+paradoxical splitting	反常分裂；逆分裂	诊断学
+gallop rhythm	奔马律	诊断学
+protodiastolic gallop	舒张早期奔马律	诊断学
+presystolic gallop	舒张晚期奔马律	诊断学
+summation gallop	重叠型奔马律	诊断学
+pendulum rhythm	钟摆律	诊断学
+opening snap	开瓣音	诊断学
+ejection sound	喷射音	诊断学
+midsystolic click	收缩中晚期喀喇音	诊断学
+pericardial knock	心包叩击音	诊断学
+tumor plop	肿瘤扑落音	诊断学
+murmur	杂音	诊断学
+systolic murmur	收缩期杂音	诊断学
+diastolic murmur	舒张期杂音	诊断学
+continuous murmur	连续性杂音	诊断学
+functional murmur	功能性杂音	诊断学
+organic murmur	器质性杂音	诊断学
+blowing murmur	吹风样杂音	诊断学
+rumbling murmur	隆隆样杂音	诊断学
+machinery murmur	机器样杂音	诊断学
+Austin Flint murmur	Austin Flint杂音	诊断学
+Graham Steell murmur	Graham Steell杂音	诊断学
+peripheral vascular sign	周围血管征	诊断学
+water hammer pulse	水冲脉	诊断学
+pulsus alternans	交替脉	诊断学
+pulsus paradoxus	奇脉	诊断学
+pulsus bigeminus	二联脉	诊断学
+pulse deficit	脉搏短绌	诊断学
+capillary pulsation sign	毛细血管搏动征	诊断学
+pistol shot sound	枪击音	诊断学
+Duroziez murmur	Duroziez双重杂音	诊断学
+tachycardia	心动过速	诊断学
+bradycardia	心动过缓	诊断学
+abdominal distension	腹胀	诊断学
+protuberant abdomen	腹部膨隆	诊断学
+scaphoid abdomen	舟状腹	诊断学
+frog belly	蛙腹	诊断学
+peristaltic wave	蠕动波	诊断学
+bowel sound	肠鸣音	诊断学
+succussion splash	振水音	诊断学
+shifting dullness	移动性浊音	诊断学
+fluid thrill	液波震颤	诊断学
+tenderness	压痛	诊断学
+rebound tenderness	反跳痛	诊断学
+muscle guarding	腹肌紧张；肌卫	诊断学
+board-like rigidity	板状腹	诊断学
+peritoneal irritation sign	腹膜刺激征	诊断学
+McBurney point	麦氏点	诊断学
+Murphy sign	墨菲征	诊断学
+Rovsing sign	结肠充气试验；罗夫辛征	诊断学
+psoas sign	腰大肌试验	诊断学
+obturator sign	闭孔内肌试验	诊断学
+Grey Turner sign	Grey Turner征	诊断学
+Cullen sign	Cullen征	诊断学
+liver dullness	肝浊音界	诊断学
+hepatomegaly	肝大；肝肿大	诊断学
+splenomegaly	脾大；脾肿大	诊断学
+costovertebral angle tenderness	肋脊角压痛	诊断学
+percussion tenderness	叩击痛	诊断学
+digital rectal examination	直肠指检（DRE）	诊断学
+knee-chest position	膝胸位	诊断学
+lithotomy position	截石位	诊断学
+left lateral position	左侧卧位	诊断学
+squatting position	蹲位	诊断学
+neurological examination	神经系统检查	诊断学
+cranial nerve examination	脑神经检查	诊断学
+motor function	运动功能	诊断学
+muscle strength	肌力	诊断学
+muscle tone	肌张力	诊断学
+hypertonia	肌张力增高	诊断学
+hypotonia	肌张力减低	诊断学
+cogwheel rigidity	齿轮样强直	诊断学
+lead-pipe rigidity	铅管样强直	诊断学
+clasp-knife phenomenon	折刀现象	诊断学
+spasticity	痉挛状态	诊断学
+muscle atrophy	肌萎缩	诊断学
+fasciculation	肌束颤动	诊断学
+involuntary movement	不自主运动	诊断学
+tremor	震颤	诊断学
+resting tremor	静止性震颤	诊断学
+intention tremor	意向性震颤	诊断学
+postural tremor	姿势性震颤	诊断学
+asterixis	扑翼样震颤	诊断学
+choreic movement	舞蹈样运动	诊断学
+athetosis	手足徐动	诊断学
+myoclonus	肌阵挛	诊断学
+ataxia	共济失调	诊断学
+coordination	共济运动	诊断学
+finger-to-nose test	指鼻试验	诊断学
+heel-knee-shin test	跟-膝-胫试验	诊断学
+rapid alternating movement	快速轮替动作	诊断学
+Romberg sign	闭目难立征；龙贝格征	诊断学
+sensory examination	感觉检查	诊断学
+superficial sensation	浅感觉	诊断学
+deep sensation	深感觉	诊断学
+combined sensation	复合感觉	诊断学
+pain sensation	痛觉	诊断学
+temperature sensation	温度觉	诊断学
+touch sensation	触觉	诊断学
+position sense	位置觉	诊断学
+vibration sense	振动觉	诊断学
+two-point discrimination	两点辨别觉	诊断学
+stereognosis	实体觉	诊断学
+graphesthesia	图形觉	诊断学
+topognosis	定位觉	诊断学
+reflex	反射	诊断学
+superficial reflex	浅反射	诊断学
+abdominal reflex	腹壁反射	诊断学
+cremasteric reflex	提睾反射	诊断学
+plantar reflex	跖反射	诊断学
+anal reflex	肛门反射	诊断学
+deep reflex	深反射	诊断学
+tendon reflex	腱反射	诊断学
+biceps reflex	肱二头肌反射	诊断学
+triceps reflex	肱三头肌反射	诊断学
+radial periosteal reflex	桡骨膜反射	诊断学
+patellar reflex	膝反射	诊断学
+knee jerk	膝跳反射	诊断学
+Achilles tendon reflex	跟腱反射	诊断学
+hyperreflexia	反射亢进	诊断学
+hyporeflexia	反射减弱	诊断学
+areflexia	反射消失	诊断学
+clonus	阵挛	诊断学
+ankle clonus	踝阵挛	诊断学
+patellar clonus	髌阵挛	诊断学
+pathological reflex	病理反射	诊断学
+Babinski sign	巴宾斯基征	诊断学
+Oppenheim sign	奥本海姆征	诊断学
+Gordon sign	戈登征	诊断学
+Chaddock sign	查多克征	诊断学
+Hoffmann sign	霍夫曼征	诊断学
+meningeal irritation sign	脑膜刺激征	诊断学
+nuchal rigidity	颈强直	诊断学
+Kernig sign	凯尔尼格征；克尼格征	诊断学
+Brudzinski sign	布鲁津斯基征	诊断学
+Lasegue sign	拉塞格征	诊断学
+straight leg raising test	直腿抬高试验	诊断学
+Phalen test	屈腕试验	诊断学
+Tinel sign	蒂内尔征	诊断学
+Thomas sign	托马斯征	诊断学
+drawer test	抽屉试验	诊断学
+Lachman test	拉赫曼试验	诊断学
+McMurray test	麦克默里试验；回旋挤压试验	诊断学
+Patrick test	4字试验	诊断学
+floating patella test	浮髌试验	诊断学
+Trendelenburg sign	特伦德伦伯格征	诊断学
+Allen test	艾伦试验	诊断学
+Rinne test	林纳试验；气骨导比较试验	诊断学
+Weber test	韦伯试验；骨导偏向试验	诊断学
+Schwabach test	施瓦巴赫试验；骨导比较试验	诊断学
+fundus examination	眼底检查	诊断学
+Apgar score	阿普加评分；Apgar评分	诊断学
+fundal height	宫底高度	诊断学
+Leopold maneuver	四步触诊法	诊断学
+pelvic examination	妇科检查；盆腔检查	诊断学
+bimanual examination	双合诊	诊断学
+rectovaginal examination	三合诊	诊断学
+breast examination	乳房检查	诊断学
+fetal heart rate	胎心率（FHR）	诊断学
+fetal movement	胎动	诊断学
+symptom	症状	诊断学
+sign	体征	诊断学
+syndrome	综合征	诊断学
+clinical manifestation	临床表现	诊断学
+positive sign	阳性体征	诊断学
+negative sign	阴性体征	诊断学
+fever	发热	诊断学
+low-grade fever	低热	诊断学
+high fever	高热	诊断学
+hyperpyrexia	超高热	诊断学
+continued fever	稽留热	诊断学
+remittent fever	弛张热	诊断学
+intermittent fever	间歇热	诊断学
+undulant fever	波状热	诊断学
+irregular fever	不规则热	诊断学
+chill	寒战	诊断学
+night sweat	盗汗	诊断学
+fatigue	乏力；疲劳	诊断学
+malaise	不适	诊断学
+weight loss	体重减轻	诊断学
+pain	疼痛	诊断学
+headache	头痛	诊断学
+chest pain	胸痛	诊断学
+abdominal pain	腹痛	诊断学
+low back pain	腰痛	诊断学
+arthralgia	关节痛	诊断学
+myalgia	肌痛	诊断学
+referred pain	牵涉痛	诊断学
+radiating pain	放射痛	诊断学
+colic	绞痛	诊断学
+cough	咳嗽	诊断学
+expectoration	咳痰	诊断学
+hemoptysis	咯血	诊断学
+dyspnea	呼吸困难	诊断学
+palpitation	心悸	诊断学
+syncope	晕厥	诊断学
+dizziness	头晕	诊断学
+vertigo	眩晕	诊断学
+nausea	恶心	诊断学
+vomiting	呕吐	诊断学
+projectile vomiting	喷射性呕吐	诊断学
+hematemesis	呕血	诊断学
+melena	黑便	诊断学
+hematochezia	便血	诊断学
+diarrhea	腹泻	诊断学
+constipation	便秘	诊断学
+tenesmus	里急后重	诊断学
+dysphagia	吞咽困难	诊断学
+anorexia	食欲减退；厌食	诊断学
+heartburn	烧心；胃灼热	诊断学
+acid regurgitation	反酸	诊断学
+belching	嗳气	诊断学
+hiccup	呃逆	诊断学
+hematuria	血尿	诊断学
+gross hematuria	肉眼血尿	诊断学
+microscopic hematuria	镜下血尿	诊断学
+oliguria	少尿	诊断学
+anuria	无尿	诊断学
+polyuria	多尿	诊断学
+nocturia	夜尿增多	诊断学
+urinary frequency	尿频	诊断学
+urinary urgency	尿急	诊断学
+dysuria	尿痛；排尿困难	诊断学
+urinary incontinence	尿失禁	诊断学
+urinary retention	尿潴留	诊断学
+polydipsia	多饮	诊断学
+polyphagia	多食	诊断学
+convulsion	惊厥；抽搐	诊断学
+seizure	痫性发作	诊断学
+pruritus	瘙痒	诊断学
+hoarseness	声音嘶哑	诊断学
+epistaxis	鼻出血	诊断学
+tinnitus	耳鸣	诊断学
+blurred vision	视物模糊	诊断学
+diplopia	复视	诊断学
+aphasia	失语	诊断学
+dysarthria	构音障碍	诊断学
+paralysis	瘫痪	诊断学
+hemiplegia	偏瘫	诊断学
+paraplegia	截瘫	诊断学
+tetraplegia	四肢瘫	诊断学
+monoplegia	单瘫	诊断学
+paresthesia	感觉异常	诊断学
+numbness	麻木	诊断学
+hypoesthesia	感觉减退	诊断学
+hyperesthesia	感觉过敏	诊断学
+clubbed finger	杵状指	诊断学
+koilonychia	匙状甲	诊断学
+lochia	恶露	诊断学
+diagnosis	诊断	诊断学
+differential diagnosis	鉴别诊断	诊断学
+preliminary diagnosis	初步诊断	诊断学
+admitting diagnosis	入院诊断	诊断学
+discharge diagnosis	出院诊断	诊断学
+final diagnosis	最后诊断；确定诊断	诊断学
+clinical diagnosis	临床诊断	诊断学
+etiological diagnosis	病因诊断	诊断学
+functional diagnosis	功能诊断；病理生理诊断	诊断学
+diagnostic criterion	诊断标准	诊断学
+prognosis	预后	诊断学
+complication	并发症	诊断学
+comorbidity	共病；合并症	诊断学
+Acute Physiology and Chronic Health Evaluation II	急性生理与慢性健康评分Ⅱ（APACHE Ⅱ）	诊断学
+Sequential Organ Failure Assessment	序贯器官衰竭评估（SOFA）	诊断学
+New York Heart Association functional classification	纽约心脏协会心功能分级（NYHA）	诊断学
+Killip classification	Killip分级	诊断学
+Child-Pugh classification	Child-Pugh分级	诊断学
+Karnofsky performance status	卡氏功能状态评分（KPS）	诊断学
+Eastern Cooperative Oncology Group performance status	美国东部肿瘤协作组体能状态评分（ECOG）	诊断学
+Hamilton depression scale	汉密尔顿抑郁量表（HAMD）	诊断学
+Hamilton anxiety scale	汉密尔顿焦虑量表（HAMA）	诊断学
+National Institutes of Health Stroke Scale	美国国立卫生研究院卒中量表（NIHSS）	诊断学
+TNM staging	TNM分期	病理检查
+complete blood count	全血细胞计数（CBC）	实验室检查
+routine blood test	血常规	实验室检查
+red blood cell	红细胞（RBC）	实验室检查
+red blood cell count	红细胞计数	实验室检查
+hemoglobin	血红蛋白（Hb）	实验室检查
+hematocrit	血细胞比容（Hct）	实验室检查
+mean corpuscular volume	平均红细胞体积（MCV）	实验室检查
+mean corpuscular hemoglobin	平均红细胞血红蛋白量（MCH）	实验室检查
+mean corpuscular hemoglobin concentration	平均红细胞血红蛋白浓度（MCHC）	实验室检查
+red cell distribution width	红细胞体积分布宽度（RDW）	实验室检查
+white blood cell	白细胞（WBC）	实验室检查
+white blood cell count	白细胞计数	实验室检查
+differential leukocyte count	白细胞分类计数	实验室检查
+neutrophil	中性粒细胞	实验室检查
+band neutrophil	杆状核中性粒细胞	实验室检查
+segmented neutrophil	分叶核中性粒细胞	实验室检查
+lymphocyte	淋巴细胞	实验室检查
+monocyte	单核细胞	实验室检查
+eosinophil	嗜酸性粒细胞	实验室检查
+basophil	嗜碱性粒细胞	实验室检查
+absolute neutrophil count	中性粒细胞绝对计数（ANC）	实验室检查
+platelet	血小板（PLT）	实验室检查
+platelet count	血小板计数	实验室检查
+mean platelet volume	平均血小板体积（MPV）	实验室检查
+platelet distribution width	血小板体积分布宽度（PDW）	实验室检查
+plateletcrit	血小板比容（PCT）	实验室检查
+reticulocyte	网织红细胞	实验室检查
+reticulocyte count	网织红细胞计数	实验室检查
+erythrocyte sedimentation rate	红细胞沉降率；血沉（ESR）	实验室检查
+peripheral blood smear	外周血涂片	实验室检查
+leukocytosis	白细胞增多	实验室检查
+leukopenia	白细胞减少	实验室检查
+shift to the left	核左移	实验室检查
+shift to the right	核右移	实验室检查
+toxic granulation	中毒颗粒	实验室检查
+Dohle body	杜勒小体	实验室检查
+Howell-Jolly body	豪-乔小体	实验室检查
+Auer rod	奥尔小体；Auer小体	实验室检查
+Cabot ring	卡波环	实验室检查
+Heinz body	海因茨小体	实验室检查
+basophilic stippling	嗜碱性点彩	实验室检查
+target cell	靶形红细胞	实验室检查
+schistocyte	裂红细胞；破碎红细胞	实验室检查
+spherocyte	球形红细胞	实验室检查
+sickle cell	镰状红细胞	实验室检查
+rouleaux formation	缗钱状形成	实验室检查
+nucleated red blood cell	有核红细胞	实验室检查
+anisocytosis	红细胞大小不均	实验室检查
+atypical lymphocyte	异型淋巴细胞	实验室检查
+blast cell	原始细胞	实验室检查
+myeloblast	原粒细胞	实验室检查
+promyelocyte	早幼粒细胞	实验室检查
+myelocyte	中幼粒细胞	实验室检查
+metamyelocyte	晚幼粒细胞	实验室检查
+bone marrow smear	骨髓涂片	实验室检查
+myeloid-erythroid ratio	粒红比值	实验室检查
+cytochemical staining	细胞化学染色	实验室检查
+peroxidase stain	过氧化物酶染色（POX）	实验室检查
+neutrophil alkaline phosphatase	中性粒细胞碱性磷酸酶（NAP）	实验室检查
+iron stain	铁染色	实验室检查
+flow cytometry	流式细胞术	实验室检查
+immunophenotyping	免疫分型	实验室检查
+karyotype analysis	核型分析	实验室检查
+chromosome analysis	染色体分析	实验室检查
+fluorescence in situ hybridization	荧光原位杂交（FISH）	实验室检查
+polymerase chain reaction	聚合酶链反应（PCR）	实验室检查
+quantitative polymerase chain reaction	定量聚合酶链反应（qPCR）	实验室检查
+reverse transcription polymerase chain reaction	逆转录聚合酶链反应（RT-PCR）	实验室检查
+gene sequencing	基因测序	实验室检查
+next-generation sequencing	新一代测序；二代测序（NGS）	实验室检查
+metagenomic next-generation sequencing	宏基因组二代测序（mNGS）	实验室检查
+blood group	血型	实验室检查
+ABO blood group system	ABO血型系统	实验室检查
+Rh blood group system	Rh血型系统	实验室检查
+blood typing	血型鉴定	实验室检查
+cross-matching	交叉配血	实验室检查
+antibody screening	抗体筛查	实验室检查
+direct antiglobulin test	直接抗球蛋白试验（DAT）	实验室检查
+indirect antiglobulin test	间接抗球蛋白试验（IAT）	实验室检查
+Coombs test	库姆斯试验；抗人球蛋白试验	实验室检查
+osmotic fragility test	红细胞渗透脆性试验	实验室检查
+Ham test	酸化血清溶血试验	实验室检查
+sucrose lysis test	蔗糖溶血试验	实验室检查
+glucose-6-phosphate dehydrogenase	葡萄糖-6-磷酸脱氢酶（G6PD）	实验室检查
+hemoglobin electrophoresis	血红蛋白电泳	实验室检查
+haptoglobin	结合珠蛋白	实验室检查
+free hemoglobin	游离血红蛋白	实验室检查
+erythropoietin	促红细胞生成素（EPO）	实验室检查
+coagulation function test	凝血功能检查	实验室检查
+prothrombin time	凝血酶原时间（PT）	实验室检查
+international normalized ratio	国际标准化比值（INR）	实验室检查
+activated partial thromboplastin time	活化部分凝血活酶时间（APTT）	实验室检查
+thrombin time	凝血酶时间（TT）	实验室检查
+fibrinogen	纤维蛋白原（FIB）	实验室检查
+D-dimer	D-二聚体	实验室检查
+fibrin degradation product	纤维蛋白降解产物（FDP）	实验室检查
+plasma protamine paracoagulation test	血浆鱼精蛋白副凝试验（3P）	实验室检查
+bleeding time	出血时间（BT）	实验室检查
+clotting time	凝血时间	实验室检查
+antithrombin	抗凝血酶	实验室检查
+protein C	蛋白C	实验室检查
+protein S	蛋白S	实验室检查
+lupus anticoagulant	狼疮抗凝物	实验室检查
+coagulation factor	凝血因子	实验室检查
+plasminogen	纤溶酶原	实验室检查
+platelet aggregation test	血小板聚集试验	实验室检查
+thromboelastography	血栓弹力图（TEG）	实验室检查
+capillary fragility test	毛细血管脆性试验；束臂试验	实验室检查
+clot retraction test	血块收缩试验	实验室检查
+biochemical test	生化检查	实验室检查
+liver function test	肝功能检查	实验室检查
+alanine aminotransferase	丙氨酸转氨酶；丙氨酸氨基转移酶（ALT）	实验室检查
+aspartate aminotransferase	天冬氨酸转氨酶；天冬氨酸氨基转移酶（AST）	实验室检查
+alkaline phosphatase	碱性磷酸酶（ALP）	实验室检查
+gamma-glutamyl transferase	γ-谷氨酰转移酶（GGT）	实验室检查
+total bilirubin	总胆红素（TBil）	实验室检查
+direct bilirubin	直接胆红素（DBil）	实验室检查
+indirect bilirubin	间接胆红素（IBil）	实验室检查
+conjugated bilirubin	结合胆红素	实验室检查
+unconjugated bilirubin	非结合胆红素	实验室检查
+total protein	总蛋白（TP）	实验室检查
+albumin	白蛋白；清蛋白（ALB）	实验室检查
+globulin	球蛋白（GLB）	实验室检查
+albumin-globulin ratio	白球比值（A/G）	实验室检查
+prealbumin	前白蛋白（PA）	实验室检查
+total bile acid	总胆汁酸（TBA）	实验室检查
+cholinesterase	胆碱酯酶（ChE）	实验室检查
+lactate dehydrogenase	乳酸脱氢酶（LDH）	实验室检查
+blood ammonia	血氨	实验室检查
+renal function test	肾功能检查	实验室检查
+blood urea nitrogen	血尿素氮（BUN）	实验室检查
+urea	尿素	实验室检查
+creatinine	肌酐（Cr）	实验室检查
+serum creatinine	血清肌酐（Scr）	实验室检查
+uric acid	尿酸（UA）	实验室检查
+cystatin C	胱抑素C（Cys C）	实验室检查
+creatinine clearance	肌酐清除率（Ccr）	实验室检查
+glomerular filtration rate	肾小球滤过率（GFR）	实验室检查
+estimated glomerular filtration rate	估算肾小球滤过率（eGFR）	实验室检查
+beta-2 microglobulin	β2-微球蛋白（β2-MG）	实验室检查
+electrolyte	电解质	实验室检查
+serum sodium	血钠	实验室检查
+serum potassium	血钾	实验室检查
+serum chloride	血氯	实验室检查
+serum calcium	血钙	实验室检查
+ionized calcium	离子钙	实验室检查
+serum magnesium	血镁	实验室检查
+serum phosphorus	血磷	实验室检查
+serum iron	血清铁	实验室检查
+total iron-binding capacity	总铁结合力（TIBC）	实验室检查
+serum ferritin	血清铁蛋白（SF）	实验室检查
+transferrin	转铁蛋白	实验室检查
+transferrin saturation	转铁蛋白饱和度	实验室检查
+serum vitamin B12	血清维生素B12	实验室检查
+serum folate	血清叶酸	实验室检查
+anion gap	阴离子间隙（AG）	实验室检查
+bicarbonate	碳酸氢盐	实验室检查
+plasma osmolality	血浆渗透压	实验室检查
+blood gas analysis	血气分析	实验室检查
+arterial blood gas	动脉血气（ABG）	实验室检查
+pH value	pH值	实验室检查
+partial pressure of oxygen	氧分压（PO2）	实验室检查
+partial pressure of carbon dioxide	二氧化碳分压（PCO2）	实验室检查
+arterial oxygen saturation	动脉血氧饱和度（SaO2）	实验室检查
+actual bicarbonate	实际碳酸氢盐（AB）	实验室检查
+standard bicarbonate	标准碳酸氢盐（SB）	实验室检查
+base excess	碱剩余（BE）	实验室检查
+buffer base	缓冲碱（BB）	实验室检查
+total carbon dioxide	二氧化碳总量（TCO2）	实验室检查
+oxygenation index	氧合指数	实验室检查
+alveolar-arterial oxygen difference	肺泡-动脉血氧分压差（A-aDO2）	实验室检查
+blood lactate	血乳酸	实验室检查
+blood glucose	血糖	实验室检查
+fasting blood glucose	空腹血糖（FBG）	实验室检查
+fasting plasma glucose	空腹血浆葡萄糖（FPG）	实验室检查
+postprandial blood glucose	餐后血糖	实验室检查
+random blood glucose	随机血糖	实验室检查
+oral glucose tolerance test	口服葡萄糖耐量试验（OGTT）	实验室检查
+glycated hemoglobin	糖化血红蛋白（HbA1c）	实验室检查
+glycated albumin	糖化白蛋白（GA）	实验室检查
+fructosamine	果糖胺	实验室检查
+insulin release test	胰岛素释放试验	实验室检查
+C-peptide	C肽	实验室检查
+C-peptide release test	C肽释放试验	实验室检查
+ketone body	酮体	实验室检查
+beta-hydroxybutyrate	β-羟丁酸	实验室检查
+blood lipid	血脂	实验室检查
+total cholesterol	总胆固醇（TC）	实验室检查
+triglyceride	甘油三酯（TG）	实验室检查
+high-density lipoprotein cholesterol	高密度脂蛋白胆固醇（HDL-C）	实验室检查
+low-density lipoprotein cholesterol	低密度脂蛋白胆固醇（LDL-C）	实验室检查
+very low-density lipoprotein	极低密度脂蛋白（VLDL）	实验室检查
+apolipoprotein A1	载脂蛋白A1（ApoA1）	实验室检查
+apolipoprotein B	载脂蛋白B（ApoB）	实验室检查
+homocysteine	同型半胱氨酸（Hcy）	实验室检查
+myocardial enzyme	心肌酶	实验室检查
+creatine kinase	肌酸激酶（CK）	实验室检查
+creatine kinase-MB	肌酸激酶同工酶MB（CK-MB）	实验室检查
+cardiac troponin	心肌肌钙蛋白（cTn）	实验室检查
+cardiac troponin I	心肌肌钙蛋白I（cTnI）	实验室检查
+cardiac troponin T	心肌肌钙蛋白T（cTnT）	实验室检查
+high-sensitivity cardiac troponin	高敏心肌肌钙蛋白（hs-cTn）	实验室检查
+myoglobin	肌红蛋白（Mb）	实验室检查
+B-type natriuretic peptide	B型利钠肽；脑钠肽（BNP）	实验室检查
+N-terminal pro-B-type natriuretic peptide	N末端B型利钠肽原（NT-proBNP）	实验室检查
+serum amylase	血清淀粉酶	实验室检查
+urine amylase	尿淀粉酶	实验室检查
+lipase	脂肪酶	实验室检查
+acid phosphatase	酸性磷酸酶（ACP）	实验室检查
+ceruloplasmin	铜蓝蛋白	实验室检查
+C-reactive protein	C反应蛋白（CRP）	实验室检查
+high-sensitivity C-reactive protein	超敏C反应蛋白（hs-CRP）	实验室检查
+procalcitonin	降钙素原（PCT）	实验室检查
+interleukin-6	白细胞介素-6（IL-6）	实验室检查
+serum amyloid A	血清淀粉样蛋白A（SAA）	实验室检查
+thyroid function test	甲状腺功能检查	实验室检查
+thyroid-stimulating hormone	促甲状腺激素（TSH）	实验室检查
+free thyroxine	游离甲状腺素（FT4）	实验室检查
+free triiodothyronine	游离三碘甲腺原氨酸（FT3）	实验室检查
+total thyroxine	总甲状腺素（TT4）	实验室检查
+total triiodothyronine	总三碘甲腺原氨酸（TT3）	实验室检查
+thyroglobulin	甲状腺球蛋白（Tg）	实验室检查
+thyroglobulin antibody	甲状腺球蛋白抗体（TgAb）	实验室检查
+thyroid peroxidase antibody	甲状腺过氧化物酶抗体（TPOAb）	实验室检查
+thyrotropin receptor antibody	促甲状腺激素受体抗体（TRAb）	实验室检查
+calcitonin	降钙素	实验室检查
+parathyroid hormone	甲状旁腺激素（PTH）	实验室检查
+plasma cortisol	血浆皮质醇	实验室检查
+adrenocorticotropic hormone	促肾上腺皮质激素（ACTH）	实验室检查
+urinary free cortisol	尿游离皮质醇（UFC）	实验室检查
+dexamethasone suppression test	地塞米松抑制试验	实验室检查
+aldosterone	醛固酮	实验室检查
+plasma renin activity	血浆肾素活性（PRA）	实验室检查
+aldosterone-renin ratio	醛固酮肾素比值（ARR）	实验室检查
+catecholamine	儿茶酚胺	实验室检查
+vanillylmandelic acid	香草扁桃酸（VMA）	实验室检查
+metanephrine	甲氧基肾上腺素	实验室检查
+growth hormone	生长激素（GH）	实验室检查
+insulin-like growth factor 1	胰岛素样生长因子1（IGF-1）	实验室检查
+prolactin	催乳素（PRL）	实验室检查
+follicle-stimulating hormone	卵泡刺激素（FSH）	实验室检查
+luteinizing hormone	黄体生成素（LH）	实验室检查
+estradiol	雌二醇（E2）	实验室检查
+progesterone	孕酮	实验室检查
+testosterone	睾酮	实验室检查
+human chorionic gonadotropin	人绒毛膜促性腺激素（hCG）	实验室检查
+anti-Mullerian hormone	抗米勒管激素（AMH）	实验室检查
+pregnancy test	妊娠试验	实验室检查
+water deprivation test	禁水试验	实验室检查
+tumor marker	肿瘤标志物	实验室检查
+alpha-fetoprotein	甲胎蛋白（AFP）	实验室检查
+carcinoembryonic antigen	癌胚抗原（CEA）	实验室检查
+carbohydrate antigen 125	糖类抗原125（CA125）	实验室检查
+carbohydrate antigen 19-9	糖类抗原19-9（CA19-9）	实验室检查
+carbohydrate antigen 15-3	糖类抗原15-3（CA15-3）	实验室检查
+carbohydrate antigen 72-4	糖类抗原72-4（CA72-4）	实验室检查
+prostate-specific antigen	前列腺特异性抗原（PSA）	实验室检查
+free prostate-specific antigen	游离前列腺特异性抗原（fPSA）	实验室检查
+neuron-specific enolase	神经元特异性烯醇化酶（NSE）	实验室检查
+cytokeratin 19 fragment	细胞角蛋白19片段（CYFRA21-1）	实验室检查
+squamous cell carcinoma antigen	鳞状细胞癌抗原（SCCA）	实验室检查
+human epididymis protein 4	人附睾蛋白4（HE4）	实验室检查
+des-gamma-carboxy prothrombin	异常凝血酶原（DCP）	实验室检查
+progastrin-releasing peptide	胃泌素释放肽前体（ProGRP）	实验室检查
+urinalysis	尿液分析；尿常规	实验室检查
+urine specimen	尿标本	实验室检查
+midstream urine	中段尿	实验室检查
+first morning urine	晨尿	实验室检查
+random urine	随机尿	实验室检查
+24-hour urine collection	24小时尿液收集	实验室检查
+urine specific gravity	尿比重（SG）	实验室检查
+urine pH	尿液酸碱度	实验室检查
+urine protein	尿蛋白（PRO）	实验室检查
+urine glucose	尿糖（GLU）	实验室检查
+urine ketone	尿酮体（KET）	实验室检查
+urine bilirubin	尿胆红素（BIL）	实验室检查
+urobilinogen	尿胆原（URO）	实验室检查
+urine nitrite	尿亚硝酸盐（NIT）	实验室检查
+leukocyte esterase	白细胞酯酶（LEU）	实验室检查
+urine occult blood	尿潜血；尿隐血（BLD）	实验室检查
+urine sediment	尿沉渣	实验室检查
+cast	管型	实验室检查
+hyaline cast	透明管型	实验室检查
+granular cast	颗粒管型	实验室检查
+red blood cell cast	红细胞管型	实验室检查
+white blood cell cast	白细胞管型	实验室检查
+epithelial cast	上皮细胞管型	实验室检查
+waxy cast	蜡样管型	实验室检查
+fatty cast	脂肪管型	实验室检查
+urine crystal	尿结晶	实验室检查
+calcium oxalate crystal	草酸钙结晶	实验室检查
+uric acid crystal	尿酸结晶	实验室检查
+dysmorphic erythrocyte	异形红细胞	实验室检查
+urinary microalbumin	尿微量白蛋白（mAlb）	实验室检查
+urine albumin-to-creatinine ratio	尿白蛋白肌酐比值（UACR）	实验室检查
+24-hour urinary protein	24小时尿蛋白定量	实验室检查
+Bence Jones protein	本周蛋白	实验室检查
+urine osmolality	尿渗透压	实验室检查
+urine culture	尿培养	实验室检查
+proteinuria	蛋白尿	实验室检查
+glycosuria	糖尿	实验室检查
+ketonuria	酮尿	实验室检查
+pyuria	脓尿	实验室检查
+bacteriuria	菌尿	实验室检查
+hemoglobinuria	血红蛋白尿	实验室检查
+myoglobinuria	肌红蛋白尿	实验室检查
+chyluria	乳糜尿	实验室检查
+bilirubinuria	胆红素尿	实验室检查
+routine stool test	粪便常规	实验室检查
+fecal occult blood test	粪便隐血试验（FOBT）	实验室检查
+fecal immunochemical test	粪便免疫化学试验（FIT）	实验室检查
+stool culture	粪便培养	实验室检查
+fecal calprotectin	粪钙卫蛋白	实验室检查
+parasite egg	虫卵	实验室检查
+cerebrospinal fluid examination	脑脊液检查	实验室检查
+cerebrospinal fluid	脑脊液（CSF）	实验室检查
+Pandy test	潘氏试验	实验室检查
+serous effusion	浆膜腔积液	实验室检查
+exudate	渗出液	实验室检查
+transudate	漏出液	实验室检查
+Rivalta test	李凡他试验；黏蛋白定性试验	实验室检查
+adenosine deaminase	腺苷脱氨酶（ADA）	实验室检查
+synovial fluid analysis	关节液分析；滑液分析	实验室检查
+semen analysis	精液分析	实验室检查
+sperm count	精子计数	实验室检查
+sperm motility	精子活力	实验室检查
+sperm morphology	精子形态	实验室检查
+vaginal discharge examination	阴道分泌物检查	实验室检查
+vaginal cleanliness	阴道清洁度	实验室检查
+clue cell	线索细胞	实验室检查
+whiff test	胺试验	实验室检查
+sputum examination	痰液检查	实验室检查
+sputum smear	痰涂片	实验室检查
+sputum culture	痰培养	实验室检查
+immunoglobulin	免疫球蛋白（Ig）	实验室检查
+immunoglobulin G	免疫球蛋白G（IgG）	实验室检查
+immunoglobulin A	免疫球蛋白A（IgA）	实验室检查
+immunoglobulin M	免疫球蛋白M（IgM）	实验室检查
+immunoglobulin E	免疫球蛋白E（IgE）	实验室检查
+specific IgE	特异性IgE（sIgE）	实验室检查
+complement	补体	实验室检查
+complement C3	补体C3	实验室检查
+complement C4	补体C4	实验室检查
+total hemolytic complement	总补体溶血活性（CH50）	实验室检查
+antinuclear antibody	抗核抗体（ANA）	实验室检查
+anti-double-stranded DNA antibody	抗双链DNA抗体（anti-dsDNA）	实验室检查
+anti-Sm antibody	抗Sm抗体	实验室检查
+anti-SSA antibody	抗SSA抗体	实验室检查
+anti-SSB antibody	抗SSB抗体	实验室检查
+anti-RNP antibody	抗RNP抗体	实验室检查
+anti-Scl-70 antibody	抗Scl-70抗体	实验室检查
+anti-Jo-1 antibody	抗Jo-1抗体	实验室检查
+anticentromere antibody	抗着丝点抗体	实验室检查
+anti-histone antibody	抗组蛋白抗体	实验室检查
+extractable nuclear antigen	可提取核抗原（ENA）	实验室检查
+rheumatoid factor	类风湿因子（RF）	实验室检查
+anti-cyclic citrullinated peptide antibody	抗环瓜氨酸肽抗体（anti-CCP）	实验室检查
+antineutrophil cytoplasmic antibody	抗中性粒细胞胞质抗体（ANCA）	实验室检查
+antiphospholipid antibody	抗磷脂抗体（aPL）	实验室检查
+anticardiolipin antibody	抗心磷脂抗体（aCL）	实验室检查
+anti-beta-2 glycoprotein I antibody	抗β2糖蛋白Ⅰ抗体	实验室检查
+anti-streptolysin O	抗链球菌溶血素O（ASO）	实验室检查
+antimitochondrial antibody	抗线粒体抗体（AMA）	实验室检查
+anti-smooth muscle antibody	抗平滑肌抗体（ASMA）	实验室检查
+anti-glomerular basement membrane antibody	抗肾小球基底膜抗体（anti-GBM）	实验室检查
+anti-acetylcholine receptor antibody	抗乙酰胆碱受体抗体（AChR-Ab）	实验室检查
+human leukocyte antigen	人类白细胞抗原（HLA）	实验室检查
+human leukocyte antigen B27	人类白细胞抗原B27（HLA-B27）	实验室检查
+lymphocyte subset	淋巴细胞亚群	实验室检查
+CD4 cell count	CD4细胞计数	实验室检查
+interferon-gamma release assay	γ干扰素释放试验（IGRA）	实验室检查
+tuberculin skin test	结核菌素皮肤试验（TST）	实验室检查
+purified protein derivative	结核菌素纯蛋白衍生物（PPD）	实验室检查
+skin prick test	皮肤点刺试验	实验室检查
+patch test	斑贴试验	实验室检查
+cryoglobulin	冷球蛋白	实验室检查
+serum protein electrophoresis	血清蛋白电泳（SPE）	实验室检查
+immunofixation electrophoresis	免疫固定电泳（IFE）	实验室检查
+serum free light chain	血清游离轻链（sFLC）	实验室检查
+enzyme-linked immunosorbent assay	酶联免疫吸附试验（ELISA）	实验室检查
+chemiluminescence immunoassay	化学发光免疫分析（CLIA）	实验室检查
+radioimmunoassay	放射免疫分析（RIA）	实验室检查
+indirect immunofluorescence	间接免疫荧光法（IIF）	实验室检查
+Western blot	蛋白质印迹法；免疫印迹法	实验室检查
+agglutination test	凝集试验	实验室检查
+latex agglutination test	乳胶凝集试验	实验室检查
+Widal test	肥达试验	实验室检查
+Weil-Felix test	外斐试验	实验室检查
+cold agglutinin test	冷凝集试验	实验室检查
+heterophile agglutination test	嗜异性凝集试验	实验室检查
+rapid plasma reagin test	快速血浆反应素试验（RPR）	实验室检查
+Treponema pallidum particle agglutination assay	梅毒螺旋体颗粒凝集试验（TPPA）	实验室检查
+toluidine red unheated serum test	甲苯胺红不加热血清试验（TRUST）	实验室检查
+Venereal Disease Research Laboratory test	性病研究实验室试验（VDRL）	实验室检查
+hepatitis B surface antigen	乙型肝炎表面抗原（HBsAg）	实验室检查
+hepatitis B surface antibody	乙型肝炎表面抗体（anti-HBs）	实验室检查
+hepatitis B e antigen	乙型肝炎e抗原（HBeAg）	实验室检查
+hepatitis B e antibody	乙型肝炎e抗体（anti-HBe）	实验室检查
+hepatitis B core antibody	乙型肝炎核心抗体（anti-HBc）	实验室检查
+hepatitis B virus DNA	乙型肝炎病毒DNA（HBV DNA）	实验室检查
+hepatitis C virus antibody	丙型肝炎病毒抗体（anti-HCV）	实验室检查
+human immunodeficiency virus antibody	人类免疫缺陷病毒抗体（anti-HIV）	实验室检查
+human papillomavirus testing	人乳头瘤病毒检测（HPV）	实验室检查
+viral load	病毒载量	实验室检查
+blood culture	血培养	实验室检查
+antimicrobial susceptibility testing	抗菌药物敏感性试验；药敏试验	实验室检查
+minimum inhibitory concentration	最低抑菌浓度（MIC）	实验室检查
+minimum bactericidal concentration	最低杀菌浓度（MBC）	实验室检查
+disk diffusion method	纸片扩散法	实验室检查
+Gram stain	革兰染色	实验室检查
+Gram-positive bacterium	革兰阳性菌	实验室检查
+Gram-negative bacterium	革兰阴性菌	实验室检查
+acid-fast stain	抗酸染色	实验室检查
+acid-fast bacillus	抗酸杆菌（AFB）	实验室检查
+Ziehl-Neelsen stain	萋-尼染色；齐-内染色	实验室检查
+India ink stain	墨汁染色	实验室检查
+Wright stain	瑞氏染色	实验室检查
+Giemsa stain	吉姆萨染色	实验室检查
+Wright-Giemsa stain	瑞氏-吉姆萨染色	实验室检查
+fungal culture	真菌培养	实验室检查
+aerobic culture	需氧培养	实验室检查
+anaerobic culture	厌氧培养	实验室检查
+colony	菌落	实验室检查
+colony count	菌落计数	实验室检查
+culture medium	培养基	实验室检查
+blood agar plate	血琼脂平板	实验室检查
+MacConkey agar	麦康凯琼脂	实验室检查
+chocolate agar	巧克力琼脂	实验室检查
+Sabouraud agar	沙保弱琼脂；沙氏琼脂	实验室检查
+Lowenstein-Jensen medium	罗氏培养基	实验室检查
+extended-spectrum beta-lactamase	超广谱β-内酰胺酶（ESBL）	实验室检查
+galactomannan test	半乳甘露聚糖试验；GM试验	实验室检查
+beta-D-glucan test	β-D-葡聚糖试验；G试验	实验室检查
+rapid antigen test	快速抗原检测	实验室检查
+nucleic acid amplification test	核酸扩增试验（NAAT）	实验室检查
+therapeutic drug monitoring	治疗药物监测（TDM）	实验室检查
+trough concentration	谷浓度	实验室检查
+peak concentration	峰浓度	实验室检查
+point-of-care testing	即时检验（POCT）	实验室检查
+critical value	危急值	实验室检查
+reference interval	参考区间	实验室检查
+reference range	参考范围	实验室检查
+specimen	标本	实验室检查
+specimen collection	标本采集	实验室检查
+smear	涂片	实验室检查
+serum	血清	实验室检查
+plasma	血浆	实验室检查
+whole blood	全血	实验室检查
+anticoagulant tube	抗凝管	实验室检查
+hemolyzed specimen	溶血标本	实验室检查
+blood smear	血涂片	实验室检查
+throat swab	咽拭子	实验室检查
+nasopharyngeal swab	鼻咽拭子	实验室检查
+medical imaging	医学影像学	医学影像
+radiology	放射学	医学影像
+diagnostic radiology	诊断放射学	医学影像
+X-ray	X射线；X线	医学影像
+radiography	X线摄影	医学影像
+radiograph	X线片	医学影像
+plain radiograph	平片	医学影像
+fluoroscopy	透视；X线透视	医学影像
+chest radiograph	胸部X线片；胸片	医学影像
+posteroanterior projection	后前位（PA）	医学影像
+anteroposterior projection	前后位（AP）	医学影像
+lateral projection	侧位	医学影像
+oblique projection	斜位	医学影像
+lordotic projection	前弓位	医学影像
+kidney-ureter-bladder radiograph	尿路平片（KUB）	医学影像
+digital radiography	数字X线摄影（DR）	医学影像
+computed radiography	计算机X线摄影（CR）	医学影像
+tomography	体层摄影；断层摄影	医学影像
+contrast medium	对比剂；造影剂	医学影像
+iodinated contrast medium	碘对比剂	医学影像
+gadolinium-based contrast agent	钆对比剂	医学影像
+contrast radiography	造影检查	医学影像
+barium meal	钡餐	医学影像
+barium swallow	吞钡检查	医学影像
+barium enema	钡剂灌肠	医学影像
+upper gastrointestinal series	上消化道造影	医学影像
+small bowel follow-through	小肠钡剂造影	医学影像
+double contrast radiography	双重对比造影	医学影像
+intravenous urography	静脉尿路造影（IVU）	医学影像
+intravenous pyelography	静脉肾盂造影（IVP）	医学影像
+retrograde pyelography	逆行肾盂造影	医学影像
+voiding cystourethrography	排尿性膀胱尿道造影（VCUG）	医学影像
+cystography	膀胱造影	医学影像
+hysterosalpingography	子宫输卵管造影（HSG）	医学影像
+cholangiography	胆管造影	医学影像
+percutaneous transhepatic cholangiography	经皮经肝胆管造影（PTC）	医学影像
+T-tube cholangiography	T管造影	医学影像
+sialography	涎管造影；唾液腺造影	医学影像
+myelography	脊髓造影	医学影像
+arthrography	关节造影	医学影像
+sinography	窦道造影	医学影像
+fistulography	瘘管造影	医学影像
+mammography	乳腺X线摄影	医学影像
+dual-energy X-ray absorptiometry	双能X线吸收法（DXA）	医学影像
+bone densitometry	骨密度测定	医学影像
+bone mineral density	骨密度（BMD）	医学影像
+T-score	T值	医学影像
+Z-score	Z值	医学影像
+bone age	骨龄	医学影像
+angiography	血管造影	医学影像
+digital subtraction angiography	数字减影血管造影（DSA）	医学影像
+coronary angiography	冠状动脉造影	医学影像
+cerebral angiography	脑血管造影	医学影像
+pulmonary angiography	肺动脉造影	医学影像
+aortography	主动脉造影	医学影像
+venography	静脉造影	医学影像
+lymphangiography	淋巴管造影	医学影像
+air bronchogram	空气支气管征	医学影像
+air-fluid level	气液平面	医学影像
+ground-glass opacity	磨玻璃影；磨玻璃密度影（GGO）	医学影像
+consolidation	实变	医学影像
+nodule	结节	医学影像
+mass	肿块	医学影像
+cavity	空洞	医学影像
+calcification	钙化	医学影像
+subphrenic free air	膈下游离气体	医学影像
+Kerley B line	Kerley B线	医学影像
+cardiothoracic ratio	心胸比率	医学影像
+silhouette sign	轮廓征	医学影像
+halo sign	晕征	医学影像
+tree-in-bud sign	树芽征	医学影像
+crazy-paving pattern	铺路石征	医学影像
+honeycomb lung	蜂窝肺	医学影像
+reticular opacity	网状影	医学影像
+double bubble sign	双泡征	医学影像
+target sign	靶征	医学影像
+bird's beak sign	鸟嘴征	医学影像
+string sign	线样征	医学影像
+coffee bean sign	咖啡豆征	医学影像
+apple core sign	苹果核征	医学影像
+filling defect	充盈缺损	医学影像
+niche	龛影	医学影像
+hyperdensity	高密度	医学影像
+hypodensity	低密度	医学影像
+isodensity	等密度	医学影像
+attenuation	衰减	医学影像
+Hounsfield unit	亨氏单位（HU）	医学影像
+CT number	CT值	医学影像
+window width	窗宽	医学影像
+window level	窗位	医学影像
+partial volume effect	部分容积效应	医学影像
+artifact	伪影	医学影像
+motion artifact	运动伪影	医学影像
+beam hardening artifact	线束硬化伪影	医学影像
+metal artifact	金属伪影	医学影像
+radiation dose	辐射剂量	医学影像
+effective dose	有效剂量	医学影像
+radiation protection	辐射防护	医学影像
+computed tomography	计算机体层成像；计算机断层扫描（CT）	医学影像
+plain scan	平扫	医学影像
+contrast-enhanced scan	增强扫描	医学影像
+spiral CT	螺旋CT	医学影像
+multislice spiral CT	多层螺旋CT（MSCT）	医学影像
+high-resolution CT	高分辨率CT（HRCT）	医学影像
+low-dose CT	低剂量CT（LDCT）	医学影像
+dual-energy CT	双能CT	医学影像
+cone-beam CT	锥形束CT（CBCT）	医学影像
+CT angiography	CT血管成像（CTA）	医学影像
+coronary CT angiography	冠状动脉CT血管成像（CCTA）	医学影像
+CT perfusion imaging	CT灌注成像	医学影像
+CT colonography	CT结肠成像	医学影像
+virtual endoscopy	仿真内镜	医学影像
+multiplanar reconstruction	多平面重组（MPR）	医学影像
+curved planar reconstruction	曲面重组	医学影像
+maximum intensity projection	最大密度投影（MIP）	医学影像
+minimum intensity projection	最小密度投影（MinIP）	医学影像
+volume rendering	容积再现（VR）	医学影像
+shaded surface display	表面遮盖显示（SSD）	医学影像
+image reconstruction	图像重建	医学影像
+slice thickness	层厚	医学影像
+pitch	螺距	医学影像
+field of view	视野（FOV）	医学影像
+matrix	矩阵	医学影像
+pixel	像素	医学影像
+voxel	体素	医学影像
+scout view	定位像	医学影像
+contrast enhancement	对比增强	医学影像
+arterial phase	动脉期	医学影像
+portal venous phase	门静脉期	医学影像
+delayed phase	延迟期	医学影像
+equilibrium phase	平衡期	医学影像
+ring enhancement	环形强化	医学影像
+magnetic resonance imaging	磁共振成像（MRI）	医学影像
+magnetic resonance angiography	磁共振血管成像（MRA）	医学影像
+magnetic resonance venography	磁共振静脉成像（MRV）	医学影像
+magnetic resonance cholangiopancreatography	磁共振胰胆管成像（MRCP）	医学影像
+magnetic resonance urography	磁共振尿路成像（MRU）	医学影像
+magnetic resonance spectroscopy	磁共振波谱（MRS）	医学影像
+functional magnetic resonance imaging	功能磁共振成像（fMRI）	医学影像
+magnetic resonance elastography	磁共振弹性成像（MRE）	医学影像
+cardiac magnetic resonance	心脏磁共振（CMR）	医学影像
+diffusion-weighted imaging	扩散加权成像；弥散加权成像（DWI）	医学影像
+diffusion tensor imaging	扩散张量成像（DTI）	医学影像
+apparent diffusion coefficient	表观扩散系数（ADC）	医学影像
+perfusion-weighted imaging	灌注加权成像（PWI）	医学影像
+susceptibility-weighted imaging	磁敏感加权成像（SWI）	医学影像
+T1-weighted imaging	T1加权成像（T1WI）	医学影像
+T2-weighted imaging	T2加权成像（T2WI）	医学影像
+proton density weighted imaging	质子密度加权成像（PDWI）	医学影像
+fluid-attenuated inversion recovery	液体衰减反转恢复（FLAIR）	医学影像
+short tau inversion recovery	短时反转恢复（STIR）	医学影像
+spin echo	自旋回波（SE）	医学影像
+fast spin echo	快速自旋回波（FSE）	医学影像
+gradient echo	梯度回波（GRE）	医学影像
+echo planar imaging	平面回波成像（EPI）	医学影像
+inversion recovery	反转恢复（IR）	医学影像
+fat suppression	脂肪抑制	医学影像
+repetition time	重复时间（TR）	医学影像
+echo time	回波时间（TE）	医学影像
+inversion time	反转时间（TI）	医学影像
+relaxation time	弛豫时间	医学影像
+longitudinal relaxation	纵向弛豫	医学影像
+transverse relaxation	横向弛豫	医学影像
+radiofrequency pulse	射频脉冲	医学影像
+radiofrequency coil	射频线圈	医学影像
+gradient coil	梯度线圈	医学影像
+magnetic field strength	磁场强度	医学影像
+signal intensity	信号强度	医学影像
+hyperintensity	高信号	医学影像
+hypointensity	低信号	医学影像
+isointensity	等信号	医学影像
+flow void	流空效应	医学影像
+chemical shift	化学位移	医学影像
+late gadolinium enhancement	延迟钆增强（LGE）	医学影像
+dynamic contrast-enhanced magnetic resonance imaging	动态增强磁共振成像（DCE-MRI）	医学影像
+ultrasonography	超声检查	医学影像
+ultrasound	超声	医学影像
+A-mode ultrasound	A型超声	医学影像
+B-mode ultrasound	B型超声；B超	医学影像
+M-mode echocardiography	M型超声心动图	医学影像
+Doppler ultrasound	多普勒超声	医学影像
+color Doppler flow imaging	彩色多普勒血流成像（CDFI）	医学影像
+pulsed-wave Doppler	脉冲波多普勒（PW）	医学影像
+continuous-wave Doppler	连续波多普勒（CW）	医学影像
+power Doppler	能量多普勒	医学影像
+tissue Doppler imaging	组织多普勒成像（TDI）	医学影像
+three-dimensional ultrasound	三维超声	医学影像
+contrast-enhanced ultrasound	超声造影（CEUS）	医学影像
+ultrasound elastography	超声弹性成像	医学影像
+transient elastography	瞬时弹性成像	医学影像
+liver stiffness measurement	肝硬度测定（LSM）	医学影像
+echocardiography	超声心动图	医学影像
+transthoracic echocardiography	经胸超声心动图（TTE）	医学影像
+transesophageal echocardiography	经食管超声心动图（TEE）	医学影像
+stress echocardiography	负荷超声心动图	医学影像
+myocardial contrast echocardiography	心肌声学造影（MCE）	医学影像
+ejection fraction	射血分数（EF）	医学影像
+left ventricular ejection fraction	左心室射血分数（LVEF）	医学影像
+fractional shortening	短轴缩短率（FS）	医学影像
+intravascular ultrasound	血管内超声（IVUS）	医学影像
+transvaginal ultrasonography	经阴道超声检查（TVS）	医学影像
+transrectal ultrasonography	经直肠超声检查（TRUS）	医学影像
+transabdominal ultrasonography	经腹超声检查	医学影像
+carotid ultrasonography	颈动脉超声检查	医学影像
+focused assessment with sonography for trauma	创伤重点超声评估（FAST）	医学影像
+point-of-care ultrasound	床旁超声；即时超声（POCUS）	医学影像
+ultrasound guidance	超声引导	医学影像
+transducer	换能器；探头	医学影像
+acoustic window	声窗	医学影像
+echo	回声	医学影像
+hyperechoic	高回声	医学影像
+hypoechoic	低回声	医学影像
+anechoic	无回声	医学影像
+isoechoic	等回声	医学影像
+acoustic shadow	声影	医学影像
+posterior acoustic enhancement	后方回声增强	医学影像
+reverberation artifact	混响伪像	医学影像
+comet-tail artifact	彗星尾征	医学影像
+nuchal translucency	颈项透明层（NT）	医学影像
+biparietal diameter	双顶径（BPD）	医学影像
+femur length	股骨长（FL）	医学影像
+crown-rump length	头臀长（CRL）	医学影像
+amniotic fluid index	羊水指数（AFI）	医学影像
+gestational sac	妊娠囊	医学影像
+nuclear medicine	核医学	医学影像
+radionuclide imaging	放射性核素显像	医学影像
+scintigraphy	闪烁显像；核素显像	医学影像
+radiopharmaceutical	放射性药物	医学影像
+radiotracer	放射性示踪剂	医学影像
+single-photon emission computed tomography	单光子发射计算机体层摄影（SPECT）	医学影像
+positron emission tomography	正电子发射体层成像；正电子发射断层显像（PET）	医学影像
+positron emission tomography-computed tomography	正电子发射计算机体层显像（PET-CT）	医学影像
+fluorodeoxyglucose	氟代脱氧葡萄糖（FDG）	医学影像
+standardized uptake value	标准摄取值（SUV）	医学影像
+bone scintigraphy	骨显像；骨扫描	医学影像
+myocardial perfusion imaging	心肌灌注显像（MPI）	医学影像
+thyroid scintigraphy	甲状腺显像	医学影像
+radioactive iodine uptake	放射性碘摄取率（RAIU）	医学影像
+renogram	肾图	医学影像
+renal dynamic imaging	肾动态显像	医学影像
+ventilation-perfusion scan	肺通气灌注显像（V/Q）	医学影像
+hepatobiliary scintigraphy	肝胆显像	医学影像
+sentinel lymph node imaging	前哨淋巴结显像	医学影像
+technetium-99m	锝-99m（99mTc）	医学影像
+gamma camera	γ照相机	医学影像
+hot nodule	热结节	医学影像
+warm nodule	温结节	医学影像
+cold nodule	冷结节	医学影像
+interventional radiology	介入放射学	医学影像
+interventional therapy	介入治疗	医学影像
+Seldinger technique	Seldinger技术	医学影像
+image-guided biopsy	影像引导活检	医学影像
+CT-guided biopsy	CT引导下活检	医学影像
+percutaneous transluminal angioplasty	经皮腔内血管成形术（PTA）	医学影像
+balloon angioplasty	球囊血管成形术	医学影像
+stent implantation	支架置入术；支架植入术	医学影像
+embolization	栓塞术	医学影像
+transcatheter arterial embolization	经导管动脉栓塞术（TAE）	医学影像
+transcatheter arterial chemoembolization	经导管动脉化疗栓塞术（TACE）	医学影像
+uterine artery embolization	子宫动脉栓塞术（UAE）	医学影像
+catheter-directed thrombolysis	导管接触溶栓（CDT）	医学影像
+mechanical thrombectomy	机械取栓术	医学影像
+transjugular intrahepatic portosystemic shunt	经颈静脉肝内门体分流术（TIPS）	医学影像
+percutaneous transhepatic biliary drainage	经皮经肝胆管引流术（PTBD）	医学影像
+radiofrequency ablation	射频消融术（RFA）	医学影像
+microwave ablation	微波消融术（MWA）	医学影像
+cryoablation	冷冻消融	医学影像
+high-intensity focused ultrasound	高强度聚焦超声（HIFU）	医学影像
+percutaneous vertebroplasty	经皮椎体成形术（PVP）	医学影像
+percutaneous kyphoplasty	经皮椎体后凸成形术（PKP）	医学影像
+endovascular aneurysm repair	血管腔内动脉瘤修复术（EVAR）	医学影像
+thoracic endovascular aortic repair	胸主动脉腔内修复术（TEVAR）	医学影像
+radioactive seed implantation	放射性粒子植入术	医学影像
+optical coherence tomography	光学相干断层成像（OCT）	医学影像
+fundus fluorescein angiography	眼底荧光素血管造影（FFA）	医学影像
+electrocardiogram	心电图（ECG）	功能检查
+electrocardiography	心电描记术	功能检查
+12-lead electrocardiogram	12导联心电图	功能检查
+lead	导联	功能检查
+limb lead	肢体导联	功能检查
+standard limb lead	标准肢体导联	功能检查
+augmented unipolar limb lead	加压单极肢体导联	功能检查
+precordial lead	胸导联；胸前导联	功能检查
+bipolar lead	双极导联	功能检查
+unipolar lead	单极导联	功能检查
+P wave	P波	功能检查
+QRS complex	QRS波群	功能检查
+T wave	T波	功能检查
+U wave	U波	功能检查
+Q wave	Q波	功能检查
+pathological Q wave	病理性Q波	功能检查
+delta wave	δ波；预激波	功能检查
+J point	J点	功能检查
+J wave	J波	功能检查
+epsilon wave	ε波	功能检查
+fibrillation wave	颤动波；f波	功能检查
+flutter wave	扑动波；F波	功能检查
+PR interval	PR间期	功能检查
+PR segment	PR段	功能检查
+QT interval	QT间期	功能检查
+corrected QT interval	校正QT间期（QTc）	功能检查
+ST segment	ST段	功能检查
+ST-segment elevation	ST段抬高	功能检查
+ST-segment depression	ST段压低	功能检查
+T wave inversion	T波倒置	功能检查
+cardiac electrical axis	心电轴	功能检查
+left axis deviation	电轴左偏	功能检查
+right axis deviation	电轴右偏	功能检查
+sinus rhythm	窦性心律	功能检查
+normal sinus rhythm	正常窦性心律	功能检查
+R-on-T phenomenon	R-on-T现象	功能检查
+low voltage	低电压	功能检查
+poor R wave progression	R波递增不良	功能检查
+paper speed	走纸速度	功能检查
+Holter monitoring	动态心电图监测；Holter监测	功能检查
+ambulatory electrocardiography	动态心电图	功能检查
+exercise stress test	运动负荷试验	功能检查
+treadmill exercise test	运动平板试验	功能检查
+Bruce protocol	Bruce方案	功能检查
+signal-averaged electrocardiogram	信号平均心电图（SAECG）	功能检查
+heart rate variability	心率变异性（HRV）	功能检查
+vectorcardiogram	心电向量图	功能检查
+phonocardiogram	心音图	功能检查
+ambulatory blood pressure monitoring	动态血压监测（ABPM）	功能检查
+head-up tilt test	直立倾斜试验（HUTT）	功能检查
+cardiac electrophysiological study	心脏电生理检查（EPS）	功能检查
+implantable loop recorder	植入式心电事件记录器（ILR）	功能检查
+pulse wave velocity	脉搏波传导速度（PWV）	功能检查
+ankle-brachial index	踝肱指数；踝臂指数（ABI）	功能检查
+right heart catheterization	右心导管检查	功能检查
+hemodynamic monitoring	血流动力学监测	功能检查
+central venous pressure	中心静脉压（CVP）	功能检查
+pulmonary capillary wedge pressure	肺毛细血管楔压（PCWP）	功能检查
+pulmonary artery pressure	肺动脉压（PAP）	功能检查
+cardiac output	心输出量（CO）	功能检查
+cardiac index	心指数（CI）	功能检查
+stroke volume	每搏输出量（SV）	功能检查
+systemic vascular resistance	体循环血管阻力（SVR）	功能检查
+pulmonary vascular resistance	肺血管阻力（PVR）	功能检查
+pulse index continuous cardiac output	脉搏指示连续心输出量（PiCCO）	功能检查
+invasive arterial blood pressure monitoring	有创动脉血压监测（IBP）	功能检查
+end-tidal carbon dioxide	呼气末二氧化碳（ETCO2）	功能检查
+capnography	二氧化碳描记术	功能检查
+pulse oximetry	脉搏血氧测定	功能检查
+bispectral index	脑电双频指数（BIS）	功能检查
+intracranial pressure monitoring	颅内压监测	功能检查
+continuous glucose monitoring	持续葡萄糖监测；动态血糖监测（CGM）	功能检查
+pulmonary function test	肺功能检查（PFT）	功能检查
+spirometry	肺量计检查；肺活量测定	功能检查
+vital capacity	肺活量（VC）	功能检查
+forced vital capacity	用力肺活量（FVC）	功能检查
+forced expiratory volume in one second	第一秒用力呼气容积（FEV1）	功能检查
+FEV1/FVC ratio	一秒率	功能检查
+tidal volume	潮气量（VT）	功能检查
+inspiratory reserve volume	补吸气量（IRV）	功能检查
+expiratory reserve volume	补呼气量（ERV）	功能检查
+residual volume	残气量（RV）	功能检查
+total lung capacity	肺总量（TLC）	功能检查
+functional residual capacity	功能残气量（FRC）	功能检查
+inspiratory capacity	深吸气量（IC）	功能检查
+minute ventilation	分钟通气量；每分通气量（VE）	功能检查
+maximal voluntary ventilation	最大自主通气量（MVV）	功能检查
+peak expiratory flow	呼气峰值流量（PEF）	功能检查
+maximal mid-expiratory flow	最大呼气中期流量（MMEF）	功能检查
+diffusing capacity of the lung for carbon monoxide	肺一氧化碳弥散量（DLCO）	功能检查
+bronchial provocation test	支气管激发试验	功能检查
+bronchodilator test	支气管舒张试验	功能检查
+methacholine challenge test	乙酰甲胆碱激发试验	功能检查
+fractional exhaled nitric oxide	呼出气一氧化氮分数（FeNO）	功能检查
+flow-volume curve	流量-容积曲线	功能检查
+dead space	无效腔；死腔	功能检查
+polysomnography	多导睡眠图；多导睡眠监测（PSG）	功能检查
+apnea-hypopnea index	呼吸暂停低通气指数（AHI）	功能检查
+oxygen desaturation index	氧减指数（ODI）	功能检查
+six-minute walk test	6分钟步行试验（6MWT）	功能检查
+cardiopulmonary exercise testing	心肺运动试验（CPET）	功能检查
+maximal oxygen uptake	最大摄氧量（VO2max）	功能检查
+anaerobic threshold	无氧阈（AT）	功能检查
+electroencephalogram	脑电图（EEG）	功能检查
+video electroencephalography	视频脑电图（VEEG）	功能检查
+ambulatory electroencephalography	动态脑电图（AEEG）	功能检查
+electromyography	肌电图（EMG）	功能检查
+nerve conduction velocity	神经传导速度（NCV）	功能检查
+nerve conduction study	神经传导检查	功能检查
+evoked potential	诱发电位（EP）	功能检查
+visual evoked potential	视觉诱发电位（VEP）	功能检查
+brainstem auditory evoked potential	脑干听觉诱发电位（BAEP）	功能检查
+somatosensory evoked potential	躯体感觉诱发电位（SEP）	功能检查
+motor evoked potential	运动诱发电位（MEP）	功能检查
+transcranial Doppler	经颅多普勒（TCD）	功能检查
+pure tone audiometry	纯音测听	功能检查
+audiometry	测听法	功能检查
+acoustic immittance measurement	声导抗测试	功能检查
+otoacoustic emission	耳声发射（OAE）	功能检查
+visual acuity	视力	功能检查
+visual field	视野	功能检查
+perimetry	视野检查	功能检查
+intraocular pressure	眼压（IOP）	功能检查
+tonometry	眼压测量	功能检查
+slit lamp examination	裂隙灯检查	功能检查
+electroretinogram	视网膜电图（ERG）	功能检查
+24-hour esophageal pH monitoring	24小时食管pH监测	功能检查
+esophageal manometry	食管测压	功能检查
+high-resolution esophageal manometry	高分辨率食管测压	功能检查
+anorectal manometry	肛门直肠测压	功能检查
+urea breath test	尿素呼气试验（UBT）	功能检查
+hydrogen breath test	氢呼气试验	功能检查
+gastric emptying study	胃排空检查	功能检查
+D-xylose absorption test	D-木糖吸收试验	功能检查
+indocyanine green clearance test	吲哚菁绿清除试验	功能检查
+urodynamic study	尿动力学检查	功能检查
+uroflowmetry	尿流率测定	功能检查
+cystometry	膀胱测压	功能检查
+post-void residual	残余尿	功能检查
+basal metabolic rate	基础代谢率（BMR）	功能检查
+nonstress test	无应激试验（NST）	功能检查
+contraction stress test	宫缩应激试验（CST）	功能检查
+oxytocin challenge test	缩宫素激惹试验（OCT）	功能检查
+biophysical profile	生物物理评分（BPP）	功能检查
+electronic fetal monitoring	电子胎心监护（EFM）	功能检查
+pelvimetry	骨盆测量	功能检查
+endoscopy	内镜检查	内镜
+endoscope	内镜；内窥镜	内镜
+fiberoptic endoscope	纤维内镜	内镜
+electronic endoscope	电子内镜	内镜
+rigid endoscope	硬质内镜	内镜
+flexible endoscope	软式内镜	内镜
+working channel	工作通道	内镜
+gastroscopy	胃镜检查	内镜
+esophagogastroduodenoscopy	食管胃十二指肠镜检查（EGD）	内镜
+transnasal endoscopy	经鼻内镜检查	内镜
+colonoscopy	结肠镜检查	内镜
+sigmoidoscopy	乙状结肠镜检查	内镜
+proctoscopy	直肠镜检查	内镜
+anoscopy	肛门镜检查	内镜
+enteroscopy	小肠镜检查	内镜
+double-balloon enteroscopy	双气囊小肠镜检查	内镜
+single-balloon enteroscopy	单气囊小肠镜检查	内镜
+capsule endoscopy	胶囊内镜检查	内镜
+magnetically controlled capsule endoscopy	磁控胶囊内镜	内镜
+bronchoscopy	支气管镜检查	内镜
+fiberoptic bronchoscopy	纤维支气管镜检查	内镜
+endobronchial ultrasound	支气管内超声（EBUS）	内镜
+endobronchial ultrasound-guided transbronchial needle aspiration	支气管内超声引导下经支气管针吸活检（EBUS-TBNA）	内镜
+transbronchial lung biopsy	经支气管肺活检（TBLB）	内镜
+bronchoalveolar lavage	支气管肺泡灌洗（BAL）	内镜
+bronchoalveolar lavage fluid	支气管肺泡灌洗液（BALF）	内镜
+thoracoscopy	胸腔镜检查	内镜
+medical thoracoscopy	内科胸腔镜	内镜
+mediastinoscopy	纵隔镜检查	内镜
+laryngoscopy	喉镜检查	内镜
+direct laryngoscopy	直接喉镜检查	内镜
+indirect laryngoscopy	间接喉镜检查	内镜
+fiberoptic laryngoscopy	纤维喉镜检查	内镜
+nasopharyngoscopy	鼻咽镜检查	内镜
+nasal endoscopy	鼻内镜检查	内镜
+otoscopy	耳镜检查	内镜
+cystoscopy	膀胱镜检查	内镜
+ureteroscopy	输尿管镜检查	内镜
+urethroscopy	尿道镜检查	内镜
+percutaneous nephroscopy	经皮肾镜检查	内镜
+hysteroscopy	宫腔镜检查	内镜
+colposcopy	阴道镜检查	内镜
+laparoscopy	腹腔镜检查	内镜
+arthroscopy	关节镜检查	内镜
+choledochoscopy	胆道镜检查	内镜
+endoscopic retrograde cholangiopancreatography	内镜逆行胰胆管造影（ERCP）	内镜
+endoscopic sphincterotomy	内镜下括约肌切开术（EST）	内镜
+endoscopic nasobiliary drainage	内镜鼻胆管引流术（ENBD）	内镜
+endoscopic retrograde biliary drainage	内镜逆行胆管引流术（ERBD）	内镜
+endoscopic ultrasonography	超声内镜检查（EUS）	内镜
+endoscopic ultrasound-guided fine-needle aspiration	超声内镜引导下细针穿刺抽吸术（EUS-FNA）	内镜
+endoscopic mucosal resection	内镜黏膜切除术（EMR）	内镜
+endoscopic submucosal dissection	内镜黏膜下剥离术（ESD）	内镜
+peroral endoscopic myotomy	经口内镜下肌切开术（POEM）	内镜
+endoscopic variceal ligation	内镜下静脉曲张套扎术（EVL）	内镜
+endoscopic injection sclerotherapy	内镜下硬化剂注射治疗（EIS）	内镜
+endoscopic hemostasis	内镜下止血	内镜
+argon plasma coagulation	氩等离子体凝固术（APC）	内镜
+polypectomy	息肉切除术	内镜
+percutaneous endoscopic gastrostomy	经皮内镜下胃造口术（PEG）	内镜
+endoscopic stent placement	内镜下支架置入术	内镜
+endoscopic balloon dilation	内镜下球囊扩张术	内镜
+endoscopic foreign body removal	内镜下异物取出术	内镜
+chromoendoscopy	色素内镜	内镜
+narrow-band imaging	窄带成像（NBI）	内镜
+magnifying endoscopy	放大内镜	内镜
+confocal laser endomicroscopy	共聚焦激光显微内镜（CLE）	内镜
+white light endoscopy	白光内镜	内镜
+sedated endoscopy	镇静内镜检查	内镜
+bowel preparation	肠道准备	内镜
+Boston bowel preparation scale	波士顿肠道准备量表（BBPS）	内镜
+cecal intubation rate	盲肠插管率	内镜
+adenoma detection rate	腺瘤检出率（ADR）	内镜
+withdrawal time	退镜时间	内镜
+air insufflation	注气	内镜
+pathology	病理学	病理检查
+pathological examination	病理学检查；病理检查	病理检查
+biopsy	活体组织检查；活检	病理检查
+excisional biopsy	切除活检	病理检查
+incisional biopsy	切取活检	病理检查
+needle biopsy	穿刺活检	病理检查
+core needle biopsy	粗针穿刺活检（CNB）	病理检查
+fine-needle aspiration	细针穿刺抽吸（FNA）	病理检查
+fine-needle aspiration cytology	细针穿刺细胞学检查（FNAC）	病理检查
+punch biopsy	环钻活检	病理检查
+endoscopic biopsy	内镜活检	病理检查
+liquid biopsy	液体活检	病理检查
+frozen section	冰冻切片	病理检查
+paraffin section	石蜡切片	病理检查
+fixation	固定	病理检查
+formalin	甲醛溶液；福尔马林	病理检查
+formalin-fixed paraffin-embedded	福尔马林固定石蜡包埋（FFPE）	病理检查
+embedding	包埋	病理检查
+decalcification	脱钙	病理检查
+staining	染色	病理检查
+hematoxylin-eosin staining	苏木精-伊红染色（HE）	病理检查
+special staining	特殊染色	病理检查
+periodic acid-Schiff stain	过碘酸希夫染色（PAS）	病理检查
+Masson trichrome stain	Masson三色染色	病理检查
+Congo red stain	刚果红染色	病理检查
+reticulin stain	网状纤维染色	病理检查
+Prussian blue stain	普鲁士蓝染色	病理检查
+Grocott methenamine silver stain	六胺银染色（GMS）	病理检查
+mucicarmine stain	黏液卡红染色	病理检查
+Alcian blue stain	阿尔辛蓝染色	病理检查
+oil red O stain	油红O染色	病理检查
+Sudan III stain	苏丹Ⅲ染色	病理检查
+elastic fiber stain	弹力纤维染色	病理检查
+Papanicolaou stain	巴氏染色	病理检查
+immunohistochemistry	免疫组织化学（IHC）	病理检查
+immunocytochemistry	免疫细胞化学（ICC）	病理检查
+in situ hybridization	原位杂交（ISH）	病理检查
+Ki-67 index	Ki-67指数	病理检查
+estrogen receptor	雌激素受体（ER）	病理检查
+progesterone receptor	孕激素受体（PR）	病理检查
+human epidermal growth factor receptor 2	人表皮生长因子受体2（HER2）	病理检查
+programmed death-ligand 1	程序性死亡配体1（PD-L1）	病理检查
+microsatellite instability	微卫星不稳定（MSI）	病理检查
+mismatch repair	错配修复（MMR）	病理检查
+tumor mutational burden	肿瘤突变负荷（TMB）	病理检查
+gene mutation detection	基因突变检测	病理检查
+cytology	细胞学	病理检查
+cytological examination	细胞学检查	病理检查
+exfoliative cytology	脱落细胞学	病理检查
+imprint cytology	印片细胞学	病理检查
+cell block	细胞蜡块；细胞块	病理检查
+Papanicolaou smear	巴氏涂片	病理检查
+liquid-based cytology	液基细胞学（LBC）	病理检查
+Bethesda system	贝塞斯达系统（TBS）	病理检查
+atypical squamous cells of undetermined significance	意义不明的非典型鳞状细胞（ASC-US）	病理检查
+light microscopy	光学显微镜检查	病理检查
+electron microscopy	电子显微镜检查	病理检查
+fluorescence microscopy	荧光显微镜检查	病理检查
+gross examination	大体检查；肉眼检查	病理检查
+microscopic examination	显微镜检查；镜下检查	病理检查
+histopathology	组织病理学	病理检查
+cytopathology	细胞病理学	病理检查
+molecular pathology	分子病理学	病理检查
+autopsy	尸体解剖；尸检	病理检查
+pathology report	病理报告	病理检查
+pathological diagnosis	病理诊断	病理检查
+surgical margin	手术切缘	病理检查
+negative margin	阴性切缘	病理检查
+positive margin	阳性切缘	病理检查
+tumor grade	肿瘤分级	病理检查
+tumor staging	肿瘤分期	病理检查
+well-differentiated	高分化	病理检查
+moderately differentiated	中分化	病理检查
+poorly differentiated	低分化	病理检查
+undifferentiated	未分化	病理检查
+lymphovascular invasion	脉管侵犯；淋巴血管侵犯	病理检查
+perineural invasion	神经侵犯；神经周围侵犯	病理检查
+atypia	异型性	病理检查
+mitotic figure	核分裂象	病理检查
+necrosis	坏死	病理检查
+coagulative necrosis	凝固性坏死	病理检查
+liquefactive necrosis	液化性坏死	病理检查
+caseous necrosis	干酪样坏死	病理检查
+apoptosis	凋亡；细胞凋亡	病理检查
+hyperplasia	增生	病理检查
+metaplasia	化生	病理检查
+dysplasia	异型增生	病理检查
+granuloma	肉芽肿	病理检查
+puncture	穿刺	治疗操作
+thoracentesis	胸腔穿刺术	治疗操作
+paracentesis	腹腔穿刺术	治疗操作
+abdominocentesis	腹腔穿刺术	治疗操作
+pericardiocentesis	心包穿刺术	治疗操作
+lumbar puncture	腰椎穿刺术（LP）	治疗操作
+bone marrow aspiration	骨髓穿刺术	治疗操作
+bone marrow biopsy	骨髓活检	治疗操作
+arthrocentesis	关节腔穿刺术	治疗操作
+amniocentesis	羊膜腔穿刺术	治疗操作
+cordocentesis	脐带穿刺术	治疗操作
+chorionic villus sampling	绒毛活检；绒毛取样（CVS）	治疗操作
+culdocentesis	阴道后穹隆穿刺术	治疗操作
+suprapubic bladder puncture	耻骨上膀胱穿刺	治疗操作
+liver biopsy	肝活检；肝穿刺活检	治疗操作
+renal biopsy	肾活检；肾穿刺活检	治疗操作
+percutaneous lung biopsy	经皮肺穿刺活检	治疗操作
+pleural biopsy	胸膜活检	治疗操作
+arterial puncture	动脉穿刺	治疗操作
+cisternal puncture	小脑延髓池穿刺	治疗操作
+ventricular puncture	脑室穿刺	治疗操作
+subdural puncture	硬膜下穿刺	治疗操作
+intubation	插管	治疗操作
+endotracheal intubation	气管插管；气管内插管	治疗操作
+orotracheal intubation	经口气管插管	治疗操作
+nasotracheal intubation	经鼻气管插管	治疗操作
+rapid sequence intubation	快速顺序诱导插管（RSI）	治疗操作
+awake intubation	清醒插管	治疗操作
+fiberoptic intubation	纤维支气管镜引导插管	治疗操作
+extubation	拔管	治疗操作
+tracheotomy	气管切开术	治疗操作
+tracheostomy	气管造口术	治疗操作
+percutaneous dilatational tracheostomy	经皮扩张气管切开术	治疗操作
+cricothyrotomy	环甲膜切开术	治疗操作
+cricothyroid membrane puncture	环甲膜穿刺	治疗操作
+airway management	气道管理	治疗操作
+difficult airway	困难气道	治疗操作
+head tilt-chin lift maneuver	仰头提颏法	治疗操作
+jaw thrust maneuver	托下颌法	治疗操作
+Heimlich maneuver	海姆利希手法	治疗操作
+cuff pressure	气囊压力；套囊压力	治疗操作
+catheterization	导管插入术；插管术	治疗操作
+urinary catheterization	导尿术	治疗操作
+clean intermittent catheterization	清洁间歇导尿（CIC）	治疗操作
+central venous catheterization	中心静脉置管	治疗操作
+arterial catheterization	动脉置管	治疗操作
+cardiac catheterization	心导管术；心导管检查	治疗操作
+umbilical venous catheterization	脐静脉置管	治疗操作
+intraosseous infusion	骨髓腔内输液；骨内输液	治疗操作
+nasogastric intubation	鼻胃插管	治疗操作
+gastrointestinal decompression	胃肠减压	治疗操作
+gastric lavage	洗胃	治疗操作
+dialysis	透析	治疗操作
+hemodialysis	血液透析（HD）	治疗操作
+peritoneal dialysis	腹膜透析（PD）	治疗操作
+continuous ambulatory peritoneal dialysis	持续非卧床腹膜透析（CAPD）	治疗操作
+automated peritoneal dialysis	自动化腹膜透析（APD）	治疗操作
+hemofiltration	血液滤过（HF）	治疗操作
+hemodiafiltration	血液透析滤过（HDF）	治疗操作
+renal replacement therapy	肾脏替代治疗（RRT）	治疗操作
+continuous renal replacement therapy	连续性肾脏替代治疗（CRRT）	治疗操作
+continuous venovenous hemofiltration	连续性静脉-静脉血液滤过（CVVH）	治疗操作
+continuous venovenous hemodialysis	连续性静脉-静脉血液透析（CVVHD）	治疗操作
+continuous venovenous hemodiafiltration	连续性静脉-静脉血液透析滤过（CVVHDF）	治疗操作
+hemoperfusion	血液灌流（HP）	治疗操作
+plasma exchange	血浆置换（PE）	治疗操作
+double filtration plasmapheresis	双重滤过血浆置换（DFPP）	治疗操作
+immunoadsorption	免疫吸附	治疗操作
+autogenous arteriovenous fistula	自体动静脉内瘘（AVF）	治疗操作
+arteriovenous graft	移植物动静脉内瘘（AVG）	治疗操作
+vascular access	血管通路	治疗操作
+ultrafiltration	超滤	治疗操作
+dry weight	干体重	治疗操作
+Kt/V	尿素清除指数	治疗操作
+urea reduction ratio	尿素下降率（URR）	治疗操作
+regional citrate anticoagulation	局部枸橼酸抗凝（RCA）	治疗操作
+heparin-free dialysis	无肝素透析	治疗操作
+peritoneal equilibration test	腹膜平衡试验	治疗操作
+blood transfusion	输血	治疗操作
+autologous blood transfusion	自体输血	治疗操作
+allogeneic blood transfusion	异体输血；同种异体输血	治疗操作
+component transfusion	成分输血	治疗操作
+massive transfusion	大量输血	治疗操作
+exchange transfusion	换血疗法	治疗操作
+intrauterine transfusion	宫内输血	治疗操作
+red blood cell concentrate	浓缩红细胞	治疗操作
+red blood cell suspension	悬浮红细胞	治疗操作
+washed red blood cell	洗涤红细胞	治疗操作
+leukocyte-reduced red blood cell	去白细胞红细胞	治疗操作
+irradiated blood component	辐照血液成分	治疗操作
+fresh frozen plasma	新鲜冰冻血浆（FFP）	治疗操作
+frozen plasma	普通冰冻血浆	治疗操作
+cryoprecipitate	冷沉淀	治疗操作
+platelet concentrate	浓缩血小板	治疗操作
+apheresis platelet	单采血小板	治疗操作
+transfusion reaction	输血反应	治疗操作
+blood donation	献血	治疗操作
+intravenous infusion	静脉输液；静脉输注	治疗操作
+intravenous drip	静脉滴注	治疗操作
+intravenous injection	静脉注射	治疗操作
+infusion rate	输液速度	治疗操作
+drip rate	滴速	治疗操作
+crystalloid	晶体液	治疗操作
+colloid	胶体液	治疗操作
+normal saline	生理盐水	治疗操作
+fluid therapy	液体疗法；补液	治疗操作
+fluid resuscitation	液体复苏	治疗操作
+parenteral nutrition	肠外营养（PN）	治疗操作
+total parenteral nutrition	全肠外营养（TPN）	治疗操作
+enteral nutrition	肠内营养（EN）	治疗操作
+tube feeding	管饲	治疗操作
+oxygen therapy	氧疗；氧疗法	治疗操作
+high-flow nasal cannula oxygen therapy	经鼻高流量湿化氧疗（HFNC）	治疗操作
+hyperbaric oxygen therapy	高压氧治疗（HBOT）	治疗操作
+long-term oxygen therapy	长期氧疗（LTOT）	治疗操作
+home oxygen therapy	家庭氧疗	治疗操作
+fraction of inspired oxygen	吸入氧浓度；吸入氧分数（FiO2）	治疗操作
+oxygen flow rate	氧流量	治疗操作
+nebulization	雾化吸入	治疗操作
+inhalation therapy	吸入疗法	治疗操作
+mechanical ventilation	机械通气（MV）	治疗操作
+invasive mechanical ventilation	有创机械通气	治疗操作
+noninvasive ventilation	无创通气（NIV）	治疗操作
+noninvasive positive pressure ventilation	无创正压通气（NPPV）	治疗操作
+continuous positive airway pressure	持续气道正压（CPAP）	治疗操作
+bilevel positive airway pressure	双水平气道正压（BiPAP）	治疗操作
+positive end-expiratory pressure	呼气末正压（PEEP）	治疗操作
+intrinsic positive end-expiratory pressure	内源性呼气末正压（PEEPi）	治疗操作
+controlled mechanical ventilation	控制通气（CMV）	治疗操作
+assist-control ventilation	辅助控制通气（A/C）	治疗操作
+synchronized intermittent mandatory ventilation	同步间歇指令通气（SIMV）	治疗操作
+pressure support ventilation	压力支持通气（PSV）	治疗操作
+pressure-controlled ventilation	压力控制通气（PCV）	治疗操作
+volume-controlled ventilation	容量控制通气（VCV）	治疗操作
+pressure-regulated volume control	压力调节容量控制（PRVC）	治疗操作
+airway pressure release ventilation	气道压力释放通气（APRV）	治疗操作
+high-frequency oscillatory ventilation	高频振荡通气（HFOV）	治疗操作
+neurally adjusted ventilatory assist	神经调节辅助通气（NAVA）	治疗操作
+proportional assist ventilation	成比例辅助通气（PAV）	治疗操作
+spontaneous breathing trial	自主呼吸试验（SBT）	治疗操作
+ventilator weaning	撤机；脱机	治疗操作
+lung-protective ventilation	肺保护性通气	治疗操作
+prone position ventilation	俯卧位通气	治疗操作
+recruitment maneuver	肺复张手法	治疗操作
+peak inspiratory pressure	气道峰压；吸气峰压（PIP）	治疗操作
+plateau pressure	平台压（Pplat）	治疗操作
+driving pressure	驱动压	治疗操作
+inspiratory-to-expiratory ratio	吸呼比（I:E）	治疗操作
+trigger sensitivity	触发灵敏度	治疗操作
+lung compliance	肺顺应性	治疗操作
+static compliance	静态顺应性	治疗操作
+dynamic compliance	动态顺应性	治疗操作
+airway resistance	气道阻力	治疗操作
+bag-valve-mask ventilation	球囊面罩通气	治疗操作
+extracorporeal membrane oxygenation	体外膜氧合；体外膜肺氧合（ECMO）	治疗操作
+venovenous extracorporeal membrane oxygenation	静脉-静脉体外膜氧合（VV-ECMO）	治疗操作
+venoarterial extracorporeal membrane oxygenation	静脉-动脉体外膜氧合（VA-ECMO）	治疗操作
+intra-aortic balloon pump	主动脉内球囊反搏（IABP）	治疗操作
+cardiopulmonary resuscitation	心肺复苏（CPR）	治疗操作
+cardiopulmonary cerebral resuscitation	心肺脑复苏（CPCR）	治疗操作
+basic life support	基础生命支持（BLS）	治疗操作
+advanced life support	高级生命支持（ALS）	治疗操作
+advanced cardiovascular life support	高级心血管生命支持（ACLS）	治疗操作
+pediatric advanced life support	儿童高级生命支持（PALS）	治疗操作
+chest compression	胸外按压	治疗操作
+compression depth	按压深度	治疗操作
+compression rate	按压频率	治疗操作
+compression-to-ventilation ratio	按压通气比	治疗操作
+artificial respiration	人工呼吸	治疗操作
+mouth-to-mouth breathing	口对口人工呼吸	治疗操作
+defibrillation	除颤	治疗操作
+cardioversion	心脏复律	治疗操作
+synchronized cardioversion	同步电复律	治疗操作
+return of spontaneous circulation	自主循环恢复（ROSC）	治疗操作
+chain of survival	生存链	治疗操作
+targeted temperature management	目标温度管理（TTM）	治疗操作
+therapeutic hypothermia	治疗性低温	治疗操作
+cardiac pacing	心脏起搏	治疗操作
+temporary cardiac pacing	临时心脏起搏	治疗操作
+transcutaneous pacing	经皮起搏	治疗操作
+permanent pacemaker implantation	永久起搏器植入术	治疗操作
+cardiac resynchronization therapy	心脏再同步治疗（CRT）	治疗操作
+catheter ablation	导管消融术	治疗操作
+percutaneous coronary intervention	经皮冠状动脉介入治疗（PCI）	治疗操作
+percutaneous transluminal coronary angioplasty	经皮冠状动脉腔内成形术（PTCA）	治疗操作
+transcatheter aortic valve implantation	经导管主动脉瓣植入术（TAVI）	治疗操作
+triage	分诊；检伤分类	治疗操作
+hemostasis	止血	治疗操作
+compression hemostasis	压迫止血	治疗操作
+balloon tamponade	气囊压迫止血	治疗操作
+bandaging	包扎	治疗操作
+splinting	夹板固定	治疗操作
+immobilization	制动；固定	治疗操作
+closed thoracic drainage	胸腔闭式引流术	治疗操作
+pleurodesis	胸膜固定术	治疗操作
+abdominal drainage	腹腔引流	治疗操作
+negative pressure wound therapy	负压伤口治疗（NPWT）	治疗操作
+vacuum sealing drainage	负压封闭引流（VSD）	治疗操作
+chemotherapy	化学治疗；化疗	治疗操作
+radiotherapy	放射治疗；放疗	治疗操作
+targeted therapy	靶向治疗	治疗操作
+immunotherapy	免疫治疗	治疗操作
+endocrine therapy	内分泌治疗	治疗操作
+neoadjuvant therapy	新辅助治疗	治疗操作
+adjuvant therapy	辅助治疗	治疗操作
+palliative care	姑息治疗；姑息医疗	治疗操作
+hospice care	临终关怀；安宁疗护	治疗操作
+external beam radiotherapy	外照射放疗	治疗操作
+brachytherapy	近距离放射治疗；近距离治疗	治疗操作
+intensity-modulated radiation therapy	调强放射治疗（IMRT）	治疗操作
+three-dimensional conformal radiotherapy	三维适形放射治疗（3D-CRT）	治疗操作
+image-guided radiation therapy	图像引导放射治疗（IGRT）	治疗操作
+stereotactic body radiation therapy	立体定向体部放射治疗（SBRT）	治疗操作
+stereotactic radiosurgery	立体定向放射外科（SRS）	治疗操作
+proton therapy	质子治疗	治疗操作
+gamma knife	伽玛刀；γ刀	治疗操作
+gross tumor volume	大体肿瘤靶区（GTV）	治疗操作
+clinical target volume	临床靶区（CTV）	治疗操作
+planning target volume	计划靶区（PTV）	治疗操作
+dose fractionation	剂量分割	治疗操作
+radionuclide therapy	放射性核素治疗	治疗操作
+chimeric antigen receptor T-cell therapy	嵌合抗原受体T细胞疗法（CAR-T）	治疗操作
+hematopoietic stem cell transplantation	造血干细胞移植（HSCT）	治疗操作
+autologous hematopoietic stem cell transplantation	自体造血干细胞移植（auto-HSCT）	治疗操作
+allogeneic hematopoietic stem cell transplantation	异基因造血干细胞移植（allo-HSCT）	治疗操作
+bone marrow transplantation	骨髓移植（BMT）	治疗操作
+extracorporeal shock wave lithotripsy	体外冲击波碎石术（ESWL）	治疗操作
+photodynamic therapy	光动力疗法（PDT）	治疗操作
+laser therapy	激光治疗	治疗操作
+cryotherapy	冷疗法；冷冻疗法	治疗操作
+electrocoagulation	电凝	治疗操作
+blue light phototherapy	蓝光疗法	治疗操作
+desensitization therapy	脱敏疗法	治疗操作
+allergen immunotherapy	变应原免疫治疗	治疗操作
+anticoagulation therapy	抗凝治疗	治疗操作
+thrombolytic therapy	溶栓治疗	治疗操作
+antiplatelet therapy	抗血小板治疗	治疗操作
+continuous subcutaneous insulin infusion	持续皮下胰岛素输注（CSII）	治疗操作
+anesthesia	麻醉	治疗操作
+general anesthesia	全身麻醉；全麻	治疗操作
+local anesthesia	局部麻醉；局麻	治疗操作
+regional anesthesia	区域麻醉	治疗操作
+spinal anesthesia	蛛网膜下腔阻滞；腰麻	治疗操作
+epidural anesthesia	硬膜外麻醉；硬膜外阻滞	治疗操作
+combined spinal-epidural anesthesia	腰硬联合麻醉（CSEA）	治疗操作
+caudal block	骶管阻滞	治疗操作
+nerve block	神经阻滞	治疗操作
+brachial plexus block	臂丛神经阻滞	治疗操作
+infiltration anesthesia	浸润麻醉	治疗操作
+topical anesthesia	表面麻醉	治疗操作
+intravenous anesthesia	静脉麻醉	治疗操作
+total intravenous anesthesia	全凭静脉麻醉（TIVA）	治疗操作
+inhalation anesthesia	吸入麻醉	治疗操作
+monitored anesthesia care	监护麻醉	治疗操作
+minimum alveolar concentration	最低肺泡有效浓度（MAC）	治疗操作
+sedation	镇静	治疗操作
+analgesia	镇痛	治疗操作
+patient-controlled analgesia	患者自控镇痛（PCA）	治疗操作
+patient-controlled epidural analgesia	患者自控硬膜外镇痛（PCEA）	治疗操作
+patient-controlled intravenous analgesia	患者自控静脉镇痛（PCIA）	治疗操作
+labor analgesia	分娩镇痛	治疗操作
+induction of anesthesia	麻醉诱导	治疗操作
+maintenance of anesthesia	麻醉维持	治疗操作
+anesthesia recovery	麻醉苏醒；麻醉恢复	治疗操作
+preanesthetic medication	麻醉前用药	治疗操作
+controlled hypotension	控制性降压	治疗操作
+neuromuscular blockade	神经肌肉阻滞	治疗操作
+train-of-four stimulation	四个成串刺激（TOF）	治疗操作
+ASA physical status classification	ASA分级	治疗操作
+Mallampati classification	Mallampati分级	治疗操作
+pain management	疼痛管理	治疗操作
+surgery	手术；外科学	手术操作
+operation	手术	手术操作
+elective surgery	择期手术	手术操作
+emergency surgery	急诊手术	手术操作
+day surgery	日间手术	手术操作
+minimally invasive surgery	微创手术	手术操作
+laparoscopic surgery	腹腔镜手术	手术操作
+robot-assisted surgery	机器人辅助手术	手术操作
+open surgery	开放手术	手术操作
+microsurgery	显微外科	手术操作
+perioperative period	围手术期	手术操作
+preoperative preparation	术前准备	手术操作
+laparotomy	剖腹术；开腹手术	手术操作
+exploratory laparotomy	剖腹探查术	手术操作
+thoracotomy	开胸术	手术操作
+craniotomy	开颅术	手术操作
+median sternotomy	胸骨正中切开术	手术操作
+incision	切口；切开	手术操作
+excision	切除	手术操作
+resection	切除术	手术操作
+radical resection	根治性切除术	手术操作
+anastomosis	吻合；吻合术	手术操作
+ligation	结扎	手术操作
+suture	缝合；缝线	手术操作
+drainage	引流	手术操作
+incision and drainage	切开引流术	手术操作
+debridement	清创术	手术操作
+amputation	截肢术	手术操作
+replantation	再植术	手术操作
+skin grafting	植皮术	手术操作
+skin flap	皮瓣	手术操作
+closed reduction	闭合复位	手术操作
+open reduction and internal fixation	切开复位内固定术（ORIF）	手术操作
+internal fixation	内固定	手术操作
+external fixation	外固定	手术操作
+skeletal traction	骨牵引	手术操作
+skin traction	皮牵引	手术操作
+appendectomy	阑尾切除术	手术操作
+cholecystectomy	胆囊切除术	手术操作
+laparoscopic cholecystectomy	腹腔镜胆囊切除术（LC）	手术操作
+gastrectomy	胃切除术	手术操作
+subtotal gastrectomy	胃大部切除术	手术操作
+total gastrectomy	全胃切除术	手术操作
+colectomy	结肠切除术	手术操作
+hemicolectomy	半结肠切除术	手术操作
+proctectomy	直肠切除术	手术操作
+splenectomy	脾切除术	手术操作
+hepatectomy	肝切除术	手术操作
+pancreatectomy	胰腺切除术	手术操作
+pancreaticoduodenectomy	胰十二指肠切除术	手术操作
+esophagectomy	食管切除术	手术操作
+nephrectomy	肾切除术	手术操作
+partial nephrectomy	肾部分切除术	手术操作
+adrenalectomy	肾上腺切除术	手术操作
+cystectomy	膀胱切除术	手术操作
+radical cystectomy	根治性膀胱切除术	手术操作
+prostatectomy	前列腺切除术	手术操作
+radical prostatectomy	根治性前列腺切除术	手术操作
+transurethral resection of prostate	经尿道前列腺电切术（TURP）	手术操作
+transurethral resection of bladder tumor	经尿道膀胱肿瘤电切术（TURBT）	手术操作
+orchiectomy	睾丸切除术	手术操作
+hysterectomy	子宫切除术	手术操作
+total hysterectomy	全子宫切除术	手术操作
+oophorectomy	卵巢切除术	手术操作
+salpingectomy	输卵管切除术	手术操作
+myomectomy	肌瘤切除术	手术操作
+mastectomy	乳房切除术	手术操作
+modified radical mastectomy	改良根治性乳房切除术	手术操作
+lumpectomy	乳房肿块切除术	手术操作
+thyroidectomy	甲状腺切除术	手术操作
+subtotal thyroidectomy	甲状腺次全切除术	手术操作
+parathyroidectomy	甲状旁腺切除术	手术操作
+lobectomy	肺叶切除术	手术操作
+pneumonectomy	全肺切除术	手术操作
+segmentectomy	肺段切除术	手术操作
+wedge resection	楔形切除术	手术操作
+video-assisted thoracoscopic surgery	电视辅助胸腔镜手术（VATS）	手术操作
+thymectomy	胸腺切除术	手术操作
+laminectomy	椎板切除术	手术操作
+discectomy	椎间盘切除术	手术操作
+tonsillectomy	扁桃体切除术	手术操作
+adenoidectomy	腺样体切除术	手术操作
+mastoidectomy	乳突切除术	手术操作
+laryngectomy	喉切除术	手术操作
+glossectomy	舌切除术	手术操作
+vitrectomy	玻璃体切除术	手术操作
+trabeculectomy	小梁切除术	手术操作
+iridectomy	虹膜切除术	手术操作
+gingivectomy	牙龈切除术	手术操作
+hemorrhoidectomy	痔切除术	手术操作
+fistulectomy	瘘管切除术	手术操作
+vasectomy	输精管切除术	手术操作
+circumcision	包皮环切术	手术操作
+lymphadenectomy	淋巴结清扫术；淋巴结切除术	手术操作
+sympathectomy	交感神经切除术	手术操作
+embolectomy	栓子切除术	手术操作
+thrombectomy	血栓切除术；取栓术	手术操作
+endarterectomy	动脉内膜切除术	手术操作
+carotid endarterectomy	颈动脉内膜切除术	手术操作
+synovectomy	滑膜切除术	手术操作
+meniscectomy	半月板切除术	手术操作
+pericardiectomy	心包切除术	手术操作
+decompressive craniectomy	去骨瓣减压术	手术操作
+cystotomy	膀胱切开术	手术操作
+choledochotomy	胆总管切开术	手术操作
+episiotomy	会阴切开术	手术操作
+myotomy	肌切开术	手术操作
+osteotomy	截骨术	手术操作
+arthrotomy	关节切开术	手术操作
+venous cutdown	静脉切开术	手术操作
+lithotomy	切开取石术	手术操作
+pyloromyotomy	幽门肌切开术	手术操作
+sphincterotomy	括约肌切开术	手术操作
+tenotomy	肌腱切断术	手术操作
+fasciotomy	筋膜切开术	手术操作
+myringotomy	鼓膜切开术	手术操作
+colostomy	结肠造口术	手术操作
+ileostomy	回肠造口术	手术操作
+gastrostomy	胃造口术	手术操作
+jejunostomy	空肠造口术	手术操作
+enterostomy	肠造口术	手术操作
+cystostomy	膀胱造口术；膀胱造瘘术	手术操作
+suprapubic cystostomy	耻骨上膀胱造瘘术	手术操作
+nephrostomy	肾造口术；肾造瘘术	手术操作
+percutaneous nephrostomy	经皮肾造瘘术	手术操作
+ureterostomy	输尿管造口术	手术操作
+cholecystostomy	胆囊造口术	手术操作
+gastrojejunostomy	胃空肠吻合术	手术操作
+choledochojejunostomy	胆总管空肠吻合术	手术操作
+dacryocystorhinostomy	泪囊鼻腔吻合术	手术操作
+endoscopic third ventriculostomy	内镜下第三脑室造瘘术（ETV）	手术操作
+ventriculoperitoneal shunt	脑室腹腔分流术	手术操作
+external ventricular drainage	脑室外引流术（EVD）	手术操作
+burr hole drainage	钻孔引流术	手术操作
+angioplasty	血管成形术	手术操作
+valvuloplasty	瓣膜成形术	手术操作
+arthroplasty	关节成形术	手术操作
+total hip arthroplasty	全髋关节置换术（THA）	手术操作
+total knee arthroplasty	全膝关节置换术（TKA）	手术操作
+hemiarthroplasty	半关节置换术	手术操作
+rhinoplasty	鼻成形术；鼻整形术	手术操作
+septoplasty	鼻中隔成形术	手术操作
+blepharoplasty	睑成形术	手术操作
+mammoplasty	乳房成形术	手术操作
+pyeloplasty	肾盂成形术	手术操作
+tympanoplasty	鼓室成形术	手术操作
+uvulopalatopharyngoplasty	悬雍垂腭咽成形术（UPPP）	手术操作
+pyloroplasty	幽门成形术	手术操作
+palatoplasty	腭成形术	手术操作
+urethroplasty	尿道成形术	手术操作
+keratoplasty	角膜移植术；角膜成形术	手术操作
+herniorrhaphy	疝修补术	手术操作
+tension-free hernioplasty	无张力疝修补术	手术操作
+colporrhaphy	阴道修补术	手术操作
+orchiopexy	睾丸固定术	手术操作
+nephropexy	肾固定术	手术操作
+rectopexy	直肠固定术	手术操作
+fundoplication	胃底折叠术	手术操作
+arthrodesis	关节融合术	手术操作
+spinal fusion	脊柱融合术	手术操作
+adhesiolysis	粘连松解术	手术操作
+tenolysis	肌腱松解术	手术操作
+neurolysis	神经松解术	手术操作
+coronary artery bypass grafting	冠状动脉旁路移植术（CABG）	手术操作
+off-pump coronary artery bypass	非体外循环冠状动脉旁路移植术（OPCAB）	手术操作
+cardiopulmonary bypass	体外循环（CPB）	手术操作
+valve replacement	瓣膜置换术	手术操作
+mitral valve replacement	二尖瓣置换术（MVR）	手术操作
+aortic valve replacement	主动脉瓣置换术（AVR）	手术操作
+transcatheter aortic valve replacement	经导管主动脉瓣置换术（TAVR）	手术操作
+organ transplantation	器官移植	手术操作
+kidney transplantation	肾移植	手术操作
+liver transplantation	肝移植	手术操作
+heart transplantation	心脏移植	手术操作
+lung transplantation	肺移植	手术操作
+cesarean section	剖宫产术	手术操作
+vaginal delivery	阴道分娩	手术操作
+forceps delivery	产钳助产	手术操作
+vacuum extraction	胎头吸引术	手术操作
+dilation and curettage	扩张刮宫术（D&C）	手术操作
+diagnostic curettage	诊断性刮宫	手术操作
+induced abortion	人工流产	手术操作
+tubal ligation	输卵管结扎术	手术操作
+intrauterine device insertion	宫内节育器放置术	手术操作
+cataract extraction	白内障摘除术	手术操作
+phacoemulsification	超声乳化白内障吸除术	手术操作
+intraocular lens implantation	人工晶状体植入术	手术操作
+laser photocoagulation	激光光凝术	手术操作
+cochlear implantation	人工耳蜗植入术	手术操作
+functional endoscopic sinus surgery	功能性内镜鼻窦手术（FESS）	手术操作
+deep brain stimulation	脑深部电刺激术（DBS）	手术操作
+stereotactic surgery	立体定向手术	手术操作
+surgical draping	铺巾	手术操作
+surgical safety checklist	手术安全核查表	手术操作
+nursing	护理	护理学
+nursing process	护理程序	护理学
+nursing assessment	护理评估	护理学
+nursing diagnosis	护理诊断	护理学
+nursing care plan	护理计划	护理学
+nursing intervention	护理措施；护理干预	护理学
+nursing evaluation	护理评价	护理学
+nursing round	护理查房	护理学
+holistic nursing	整体护理	护理学
+primary nursing	责任制护理	护理学
+basic nursing	基础护理	护理学
+graded nursing care	分级护理	护理学
+critical care nursing	危重症护理	护理学
+rehabilitation nursing	康复护理	护理学
+community nursing	社区护理	护理学
+geriatric nursing	老年护理	护理学
+pediatric nursing	儿科护理	护理学
+psychiatric nursing	精神科护理	护理学
+evidence-based nursing	循证护理	护理学
+home care	居家护理	护理学
+health education	健康教育	护理学
+patient education	患者教育	护理学
+discharge planning	出院计划	护理学
+subjective data	主观资料	护理学
+objective data	客观资料	护理学
+nurse-patient relationship	护患关系	护理学
+nurse-patient communication	护患沟通	护理学
+humanistic care	人文关怀	护理学
+patient identification	患者身份识别	护理学
+patient safety	患者安全	护理学
+nursing adverse event	护理不良事件	护理学
+medication error	用药错误	护理学
+shift handover	交接班	护理学
+hand hygiene	手卫生	护理学
+handwashing	洗手	护理学
+hand disinfection	手消毒	护理学
+surgical hand antisepsis	外科手消毒	护理学
+standard precaution	标准预防	护理学
+isolation precaution	隔离预防	护理学
+contact isolation	接触隔离	护理学
+droplet isolation	飞沫隔离	护理学
+airborne isolation	空气隔离	护理学
+protective isolation	保护性隔离	护理学
+personal protective equipment	个人防护装备（PPE）	护理学
+aseptic technique	无菌技术	护理学
+sterile field	无菌区	护理学
+sterile package	无菌包	护理学
+disinfection	消毒	护理学
+sterilization	灭菌	护理学
+pressure steam sterilization	压力蒸汽灭菌	护理学
+ethylene oxide sterilization	环氧乙烷灭菌	护理学
+ultraviolet disinfection	紫外线消毒	护理学
+needlestick injury	针刺伤	护理学
+medical waste	医疗废物	护理学
+supine position	仰卧位	护理学
+prone position	俯卧位	护理学
+lateral position	侧卧位	护理学
+sitting position	坐位	护理学
+semi-recumbent position	半卧位	护理学
+Fowler position	半坐卧位	护理学
+orthopneic position	端坐位	护理学
+dorsal recumbent position	屈膝仰卧位	护理学
+Trendelenburg position	头低足高位	护理学
+reverse Trendelenburg position	头高足低位	护理学
+repositioning	体位变换；翻身	护理学
+pressure injury	压力性损伤；压疮	护理学
+Braden scale	Braden量表	护理学
+Norton scale	Norton量表	护理学
+Morse fall scale	Morse跌倒评估量表	护理学
+fall risk assessment	跌倒风险评估	护理学
+fall prevention	跌倒预防	护理学
+physical restraint	身体约束；保护性约束	护理学
+pain assessment	疼痛评估	护理学
+nutritional risk screening	营养风险筛查	护理学
+bed bath	床上擦浴	护理学
+oral care	口腔护理	护理学
+perineal care	会阴护理	护理学
+skin care	皮肤护理	护理学
+back massage	背部按摩	护理学
+bed making	铺床法	护理学
+intake and output	出入量	护理学
+fluid balance	液体平衡	护理学
+urine output	尿量	护理学
+medication administration	给药	护理学
+oral administration	口服给药	护理学
+sublingual administration	舌下给药	护理学
+inhalation administration	吸入给药	护理学
+rectal administration	直肠给药	护理学
+topical administration	局部给药	护理学
+transdermal administration	经皮给药	护理学
+injection	注射	护理学
+intramuscular injection	肌内注射	护理学
+subcutaneous injection	皮下注射	护理学
+intradermal injection	皮内注射	护理学
+skin test	皮肤试验；皮试	护理学
+Z-track injection	Z形注射法	护理学
+injection site	注射部位	护理学
+insulin injection	胰岛素注射	护理学
+self-monitoring of blood glucose	自我血糖监测（SMBG）	护理学
+venipuncture	静脉穿刺	护理学
+venous blood sampling	静脉采血	护理学
+arterial blood sampling	动脉采血	护理学
+capillary blood sampling	毛细血管采血	护理学
+heparin lock	肝素封管	护理学
+catheter flushing	冲管	护理学
+catheter locking	封管	护理学
+extravasation	外渗	护理学
+indwelling catheterization	留置导尿术	护理学
+bladder irrigation	膀胱冲洗	护理学
+enema	灌肠	护理学
+cleansing enema	清洁灌肠	护理学
+retention enema	保留灌肠	护理学
+nasogastric feeding	鼻饲	护理学
+oxygen inhalation	吸氧	护理学
+sputum suction	吸痰	护理学
+endotracheal suctioning	气管内吸引	护理学
+back patting	拍背	护理学
+effective coughing	有效咳嗽	护理学
+catheter care	导管护理	护理学
+drainage tube care	引流管护理	护理学
+tracheostomy care	气管切开护理	护理学
+wound care	伤口护理	护理学
+dressing change	换药	护理学
+stoma care	造口护理	护理学
+skin preparation	备皮	护理学
+preoperative fasting	术前禁食	护理学
+postoperative care	术后护理	护理学
+hot compress	热敷	护理学
+cold compress	冷敷	护理学
+tepid sponge bath	温水擦浴	护理学
+alcohol sponge bath	乙醇擦浴；酒精擦浴	护理学
+physical cooling	物理降温	护理学
+end-of-life care	临终护理	护理学
+postmortem care	尸体护理	护理学
+newborn care	新生儿护理	护理学
+umbilical cord care	脐带护理	护理学
+kangaroo care	袋鼠式护理	护理学
+breastfeeding	母乳喂养	护理学
+rooming-in	母婴同室	护理学
+self-care ability	自理能力	护理学
+caregiver	照护者	护理学
+temperature chart	体温单	护理学
+nursing record	护理记录	护理学
+medication administration record	给药记录	护理学
+rehabilitation medicine	康复医学	康复医学
+physical medicine and rehabilitation	物理医学与康复	康复医学
+physical therapy	物理治疗；物理疗法（PT）	康复医学
+physiotherapy	物理治疗；理疗	康复医学
+occupational therapy	作业治疗（OT）	康复医学
+speech therapy	言语治疗（ST）	康复医学
+cognitive rehabilitation	认知康复	康复医学
+psychological rehabilitation	心理康复	康复医学
+vocational rehabilitation	职业康复	康复医学
+community-based rehabilitation	社区康复（CBR）	康复医学
+cardiac rehabilitation	心脏康复	康复医学
+pulmonary rehabilitation	肺康复	康复医学
+neurological rehabilitation	神经康复	康复医学
+stroke rehabilitation	卒中康复	康复医学
+orthopedic rehabilitation	骨科康复	康复医学
+pediatric rehabilitation	儿童康复	康复医学
+early rehabilitation	早期康复	康复医学
+rehabilitation assessment	康复评定	康复医学
+functional assessment	功能评定	康复医学
+range of motion	关节活动范围；关节活动度（ROM）	康复医学
+goniometry	关节角度测量	康复医学
+manual muscle testing	徒手肌力检查（MMT）	康复医学
+Barthel index	Barthel指数	康复医学
+modified Barthel index	改良Barthel指数（MBI）	康复医学
+functional independence measure	功能独立性评定（FIM）	康复医学
+Fugl-Meyer assessment	Fugl-Meyer评定	康复医学
+Brunnstrom stage	Brunnstrom分期	康复医学
+modified Ashworth scale	改良Ashworth量表（MAS）	康复医学
+Berg balance scale	Berg平衡量表（BBS）	康复医学
+timed up and go test	起立-行走计时测试（TUG）	康复医学
+mini-mental state examination	简易精神状态检查（MMSE）	康复医学
+Montreal cognitive assessment	蒙特利尔认知评估（MoCA）	康复医学
+modified Rankin scale	改良Rankin量表（mRS）	康复医学
+activities of daily living	日常生活活动（ADL）	康复医学
+instrumental activities of daily living	工具性日常生活活动（IADL）	康复医学
+International Classification of Functioning, Disability and Health	国际功能、残疾和健康分类（ICF）	康复医学
+impairment	损伤	康复医学
+activity limitation	活动受限	康复医学
+participation restriction	参与受限	康复医学
+disability	残疾	康复医学
+handicap	残障	康复医学
+contracture	挛缩	康复医学
+therapeutic exercise	治疗性运动	康复医学
+kinesiotherapy	运动疗法	康复医学
+passive exercise	被动运动	康复医学
+active exercise	主动运动	康复医学
+active-assisted exercise	主动助力运动	康复医学
+resistance exercise	抗阻运动	康复医学
+isometric exercise	等长运动	康复医学
+isotonic exercise	等张运动	康复医学
+isokinetic exercise	等速运动	康复医学
+aerobic exercise	有氧运动	康复医学
+anaerobic exercise	无氧运动	康复医学
+stretching	牵伸；牵拉	康复医学
+muscle strength training	肌力训练	康复医学
+endurance training	耐力训练	康复医学
+balance training	平衡训练	康复医学
+coordination training	协调训练	康复医学
+gait training	步态训练	康复医学
+transfer training	转移训练	康复医学
+early mobilization	早期活动	康复医学
+ambulation	步行；行走	康复医学
+joint mobilization	关节松动术	康复医学
+manual therapy	手法治疗	康复医学
+massage	按摩	康复医学
+traction therapy	牵引疗法	康复医学
+cervical traction	颈椎牵引	康复医学
+lumbar traction	腰椎牵引	康复医学
+neurodevelopmental treatment	神经发育疗法（NDT）	康复医学
+Bobath approach	Bobath技术	康复医学
+Brunnstrom approach	Brunnstrom技术	康复医学
+Rood approach	Rood技术	康复医学
+proprioceptive neuromuscular facilitation	本体感觉神经肌肉促进技术（PNF）	康复医学
+constraint-induced movement therapy	强制性运动疗法（CIMT）	康复医学
+mirror therapy	镜像疗法	康复医学
+motor relearning program	运动再学习方案（MRP）	康复医学
+task-oriented training	任务导向性训练	康复医学
+physical agent therapy	物理因子治疗	康复医学
+electrotherapy	电疗法	康复医学
+low-frequency electrotherapy	低频电疗法	康复医学
+medium-frequency electrotherapy	中频电疗法	康复医学
+high-frequency electrotherapy	高频电疗法	康复医学
+transcutaneous electrical nerve stimulation	经皮神经电刺激（TENS）	康复医学
+neuromuscular electrical stimulation	神经肌肉电刺激（NMES）	康复医学
+functional electrical stimulation	功能性电刺激（FES）	康复医学
+interferential current therapy	干扰电疗法	康复医学
+shortwave therapy	短波疗法	康复医学
+microwave therapy	微波疗法	康复医学
+ultrasound therapy	超声波疗法	康复医学
+phototherapy	光疗法	康复医学
+infrared therapy	红外线疗法	康复医学
+ultraviolet therapy	紫外线疗法	康复医学
+thermotherapy	温热疗法；热疗法	康复医学
+paraffin therapy	石蜡疗法	康复医学
+hydrotherapy	水疗法	康复医学
+magnetic therapy	磁疗法	康复医学
+extracorporeal shock wave therapy	体外冲击波疗法（ESWT）	康复医学
+biofeedback therapy	生物反馈疗法	康复医学
+transcranial magnetic stimulation	经颅磁刺激（TMS）	康复医学
+repetitive transcranial magnetic stimulation	重复经颅磁刺激（rTMS）	康复医学
+transcranial direct current stimulation	经颅直流电刺激（tDCS）	康复医学
+swallowing training	吞咽训练	康复医学
+Kubota water swallowing test	洼田饮水试验	康复医学
+videofluoroscopic swallowing study	吞咽造影检查（VFSS）	康复医学
+fiberoptic endoscopic evaluation of swallowing	纤维内镜吞咽功能检查（FEES）	康复医学
+cognitive training	认知训练	康复医学
+memory training	记忆训练	康复医学
+bladder training	膀胱训练	康复医学
+bowel training	排便训练	康复医学
+pelvic floor muscle training	盆底肌训练	康复医学
+Kegel exercise	凯格尔运动	康复医学
+respiratory muscle training	呼吸肌训练	康复医学
+pursed-lip breathing	缩唇呼吸	康复医学
+diaphragmatic breathing	腹式呼吸；膈式呼吸	康复医学
+deep breathing exercise	深呼吸训练	康复医学
+postural drainage	体位引流	康复医学
+chest physiotherapy	胸部物理治疗	康复医学
+incentive spirometry	激励式肺量计训练	康复医学
+energy conservation technique	能量节约技术	康复医学
+kinesio taping	肌内效贴	康复医学
+dry needling	干针	康复医学
+orthosis	矫形器	康复医学
+ankle-foot orthosis	踝足矫形器（AFO）	康复医学
+knee-ankle-foot orthosis	膝踝足矫形器（KAFO）	康复医学
+prosthesis	假肢；假体	康复医学
+assistive device	辅助器具	康复医学
+assistive technology	辅助技术	康复医学
+wheelchair	轮椅	康复医学
+axillary crutch	腋杖	康复医学
+cane	手杖	康复医学
+walker	助行器	康复医学
+cervical collar	颈托	康复医学
+lumbar support	腰围	康复医学
+hospital	医院	医院与科室
+general hospital	综合医院	医院与科室
+specialized hospital	专科医院	医院与科室
+teaching hospital	教学医院	医院与科室
+tertiary hospital	三级医院	医院与科室
+community health service center	社区卫生服务中心	医院与科室
+outpatient department	门诊部（OPD）	医院与科室
+inpatient department	住院部	医院与科室
+emergency department	急诊科（ED）	医院与科室
+intensive care unit	重症监护病房；重症监护室（ICU）	医院与科室
+coronary care unit	冠心病监护病房（CCU）	医院与科室
+neonatal intensive care unit	新生儿重症监护病房（NICU）	医院与科室
+pediatric intensive care unit	儿科重症监护病房（PICU）	医院与科室
+surgical intensive care unit	外科重症监护病房（SICU）	医院与科室
+respiratory intensive care unit	呼吸重症监护病房（RICU）	医院与科室
+emergency intensive care unit	急诊重症监护病房（EICU）	医院与科室
+post-anesthesia care unit	麻醉后监测治疗室；麻醉恢复室（PACU）	医院与科室
+internal medicine	内科学；内科	医院与科室
+general surgery	普通外科；普外科	医院与科室
+cardiology	心脏病学；心内科	医院与科室
+pulmonology	呼吸病学；呼吸内科	医院与科室
+gastroenterology	消化病学；消化内科	医院与科室
+nephrology	肾脏病学；肾内科	医院与科室
+endocrinology	内分泌学；内分泌科	医院与科室
+hematology	血液学；血液科	医院与科室
+rheumatology	风湿病学；风湿免疫科	医院与科室
+neurology	神经病学；神经内科	医院与科室
+department of infectious diseases	感染科	医院与科室
+oncology	肿瘤学；肿瘤科	医院与科室
+geriatrics	老年医学；老年科	医院与科室
+pediatrics	儿科学；儿科	医院与科室
+neonatology	新生儿学；新生儿科	医院与科室
+obstetrics and gynecology	妇产科学；妇产科	医院与科室
+obstetrics	产科学；产科	医院与科室
+gynecology	妇科学；妇科	医院与科室
+dermatology	皮肤病学；皮肤科	医院与科室
+ophthalmology	眼科学；眼科	医院与科室
+otorhinolaryngology	耳鼻咽喉科学；耳鼻喉科	医院与科室
+stomatology	口腔医学；口腔科	医院与科室
+dentistry	牙医学；牙科	医院与科室
+psychiatry	精神病学；精神科	医院与科室
+clinical psychology	临床心理学	医院与科室
+neurosurgery	神经外科学；神经外科	医院与科室
+cardiothoracic surgery	心胸外科	医院与科室
+cardiac surgery	心脏外科	医院与科室
+thoracic surgery	胸外科	医院与科室
+vascular surgery	血管外科	医院与科室
+orthopedics	骨科学；骨科	医院与科室
+urology	泌尿外科学；泌尿外科	医院与科室
+hepatobiliary surgery	肝胆外科	医院与科室
+gastrointestinal surgery	胃肠外科	医院与科室
+colorectal surgery	结直肠外科	医院与科室
+breast surgery	乳腺外科	医院与科室
+plastic surgery	整形外科	医院与科室
+burn department	烧伤科	医院与科室
+pediatric surgery	小儿外科	医院与科室
+anesthesiology	麻醉学；麻醉科	医院与科室
+department of radiology	放射科	医院与科室
+department of ultrasound	超声科	医院与科室
+department of nuclear medicine	核医学科	医院与科室
+department of pathology	病理科	医院与科室
+clinical laboratory	检验科；临床实验室	医院与科室
+laboratory medicine	检验医学	医院与科室
+pharmacy	药房；药剂科	医院与科室
+department of rehabilitation medicine	康复医学科	医院与科室
+emergency medicine	急诊医学	医院与科室
+critical care medicine	重症医学	医院与科室
+general practice	全科医学	医院与科室
+family medicine	家庭医学	医院与科室
+traditional Chinese medicine	中医学；中医	医院与科室
+integrated traditional Chinese and Western medicine	中西医结合	医院与科室
+sports medicine	运动医学	医院与科室
+clinical nutrition	临床营养	医院与科室
+department of transfusion medicine	输血科	医院与科室
+blood bank	血库	医院与科室
+operating room	手术室（OR）	医院与科室
+delivery room	产房	医院与科室
+recovery room	复苏室；恢复室	医院与科室
+isolation ward	隔离病房	医院与科室
+ward	病房；病区	医院与科室
+general ward	普通病房	医院与科室
+nurse station	护士站	医院与科室
+treatment room	治疗室	医院与科室
+consulting room	诊室	医院与科室
+dressing room	换药室	医院与科室
+injection room	注射室	医院与科室
+infusion room	输液室	医院与科室
+medical record room	病案室	医院与科室
+central sterile supply department	消毒供应中心（CSSD）	医院与科室
+hemodialysis center	血液透析中心	医院与科室
+endoscopy center	内镜中心	医院与科室
+catheterization laboratory	导管室	医院与科室
+physical examination center	体检中心	医院与科室
+fever clinic	发热门诊	医院与科室
+pain clinic	疼痛门诊	医院与科室
+specialist clinic	专科门诊	医院与科室
+admission office	住院处	医院与科室
+mortuary	太平间	医院与科室
+physician	医师	医院与科室
+surgeon	外科医师	医院与科室
+internist	内科医师	医院与科室
+chief physician	主任医师	医院与科室
+associate chief physician	副主任医师	医院与科室
+attending physician	主治医师	医院与科室
+resident	住院医师	医院与科室
+chief resident	总住院医师	医院与科室
+intern	实习医师	医院与科室
+department head	科主任	医院与科室
+general practitioner	全科医师（GP）	医院与科室
+family physician	家庭医师	医院与科室
+specialist	专科医师	医院与科室
+cardiologist	心内科医师	医院与科室
+pulmonologist	呼吸科医师	医院与科室
+gastroenterologist	消化内科医师	医院与科室
+nephrologist	肾内科医师	医院与科室
+endocrinologist	内分泌科医师	医院与科室
+hematologist	血液科医师	医院与科室
+rheumatologist	风湿免疫科医师	医院与科室
+neurologist	神经内科医师	医院与科室
+oncologist	肿瘤科医师	医院与科室
+geriatrician	老年科医师	医院与科室
+pediatrician	儿科医师	医院与科室
+obstetrician	产科医师	医院与科室
+gynecologist	妇科医师	医院与科室
+dermatologist	皮肤科医师	医院与科室
+ophthalmologist	眼科医师	医院与科室
+otolaryngologist	耳鼻喉科医师	医院与科室
+dentist	牙科医师；牙医	医院与科室
+psychiatrist	精神科医师	医院与科室
+neurosurgeon	神经外科医师	医院与科室
+orthopedist	骨科医师	医院与科室
+urologist	泌尿外科医师	医院与科室
+anesthesiologist	麻醉科医师	医院与科室
+radiologist	放射科医师	医院与科室
+pathologist	病理科医师	医院与科室
+intensivist	重症医学科医师	医院与科室
+physiatrist	康复科医师	医院与科室
+nurse	护士	医院与科室
+registered nurse	注册护士（RN）	医院与科室
+head nurse	护士长	医院与科室
+scrub nurse	器械护士	医院与科室
+circulating nurse	巡回护士	医院与科室
+midwife	助产士	医院与科室
+nursing assistant	护理员	医院与科室
+pharmacist	药师	医院与科室
+clinical pharmacist	临床药师	医院与科室
+radiographer	放射技师	医院与科室
+medical technologist	医学技师	医院与科室
+physical therapist	物理治疗师	医院与科室
+occupational therapist	作业治疗师	医院与科室
+speech therapist	言语治疗师	医院与科室
+dietitian	营养师	医院与科室
+emergency medical technician	急救医疗技术员（EMT）	医院与科室
+medical staff	医务人员	医院与科室
+patient	患者；病人	医院与科室
+inpatient	住院患者	医院与科室
+outpatient	门诊患者	医院与科室
+multidisciplinary team	多学科团队（MDT）	医院与科室
+ward round	查房	医院与科室
+grand round	大查房	医院与科室
+on-call duty	值班	医院与科室
+night shift	夜班	医院与科室
+registration	挂号	医院与科室
+appointment registration	预约挂号	医院与科室
+medical record	病历	医疗文书
+electronic medical record	电子病历（EMR）	医疗文书
+electronic health record	电子健康档案（EHR）	医疗文书
+hospital information system	医院信息系统（HIS）	医疗文书
+laboratory information system	实验室信息系统（LIS）	医疗文书
+picture archiving and communication system	影像存储与传输系统（PACS）	医疗文书
+radiology information system	放射信息系统（RIS）	医疗文书
+outpatient medical record	门诊病历	医疗文书
+inpatient medical record	住院病历	医疗文书
+medical record number	病案号；病历号	医疗文书
+admission note	入院记录	医疗文书
+chief complaint	主诉（CC）	医疗文书
+history of present illness	现病史（HPI）	医疗文书
+past medical history	既往史（PMH）	医疗文书
+personal history	个人史	医疗文书
+family history	家族史	医疗文书
+marital history	婚姻史	医疗文书
+menstrual history	月经史	医疗文书
+obstetric history	孕产史；生育史	医疗文书
+allergy history	过敏史	医疗文书
+drug allergy	药物过敏	医疗文书
+surgical history	手术史	医疗文书
+history of trauma	外伤史	医疗文书
+transfusion history	输血史	医疗文书
+immunization history	预防接种史	医疗文书
+epidemiological history	流行病学史	医疗文书
+occupational history	职业史	医疗文书
+smoking history	吸烟史	医疗文书
+pack-year	包年	医疗文书
+review of systems	系统回顾（ROS）	医疗文书
+medical history	病史	医疗文书
+specialty examination	专科检查	医疗文书
+auxiliary examination	辅助检查	医疗文书
+progress note	病程记录	医疗文书
+first progress note	首次病程记录	医疗文书
+daily progress note	日常病程记录	医疗文书
+ward round record	查房记录	医疗文书
+consultation	会诊	医疗文书
+consultation request	会诊申请	医疗文书
+consultation record	会诊记录	医疗文书
+multidisciplinary consultation	多学科会诊	医疗文书
+transfer note	转科记录	医疗文书
+handover note	交接班记录	医疗文书
+stage summary	阶段小结	医疗文书
+preoperative summary	术前小结	医疗文书
+preoperative discussion	术前讨论	医疗文书
+operative note	手术记录	医疗文书
+anesthesia record	麻醉记录	医疗文书
+postoperative note	术后记录	医疗文书
+resuscitation record	抢救记录	医疗文书
+discharge summary	出院小结；出院记录	医疗文书
+discharge instruction	出院医嘱	医疗文书
+death record	死亡记录	医疗文书
+death certificate	死亡证明	医疗文书
+death case discussion	死亡病例讨论	医疗文书
+case discussion	病例讨论	医疗文书
+case report	病例报告	医疗文书
+medical order	医嘱	医疗文书
+long-term order	长期医嘱	医疗文书
+temporary order	临时医嘱	医疗文书
+verbal order	口头医嘱	医疗文书
+prn order	长期备用医嘱	医疗文书
+do-not-resuscitate order	不复苏医嘱（DNR）	医疗文书
+informed consent	知情同意	医疗文书
+informed consent form	知情同意书	医疗文书
+surgical consent form	手术同意书	医疗文书
+critical condition notice	病危通知书	医疗文书
+medical certificate	诊断证明书	医疗文书
+referral	转诊	医疗文书
+referral letter	转诊信	医疗文书
+laboratory requisition	检验申请单	医疗文书
+examination report	检查报告	医疗文书
+laboratory report	检验报告	医疗文书
+imaging report	影像学报告	医疗文书
+partograph	产程图	医疗文书
+shift report	交班报告	医疗文书
+clinical pathway	临床路径	医疗文书
+clinical practice guideline	临床实践指南	医疗文书
+SOAP note	SOAP记录	医疗文书
+problem list	问题列表	医疗文书
+admission	入院	医疗文书
+discharge	出院	医疗文书
+discharge against medical advice	自动出院	医疗文书
+transfer	转科；转院	医疗文书
+readmission	再入院	医疗文书
+length of stay	住院时间（LOS）	医疗文书
+bed occupancy rate	病床使用率	医疗文书
+first visit	初诊	医疗文书
+follow-up visit	复诊	医疗文书
+follow-up	随访	医疗文书
+adverse event	不良事件	医疗文书
+adverse drug reaction	药物不良反应（ADR）	医疗文书
+medical dispute	医疗纠纷	医疗文书
+International Classification of Diseases	国际疾病分类（ICD）	医疗文书
+medical device	医疗器械	医疗器械
+stethoscope	听诊器	医疗器械
+sphygmomanometer	血压计	医疗器械
+mercury sphygmomanometer	水银血压计	医疗器械
+electronic sphygmomanometer	电子血压计	医疗器械
+cuff	袖带；套囊	医疗器械
+thermometer	体温计	医疗器械
+infrared thermometer	红外体温计	医疗器械
+reflex hammer	叩诊锤	医疗器械
+tuning fork	音叉	医疗器械
+ophthalmoscope	检眼镜；眼底镜	医疗器械
+otoscope	耳镜	医疗器械
+tongue depressor	压舌板	医疗器械
+pulse oximeter	脉搏血氧仪	医疗器械
+electrocardiograph	心电图机	医疗器械
+patient monitor	监护仪	医疗器械
+multiparameter monitor	多参数监护仪	医疗器械
+electrode	电极	医疗器械
+syringe	注射器	医疗器械
+needle	针头	医疗器械
+hypodermic needle	皮下注射针	医疗器械
+insulin syringe	胰岛素注射器	医疗器械
+insulin pen	胰岛素笔	医疗器械
+insulin pump	胰岛素泵	医疗器械
+prefilled syringe	预充式注射器	医疗器械
+vacuum blood collection tube	真空采血管	医疗器械
+lancet	采血针	医疗器械
+glucometer	血糖仪	医疗器械
+test strip	试纸	医疗器械
+intravenous cannula	静脉留置针；静脉套管针	医疗器械
+scalp vein needle	头皮针	医疗器械
+infusion set	输液器	医疗器械
+transfusion set	输血器	医疗器械
+infusion bag	输液袋	医疗器械
+infusion pump	输液泵	医疗器械
+syringe pump	注射泵；微量泵	医疗器械
+drip chamber	滴壶	医疗器械
+three-way stopcock	三通阀；三通	医疗器械
+extension tube	延长管	医疗器械
+needleless connector	无针接头	医疗器械
+heparin cap	肝素帽	医疗器械
+blood warmer	血液加温器	医疗器械
+tourniquet	止血带	医疗器械
+gauze	纱布	医疗器械
+cotton swab	棉签	医疗器械
+cotton ball	棉球	医疗器械
+bandage	绷带	医疗器械
+elastic bandage	弹力绷带	医疗器械
+triangular bandage	三角巾	医疗器械
+adhesive tape	胶布	医疗器械
+dressing	敷料	医疗器械
+transparent dressing	透明敷料	医疗器械
+hydrocolloid dressing	水胶体敷料	医疗器械
+foam dressing	泡沫敷料	医疗器械
+alginate dressing	藻酸盐敷料	医疗器械
+silver dressing	银离子敷料	医疗器械
+absorbable suture	可吸收缝线	医疗器械
+nonabsorbable suture	不可吸收缝线	医疗器械
+suture needle	缝合针	医疗器械
+needle holder	持针器	医疗器械
+scalpel	手术刀	医疗器械
+surgical blade	手术刀片	医疗器械
+surgical scissors	手术剪	医疗器械
+forceps	镊；钳	医疗器械
+tissue forceps	组织镊	医疗器械
+hemostat	止血钳	医疗器械
+retractor	牵开器；拉钩	医疗器械
+surgical stapler	吻合器	医疗器械
+skin stapler	皮肤缝合器	医疗器械
+trocar	套管针；穿刺器	医疗器械
+electrosurgical unit	高频电刀	医疗器械
+ultrasonic scalpel	超声刀	医疗器械
+surgical light	无影灯	医疗器械
+operating table	手术台	医疗器械
+autoclave	高压蒸汽灭菌器	医疗器械
+surgical mask	外科口罩	医疗器械
+N95 respirator	N95医用防护口罩	医疗器械
+protective clothing	防护服	医疗器械
+isolation gown	隔离衣	医疗器械
+surgical gown	手术衣	医疗器械
+sterile glove	无菌手套	医疗器械
+face shield	防护面屏	医疗器械
+goggles	护目镜	医疗器械
+shoe cover	鞋套	医疗器械
+surgical cap	手术帽	医疗器械
+sharps container	锐器盒	医疗器械
+alcohol-based hand rub	速干手消毒剂	医疗器械
+disinfectant	消毒剂	医疗器械
+catheter	导管	医疗器械
+urinary catheter	导尿管	医疗器械
+Foley catheter	Foley导尿管；气囊导尿管	医疗器械
+nasogastric tube	鼻胃管；胃管	医疗器械
+nasojejunal tube	鼻空肠管	医疗器械
+feeding tube	营养管；喂养管	医疗器械
+gastrostomy tube	胃造口管	医疗器械
+Sengstaken-Blakemore tube	三腔二囊管	医疗器械
+T-tube	T管	医疗器械
+drainage tube	引流管	医疗器械
+chest tube	胸腔引流管	医疗器械
+drainage bag	引流袋	医疗器械
+urine collection bag	集尿袋	医疗器械
+underwater seal drainage bottle	水封瓶	医疗器械
+suction apparatus	吸引器	医疗器械
+suction catheter	吸痰管	医疗器械
+oxygen mask	氧气面罩	医疗器械
+nasal cannula	鼻导管；鼻氧管	医疗器械
+Venturi mask	文丘里面罩	医疗器械
+non-rebreather mask	非重复呼吸面罩	医疗器械
+nebulizer	雾化器	医疗器械
+metered-dose inhaler	定量吸入器（MDI）	医疗器械
+dry powder inhaler	干粉吸入器（DPI）	医疗器械
+spacer	储雾罐	医疗器械
+ventilator	呼吸机	医疗器械
+anesthesia machine	麻醉机	医疗器械
+oxygen concentrator	制氧机	医疗器械
+oxygen cylinder	氧气瓶；氧气筒	医疗器械
+oxygen flowmeter	氧气流量表	医疗器械
+humidifier	湿化器	医疗器械
+heat and moisture exchanger	热湿交换器；人工鼻（HME）	医疗器械
+bag-valve-mask	简易呼吸器（BVM）	医疗器械
+laryngoscope	喉镜	医疗器械
+video laryngoscope	可视喉镜；视频喉镜	医疗器械
+endotracheal tube	气管导管	医疗器械
+double-lumen endotracheal tube	双腔气管导管	医疗器械
+tracheostomy tube	气管切开套管	医疗器械
+laryngeal mask airway	喉罩（LMA）	医疗器械
+oropharyngeal airway	口咽通气道	医疗器械
+nasopharyngeal airway	鼻咽通气道	医疗器械
+stylet	管芯	医疗器械
+bougie	探条	医疗器械
+epidural catheter	硬膜外导管	医疗器械
+spinal needle	腰穿针	医疗器械
+defibrillator	除颤器；除颤仪	医疗器械
+automated external defibrillator	自动体外除颤器（AED）	医疗器械
+pacemaker	心脏起搏器	医疗器械
+implantable cardioverter-defibrillator	植入型心律转复除颤器（ICD）	医疗器械
+stent	支架	医疗器械
+drug-eluting stent	药物洗脱支架（DES）	医疗器械
+bare-metal stent	裸金属支架（BMS）	医疗器械
+covered stent	覆膜支架	医疗器械
+balloon catheter	球囊导管	医疗器械
+guiding catheter	指引导管	医疗器械
+guidewire	导丝	医疗器械
+introducer sheath	导管鞘；血管鞘	医疗器械
+angiographic catheter	造影导管	医疗器械
+pigtail catheter	猪尾导管	医疗器械
+central venous catheter	中心静脉导管（CVC）	医疗器械
+peripherally inserted central catheter	经外周静脉置入中心静脉导管（PICC）	医疗器械
+implantable venous access port	植入式静脉输液港	医疗器械
+dialysis catheter	透析导管	医疗器械
+hemodialysis machine	血液透析机	医疗器械
+dialyzer	透析器	医疗器械
+dialysate	透析液	医疗器械
+hemoperfusion cartridge	灌流器	医疗器械
+Swan-Ganz catheter	肺动脉漂浮导管；Swan-Ganz导管	医疗器械
+pressure transducer	压力传感器	医疗器械
+membrane oxygenator	膜式氧合器；膜肺	医疗器械
+heart-lung machine	人工心肺机	医疗器械
+ventricular assist device	心室辅助装置（VAD）	医疗器械
+left ventricular assist device	左心室辅助装置（LVAD）	医疗器械
+prosthetic heart valve	人工心脏瓣膜	医疗器械
+mechanical valve	机械瓣	医疗器械
+bioprosthetic valve	生物瓣	医疗器械
+vascular graft	人工血管	医疗器械
+inferior vena cava filter	下腔静脉滤器（IVCF）	医疗器械
+occluder	封堵器	医疗器械
+embolization coil	栓塞弹簧圈	医疗器械
+artificial joint	人工关节	医疗器械
+bone plate	接骨板	医疗器械
+bone screw	接骨螺钉	医疗器械
+intramedullary nail	髓内钉	医疗器械
+Kirschner wire	克氏针	医疗器械
+external fixator	外固定架；外固定器	医疗器械
+pedicle screw	椎弓根螺钉	医疗器械
+interbody fusion cage	椎间融合器	医疗器械
+bone cement	骨水泥	医疗器械
+plaster cast	石膏	医疗器械
+splint	夹板	医疗器械
+traction frame	牵引架	医疗器械
+goniometer	量角器；关节量角器	医疗器械
+hearing aid	助听器	医疗器械
+cochlear implant	人工耳蜗	医疗器械
+intraocular lens	人工晶状体（IOL）	医疗器械
+contact lens	角膜接触镜	医疗器械
+breast implant	乳房假体	医疗器械
+intrauterine device	宫内节育器（IUD）	医疗器械
+vaginal speculum	阴道窥器	医疗器械
+curette	刮匙	医疗器械
+uterine sound	子宫探针	医疗器械
+obstetric forceps	产钳	医疗器械
+vacuum extractor	胎头吸引器	医疗器械
+fetal monitor	胎儿监护仪	医疗器械
+infant incubator	婴儿培养箱；暖箱	医疗器械
+radiant warmer	辐射保暖台	医疗器械
+hospital bed	病床	医疗器械
+stretcher	担架	医疗器械
+air mattress	气垫床	医疗器械
+bedpan	便盆	医疗器械
+urinal	尿壶	医疗器械
+commode	坐便椅	医疗器械
+ice pack	冰袋	医疗器械
+hot water bottle	热水袋	医疗器械
+cooling blanket	降温毯	医疗器械
+incentive spirometer	激励式肺量计	医疗器械
+X-ray machine	X线机	医疗器械
+CT scanner	CT扫描仪	医疗器械
+magnetic resonance scanner	磁共振扫描仪	医疗器械
+ultrasound machine	超声诊断仪	医疗器械
+lead apron	铅围裙；铅衣	医疗器械
+linear accelerator	直线加速器	医疗器械
+lithotripter	碎石机	医疗器械
+hyperbaric oxygen chamber	高压氧舱	医疗器械
+biopsy forceps	活检钳	医疗器械
+snare	圈套器	医疗器械
+hemostatic clip	止血夹	医疗器械
+microscope	显微镜	医疗器械
+microscope slide	载玻片	医疗器械
+coverslip	盖玻片	医疗器械
+centrifuge	离心机	医疗器械
+pipette	移液器	医疗器械
+test tube	试管	医疗器械
+automated hematology analyzer	全自动血细胞分析仪	医疗器械
+automatic biochemical analyzer	全自动生化分析仪	医疗器械
+blood gas analyzer	血气分析仪	医疗器械
+coagulation analyzer	凝血分析仪	医疗器械
+urine analyzer	尿液分析仪	医疗器械
+biosafety cabinet	生物安全柜	医疗器械
+microtome	切片机	医疗器械
+cryostat	冷冻切片机	医疗器械
+prescription	处方	处方用语
+Rx	处方；取	处方用语
+sig	用法；标记	处方用语
+qd	每日一次	处方用语
+bid	每日两次	处方用语
+tid	每日三次	处方用语
+qid	每日四次	处方用语
+tds	每日三次	处方用语
+qds	每日四次	处方用语
+qh	每小时一次	处方用语
+q2h	每2小时一次	处方用语
+q3h	每3小时一次	处方用语
+q4h	每4小时一次	处方用语
+q6h	每6小时一次	处方用语
+q8h	每8小时一次	处方用语
+q12h	每12小时一次	处方用语
+qod	隔日一次	处方用语
+qw	每周一次	处方用语
+biw	每周两次	处方用语
+tiw	每周三次	处方用语
+qn	每晚一次	处方用语
+qm	每晨一次	处方用语
+qhs	每晚睡前	处方用语
+hs	睡前	处方用语
+ac	饭前；餐前	处方用语
+pc	饭后；餐后	处方用语
+am	上午	处方用语
+pm	下午	处方用语
+mane	早晨	处方用语
+nocte	夜间	处方用语
+prn	必要时	处方用语
+sos	需要时	处方用语
+stat	立即	处方用语
+st	立即	处方用语
+cito	急速地	处方用语
+po	口服	处方用语
+im	肌内注射	处方用语
+iv	静脉注射	处方用语
+ivgtt	静脉滴注	处方用语
+ih	皮下注射	处方用语
+sc	皮下注射	处方用语
+id	皮内注射	处方用语
+pr	直肠给药	处方用语
+sl	舌下含服	处方用语
+OD	右眼	处方用语
+OS	左眼	处方用语
+OU	双眼	处方用语
+aa	各；各等量	处方用语
+ad	加至	处方用语
+qs	适量	处方用语
+ss	一半	处方用语
+co	复方	处方用语
+dil	稀释	处方用语
+gtt	滴	处方用语
+tab	片剂	处方用语
+cap	胶囊剂	处方用语
+inj	注射剂	处方用语
+amp	安瓿	处方用语
+sol	溶液剂	处方用语
+syr	糖浆剂	处方用语
+ung	软膏剂	处方用语
+mist	合剂	处方用语
+pil	丸剂	处方用语
+supp	栓剂	处方用语
+tinct	酊剂	处方用语
+pulv	散剂	处方用语
+lot	洗剂	处方用语
+emuls	乳剂	处方用语
+NS	生理盐水	处方用语
+GS	葡萄糖注射液	处方用语
+GNS	葡萄糖氯化钠注射液	处方用语
+NPO	禁食	处方用语
+DC	停止；停用	处方用语
+mg	毫克	处方用语
+mcg	微克	处方用语
+ml	毫升	处方用语
+IU	国际单位	处方用语
+mEq	毫当量	处方用语
+dose	剂量	处方用语
+dosage form	剂型	处方用语
+loading dose	负荷剂量	处方用语
+maintenance dose	维持剂量	处方用语
+maximum dose	最大剂量	处方用语
+single dose	单次剂量	处方用语
+daily dose	日剂量	处方用语
+route of administration	给药途径	处方用语
+generic name	通用名	处方用语
+trade name	商品名	处方用语
+prescription drug	处方药	处方用语
+over-the-counter drug	非处方药（OTC）	处方用语
+narcotic drug	麻醉药品	处方用语
+psychotropic drug	精神药品	处方用语
+essential medicine	基本药物	处方用语
+dispensing	调剂；配药	处方用语
+medication reconciliation	药物重整	处方用语
+off-label use	超说明书用药	处方用语
+indication	适应证	处方用语
+contraindication	禁忌证	处方用语
+drug interaction	药物相互作用	处方用语
+side effect	副作用	处方用语
+Richmond Agitation-Sedation Scale	里士满躁动-镇静量表（RASS）	诊断学
+Ramsay sedation scale	Ramsay镇静评分	诊断学
+Critical-Care Pain Observation Tool	重症监护疼痛观察工具（CPOT）	诊断学
+Confusion Assessment Method for the ICU	ICU意识模糊评估法（CAM-ICU）	诊断学
+modified early warning score	改良早期预警评分（MEWS）	诊断学
+quick Sequential Organ Failure Assessment	快速序贯器官衰竭评估（qSOFA）	诊断学
+CHA2DS2-VASc score	CHA2DS2-VASc评分	诊断学
+HAS-BLED score	HAS-BLED评分	诊断学
+GRACE score	GRACE评分	诊断学
+TIMI risk score	TIMI危险评分	诊断学
+CURB-65 score	CURB-65评分	诊断学
+Wells score	Wells评分	诊断学
+Caprini risk assessment model	Caprini风险评估模型	诊断学
+Padua prediction score	Padua预测评分	诊断学
+Mini Nutritional Assessment	微型营养评定（MNA）	诊断学
+Nutritional Risk Screening 2002	营养风险筛查2002（NRS 2002）	诊断学
+QRS duration	QRS时限	功能检查
+RR interval	RR间期	功能检查
+PP interval	PP间期	功能检查
+electrocardiographic monitoring	心电监护	功能检查
+fractional flow reserve	血流储备分数（FFR）	功能检查
+instantaneous wave-free ratio	瞬时无波形比值（iFR）	功能检查
+toe-brachial index	趾臂指数（TBI）	功能检查
+electrogastrogram	胃电图（EGG）	功能检查
+electronystagmography	眼震电图（ENG）	功能检查
+caloric test	冷热试验；温度试验	功能检查
+audiogram	听力图	功能检查
+auditory brainstem response	听性脑干反应（ABR）	功能检查
+newborn hearing screening	新生儿听力筛查	功能检查
+Schirmer test	泪液分泌试验；Schirmer试验	功能检查
+corneal fluorescein staining	角膜荧光素染色	功能检查
+color vision test	色觉检查	功能检查
+optometry	验光	功能检查
+fetal hemoglobin	胎儿血红蛋白（HbF）	实验室检查
+von Willebrand factor	血管性血友病因子（vWF）	实验室检查
+free fatty acid	游离脂肪酸（FFA）	实验室检查
+lipoprotein-associated phospholipase A2	脂蛋白相关磷脂酶A2（Lp-PLA2）	实验室检查
+heart-type fatty acid-binding protein	心型脂肪酸结合蛋白（H-FABP）	实验室检查
+hyaluronic acid	透明质酸（HA）	实验室检查
+laminin	层粘连蛋白（LN）	实验室检查
+type IV collagen	Ⅳ型胶原	实验室检查
+alpha-L-fucosidase	α-L-岩藻糖苷酶（AFU）	实验室检查
+5'-nucleotidase	5'-核苷酸酶	实验室检查
+leucine aminopeptidase	亮氨酸氨基肽酶（LAP）	实验室检查
+monoamine oxidase	单胺氧化酶（MAO）	实验室检查
+N-acetyl-beta-D-glucosaminidase	N-乙酰-β-D-氨基葡萄糖苷酶（NAG）	实验室检查
+retinol-binding protein	视黄醇结合蛋白（RBP）	实验室检查
+alpha-1 microglobulin	α1-微球蛋白（α1-MG）	实验室检查
+25-hydroxyvitamin D	25-羟维生素D	实验室检查
+bone turnover marker	骨转换标志物	实验室检查
+osteocalcin	骨钙素	实验室检查
+procollagen type 1 N-terminal propeptide	Ⅰ型前胶原N端前肽（P1NP）	实验室检查
+C-terminal telopeptide of type I collagen	Ⅰ型胶原C端肽（CTX）	实验室检查
+carbapenemase	碳青霉烯酶	实验室检查
+endotoxin	内毒素	实验室检查
+blood culture bottle	血培养瓶	医疗器械
+CT urography	CT尿路成像（CTU）	医学影像
+CT enterography	CT小肠成像（CTE）	医学影像
+magnetic resonance enterography	磁共振小肠成像	医学影像
+positron emission tomography-magnetic resonance imaging	正电子发射体层成像-磁共振成像（PET-MRI）	医学影像
+dual-source CT	双源CT	医学影像
+photon-counting CT	光子计数CT	医学影像
+coronary artery calcium score	冠状动脉钙化积分（CACS）	医学影像
+carotid intima-media thickness	颈动脉内中膜厚度（IMT）	医学影像
+Breast Imaging Reporting and Data System	乳腺影像报告和数据系统（BI-RADS）	医学影像
+Thyroid Imaging Reporting and Data System	甲状腺影像报告和数据系统（TI-RADS）	医学影像
+Liver Imaging Reporting and Data System	肝脏影像报告和数据系统（LI-RADS）	医学影像
+Prostate Imaging Reporting and Data System	前列腺影像报告和数据系统（PI-RADS）	医学影像
+image intensifier	影像增强器	医疗器械
+C-arm	C形臂	医疗器械
+gastroscope	胃镜	内镜
+colonoscope	结肠镜	内镜
+duodenoscope	十二指肠镜	内镜
+bronchoscope	支气管镜	内镜
+thoracoscope	胸腔镜	内镜
+cystoscope	膀胱镜	内镜
+ureteroscope	输尿管镜	内镜
+nephroscope	肾镜	内镜
+hysteroscope	宫腔镜	内镜
+colposcope	阴道镜	内镜
+laparoscope	腹腔镜	内镜
+arthroscope	关节镜	内镜
+choledochoscope	胆道镜	内镜
+proctoscope	直肠镜	内镜
+anoscope	肛门镜	内镜
+endoscopic full-thickness resection	内镜全层切除术（EFTR）	内镜
+submucosal tunneling endoscopic resection	经黏膜下隧道内镜切除术（STER）	内镜
+tissue adhesive injection	组织胶注射	内镜
+flexible ureteroscopy	软性输尿管镜检查	内镜
+percutaneous nephrolithotomy	经皮肾镜取石术（PCNL）	手术操作
+ureteroscopic lithotripsy	输尿管镜碎石术	手术操作
+bed rest	卧床休息	护理学
+absolute bed rest	绝对卧床	护理学
+regular diet	普通饮食	护理学
+soft diet	软食	护理学
+semi-liquid diet	半流质饮食	护理学
+liquid diet	流质饮食	护理学
+therapeutic diet	治疗饮食	护理学
+test diet	试验饮食	护理学
+low-salt diet	低盐饮食	护理学
+low-fat diet	低脂饮食	护理学
+low-cholesterol diet	低胆固醇饮食	护理学
+low-protein diet	低蛋白饮食	护理学
+high-protein diet	高蛋白饮食	护理学
+high-calorie diet	高热量饮食	护理学
+high-fiber diet	高纤维饮食	护理学
+low-residue diet	少渣饮食	护理学
+low-purine diet	低嘌呤饮食	护理学
+diabetic diet	糖尿病饮食	护理学
+nil by mouth	禁食	护理学
+fluid restriction	限制液体	护理学
+blood glucose monitoring	血糖监测	护理学
+graduated compression stocking	梯度压力袜；弹力袜	医疗器械
+intermittent pneumatic compression	间歇充气加压（IPC）	治疗操作
+nasal speculum	鼻镜	医疗器械
+head mirror	额镜	医疗器械
+visual acuity chart	视力表	医疗器械
+slit lamp	裂隙灯	医疗器械
+tonometer	眼压计	医疗器械
+audiometer	听力计	医疗器械
+spirometer	肺量计	医疗器械
+peak flow meter	峰流速仪	医疗器械
+electroencephalograph	脑电图机	医疗器械
+electromyograph	肌电图仪	医疗器械
+Holter monitor	动态心电图记录仪	医疗器械
+ambulatory blood pressure monitor	动态血压监测仪	医疗器械
+fetal Doppler	多普勒胎心仪	医疗器械
+department of radiation oncology	放射肿瘤科；放疗科	医院与科室
+department of interventional radiology	介入放射科	医院与科室
+andrology	男科学；男科	医院与科室
+reproductive medicine	生殖医学	医院与科室
+hepatology	肝病学	医院与科室
+allergology	变态反应学；变态反应科	医院与科室
+proctology	肛肠病学；肛肠科	医院与科室
+hand surgery	手外科	医院与科室
+spine surgery	脊柱外科	医院与科室
+joint surgery	关节外科	医院与科室
+trauma surgery	创伤外科	医院与科室
+stroke unit	卒中单元	医院与科室
+chest pain center	胸痛中心	医院与科室
+trauma center	创伤中心	医院与科室
+medical affairs department	医务部	医院与科室
+nursing department	护理部	医院与科室
+department of hospital infection management	医院感染管理科	医院与科室
+outpatient pharmacy	门诊药房	医院与科室
+inpatient pharmacy	住院药房	医院与科室
+pharmacy intravenous admixture service	静脉用药调配中心（PIVAS）	医院与科室
+emergency observation room	急诊留观室	医院与科室
+resuscitation room	抢救室	医院与科室
+negative pressure isolation ward	负压隔离病房	医院与科室
+medical student	医学生	医院与科室
+standardized residency training	住院医师规范化培训	医院与科室
+nurse anesthetist	麻醉护士	医院与科室
+stoma therapist	造口治疗师	医院与科室
+respiratory therapist	呼吸治疗师	医院与科室
+perfusionist	体外循环灌注师	医院与科室
+sonographer	超声技师	医院与科室
+laboratory technician	检验技师	医院与科室
+case manager	个案管理师	医院与科室
+medical social worker	医务社会工作者	医院与科室
+history and physical examination	病史与体格检查（H&P）	医疗文书
+discharge medication	出院带药	医疗文书
+medical record quality control	病历质量控制	医疗文书
+autopsy consent form	尸检同意书	医疗文书
+blood transfusion consent form	输血同意书	医疗文书
+anesthesia consent form	麻醉同意书	医疗文书
+refusal of treatment	拒绝治疗	医疗文书
+invasive procedure record	有创操作记录	医疗文书
+sick leave certificate	病假证明	医疗文书
+electronic prescription	电子处方	处方用语
+aq	水	处方用语
+aq dest	蒸馏水	处方用语
+inh	吸入	处方用语
+neb	雾化吸入	处方用语
+non-weight-bearing	不负重	康复医学
+partial weight-bearing	部分负重	康复医学
+full weight-bearing	完全负重	康复医学
+continuous passive motion	持续被动活动（CPM）	康复医学
+standing frame	站立架	康复医学
+tilt table	起立床	康复医学
+parallel bars	平行杠	康复医学
+sensory integration therapy	感觉统合治疗	康复医学
+music therapy	音乐疗法	康复医学
+horticultural therapy	园艺疗法	康复医学
+play therapy	游戏疗法	康复医学
+virtual reality rehabilitation	虚拟现实康复	康复医学
+robot-assisted gait training	机器人辅助步态训练	康复医学
+body weight-supported treadmill training	减重步行训练	康复医学

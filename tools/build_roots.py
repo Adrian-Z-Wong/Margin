@@ -48,7 +48,10 @@ def load_roots():
                 key = x["type"] + ":" + forms[0]
                 if key in seen:
                     # 同形不同义（如 -en「使…」和 -en「…制的」）分成两条
-                    if any(r["id"].split("~")[0] == key and r["meaning"] == x["meaning"].strip() for r in items):
+                    def core(m):
+                        return set(CJK.findall(re.sub(r"(名词|形容词|动词|副词)?(前缀|后缀)|名词|形容词|动词", "", m))) - set("的使")
+
+                    if any(r["id"].split("~")[0] == key and core(x["meaning"]) & core(r["meaning"]) for r in items):
                         print(f"{name}：重复 {key}")
                         continue
                     n = 2

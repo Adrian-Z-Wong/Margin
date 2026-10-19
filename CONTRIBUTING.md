@@ -17,7 +17,7 @@ Finance 词库的原始表格在 [`data/finance/`](data/finance/)：
 
 - 英文用美式拼写，缩写写在中文释义末尾的括号里，例如 `capital asset pricing model	资本资产定价模型（CAPM）	资产定价`。
 - 中文用国内教材最通行的译名；几个译名都常用时用全角分号「；」隔开，常用的放前面。
-- 改完运行 `python3 tools/build_finance.py` 和 `python3 tools/build.py`，再提交 Pull Request。
+- 改完运行 `python3 tools/build_terms.py` 和 `python3 tools/build.py`，再提交 Pull Request。
 
 不熟悉 Git 也没关系，直接[提一个「词条纠错」Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose) 就行。
 
@@ -33,7 +33,8 @@ CET-4、CET-6、GEE、TOEFL、IELTS、GRE、GMAT 词库来自 [ECDICT](https://g
 
 ```bash
 python3 tools/build_words.py     # 考试词库 src/words.js（自动下载 ECDICT；GMAT 词表在 data/gmat.tsv）
-python3 tools/build_finance.py   # Finance 词库 src/finance.js
+python3 tools/build_terms.py     # Finance、Medicine 词库 src/finance.js、src/medicine.js
+python3 tools/build_roots.py     # 词根和单词拆解 src/roots.js（data/roots/）
 pip install numpy scipy
 python3 tools/build_vectors.py   # 中文词向量 src/vectors.js
 python3 tools/build.py           # 打包 Margin.html

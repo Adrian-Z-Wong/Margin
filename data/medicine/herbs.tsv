@@ -1,0 +1,404 @@
+Chinese materia medica	中药学	中药学概念
+Chinese medicinal	中药	中药学概念
+four properties	四气；四性	中药学概念
+five flavors	五味	中药学概念
+cold property	寒性	中药学概念
+cool property	凉性	中药学概念
+warm property	温性	中药学概念
+hot property	热性	中药学概念
+neutral property	平性	中药学概念
+pungent flavor	辛味	中药学概念
+sweet flavor	甘味	中药学概念
+sour flavor	酸味	中药学概念
+bitter flavor	苦味	中药学概念
+salty flavor	咸味	中药学概念
+bland flavor	淡味	中药学概念
+astringent flavor	涩味	中药学概念
+ascending and descending, floating and sinking	升降浮沉	中药学概念
+meridian tropism	归经	中药学概念
+toxicity	毒性	中药学概念
+seven relations of compatibility	七情配伍	中药学概念
+mutual reinforcement	相须	中药学概念
+mutual assistance	相使	中药学概念
+mutual restraint	相畏	中药学概念
+mutual suppression	相杀	中药学概念
+mutual inhibition	相恶	中药学概念
+mutual antagonism	相反	中药学概念
+eighteen incompatibilities	十八反	中药学概念
+nineteen counteractions	十九畏	中药学概念
+contraindication during pregnancy	妊娠禁忌	中药学概念
+dietary contraindication	服药食忌	中药学概念
+genuine regional medicinal	道地药材	中药学概念
+processing of medicinals	炮制	中药学概念
+stir-frying	炒	炮制
+stir-frying with liquid adjuvant	炙	炮制
+calcining	煅	炮制
+steaming	蒸	炮制
+boiling	煮	炮制
+quenching	淬	炮制
+grinding in water	水飞	炮制
+roasting in ashes	煨	炮制
+charring	炒炭	炮制
+honey-frying	蜜炙	炮制
+wine-frying	酒炙	炮制
+vinegar-frying	醋炙	炮制
+salt-frying	盐炙	炮制
+decocting first	先煎	煎服法
+decocting later	后下	煎服法
+wrap-decocting	包煎	煎服法
+decocting separately	另煎	煎服法
+melting	烊化	煎服法
+taking drenched	冲服	煎服法
+decoction	汤剂	剂型
+pill	丸剂	剂型
+honeyed pill	蜜丸	剂型
+watered pill	水丸	剂型
+powder	散剂	剂型
+paste	膏剂	剂型
+soft extract	煎膏剂；膏滋	剂型
+plaster	膏药	剂型
+granule	颗粒剂	剂型
+medicinal wine	药酒	剂型
+tincture	酊剂	剂型
+pellet	丹剂	剂型
+syrup	糖浆剂	剂型
+formula	方剂	方剂学概念
+sovereign medicinal	君药	方剂学概念
+minister medicinal	臣药	方剂学概念
+assistant medicinal	佐药	方剂学概念
+courier medicinal	使药	方剂学概念
+modification of formula	方剂加减	方剂学概念
+classical formula	经方	方剂学概念
+Chinese patent medicine	中成药	方剂学概念
+ephedra	麻黄	解表药
+cinnamon twig	桂枝	解表药
+perilla leaf	紫苏叶	解表药
+fresh ginger	生姜	解表药
+schizonepeta	荆芥	解表药
+saposhnikovia root	防风	解表药
+notopterygium root	羌活	解表药
+angelica dahurica root	白芷	解表药
+asarum	细辛	解表药
+xanthium fruit	苍耳子	解表药
+magnolia flower	辛夷	解表药
+scallion white	葱白	解表药
+peppermint	薄荷	解表药
+burdock fruit	牛蒡子	解表药
+cicada slough	蝉蜕	解表药
+mulberry leaf	桑叶	解表药
+chrysanthemum flower	菊花	解表药
+pueraria root	葛根	解表药
+bupleurum root	柴胡	解表药
+cimicifuga rhizome	升麻	解表药
+fermented soybean	淡豆豉	解表药
+gypsum	石膏	清热药
+anemarrhena rhizome	知母	清热药
+trichosanthes root	天花粉	清热药
+gardenia fruit	栀子	清热药
+prunella spike	夏枯草	清热药
+cassia seed	决明子	清热药
+reed rhizome	芦根	清热药
+lophatherum	淡竹叶	清热药
+scutellaria root	黄芩	清热药
+coptis rhizome	黄连	清热药
+phellodendron bark	黄柏	清热药
+gentian root	龙胆	清热药
+sophora flavescens root	苦参	清热药
+honeysuckle flower	金银花；忍冬花	清热药
+forsythia fruit	连翘	清热药
+dandelion	蒲公英	清热药
+isatis root	板蓝根	清热药
+isatis leaf	大青叶	清热药
+houttuynia	鱼腥草	清热药
+belamcanda rhizome	射干	清热药
+pulsatilla root	白头翁	清热药
+patrinia	败酱草	清热药
+rehmannia root	地黄；生地黄	清热药
+scrophularia root	玄参	清热药
+moutan bark	牡丹皮	清热药
+red peony root	赤芍	清热药
+artemisia annua	青蒿	清热药
+lycium bark	地骨皮	清热药
+rhubarb	大黄	泻下药
+mirabilite	芒硝	泻下药
+senna leaf	番泻叶	泻下药
+aloe	芦荟	泻下药
+hemp seed	火麻仁	泻下药
+bush cherry seed	郁李仁	泻下药
+kansui root	甘遂	泻下药
+croton seed	巴豆	泻下药
+pubescent angelica root	独活	祛风湿药
+clematis root	威灵仙	祛风湿药
+chaenomeles fruit	木瓜	祛风湿药
+gentiana macrophylla root	秦艽	祛风湿药
+stephania root	防己	祛风湿药
+mulberry twig	桑枝	祛风湿药
+taxillus herb	桑寄生	祛风湿药
+acanthopanax bark	五加皮	祛风湿药
+patchouli	广藿香	化湿药
+eupatorium	佩兰	化湿药
+atractylodes rhizome	苍术	化湿药
+magnolia bark	厚朴	化湿药
+amomum fruit	砂仁	化湿药
+round cardamom fruit	豆蔻	化湿药
+poria	茯苓	利水渗湿药
+polyporus	猪苓	利水渗湿药
+alisma rhizome	泽泻	利水渗湿药
+coix seed	薏苡仁	利水渗湿药
+plantain seed	车前子	利水渗湿药
+talc	滑石	利水渗湿药
+akebia stem	木通	利水渗湿药
+lysimachia	金钱草	利水渗湿药
+virgate wormwood	茵陈	利水渗湿药
+aconite root	附子	温里药
+dried ginger	干姜	温里药
+cinnamon bark	肉桂	温里药
+evodia fruit	吴茱萸	温里药
+clove	丁香	温里药
+fennel fruit	小茴香	温里药
+Sichuan pepper	花椒	温里药
+tangerine peel	陈皮；橘皮	理气药
+immature bitter orange	枳实	理气药
+bitter orange	枳壳	理气药
+costus root	木香	理气药
+cyperus rhizome	香附	理气药
+lindera root	乌药	理气药
+toosendan fruit	川楝子	理气药
+chinese chive bulb	薤白	理气药
+hawthorn fruit	山楂	消食药
+medicated leaven	神曲；六神曲	消食药
+germinated barley	麦芽	消食药
+radish seed	莱菔子	消食药
+chicken gizzard lining	鸡内金	消食药
+areca seed	槟榔	驱虫药
+quisqualis fruit	使君子	驱虫药
+pumpkin seed	南瓜子	驱虫药
+field thistle	小蓟	止血药
+Japanese thistle	大蓟	止血药
+sanguisorba root	地榆	止血药
+sophora flower	槐花	止血药
+notoginseng	三七	止血药
+madder root	茜草	止血药
+cattail pollen	蒲黄	止血药
+bletilla rhizome	白及	止血药
+argy wormwood leaf	艾叶	止血药
+ligusticum rhizome	川芎	活血化瘀药
+corydalis rhizome	延胡索	活血化瘀药
+curcuma root	郁金	活血化瘀药
+turmeric	姜黄	活血化瘀药
+frankincense	乳香	活血化瘀药
+myrrh	没药	活血化瘀药
+Danshen	丹参	活血化瘀药
+safflower	红花	活血化瘀药
+peach kernel	桃仁	活血化瘀药
+motherwort	益母草	活血化瘀药
+achyranthes root	牛膝	活血化瘀药
+spatholobus stem	鸡血藤	活血化瘀药
+leech	水蛭	活血化瘀药
+sparganium rhizome	三棱	活血化瘀药
+zedoary rhizome	莪术	活血化瘀药
+pinellia rhizome	半夏	化痰止咳平喘药
+arisaema rhizome	天南星	化痰止咳平喘药
+platycodon root	桔梗	化痰止咳平喘药
+fritillaria bulb	贝母	化痰止咳平喘药
+trichosanthes fruit	瓜蒌	化痰止咳平喘药
+bamboo shavings	竹茹	化痰止咳平喘药
+apricot kernel	苦杏仁	化痰止咳平喘药
+perilla fruit	紫苏子	化痰止咳平喘药
+stemona root	百部	化痰止咳平喘药
+aster root	紫菀	化痰止咳平喘药
+coltsfoot flower	款冬花	化痰止咳平喘药
+loquat leaf	枇杷叶	化痰止咳平喘药
+mulberry bark	桑白皮	化痰止咳平喘药
+descurainia seed	葶苈子	化痰止咳平喘药
+ginkgo seed	白果	化痰止咳平喘药
+cinnabar	朱砂	安神药
+magnetite	磁石	安神药
+dragon bone	龙骨	安神药
+spiny jujube seed	酸枣仁	安神药
+biota seed	柏子仁	安神药
+polygala root	远志	安神药
+silktree bark	合欢皮	安神药
+abalone shell	石决明	平肝息风药
+oyster shell	牡蛎	平肝息风药
+antelope horn	羚羊角	平肝息风药
+uncaria	钩藤	平肝息风药
+gastrodia rhizome	天麻	平肝息风药
+earthworm	地龙	平肝息风药
+scorpion	全蝎	平肝息风药
+centipede	蜈蚣	平肝息风药
+silkworm	僵蚕	平肝息风药
+musk	麝香	开窍药
+borneol	冰片	开窍药
+storax	苏合香	开窍药
+acorus rhizome	石菖蒲	开窍药
+ginseng	人参	补虚药
+American ginseng	西洋参	补虚药
+codonopsis root	党参	补虚药
+pseudostellaria root	太子参	补虚药
+astragalus root	黄芪	补虚药
+white atractylodes rhizome	白术	补虚药
+Chinese yam	山药	补虚药
+licorice root	甘草	补虚药
+jujube	大枣	补虚药
+honey	蜂蜜	补虚药
+deer antler velvet	鹿茸	补虚药
+epimedium	淫羊藿	补虚药
+morinda root	巴戟天	补虚药
+eucommia bark	杜仲	补虚药
+dipsacus root	续断	补虚药
+cistanche	肉苁蓉	补虚药
+cordyceps	冬虫夏草	补虚药
+psoralea fruit	补骨脂	补虚药
+dodder seed	菟丝子	补虚药
+walnut kernel	核桃仁	补虚药
+Chinese angelica	当归	补虚药
+prepared rehmannia root	熟地黄	补虚药
+white peony root	白芍	补虚药
+donkey-hide gelatin	阿胶	补虚药
+fleeceflower root	何首乌	补虚药
+longan aril	龙眼肉	补虚药
+glehnia root	北沙参	补虚药
+ophiopogon root	麦冬	补虚药
+asparagus root	天冬	补虚药
+dendrobium	石斛	补虚药
+lily bulb	百合	补虚药
+polygonatum rhizome	黄精	补虚药
+goji berry	枸杞子	补虚药
+ligustrum fruit	女贞子	补虚药
+tortoise shell	龟甲	补虚药
+turtle shell	鳖甲	补虚药
+schisandra fruit	五味子	收涩药
+mume fruit	乌梅	收涩药
+chebule	诃子	收涩药
+nutmeg	肉豆蔻	收涩药
+cornus fruit	山茱萸	收涩药
+euryale seed	芡实	收涩药
+lotus seed	莲子	收涩药
+mantis egg case	桑螵蛸	收涩药
+ephedra root	麻黄根	收涩药
+dichroa root	常山	涌吐药
+melon stalk	瓜蒂	涌吐药
+realgar	雄黄	外用药
+sulfur	硫黄	外用药
+alum	白矾	外用药
+cnidium fruit	蛇床子	外用药
+toad venom	蟾酥	外用药
+calamine	炉甘石	外用药
+borax	硼砂	外用药
+Ephedra Decoction	麻黄汤	解表剂
+Cinnamon Twig Decoction	桂枝汤	解表剂
+Minor Green Dragon Decoction	小青龙汤	解表剂
+Nine-Herb Notopterygium Decoction	九味羌活汤	解表剂
+Lonicera and Forsythia Powder	银翘散	解表剂
+Mulberry Leaf and Chrysanthemum Beverage	桑菊饮	解表剂
+Ephedra, Apricot Kernel, Gypsum and Licorice Decoction	麻杏石甘汤	解表剂
+Pueraria Decoction	葛根汤	解表剂
+Ginseng Toxin-Vanquishing Powder	败毒散；人参败毒散	解表剂
+Major Purgative Decoction	大承气汤	泻下剂
+Minor Purgative Decoction	小承气汤	泻下剂
+Stomach-Regulating Purgative Decoction	调胃承气汤	泻下剂
+Hemp Seed Pill	麻子仁丸	泻下剂
+Ten Jujubes Decoction	十枣汤	泻下剂
+Minor Bupleurum Decoction	小柴胡汤	和解剂
+Major Bupleurum Decoction	大柴胡汤	和解剂
+Free Wanderer Powder	逍遥散	和解剂
+Frigid Extremities Powder	四逆散	和解剂
+Pinellia Heart-Draining Decoction	半夏泻心汤	和解剂
+Painful Diarrhea Formula	痛泻要方	和解剂
+White Tiger Decoction	白虎汤	清热剂
+Bamboo Leaf and Gypsum Decoction	竹叶石膏汤	清热剂
+Coptis Toxin-Resolving Decoction	黄连解毒汤	清热剂
+Universal Relief Decoction for Disinhibiting the Throat	普济消毒饮	清热剂
+Gentian Liver-Draining Decoction	龙胆泻肝汤	清热剂
+Pulsatilla Decoction	白头翁汤	清热剂
+Pueraria, Scutellaria and Coptis Decoction	葛根芩连汤	清热剂
+Clear-Nutrient Decoction	清营汤	清热剂
+Rhinoceros Horn and Rehmannia Decoction	犀角地黄汤	清热剂
+Sweet Wormwood and Turtle Shell Decoction	青蒿鳖甲汤	清热剂
+Jade Lady Decoction	玉女煎	清热剂
+Red-Guiding Powder	导赤散	清热剂
+Middle-Regulating Pill	理中丸	温里剂
+Frigid Extremities Decoction	四逆汤	温里剂
+Evodia Decoction	吴茱萸汤	温里剂
+Minor Center-Fortifying Decoction	小建中汤	温里剂
+Chinese Angelica Frigid Extremities Decoction	当归四逆汤	温里剂
+Four Gentlemen Decoction	四君子汤	补益剂
+Six Gentlemen Decoction	六君子汤	补益剂
+Ginseng, Poria and White Atractylodes Powder	参苓白术散	补益剂
+Center-Supplementing and Qi-Boosting Decoction	补中益气汤	补益剂
+Pulse-Engendering Powder	生脉散	补益剂
+Jade Wind-Barrier Powder	玉屏风散	补益剂
+Four Substances Decoction	四物汤	补益剂
+Chinese Angelica Blood-Supplementing Decoction	当归补血汤	补益剂
+Spleen-Restoring Decoction	归脾汤	补益剂
+Eight-Treasure Decoction	八珍汤	补益剂
+Ten Complete Great Supplementation Decoction	十全大补汤	补益剂
+Honey-Fried Licorice Decoction	炙甘草汤	补益剂
+Six-Ingredient Rehmannia Pill	六味地黄丸	补益剂
+Left-Restoring Pill	左归丸	补益剂
+Right-Restoring Pill	右归丸	补益剂
+Kidney Qi Pill	肾气丸	补益剂
+Great Yin-Supplementing Pill	大补阴丸	补益剂
+One Link Decoction	一贯煎	补益剂
+Anemarrhena, Phellodendron and Rehmannia Pill	知柏地黄丸	补益剂
+Lycium Berry, Chrysanthemum and Rehmannia Pill	杞菊地黄丸	补益剂
+Oyster Shell Powder	牡蛎散	固涩剂
+True Man Viscera-Nourishing Decoction	真人养脏汤	固涩剂
+Four Spirits Pill	四神丸	固涩剂
+Golden Lock Essence-Securing Pill	金锁固精丸	固涩剂
+Heavenly Emperor Heart-Supplementing Elixir	天王补心丹	安神剂
+Sour Jujube Decoction	酸枣仁汤	安神剂
+Cinnabar Spirit-Calming Pill	朱砂安神丸	安神剂
+Peaceful Palace Bovine Bezoar Pill	安宫牛黄丸	开窍剂
+Purple Snow Elixir	紫雪；紫雪丹	开窍剂
+Supreme Jewel Elixir	至宝丹	开窍剂
+Storax Pill	苏合香丸	开窍剂
+Bupleurum Liver-Soothing Powder	柴胡疏肝散	理气剂
+Pinellia and Magnolia Bark Decoction	半夏厚朴汤	理气剂
+Trichosanthes, Chinese Chive and White Wine Decoction	瓜蒌薤白白酒汤	理气剂
+Perilla Fruit Qi-Descending Decoction	苏子降气汤	理气剂
+Inula and Hematite Decoction	旋覆代赭汤	理气剂
+Peach Kernel Qi-Guiding Decoction	桃核承气汤	理血剂
+Blood Mansion Stasis-Expelling Decoction	血府逐瘀汤	理血剂
+Yang-Supplementing and Five-Returning Decoction	补阳还五汤	理血剂
+Generation and Transformation Decoction	生化汤	理血剂
+Cinnamon Twig and Poria Pill	桂枝茯苓丸	理血剂
+Sudden Smile Powder	失笑散	理血剂
+Ten Charred Substances Powder	十灰散	理血剂
+Small Thistle Drink	小蓟饮子	理血剂
+Ligusticum Chuanxiong Powder Taken with Green Tea	川芎茶调散	治风剂
+Gastrodia and Uncaria Beverage	天麻钩藤饮	治风剂
+Liver-Sedating and Wind-Extinguishing Decoction	镇肝熄风汤	治风剂
+Antelope Horn and Uncaria Decoction	羚角钩藤汤	治风剂
+Mulberry Leaf and Apricot Kernel Decoction	桑杏汤	治燥剂
+Dryness-Clearing Lung-Rescuing Decoction	清燥救肺汤	治燥剂
+Ophiopogon Decoction	麦门冬汤	治燥剂
+Lily Bulb Metal-Securing Decoction	百合固金汤	治燥剂
+Stomach-Calming Powder	平胃散	祛湿剂
+Agastache Qi-Righting Powder	藿香正气散	祛湿剂
+Virgate Wormwood Decoction	茵陈蒿汤	祛湿剂
+Eight Corrections Powder	八正散	祛湿剂
+Three Kernels Decoction	三仁汤	祛湿剂
+Five-Ingredient Poria Powder	五苓散	祛湿剂
+True Warrior Decoction	真武汤	祛湿剂
+Poria, Cinnamon Twig, White Atractylodes and Licorice Decoction	苓桂术甘汤	祛湿剂
+Pubescent Angelica and Taxillus Decoction	独活寄生汤	祛湿剂
+Two Matured Substances Decoction	二陈汤	祛痰剂
+Gallbladder-Warming Decoction	温胆汤	祛痰剂
+Pinellia, White Atractylodes and Gastrodia Decoction	半夏白术天麻汤	祛痰剂
+Phlegm-Clearing Pill	清气化痰丸	祛痰剂
+Harmony-Preserving Pill	保和丸	消食剂
+Bitter Orange Stagnation-Moving Pill	枳实导滞丸	消食剂
+Mume Pill	乌梅丸	驱虫剂
+Melon Stalk Powder	瓜蒂散	涌吐剂
+Liuwei Dihuang Wan	六味地黄丸	中成药
+Niuhuang Jiedu Pian	牛黄解毒片	中成药
+Lianhua Qingwen	连花清瘟	中成药
+Banlangen Granule	板蓝根颗粒	中成药
+Fufang Danshen Diwan	复方丹参滴丸	中成药
+Yunnan Baiyao	云南白药	中成药
+Huoxiang Zhengqi Shui	藿香正气水	中成药
+Suxiao Jiuxin Wan	速效救心丸	中成药
+Angong Niuhuang Wan	安宫牛黄丸	中成药
+Wuji Baifeng Wan	乌鸡白凤丸	中成药

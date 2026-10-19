@@ -19,7 +19,8 @@
 - 选好词库和每天背多少新词，首页显示今日进度
 - 每组三步：看英文写中文 → 看中文拼英文 → 听发音拼英文
 - 每日复习：昨天的新词和错题本
-- 词库：Finance、四级、六级、考研、托福、雅思、GRE、GMAT
+- 词根：按词库学词根词缀，每组三步：看词根选意思 → 看意思选词根 → 在单词里填词根；背单词时显示单词拆解
+- 词库：Finance、Medicine、CET-4、CET-6、GEE、TOEFL、IELTS、GRE、GMAT
 - 导入自己的词表
 - 错题本答对自动移出，已掌握的词不再出现
 - 美式 / 英式发音
@@ -44,15 +45,18 @@
 | 词库 | 词数 |
 | --- | --- |
 | Finance | 14,997 |
-| 四级 | 5,331 |
-| 六级 | 7,086 |
-| 考研 | 6,511 |
-| 托福 | 6,974 |
-| 雅思 | 5,040 |
-| GRE | 7,504 |
-| GMAT | 2,931 |
+| Medicine | 24,293 |
+| CET-4 | 5,331 |
+| CET-6 | 7,086 |
+| GEE | 6,511 |
+| TOEFL | 6,974 |
+| IELTS | 5,040 |
+| GRE | 8,806 |
+| GMAT | 4,137 |
 
-Finance 收录经济、金融、会计、管理、公司治理、财务管理、资本市场、货币政策等专业词汇。四级包含高考词汇，六级和考研包含四级词汇。Finance 的原始表格在 [`data/finance/`](data/finance/)，可以直接用 Excel 打开。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
+Finance 收录经济、金融、会计、管理、公司治理、财务管理、资本市场、货币政策等专业词汇。Medicine 收录解剖、基础医学、内外妇儿各科疾病、临床检查、药理、公共卫生，以及中医理论、经络穴位、中药方剂。CET-4 包含高考词汇，CET-6 和 GEE（考研）包含 CET-4 词汇。原始表格在 [`data/finance/`](data/finance/) 和 [`data/medicine/`](data/medicine/)，可以直接用 Excel 打开。
+
+词根板块收录 690 个前缀、词根、后缀（含医学常用构词成分），以及 1.1 万多个单词的拆解，数据在 [`data/roots/`](data/roots/)。发现不准的地方，欢迎[提 Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose)。
 
 ## 开发
 
