@@ -82,7 +82,6 @@
     voice: 'auto',
     letterHint: true,
     copyWrong: true,
-    senses: 3,
     weight: 'normal',
     theme: 'auto',
   };
@@ -221,44 +220,61 @@
     return groups;
   }
 
-  // 挑出最多 max 个词语：每个词性轮流取第一个、第二个……，这样不会只显示一种词性
-  function topSenses(m, max) {
-    const groups = senseGroups(m);
-    const picked = [];
-    const seen = new Set();
-    for (let round = 0; picked.length < max; round++) {
-      let any = false;
-      for (let g = 0; g < groups.length && picked.length < max; g++) {
-        const t = groups[g].terms[round];
-        if (t === undefined) continue;
-        any = true;
-        if (seen.has(t)) continue;
-        seen.add(t);
-        picked.push({ g, round, pos: groups[g].pos, t });
+  // 「意思层」：一层意思显示一行，意思相近的词在同一行。
+  // 考试词库的释义已经分好层（tools/build_layers.py）：同一词性里「；」隔开不同的意思层，「，」隔开同一层里的词。
+  // 不带词性的释义（Finance 词库、自己导入的）里用「；」隔开的是同一个意思的几种译法，算一层。
+  const layerCache = new Map();
+
+  function layersOf(m) {
+    m = String(m || '');
+    if (layerCache.has(m)) return layerCache.get(m);
+    const lines = meaningLines(m);
+    const layers = [];
+    if (!lines.some((ln) => splitPos(ln.trim())[0])) {
+      const terms = [...new Set(lines.flatMap((ln) => splitTerms(ln)))];
+      if (terms.length) layers.push({ pos: '', terms });
+    } else {
+      const seen = new Set();
+      for (const ln of lines) {
+        for (const part of ln.split(POS_SPLIT_RE)) {
+          const [pos, text] = splitPos(part.trim());
+          for (const chunk of text.split(/[；;]/)) {
+            const terms = chunk
+              .split(/[，,、]/)
+              .map((t) => t.trim())
+              .filter((t) => {
+                const k = zhTerms(t).join('');
+                if (!k || seen.has(k)) return false; // 别的词性里出现过的同一个词，算同一层
+                seen.add(k);
+                return true;
+              });
+            if (terms.length) layers.push({ pos, terms });
+          }
+        }
       }
-      if (!any) break;
     }
-    // 显示时同一词性的排在一起
-    return picked.sort((a, b) => a.g - b.g || a.round - b.round);
+    layerCache.set(m, layers);
+    return layers;
   }
 
   function shortMeaning(m) {
-    const top = topSenses(m, 1)[0];
-    return top ? top.t : '';
+    const first = layersOf(m)[0];
+    return first ? first.terms[0] : '';
   }
 
-  // 中文意思竖着排，一行一个词语，前面编号：1. 2. 3.
+  // 中文意思竖着排：一层意思一行，前面编号 1. 2. 3.，意思相近的词放在同一行
   function meaningHtml(m, mask) {
-    const list = topSenses(m, state.settings.senses || 3);
-    if (!list.length) return '';
-    let lastG = -1;
+    const layers = layersOf(m);
+    if (!layers.length) return '';
+    let lastPos = null;
     return (
       '<div class="senses">' +
-      list
-        .map((x, i) => {
-          const pos = x.g !== lastG ? x.pos : '';
-          lastG = x.g;
-          return '<span class="no">' + (i + 1) + '.</span><span class="pos">' + esc(pos) + '</span><span class="t">' + esc(mask ? maskWord(x.t, mask) : x.t) + '</span>';
+      layers
+        .map((L, i) => {
+          const pos = L.pos !== lastPos ? L.pos : '';
+          lastPos = L.pos;
+          const text = L.terms.join('；');
+          return '<span class="no">' + (i + 1) + '.</span><span class="pos">' + esc(pos) + '</span><span class="t">' + esc(mask ? maskWord(text, mask) : text) + '</span>';
         })
         .join('') +
       '</div>'
@@ -683,24 +699,36 @@
     return mode === 'en2zh' ? zhMatch(answer, entry.m) : enMatch(answer, entry.w);
   }
 
-  // 英→中 要写几行：和显示的中文意思个数一样
+  // 英→中 要写几行：这个词有几层意思就写几行
   function zhLineCount(entry) {
-    return Math.max(1, topSenses(entry.m, state.settings.senses || 3).length);
+    return Math.max(1, layersOf(entry.m).length);
   }
 
-  // 英→中 多行判分：每一行都要写，每一行都要对，而且不能重复，才算对
+  // 英→中 多行判分：每一行要对上一层不同的意思，每一层都写到了才算对
   function judgeZhLines(lines, entry) {
-    // 除了显示出来的几个意思，词典里其他的意思写对了也算
-    const full = entry.m + (entry.x ? '|' + entry.x : '');
-    const seen = new Set();
-    const marks = lines.map((t) => {
-      const k = t.trim();
-      if (!k) return null;
-      const ok = !seen.has(k) && zhMatch(k, full);
-      seen.add(k);
-      return ok;
+    const layers = layersOf(entry.m);
+    const texts = lines.map((t) => t.trim());
+    // 每一行能对上哪几层
+    const can = texts.map((t) => (t ? layers.map((L, j) => (zhMatch(t, L.terms.join('；')) ? j : -1)).filter((j) => j >= 0) : []));
+    // 二分图匹配：一行只能占一层，两行不能都算同一层
+    const owner = new Array(layers.length).fill(-1);
+    const assign = (i, used) => {
+      for (const j of can[i]) {
+        if (used[j]) continue;
+        used[j] = true;
+        if (owner[j] < 0 || assign(owner[j], used)) {
+          owner[j] = i;
+          return true;
+        }
+      }
+      return false;
+    };
+    texts.forEach((t, i) => {
+      if (t) assign(i, []);
     });
-    return { ok: marks.every((m) => m === true), marks };
+    const matched = new Set(owner.filter((i) => i >= 0));
+    const marks = texts.map((t, i) => (t ? matched.has(i) : null));
+    return { ok: texts.length === layers.length && marks.every((x) => x === true), marks };
   }
 
   // ================= 发音 =================
@@ -1281,6 +1309,17 @@
     return '<div class="slots" aria-label="' + letters + ' 个字母">' + s + '<span class="n">' + letters + '</span></div>';
   }
 
+  // 英→中 的记录：左边是你写的每一行（对的打勾，错的划掉），右边是每一层正确意思
+  function zhDetailHtml(r) {
+    const layers = layersOf(r.entry.m);
+    const yours = (r.lines || []).map((t, i) => {
+      const ok = r.marks && r.marks[i] === true;
+      return '<div class="y ' + (ok ? 'ok' : 'bad') + '"><span class="mk">' + (ok ? ICON_OK : ICON_BAD) + '</span>' + (t.trim() ? esc(t.trim()) : '<span class="none">没写</span>') + '</div>';
+    });
+    const right = layers.map((L, i) => '<div class="r"><span class="no">' + (i + 1) + '.</span>' + esc(L.terms.join('；')) + '</div>');
+    return '<div class="h-detail">' + (r.ok ? '' : '<div class="h-yours">' + yours.join('') + '</div>') + '<div class="h-right">' + right.join('') + '</div></div>';
+  }
+
   function historyHtml(ss) {
     return ss.results
       .map((r, i) => {
@@ -1292,7 +1331,9 @@
           '<span class="h-mark" aria-label="' + (r.ok ? '答对' : '答错') + '">' + (r.ok ? ICON_OK : ICON_BAD) + '</span>' +
           // 「中 → 英」这一步不出声，答过的词也不能点读
           (ss.mode === 'zh2en' ? '<span class="h-word">' + esc(r.entry.w) + '</span>' : '<button class="h-word" data-act="speakWord" data-w="' + esc(r.entry.w) + '" title="朗读">' + esc(r.entry.w) + '</button>') +
-          '<span class="h-mean" title="' + esc(meaningLines(r.entry.m).join('\n')) + '">' + yours + esc(shortMeaning(r.entry.m)) + '</span>' +
+          (ss.mode === 'en2zh' && r.lines
+            ? zhDetailHtml(r)
+            : '<span class="h-mean" title="' + esc(meaningLines(r.entry.m).join('\n')) + '">' + yours + esc(shortMeaning(r.entry.m)) + '</span>') +
           '</div>'
         );
       })
@@ -1369,7 +1410,7 @@
     else if (ss.mode === 'en2zh') {
       // 英→中：一行写一个中文意思
       const n = pend && pend.lines ? pend.lines.length : zhLineCount(e);
-      inputs = '<div class="zh-lines">';
+      inputs = '<div class="zh-lines' + (n > 4 ? ' many' : '') + '">';
       for (let i = 0; i < n; i++) {
         const mk = pend && pend.marks ? pend.marks[i] : undefined;
         const cls = mk === true ? ' ok' : mk === false ? ' bad' : '';
@@ -1661,8 +1702,6 @@
       '<div class="set-row"><div><div class="t">读音</div></div><div class="d" style="margin-top:0">「英 → 中」和「听 → 写」出词时自动朗读，按 Tab 再听一遍；「中 → 英」不出声。</div></div>' +
       '<div class="set-row"><div><div class="t">每组几个词</div></div><div>' + chipsHtml('size', [[5, '5'], [10, '10'], [15, '15'], [20, '20']]) +
       '<div class="d">背新词和复习都按组来，每组依次过三步。</div></div></div>' +
-      '<div class="set-row"><div><div class="t">中文意思显示几个</div></div><div>' + chipsHtml('senses', [[1, '1 个'], [2, '2 个'], [3, '3 个'], [5, '5 个']]) +
-      '<div class="d">中文意思竖着排，一行一个，前面编号。「英 → 中」显示几个意思，就要写几个意思。</div></div></div>' +
       '<div class="set-row"><div><div class="t">拼错后照打一遍</div></div><div>' + chipsHtml('copyWrong', [[true, '开'], [false, '关']]) +
       '<div class="d">拼写题答错后，照着正确拼写再打一遍，免得记住错的拼法。直接按 Enter 可以跳过。</div></div></div>' +
       '<div class="set-row"><div><div class="t">字母个数提示</div></div><div>' + chipsHtml('letterHint', [[true, '显示'], [false, '不显示']]) +
@@ -2003,7 +2042,7 @@
   });
 
   // 给自动化测试用的入口（只有测试脚本会设置 __MARGIN_TEST）
-  if (window.__MARGIN_TEST) window.__margin = { zhMatch, similarity, judgeZhLines };
+  if (window.__MARGIN_TEST) window.__margin = { zhMatch, similarity, judgeZhLines, meaningHtml, layersOf };
 
   applyTheme();
   render();

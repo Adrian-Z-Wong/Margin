@@ -21,6 +21,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools", ".cache", "ecdict.csv")
 OUT = os.path.join(ROOT, "src", "words.js")
 GMAT = os.path.join(ROOT, "data", "gmat.tsv")
+LAYERS = os.path.join(ROOT, "data", "layers.tsv")
 URL = "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv"
 
 # 顺序决定位掩码，app.js 里的 EXAM_BOOKS 必须保持一致；gmat 来自 data/gmat.tsv
@@ -65,6 +66,33 @@ def extra_translation(t, shown):
     return "|".join(rest)
 
 
+def term_set(meaning):
+    """释义里的中文词语集合（去掉词性、标点、重复），用来确认分层前后意思没变。"""
+    out = set()
+    for line in meaning.split("|"):
+        line = re.sub(r"^((?:[a-z]+\.\s*(?:&\s*)?)+)", "", line.strip())
+        for t in re.split(r"[,，;；、]", line):
+            t = re.sub(r"[（(\[【][^）)\]】]*[）)\]】]", "", t)
+            t = re.sub(r"[^\u3400-\u9fffA-Za-z0-9]", "", t)
+            if len(t) > 1:
+                t = re.sub(r"^[的地得之]", "", re.sub(r"[的地得]$", "", t))
+            if t:
+                out.add(t)
+    return out
+
+
+def load_layers():
+    """data/layers.tsv：每个词分好「意思层」的释义（见 tools/build_layers.py）。"""
+    layers = {}
+    if os.path.exists(LAYERS):
+        with open(LAYERS, encoding="utf-8") as f:
+            for line in f:
+                cols = line.rstrip("\n").split("\t")
+                if len(cols) == 2:
+                    layers[cols[0]] = cols[1]
+    return layers
+
+
 def main():
     src = sys.argv[1] if len(sys.argv) > 1 else CACHE
     if not os.path.exists(src):
@@ -81,6 +109,8 @@ def main():
                 if cols and cols[0] and not cols[0].startswith("#"):
                     gmat[cols[0].lower()] = (cols[0], cols[1] if len(cols) > 1 else "")
     gmat_bit = 1 << TAGS.index("gmat")
+    layers = load_layers()
+    layered = 0
 
     entries = []
     found = set()
@@ -105,6 +135,10 @@ def main():
             if not meaning:
                 continue
             extra = extra_translation(row["translation"], meaning)
+            # 用分好层的释义来显示；词语和原释义对不上时（比如词典更新了）就不用
+            if word in layers and term_set(layers[word]) == term_set(meaning):
+                meaning = layers[word]
+                layered += 1
             if mask & gmat_bit and gmat[key][1]:
                 # GMAT 表里写的语境释义，判分时也算对
                 extra = "|".join(x for x in (extra, gmat[key][1]) if x)
@@ -127,7 +161,7 @@ def main():
         f.write("window.MARGIN_DICT = " + json.dumps(data, ensure_ascii=False) + ";\n")
 
     counts = {tag: sum(1 for e in entries if e[4] & (1 << i)) for i, tag in enumerate(TAGS)}
-    print(f"共 {len(entries)} 个词，写入 {OUT}（{os.path.getsize(OUT) // 1024} KB）")
+    print(f"共 {len(entries)} 个词（{layered} 个用了分好层的释义），写入 {OUT}（{os.path.getsize(OUT) // 1024} KB）")
     print(counts)
 
 
