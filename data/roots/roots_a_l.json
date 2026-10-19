@@ -84,7 +84,8 @@
     "forms": [
       "act",
       "ag",
-      "ig"
+      "ig",
+      "agit"
     ],
     "meaning": "做，行动；驱使",
     "origin": "拉丁语 agere「做，驱动」（过去分词 actum）",
@@ -385,7 +386,9 @@
     "forms": [
       "alter",
       "ali",
-      "alien"
+      "alien",
+      "ulter",
+      "altru"
     ],
     "meaning": "其他，另一个",
     "origin": "拉丁语 alter「（两者中的）另一个」、alius「其他的」",
@@ -1034,7 +1037,8 @@
   {
     "type": "root",
     "forms": [
-      "art"
+      "art",
+      "ert"
     ],
     "meaning": "技艺，技术",
     "origin": "拉丁语 ars（属格 artis）「技艺」",
@@ -1840,9 +1844,11 @@
       "capt",
       "cept",
       "ceive",
-      "cip"
+      "cip",
+      "cup",
+      "ceit"
     ],
-    "meaning": "拿，抓，取",
+    "meaning": "拿，抓，取；容纳",
     "origin": "拉丁语 capere「拿，抓」",
     "note": "",
     "examples": [
@@ -2286,7 +2292,8 @@
     "forms": [
       "cern",
       "cert",
-      "cret"
+      "cret",
+      "crimin"
     ],
     "meaning": "区分，筛选；确定",
     "origin": "拉丁语 cernere「筛，区分」（过去分词 cretum）、certus「确定的」",
@@ -2564,7 +2571,7 @@
     "forms": [
       "civ"
     ],
-    "meaning": "公民；城邦",
+    "meaning": "公民；城邦；文明",
     "origin": "拉丁语 civis「公民」、civitas「城邦」",
     "note": "",
     "examples": [
@@ -2645,7 +2652,8 @@
   {
     "type": "root",
     "forms": [
-      "clar"
+      "clar",
+      "clair"
     ],
     "meaning": "清楚，明亮",
     "origin": "拉丁语 clarus「清楚的，明亮的」",
@@ -3473,7 +3481,7 @@
       "cur",
       "cure"
     ],
-    "meaning": "关心，照料",
+    "meaning": "关心，照料，忧虑；治疗",
     "origin": "拉丁语 cura「关心，照料」",
     "note": "",
     "examples": [
@@ -3626,7 +3634,7 @@
       "deb",
       "du"
     ],
-    "meaning": "欠",
+    "meaning": "欠；应当",
     "origin": "拉丁语 debere「欠」",
     "note": "debt 中的 b 不发音，是照拉丁语 debitum 补回去的",
     "examples": [
@@ -3848,7 +3856,7 @@
       "dict",
       "dic"
     ],
-    "meaning": "说，言",
+    "meaning": "说，言；宣称",
     "origin": "拉丁语 dicere「说」（过去分词 dictum）",
     "note": "",
     "examples": [
@@ -3939,7 +3947,8 @@
     "type": "root",
     "forms": [
       "divid",
-      "divis"
+      "divis",
+      "vis"
     ],
     "meaning": "分",
     "origin": "拉丁语 dividere「分开」（过去分词 divisum）",
@@ -4630,7 +4639,7 @@
       "erg",
       "urg"
     ],
-    "meaning": "工作；能",
+    "meaning": "工作，功；能",
     "origin": "希腊语 ergon「工作」",
     "note": "",
     "examples": [
@@ -4671,7 +4680,7 @@
     "forms": [
       "err"
     ],
-    "meaning": "漫游；错误",
+    "meaning": "漫游，偏离；错误",
     "origin": "拉丁语 errare「漫游，犯错」",
     "note": "",
     "examples": [
@@ -4830,9 +4839,10 @@
       "fam",
       "fab",
       "fat",
-      "fant"
+      "fant",
+      "fan"
     ],
-    "meaning": "说",
+    "meaning": "说；命运",
     "origin": "拉丁语 fari「说」、fama「传闻，名声」",
     "note": "infant 原意是「还不会说话的」",
     "examples": [
@@ -4884,7 +4894,11 @@
       "fac",
       "fact",
       "fect",
-      "fic"
+      "fic",
+      "fit",
+      "feit",
+      "feas",
+      "feat"
     ],
     "meaning": "做，制作",
     "origin": "拉丁语 facere「做」（过去分词 factum）",
@@ -4939,7 +4953,7 @@
       "fals",
       "faul"
     ],
-    "meaning": "欺骗；错误",
+    "meaning": "欺骗；错误，虚假",
     "origin": "拉丁语 fallere「欺骗，使失误」（过去分词 falsum）",
     "note": "",
     "examples": [
@@ -5135,7 +5149,7 @@
     "forms": [
       "ferv"
     ],
-    "meaning": "沸腾",
+    "meaning": "沸腾；热",
     "origin": "拉丁语 fervere「沸腾」",
     "note": "",
     "examples": [
@@ -5206,9 +5220,10 @@
     "type": "root",
     "forms": [
       "fict",
-      "fig"
+      "fig",
+      "figur"
     ],
-    "meaning": "塑造；虚构",
+    "meaning": "塑造，形状；虚构",
     "origin": "拉丁语 fingere「塑造，虚构」（过去分词 fictum）",
     "note": "",
     "examples": [
@@ -5242,7 +5257,8 @@
   {
     "type": "root",
     "forms": [
-      "fid"
+      "fid",
+      "fi"
     ],
     "meaning": "信任",
     "origin": "拉丁语 fides「信任」、fidere「信任」",
@@ -6080,9 +6096,10 @@
     "type": "root",
     "forms": [
       "gen",
-      "gener"
+      "gener",
+      "gn"
     ],
-    "meaning": "产生；种族；出身",
+    "meaning": "产生；种族，家系；出身",
     "origin": "拉丁语 genus「种类，出身」、gignere「生」（希腊语 genos「种族」）",
     "note": "",
     "examples": [
@@ -6131,9 +6148,10 @@
   {
     "type": "root",
     "forms": [
-      "geo"
+      "geo",
+      "gee"
     ],
-    "meaning": "地，土地",
+    "meaning": "地，土地，地球",
     "origin": "希腊语 ge「大地」",
     "note": "",
     "examples": [
@@ -6211,7 +6229,9 @@
     "forms": [
       "gnos",
       "gno",
-      "gnor"
+      "gnor",
+      "gnit",
+      "gniz"
     ],
     "meaning": "知道",
     "origin": "希腊语 gnosis「知识」；拉丁语 (g)noscere「知道」",
@@ -6290,7 +6310,8 @@
     "forms": [
       "grad",
       "gress",
-      "gredi"
+      "gredi",
+      "gree"
     ],
     "meaning": "步，走；等级",
     "origin": "拉丁语 gradus「步，等级」、gradi「行走」（过去分词 gressus）",
@@ -6374,7 +6395,7 @@
     "forms": [
       "grand"
     ],
-    "meaning": "大",
+    "meaning": "大；（亲属称谓）祖辈，孙辈",
     "origin": "拉丁语 grandis「大的」",
     "note": "",
     "examples": [
@@ -6455,9 +6476,10 @@
   {
     "type": "root",
     "forms": [
-      "grat"
+      "grat",
+      "gree"
     ],
-    "meaning": "感激；愉悦；恩惠",
+    "meaning": "感激；愉悦，满意；恩惠",
     "origin": "拉丁语 gratus「感激的，令人愉快的」、gratia「恩惠」",
     "note": "",
     "examples": [
@@ -6610,7 +6632,7 @@
       "habit",
       "hibit"
     ],
-    "meaning": "拥有，持有；居住",
+    "meaning": "拥有，持有，拿；居住；习惯",
     "origin": "拉丁语 habere「拥有」、habitare「居住」",
     "note": "",
     "examples": [
@@ -6695,7 +6717,7 @@
       "her",
       "hes"
     ],
-    "meaning": "黏附",
+    "meaning": "黏附，粘着",
     "origin": "拉丁语 haerere「黏着」（过去分词 haesum）",
     "note": "",
     "examples": [
@@ -6894,7 +6916,7 @@
     "forms": [
       "hum"
     ],
-    "meaning": "泥土，地；人",
+    "meaning": "泥土，地；人；低",
     "origin": "拉丁语 humus「泥土」、humanus「人的」",
     "note": "",
     "examples": [
@@ -7163,7 +7185,8 @@
   {
     "type": "root",
     "forms": [
-      "it"
+      "it",
+      "iti"
     ],
     "meaning": "走",
     "origin": "拉丁语 ire「走」（过去分词 itum）",
@@ -7636,7 +7659,7 @@
     "forms": [
       "lat"
     ],
-    "meaning": "带来，拿",
+    "meaning": "带来，拿；提出",
     "origin": "拉丁语 latus（ferre「带」的过去分词）",
     "note": "lat 可以看作 fer 的过去分词形式",
     "examples": [
@@ -7924,7 +7947,7 @@
     "forms": [
       "leg"
     ],
-    "meaning": "派遣；委托",
+    "meaning": "派遣；委托，遗赠",
     "origin": "拉丁语 legare「派遣，委托」",
     "note": "",
     "examples": [
@@ -7953,7 +7976,9 @@
   {
     "type": "root",
     "forms": [
-      "lev"
+      "lev",
+      "liev",
+      "lief"
     ],
     "meaning": "轻；举起",
     "origin": "拉丁语 levis「轻的」、levare「举起」",
@@ -8072,9 +8097,10 @@
   {
     "type": "root",
     "forms": [
-      "libr"
+      "libr",
+      "liber"
     ],
-    "meaning": "天平；平衡",
+    "meaning": "天平；平衡，权衡",
     "origin": "拉丁语 libra「天平，磅」",
     "note": "「磅」的缩写 lb 就来自 libra",
     "examples": [
@@ -8138,7 +8164,7 @@
       "li",
       "ly"
     ],
-    "meaning": "绑，系",
+    "meaning": "绑，系；约束",
     "origin": "拉丁语 ligare「捆绑」",
     "note": "",
     "examples": [
@@ -8398,7 +8424,7 @@
     "forms": [
       "loc"
     ],
-    "meaning": "地方",
+    "meaning": "地方，位置",
     "origin": "拉丁语 locus「地方」",
     "note": "",
     "examples": [
@@ -8438,9 +8464,10 @@
     "type": "root",
     "forms": [
       "log",
-      "logue"
+      "logue",
+      "lect"
     ],
-    "meaning": "言，说；道理",
+    "meaning": "言，说；道理，比例；学科",
     "origin": "希腊语 logos「话语，理性」",
     "note": "",
     "examples": [

@@ -429,7 +429,8 @@
 {
 "type": "root",
 "forms": [
-"neur"
+"neur",
+"nerv"
 ],
 "meaning": "神经",
 "origin": "希腊语 neuron「神经」",
@@ -1490,7 +1491,7 @@
 "ped",
 "paed"
 ],
-"meaning": "儿童",
+"meaning": "儿童；教育",
 "origin": "希腊语 pais, paidos「儿童」",
 "note": "医学常用",
 "examples": [

@@ -4,7 +4,7 @@
   "forms": [
    "un"
   ],
-  "meaning": "不，非，无",
+  "meaning": "不，非，无，未",
   "origin": "古英语 un-",
   "note": "加在形容词、名词前表示否定，是英语中最能产的否定前缀",
   "examples": [
@@ -103,9 +103,10 @@
    "in",
    "im",
    "il",
-   "ir"
+   "ir",
+   "ig"
   ],
-  "meaning": "不，无，非",
+  "meaning": "不，无，非，未",
   "origin": "拉丁语 in-",
   "note": "在 l 前变 il，在 r 前变 ir，在 b、m、p 前变 im",
   "examples": [
@@ -158,7 +159,7 @@
    "dif",
    "di"
   ],
-  "meaning": "不，相反；分开，去掉",
+  "meaning": "不，相反；分开，去掉；加强",
   "origin": "拉丁语 dis-",
   "note": "在 f 前变 dif，在部分辅音前变 di",
   "examples": [
@@ -352,7 +353,8 @@
   "forms": [
    "ex",
    "e",
-   "ef"
+   "ef",
+   "es"
   ],
   "meaning": "出，向外；前任的",
   "origin": "拉丁语 ex-",
@@ -409,7 +411,8 @@
    "sug",
    "sup",
    "sus",
-   "sum"
+   "sum",
+   "su"
   ],
   "meaning": "在下，下面；次，副，亚",
   "origin": "拉丁语 sub-",
@@ -518,7 +521,7 @@
    "in",
    "im"
   ],
-  "meaning": "向内，进入；在内；使",
+  "meaning": "向内，进入；在内，在上；使；加强",
   "origin": "拉丁语 in-",
   "note": "在 b、m、p 前变 im；与表否定的 in- 是两个不同的前缀，如 inflammable（易燃的）中的 in 并非否定",
   "examples": [
@@ -621,7 +624,8 @@
   "forms": [
    "inter",
    "enter",
-   "intel"
+   "intel",
+   "entre"
   ],
   "meaning": "在…之间，相互",
   "origin": "拉丁语 inter-",
@@ -827,7 +831,7 @@
   "forms": [
    "un"
   ],
-  "meaning": "相反动作，取消，去掉",
+  "meaning": "相反动作，取消，去掉；解开",
   "origin": "古英语 un-（源自 on-/and-）",
   "note": "加在动词前表示相反的动作，与表否定的 un- 来源不同",
   "examples": [
@@ -930,7 +934,8 @@
   "forms": [
    "trans",
    "tra",
-   "tres"
+   "tres",
+   "tran"
   ],
   "meaning": "横过，穿过；转移，变换",
   "origin": "拉丁语 trans-",
@@ -981,7 +986,8 @@
  {
   "type": "prefix",
   "forms": [
-   "pro"
+   "pro",
+   "por"
   ],
   "meaning": "向前，在前；赞成，支持；代替",
   "origin": "拉丁语 pro-",
@@ -1534,7 +1540,8 @@
  {
   "type": "prefix",
   "forms": [
-   "auto"
+   "auto",
+   "aut"
   ],
   "meaning": "自己，自身；自动",
   "origin": "希腊语 autos",
@@ -1713,7 +1720,8 @@
    "ob",
    "oc",
    "of",
-   "op"
+   "op",
+   "os"
   ],
   "meaning": "反对，逆；对着；加强",
   "origin": "拉丁语 ob-",
@@ -1759,7 +1767,8 @@
  {
   "type": "prefix",
   "forms": [
-   "per"
+   "per",
+   "par"
   ],
   "meaning": "贯穿，自始至终；完全，彻底",
   "origin": "拉丁语 per",
@@ -2296,7 +2305,8 @@
  {
   "type": "prefix",
   "forms": [
-   "para"
+   "para",
+   "par"
   ],
   "meaning": "在旁边，类似；辅助；违反",
   "origin": "希腊语 para",
@@ -2546,7 +2556,8 @@
   "type": "prefix",
   "forms": [
    "ambi",
-   "amb"
+   "amb",
+   "am"
   ],
   "meaning": "两，双；周围",
   "origin": "拉丁语 ambi-",
@@ -2620,7 +2631,7 @@
   "forms": [
    "a"
   ],
-  "meaning": "在…，处于…状态；向",
+  "meaning": "在…，处于…状态；向，到",
   "origin": "古英语 on- → a-",
   "note": "多构成表状态的形容词或副词，一般只作表语；与希腊语来源表否定的 a- 不同",
   "examples": [
@@ -4644,9 +4655,10 @@
  {
   "type": "suffix",
   "forms": [
-   "er"
+   "er",
+   "r"
   ],
-  "meaning": "…的人；…的物（工具）；…地方的人",
+  "meaning": "…的人，…者；…的物（工具）；…地方的人",
   "origin": "古英语 -ere",
   "note": "加在动词后表示动作执行者，也可加在地名后表示「…地方的人」，如 Londoner",
   "examples": [
@@ -4695,9 +4707,10 @@
  {
   "type": "suffix",
   "forms": [
-   "or"
+   "or",
+   "eur"
   ],
-  "meaning": "…的人；…的物",
+  "meaning": "…的人，…者；…的物，…器",
   "origin": "拉丁语 -or",
   "note": "多加在拉丁来源的动词后，尤其是以 -ate、-ct、-it 结尾的动词",
   "examples": [
@@ -4851,7 +4864,8 @@
   "forms": [
    "able",
    "ible",
-   "ble"
+   "ble",
+   "abil"
   ],
   "meaning": "形容词后缀：可…的，能…的；具有…性质的",
   "origin": "拉丁语 -abilis/-ibilis",
@@ -5099,7 +5113,8 @@
   "type": "suffix",
   "forms": [
    "ize",
-   "ise"
+   "ise",
+   "iz"
   ],
   "meaning": "动词后缀：使…化，使成为；按…方式行事",
   "origin": "希腊语 -izein（经拉丁语、法语）",
@@ -5151,7 +5166,9 @@
   "type": "suffix",
   "forms": [
    "ify",
-   "fy"
+   "fy",
+   "ific",
+   "ifi"
   ],
   "meaning": "动词后缀：使…化，使成为，使…起来",
   "origin": "拉丁语 -ficare（经法语 -fier）",
@@ -5204,7 +5221,8 @@
   "forms": [
    "ive",
    "ative",
-   "itive"
+   "itive",
+   "iv"
   ],
   "meaning": "形容词后缀：有…性质的，有…倾向的；也作名词表示人或物",
   "origin": "拉丁语 -ivus",
@@ -5509,7 +5527,7 @@
    "ian",
    "an"
   ],
-  "meaning": "…的人，…家；…地方的人；…的",
+  "meaning": "…的人，…者，…家；…地方的人；…的",
   "origin": "拉丁语 -ianus/-anus",
   "note": "也可加在地名后表示「…地方的（人）」，如 American、Italian",
   "examples": [
@@ -5556,7 +5574,7 @@
    "ant",
    "ent"
   ],
-  "meaning": "名词后缀：…的人；…剂，…物",
+  "meaning": "名词后缀：…的人，…者；…剂，…物",
   "origin": "拉丁语现在分词词尾 -ans/-ens",
   "note": "同形的形容词后缀见 -ant/-ent（形容词）",
   "examples": [
@@ -5708,7 +5726,8 @@
  {
   "type": "suffix",
   "forms": [
-   "en"
+   "en",
+   "n"
   ],
   "meaning": "动词后缀：使…，使变得…",
   "origin": "古英语 -nian",
@@ -6579,7 +6598,8 @@
  {
   "type": "suffix",
   "forms": [
-   "ary"
+   "ary",
+   "ari"
   ],
   "meaning": "形容词后缀：…的，与…有关的",
   "origin": "拉丁语 -arius",
@@ -6989,7 +7009,8 @@
  {
   "type": "suffix",
   "forms": [
-   "ed"
+   "ed",
+   "d"
   ],
   "meaning": "形容词后缀：具有…的，有…特征的",
   "origin": "古英语 -ede",
@@ -7030,7 +7051,8 @@
  {
   "type": "suffix",
   "forms": [
-   "ile"
+   "ile",
+   "il"
   ],
   "meaning": "形容词后缀：易于…的，能…的；与…有关的",
   "origin": "拉丁语 -ilis",
@@ -7175,7 +7197,7 @@
   "forms": [
    "ary"
   ],
-  "meaning": "名词后缀：…的人；场所，物",
+  "meaning": "名词后缀：…的人，…者；场所，物",
   "origin": "拉丁语 -arius/-arium",
   "note": "同形的形容词后缀见 -ary（形容词）",
   "examples": [
@@ -7348,7 +7370,8 @@
   "type": "suffix",
   "forms": [
    "tude",
-   "itude"
+   "itude",
+   "ude"
   ],
   "meaning": "名词后缀：性质，状态，程度",
   "origin": "拉丁语 -tudo",
@@ -7743,7 +7766,9 @@
   "type": "suffix",
   "forms": [
    "ule",
-   "cule"
+   "cule",
+   "cle",
+   "cul"
   ],
   "meaning": "名词后缀：小",
   "origin": "拉丁语 -ulus/-culus",
@@ -8499,9 +8524,10 @@
  {
   "type": "suffix",
   "forms": [
-   "ine"
+   "ine",
+   "in"
   ],
-  "meaning": "名词后缀：女性；化学物质，药物",
+  "meaning": "名词后缀：女性；化学物质，药物，…素",
   "origin": "希腊语、拉丁语 -ina/-inē（经法语）",
   "note": "",
   "examples": [

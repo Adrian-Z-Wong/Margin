@@ -12,10 +12,10 @@ body:
   - type: dropdown
     id: how
     attributes:
-      label: 你是怎么打开 Margin 的
+      label: 你是怎么打开 Marginal Vocabulary 的
       options:
         - 在线网址
-        - 下载 Margin.html 后双击打开
+        - 下载 Marginal Vocabulary.html 后双击打开
     validations:
       required: true
   - type: input

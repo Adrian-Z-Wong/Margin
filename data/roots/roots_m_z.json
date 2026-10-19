@@ -47,7 +47,8 @@
 "forms": [
 "man",
 "manu",
-"mani"
+"mani",
+"main"
 ],
 "meaning": "手",
 "origin": "拉丁语 manus「手」",
@@ -762,7 +763,7 @@
 "miss",
 "mis"
 ],
-"meaning": "送，放出",
+"meaning": "送，派遣；放出，投掷",
 "origin": "拉丁语 mittere（过去分词 missus）「送，放」",
 "note": "",
 "examples": [
@@ -1619,7 +1620,7 @@
 "nom",
 "nomy"
 ],
-"meaning": "法则，管理",
+"meaning": "法则，规律；管理",
 "origin": "希腊语 nomos「法则」，nemein「分配，管理」",
 "note": "注意与拉丁语表示「名字」的 nom 区分",
 "examples": [
@@ -1696,7 +1697,7 @@
 "forms": [
 "not"
 ],
-"meaning": "标记；知道",
+"meaning": "标记；知道，注意",
 "origin": "拉丁语 nota「标记」，noscere（过去分词 notus）「知道」",
 "note": "",
 "examples": [
@@ -1966,7 +1967,8 @@
 "type": "root",
 "forms": [
 "od",
-"hod"
+"hod",
+"ode"
 ],
 "meaning": "道路",
 "origin": "希腊语 hodos「道路」",
@@ -2154,7 +2156,7 @@
 "or",
 "ora"
 ],
-"meaning": "嘴；说",
+"meaning": "嘴；说；祈求",
 "origin": "拉丁语 os（属格 oris）「嘴」，orare「说；祈祷」",
 "note": "",
 "examples": [
@@ -2815,7 +2817,7 @@
 "ped",
 "pedi"
 ],
-"meaning": "脚",
+"meaning": "脚，足",
 "origin": "拉丁语 pes（属格 pedis）「脚」",
 "note": "",
 "examples": [
@@ -2892,7 +2894,8 @@
 "type": "root",
 "forms": [
 "pel",
-"puls"
+"puls",
+"peal"
 ],
 "meaning": "推，驱使",
 "origin": "拉丁语 pellere（过去分词 pulsus）「推，驱赶」",
@@ -2942,7 +2945,7 @@
 "pun",
 "pain"
 ],
-"meaning": "惩罚",
+"meaning": "惩罚；悔",
 "origin": "拉丁语 poena「惩罚」，punire「惩罚」",
 "note": "",
 "examples": [
@@ -3076,7 +3079,8 @@
 "type": "root",
 "forms": [
 "peri",
-"per"
+"per",
+"pir"
 ],
 "meaning": "尝试",
 "origin": "拉丁语 experiri「尝试」，periculum「危险，试验」",
@@ -3527,9 +3531,10 @@
 "type": "root",
 "forms": [
 "plac",
-"pleas"
+"pleas",
+"plais"
 ],
-"meaning": "使高兴，使平静",
+"meaning": "使高兴，取悦；使平静",
 "origin": "拉丁语 placere「使高兴」，placare「使平静」",
 "note": "",
 "examples": [
@@ -3641,7 +3646,9 @@
 "ple",
 "plen",
 "plet",
-"pli"
+"pli",
+"pul",
+"ply"
 ],
 "meaning": "满，填满",
 "origin": "拉丁语 plere（过去分词 pletus）「填满」，plenus「满的」",
@@ -3695,9 +3702,11 @@
 "plic",
 "ply",
 "plex",
-"ploy"
+"ploy",
+"pli",
+"ploit"
 ],
-"meaning": "折叠",
+"meaning": "折叠，弯曲；编织",
 "origin": "拉丁语 plicare「折叠」，plectere「编织」",
 "note": "",
 "examples": [
@@ -3990,6 +3999,7 @@
 "type": "root",
 "forms": [
 "potent",
+"pot",
 "poss"
 ],
 "meaning": "能力，力量",
@@ -4023,9 +4033,10 @@
 "forms": [
 "prehend",
 "prehens",
-"pris"
+"pris",
+"pren"
 ],
-"meaning": "抓，握",
+"meaning": "抓，握，拿",
 "origin": "拉丁语 prehendere「抓住」",
 "note": "",
 "examples": [
@@ -4183,7 +4194,7 @@
 "forms": [
 "put"
 ],
-"meaning": "计算，思考",
+"meaning": "计算，思考，认为",
 "origin": "拉丁语 putare「计算，认为」",
 "note": "",
 "examples": [
@@ -4268,9 +4279,9 @@
 "m": "半径"
 },
 {
-"w": "radical",
-"parts": "radi(根) + cal(…的)",
-"m": "根本的；激进的"
+"w": "radiation",
+"parts": "radi(辐射) + ation(名词)",
+"m": "辐射"
 }
 ]
 },
@@ -4278,9 +4289,11 @@
 "type": "root",
 "forms": [
 "rect",
-"reg"
+"reg",
+"rig",
+"regul"
 ],
-"meaning": "直，统治，管理",
+"meaning": "直；纠正，规则；统治，管理",
 "origin": "拉丁语 regere, rectus「引导，统治」",
 "note": "",
 "examples": [
@@ -4404,7 +4417,9 @@
 "type": "root",
 "forms": [
 "sacr",
-"sanct"
+"sanct",
+"ecr",
+"secr"
 ],
 "meaning": "神圣",
 "origin": "拉丁语 sacer「神圣的」，sanctus「神圣的」",
@@ -4437,7 +4452,8 @@
 "forms": [
 "sal",
 "sil",
-"sult"
+"sult",
+"ult"
 ],
 "meaning": "跳",
 "origin": "拉丁语 salire「跳」",
@@ -4501,7 +4517,8 @@
 "type": "root",
 "forms": [
 "scend",
-"scens"
+"scens",
+"scent"
 ],
 "meaning": "爬，攀",
 "origin": "拉丁语 scandere「爬」",
@@ -4755,7 +4772,9 @@
 "type": "root",
 "forms": [
 "sequ",
-"secu"
+"secu",
+"ecut",
+"sue"
 ],
 "meaning": "跟随",
 "origin": "拉丁语 sequi, secutus「跟随」",
@@ -4778,7 +4797,7 @@
 },
 {
 "w": "execute",
-"parts": "exe(出) + cut(跟随) + e",
+"parts": "ex(出) + ecut(跟随) + e",
 "m": "执行"
 }
 ]
@@ -4788,7 +4807,7 @@
 "forms": [
 "serv"
 ],
-"meaning": "服务；保持",
+"meaning": "服务；保持；注意，看守",
 "origin": "拉丁语 servire「服务」，servare「保持」",
 "note": "",
 "examples": [
@@ -4884,9 +4903,13 @@
 "sist",
 "st",
 "stat",
-"stit"
+"stit",
+"sta",
+"stin",
+"stice",
+"stem"
 ],
-"meaning": "站，立",
+"meaning": "站，立；设立，放置",
 "origin": "拉丁语 stare, sistere, status「站立」",
 "note": "",
 "examples": [
@@ -4922,7 +4945,7 @@
 "forms": [
 "soci"
 ],
-"meaning": "同伴，社会",
+"meaning": "同伴，社会；结交",
 "origin": "拉丁语 socius「同伴」",
 "note": "",
 "examples": [
@@ -4963,9 +4986,9 @@
 "m": "孤独的"
 },
 {
-"w": "isolate",
-"parts": "i + sol(单独) + ate(动词)",
-"m": "隔离"
+"w": "desolate",
+"parts": "de(加强) + sol(单独) + ate(…的)",
+"m": "荒凉的；孤寂的"
 },
 {
 "w": "solo",
@@ -5078,9 +5101,11 @@
 "forms": [
 "spect",
 "spec",
-"spic"
+"spic",
+"pect",
+"spite"
 ],
-"meaning": "看",
+"meaning": "看，观察；外观，种类",
 "origin": "拉丁语 specere, spectus「看」",
 "note": "",
 "examples": [
@@ -5145,7 +5170,8 @@
 {
 "type": "root",
 "forms": [
-"spir"
+"spir",
+"pir"
 ],
 "meaning": "呼吸",
 "origin": "拉丁语 spirare「呼吸」",
@@ -5339,7 +5365,9 @@
 "tact",
 "tang",
 "tag",
-"ting"
+"ting",
+"tain",
+"tamin"
 ],
 "meaning": "接触",
 "origin": "拉丁语 tangere, tactus「接触」",
@@ -5379,7 +5407,7 @@
 "ten",
 "tin"
 ],
-"meaning": "握，保持",
+"meaning": "握，拿住；保持",
 "origin": "拉丁语 tenere「握住，保持」",
 "note": "",
 "examples": [
@@ -5547,7 +5575,7 @@
 "forms": [
 "test"
 ],
-"meaning": "证据，见证",
+"meaning": "证据，见证；遗嘱",
 "origin": "拉丁语 testis「证人」",
 "note": "",
 "examples": [
@@ -5577,7 +5605,8 @@
 "type": "root",
 "forms": [
 "the",
-"theo"
+"theo",
+"thus"
 ],
 "meaning": "神",
 "origin": "希腊语 theos「神」",
@@ -5732,7 +5761,9 @@
 {
 "type": "root",
 "forms": [
-"tract"
+"tract",
+"tray",
+"trait"
 ],
 "meaning": "拉，拖",
 "origin": "拉丁语 trahere, tractus「拉」",
@@ -5956,7 +5987,8 @@
 "type": "root",
 "forms": [
 "us",
-"ut"
+"ut",
+"util"
 ],
 "meaning": "用",
 "origin": "拉丁语 uti, usus「使用」",
@@ -6263,7 +6295,8 @@
 "forms": [
 "via",
 "vey",
-"voy"
+"voy",
+"vi"
 ],
 "meaning": "道路",
 "origin": "拉丁语 via「道路」",
@@ -6300,7 +6333,8 @@
 "type": "root",
 "forms": [
 "vid",
-"vis"
+"vis",
+"voy"
 ],
 "meaning": "看",
 "origin": "拉丁语 videre, visus「看」",
@@ -6408,7 +6442,7 @@
 "voc",
 "vok"
 ],
-"meaning": "声音，叫",
+"meaning": "声音，叫喊，召唤",
 "origin": "拉丁语 vocare「叫」，vox, vocis「声音」",
 "note": "",
 "examples": [

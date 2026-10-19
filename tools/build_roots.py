@@ -102,6 +102,33 @@ class Linker:
         for r in roots:
             for f in r["forms"]:
                 self.by_form.setdefault(f, []).append(r)
+        self.stems = sorted((f for f in self.by_form if len(f) >= 3), key=len, reverse=True)
+
+    def stem(self, form, gloss):
+        """拼写是词根的变体（pose 对 pos、verse 对 vers、central 对 centr）：取开头那段词根，意思要对得上。"""
+        chars = set(CJK.findall(gloss)) - set("的之使物")
+        for f in self.stems:
+            if len(f) < len(form) <= len(f) + 4 and form.startswith(f):
+                for r in self.by_form[f]:
+                    if r["type"] == "root" and chars & set(CJK.findall(r["meaning"])):
+                        return r, f
+        return None, None
+
+    def ending(self, form, gloss):
+        """复合后缀（-ator、-ability、-istic）：取结尾那个后缀（-or、-ity、-ic），意思要对得上。"""
+        chars = set(CJK.findall(gloss))
+        if len(chars) > 1:
+            chars -= {"词"}
+        for k in range(1, len(form) - 1):
+            for r in self.by_form.get(form[k:], []):
+                if r["type"] == "suffix" and chars & set(CJK.findall(r["meaning"])):
+                    return r, form[k:]
+        # -ization（…化）、-ification（…化）意思落在开头的 -iz、-ific 上
+        for k in range(len(form) - 1, 1, -1):
+            for r in self.by_form.get(form[:k], []):
+                if r["type"] == "suffix" and chars & set(CJK.findall(r["meaning"])):
+                    return r, form[:k]
+        return None, None
 
     def link(self, tokens, owner=None):
         """每个有意思的语素对应到词根表里的一项：先按类型，再按意思里相同的字挑。"""
@@ -114,8 +141,7 @@ class Linker:
             if owner is not None and owner in cands:
                 links.append((owner["id"], form.lower(), start))
                 continue
-            if not cands:
-                continue
+            done = len(links)
             if kind:
                 prefer = [kind, "root"]
             elif n > 1 and i == 0:
@@ -125,17 +151,35 @@ class Linker:
             else:
                 prefer = ["root"]
             chars = set(CJK.findall(gloss))
+            if len(chars) > 1:
+                chars -= {"词"}  # 「名词」「动词」只看前一个字
             for t in prefer:
                 group = [r for r in cands if r["type"] == t]
                 if not group:
                     continue
-                scored = sorted(group, key=lambda r: -len(chars & set(CJK.findall(r["meaning"]))))
+                # 先比相同的字有几个；一样多时，意思以这个字开头的、这个字出现得多的优先（-ent「…的」归形容词后缀）
+                scored = sorted(
+                    group,
+                    key=lambda r: (
+                        -len(chars & set(CJK.findall(r["meaning"]))),
+                        -sum(r["meaning"].startswith(c) for c in chars),
+                        -sum(r["meaning"].count(c) for c in chars),
+                    ),
+                )
                 best = scored[0]
                 overlap = len(chars & set(CJK.findall(best["meaning"])))
                 # 词根同形的多，意思对不上就不连；前缀后缀标了连字符、又只有一个候选时直接连
                 if overlap or (kind == t and t != "root" and len(group) == 1):
                     links.append((best["id"], form.lower(), start))
-                break
+                    break
+            if len(links) == done and not kind:
+                r, f = self.stem(form.lower(), gloss)
+                if r:
+                    links.append((r["id"], f, start))
+            elif len(links) == done and kind == "suffix":
+                r, f = self.ending(form.lower(), gloss)
+                if r:
+                    links.append((r["id"], f, start + (0 if form.lower().startswith(f) else len(form) - len(f))))
         return links
 
 

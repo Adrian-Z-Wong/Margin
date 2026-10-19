@@ -1,4 +1,4 @@
-/* Margin —— 背单词 */
+/* Marginal Vocabulary —— 背单词 */
 (function () {
   'use strict';
 
@@ -1239,7 +1239,7 @@
     ];
     const active = { practice: 'home', result: 'home', book: 'books', import: 'books', root: 'roots', rootquiz: 'roots' }[ui.view] || ui.view;
     return (
-      '<header class="top"><button class="brand" data-act="nav" data-view="home">Margin</button><nav class="nav">' +
+      '<header class="top"><button class="brand" data-act="nav" data-view="home">Marginal Vocabulary</button><nav class="nav">' +
       nav.map(([v, label]) => '<button data-act="nav" data-view="' + v + '" class="' + (active === v ? 'on' : '') + '">' + label + '</button>').join('') +
       '</nav></header>'
     );
@@ -1461,7 +1461,7 @@
     const pct = Math.min(100, (done / total) * 100);
     const pend = ss.pending;
     const copy = needsCopy(ss);
-    const placeholder = copy ? '照着打一遍，或直接按 Enter 继续' : ss.mode === 'en2zh' ? '写中文意思' : '拼写英文';
+    const placeholder = copy ? '照着打一遍，或直接按 Enter 继续' : '拼写英文';
     const anim = ss.animIdx !== ss.idx ? ' anim' : '';
     let inputs;
     if (ss.between) inputs = '';
@@ -1759,8 +1759,7 @@
       '<div class="d">真人发音来自有道词典，需要联网；连不上时会自动改用电脑自带的语音。电脑语音不用联网，但效果取决于你的系统。</div>' +
       '<div class="actions" style="margin-top:12px"><button class="btn small ghost" data-act="testVoice">试听</button></div></div></div>' +
       '<div class="set-row"><div><div class="t">读音</div></div><div class="d" style="margin-top:0">「英 → 中」和「听 → 写」出词时自动朗读，按 Tab 再听一遍；「中 → 英」不出声。</div></div>' +
-      '<div class="set-row"><div><div class="t">每组几个词</div></div><div>' + chipsHtml('size', [[5, '5'], [10, '10'], [15, '15'], [20, '20']]) +
-      '<div class="d">背新词和复习都按组来，每组依次过三步。</div></div></div>' +
+      '<div class="set-row"><div><div class="t">每组几个词</div></div><div>' + chipsHtml('size', [[5, '5'], [10, '10'], [15, '15'], [20, '20']]) + '</div></div>' +
       '<div class="set-row"><div><div class="t">拼错后照打一遍</div></div><div>' + chipsHtml('copyWrong', [[true, '开'], [false, '关']]) +
       '<div class="d">拼写题答错后，照着正确拼写再打一遍，免得记住错的拼法。直接按 Enter 可以跳过。</div></div></div>' +
       '<div class="set-row"><div><div class="t">字母个数提示</div></div><div>' + chipsHtml('letterHint', [[true, '显示'], [false, '不显示']]) +
@@ -1770,14 +1769,14 @@
       '<div class="d">仿宋本身笔画比较细，觉得还是细就选「粗」。</div></div></div>' +
       (!/^https?:$/.test(location.protocol)
         ? ''
-        : '<div class="set-row"><div><div class="t">下载到电脑</div></div><div><a class="btn small ghost" href="Margin.html" download="Margin.html">下载 Margin.html</a>' +
+        : '<div class="set-row"><div><div class="t">下载到电脑</div></div><div><a class="btn small ghost" href="Margin.html" download="Marginal Vocabulary.html">下载 Marginal Vocabulary.html</a>' +
           '<div class="d">下载后双击就能打开，不用联网。进度不会自动带过去，需要的话先导出备份，再在下载的版本里导入。</div></div></div>') +
       '<div class="set-row"><div><div class="t">数据备份</div><div class="d">进度只保存在这台电脑的这个浏览器里。</div></div><div>' +
       '<div class="actions"><button class="btn small" data-act="exportData">导出备份</button>' +
       '<label class="btn small ghost file-pick">导入备份<input type="file" id="backup-file" accept=".json,application/json"></label>' +
       '<button class="link" data-act="resetAll">清空所有数据</button></div>' +
-      '<div class="d">换电脑、换浏览器或清理浏览器数据之前，先导出备份；到新地方打开 Margin 后再导入。</div></div></div>' +
-      '<div class="set-row"><div><div class="t">关于</div></div><div class="d" style="margin-top:0">Margin · 黑白极简的背单词工具。<br>Finance、Medicine 词库和词根由 Margin 整理，译名参考国内通行教材和标准术语；发现不准欢迎到 GitHub 反馈。<br>CET-4、CET-6、GEE、TOEFL、IELTS、GRE、GMAT 词库与音标来自开源词典 ECDICT（MIT 许可证）。</div></div>' +
+      '<div class="d">换电脑、换浏览器或清理浏览器数据之前，先导出备份；到新地方打开 Marginal Vocabulary 后再导入。</div></div></div>' +
+      '<div class="set-row"><div><div class="t">关于</div></div><div class="d" style="margin-top:0">Marginal Vocabulary · 黑白极简的背单词工具。<br>Finance、Medicine 词库和词根由 Marginal Vocabulary 整理，译名参考国内通行教材和标准术语；发现不准欢迎到 GitHub 反馈。<br>CET-4、CET-6、GEE、TOEFL、IELTS、GRE、GMAT 词库与音标来自开源词典 ECDICT（MIT 许可证）。</div></div>' +
       '</div>' +
       '</main>'
     );
@@ -2530,10 +2529,10 @@
       render();
     },
     testVoice() {
-      speak('Margin');
+      speak('Marginal Vocabulary');
     },
     exportData() {
-      downloadText('margin-backup-' + todayKey() + '.json', JSON.stringify({ app: 'Margin', v: 1, exported: new Date().toISOString(), data: state }), 'application/json');
+      downloadText('marginal-vocabulary-backup-' + todayKey() + '.json', JSON.stringify({ app: 'Marginal Vocabulary', v: 1, exported: new Date().toISOString(), data: state }), 'application/json');
       toast('备份已下载');
     },
     async resetAll() {
@@ -2589,8 +2588,9 @@
         } catch (e) {
           obj = null;
         }
-        if (!obj || obj.app !== 'Margin' || !obj.data) {
-          toast('这个文件不是 Margin 的备份');
+        // 改名前导出的备份写的是 Margin
+        if (!obj || (obj.app !== 'Marginal Vocabulary' && obj.app !== 'Margin') || !obj.data) {
+          toast('这个文件不是 Marginal Vocabulary 的备份');
           return;
         }
         if (!(await askConfirm('用这个备份覆盖现在的数据？', '覆盖'))) return;
@@ -2713,7 +2713,7 @@
     root.setAttribute('data-weight', state.settings.weight || 'normal');
   }
 
-  // 其他标签页改了数据（比如同时开了两个 Margin），这里跟着更新
+  // 其他标签页改了数据（比如同时开了两个 Marginal Vocabulary），这里跟着更新
   window.addEventListener('storage', (ev) => {
     if (ev.key === STORE_KEY && ui.view !== 'practice') {
       state = loadState();

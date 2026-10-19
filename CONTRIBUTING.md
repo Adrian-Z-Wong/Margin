@@ -1,6 +1,6 @@
 # 参与贡献
 
-谢谢你愿意帮 Margin 变得更好。
+谢谢你愿意帮 Marginal Vocabulary 变得更好。
 
 ## 词库纠错（最欢迎）
 
@@ -19,7 +19,7 @@ Finance 词库的原始表格在 [`data/finance/`](data/finance/)：
 - 中文用国内教材最通行的译名；几个译名都常用时用全角分号「；」隔开，常用的放前面。
 - 改完运行 `python3 tools/build_terms.py` 和 `python3 tools/build.py`，再提交 Pull Request。
 
-不熟悉 Git 也没关系，直接[提一个「词条纠错」Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose) 就行。
+不熟悉 Git 也没关系，直接[提一个「词条纠错」Issue](https://github.com/Adrian-Z-Wong/Marginal-Vocabulary/issues/new/choose) 就行。
 
 CET-4、CET-6、GEE、TOEFL、IELTS、GRE、GMAT 词库来自 [ECDICT](https://github.com/skywind3000/ECDICT)，释义问题可以同时反馈给上游。
 

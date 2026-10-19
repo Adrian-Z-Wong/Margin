@@ -44,11 +44,11 @@ jobs:
           projectPath: desktop
           args: --target aarch64-apple-darwin
           tagName: v__VERSION__
-          releaseName: Margin v__VERSION__
+          releaseName: Marginal Vocabulary v__VERSION__
           releaseBody: |
-            **安装**：下载下面的 `Margin_*_aarch64.dmg`，双击打开，把 Margin 拖进「应用程序」文件夹。
+            **安装**：下载下面以 `_aarch64.dmg` 结尾的文件，双击打开，把 Marginal Vocabulary 拖进「应用程序」文件夹。
 
-            **第一次打开**：如果提示「无法验证开发者」，打开「系统设置 → 隐私与安全性」，往下找到 Margin，点「仍要打开」。之后就能正常使用。
+            **第一次打开**：如果提示「无法验证开发者」，打开「系统设置 → 隐私与安全性」，往下找到 Marginal Vocabulary，点「仍要打开」。之后就能正常使用。
 
             适用于 Apple 芯片（M1–M4）的 Mac，需要 macOS 11 或更新版本。
           releaseDraft: false
