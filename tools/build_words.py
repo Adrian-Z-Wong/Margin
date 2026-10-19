@@ -5,6 +5,9 @@
 
 不给路径时，会自动下载 ECDICT（约 65 MB）到 tools/.cache/。
 ECDICT 项目：https://github.com/skywind3000/ECDICT （MIT 许可证）
+
+GMAT 词表在 data/gmat.tsv（每行：单词<Tab>中文释义）。释义优先用 ECDICT 的，
+ECDICT 里查不到时才用表里写的。
 """
 
 import csv
@@ -17,10 +20,11 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools", ".cache", "ecdict.csv")
 OUT = os.path.join(ROOT, "src", "words.js")
+GMAT = os.path.join(ROOT, "data", "gmat.tsv")
 URL = "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv"
 
-# 顺序决定位掩码，app.js 里的 BUILTIN_BOOKS 必须保持一致
-TAGS = ["zk", "gk", "cet4", "cet6", "ky", "ielts", "toefl", "gre"]
+# 顺序决定位掩码，app.js 里的 EXAM_BOOKS 必须保持一致；gmat 来自 data/gmat.tsv
+TAGS = ["zk", "gk", "cet4", "cet6", "ky", "ielts", "toefl", "gre", "gmat"]
 
 MAX_LINES = 4
 MAX_CHARS = 120
@@ -35,19 +39,30 @@ def clean_phonetic(p):
     return p
 
 
-def clean_translation(t):
+def general_lines(t):
     lines = [ln.strip() for ln in t.replace("\\r", "").split("\\n") if ln.strip()]
     # 去掉 [网络] [计] [医] 这类专业 / 网络释义（包括「art. [计] ...」这种词性后面跟专业标签的）
     general = [ln for ln in lines if not re.sub(r"^([a-z]+\.\s*)+", "", ln).startswith("[")]
     if not general and lines:
         general = [re.sub(r"^\[[^\]]*\]\s*", "", lines[0])]
+    return general
+
+
+def clean_translation(t):
+    """显示用的释义：最多 MAX_LINES 行、MAX_CHARS 个字。"""
     out, total = [], 0
-    for ln in general[:MAX_LINES]:
+    for ln in general_lines(t)[:MAX_LINES]:
         if total + len(ln) > MAX_CHARS and out:
             break
         out.append(ln)
         total += len(ln)
     return "|".join(out)
+
+
+def extra_translation(t, shown):
+    """判分用：显示时被截掉的那部分释义，写对这些意思也算对。"""
+    rest = [ln for ln in general_lines(t) if ln not in shown.split("|")]
+    return "|".join(rest)
 
 
 def main():
@@ -58,30 +73,54 @@ def main():
         urllib.request.urlretrieve(URL, CACHE)
         src = CACHE
 
+    gmat = {}
+    if os.path.exists(GMAT):
+        with open(GMAT, encoding="utf-8-sig") as f:
+            for line in f:
+                cols = [c.strip() for c in line.rstrip("\r\n").split("\t")]
+                if cols and cols[0] and not cols[0].startswith("#"):
+                    gmat[cols[0].lower()] = (cols[0], cols[1] if len(cols) > 1 else "")
+    gmat_bit = 1 << TAGS.index("gmat")
+
     entries = []
+    found = set()
     with open(src, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
+            word = row["word"].strip()
             tags = row["tag"].split()
             mask = 0
             for i, tag in enumerate(TAGS):
                 if tag in tags:
                     mask |= 1 << i
+            key = word.lower()
+            # ECDICT 里同一个词可能有大小写不同的几条（Polish / polish），只认小写的那条或和表里写法一致的那条
+            if key in gmat and key not in found and (word == key or word == gmat[key][0]):
+                mask |= gmat_bit
+                found.add(key)
             if not mask:
                 continue
             meaning = clean_translation(row["translation"])
+            if not meaning and mask & gmat_bit:
+                meaning = gmat[key][1]
             if not meaning:
                 continue
+            extra = extra_translation(row["translation"], meaning)
             frq = int(row["frq"] or 0) or int(row["bnc"] or 0) or 10**9
-            entries.append((frq, row["word"].strip(), clean_phonetic(row["phonetic"]), meaning, mask))
+            entries.append((frq, word, clean_phonetic(row["phonetic"]), meaning, mask, extra))
+
+    # ECDICT 里查不到的 GMAT 词（多是固定搭配），用表里写的释义
+    for key, (word, meaning) in gmat.items():
+        if key not in found and meaning:
+            entries.append((10**9, word, "", meaning, gmat_bit, ""))
 
     # 常用词排前面：背「新词」时先出现
     entries.sort(key=lambda e: (e[0], e[1].lower()))
-    lines = ["\t".join([w, p, m, str(mask)]) for _, w, p, m, mask in entries]
+    lines = ["\t".join([w, p, m, str(mask), x]) for _, w, p, m, mask, x in entries]
     data = "\n".join(lines)
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("// 由 tools/build_words.py 根据 ECDICT（MIT 许可证）生成，请勿手动修改\n")
-        f.write("// 每行：单词\\t音标\\t释义（多行用 | 分隔）\\t词库位掩码\n")
+        f.write("// 每行：单词\\t音标\\t释义（多行用 | 分隔）\\t词库位掩码\\t判分时额外接受的释义\n")
         f.write("window.MARGIN_DICT = " + json.dumps(data, ensure_ascii=False) + ";\n")
 
     counts = {tag: sum(1 for e in entries if e[4] & (1 << i)) for i, tag in enumerate(TAGS)}

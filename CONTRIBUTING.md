@@ -21,12 +21,22 @@ Finance 词库的原始表格在 [`data/finance/`](data/finance/)：
 
 不熟悉 Git 也没关系，直接[提一个「词条纠错」Issue](https://github.com/Adrian-Z-Wong/Margin/issues/new/choose) 就行。
 
-托福、雅思、GRE 词库来自 [ECDICT](https://github.com/skywind3000/ECDICT)，释义问题可以同时反馈给上游。
+四级、六级、考研、托福、雅思、GRE 词库来自 [ECDICT](https://github.com/skywind3000/ECDICT)，释义问题可以同时反馈给上游。
 
 ## 改代码
 
 - 不用任何框架和依赖，源码在 `src/`：`index.html`、`style.css`、`app.js`。
 - 开发时直接用浏览器打开 `src/index.html`，改完刷新。
 - 提交前运行 `python3 tools/build.py`，更新打包好的 `Margin.html`。
+
+生成数据的脚本：
+
+```bash
+python3 tools/build_words.py     # 考试词库 src/words.js（自动下载 ECDICT；GMAT 词表在 data/gmat.tsv）
+python3 tools/build_finance.py   # Finance 词库 src/finance.js
+pip install numpy scipy
+python3 tools/build_vectors.py   # 中文词向量 src/vectors.js
+python3 tools/build.py           # 打包 Margin.html
+```
 - 风格：黑白极简；英文用 Times New Roman 斜体，中文用仿宋；界面文字用中文。
 - 进度存在浏览器 `localStorage` 的 `margin.v1` 里。改数据结构时要兼容旧数据。

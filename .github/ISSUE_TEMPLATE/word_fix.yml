@@ -18,9 +18,13 @@ body:
         - Finance · 金融学
         - Finance · 管理学
         - Finance · 会计学
+        - 四级
+        - 六级
+        - 考研
         - 托福 TOEFL
         - 雅思 IELTS
         - GRE
+        - GMAT
         - 建议新增
     validations:
       required: true

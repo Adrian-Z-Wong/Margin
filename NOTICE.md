@@ -1,6 +1,6 @@
 # 第三方声明 / Third-party notices
 
-Margin 的托福、雅思、GRE 词库和音标（`src/words.js`，以及打包进 `Margin.html` 的同一份数据）由开源词典 [ECDICT](https://github.com/skywind3000/ECDICT) 转换而来，按其 MIT 许可证使用：
+Margin 的四级、六级、考研、托福、雅思、GRE 词库和音标（`src/words.js`），以及中文词向量（`src/vectors.js`），由开源词典 [ECDICT](https://github.com/skywind3000/ECDICT) 转换生成，打包在 `Margin.html` 里，按其 MIT 许可证使用：
 
 ```
 MIT License

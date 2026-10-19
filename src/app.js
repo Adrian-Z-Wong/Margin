@@ -6,9 +6,13 @@
 
   // bit 对应 tools/build_words.py 里 TAGS 的顺序
   const EXAM_BOOKS = [
+    { id: 'cet4', name: '四级 CET-4', bit: 2 },
+    { id: 'cet6', name: '六级 CET-6', bit: 3 },
+    { id: 'ky', name: '考研', bit: 4 },
     { id: 'toefl', name: '托福 TOEFL', bit: 6 },
     { id: 'ielts', name: '雅思 IELTS', bit: 5 },
     { id: 'gre', name: 'GRE', bit: 7 },
+    { id: 'gmat', name: 'GMAT', bit: 8 },
   ];
 
   // subject 对应 data/finance/*.tsv
@@ -29,10 +33,13 @@
   const INTERVALS = [0, 1, 2, 4, 7, 15, 30, 60];
 
   const MODES = {
-    en2zh: { name: '英 → 中', desc: '看英文，写中文意思', key: '1' },
-    zh2en: { name: '中 → 英', desc: '看中文，拼写英文', key: '2' },
-    listen: { name: '听 → 写', desc: '听发音，拼写英文', key: '3' },
+    en2zh: { name: '英 → 中', desc: '看英文，写中文意思' },
+    zh2en: { name: '中 → 英', desc: '看中文，拼写英文' },
+    listen: { name: '听 → 写', desc: '听发音，拼写英文' },
   };
+
+  // 每轮的三步：同一组词先英→中，再中→英，最后听→写
+  const STAGES = ['en2zh', 'zh2en', 'listen'];
 
   const CJK_RE = /[㐀-鿿豈-﫿]/;
 
@@ -46,8 +53,8 @@
     const exam = window.MARGIN_DICT || '';
     if (exam) {
       for (const line of exam.split('\n')) {
-        const [w, p, m, mask] = line.split('\t');
-        const e = { w, p, m, mask: +mask };
+        const [w, p, m, mask, x] = line.split('\t');
+        const e = { w, p, m, mask: +mask, x: x || '' };
         EXAM_WORDS.push(e);
         if (!LOOKUP.has(w.toLowerCase())) LOOKUP.set(w.toLowerCase(), e);
       }
@@ -76,10 +83,10 @@
     order: 'new',
     accent: 'us',
     voice: 'auto',
-    autoSpeak: true,
     letterHint: true,
     copyWrong: true,
     senses: 3,
+    weight: 'normal',
     theme: 'auto',
   };
 
@@ -329,7 +336,7 @@
 
   function bookExists(id) {
     if (id === WRONG_BOOK || id === REVIEW_BOOK) return true;
-    if (findExam(id)) return EXAM_WORDS.length > 0;
+    if (findExam(id)) return bookEntries(id).length > 0;
     if (findFinance(id)) return FINANCE_WORDS.length > 0;
     return !!state.books[id];
   }
@@ -338,24 +345,24 @@
     return !!(findExam(id) || findFinance(id));
   }
 
+  // 还没标记为已掌握的词
+  function available(entries) {
+    return entries.filter((e) => e.w && !state.known[keyOf(e.w)]);
+  }
+
+  // 某一步能用的词：英→中、中→英 需要有中文意思
   function usable(entries, mode) {
-    return entries.filter((e) => e.w && (mode === 'listen' || e.m) && !state.known[keyOf(e.w)]);
+    return available(entries).filter((e) => mode === 'listen' || e.m);
   }
 
   // ================= 统计 =================
 
-  function stat(w, mode) {
-    const s = state.stats[keyOf(w)];
-    return s && s[mode];
-  }
-
   // 背过（或标记为已掌握）的词数
-  function seenCount(entries, mode) {
+  function seenCount(entries) {
     let n = 0;
     for (const e of entries) {
       const k = keyOf(e.w);
-      const s = state.stats[k];
-      if ((s && (mode ? s[mode] : true)) || state.known[k]) n++;
+      if (state.stats[k] || state.known[k]) n++;
     }
     return n;
   }
@@ -373,13 +380,20 @@
     return n;
   }
 
-  function accuracy(e, mode) {
-    const s = stat(e.w, mode);
+  function accuracy(e) {
+    const s = state.stats[keyOf(e.w)];
     if (!s) return 1;
-    return s[0] / Math.max(1, s[0] + s[1]);
+    let r = 0;
+    let x = 0;
+    for (const m of STAGES) {
+      if (s[m]) {
+        r += s[m][0];
+        x += s[m][1];
+      }
+    }
+    return r / Math.max(1, r + x);
   }
 
-  // sign = +1 记一次，-1 撤销一次（改判时用）
   function bump(entry, mode, ok, sign) {
     const k = keyOf(entry.w);
     const s = state.stats[k] || (state.stats[k] = {});
@@ -392,18 +406,22 @@
     if (ok) day.r = Math.max(0, day.r + sign);
   }
 
-  // 错题本：答错就进；连续答对 2 次自动移出
+  // 错题本：答错就进；之后在 2 个不同的日子里答对，自动移出
+  // （一轮三步里同一个词要答三次，所以按天算，不按次数算）
   function markWrong(entry) {
     const k = keyOf(entry.w);
     const was = state.wrong[k];
-    state.wrong[k] = { w: entry.w, p: entry.p || '', m: entry.m || '', n: (was ? was.n : 0) + 1, s: 0, t: was ? was.t : Date.now() };
+    state.wrong[k] = { w: entry.w, p: entry.p || '', m: entry.m || '', n: (was ? was.n : 0) + 1, s: 0, dw: dayNum(), dr: 0, t: was ? was.t : Date.now() };
   }
 
   function markRight(entry) {
     const k = keyOf(entry.w);
     const wr = state.wrong[k];
     if (!wr) return;
+    const today = dayNum();
+    if (today <= Math.max(wr.dw || 0, wr.dr || 0)) return;
     wr.s = (wr.s || 0) + 1;
+    wr.dr = today;
     if (wr.s >= 2) delete state.wrong[k];
   }
 
@@ -419,23 +437,6 @@
       const b = Math.min(cur.b + 1, INTERVALS.length - 1);
       state.srs[k] = Object.assign(base, { b, d: today + INTERVALS[b] });
     }
-  }
-
-  // 改判时先恢复答题前的错题本和复习记录，再按新结果重算
-  function snapshot(entry) {
-    const k = keyOf(entry.w);
-    return {
-      wrong: state.wrong[k] ? Object.assign({}, state.wrong[k]) : null,
-      srs: state.srs[k] ? Object.assign({}, state.srs[k]) : null,
-    };
-  }
-
-  function restore(entry, snap) {
-    const k = keyOf(entry.w);
-    if (snap.wrong) state.wrong[k] = Object.assign({}, snap.wrong);
-    else delete state.wrong[k];
-    if (snap.srs) state.srs[k] = Object.assign({}, snap.srs);
-    else delete state.srs[k];
   }
 
   function applyOutcome(entry, ok) {
@@ -454,12 +455,16 @@
   // ================= 判分 =================
 
   function zhTerms(text) {
+    // 括号里的英文缩写（比如「资本资产定价模型（CAPM）」里的 CAPM）也算一个可以接受的答案
+    const acronyms = [];
+    String(text || '').replace(/[（(]\s*([A-Za-z][A-Za-z0-9&.\- ]{0,15})\s*[）)]/g, (_, a) => acronyms.push(a.replace(/[^A-Za-z0-9]/g, '').toLowerCase()));
     return String(text || '')
       .replace(/[（(［\[【〔<《][^）)］\]】〕>》]*[）)］\]】〕>》]/g, ' ')
       .replace(/(^|[^a-z])(?:[a-z]{1,6}\.)+/gi, '$1 ')
       .split(/[\s,，;；、\/|。.!！?？:：'"“”‘’…·\-—–~～=]+/)
       .map((t) => t.replace(/[^㐀-鿿豈-﫿A-Za-z0-9]/g, '').toLowerCase())
-      .map((t) => (t.length > 1 ? t.replace(/[的地得]$/, '') : t))
+      .map((t) => (t.length > 1 ? t.replace(/[的地得]$/, '').replace(/^[的地得之]/, '') : t))
+      .concat(acronyms)
       .filter(Boolean);
   }
 
@@ -478,16 +483,113 @@
     return best;
   }
 
-  // 宽松判中文：意思里任何一项和你写的有足够重合就算对
+  // ---- 中文词向量（tools/build_vectors.py 生成）----
+  // 两个中文词如果经常翻译同一批英文单词，向量就接近；反义词几乎不会翻译同一个英文单词
+  const SIM_T = 0.45;
+  let VEC = null;
+  const vecCache = new Map();
+
+  function loadVectors() {
+    if (VEC !== null) return VEC;
+    const raw = window.MARGIN_VEC;
+    if (!raw || !raw.data) return (VEC = false);
+    const bin = atob(raw.data);
+    const data = new Int8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) data[i] = (bin.charCodeAt(i) << 24) >> 24;
+    const map = new Map();
+    raw.words.split('\t').forEach((w, i) => map.set(w, i));
+    return (VEC = { dim: raw.dim, map, data });
+  }
+
+  // 词表里有就直接用；没有就按最长匹配拆成几个认识的词，向量相加
+  function vecOf(term) {
+    if (vecCache.has(term)) return vecCache.get(term);
+    const V = loadVectors();
+    let out = null;
+    if (V) {
+      const acc = new Float32Array(V.dim);
+      const add = (row) => {
+        const o = row * V.dim;
+        for (let d = 0; d < V.dim; d++) acc[d] += V.data[o + d];
+      };
+      let n = 0;
+      if (V.map.has(term)) {
+        add(V.map.get(term));
+        n = 1;
+      } else {
+        for (let i = 0; i < term.length; ) {
+          let step = 1;
+          for (let L = Math.min(6, term.length - i); L >= 1; L--) {
+            const r = V.map.get(term.substr(i, L));
+            if (r !== undefined) {
+              add(r);
+              n++;
+              step = L;
+              break;
+            }
+          }
+          i += step;
+        }
+      }
+      let norm = 0;
+      for (let d = 0; d < V.dim; d++) norm += acc[d] * acc[d];
+      if (n && norm) {
+        norm = Math.sqrt(norm);
+        for (let d = 0; d < V.dim; d++) acc[d] /= norm;
+        out = acc;
+      }
+    }
+    vecCache.set(term, out);
+    return out;
+  }
+
+  function similarity(a, b) {
+    const va = vecOf(a);
+    const vb = vecOf(b);
+    if (!va || !vb) return null;
+    let s = 0;
+    for (let d = 0; d < va.length; d++) s += va[d] * vb[d];
+    return s;
+  }
+
+  const NEG_RE = /^[不无非未没]/;
+
+  // 只差一个字、而这两个字意思相反的词（多头 / 空头、进口 / 出口），一律不算对
+  const OPPOSITE = new Set(
+    '多空 多少 上下 进出 入出 买卖 大小 长短 高低 增减 加减 升降 涨跌 正负 内外 前后 主被 顺逆 优劣 收支 盈亏 输赢 胜败 胜负 早晚 新旧 强弱 左右 东西 南北 好坏 真假 是非 有无 开关 借贷 存取 升贬 褒贬 攻守 动静 明暗 首末 始终 生死 得失 利弊 难易 快慢 轻重 远近 深浅 宽窄 厚薄 粗细 冷热 干湿 软硬 松紧 美丑 善恶 贫富 贵贱 进退 出入 起落 正反 积消 乐悲 顺差 买方'
+      .split(' ')
+      .filter((x) => x.length === 2)
+      .flatMap((x) => [x, x[1] + x[0]])
+  );
+
+  function oppositePair(a, b) {
+    if (a.length !== b.length || a === b) return false;
+    let diff = -1;
+    for (let i = 0; i < a.length; i++) {
+      if (a[i] !== b[i]) {
+        if (diff >= 0) return false;
+        diff = i;
+      }
+    }
+    return OPPOSITE.has(a[diff] + b[diff]);
+  }
+
+  // 判中文：写的和任何一个释义意思相同或相近就算对
   function zhMatch(answer, meaning) {
     const us = zhTerms(answer);
     const rs = zhTerms(meaning);
     for (const u of us) {
       for (const r of rs) {
         if (u === r) return true;
+        // 一个带「不、无、非」一个不带，或者只差一个反义字，意思多半相反
+        if (NEG_RE.test(u) !== NEG_RE.test(r) || oppositePair(u, r)) continue;
         if (u.length >= 2 && r.includes(u)) return true;
-        if (u.includes(r)) return true;
-        if (u.length >= 2 && r.length >= 2 && commonLen(u, r) >= 2) return true;
+        if (r.length >= 2 && u.includes(r)) return true;
+        if (r.length === 1 && u.includes(r) && u.length <= 3) return true;
+        // 词向量只比较两个字以上的词；单字和「含…的意思」拆出来的碎片意思太泛
+        if (u.length < 2 || r.length < 2) continue;
+        const sim = similarity(u, r);
+        if (sim !== null ? sim >= SIM_T : commonLen(u, r) >= 2) return true;
       }
     }
     return false;
@@ -506,6 +608,29 @@
   function judge(mode, entry, answer) {
     if (!answer.trim()) return false;
     return mode === 'en2zh' ? zhMatch(answer, entry.m) : enMatch(answer, entry.w);
+  }
+
+  // 英→中 要写几行：和显示的中文意思个数一样
+  function zhLineCount(entry) {
+    return Math.max(1, topSenses(entry.m, state.settings.senses || 3).length);
+  }
+
+  // 英→中 多行判分：每行单独判；写的都对、并且至少写对一半的意思就算对
+  function judgeZhLines(lines, entry) {
+    // 除了显示出来的几个意思，词典里其他的意思写对了也算
+    const full = entry.m + (entry.x ? '|' + entry.x : '');
+    const marks = lines.map((t) => (t.trim() ? zhMatch(t, full) : null));
+    const seen = new Set();
+    let good = 0;
+    let bad = 0;
+    lines.forEach((t, i) => {
+      const k = t.trim();
+      if (!k || seen.has(k)) return;
+      seen.add(k);
+      if (marks[i]) good++;
+      else bad++;
+    });
+    return { ok: bad === 0 && good >= Math.ceil(lines.length / 2), marks };
   }
 
   // ================= 发音 =================
@@ -716,16 +841,16 @@
 
   // ================= 背诵流程 =================
 
-  function pickItems(entries, mode, size, order) {
-    const pool = usable(entries, mode);
+  function pickItems(entries, size, order) {
+    const pool = available(entries);
     if (order === 'random') return shuffle(pool.slice()).slice(0, size);
     const fresh = [];
     const seen = [];
-    for (const e of pool) (stat(e.w, mode) ? seen : fresh).push(e);
+    for (const e of pool) (state.stats[keyOf(e.w)] ? seen : fresh).push(e);
     let picked = fresh.slice(0, size);
     if (picked.length < size) {
       // 新词背完了：补上正确率最低的旧词
-      seen.sort((a, b) => accuracy(a, mode) - accuracy(b, mode));
+      seen.sort((a, b) => accuracy(a) - accuracy(b));
       picked = picked.concat(seen.slice(0, size - picked.length));
     }
     return shuffle(picked);
@@ -736,21 +861,55 @@
     if (!bookExists(s.book)) s.book = FIRST_BOOK;
     const entries = bookEntries(s.book);
     const review = s.book === WRONG_BOOK || s.book === REVIEW_BOOK;
-    const items = review ? shuffle(usable(entries, s.mode)).slice(0, s.size) : pickItems(entries, s.mode, s.size, s.order);
-    if (!items.length) {
+    const words = review ? shuffle(available(entries)).slice(0, s.size) : pickItems(entries, s.size, s.order);
+    if (!words.length) {
       if (s.book === WRONG_BOOK) toast('错题本是空的，先去背几个词吧');
       else if (s.book === REVIEW_BOOK) toast('今天没有要复习的词');
-      else if (entries.length) toast('这个词表的词都没有中文意思，只能用「听 → 写」');
+      else if (entries.length) toast('这个词表的词都标记为已掌握了');
       else toast('这个词表还没有词');
       return;
     }
-    startSession(items, s.mode, s.book);
+    startSession(words, s.book);
   }
 
-  function startSession(items, mode, bookId) {
-    ui.session = { mode, bookId, items, idx: 0, results: [], pending: null, ended: false };
+  // 一轮：同一组词依次过三步
+  function startSession(words, bookId) {
+    ui.session = { bookId, words, stage: -1, mode: null, items: [], idx: 0, results: [], stageResults: [], pending: null, between: false, ended: false };
+    beginStage(0);
+  }
+
+  function beginStage(n) {
+    const ss = ui.session;
+    // 跳过没有可用词的步骤（比如导入的词没有中文意思，就只练听写）
+    while (n < STAGES.length && !usable(ss.words, STAGES[n]).length) n++;
+    if (n >= STAGES.length) {
+      go('result');
+      return;
+    }
+    Object.assign(ss, { stage: n, mode: STAGES[n], items: shuffle(usable(ss.words, STAGES[n]).slice()), idx: 0, results: [], pending: null, between: false, animIdx: -1, animRow: 0 });
     go('practice');
     onPromptShown();
+  }
+
+  function nextStageIndex(ss) {
+    for (let n = ss.stage + 1; n < STAGES.length; n++) if (usable(ss.words, STAGES[n]).length) return n;
+    return -1;
+  }
+
+  function endStage() {
+    const ss = ui.session;
+    ss.stageResults[ss.stage] = ss.results;
+    if (nextStageIndex(ss) < 0) {
+      go('result');
+      return;
+    }
+    ss.between = true;
+    render();
+  }
+
+  function continueStage() {
+    const ss = ui.session;
+    if (ss && ss.between) beginStage(nextStageIndex(ss));
   }
 
   function current() {
@@ -762,7 +921,7 @@
     const ss = ui.session;
     const e = current();
     if (!e) return;
-    if (ss.mode === 'listen' || (ss.mode === 'en2zh' && state.settings.autoSpeak)) speak(e.w);
+    if (ss.mode !== 'zh2en') speak(e.w);
   }
 
   function submitAnswer() {
@@ -773,21 +932,32 @@
       return;
     }
     const entry = current();
-    const input = document.getElementById('answer');
-    const raw = input ? input.value : '';
-    const ok = judge(ss.mode, entry, raw);
-    const result = { entry, answer: raw.trim(), ok, snap: snapshot(entry), flipped: false };
+    let ok;
+    let answer;
+    let lines = null;
+    let marks = null;
+    if (ss.mode === 'en2zh') {
+      lines = [...document.querySelectorAll('.ans')].map((el) => el.value);
+      const j = judgeZhLines(lines, entry);
+      ok = j.ok;
+      marks = j.marks;
+      answer = lines.map((t) => t.trim()).filter(Boolean).join('；');
+    } else {
+      const input = document.getElementById('answer');
+      answer = (input ? input.value : '').trim();
+      ok = judge(ss.mode, entry, answer);
+    }
+    const result = { entry, answer, lines, marks, ok };
     bump(entry, ss.mode, ok, 1);
     applyOutcome(entry, ok);
     save();
     if (ok) {
       ss.results.push(result);
-      if (ss.mode === 'zh2en' && state.settings.autoSpeak) speak(entry.w);
       advance();
     } else {
       ss.pending = result;
       render();
-      if (ss.mode === 'listen' || (ss.mode === 'zh2en' && state.settings.autoSpeak)) speak(entry.w);
+      if (ss.mode === 'listen') speak(entry.w);
     }
   }
 
@@ -817,6 +987,7 @@
     if (!ss || ss.pending) return;
     const e = current();
     markKnown(e);
+    ss.words = ss.words.filter((w) => w !== e);
     save();
     toast('「' + e.w + '」标记为已掌握，以后不再出现');
     advance();
@@ -829,22 +1000,11 @@
     advance();
   }
 
-  function flipResult(r) {
-    const mode = ui.session.mode;
-    bump(r.entry, mode, r.ok, -1);
-    restore(r.entry, r.snap);
-    r.ok = !r.ok;
-    r.flipped = !r.flipped;
-    bump(r.entry, mode, r.ok, 1);
-    applyOutcome(r.entry, r.ok);
-    save();
-  }
-
   function advance() {
     const ss = ui.session;
     ss.idx++;
     if (ss.idx >= ss.items.length) {
-      go('result');
+      endStage();
       return;
     }
     render();
@@ -858,12 +1018,17 @@
       ss.results.push(ss.pending);
       ss.pending = null;
     }
-    if (!ss.results.length) {
+    if (ss.stage >= 0) ss.stageResults[ss.stage] = ss.results;
+    if (!allResults(ss).length) {
       ui.session = null;
       return go('home');
     }
     ss.ended = true;
     go('result');
+  }
+
+  function allResults(ss) {
+    return [].concat(...ss.stageResults.filter(Boolean));
   }
 
   // ================= 渲染：框架 =================
@@ -890,15 +1055,15 @@
     );
   }
 
-  function bookOptionsHtml(selected, mode) {
+  function bookOptionsHtml(selected) {
     const opt = (id, label) => '<option value="' + esc(id) + '"' + (id === selected ? ' selected' : '') + '>' + esc(label) + '</option>';
     const info = (id) => {
       const list = bookEntries(id);
-      return bookName(id) + ' · ' + fmt(list.length) + ' 词 · 已背 ' + fmt(seenCount(list, mode));
+      return bookName(id) + ' · ' + fmt(list.length) + ' 词 · 已背 ' + fmt(seenCount(list));
     };
     let html = '';
     if (FINANCE_WORDS.length) html += '<optgroup label="Finance">' + FINANCE_BOOKS.map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
-    if (EXAM_WORDS.length) html += '<optgroup label="留学考试">' + EXAM_BOOKS.map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
+    if (EXAM_WORDS.length) html += '<optgroup label="考试">' + EXAM_BOOKS.filter((b) => bookExists(b.id)).map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
     const mine = Object.values(state.books).sort((a, b) => a.t - b.t);
     if (mine.length) html += '<optgroup label="我的词表">' + mine.map((b) => opt(b.id, info(b.id))).join('') + '</optgroup>';
     html += '<optgroup label="复习">' + opt(REVIEW_BOOK, '今日复习 · ' + dueEntries().length + ' 词') + opt(WRONG_BOOK, '错题本 · ' + Object.keys(state.wrong).length + ' 词') + '</optgroup>';
@@ -918,15 +1083,7 @@
     const days = streak();
     const d = new Date();
     const week = '日一二三四五六'[d.getDay()];
-    const modes = Object.keys(MODES)
-      .map((k) => {
-        const m = MODES[k];
-        return (
-          '<button class="mode' + (s.mode === k ? ' on' : '') + '" data-act="setMode" data-mode="' + k + '"><span class="key">' + m.key + '</span>' +
-          '<div class="name">' + m.name + '</div><div class="desc">' + m.desc + '</div></button>'
-        );
-      })
-      .join('');
+    const steps = STAGES.map((k, i) => '<div class="mode"><span class="key">' + (i + 1) + '</span><div class="name">' + MODES[k].name + '</div><div class="desc">' + MODES[k].desc + '</div></div>').join('');
     const sizes = [10, 20, 50, 100].map((n) => '<button class="chip' + (s.size === n ? ' on' : '') + '" data-act="setSize" data-size="' + n + '">' + n + '</button>').join('');
     const orders = [
       ['new', '新词优先'],
@@ -943,14 +1100,14 @@
       '<button class="tile" data-act="useReview" title="复习到期的词"><div class="num">' + fmt(due) + '</div><div class="cap">待复习' + (due ? ' →' : '') + '</div></button>' +
       '<div><div class="num">' + fmt(days) + '</div><div class="cap">连续打卡天数</div></div>' +
       '</div>' +
-      '<p class="label">题型</p><div class="modes">' + modes + '</div>' +
-      '<div class="section"><p class="label">词库</p><label class="select"><select data-act="setBook" aria-label="词库">' + bookOptionsHtml(s.book, s.mode) + '</select></label></div>' +
+      '<p class="label">每轮三步 · 同一组词依次过三遍</p><div class="modes">' + steps + '</div>' +
+      '<div class="section"><p class="label">词库</p><label class="select"><select data-act="setBook" aria-label="词库">' + bookOptionsHtml(s.book) + '</select></label></div>' +
       '<div class="section grid2">' +
       '<div><p class="label">每轮词数</p><div class="chips">' + sizes + '</div></div>' +
       '<div><p class="label">取词方式</p><div class="chips">' + orders + '</div></div>' +
       '</div>' +
       '<div class="start-row"><button class="btn" data-act="start">开始 <kbd>Enter</kbd></button>' +
-      '<span class="muted">按 <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> 切换题型</span></div>' +
+      '<span class="muted">' + s.size + ' 个词 × 3 步，共 ' + s.size * 3 + ' 题</span></div>' +
       heatmapHtml() +
       '</main>'
     );
@@ -1011,10 +1168,11 @@
         const fresh = i === ss.results.length - 1 && ss.animRow !== ss.results.length ? ' fresh' : '';
         const yours = r.ok ? '' : r.answer ? '<span class="yours">' + esc(r.answer) + '</span>' : '<span class="yours none">没答</span>';
         return (
-          '<div class="h-row ' + (r.ok ? 'ok' : 'bad') + (r.flipped ? ' flipped' : '') + fresh + '">' +
+          '<div class="h-row ' + (r.ok ? 'ok' : 'bad') + fresh + '">' +
           '<span class="h-no">' + String(i + 1).padStart(2, '0') + '</span>' +
-          '<button class="h-mark" data-act="flip" data-i="' + i + '" title="判错了？点这里改判" aria-label="' + (r.ok ? '答对' : '答错') + '，点击改判">' + (r.ok ? ICON_OK : ICON_BAD) + '</button>' +
-          '<button class="h-word" data-act="speakWord" data-w="' + esc(r.entry.w) + '" title="朗读">' + esc(r.entry.w) + '</button>' +
+          '<span class="h-mark" aria-label="' + (r.ok ? '答对' : '答错') + '">' + (r.ok ? ICON_OK : ICON_BAD) + '</span>' +
+          // 「中 → 英」这一步不出声，答过的词也不能点读
+          (ss.mode === 'zh2en' ? '<span class="h-word">' + esc(r.entry.w) + '</span>' : '<button class="h-word" data-act="speakWord" data-w="' + esc(r.entry.w) + '" title="朗读">' + esc(r.entry.w) + '</button>') +
           '<span class="h-mean" title="' + esc(meaningLines(r.entry.m).join('\n')) + '">' + yours + esc(shortMeaning(r.entry.m)) + '</span>' +
           '</div>'
         );
@@ -1050,38 +1208,80 @@
     }
     return (
       '<div class="feedback">' + body +
-      '<div class="actions"><button class="btn small ghost" data-act="accept">算我对</button><button class="btn small" data-act="next">继续 <kbd>Enter</kbd></button></div>' +
+      '<div class="actions"><button class="btn small" data-act="next">继续 <kbd>Enter</kbd></button></div>' +
       '</div>'
     );
+  }
+
+  // 两步之间的小结
+  function betweenHtml(ss) {
+    const right = ss.results.filter((r) => r.ok).length;
+    const next = MODES[STAGES[nextStageIndex(ss)]];
+    return (
+      '<div class="stage-done">' +
+      '<p class="label">第 ' + (ss.stage + 1) + ' 步完成 · ' + MODES[ss.mode].name + '</p>' +
+      '<div class="stage-score">' + right + '<small> / ' + ss.results.length + '</small></div>' +
+      '<p class="muted">下一步：' + next.name + ' · ' + next.desc + '</p>' +
+      '<div class="actions"><button class="btn" data-act="continueStage">继续 <kbd>Enter</kbd></button></div>' +
+      '</div>'
+    );
+  }
+
+  function stepsHtml(ss) {
+    return STAGES.map((k, i) => '<span class="step' + (i === ss.stage ? ' on' : i < ss.stage ? ' done' : '') + '">' + (i + 1) + ' ' + MODES[k].name + '</span>').join('');
   }
 
   VIEWS.practice = function () {
     const ss = ui.session;
     if (!ss) return VIEWS.home();
     const e = current();
-    const m = MODES[ss.mode];
-    const done = ss.results.length + (ss.pending ? 1 : 0);
-    const pct = (done / ss.items.length) * 100;
+    // 进度条按三步加起来算
+    const counts = STAGES.map((k) => usable(ss.words, k).length);
+    const total = counts.reduce((a, b) => a + b, 0) || 1;
+    const before = counts.slice(0, ss.stage).reduce((a, b) => a + b, 0);
+    const done = before + ss.results.length + (ss.pending ? 1 : 0);
+    const pct = Math.min(100, (done / total) * 100);
     const pend = ss.pending;
-    const isEn = ss.mode !== 'en2zh';
     const copy = needsCopy(ss);
     const placeholder = copy ? '照着打一遍，或直接按 Enter 继续' : ss.mode === 'en2zh' ? '写中文意思' : '拼写英文';
     const anim = ss.animIdx !== ss.idx ? ' anim' : '';
+    let inputs;
+    if (ss.between) inputs = '';
+    else if (ss.mode === 'en2zh') {
+      // 英→中：一行写一个中文意思
+      const n = pend && pend.lines ? pend.lines.length : zhLineCount(e);
+      inputs = '<div class="zh-lines">';
+      for (let i = 0; i < n; i++) {
+        const mk = pend && pend.marks ? pend.marks[i] : undefined;
+        const cls = mk === true ? ' ok' : mk === false ? ' bad' : '';
+        inputs +=
+          '<div class="zl' + cls + '"><span class="zl-mark">' + (mk === true ? ICON_OK : mk === false ? ICON_BAD : '') + '</span>' +
+          '<input class="answer ans" ' + (i === 0 ? 'id="answer" ' : '') + 'data-line="' + i + '" autocomplete="off" spellcheck="false" placeholder="' + (pend ? '' : i === 0 ? '中文意思' : '第 ' + (i + 1) + ' 个意思') + '"' +
+          (pend ? ' readonly value="' + esc(pend.lines[i] || '') + '"' : '') + '></div>';
+      }
+      inputs += '</div>';
+    } else {
+      inputs =
+        '<input id="answer" class="answer en' + (pend && !copy ? ' wrong' : '') + (copy ? ' copy' : '') + '" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="' + placeholder + '"' +
+        (pend && !copy ? ' readonly value="' + esc(pend.answer) + '"' : '') + '>';
+    }
+    const hint =
+      ss.mode === 'en2zh'
+        ? '<div class="hint"><span>一行写一个意思，<kbd>Enter</kbd> 换行</span><span>空行按 <kbd>Enter</kbd> 提交</span><span>写对一半以上算对</span><span><kbd>Tab</kbd> 再听一遍</span><button class="link" data-act="skipKnown" title="以后不再出这个词">已掌握，跳过</button></div>'
+        : '<div class="hint"><span><kbd>Enter</kbd> 提交</span><span>空着按 <kbd>Enter</kbd> = 不会</span>' + (ss.mode === 'listen' ? '<span><kbd>Tab</kbd> 再听一遍</span>' : '') + '<button class="link" data-act="skipKnown" title="以后不再出这个词">已掌握，跳过</button></div>';
     const history = ss.results.length ? historyHtml(ss) : '<div class="h-empty">答过的词会一行一行留在这里</div>';
     return (
       '<main class="practice">' +
-      '<div class="p-top"><span>' + m.name + ' · ' + esc(bookName(ss.bookId)) + '</span>' +
-      '<span class="right"><span>' + (ss.idx + 1) + ' / ' + ss.items.length + '</span><button class="link" data-act="quit">结束 Esc</button></span></div>' +
+      '<div class="p-top"><span class="steps">' + stepsHtml(ss) + '<span class="book">' + esc(bookName(ss.bookId)) + '</span></span>' +
+      '<span class="right"><span>' + (ss.between ? ss.items.length : ss.idx + 1) + ' / ' + ss.items.length + '</span><button class="link" data-act="quit">结束 Esc</button></span></div>' +
       '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
       '<div class="history' + (ss.results.length ? '' : ' empty') + '" id="history">' + history + '</div>' +
-      '<section class="card"><div class="inner' + anim + '">' + promptHtml(ss, e) +
-      '<input id="answer" class="answer' + (isEn ? ' en' : '') + (pend && !copy ? ' wrong' : '') + (copy ? ' copy' : '') + '" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="' + placeholder + '"' +
-      (pend && !copy ? ' readonly value="' + esc(pend.answer) + '"' : '') + '>' +
-      (pend
-        ? feedbackHtml(ss, pend)
-        : '<div class="hint"><span><kbd>Enter</kbd> 提交</span><span>空着按 <kbd>Enter</kbd> = 不会</span><span><kbd>Tab</kbd> 朗读</span><button class="link" data-act="skipKnown" title="以后不再出这个词">已掌握，跳过</button></div>') +
+      (ss.between ? '<section class="card"><div class="inner anim">' + betweenHtml(ss) + '</div></section></main>' : '') +
+      (ss.between ? '' : '<section class="card"><div class="inner' + anim + '">' + promptHtml(ss, e) +
+      inputs +
+      (pend ? feedbackHtml(ss, pend) : hint) +
       '</div></section>' +
-      '</main>'
+      '</main>')
     );
   };
 
@@ -1097,28 +1297,50 @@
     if (input) input.focus();
   };
 
+  // 这一轮里任何一步答错过的词，以及它在三步里各自的对错
+  function wrongWords(ss) {
+    const map = new Map();
+    ss.stageResults.forEach((res, i) => {
+      (res || []).forEach((r) => {
+        const k = keyOf(r.entry.w);
+        if (!map.has(k)) map.set(k, { entry: r.entry, marks: [], bad: false });
+        const x = map.get(k);
+        x.marks[i] = r.ok;
+        if (!r.ok) x.bad = true;
+      });
+    });
+    return [...map.values()].filter((x) => x.bad);
+  }
+
   VIEWS.result = function () {
     const ss = ui.session;
     if (!ss) return VIEWS.home();
-    const total = ss.results.length;
-    const right = ss.results.filter((r) => r.ok).length;
-    const wrong = ss.results.filter((r) => !r.ok);
+    const all = allResults(ss);
+    const total = all.length;
+    const right = all.filter((r) => r.ok).length;
+    const wrong = wrongWords(ss);
+    const stageLine = STAGES.map((k, i) => {
+      const res = ss.stageResults[i];
+      return '<div><div class="num">' + (res && res.length ? res.filter((r) => r.ok).length + '<small> / ' + res.length + '</small>' : '—') + '</div><div class="cap">' + (i + 1) + ' · ' + MODES[k].name + '</div></div>';
+    }).join('');
+    const mark = (v, i) => '<span class="mk" title="' + MODES[STAGES[i]].name + '">' + (v === true ? ICON_OK : v === false ? ICON_BAD : '·') + '</span>';
     const list = wrong.length
-      ? '<div class="section"><p class="label">答错的词 · ' + wrong.length + '</p>' +
+      ? '<div class="section"><div class="head-row"><p class="label">答错过的词 · ' + wrong.length + '</p><span class="muted">右边三个标记依次是 英→中、中→英、听→写</span></div>' +
         wrong
           .map(
-            (r) =>
-              '<div class="list-row"><button class="w" data-act="speakWord" data-w="' + esc(r.entry.w) + '">' + esc(r.entry.w) + (r.entry.p ? '<small>/' + esc(r.entry.p) + '/</small>' : '') + '</button>' +
-              '<span class="m">' + meaningHtml(r.entry.m) + '</span><span class="side">' + (r.answer ? '你写：' + esc(r.answer) : '没答') + '</span></div>'
+            (x) =>
+              '<div class="list-row"><button class="w" data-act="speakWord" data-w="' + esc(x.entry.w) + '">' + esc(x.entry.w) + (x.entry.p ? '<small>/' + esc(x.entry.p) + '/</small>' : '') + '</button>' +
+              '<span class="m">' + meaningHtml(x.entry.m) + '</span><span class="side marks">' + [0, 1, 2].map((i) => mark(x.marks[i], i)).join('') + '</span></div>'
           )
           .join('') +
         '</div>'
       : '<div class="section"><p class="muted">全对，漂亮。</p></div>';
     return (
       '<main class="page">' +
-      '<p class="label">' + (ss.ended ? '提前结束' : '本轮结束') + ' · ' + MODES[ss.mode].name + ' · ' + esc(bookName(ss.bookId)) + '</p>' +
+      '<p class="label">' + (ss.ended ? '提前结束' : '本轮结束') + ' · ' + esc(bookName(ss.bookId)) + '</p>' +
       '<div class="score">' + right + '<small> / ' + total + '</small></div>' +
       '<p class="muted">正确率 ' + (total ? Math.round((right / total) * 100) : 0) + '%</p>' +
+      '<div class="today stage-line">' + stageLine + '</div>' +
       '<div class="actions" style="margin-top:32px">' +
       (wrong.length ? '<button class="btn" data-act="retryWrong">再练错的 ' + wrong.length + ' 个 <kbd>R</kbd></button>' : '') +
       '<button class="btn ' + (wrong.length ? 'ghost' : '') + '" data-act="nextGroup">下一组 <kbd>Enter</kbd></button>' +
@@ -1143,11 +1365,11 @@
     const mine = Object.values(state.books).sort((a, b) => a.t - b.t);
     return (
       '<main class="page">' +
-      '<h1 class="h1">词库</h1><p class="sub">Finance 专业词汇、留学考试词汇，以及你自己导入的词表。</p>' +
+      '<h1 class="h1">词库</h1><p class="sub">Finance 专业词汇、考试词汇，以及你自己导入的词表。</p>' +
       (FINANCE_WORDS.length
         ? '<div class="section"><div class="head-row"><p class="label">Finance · 经济 金融 管理 会计</p></div>' + FINANCE_BOOKS.map((b) => bookRowHtml(b.id)).join('') + '</div>'
         : '') +
-      (EXAM_WORDS.length ? '<div class="section"><div class="head-row"><p class="label">留学考试</p></div>' + EXAM_BOOKS.map((b) => bookRowHtml(b.id)).join('') + '</div>' : '') +
+      (EXAM_WORDS.length ? '<div class="section"><div class="head-row"><p class="label">考试</p></div>' + EXAM_BOOKS.filter((b) => bookExists(b.id)).map((b) => bookRowHtml(b.id)).join('') + '</div>' : '') +
       '<div class="section"><div class="head-row"><p class="label">我的词表</p><button class="btn small" data-act="newImport">＋ 导入新词表</button></div>' +
       (mine.length
         ? mine.map((b) => bookRowHtml(b.id, '<button class="link" data-act="deleteBook" data-id="' + esc(b.id) + '">删除</button>')).join('')
@@ -1302,8 +1524,7 @@
       chipsHtml('voice', [['auto', '真人发音'], ['browser', '电脑语音']]) +
       '<div class="d">真人发音来自有道词典，需要联网；连不上时会自动改用电脑自带的语音。电脑语音不用联网，但效果取决于你的系统。</div>' +
       '<div class="actions" style="margin-top:12px"><button class="btn small ghost" data-act="testVoice">试听</button></div></div></div>' +
-      '<div class="set-row"><div><div class="t">自动朗读</div></div><div>' + chipsHtml('autoSpeak', [[true, '开'], [false, '关']]) +
-      '<div class="d">「英 → 中」出题时读单词，「中 → 英」答完后读单词。「听 → 写」总会朗读。</div></div></div>' +
+      '<div class="set-row"><div><div class="t">读音</div></div><div class="d" style="margin-top:0">「英 → 中」和「听 → 写」出词时自动朗读，按 Tab 再听一遍；「中 → 英」不出声。</div></div>' +
       '<div class="set-row"><div><div class="t">中文意思显示几个</div></div><div>' + chipsHtml('senses', [[1, '1 个'], [2, '2 个'], [3, '3 个'], [5, '5 个']]) +
       '<div class="d">中文意思竖着排，一行一个词语，只显示最常用的几个。判分时仍然参考全部意思，写对任何一个都算对。</div></div></div>' +
       '<div class="set-row"><div><div class="t">拼错后照打一遍</div></div><div>' + chipsHtml('copyWrong', [[true, '开'], [false, '关']]) +
@@ -1311,6 +1532,8 @@
       '<div class="set-row"><div><div class="t">字母个数提示</div></div><div>' + chipsHtml('letterHint', [[true, '显示'], [false, '不显示']]) +
       '<div class="d">拼写题下面显示 _ _ _ _，提示单词有几个字母。</div></div></div>' +
       '<div class="set-row"><div><div class="t">外观</div></div><div>' + chipsHtml('theme', [['auto', '跟随系统'], ['light', '白底'], ['dark', '黑底']]) + '</div></div>' +
+      '<div class="set-row"><div><div class="t">字体粗细</div></div><div>' + chipsHtml('weight', [['light', '细'], ['normal', '标准'], ['bold', '粗']]) +
+      '<div class="d">仿宋本身笔画比较细，觉得看不清就选「粗」。</div></div></div>' +
       '<div class="set-row"><div><div class="t">数据备份</div><div class="d">进度只保存在这台电脑的这个浏览器里。</div></div><div>' +
       '<div class="actions"><button class="btn small" data-act="exportData">导出备份</button>' +
       '<label class="btn small ghost file-pick">导入备份<input type="file" id="backup-file" accept=".json,application/json"></label>' +
@@ -1329,11 +1552,6 @@
       if (ui.view === 'practice') quitSession();
       go(t.dataset.view);
     },
-    setMode(t) {
-      state.settings.mode = t.dataset.mode;
-      save();
-      render();
-    },
     setSize(t) {
       state.settings.size = +t.dataset.size;
       save();
@@ -1349,24 +1567,13 @@
     },
     speakCurrent() {
       const e = current();
-      if (e) speak(e.w);
+      if (e && ui.session.mode !== 'zh2en') speak(e.w);
       const input = document.getElementById('answer');
       if (input) input.focus();
     },
     speakWord(t) {
+      if (ui.view === 'practice' && ui.session && ui.session.mode === 'zh2en') return;
       speak(t.dataset.w);
-    },
-    flip(t) {
-      const r = ui.session.results[+t.dataset.i];
-      if (!r) return;
-      flipResult(r);
-      render();
-    },
-    accept() {
-      const ss = ui.session;
-      if (!ss.pending) return;
-      flipResult(ss.pending);
-      finishPending();
     },
     next() {
       submitAnswer();
@@ -1401,16 +1608,16 @@
     },
     retryWrong() {
       const ss = ui.session;
-      const items = shuffle(ss.results.filter((r) => !r.ok).map((r) => r.entry));
-      if (items.length) startSession(items, ss.mode, ss.bookId);
+      const words = wrongWords(ss).map((x) => x.entry);
+      if (words.length) startSession(shuffle(words), ss.bookId);
     },
     nextGroup() {
       const ss = ui.session;
-      if (ss) {
-        state.settings.mode = ss.mode;
-        state.settings.book = ss.bookId;
-      }
+      if (ss && bookExists(ss.bookId)) state.settings.book = ss.bookId;
       startFromSettings();
+    },
+    continueStage() {
+      continueStage();
     },
     viewBook(t) {
       ui.book = { id: t.dataset.id, q: '', limit: 200 };
@@ -1597,7 +1804,23 @@
     if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
 
     if (ui.view === 'practice') {
-      if (ev.key === 'Enter' && (ev.target.id === 'answer' || !typing)) {
+      if (ui.session && ui.session.between) {
+        if (ev.key === 'Enter') {
+          ev.preventDefault();
+          continueStage();
+        } else if (ev.key === 'Escape') {
+          ev.preventDefault();
+          quitSession();
+        }
+        return;
+      }
+      if (ev.key === 'Enter' && ev.target.classList.contains('ans') && !ui.session.pending) {
+        // 这一行写了字、下面还有行：跳到下一行；空行或最后一行：提交
+        ev.preventDefault();
+        const next = document.querySelector('.ans[data-line="' + (+ev.target.dataset.line + 1) + '"]');
+        if (ev.target.value.trim() && next) next.focus();
+        else submitAnswer();
+      } else if (ev.key === 'Enter' && (ev.target.id === 'answer' || ev.target.classList.contains('ans') || !typing)) {
         ev.preventDefault();
         submitAnswer();
       } else if (ev.key === 'Tab') {
@@ -1611,12 +1834,7 @@
     }
     if (typing) return;
     if (ui.view === 'home') {
-      const mode = Object.keys(MODES).find((k) => MODES[k].key === ev.key);
-      if (mode) {
-        state.settings.mode = mode;
-        save();
-        render();
-      } else if (ev.key === 'Enter') {
+      if (ev.key === 'Enter') {
         ev.preventDefault();
         startFromSettings();
       }
@@ -1633,9 +1851,11 @@
   });
 
   function applyTheme() {
+    const root = document.documentElement;
     const t = state.settings.theme;
-    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
-    else document.documentElement.removeAttribute('data-theme');
+    if (t === 'light' || t === 'dark') root.setAttribute('data-theme', t);
+    else root.removeAttribute('data-theme');
+    root.setAttribute('data-weight', state.settings.weight || 'normal');
   }
 
   // 其他标签页改了数据（比如同时开了两个 Margin），这里跟着更新
@@ -1646,6 +1866,9 @@
       render();
     }
   });
+
+  // 给自动化测试用的入口（只有测试脚本会设置 __MARGIN_TEST）
+  if (window.__MARGIN_TEST) window.__margin = { zhMatch, similarity, judgeZhLines };
 
   applyTheme();
   render();
