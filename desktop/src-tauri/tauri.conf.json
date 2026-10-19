@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Margin",
-  "version": "0.1.1",
+  "productName": "Marginal Vocabulary",
+  "version": "0.1.2",
   "identifier": "io.github.adrian-z-wong.margin",
   "build": {
     "frontendDist": "../www"
@@ -11,7 +11,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "Margin",
+        "title": "Marginal Vocabulary",
         "width": 1100,
         "height": 820,
         "minWidth": 760,

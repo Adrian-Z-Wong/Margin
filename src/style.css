@@ -1,4 +1,4 @@
-/* Margin —— 黑白极简 */
+/* Marginal Vocabulary —— 黑白极简 */
 
 /*
  * 英文一律用 Times New Roman 斜体，中文用仿宋正体。
@@ -758,7 +758,10 @@ textarea.paste:focus { outline: none; border-color: var(--fg); }
 /* ---------- 窄屏 ---------- */
 
 @media (max-width: 640px) {
-  .top { padding: 0 16px; }
+  /* 名字放一行，导航放下一行 */
+  :root { --header-h: 92px; }
+  .top { padding: 0 16px; flex-direction: column; align-items: flex-start; justify-content: center; gap: 12px; }
+  .brand { font-size: 21px; }
   .nav { gap: 14px; }
   .page { padding: 28px 16px 72px; }
   .practice { padding: 0 16px; }

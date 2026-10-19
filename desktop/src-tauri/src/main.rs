@@ -1,4 +1,4 @@
-// Margin 桌面版：用系统自带的网页引擎打开打包好的 Margin.html
+// Marginal Vocabulary 桌面版：用系统自带的网页引擎打开打包好的 Margin.html
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 use std::path::Path;
@@ -21,5 +21,5 @@ fn main() {
     tauri::Builder::default()
         .invoke_handler(tauri::generate_handler![save_to_downloads])
         .run(tauri::generate_context!())
-        .expect("Margin 启动失败");
+        .expect("Marginal Vocabulary 启动失败");
 }

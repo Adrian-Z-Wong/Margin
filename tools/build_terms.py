@@ -1,4 +1,4 @@
-"""把专业词库的表格转换成 Margin 的词库文件：
+"""把专业词库的表格转换成 Marginal Vocabulary 的词库文件：
     data/finance/*.tsv   -> src/finance.js   （Finance）
     data/medicine/*.tsv  -> src/medicine.js  （Medicine）
 

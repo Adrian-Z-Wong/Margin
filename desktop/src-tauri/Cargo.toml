@@ -1,6 +1,6 @@
 [package]
 name = "margin"
-version = "0.1.1"
+version = "0.1.2"
 description = "黑白极简的背单词工具"
 authors = ["Adrian-Z-Wong"]
 license = "MIT"

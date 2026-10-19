@@ -1,6 +1,6 @@
 # 参与贡献
 
-谢谢你愿意帮 Margin 变得更好。
+谢谢你愿意帮 Marginal Vocabulary 变得更好。
 
 ## 词库纠错（最欢迎）
 
